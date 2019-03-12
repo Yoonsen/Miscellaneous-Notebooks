@@ -9,3 +9,4 @@ networkx
 wordcloud
 community
 python-louvain
+PyPDF2
