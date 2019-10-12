@@ -11,6 +11,5 @@ community
 python-louvain
 PyPDF2
 dhlab
-ast
 
 
