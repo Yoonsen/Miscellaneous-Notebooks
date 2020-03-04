@@ -1,0 +1,13 @@
+lxml
+pandas
+matplotlib
+numpy
+requests
+IPython
+seaborn
+scipy
+networkx
+wordcloud
+beautifulsoup4
+dhlab
+
