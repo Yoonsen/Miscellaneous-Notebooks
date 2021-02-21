@@ -19,3 +19,7 @@ hamsun_bibliografi.xls
 Aviser_NB_API/.ipynb_checkpoints/aviser_bokhyllla_api_nye-checkpoint.ipynb
 .ipynb_checkpoints/Untitled8-checkpoint.ipynb
 *.pyc
+ordbank/ordbank.db
+ordbank/ordbank_nno.db
+ordbank/sakspapir_nno_01.json
+sakspapir_nno_01.json
