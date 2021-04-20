@@ -1,0 +1,228 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 800px;
+            height: 800px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+        #loadingBar {
+            position:absolute;
+            top:0px;
+            left:0px;
+            width: 800px;
+            height: 800px;
+            background-color:rgba(200,200,200,0.8);
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            opacity:1;
+        }
+
+        #bar {
+            position:absolute;
+            top:0px;
+            left:0px;
+            width:20px;
+            height:20px;
+            margin:auto auto auto auto;
+            border-radius:11px;
+            border:2px solid rgba(30,30,30,0.05);
+            background: rgb(0, 173, 246); /* Old browsers */
+            box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+        }
+
+        #border {
+            position:absolute;
+            top:10px;
+            left:10px;
+            width:500px;
+            height:23px;
+            margin:auto auto auto auto;
+            box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+            border-radius:10px;
+        }
+
+        #text {
+            position:absolute;
+            top:8px;
+            left:530px;
+            width:30px;
+            height:50px;
+            margin:auto auto auto auto;
+            font-size:22px;
+            color: #000000;
+        }
+
+        div.outerBorder {
+            position:relative;
+            top:400px;
+            width:600px;
+            height:44px;
+            margin:auto auto auto auto;
+            border:8px solid rgba(0,0,0,0.1);
+            background: rgb(252,252,252); /* Old browsers */
+            background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+            background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+            border-radius:72px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+        
+
+        
+        #config {
+            float: left;
+            width: 400px;
+            height: 600px;
+        }
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+<div id="loadingBar">
+    <div class="outerBorder">
+        <div id="text">0%</div>
+        <div id="border">
+            <div id="bar"></div>
+        </div>
+    </div>
+</div>
+
+
+<div id = "config"></div>
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"id": "Abrahamsen", "label": "Abrahamsen", "shape": "dot", "size": 10}, {"id": "Ask", "label": "Ask", "shape": "dot", "size": 10}, {"id": "Wilhelmine", "label": "Wilhelmine", "shape": "dot", "size": 10}, {"id": "entreen", "label": "entreen", "shape": "dot", "size": 10}, {"id": "hybel", "label": "hybel", "shape": "dot", "size": 10}, {"id": "hybelen", "label": "hybelen", "shape": "dot", "size": 10}, {"id": "Constance", "label": "Constance", "shape": "dot", "size": 10}, {"id": "Daniel", "label": "Daniel", "shape": "dot", "size": 10}, {"id": "Daniels", "label": "Daniels", "shape": "dot", "size": 10}, {"id": "Doffen", "label": "Doffen", "shape": "dot", "size": 10}, {"id": "D\u00e9t", "label": "D\u00e9t", "shape": "dot", "size": 10}, {"id": "Efterp\u00e5", "label": "Efterp\u00e5", "shape": "dot", "size": 10}, {"id": "Embla", "label": "Embla", "shape": "dot", "size": 10}, {"id": "Floden", "label": "Floden", "shape": "dot", "size": 10}, {"id": "Gunnhild", "label": "Gunnhild", "shape": "dot", "size": 10}, {"id": "Maia", "label": "Maia", "shape": "dot", "size": 10}, {"id": "Molly", "label": "Molly", "shape": "dot", "size": 10}, {"id": "Seeberg", "label": "Seeberg", "shape": "dot", "size": 10}, {"id": "Sosialistisk", "label": "Sosialistisk", "shape": "dot", "size": 10}, {"id": "Stabell", "label": "Stabell", "shape": "dot", "size": 10}, {"id": "Stallen", "label": "Stallen", "shape": "dot", "size": 10}, {"id": "Taraldsen", "label": "Taraldsen", "shape": "dot", "size": 10}, {"id": "Wolfgang", "label": "Wolfgang", "shape": "dot", "size": 10}, {"id": "andakt", "label": "andakt", "shape": "dot", "size": 10}, {"id": "arrig", "label": "arrig", "shape": "dot", "size": 10}, {"id": "artiklen", "label": "artiklen", "shape": "dot", "size": 10}, {"id": "auditoriet", "label": "auditoriet", "shape": "dot", "size": 10}, {"id": "avsindig", "label": "avsindig", "shape": "dot", "size": 10}, {"id": "barbar", "label": "barbar", "shape": "dot", "size": 10}, {"id": "barmhjertige", "label": "barmhjertige", "shape": "dot", "size": 10}, {"id": "bedrifts\u00f8konomi", "label": "bedrifts\u00f8konomi", "shape": "dot", "size": 10}, {"id": "bedrifts\u00f8konomiske", "label": "bedrifts\u00f8konomiske", "shape": "dot", "size": 10}, {"id": "bjerg", "label": "bjerg", "shape": "dot", "size": 10}, {"id": "blaff", "label": "blaff", "shape": "dot", "size": 10}, {"id": "blasse", "label": "blasse", "shape": "dot", "size": 10}, {"id": "blyg", "label": "blyg", "shape": "dot", "size": 10}, {"id": "bortvendt", "label": "bortvendt", "shape": "dot", "size": 10}, {"id": "buldrende", "label": "buldrende", "shape": "dot", "size": 10}, {"id": "b\u00f8yet", "label": "b\u00f8yet", "shape": "dot", "size": 10}, {"id": "debattant", "label": "debattant", "shape": "dot", "size": 10}, {"id": "debattene", "label": "debattene", "shape": "dot", "size": 10}, {"id": "divan", "label": "divan", "shape": "dot", "size": 10}, {"id": "divanen", "label": "divanen", "shape": "dot", "size": 10}, {"id": "dynen", "label": "dynen", "shape": "dot", "size": 10}, {"id": "d\u00e9t", "label": "d\u00e9t", "shape": "dot", "size": 10}, {"id": "efterp\u00e5", "label": "efterp\u00e5", "shape": "dot", "size": 10}, {"id": "fargetone", "label": "fargetone", "shape": "dot", "size": 10}, {"id": "fiolin", "label": "fiolin", "shape": "dot", "size": 10}, {"id": "fl\u00f8rt", "label": "fl\u00f8rt", "shape": "dot", "size": 10}, {"id": "fnisende", "label": "fnisende", "shape": "dot", "size": 10}, {"id": "forelesningene", "label": "forelesningene", "shape": "dot", "size": 10}, {"id": "forkj\u00f8lt", "label": "forkj\u00f8lt", "shape": "dot", "size": 10}, {"id": "fornemmet", "label": "fornemmet", "shape": "dot", "size": 10}, {"id": "f\u00f8deby", "label": "f\u00f8deby", "shape": "dot", "size": 10}, {"id": "grensel\u00f8st", "label": "grensel\u00f8st", "shape": "dot", "size": 10}, {"id": "grusomste", "label": "grusomste", "shape": "dot", "size": 10}, {"id": "gyste", "label": "gyste", "shape": "dot", "size": 10}, {"id": "hastig", "label": "hastig", "shape": "dot", "size": 10}, {"id": "hastige", "label": "hastige", "shape": "dot", "size": 10}, {"id": "heftigste", "label": "heftigste", "shape": "dot", "size": 10}, {"id": "hemmelighetsfull", "label": "hemmelighetsfull", "shape": "dot", "size": 10}, {"id": "h\u00e5ndtrykk", "label": "h\u00e5ndtrykk", "shape": "dot", "size": 10}, {"id": "h\u00e5rdt", "label": "h\u00e5rdt", "shape": "dot", "size": 10}, {"id": "h\u00f8yskolen", "label": "h\u00f8yskolen", "shape": "dot", "size": 10}, {"id": "ikveld", "label": "ikveld", "shape": "dot", "size": 10}, {"id": "innfatning", "label": "innfatning", "shape": "dot", "size": 10}, {"id": "innvoller", "label": "innvoller", "shape": "dot", "size": 10}, {"id": "klassekameratene", "label": "klassekameratene", "shape": "dot", "size": 10}, {"id": "kl\u00e6dd", "label": "kl\u00e6dd", "shape": "dot", "size": 10}, {"id": "kl\u00e6dte", "label": "kl\u00e6dte", "shape": "dot", "size": 10}, {"id": "kultivert", "label": "kultivert", "shape": "dot", "size": 10}, {"id": "lammende", "label": "lammende", "shape": "dot", "size": 10}, {"id": "lesesalen", "label": "lesesalen", "shape": "dot", "size": 10}, {"id": "likblek", "label": "likblek", "shape": "dot", "size": 10}, {"id": "lodden", "label": "lodden", "shape": "dot", "size": 10}, {"id": "lommet\u00f8rkl\u00e6", "label": "lommet\u00f8rkl\u00e6", "shape": "dot", "size": 10}, {"id": "meteorolog", "label": "meteorolog", "shape": "dot", "size": 10}, {"id": "motorsykkelen", "label": "motorsykkelen", "shape": "dot", "size": 10}, {"id": "m\u00e5nniskorna", "label": "m\u00e5nniskorna", "shape": "dot", "size": 10}, {"id": "nachspiel", "label": "nachspiel", "shape": "dot", "size": 10}, {"id": "n\u00f8ttebrune", "label": "n\u00f8ttebrune", "shape": "dot", "size": 10}, {"id": "opptrukne", "label": "opptrukne", "shape": "dot", "size": 10}, {"id": "overleppe", "label": "overleppe", "shape": "dot", "size": 10}, {"id": "overtalende", "label": "overtalende", "shape": "dot", "size": 10}, {"id": "pikene", "label": "pikene", "shape": "dot", "size": 10}, {"id": "pikenes", "label": "pikenes", "shape": "dot", "size": 10}, {"id": "pils", "label": "pils", "shape": "dot", "size": 10}, {"id": "portieren", "label": "portieren", "shape": "dot", "size": 10}, {"id": "professoren", "label": "professoren", "shape": "dot", "size": 10}, {"id": "professorene", "label": "professorene", "shape": "dot", "size": 10}, {"id": "rektors", "label": "rektors", "shape": "dot", "size": 10}, {"id": "r\u00f8dh\u00e5rete", "label": "r\u00f8dh\u00e5rete", "shape": "dot", "size": 10}, {"id": "sangkor", "label": "sangkor", "shape": "dot", "size": 10}, {"id": "selsom", "label": "selsom", "shape": "dot", "size": 10}, {"id": "sitret", "label": "sitret", "shape": "dot", "size": 10}, {"id": "sjenanse", "label": "sjenanse", "shape": "dot", "size": 10}, {"id": "skjendige", "label": "skjendige", "shape": "dot", "size": 10}, {"id": "skjensel", "label": "skjensel", "shape": "dot", "size": 10}, {"id": "slikker", "label": "slikker", "shape": "dot", "size": 10}, {"id": "smukk", "label": "smukk", "shape": "dot", "size": 10}, {"id": "snadde", "label": "snadde", "shape": "dot", "size": 10}, {"id": "sosialismen", "label": "sosialismen", "shape": "dot", "size": 10}, {"id": "sosialist", "label": "sosialist", "shape": "dot", "size": 10}, {"id": "sosialistene", "label": "sosialistene", "shape": "dot", "size": 10}, {"id": "sosialister", "label": "sosialister", "shape": "dot", "size": 10}, {"id": "sosial\u00f8konomi", "label": "sosial\u00f8konomi", "shape": "dot", "size": 10}, {"id": "svimlet", "label": "svimlet", "shape": "dot", "size": 10}, {"id": "takrennen", "label": "takrennen", "shape": "dot", "size": 10}, {"id": "um\u00e5telige", "label": "um\u00e5telige", "shape": "dot", "size": 10}, {"id": "underarm", "label": "underarm", "shape": "dot", "size": 10}, {"id": "vanmakt", "label": "vanmakt", "shape": "dot", "size": 10}, {"id": "vennens", "label": "vennens", "shape": "dot", "size": 10}, {"id": "videnskapelig", "label": "videnskapelig", "shape": "dot", "size": 10}, {"id": "\u00d8konomiske", "label": "\u00d8konomiske", "shape": "dot", "size": 10}, {"id": "\u00e6rende", "label": "\u00e6rende", "shape": "dot", "size": 10}, {"id": "\u00f8yenlokkene", "label": "\u00f8yenlokkene", "shape": "dot", "size": 10}, {"id": "Barmhjertige", "label": "Barmhjertige", "shape": "dot", "size": 10}, {"id": "s\u00f8teste", "label": "s\u00f8teste", "shape": "dot", "size": 10}, {"id": "laknene", "label": "laknene", "shape": "dot", "size": 10}, {"id": "st\u00f8nnende", "label": "st\u00f8nnende", "shape": "dot", "size": 10}, {"id": "fregnete", "label": "fregnete", "shape": "dot", "size": 10}, {"id": "frykteligste", "label": "frykteligste", "shape": "dot", "size": 10}, {"id": "underliv", "label": "underliv", "shape": "dot", "size": 10}, {"id": "smoking", "label": "smoking", "shape": "dot", "size": 10}, {"id": "swing", "label": "swing", "shape": "dot", "size": 10}, {"id": "treogtyve", "label": "treogtyve", "shape": "dot", "size": 10}, {"id": "fniser", "label": "fniser", "shape": "dot", "size": 10}, {"id": "l\u00f8rdags", "label": "l\u00f8rdags", "shape": "dot", "size": 10}, {"id": "skj\u00f8d", "label": "skj\u00f8d", "shape": "dot", "size": 10}, {"id": "svelger", "label": "svelger", "shape": "dot", "size": 10}, {"id": "kl\u00e6", "label": "kl\u00e6", "shape": "dot", "size": 10}, {"id": "m\u00f8rkhudet", "label": "m\u00f8rkhudet", "shape": "dot", "size": 10}, {"id": "vidunderligste", "label": "vidunderligste", "shape": "dot", "size": 10}, {"id": "Askeladd", "label": "Askeladd", "shape": "dot", "size": 10}, {"id": "Efterhvert", "label": "Efterhvert", "shape": "dot", "size": 10}, {"id": "Haydn", "label": "Haydn", "shape": "dot", "size": 10}, {"id": "Kamerater", "label": "Kamerater", "shape": "dot", "size": 10}, {"id": "barberkniv", "label": "barberkniv", "shape": "dot", "size": 10}, {"id": "biljard", "label": "biljard", "shape": "dot", "size": 10}, {"id": "bilsakkyndige", "label": "bilsakkyndige", "shape": "dot", "size": 10}, {"id": "bitterlig", "label": "bitterlig", "shape": "dot", "size": 10}, {"id": "blygt", "label": "blygt", "shape": "dot", "size": 10}, {"id": "dirrende", "label": "dirrende", "shape": "dot", "size": 10}, {"id": "distr\u00e9", "label": "distr\u00e9", "shape": "dot", "size": 10}, {"id": "d\u00e9n", "label": "d\u00e9n", "shape": "dot", "size": 10}, {"id": "fnis", "label": "fnis", "shape": "dot", "size": 10}, {"id": "forfinet", "label": "forfinet", "shape": "dot", "size": 10}, {"id": "forhandleren", "label": "forhandleren", "shape": "dot", "size": 10}, {"id": "forknytt", "label": "forknytt", "shape": "dot", "size": 10}, {"id": "frikvarteret", "label": "frikvarteret", "shape": "dot", "size": 10}, {"id": "fyllepenn", "label": "fyllepenn", "shape": "dot", "size": 10}, {"id": "gispende", "label": "gispende", "shape": "dot", "size": 10}, {"id": "gisper", "label": "gisper", "shape": "dot", "size": 10}, {"id": "grensel\u00f8s", "label": "grensel\u00f8s", "shape": "dot", "size": 10}, {"id": "gymnasiet", "label": "gymnasiet", "shape": "dot", "size": 10}, {"id": "hamrende", "label": "hamrende", "shape": "dot", "size": 10}, {"id": "kjakene", "label": "kjakene", "shape": "dot", "size": 10}, {"id": "kjever", "label": "kjever", "shape": "dot", "size": 10}, {"id": "kl\u00e6dde", "label": "kl\u00e6dde", "shape": "dot", "size": 10}, {"id": "kontordame", "label": "kontordame", "shape": "dot", "size": 10}, {"id": "kooperativ", "label": "kooperativ", "shape": "dot", "size": 10}, {"id": "langbordet", "label": "langbordet", "shape": "dot", "size": 10}, {"id": "mykhet", "label": "mykhet", "shape": "dot", "size": 10}, {"id": "navnl\u00f8s", "label": "navnl\u00f8s", "shape": "dot", "size": 10}, {"id": "nydelse", "label": "nydelse", "shape": "dot", "size": 10}, {"id": "oppr\u00f8rer", "label": "oppr\u00f8rer", "shape": "dot", "size": 10}, {"id": "pikes", "label": "pikes", "shape": "dot", "size": 10}, {"id": "professorens", "label": "professorens", "shape": "dot", "size": 10}, {"id": "rubin", "label": "rubin", "shape": "dot", "size": 10}, {"id": "sansel\u00f8s", "label": "sansel\u00f8s", "shape": "dot", "size": 10}, {"id": "sitrende", "label": "sitrende", "shape": "dot", "size": 10}, {"id": "skjendig", "label": "skjendig", "shape": "dot", "size": 10}, {"id": "skotte", "label": "skotte", "shape": "dot", "size": 10}, {"id": "snadden", "label": "snadden", "shape": "dot", "size": 10}, {"id": "struttende", "label": "struttende", "shape": "dot", "size": 10}, {"id": "svelge", "label": "svelge", "shape": "dot", "size": 10}, {"id": "vellyst", "label": "vellyst", "shape": "dot", "size": 10}, {"id": "velskapt", "label": "velskapt", "shape": "dot", "size": 10}, {"id": "vesens", "label": "vesens", "shape": "dot", "size": 10}, {"id": "\u00f8lglasset", "label": "\u00f8lglasset", "shape": "dot", "size": 10}, {"id": "Cassel", "label": "Cassel", "shape": "dot", "size": 10}, {"id": "hikstende", "label": "hikstende", "shape": "dot", "size": 10}, {"id": "innside", "label": "innside", "shape": "dot", "size": 10}, {"id": "skj\u00f8det", "label": "skj\u00f8det", "shape": "dot", "size": 10}, {"id": "forsovet", "label": "forsovet", "shape": "dot", "size": 10}, {"id": "hivende", "label": "hivende", "shape": "dot", "size": 10}, {"id": "\u00f8det", "label": "\u00f8det", "shape": "dot", "size": 10}, {"id": "underkjeve", "label": "underkjeve", "shape": "dot", "size": 10}, {"id": "grammofon", "label": "grammofon", "shape": "dot", "size": 10}, {"id": "h\u00e5rsbredd", "label": "h\u00e5rsbredd", "shape": "dot", "size": 10}, {"id": "Mhm", "label": "Mhm", "shape": "dot", "size": 10}, {"id": "Overlat", "label": "Overlat", "shape": "dot", "size": 10}, {"id": "Schopenhauer", "label": "Schopenhauer", "shape": "dot", "size": 10}, {"id": "fryktsom", "label": "fryktsom", "shape": "dot", "size": 10}, {"id": "hikster", "label": "hikster", "shape": "dot", "size": 10}, {"id": "mulden", "label": "mulden", "shape": "dot", "size": 10}, {"id": "h\u00e5nds", "label": "h\u00e5nds", "shape": "dot", "size": 10}, {"id": "sj\u00f8ormen", "label": "sj\u00f8ormen", "shape": "dot", "size": 10}]);
+        edges = new vis.DataSet([{"from": "Abrahamsen", "to": "Ask", "weight": 14.0}, {"from": "Abrahamsen", "to": "Wilhelmine", "weight": 26.0}, {"from": "Abrahamsen", "to": "entreen", "weight": 7.0}, {"from": "Abrahamsen", "to": "hybel", "weight": 11.0}, {"from": "Abrahamsen", "to": "hybelen", "weight": 6.0}, {"from": "Ask", "to": "Constance", "weight": 37.0}, {"from": "Ask", "to": "Daniel", "weight": 163.0}, {"from": "Ask", "to": "Daniels", "weight": 10.0}, {"from": "Ask", "to": "Doffen", "weight": 197.0}, {"from": "Ask", "to": "D\u00e9t", "weight": 5.0}, {"from": "Ask", "to": "Efterp\u00e5", "weight": 11.0}, {"from": "Ask", "to": "Embla", "weight": 26.0}, {"from": "Ask", "to": "Floden", "weight": 61.0}, {"from": "Ask", "to": "Gunnhild", "weight": 6.0}, {"from": "Ask", "to": "Maia", "weight": 41.0}, {"from": "Ask", "to": "Molly", "weight": 33.0}, {"from": "Ask", "to": "Seeberg", "weight": 8.0}, {"from": "Ask", "to": "Sosialistisk", "weight": 18.0}, {"from": "Ask", "to": "Stabell", "weight": 72.0}, {"from": "Ask", "to": "Stallen", "weight": 13.0}, {"from": "Ask", "to": "Taraldsen", "weight": 37.0}, {"from": "Ask", "to": "Wilhelmine", "weight": 25.0}, {"from": "Ask", "to": "Wolfgang", "weight": 114.0}, {"from": "Ask", "to": "andakt", "weight": 6.0}, {"from": "Ask", "to": "arrig", "weight": 12.0}, {"from": "Ask", "to": "artiklen", "weight": 6.0}, {"from": "Ask", "to": "auditoriet", "weight": 6.0}, {"from": "Ask", "to": "avsindig", "weight": 11.0}, {"from": "Ask", "to": "barbar", "weight": 6.0}, {"from": "Ask", "to": "barmhjertige", "weight": 13.0}, {"from": "Ask", "to": "bedrifts\u00f8konomi", "weight": 13.0}, {"from": "Ask", "to": "bedrifts\u00f8konomiske", "weight": 10.0}, {"from": "Ask", "to": "bjerg", "weight": 7.0}, {"from": "Ask", "to": "blaff", "weight": 13.0}, {"from": "Ask", "to": "blasse", "weight": 6.0}, {"from": "Ask", "to": "blyg", "weight": 13.0}, {"from": "Ask", "to": "bortvendt", "weight": 7.0}, {"from": "Ask", "to": "buldrende", "weight": 18.0}, {"from": "Ask", "to": "b\u00f8yet", "weight": 7.0}, {"from": "Ask", "to": "debattant", "weight": 5.0}, {"from": "Ask", "to": "debattene", "weight": 6.0}, {"from": "Ask", "to": "divan", "weight": 13.0}, {"from": "Ask", "to": "divanen", "weight": 13.0}, {"from": "Ask", "to": "dynen", "weight": 9.0}, {"from": "Ask", "to": "d\u00e9t", "weight": 32.0}, {"from": "Ask", "to": "efterp\u00e5", "weight": 39.0}, {"from": "Ask", "to": "entreen", "weight": 21.0}, {"from": "Ask", "to": "fargetone", "weight": 21.0}, {"from": "Ask", "to": "fiolin", "weight": 7.0}, {"from": "Ask", "to": "fl\u00f8rt", "weight": 5.0}, {"from": "Ask", "to": "fnisende", "weight": 10.0}, {"from": "Ask", "to": "forelesningene", "weight": 16.0}, {"from": "Ask", "to": "forkj\u00f8lt", "weight": 24.0}, {"from": "Ask", "to": "fornemmet", "weight": 5.0}, {"from": "Ask", "to": "f\u00f8deby", "weight": 8.0}, {"from": "Ask", "to": "grensel\u00f8st", "weight": 7.0}, {"from": "Ask", "to": "grusomste", "weight": 6.0}, {"from": "Ask", "to": "gyste", "weight": 8.0}, {"from": "Ask", "to": "hastig", "weight": 76.0}, {"from": "Ask", "to": "hastige", "weight": 20.0}, {"from": "Ask", "to": "heftigste", "weight": 5.0}, {"from": "Ask", "to": "hemmelighetsfull", "weight": 9.0}, {"from": "Ask", "to": "hybel", "weight": 19.0}, {"from": "Ask", "to": "hybelen", "weight": 41.0}, {"from": "Ask", "to": "h\u00e5ndtrykk", "weight": 6.0}, {"from": "Ask", "to": "h\u00e5rdt", "weight": 9.0}, {"from": "Ask", "to": "h\u00f8yskolen", "weight": 6.0}, {"from": "Ask", "to": "ikveld", "weight": 5.0}, {"from": "Ask", "to": "innfatning", "weight": 6.0}, {"from": "Ask", "to": "innvoller", "weight": 8.0}, {"from": "Ask", "to": "klassekameratene", "weight": 7.0}, {"from": "Ask", "to": "kl\u00e6dd", "weight": 8.0}, {"from": "Ask", "to": "kl\u00e6dte", "weight": 6.0}, {"from": "Ask", "to": "kultivert", "weight": 8.0}, {"from": "Ask", "to": "lammende", "weight": 7.0}, {"from": "Ask", "to": "lesesalen", "weight": 6.0}, {"from": "Ask", "to": "likblek", "weight": 12.0}, {"from": "Ask", "to": "lodden", "weight": 5.0}, {"from": "Ask", "to": "lommet\u00f8rkl\u00e6", "weight": 6.0}, {"from": "Ask", "to": "meteorolog", "weight": 6.0}, {"from": "Ask", "to": "motorsykkelen", "weight": 18.0}, {"from": "Ask", "to": "m\u00e5nniskorna", "weight": 6.0}, {"from": "Ask", "to": "nachspiel", "weight": 8.0}, {"from": "Ask", "to": "n\u00f8ttebrune", "weight": 8.0}, {"from": "Ask", "to": "opptrukne", "weight": 6.0}, {"from": "Ask", "to": "overleppe", "weight": 8.0}, {"from": "Ask", "to": "overtalende", "weight": 5.0}, {"from": "Ask", "to": "pikene", "weight": 57.0}, {"from": "Ask", "to": "pikenes", "weight": 7.0}, {"from": "Ask", "to": "pils", "weight": 19.0}, {"from": "Ask", "to": "portieren", "weight": 7.0}, {"from": "Ask", "to": "professoren", "weight": 22.0}, {"from": "Ask", "to": "professorene", "weight": 5.0}, {"from": "Ask", "to": "rektors", "weight": 8.0}, {"from": "Ask", "to": "r\u00f8dh\u00e5rete", "weight": 7.0}, {"from": "Ask", "to": "sangkor", "weight": 8.0}, {"from": "Ask", "to": "selsom", "weight": 9.0}, {"from": "Ask", "to": "sitret", "weight": 8.0}, {"from": "Ask", "to": "sjenanse", "weight": 5.0}, {"from": "Ask", "to": "skjendige", "weight": 5.0}, {"from": "Ask", "to": "skjensel", "weight": 15.0}, {"from": "Ask", "to": "slikker", "weight": 6.0}, {"from": "Ask", "to": "smukk", "weight": 7.0}, {"from": "Ask", "to": "snadde", "weight": 6.0}, {"from": "Ask", "to": "sosialismen", "weight": 12.0}, {"from": "Ask", "to": "sosialist", "weight": 35.0}, {"from": "Ask", "to": "sosialistene", "weight": 27.0}, {"from": "Ask", "to": "sosialister", "weight": 17.0}, {"from": "Ask", "to": "sosial\u00f8konomi", "weight": 6.0}, {"from": "Ask", "to": "svimlet", "weight": 5.0}, {"from": "Ask", "to": "takrennen", "weight": 5.0}, {"from": "Ask", "to": "um\u00e5telige", "weight": 11.0}, {"from": "Ask", "to": "underarm", "weight": 11.0}, {"from": "Ask", "to": "vanmakt", "weight": 7.0}, {"from": "Ask", "to": "vennens", "weight": 5.0}, {"from": "Ask", "to": "videnskapelig", "weight": 8.0}, {"from": "Ask", "to": "\u00d8konomiske", "weight": 51.0}, {"from": "Ask", "to": "\u00e6rende", "weight": 14.0}, {"from": "Ask", "to": "\u00f8yenlokkene", "weight": 5.0}, {"from": "Constance", "to": "Barmhjertige", "weight": 5.0}, {"from": "Constance", "to": "Daniel", "weight": 16.0}, {"from": "Constance", "to": "Molly", "weight": 9.0}, {"from": "Constance", "to": "Wilhelmine", "weight": 7.0}, {"from": "Constance", "to": "bjerg", "weight": 6.0}, {"from": "Constance", "to": "blyg", "weight": 10.0}, {"from": "Constance", "to": "efterp\u00e5", "weight": 6.0}, {"from": "Constance", "to": "entreen", "weight": 6.0}, {"from": "Constance", "to": "hastig", "weight": 13.0}, {"from": "Constance", "to": "hybelen", "weight": 6.0}, {"from": "Constance", "to": "h\u00e5ndtrykk", "weight": 5.0}, {"from": "Constance", "to": "s\u00f8teste", "weight": 5.0}, {"from": "Wilhelmine", "to": "Molly", "weight": 8.0}, {"from": "Wilhelmine", "to": "dynen", "weight": 7.0}, {"from": "Wilhelmine", "to": "efterp\u00e5", "weight": 9.0}, {"from": "Wilhelmine", "to": "gyste", "weight": 5.0}, {"from": "Wilhelmine", "to": "hybel", "weight": 6.0}, {"from": "Wilhelmine", "to": "hybelen", "weight": 13.0}, {"from": "Wilhelmine", "to": "laknene", "weight": 7.0}, {"from": "blyg", "to": "Doffen", "weight": 8.0}, {"from": "dynen", "to": "hastig", "weight": 14.0}, {"from": "dynen", "to": "slikker", "weight": 23.0}, {"from": "dynen", "to": "st\u00f8nnende", "weight": 5.0}, {"from": "efterp\u00e5", "to": "Daniel", "weight": 11.0}, {"from": "efterp\u00e5", "to": "d\u00e9t", "weight": 5.0}, {"from": "efterp\u00e5", "to": "hybelen", "weight": 8.0}, {"from": "efterp\u00e5", "to": "pikene", "weight": 15.0}, {"from": "fregnete", "to": "Molly", "weight": 5.0}, {"from": "gyste", "to": "Daniel", "weight": 7.0}, {"from": "hybel", "to": "Daniel", "weight": 17.0}, {"from": "hybel", "to": "Molly", "weight": 5.0}, {"from": "hybelen", "to": "Daniel", "weight": 30.0}, {"from": "hybelen", "to": "Molly", "weight": 10.0}, {"from": "hybelen", "to": "d\u00e9t", "weight": 6.0}, {"from": "hybelen", "to": "hastig", "weight": 5.0}, {"from": "hybelen", "to": "pikene", "weight": 8.0}, {"from": "kultivert", "to": "D\u00e9t", "weight": 5.0}, {"from": "Barmhjertige", "to": "Embla", "weight": 5.0}, {"from": "Daniel", "to": "Daniels", "weight": 22.0}, {"from": "Daniel", "to": "Molly", "weight": 42.0}, {"from": "Daniel", "to": "forkj\u00f8lt", "weight": 14.0}, {"from": "Daniel", "to": "frykteligste", "weight": 10.0}, {"from": "Daniel", "to": "hastig", "weight": 7.0}, {"from": "Daniel", "to": "klassekameratene", "weight": 11.0}, {"from": "Daniel", "to": "pikene", "weight": 21.0}, {"from": "Daniel", "to": "pikenes", "weight": 9.0}, {"from": "Daniel", "to": "pils", "weight": 8.0}, {"from": "Daniel", "to": "underliv", "weight": 5.0}, {"from": "Daniel", "to": "\u00d8konomiske", "weight": 6.0}, {"from": "Doffen", "to": "Maia", "weight": 42.0}, {"from": "Doffen", "to": "Stabell", "weight": 5.0}, {"from": "Doffen", "to": "Wolfgang", "weight": 18.0}, {"from": "Doffen", "to": "arrig", "weight": 9.0}, {"from": "Doffen", "to": "buldrende", "weight": 10.0}, {"from": "Doffen", "to": "hastig", "weight": 7.0}, {"from": "Doffen", "to": "hastige", "weight": 9.0}, {"from": "Doffen", "to": "pils", "weight": 10.0}, {"from": "Doffen", "to": "vennens", "weight": 5.0}, {"from": "D\u00e9t", "to": "smoking", "weight": 6.0}, {"from": "Efterp\u00e5", "to": "Wolfgang", "weight": 10.0}, {"from": "Embla", "to": "Sosialistisk", "weight": 5.0}, {"from": "Embla", "to": "Stallen", "weight": 7.0}, {"from": "Embla", "to": "Wolfgang", "weight": 6.0}, {"from": "Embla", "to": "d\u00e9t", "weight": 7.0}, {"from": "Embla", "to": "hastig", "weight": 10.0}, {"from": "Embla", "to": "skjensel", "weight": 6.0}, {"from": "Embla", "to": "swing", "weight": 6.0}, {"from": "Embla", "to": "treogtyve", "weight": 5.0}, {"from": "Floden", "to": "Wolfgang", "weight": 13.0}, {"from": "Floden", "to": "sosialismen", "weight": 6.0}, {"from": "Floden", "to": "\u00d8konomiske", "weight": 6.0}, {"from": "Maia", "to": "Wolfgang", "weight": 9.0}, {"from": "Molly", "to": "fniser", "weight": 6.0}, {"from": "Molly", "to": "forkj\u00f8lt", "weight": 6.0}, {"from": "Molly", "to": "hastig", "weight": 7.0}, {"from": "Molly", "to": "l\u00f8rdags", "weight": 5.0}, {"from": "Molly", "to": "pikene", "weight": 10.0}, {"from": "Molly", "to": "\u00d8konomiske", "weight": 6.0}, {"from": "Sosialistisk", "to": "Stallen", "weight": 6.0}, {"from": "Sosialistisk", "to": "sosialismen", "weight": 5.0}, {"from": "Sosialistisk", "to": "\u00d8konomiske", "weight": 5.0}, {"from": "Stabell", "to": "Wolfgang", "weight": 22.0}, {"from": "Stabell", "to": "debattant", "weight": 13.0}, {"from": "Stabell", "to": "debattene", "weight": 5.0}, {"from": "Stabell", "to": "hastig", "weight": 5.0}, {"from": "Stabell", "to": "sosialist", "weight": 10.0}, {"from": "Stabell", "to": "sosialistene", "weight": 5.0}, {"from": "Stabell", "to": "sosialister", "weight": 14.0}, {"from": "Stallen", "to": "hastig", "weight": 5.0}, {"from": "Taraldsen", "to": "Wolfgang", "weight": 9.0}, {"from": "Taraldsen", "to": "fargetone", "weight": 9.0}, {"from": "Wolfgang", "to": "hastig", "weight": 12.0}, {"from": "Wolfgang", "to": "\u00e6rende", "weight": 9.0}, {"from": "artiklen", "to": "lesesalen", "weight": 6.0}, {"from": "auditoriet", "to": "professoren", "weight": 5.0}, {"from": "avsindig", "to": "smoking", "weight": 6.0}, {"from": "d\u00e9t", "to": "hastig", "weight": 5.0}, {"from": "d\u00e9t", "to": "skj\u00f8d", "weight": 9.0}, {"from": "d\u00e9t", "to": "smoking", "weight": 7.0}, {"from": "fargetone", "to": "hastig", "weight": 5.0}, {"from": "fargetone", "to": "hastige", "weight": 10.0}, {"from": "fargetone", "to": "\u00f8yenlokkene", "weight": 5.0}, {"from": "hastig", "to": "slikker", "weight": 9.0}, {"from": "hastig", "to": "svelger", "weight": 5.0}, {"from": "hastig", "to": "\u00d8konomiske", "weight": 5.0}, {"from": "kl\u00e6", "to": "smoking", "weight": 6.0}, {"from": "pikene", "to": "l\u00f8rdags", "weight": 6.0}, {"from": "pikene", "to": "pikenes", "weight": 12.0}, {"from": "pikene", "to": "portieren", "weight": 11.0}, {"from": "sosialister", "to": "\u00d8konomiske", "weight": 5.0}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+        // if this network requires displaying the configure window,
+        // put it in its div
+        options.configure["container"] = document.getElementById("config");
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+        network.on("stabilizationProgress", function(params) {
+      		document.getElementById('loadingBar').removeAttribute("style");
+	        var maxWidth = 496;
+	        var minWidth = 20;
+	        var widthFactor = params.iterations/params.total;
+	        var width = Math.max(minWidth,maxWidth * widthFactor);
+
+	        document.getElementById('bar').style.width = width + 'px';
+	        document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+	    });
+	    network.once("stabilizationIterationsDone", function() {
+	        document.getElementById('text').innerHTML = '100%';
+	        document.getElementById('bar').style.width = '496px';
+	        document.getElementById('loadingBar').style.opacity = 0;
+	        // really clean the dom element
+	        setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+	    });
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
