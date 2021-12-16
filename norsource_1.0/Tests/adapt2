@@ -1,0 +1,236 @@
+; "*/dv_3_2_0001.lab"
+; first 135. in the end 4. Steps: eliminating three nouns "de" from large-na,
+; completing ORTH for "de luxe" and some similar ones, which all had just
+; "de" in ORTH, and finally making sure that compound-noun-phrase
+; requires 'DERIVED-HEAD -' of both daughters.
+den nye regjeringen tar form 
+;1 "*/dv_3_2_0002.lab"
+Ola ny finansminister 
+;2 "*/dv_3_2_0003.lab"
+; first 180x7x483 parses. (i.e., nearly 600 000)
+; removed two nouns "gir" from lrg-na (one to "gear"). Killed noun "ny".
+; Killed noun "om". constrained head-prep-comp-phrase, to force zero slash
+; on head prep. removed duplics for "leder" and "skifte". Constrained
+; compound-noun-phr to allow only lexemes as left daughter ("led" occurred
+; as a left daughter, inflected as "leder"); constraining rule for
+; prep-indirwhquestclause, to require filler in subord; constraining
+; ditrans-arg1-2-3 to require np-head only in COMPS (why not there already?)
+; correlative-inv-phrase constrained
+; with "om", down to 51; with "rundt", down to 193
+; It is the split compound that is main cause of proliferation - with deverbal
+; and verbal construals of both "leder" and "skifte", a lot of possibilities
+; are defined. In comparison, `ny bok gir detaljer rundt gutten' requires only
+; 6 parses.
+ny bok gir detaljer rundt lederskiftet 
+;3 "*/dv_3_2_0005.lab"
+Ola med revolusjonerende *proteinprosjekt 
+;4 "*/dv_3_2_0006.lab"
+Ola er med på elgjakt i boligområder 
+;5 "*/dv_3_2_0007.lab"
+denne sendingen blir dominert av regjeringsskiftet i morgen 
+;6 "*/dv_3_2_0008.lab"
+Ola har i hele dag arbeidet intenst for å sette sammen en ny regjering 
+;7 "*/dv_3_2_0009.lab"
+; comma del: Dagsrevyen , tror at Sigbjørn Johnsen går av som finansminister 
+Ola  tror at Ola går av som finansminister 
+;8 "*/dv_3_2_0010.lab"
+Ola tar over denne sentrale posten 
+;9 "*/dv_3_2_0011.lab"
+; comma del: bak *brillene , finner vi landets nye finansminister 
+bak brillene  finner vi landets nye finansminister 
+;10 "*/dv_3_2_0012.lab"
+; split clause
+;bildene er tatt for en måned siden 
+;11 "*/dv_3_2_0013.lab"
+;utenfor kysten av Azerbadjan 
+;10 "*/dv_3_2_0012.lab"
+bildene er tatt for en måned siden utenfor kysten av Finnmark 
+;12 "*/dv_3_2_0016.lab"
+selv står han som Olas nestleder midt oppi regjeringskabalen 
+;13 "*/dv_3_2_0017.lab"
+jeg vil ikke si noe om det 
+;14 "*/dv_3_2_0019.lab"
+vil du fortsette i regjeringen 
+;15 "*/dv_3_2_0021.lab"
+dere får tidsnok vite resultatet 
+;16 "*/dv_3_2_0022.lab"
+;årsaken til at Ola blir finansminister , er at han blir sett på som en garantist for en videreføring av en alt i alt vellykket økonomisk politikk i Norge 
+;;17 "*/dv_3_2_0024.lab"
+;og en liten arbeidsløshet 
+årsaken til at Ola blir finansminister , er at han blir sett på som en garantist for en videreføring av en alt i alt vellykket økonomisk politikk i Norge og en liten arbeidsløshet 
+
+;18 "*/dv_3_2_0025.lab"
+arbeidstakerne har hatt en jevn men sikker inntektsvekst 
+;19 "*/dv_3_2_0026.lab"
+inntektsforskjellene i Norge er blitt høyere 
+;20 "*/dv_3_2_0027.lab"er
+Ola du befinner deg utenfor Pers kontor 
+;21 "*/dv_3_2_0028.lab"
+vet du noe om regjeringsdannelsen 
+;22 "*/dv_3_2_0029.lab"
+;*
+det er ikke snakk om å vite men hva om hva vi tror 
+det er ikke snakk om å vite men om hva vi tror 
+;23 "*/dv_3_2_0033.lab"
+vi vet ikke hvilket departement han skal inn i 
+;24 "*/dv_3_2_0034.lab"
+;Sylvia Brustad leder i sosialkomiteen 
+;25 "*/dv_3_2_0035.lab"
+;er en av de Torbjørn Jagland lytter mest til 
+Ola leder i sosialkomiteen er en av de Per lytter mest til 
+;26 "*/dv_3_2_0036.lab"
+andre aktuelle navn er Ola , og Per 
+;27 "*/dv_3_2_0037.lab"
+de er gift med hverandre 
+;28 "*/dv_3_2_0038.lab"
+det blir bare én av dem som blir statsråd 
+;29 "*/dv_3_2_0040.lab"
+en av de tingene han bekreftet var at flere statsråder kommer til å skifte departement 
+;30 "*/dv_3_2_0041.lab"
+Ola og Per går av 
+;31 "*/dv_3_2_0044.lab"
+; comma delete: Sigbjørn Johnsen går fra , finans departementet og blir parlamentarisk leder 
+Ola går fra finansdepartementet og blir parlamentarisk leder 
+;32 "*/dv_3_2_0045.lab"
+vi håper å få vite mer i løpet av kvelden 
+;33 "*/dv_3_2_0046.lab"
+i ettermiddag hadde Ola møte med ledelsen i partiet 
+;34 "*/dv_3_2_0047.lab"
+;* 
+Ola legger fram sin foreløpig liste til ny regjering 
+Ola legger fram sin foreløpige liste til ny regjering 
+;35 "*/dv_3_2_0048.lab"
+han har hatt tidspress 
+;36 "*/dv_3_2_0049.lab"
+alle venter på Ola 
+;37 "*/dv_3_2_0050.lab"
+alle spekulerer på hvordan regjeringslisten blir seende ut 
+;38 "*/dv_3_2_0051.lab"
+bak døra arbeider Ola 
+;39 "*/dv_3_2_0052.lab"
+det vil han fortsette med utover kvelden 
+;40 "*/dv_3_2_0053.lab"
+i morgen tidlig må listen være klar 
+;41 "*/dv_3_2_0054.lab"
+jeg er kommet ganske langt 
+;42 "*/dv_3_2_0056.lab"
+har du fått inn dette med at du skal ha minimum førti prosent kvinner 
+;43 "*/dv_3_2_0057.lab"
+det er ikke noe problem 
+;44 "*/dv_3_2_0058.lab"
+skal du fortsette som partileder 
+;45 "*/dv_3_2_0061.lab"
+har du snakket med han 
+;46 "*/dv_3_2_0063.lab"
+blir det flere eller færre statsråder 
+;47 "*/dv_3_2_0064.lab"
+jeg tar ikke sikte på å utvide 
+;48 "*/dv_3_2_0065.lab"
+; comma del: Jaglands regjering , legger fram sin *tiltredelseserklæring på fredag 
+Olas regjering legger fram sin tiltredelseserklæring på fredag 
+;49 "*/dv_3_2_0066.lab"
+hva med kirke undervisning 
+;50 "*/dv_3_2_0068.lab"
+beholder du Ola 
+;51 "*/dv_3_2_0069.lab"
+jeg vil ikke svare mer konkret enn det jeg gjorde på første spørsmål 
+;52 "*/dv_3_2_0070.lab"
+Ola drar for å kjøpe seg fjellstøvler 
+;53 "*/dv_3_2_0071.lab"
+en autografjeger får ønsket sitt oppfyllt 
+;54 "*/dv_3_2_0072.lab"
+fra støvlekjøp , tilbake til alvoret 
+;55 "*/dv_3_2_0073.lab"
+jeg er kalt inn til et møte 
+;56 "*/dv_3_2_0074.lab"
+tidligere i dag hadde Olas regjering sitt aller siste forberedende statsråd 
+;57 "*/dv_3_2_0075.lab"
+regner du med å få plass i den nye regjeringen 
+;58 "*/dv_3_2_0077.lab"
+vil du fortsette i regjeringen 
+;59 "*/dv_3_2_0078.lab"
+det har jeg ikke noe kommentar til 
+;60 "*/dv_3_2_0079.lab"
+er du blitt bedt om å fortsette 
+;61 "*/dv_3_2_0080.lab"
+ingen kommentar 
+;62 "*/dv_3_2_0081.lab"
+regjeringen vil få avskjed i morgen 
+;63 "*/dv_3_2_0082.lab"
+det skjer i statsråd på Slottet 
+;64 "*/dv_3_2_0083.lab"
+til slutt kommer statsministeren 
+;65 "*/dv_3_2_0086.lab"
+etter regjeringskonferansen dukker også sjefen selv opp 
+;66 "*/dv_3_2_0087.lab"
+hei 
+;67 "*/dv_3_2_0088.lab"
+han har sortert og pakket i ett døgn 
+;68 "*/dv_3_2_0089.lab"
+kanskje jeg får litt mer tid til å lese 
+;69 "*/dv_3_2_0090.lab"
+det er modig 
+;70 "*/dv_3_2_0091.lab"
+jeg har vært i rikspolitikken i tjuesju år 
+;71 "*/dv_3_2_0092.lab"
+når jeg går ut med vesken i morgen , så blir det en rar følelse 
+;72 "*/dv_3_2_0093.lab"
+;mens enkelte pakker , går andre håpefulle rundt 
+;73 "*/dv_3_2_0094.lab"
+;med en statsråd i magen
+;72 "*/dv_3_2_0093.lab"
+mens enkelte pakker , går andre håpefulle rundt med en statsråd i magen 
+;74 "*/dv_3_2_0095.lab"
+har han fått telefon fra han i dag 
+;75 "*/dv_3_2_0097.lab"
+hvor jobber du i morgen ettermiddag 
+;76 "*/dv_3_2_0098.lab"
+antakeligvis det samme som i dag 
+;77 "*/dv_3_2_0100.lab"
+nei 
+;78 "*/dv_3_2_0101.lab"
+ikke som skulle påvirke det 
+;79 "*/dv_3_2_0102.lab"
+nå skal vi inn på kontoret og vente litt til 
+;80 "*/dv_3_2_0103.lab"
+ja 
+;81 "*/dv_3_2_0104.lab"
+inne i Stortinget går det meste på tomgang 
+;82 "*/dv_3_2_0105.lab"
+den eneste folkeansamlingen er utenfor kontoret til Ola 
+;83 "*/dv_3_2_0106.lab"
+folk flest er ikke så opptatt av hvem Ola velger 
+;84 "*/dv_3_2_0108.lab"
+er det en bra mann ja 
+;85 "*/dv_3_2_0109.lab"
+han Ola 
+;86 "*/dv_3_2_0110.lab"
+Ola inn i AP regjering 
+;87 "*/dv_3_2_0111.lab"
+det må være en AP politiker 
+;88 "*/dv_3_2_0112.lab"
+da er det vanskelig 
+;89 "*/dv_3_2_0113.lab"
+kan jeg ikke heller si hvem jeg vil fjerne 
+;90 "*/dv_3_2_0114.lab"
+Ola , det er den første mannen 
+;91 "*/dv_3_2_0115.lab"
+han har glemt hele Østlandet 
+;92 "*/dv_3_2_0116.lab"
+jeg vil ha Ola tilbake 
+;93 "*/dv_3_2_0117.lab"
+jeg vet ikke 
+jeg aner ikke 
+;94 "*/dv_3_2_0118.lab"
+det kommer vel inn en del nordlendinger 
+;95 "*/dv_3_2_0119.lab"
+Ola 
+;96 "*/dv_3_2_0120.lab"
+ja 
+;97 "*/dv_3_2_0121.lab"
+i AP regjering 
+;98 "*/dv_3_2_0122.lab"
+ja 
+;99 "*/dv_3_2_0123.lab"
+han hadde skammet seg der 
+;100 "*/dv_3_2_0124.lab"

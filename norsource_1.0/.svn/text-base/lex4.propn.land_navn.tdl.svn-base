@@ -1,0 +1,834 @@
+abkhasia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Abkhasia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Abkhasia" ].
+
+afghanistan_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Afghanistan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Afghanistan" ].
+
+albania_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Albania" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Albania" ].
+
+algerie_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Algerie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Algerie" ].
+
+andorra_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Andorra" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Andorra" ].
+
+angola_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Angola" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Angola" ].
+
+antigua_og_barbuda_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Antigua", "og", "Barbuda">,
+    SYNSEM.LKEYS.KEYREL.CARG "Antigua_og_Barbuda" ].
+
+argentina_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Argentina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Argentina" ].
+
+armenia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Armenia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Armenia" ].
+
+aserbajdsjan_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Aserbajdsjan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Aserbajdsjan" ].
+
+australia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Australia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Australia" ].
+
+bahamas_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bahamas" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bahamas" ].
+
+bahrain_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bahrain" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bahrain" ].
+
+;; found in lexicon  lex4.propn2
+;;bangladesh_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Bangladesh" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Bangladesh" ].
+
+barbados_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Barbados" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Barbados" ].
+
+belgia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Belgia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Belgia" ].
+
+belize_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Belize" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Belize" ].
+
+benin_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Benin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Benin" ].
+
+bhutan_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bhutan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bhutan" ].
+
+bolivia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bolivia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bolivia" ].
+
+bosnia-hercegovina_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bosnia-Hercegovina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bosnia-Hercegovina" ].
+
+botswana_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Botswana" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Botswana" ].
+
+;; found in lexicon  lex4.propn2
+;;brasil_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Brasil" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Brasil" ].
+
+brunei_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Brunei" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Brunei" ].
+
+bulgaria_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bulgaria" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bulgaria" ].
+
+burkina_faso_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Burkina", "Faso">,
+    SYNSEM.LKEYS.KEYREL.CARG "Burkina_Faso" ].
+
+burma_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Burma" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Burma" ].
+
+burundi_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Burundi" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Burundi" ].
+
+canada_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Canada" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Canada" ].
+
+chile_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Chile" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Chile" ].
+
+colombia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Colombia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Colombia" ].
+
+costa_rica_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Costa", "Rica">,
+    SYNSEM.LKEYS.KEYREL.CARG "Costa_Rica" ].
+
+cuba_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Cuba" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Cuba" ].
+
+;; found in lexicon  lex4.propn2
+;;danmark_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Danmark" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Danmark" ].
+
+de_forente_arabiske_emirater_propername := neutsg-inan-proper-name-word &
+  [ STEM <"De", "forente", "arabiske", "emirater">,
+    SYNSEM.LKEYS.KEYREL.CARG "De_forente_arabiske_emirater" ].
+
+den_demokratiske_republikken_kongo_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Den", "demokratiske", "republikken", "Kongo">,
+    SYNSEM.LKEYS.KEYREL.CARG "Den_demokratiske_republikken_Kongo" ].
+
+den_dominikanske_republikk_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Den", "dominikanske", "republikk">,
+    SYNSEM.LKEYS.KEYREL.CARG "Den_dominikanske_republikk" ].
+
+den_sentralafrikanske_republikk_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Den", "sentralafrikanske", "republikk">,
+    SYNSEM.LKEYS.KEYREL.CARG "Den_sentralafrikanske_republikk" ].
+
+djibouti_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Djibouti" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Djibouti" ].
+
+dominica_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Dominica" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Dominica" ].
+
+ecuador_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ecuador" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ecuador" ].
+
+egypt_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Egypt" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Egypt" ].
+
+ekvatorial-guinea_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ekvatorial-Guinea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ekvatorial-Guinea" ].
+
+el_salvador_propername := neutsg-inan-proper-name-word &
+  [ STEM <"El", "Salvador">,
+    SYNSEM.LKEYS.KEYREL.CARG "El_Salvador" ].
+
+elfenbenskysten_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Elfenbenskysten" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Elfenbenskysten" ].
+
+eritrea_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Eritrea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eritrea" ].
+
+estland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Estland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Estland" ].
+
+etiopia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Etiopia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Etiopia" ].
+
+fiji_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Fiji" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fiji" ].
+
+filippinene_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Filippinene" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Filippinene" ].
+
+finland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Finland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Finland" ].
+
+folkerepublikken_kina_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Folkerepublikken", "Kina">,
+    SYNSEM.LKEYS.KEYREL.CARG "Folkerepublikken_Kina" ].
+
+frankrike_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Frankrike" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Frankrike" ].
+
+færøyene_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Færøyene" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Færøyene" ].
+
+gabon_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Gabon" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gabon" ].
+
+gambia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Gambia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gambia" ].
+
+georgia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Georgia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Georgia" ].
+
+;; found in lexicon  lex4.propn2
+;;ghana_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Ghana" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Ghana" ].
+
+grenada_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Grenada" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Grenada" ].
+
+grønland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Grønland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Grønland" ].
+
+guatemala_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Guatemala" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Guatemala" ].
+
+guinea_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Guinea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Guinea" ].
+
+guinea-bissau_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Guinea-Bissau" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Guinea-Bissau" ].
+
+guyana_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Guyana" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Guyana" ].
+
+haiti_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Haiti" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Haiti" ].
+
+hellas_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hellas" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hellas" ].
+
+honduras_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Honduras" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Honduras" ].
+
+hviterussland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hviterussland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hviterussland" ].
+
+india_propername := neutsg-inan-proper-name-word &
+  [ STEM < "India" >,
+    SYNSEM.LKEYS.KEYREL.CARG "India" ].
+
+indonesia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Indonesia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Indonesia" ].
+
+irak_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Irak" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Irak" ].
+
+iran_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Iran" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Iran" ].
+
+irland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Irland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Irland" ].
+
+island_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Island" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Island" ].
+
+israel_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Israel" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Israel" ].
+
+;; found in lexicon  lex4.propn2
+;;italia_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Italia" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Italia" ].
+
+jamaica_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Jamaica" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Jamaica" ].
+
+japan_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Japan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Japan" ].
+
+jemen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Jemen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Jemen" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+jordan_land_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Jordan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Jordan" ].
+
+kambodsja_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kambodsja" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kambodsja" ].
+
+kamerun_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kamerun" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kamerun" ].
+
+kapp_verde_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Kapp", "Verde">,
+    SYNSEM.LKEYS.KEYREL.CARG "Kapp_Verde" ].
+
+kasakhstan_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kasakhstan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kasakhstan" ].
+
+kenya_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kenya" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kenya" ].
+
+;; found in lexicon  lex4.propn2
+;;kina_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Kina" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Kina" ].
+
+kirgisistan_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kirgisistan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kirgisistan" ].
+
+kiribati_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kiribati" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kiribati" ].
+
+komorene_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Komorene" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Komorene" ].
+
+kongo_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kongo" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kongo" ].
+
+kosovo_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kosovo" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kosovo" ].
+
+kroatia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kroatia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kroatia" ].
+
+kuwait_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kuwait" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kuwait" ].
+
+kypros_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kypros" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kypros" ].
+
+laos_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Laos" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Laos" ].
+
+latvia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Latvia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Latvia" ].
+
+lesotho_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lesotho" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lesotho" ].
+
+libanon_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Libanon" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Libanon" ].
+
+liberia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Liberia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Liberia" ].
+
+libya_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Libya" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Libya" ].
+
+liechtenstein_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Liechtenstein" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Liechtenstein" ].
+
+litauen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Litauen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Litauen" ].
+
+luxembourg_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Luxembourg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Luxembourg" ].
+
+madagaskar_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Madagaskar" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Madagaskar" ].
+
+makedonia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Makedonia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Makedonia" ].
+
+malawi_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Malawi" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Malawi" ].
+
+malaysia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Malaysia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Malaysia" ].
+
+maldivene_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Maldivene" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Maldivene" ].
+
+;; name problem found in lexicon  lex4.propn.jentenavn
+mali_land_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Mali" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mali" ].
+
+malta_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Malta" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Malta" ].
+
+marokko_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Marokko" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Marokko" ].
+
+marshalløyene_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Marshalløyene" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Marshalløyene" ].
+
+mauritania_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Mauritania" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mauritania" ].
+
+mauritius_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Mauritius" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mauritius" ].
+
+;; found in lexicon  lex4.propn2
+;;mexico_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Mexico" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Mexico" ].
+
+mikronesiaføderasjonen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Mikronesiaføderasjonen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mikronesiaføderasjonen" ].
+
+moldova_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Moldova" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Moldova" ].
+
+monaco_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Monaco" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Monaco" ].
+
+mongolia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Mongolia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mongolia" ].
+
+montenegro_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Montenegro" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Montenegro" ].
+
+mosambik_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Mosambik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mosambik" ].
+
+myanmar_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Myanmar" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Myanmar" ].
+
+namibia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Namibia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Namibia" ].
+
+nauru_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nauru" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nauru" ].
+
+nederland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nederland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nederland" ].
+
+nepal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nepal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nepal" ].
+
+new_zealand_propername := neutsg-inan-proper-name-word &
+  [ STEM <"New", "Zealand">,
+    SYNSEM.LKEYS.KEYREL.CARG "New_Zealand" ].
+
+nicaragua_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nicaragua" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nicaragua" ].
+
+niger_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Niger" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Niger" ].
+
+nigeria_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nigeria" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nigeria" ].
+
+nord-korea_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nord-Korea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nord-Korea" ].
+
+nord-kypros_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nord-Kypros" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nord-Kypros" ].
+
+;; found in lexicon  lex4.propn1
+;;norge_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Norge" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Norge" ].
+
+oman_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Oman" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Oman" ].
+
+pakistan_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Pakistan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Pakistan" ].
+
+palau_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Palau" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Palau" ].
+
+panama_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Panama" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Panama" ].
+
+papua_ny-guinea_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Papua", "Ny-Guinea">,
+    SYNSEM.LKEYS.KEYREL.CARG "Papua_Ny-Guinea" ].
+
+paraguay_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Paraguay" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Paraguay" ].
+
+peru_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Peru" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Peru" ].
+
+polen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Polen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Polen" ].
+
+portugal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Portugal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Portugal" ].
+
+qatar_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Qatar" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Qatar" ].
+
+republikken_kongo_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Republikken", "Kongo">,
+    SYNSEM.LKEYS.KEYREL.CARG "Republikken_Kongo" ].
+
+romania_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Romania" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Romania" ].
+
+russland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Russland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Russland" ].
+
+rwanda_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Rwanda" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rwanda" ].
+
+saint_kitts_og_nevis_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Saint", "Kitts", "og", "Nevis">,
+    SYNSEM.LKEYS.KEYREL.CARG "Saint_Kitts_og_Nevis" ].
+
+saint_lucia_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Saint", "Lucia">,
+    SYNSEM.LKEYS.KEYREL.CARG "Saint_Lucia" ].
+
+saint_vincent_og_grenadinene_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Saint", "Vincent", "og", "Grenadinene">,
+    SYNSEM.LKEYS.KEYREL.CARG "Saint_Vincent_og_Grenadinene" ].
+
+salomonøyene_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Salomonøyene" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Salomonøyene" ].
+
+samoa_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Samoa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Samoa" ].
+
+san_marino_propername := neutsg-inan-proper-name-word &
+  [ STEM <"San", "Marino">,
+    SYNSEM.LKEYS.KEYREL.CARG "San_Marino" ].
+
+são_tomé_og_príncipe_propername := neutsg-inan-proper-name-word &
+  [ STEM <"São", "Tomé", "og", "Príncipe">,
+    SYNSEM.LKEYS.KEYREL.CARG "São_Tomé_og_Príncipe" ].
+
+saudi-arabia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Saudi-Arabia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Saudi-Arabia" ].
+
+senegal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Senegal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Senegal" ].
+
+serbia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Serbia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Serbia" ].
+
+seychellene_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Seychellene" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Seychellene" ].
+
+sierra_leone_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Sierra", "Leone">,
+    SYNSEM.LKEYS.KEYREL.CARG "Sierra_Leone" ].
+
+singapore_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Singapore" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Singapore" ].
+
+slovakia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Slovakia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Slovakia" ].
+
+slovenia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Slovenia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Slovenia" ].
+
+somalia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Somalia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Somalia" ].
+
+;; found in lexicon  lex4.propn2
+;;spania_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Spania" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Spania" ].
+
+sri_lanka_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Sri", "Lanka">,
+    SYNSEM.LKEYS.KEYREL.CARG "Sri_Lanka" ].
+
+storbritannia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Storbritannia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Storbritannia" ].
+
+sudan_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sudan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sudan" ].
+
+surinam_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Surinam" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Surinam" ].
+
+sveits_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sveits" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sveits" ].
+
+;; found in lexicon  lex4.propn2
+;;sverige_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Sverige" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Sverige" ].
+
+swaziland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Swaziland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Swaziland" ].
+
+syria_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Syria" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Syria" ].
+
+sør-afrika_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sør-Afrika" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sør-Afrika" ].
+
+sør-korea_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sør-Korea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sør-Korea" ].
+
+sør-ossetia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sør-Ossetia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sør-Ossetia" ].
+
+sør-sudan_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sør-Sudan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sør-Sudan" ].
+
+tadsjikistan_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tadsjikistan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tadsjikistan" ].
+
+taiwan_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Taiwan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Taiwan" ].
+
+tanzania_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tanzania" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tanzania" ].
+
+thailand_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Thailand" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Thailand" ].
+
+togo_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Togo" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Togo" ].
+
+tonga_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tonga" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tonga" ].
+
+transnistria_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Transnistria" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Transnistria" ].
+
+trinidad_og_tobago_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Trinidad", "og", "Tobago">,
+    SYNSEM.LKEYS.KEYREL.CARG "Trinidad_og_Tobago" ].
+
+tsjad_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tsjad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tsjad" ].
+
+tsjekkia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tsjekkia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tsjekkia" ].
+
+tunisia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tunisia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tunisia" ].
+
+turkmenistan_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Turkmenistan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Turkmenistan" ].
+
+tuvalu_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tuvalu" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tuvalu" ].
+
+tyrkia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tyrkia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tyrkia" ].
+
+;; found in lexicon  lex4.propn2
+;;tyskland_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Tyskland" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Tyskland" ].
+
+uganda_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Uganda" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Uganda" ].
+
+ukraina_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ukraina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ukraina" ].
+
+ungarn_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ungarn" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ungarn" ].
+
+uruguay_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Uruguay" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Uruguay" ].
+
+;; found in lexicon  lex4.propn2
+;;usa_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "USA" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "USA" ].
+
+usbekistan_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Usbekistan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Usbekistan" ].
+
+vanuatu_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vanuatu" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vanuatu" ].
+
+vatikanstaten_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vatikanstaten" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vatikanstaten" ].
+
+venezuela_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Venezuela" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Venezuela" ].
+
+vietnam_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vietnam" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vietnam" ].
+
+zambia_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Zambia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Zambia" ].
+
+zimbabwe_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Zimbabwe" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Zimbabwe" ].
+
+østerrike_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Østerrike" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Østerrike" ].
+
+øst-timor_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Øst-Timor" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Øst-Timor" ].
+

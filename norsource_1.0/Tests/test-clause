@@ -1,0 +1,349 @@
+;;; -*- Coding: utf-8; -*-
+
+;; CLAUSE LEVEL
+
+; placement of adverbials:
+gutten sover ikke
+; the boy sleeps not
+gutten sover ved myra
+; the boy sleeps by the swamp
+gutten har ikke sovet
+; the boy has not slept
+gutten har bak myra sovet
+; the boy has behind the swamp slept
+ved myra har gutten sovet
+; by the swamp has the boy slept
+gutten har sovet ved myra
+; the boy has slept by the swamp
+;*
+gutten har sovet ikke
+; the boy has slept not
+jeg vet at gutten ikke sover
+; I know that the boy not sleeps
+jeg vet at gutten ved myra har sovet
+; I know that the boy by the swamp has slept
+;*
+jeg vet at ved myra gutten har sovet
+; I know that by the swamp the boy has slept
+jeg vet at gutten har sovet ved myra
+; I know that the boy has slept by the swamp 
+
+; question constructions:
+har gutten sovet?
+; has the boy slept
+har ikke gutten sovet?
+; has not the boy slept
+har gutten sovet ved myra?
+; has the boy slept by the swamp
+hva har gutten spist?
+; what has the boy eaten
+eplet har gutten spist
+; the apple has the boy eaten
+hvilket eple har gutten spist?
+; which apple has the boy eaten
+;; som: som-resumpt-word; head-resumptsubject-interr-rule
+;; hvem: interrog-pron-word; head-subjfiller-subord-wh-rule
+;; vet: trans-indirwhquest-verb-lexeme; head-indirwhquest-comp-rule
+jeg vet hvem som sover
+; I know who that sleeps
+; 'I know who sleeps'
+jeg vet hvem som har spist eplet
+; I know who that has eaten the apple
+; 'I know who has eaten the apple'
+jeg vet hvem har spist eplet
+; I know who has eaten the apple
+jeg vet hvilket eple gutten spiser
+; I know which apple the boy eats
+jeg vet hvem sitt eple gutten spiser
+; I know who POSS.MASGSG apple.MASGSG the boy eats
+; 'I know whose apple the boy is eating'
+jeg vet hva hvem har spist
+; I know what who has eaten
+jeg vet hvem som har spist hva
+; I know who that has eaten what
+
+; relative constructions:
+jeg ser gutten som spiser eplet
+; I see the boy who eats the apple
+jeg ser eplet gutten spiser
+; I see the apple the boy eats
+jeg ser eplet som gutten spiser
+; I see the apple which the boy eats
+jeg ser eplet gutten ikke spiser
+; I see the apple the boy not eats
+; 'I see the apple which the boy is not eating'
+jeg ser eplet som gutten ikke spiser
+; I see the apple which the boy not eats
+; 'I see the apple which the boy is not eating'
+gutten som ligger sover
+; the boy who lies sleeps
+gutten som ligger, sover
+gutten, som ligger, sover
+gutten, som ligger sover
+
+; 'light' pronoun placement:
+jeg ser ham ikke
+; I see him not
+jeg ser ikke ham
+; I see not him
+han setter seg ikke
+; he sets REFL not
+;*
+han setter ikke seg
+; he sets not REFL 
+han unner meg den ikke
+; "unne" has no English translation. Using "give" instead:
+unner han meg den ikke?
+; gives he me it not?
+unner han meg ikke den?
+; gives he me not it?
+unner gutten henne den ikke?
+; gives the boy her it not
+
+; s-passive:
+ballen kastes
+; the ball is-thrown
+ballen kastes til Ola
+; the ball is-thrown to Ola
+det kastes en ball
+; there is-thrown a ball
+det kastes en ball til Ola
+; there is-thrown a ball to Ola
+jeg overlates en ball
+; I am-given a ball
+en ball overlates meg ikke
+; a ball is-given me not
+det overlates Ola en ball
+; there is-given Ola a ball  
+Ola stoles på
+; Ola is-relied on
+det stoles på Ola
+; there is-relied on Ola
+
+; periphrastic passive:
+ballen blir kastet
+; the ball is thrown
+ballen blir kastet til Ola
+; the ball is thrown to Ola
+det blir kastet en ball
+; there is thrown a ball
+det blir kastet en ball til Ola
+; there is thrown a ball to Ola
+Ola blir overlatt en ball
+; Ola is given a ball
+en ball blir overlatt Ola
+; a ball is given Ola
+det blir overlatt Ola en ball
+; there is given Ola a ball
+Ola blir stolt på
+; Ola is relied on
+det blir stolt på Ola
+; there is relied on Ola
+
+; Complex passive
+Ola fryktes drept
+; Ola is-feared killed
+Ola fryktes forsøkt drept
+; Ola is-feared been-attempted killed
+; 'it is feared that someone has attempted to kill Ola'
+Ola blir fryktet forsøkt drept
+; Ola is-feared been-attempted killed
+Ola blir fryktet forsøkes drept
+;*
+; Ola is-feared been-attempted killed
+Ola antas forutsatt forsøkt drept
+; Ola is-assumed been-presupposed been-attempted killed
+Ola fryktes ankommet
+; Ola is-feared arrived
+Ola fryktes overlatt pistolen
+; Ola is-feared been-given the pistol
+
+; tough movement:
+;Ola er hyggelig å snakke med
+; Ola is nice to talk with
+maten er hyggelig å spise
+; the food is nice to eat
+;*
+maten er hyggelige å spise
+; the food.SG is nice-PL to eat
+guttene er hyggelige å se
+; the boy-DEF.PL are nice-PL to see
+
+; apposition:
+gutten Ola sover
+; the boy Ola sleeps
+elven den gule elv renner
+; the river the yellow river floats
+elven en elv renner
+; the river a river floats
+en gutt Ola sover
+; a boy Ola sleeps
+gutten, Ola, sover
+elven, den gule elv, renner
+elven, en elv, renner
+en gutt, Ola, sover
+
+; nominalmodification of VP
+jeg rusler søndag
+; I stroll Sunday
+; 'I stroll on Sunday'
+;*
+jeg rusler gutten
+; I stroll the boy
+
+Ola ligger for å sove
+; Ola lies in order to sleep
+Ola ligger uten å sove
+; Ola lies without to sleep
+
+; free predicatives:
+Ola løper glad
+; Ola runs happy
+Ola spiser fisken levende
+; Ola eats the fish alive
+
+; conditionals
+sover Ola kommer Per
+; sleeps Ola comes Per
+; 'if Ola sleeps, then Per comes'
+sover Ola, kommer Per
+hvis han sover kommer Per
+; if he sleeps comes Per
+hvis han sover, kommer Per
+
+; coordination
+;*
+Ola Per Kari kommer
+; Ola Per Kari come
+Ola Per og Kari kommer
+; Ola Per and Kari come
+Ola og Per og Kari kommer
+; Ola and Per and Kari come
+Ola, og Per, og Kari kommer
+; Ola, and Per, and Kari come
+Ola, og Per, og Kari, kommer
+Ola, Per, Kari kommer
+Ola, Per, Kari, kommer
+Ola, Per og Kari kommer
+Ola, Per, og Kari kommer
+Ola, Per, og Kari, kommer
+
+en gul, gammel mann sover
+; a yellow, old man sleeps
+en gul og gammel mann sover
+; a yellow and old man sleeps
+en gul, og  gammel mann sover
+en gul, og  gammel, mann sover
+
+Ola ligger, går og rusler
+; Ola lies, walks and strolls
+Ola ligger går og rusler
+;*
+Ola ligger går rusler
+Ola ligger og går og rusler
+Ola går hit og dit
+; Ola goes here and there
+Ola går hit, og dit
+Ola går hit, dit, til fjellet
+; Ola goes here, there, to the mountain
+Ola går hit, dit, og til fjellet
+; Ola goes here, there, and to the mountain
+
+; punctuations
+går Ola hit?
+; goes Ola to-here
+går Ola hit.
+går Ola hit!
+Ola går hit.
+Ola går hit?
+Ola går hit!
+gå.
+gå?
+gå!
+hvis han kommer, gå
+; if he comes, go
+hvis han kommer, gå.
+hvis han kommer, gå!
+hvis han kommer gå!
+hvis han kommer gå
+hvis han kommer gå.
+
+; reflexives
+;*
+Ola fortærer seg
+; Ola devours REFL
+Ola fortærer seg selv
+; Ola devours REFL self
+Ola fortærer seg selv selv
+; Ola devours REFL self self
+Ola vasker seg selv
+; Ola washes REFL self
+Ola vasker seg 
+; Ola washes REFL
+jeg vasker meg 
+; I wash REFL/me
+Ola skammer seg
+; Ola shames REFL
+; 'Ola is ashamed'
+
+jeg skammer meg
+; I shame REFL.1p
+
+;*
+jeg fortærer meg
+; I devour REFL.1p 
+jeg fortærer meg selv
+; I devour REFL.1p self
+Ola ber meg fortære seg
+; Ola asks me [to] devour REFL
+Ola ber meg fortære seg selv
+; Ola asks me [to] devour REFL self
+Ola ser meg fortære seg
+; Ola sees me devour REFL 
+Ola fortærer maten sin
+; Ola devours food-DEF-MASCSG POSS.REFL.MASCSG
+; Ola devours his food
+Ola gir gutten sin maten sin
+; Ola gives boy-DEF.MASCSG POSS.REFL.MASCSG food-DEF.MASCSG POSS.REFL.MASCSG
+; 'Ola gives his food to his boy'
+Ola gir gutten sin maten sin i huset sitt
+; Ola gives boy-DEF.MASCSG POSS.REFL.MASCSG food-DEF.MASCSG POSS.REFL.MASCSG in house-DEF.NEUTSG POSS.REFL.NEUTSG
+; 'Ola gives his food to his boy in his house'
+Ola kaster ballen sin mot huset sitt
+; Ola throws ball-DEF.MASCSG POSS.REFL.MASCSG towards house-DEF.NEUTSG POSS.REFL.NEUTSG
+; 'Ola throws his ball towards his house'
+Ola gir en bok om seg til naboen sin
+; Ola gives a book about REFL to neighbor-DEF.MASCSG POSS.REFL.MASCSG
+; 'Ola gives a book about himself to his neighbor'
+Ola gir seg selv ballen sin
+; Ola gives REFL self ball-DEF.MASCSG POSS.REFL.MASCSG
+; 'Ola gives himself his ball'
+Ola gir seg selv seg selv
+; Ola gives REFL self REFL self
+; 'Ola gives himself himself'
+Ola gir sin gutt sitt fjell og sitt hus
+; Ola gives boy-DEF.MASCSG POSS.REFL.MASCSG mountain-DEF.NEUTSG POSS.REFL.NEUTSG and house-DEF.NEUTSG POSS.REFL.NEUTSG
+; 'Ola gives his boy his mountain and his house'
+;*
+Ola vet at jeg liker seg
+; Ola.3p knows that I like REFL.3p
+jeg ber Ola vaske seg
+; I ask Ola.3p [to] wash SELF.3p
+jeg ser Ola vaske seg
+; I see Ola.3p wash SELF.3p
+
+; numerical expressions
+Ola løper femten hundre på tre trettifem
+; Ola runs fifteen hundred in three thirty-five
+Ola løper femten hundre meter på tre trettifem
+; Ola runs fifteen hundred meters on three thirty-five
+Ola løp femten hundre meter på tre trettifem torsdag klokka tre førtifem
+; Ola ran fifteen hundred meters on three thirty-five Thursday clock three
+; 'Ola ran 1500 meters on three thirty-five on Thursday at three thirty-five'
+
+ja jeg sover
+; yes I sleep
+ja, jeg sover
+
+
+

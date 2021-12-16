@@ -1,0 +1,784 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource -
+;;; 
+;;;    Copyright (c)  NorSource version 0.3
+;;;                       2004-2006 
+;;;
+;;;    Lars Hellan, Dorothee Beermann, Ben Waldron
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    <norsource@hf.ntnu.no>
+;;;
+
+;;;    lex2.semlab.tdl
+;;;
+;;; This file activates semantically rather specific types from
+;;; Predsort.tdl and norsk.tdl, and is only intended for 
+;;; experimentations in the semantic domain
+
+peke_pointing := arrow-pointing-verb-lexeme &
+  [ STEM < "peke" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_peke_v_rel"].
+ligge_posture := posture-verb-lexeme  &
+  [ STEM < "ligge" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_ligge_v_rel" ].
+gå_of-a-road := road-going-verb-lexeme  &
+  [ STEM < "gå" >,
+    INFLECTION finstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_gå_v_rel" ].
+gå_of-a-tour := tour-going-verb-lexeme  &
+  [ STEM < "gå" >,
+    INFLECTION finstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_gå_v_rel" ].
+gå_locom := locomotion-verb-lexeme  &
+  [ STEM < "gå" >,
+    INFLECTION finstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_gå_v_rel" ].
+
+springe_locom := init-locomotion-verb-lexeme  &
+  [ STEM < "springe" >,
+    INFLECTION nonfstr,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT activity,
+    SYNSEM.LKEYS.KEYREL.PRED "_springe_v_rel" ].
+
+rette_directing-arrow := directing-arrow-verb-lexeme  &
+  [ STEM < "rette" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_rette_v_rel" ].
+tegne_directing-line := directing-line-verb-lexeme  &
+  [ STEM < "tegne" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_tegne_v_rel" ].
+legge_directing-tour := directing-tour-verb-lexeme  &
+  [ STEM < "legge" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_legge_v_rel" ].
+;kaste_ejct := ejecting-verb-lexeme  &
+;  [ STEM < "kaste" >,
+;    INFLECTION nonfstr,
+;    SYNSEM.LKEYS.KEYREL.PRED "_kaste_v_rel" ].
+følge_follow-line := line-follow-line-verb-lexeme  &
+  [ STEM < "følge" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_følge_v_rel" ].
+krysse_cross-line := line-crossing-line-verb-lexeme  &
+  [ STEM < "krysse" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_krysse_v_rel" ].
+følge_begleiten := begleiten-verb-lexeme  &
+  [ STEM < "følge" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_følge_v_rel" ].
+ledsage_begleiten := begleiten-verb-lexeme  &
+  [ STEM < "ledsage" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_ledsage_v_rel" ].
+krysse_cross-locom := crossing-locomotors-verb-lexeme  &
+  [ STEM < "krysse" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_krysse_v_rel" ].
+
+; slightly different vintage
+slenge_ejection := ejection-verb-lexeme &
+ [ INFLECTION nonfstr,
+   STEM < "slenge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_slenge_v_rel" ].
+
+
+skrike_init := init-verb-lexeme  &
+  [ STEM < "skrike" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_skrike_v_rel" ].
+
+; here also aktionsart-diff between intr and trans monodeveloper:
+drikke_init-und := init-und-verb-lexeme  &
+  [ STEM < "drikke" >,
+    INFLECTION nonfstr,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT accomplishment,
+    SYNSEM.LKEYS.KEYREL.PRED "_drikke_v_rel" ].
+drikke_init := init-verb-lexeme  &
+  [ STEM < "drikke" >,
+    INFLECTION nonfstr,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT activity,
+    SYNSEM.LKEYS.KEYREL.PRED "_drikke_v_rel" ].
+
+hjelpe_init-dat := init-dat-verb-lexeme  &
+  [ STEM < "hjelpe" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_hjelpe_v_rel" ].
+overlate_init-und-dat := init-und-dat-verb-lexeme  &
+  [ STEM < "overlate" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_overlate_v_rel" ].
+smelte_und := und-verb-lexeme  &
+  [ STEM < "smelte" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_smelte_v_rel" ].
+behage_und-dat := und-dat-verb-lexeme  &
+  [ STEM < "behage" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_behage_v_rel" ].
+fryse_dat := dat-verb-lexeme  &
+  [ STEM < "fryse" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_fryse_v_rel" ].
+verke_dat := dat-verb-lexeme  &
+  [ STEM < "verke" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_verke_v_rel" ].
+
+
+spasere_init-locom := init-locomotion-verb-lexeme  &
+  [ STEM < "spasere" >,
+    INFLECTION nonfstr,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT activity,
+    SYNSEM.LKEYS.KEYREL.PRED "_spasere_v_rel" ].
+
+flyte_init-locom := locomotion-verb-lexeme  &
+  [ STEM < "flyte" >,
+    INFLECTION nonfstr,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT activity,
+    SYNSEM.LKEYS.KEYREL.PRED "_flyte_v_rel" ].
+
+
+;;; PREPOSITIONS
+
+; copied to lex1.close
+;av_relation := rel-prep-word &
+;  [ STEM < "av" > ].
+
+av_und := und-rel-prep-word &
+  [ STEM < "av" > ].
+
+av_init := init-rel-prep-word &
+  [ STEM < "av" > ].
+
+ved_perform := perform-rel-prep-word &
+  [ STEM < "ved" > ].
+
+
+; relational nouns
+#|
+arm_bodyprt := masc-bodypart-noun-lxm &
+  [ STEM < "arm" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_arm_n_rel"].
+
+mage_bodyprt := masc-bodypart-noun-lxm &
+  [ STEM < "mage" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mage_n_rel"].
+
+hode_bodyprt := neut-bodypart-noun-lxm &
+  [ INFLECTION infl_n,
+    STEM < "hode" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hode_n_rel"].
+
+
+venn_relat := masc-relation-noun-lxm &
+  [ STEM < "venn" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_venn_n_rel"].
+|#
+
+spising_init-und-relat := masc-init-und-relation-noun-lxm &
+  [ STEM < "spising" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_spising_n_rel"].
+
+
+innspilning_init-und-relat := masc-init-und-relation-noun-lxm &
+  [ STEM < "innspilning" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_innspilning_n_rel"].
+
+symfoni_init-und-relat := masc-init-und-relation-noun-lxm &
+ [ STEM < "symfoni" >,
+   SYNSEM.LKEYS.KEYREL.PRED "symfoni-rel" ].
+
+orkester_reg := neut-noun-lxm &
+ [ STEM < "orkester" >,
+   SYNSEM.LKEYS.KEYREL.PRED "orkester-rel" ].
+
+skrik_init-relat := neut-init-relation-noun-lxm &
+  [ INFLECTION infl_nshort,
+    STEM < "skrik" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_skrik_n_rel"].
+
+fall_und-relat := neut-und-relation-noun-lxm &
+  [ INFLECTION infl_nshort,
+    STEM < "fall" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fall_n_rel"].
+
+fornedrelse_und-relat := masc-und-relation-noun-lxm &
+  [ STEM < "fornedrelse" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fornedrelse_n_rel"].
+
+;;;;;;;;;;;;;;;;;;
+regne_ := v-intrImpers  &
+  [ STEM < "regne" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_regne_v_rel" ].
+klarne_ := v-intrImpersPrtcl-PHENOM_TELIC  &
+  [ STEM < "klarne" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_klarne_v_rel" ].
+kvekke_ := v-intrImpersObl-semelfactive  &
+  [ STEM < "kvekke" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_kvekke_v_rel" ].
+sprekke_ := v-intrImpersObl-semelfactive  &
+  [ STEM < "sprekke" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_sprekke_v_rel" ].
+synge_ := v-intrImpersObl-activity  &
+  [ STEM < "synge" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_synge_v_rel" ].
+springe_intr-suDirPres := v-intrPresnt-suOrientedobj  &
+  [ STEM < "springe" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_springe_v_rel" ].
+rulle_intr-suDirPres := v-intrPresnt-suOrientedobj  &
+  [ STEM < "rulle" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_rulle_v_rel" ].
+sitte_ := v-intrPresntLoc  &
+  [ STEM < "sitte" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_sitte_v_rel" ].
+vente_ := v-trPresnt  &
+  [ STEM < "vente" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_vente_v_rel" ].
+tilkomme_ := v-trPresnt  &
+  [ STEM < "tilkomme" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_tilkomme_v_rel" ].
+hoppe_act := v-intr-ag-ACTIVITY  &
+  [ STEM < "hoppe" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_hoppe_v_rel" ].
+hoppe_smlf := v-intr-ag-SEMELFACTIVE  &
+  [ STEM < "hoppe" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_hoppe_v_rel" ].
+
+
+vare_intrPrtclSustact := v-intrPrtcl-th-SUSTAINEDACTIVITY  &
+  [ STEM < "vare" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LOCAL.KEY-SPEC ved-pcl,
+    SYNSEM.LKEYS.KEYREL.PRED "_vare_v_rel" ].
+holde_intrPrtclSustact := v-intrPrtcl-ag-SUSTAINEDACTIVITY  &
+  [ STEM < "holde" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LOCAL.KEY-SPEC på-pcl,
+    SYNSEM.LKEYS.KEYREL.PRED "_holde_v_rel" ].
+drive_intrPrtclSustact := v-intrPrtcl-ag-SUSTAINEDACTIVITY  &
+  [ STEM < "drive" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LOCAL.KEY-SPEC på-pcl,
+    SYNSEM.LKEYS.KEYREL.PRED "_drive_v_rel" ].
+stoppe_intrPrtclComplact := v-intrPrtcl-ag-COMPLETEDACTIVITY  &
+  [ STEM < "stoppe" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LOCAL.KEY-SPEC opp-pcl,
+    SYNSEM.LKEYS.KEYREL.PRED "_stoppe_v_rel" ].
+holde_intrPrtclComplact := v-intrPrtcl-th-COMPLETEDACTIVITY  &
+  [ STEM < "holde" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LOCAL.KEY-SPEC opp-pcl,
+    SYNSEM.LKEYS.KEYREL.PRED "_holde_v_rel" ].
+slutte_intrPrtclComplact := v-intrPrtcl-ag-COMPLETEDACTIVITY  &
+  [ STEM < "slutte" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LOCAL.KEY-SPEC av-pcl,
+    SYNSEM.LKEYS.KEYREL.PRED "_slutte_v_rel" ].
+
+lytte_intrSens := v-intr-agsens-sensing_protr  &
+  [ STEM < "lytte" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_lytte_v_rel" ].
+oppfatte_intrSens := v-intr-agsens-sensing_semel  &
+  [ STEM < "oppfatte" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_oppfatte_v_rel" ].
+
+løpe_intr-suDir := v-intr-suDir-agmover-MOTION  &
+  [ STEM < "løpe" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_løpe_v_rel" ].
+springe_intr-suDir := v-intr-suDir-agmover-MOTION  &
+  [ STEM < "springe" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_springe_v_rel" ].
+rulle_intr-suDir := v-intr-suDir-thmover-MOTION  &
+  [ STEM < "rulle" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_rulle_v_rel" ].
+
+peke_intr-suDirPuror := v-intr-suDir-pureorientation  &
+  [ STEM < "peke" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_peke_v_rel" ].
+gå_intr-suDirPathcnstl := v-intr-suDir-pathconstellation  &
+  [ STEM < "gå" >,
+    INFLECTION  finstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_gå_v_rel" ].
+gå_intr-suDirLocdev := v-intr-suDir-locomodevelopment  &
+  [ STEM < "gå" >,
+    INFLECTION  finstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_gå_v_rel" ]. 
+smelte_intrProcess := v-intr-th-PROCESS  &
+  [ STEM < "smelte" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_smelte_v_rel" ].
+fryse_intrExp := v-intr-exp-experiencing_protr  &
+  [ STEM < "fryse" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_fryse_v_rel" ].
+
+hende_intrSuDECL := v-intr-suDECL-thsit &
+ [ INFLECTION nonfstr,
+   STEM < "hende" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hende_v_rel" ] ].
+bero_intrSuYN := v-intr-suYN-thsit &
+ [ INFLECTION finstr,
+   STEM < "bero" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bero_v_rel" ] ].
+bero_intrSuWH := v-intr-suWH-thsit &
+ [ INFLECTION finstr,
+   STEM < "bero" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bero_v_rel" ] ].
+stinke_intrSuAbsinf := v-intr-suAbsinf-thsit &
+ [ INFLECTION nonfstr,
+   STEM < "stinke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_stinke_v_rel" ] ].
+
+snakke_intrOblN := v-intrObl-ag_topicObl-ABOUTNESS_ACTIVITY &
+ [ INFLECTION nonfstr,
+   STEM < "snakke" >,
+   SYNSEM.LOCAL.KEY-SPEC om-k,
+   SYNSEM [ LKEYS.KEYREL.PRED "_snakke_v_rel" ] ].
+
+snakke_intrOblDecl := v-intrObl-oblDECL-ag_topicObl-ABOUTNESS_ACTIVITY &
+ [ INFLECTION nonfstr,
+   STEM < "snakke" >,
+   SYNSEM.LOCAL.KEY-SPEC om-k,
+   SYNSEM [ LKEYS.KEYREL.PRED "_snakke_v_rel" ] ].
+
+snakke_intrOblAbsinf := v-intrObl-oblAbsinf-ag_topicObl-ABOUTNESS_ACTIVITY &
+ [ INFLECTION nonfstr,
+   STEM < "snakke" >,
+   SYNSEM.LOCAL.KEY-SPEC om-k,
+   SYNSEM [ LKEYS.KEYREL.PRED "_snakke_v_rel" ] ].
+
+lure_intrOblYN := v-intrObl-oblYN-ag_topicObl-PROPOSITIONALATTITUDE_ACTIVITY &
+ [ INFLECTION nonfstr,
+   STEM < "snakke" >,
+   SYNSEM.LOCAL.KEY-SPEC på-k,
+   SYNSEM [ LKEYS.KEYREL.PRED "_snakke_v_rel" ] ].
+
+lure_intrOblWH := v-intrObl-oblWH-ag_topicObl-PROPOSITIONALATTITUDE_ACTIVITY &
+ [ INFLECTION nonfstr,
+   STEM < "snakke" >,
+   SYNSEM.LOCAL.KEY-SPEC på-k,
+   SYNSEM [ LKEYS.KEYREL.PRED "_snakke_v_rel" ] ].
+
+håpe_intrOblInfequi := v-intrObl-oblEqSuInf-ag_topicObl-PROPOSITIONALATTITUDE_ACTIVITY &
+ [ INFLECTION nonfstr,
+   STEM < "håpe" >,
+   SYNSEM.LOCAL.KEY-SPEC på-k,
+   SYNSEM [ LKEYS.KEYREL.PRED "_håpe_v_rel" ] ].
+
+drive_intrOblEq := v-intrObl-oblEqSuInf-ag_topicObl-HABITACTIVITY  &
+  [ STEM < "drive" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LOCAL.KEY-SPEC med-k,
+    SYNSEM.LKEYS.KEYREL.PRED "_drive_v_rel" ].
+drive_intrPrtclOblEq := v-intrPrtclObl-oblEqSuInf-ag_topicObl-SUSTAINEDACTIVITY  &
+  [ STEM < "drive" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LOCAL.KEY-SPEC med-k,
+    SYNSEM.LOCAL.ALT-SPEC på-pcl,
+    SYNSEM.LKEYS.KEYREL.PRED "_drive_v_rel" ].
+
+late_intrOblRais := v-intrOblRais-suNrg_oblRaisInf &
+  [ STEM < "late" >,
+    INFLECTION nonfstr,
+    SYNSEM [LKEYS.KEYREL.PRED "_late_v_rel",
+            LOCAL.CAT.QVAL.OBL1.LOCAL.CAT [HEAD.KEYS.KEY til-rais,
+                                             QVAL.DOBJECT.LOCAL.CAT.HEAD glob-comp]]].
+
+se_ut-til-å := v-intrPrtclOblRais-suNrg_oblRaisInf-thSitObl-EXHIBACT &
+  [ STEM < "se" >,
+    INFLECTION finstr-tt,
+    SYNSEM [LKEYS.KEYREL.PRED "_se_v_rel"],
+    SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY ut-pcl ]] >, 
+    SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.HEAD [KEYS.KEY til-rais ]]>].
+
+bo_intr-locobl := v-intrObl-ag_locObl-LOCATION &
+ [ INFLECTION finstr-dd,
+   STEM < "bo" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bo_v_rel" ].
+
+ligge_intr-locobl := v-intrObl-th_locObl-LOCATION &
+ [ INFLECTION nonfstr,
+   STEM < "ligge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ligge_v_rel" ].
+
+; -exp_locObl  - does not match
+fryse_introblPRTOFsubjExp := v-intrObl-oblPRTOFsubj-EXPERIENCING  &
+  [ STEM < "fryse" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_fryse_v_rel" ].
+
+;,
+;    SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.HEAD [KEYS.KEY på-atelop ]]>
+spise_atelobl-på := v-intrObl-ag_affincremObl-NONCOMPLETED_MONODEVMNT &
+  [ STEM < "spise" >,
+    INFLECTION nonfstr,
+    SYNSEM.LOCAL.KEY-SPEC på-k,
+    SYNSEM [LKEYS.KEYREL [ PRED "_spise_v_rel" ] ] ].
+
+; ,
+;    SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.HEAD [KEYS.KEY av-atelop ]]>
+spise_atelobl-av := v-intrObl-ag_affincremObl-NONCOMPLETED_MONODEVMNT &
+  [ STEM < "spise" >,
+    INFLECTION nonfstr,
+    SYNSEM.LOCAL.KEY-SPEC av-k,
+    SYNSEM [LKEYS.KEYREL [ PRED "_spise_v_rel" ] ] ].
+
+lese_atelobl-i := v-intrObl-ag_thincremObl-NONCOMPLETED_MONODEVMNT &
+  [ STEM < "lese" >,
+    INFLECTION nonfstr,
+    SYNSEM.LOCAL.KEY-SPEC i-k,
+    SYNSEM [LKEYS.KEYREL [ PRED "_lese_v_rel" ] ] ].
+
+røre_intrOblActvd := v-intrObl-ag_activatedObl-ACTIVATION &
+  [ STEM < "røre" >,
+    INFLECTION nonfstr,
+    SYNSEM.LOCAL.KEY-SPEC på-k,
+    SYNSEM [LKEYS.KEYREL [ PRED "_røre_v_rel" ] ] ].
+
+lee_intrOblActvd := v-intrObl-oblRefl-activatedObl-ACTIVATION &
+  [ STEM < "lee" >,
+    INFLECTION nonfstr,
+    SYNSEM.LOCAL.KEY-SPEC på-k,
+    SYNSEM [LKEYS.KEYREL [ PRED "_lee_v_rel" ] ] ].
+
+lee_intr-obl-på := v-intrObl-ag_activatedObl-ACTIVATION &
+ [ INFLECTION nonfstr,
+   STEM < "lee" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lee_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+fungere_intr-obladv := v-intrAdv-th-PROPTY &
+  [ INFLECTION nonfstr,
+    STEM < "fungere" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fungere_v_rel" ].
+
+kle_intr-ppshift-impl := v-intrImplicobjObl &
+  [ STEM < "kle" >,
+    INFLECTION finstr-dd,
+    SYNSEM.LOCAL.KEY-SPEC på-k,
+    SYNSEM.LKEYS.KEYREL.PRED "_kle_v_rel" ].
+
+kle_intr-ppshift-refl-impl := v-intrImplicobjObl-oblRefl &
+  [ STEM < "kle" >,
+    INFLECTION finstr-dd,
+    SYNSEM.LOCAL.KEY-SPEC på-k,
+    SYNSEM.LKEYS.KEYREL.PRED "_kle_v_rel" ].
+
+søle_intr-ppshift-impl := v-intrImplicobjObl &
+  [ STEM < "søle" >,
+    INFLECTION nonfstr,
+    SYNSEM.LOCAL.KEY-SPEC på-k,
+    SYNSEM.LKEYS.KEYREL.PRED "_søle_v_rel" ].
+
+søle_intr-ppshift-refl-impl := v-intrImplicobjObl-oblRefl &
+  [ STEM < "søle" >,
+    INFLECTION nonfstr,
+    SYNSEM.LOCAL.KEY-SPEC på-k,
+    SYNSEM.LKEYS.KEYREL.PRED "_søle_v_rel" ].
+
+;renne_intrResult := v-intrResultSecprSubjraisAdj-subjNonarg &
+;  [ STEM < "renne" >,
+;    INFLECTION nonfstr,
+;    SYNSEM.LKEYS.KEYREL.PRED "_renne_v_rel" ].
+
+;v-intrScpr-scCse_suNrg_scAdj
+renne_intrCseSunrg := v-intrScpr-scSuNrgCsd_scAdj &
+  [ STEM < "renne" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_renne_v_rel" ].
+
+;koke_intrResult := v-intrResultSecprSubjraisAdj-subjNonarg &
+;  [ STEM < "koke" >,
+;    INFLECTION nonfstr,
+;    SYNSEM.LKEYS.KEYREL.PRED "_koke_v_rel" ].
+
+;v-intrScpr-scCse_suNrg_scAdj
+koke_intrCseSunrg := v-intrScpr-scSuNrgCsd_scAdj &
+  [ STEM < "koke" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_koke_v_rel" ].
+
+snø_intrCseSunrg := v-intrScpr-scSuNrgCsd_scAdv &
+  [ STEM < "snø" >,
+    INFLECTION finstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_snø_v_rel" ].
+
+;koke_intrCse := v-intrCseSecprSubjbinAdv &
+;  [ STEM < "koke" >,
+;    INFLECTION nonfstr,
+;    SYNSEM.LKEYS.KEYREL.PRED "_koke_v_rel" ].
+
+;v-intrScpr-scCse_scAdv
+;kaffen koker bort
+koke_intrCse := v-intrScpr-scSuArgCsd_scAdv &
+  [ STEM < "koke" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_koke_v_rel" ].
+
+; "skinken henger mør"
+;henge_intrCse := v-intrCseSecprSubjbinAdv &
+;  [ STEM < "henge" >,
+;    INFLECTION nonfstr,
+;    SYNSEM.LKEYS.KEYREL.PRED "_henge_v_rel" ].
+
+;v-intrScpr-scCse_scAdj
+; "skinken henger mør"
+henge_intrCse := v-intrScpr-scSuArgCsd_scAdj &
+  [ STEM < "henge" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_henge_v_rel" ].
+
+;stå_concurr := v-intrConcurrSecprSubjbinAdj &
+;  [ STEM < "stå" >,
+;    INFLECTION finstr,
+;    SYNSEM.LKEYS.KEYREL.PRED "_stå_v_rel" ].
+
+stå_intrLghtScpr := v-intrLghtScpr-scAdj &
+  [ STEM < "stå" >,
+    INFLECTION finstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_stå_v_rel" ].
+
+;virke_intrCse := v-intrScprSubjraisAdj-subjNonarg &
+;  [ STEM < "virke" >,
+;    INFLECTION nonfstr,
+;    SYNSEM.LKEYS.KEYREL.PRED "_virke_v_rel" ].
+
+;v-intrScpr-suNrg_scAdj
+virke_intrScpr := v-intrScpr-scSuNrg_scAdj &
+  [ STEM < "virke" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_virke_v_rel" ].
+
+;v-intrScpr-suNrg_scInf
+synes_å-rais := v-intrScpr-scSuNrg_scInf &
+  [ STEM < "synes" >,
+    INFLECTION nonfstr,
+    SYNSEM [LKEYS.KEYREL.PRED "_synes_v_rel"]].
+
+
+hende_intr-epon := v-intrEpon-eponDECL &
+  [ STEM < "hende" >,
+    INFLECTION nonfstr,
+    SYNSEM [LKEYS.KEYREL.PRED "_hende_v_rel"]].
+
+høre_intr-epon := v-intrPrtclEpon-eponDECL &
+  [ STEM < "høre" >,
+    INFLECTION nonfstr,
+    SYNSEM [LOCAL.KEY-SPEC med-pcl,
+	    LKEYS.KEYREL.PRED "_høre_v_rel"]].
+
+spørs_epon-yn := v-intrEpon-eponYN &
+  [ STEM < "spørs" >,
+    SYNSEM [LKEYS.KEYREL.PRED "_spørs_v_rel"]].
+
+spørs_epon-wh := v-intrEpon-eponWH &
+  [ STEM < "spørs" >,
+    SYNSEM [LKEYS.KEYREL.PRED "_spørs_v_rel"]].
+
+hjelpe_intr-epon-absinf := v-intrEpon-eponAbsinf &
+  [ STEM < "hjelpe" >,
+    INFLECTION nonfstr,
+    SYNSEM [LKEYS.KEYREL.PRED "_hjelpe_v_rel"]].
+
+;_OblEponDECL
+haste_intr-epon-DECL := v-intrOblEpon-oblEponDECL &
+  [ STEM < "haste" >,
+    INFLECTION nonfstr,
+    SYNSEM [LOCAL.KEY-SPEC med-k,
+	    LKEYS.KEYREL.PRED "_haste_v_rel"]].
+
+haste_intr-epon-absinf := v-intrOblEpon-OblEponAbsinf &
+  [ STEM < "haste" >,
+    INFLECTION nonfstr,
+    SYNSEM [LOCAL.KEY-SPEC med-k,
+	    LKEYS.KEYREL.PRED "_haste_v_rel"]].
+
+late_intrOblEpon := v-intrOblEpon-oblEponDECL &
+  [ STEM < "late" >,
+    INFLECTION nonfstr,
+    SYNSEM [LKEYS.KEYREL.PRED "_late_v_rel",
+            LOCAL.CAT.QVAL.OBL1.LOCAL.CAT [HEAD.KEYS.KEY til-rais,
+                                             QVAL.DOBJECT.LOCAL.CAT.HEAD glob-comp]]].
+se_ut-til-at := v-intrPrtclOblEpon-oblEponDECL &
+  [ STEM < "se" >,
+    INFLECTION finstr-tt,
+    SYNSEM [LKEYS.KEYREL.PRED "_se_v_rel"],
+    SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY ut-pcl ]] >, 
+    SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.HEAD [KEYS.KEY til-rais ]]>].
+
+
+
+
+
+
+
+
+sparke_tv2 := v-tr-su_ob &
+  [ STEM < "sparke" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_sparke_v_rel"].
+;han sparket ballen flat
+;'he kicked the ball flat'
+;v-trScpr-scObArg_scAdv-scCse
+sparke_scpr-cause-adj := v-trScpr-scObArgCsd_scAdj &
+  [ STEM < "sparke" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_sparke_v_rel"].
+;v-trScpr-scObArg_scAdv-scCse
+sparke_scpr-cause-adv :=  v-trScpr-scObArgCsd_scAdv &
+  [ STEM < "sparke" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_sparke_v_rel"].
+;Cse
+;han sang rommet tomt
+;'he sang the room empty'
+;v-trScpr-scObNrgCse_scAdj-scCse
+synge_scpr-cause := v-trScpr-scObNrgCsd_scAdj &
+  [ STEM < "synge" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_synge_v_rel"].
+;Cse
+synge_scpr-cause-adv := v-trScpr-scObNrgCsd_scAdv-scCse &
+  [ STEM < "synge" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_synge_v_rel"].
+;han spiser kjøleskapet tomt
+;'he eats the refrigerator empty'
+;v-trScpr-scObNrgCse_scAdj-scCseBinary
+spise_scpr-cause := v-trScpr-scObNrgCsdBin_scAdj &
+  [ STEM < "spise" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_spise_v_rel"].
+;jeg ser ham ligge
+;'I see him lie'
+se_objrais := v-trScpr-scObNrg_scBareinf &
+  [ STEM < "se" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_se_v_rel"].
+se_objrais-refl := v-trScpr-scObNrg_obRefl_scBareinf &
+  [ STEM < "se" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_se_v_rel"].
+anse_objrais-adj := v-trScpr-scObNrg_scAdj &
+  [ STEM < "anse" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_anse_v_rel"].
+anse_objrais-adj-refl := v-trScpr-scObNrg_obRefl_scAdj &
+  [ STEM < "anse" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_anse_v_rel"].
+anse_objrais-prtcl := v-trScpr-scObNrg_scPredprtcl &
+  [ STEM < "anse" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_anse_v_rel"].
+anse_objrais-prtcl-refl := v-trScpr-scObNrg_obRefl_scPredprtcl &
+  [ STEM < "anse" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_anse_v_rel"].
+kjenne_objrais-bareinf-refl := v-trScpr-scObNrg_obRefl_scBareinf &
+  [ STEM < "kjenne" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_kjenne_v_rel"].
+kalle_objrais := v-trScpr-scObNrg_scN &
+  [ STEM < "kalle" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_kalle_v_rel"].
+
+;han drakk kaffen varm 
+;'he drank the coffee warm'
+drikke_depict-adj := v-trScpr-scObArgConcurr_scAdj &
+  [ STEM < "drikke" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_drikke_v_rel"].
+drikke_depict-general := v-trScpr-scObArgConcurr &
+  [ STEM < "drikke" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_drikke_v_rel"].
+kjøre_depict-som := v-trScpr-scObArgConcurr_scPredprtcl &
+  [ STEM < "kjøre" >,
+    INFLECTION nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_kjøre_v_rel"].
+
+synes_meg := v-trScpr &
+  [ STEM < "synes" >,
+    INFLECTION nonfstr,
+    SYNSEM [LKEYS.KEYREL.PRED "_synes_v_rel"]].
+synes_meg-syk := v-trScpr-scSuNrg_scAdj &
+  [ STEM < "synes" >,
+    INFLECTION nonfstr,
+    SYNSEM [LKEYS.KEYREL.PRED "_synes_v_rel"]].
+synes_meg-idiot := v-trScpr-scSuNrg_scN &
+  [ STEM < "synes" >,
+    INFLECTION nonfstr,
+    SYNSEM [LKEYS.KEYREL.PRED "_synes_v_rel"]].
+synes_meg-prep := v-trScpr-scSuNrg_scPP &
+  [ STEM < "synes" >,
+    INFLECTION nonfstr,
+    SYNSEM [LKEYS.KEYREL.PRED "_synes_v_rel"]].
+synes_meg-inf := v-trScpr-scSuNrg_scInf &
+  [ STEM < "synes" >,
+    INFLECTION nonfstr,
+    SYNSEM [LKEYS.KEYREL.PRED "_synes_v_rel"]].
+
+
+
+
+
+
+rette_trObdirOrint := v-trObDir-orienting  &
+  [ STEM < "rette" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_rette_v_rel" ].
+tegne_trObdirLinsit := v-trObDir-linesituating  &
+  [ STEM < "tegne" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_tegne_v_rel" ].
+legge_trObdirLoccondct := v-trObDir-locomoconduction  &
+  [ STEM < "legge" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_legge_v_rel" ].
+kaste_ejct := v-trObDir-ejection  &
+  [ STEM < "kaste" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_kaste_v_rel" ].
+følge_trObdirParpaths := v-trObDir-parallelpaths  &
+  [ STEM < "følge" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_følge_v_rel" ].
+skjære_trObdirNonparpaths := v-trObDir-nonparallelpaths  &
+  [ STEM < "skjære" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_skjære_v_rel" ].
+ledsage_accompan := v-trObDir-accompanying  &
+  [ STEM < "ledsage" >,
+    INFLECTION  nonfstr,
+    SYNSEM.LKEYS.KEYREL.PRED "_ledsage_v_rel" ].
+;krysse_trObdirCrossmopaths := v-trObDir-crossingmotionpaths  &
+;  [ STEM < "krysse" >,
+;    INFLECTION  nonfstr,
+;    SYNSEM.LKEYS.KEYREL.PRED "_krysse_v_rel" ].

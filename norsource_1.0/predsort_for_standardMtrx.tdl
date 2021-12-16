@@ -1,0 +1,849 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource -
+;;; 
+;;;    Copyright (c)  NorSource 1.0
+;;;                     
+;;;
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    
+;;;
+
+;;;                   predsort.tdl
+;;;
+;;;  Definitions of semantic types for spatio-temporal prepositions and adverbs
+;;;
+;;;  Created by Dorothee Beermann and Lars Hellan
+;;; 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; predsort.tdl is a package of lexical semantic constraints on 
+;; relational types. ROLE sorts are introduced to
+;; formulate restrictions in terms of thematic information. 
+;; CLASS information introduces conceptual information
+;; for all main predicates, covering verb class information, qualia information
+;; and spatial and temporal classes for prepositions and adverbs.
+
+;;; (For description of the system, see [Hellan and Beermann 2005-SIGSEM-ACL], and Hellan and Beermann 2009.) 
+;;; This version has type definitions suited for going directly together with a standard Matrix 1.0 version. The version called predsort.tdl is suited for going with the matrix.tdl file already used in norsource, which is a somewhat customized version 0.6 matrix.tdl.
+
+
+
+;;;;;;;;;;;;;;;;;;;;ROLE & CLASS PACKAGE;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;ROLE-SPECIFICATIONS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+orientsort := avm.
+orient := orientsort.
+
+
+;; relation-types
+
+
+super-event := event-or-ref-index.
+event := super-event.
+ad-event := super-event.
+orient-event := ad-event &
+  [ ORIENT orient ].
+event := super-event &
+  [ E tam ].
+
+
+
+ad-rel := arg0-relation &
+  [ ARG0 ad-event].
+
+orient-rel := ad-rel &
+  [ ARG0 orient-event].
+orient-adv-rel := orient-rel & arg1-relation & 
+  [ ARG0.ORIENT orient ].
+iarg-orient-adv-relation := iarg-relation & orient-adv-rel.
+
+loc-rel := ad-rel.
+
+adv-mod-relation := arg1-relation & loc-rel.
+
+prep-mod-relation := loc-rel & arg12-relation.
+
+prep-line-rel :=  loc-rel & arg12-relation.
+prep-fixpoint-line-rel := prep-line-rel.
+prep-nonfixpoint-line-rel := prep-line-rel.
+
+; this ARG0 specification makes visible both for adverbs like "hit" and
+; PPs like "til skogen" that they have a property inducing telicity.
+
+end-of-path-rel := prep-fixpoint-line-rel.
+beginning-of-path-rel := prep-fixpoint-line-rel.
+via-path-rel := prep-fixpoint-line-rel.
+along-path-rel := prep-nonfixpoint-line-rel.
+
+
+role := avm.
+line := role.
+xdim := role.
+spatial := role.
+temporal := role.
+
+timespan := line & temporal.
+oriented-obj := line & spatial.
+entity := xdim.
+time-entity := entity & temporal.
+spatial-entity := entity & spatial.
+
+
+purely-oriented-obj := oriented-obj & non-initiator.
+mileage-obj := oriented-obj.
+path-obj := mileage-obj & non-initiator.
+locomotion-instance := mileage-obj.
+locomotor-sup := locomotion-instance.
+;locomotor := locomotor-sup.
+noninit-locomotor := locomotor-sup & non-initiator.
+locomotion-event := locomotion-instance & non-initiator.
+
+endpnt-of-line := spatial-entity.
+startpnt-of-line := spatial-entity.
+viapnt-of-line := spatial-entity.
+targetpnt-of-line := spatial-entity.
+endtime-of-line := time-entity.
+starttime-of-line := time-entity.
+viatime-of-line := time-entity.
+targettime-of-line := time-entity.
+
+; not obvious that we need features.
+#|
+participant := role &
+  [ INITIATOR bool,
+    CONSCIENT bool ].
+
+initiator-sup := participant &
+  [ INITIATOR + ].
+
+initiator := initiator-sup.
+init-locomotor := initiator-sup & locomotor-sup.
+undergoer := participant &
+  [ INITIATOR -,
+    CONSCIENT - ].
+
+dativerole := participant &
+  [ INITIATOR -,
+    CONSCIENT + ].
+|#
+
+; normal initiators and experiencers go as event-fronts. Only initiators partake interestingly in locomotion. But the type system is slightly schewed: event-front and non-initiators are currently the top opposition under 'participant'
+participant := role.
+event-front := participant.
+initiator-sup := event-front.
+initiator := initiator-sup.
+init-locomotor := initiator-sup & locomotor-sup.
+experiencer := event-front.
+non-initiator := participant.
+undergoer := non-initiator.
+dativerole := non-initiator.
+;;;;;;;;;;;;;;;;;;;;;;CLASS SPECIFICATIONSs;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+class := avm.
+
+;;;;;;;;;;;;CLASS SPECIFICATIONS FOR SITUATIONS;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+situation := class.
+
+;I.;;;;;;;;;;;;;;;;;;;;;ASPECT SPECIFICATIONS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+aktionsart := situation & semsort &
+  [ DYNAMIC bool,
+    PROTRACTED bool,
+    COMPLETED bool ].
+dynamic :=  aktionsart &
+  [ DYNAMIC + ].
+stative := aktionsart &
+  [ DYNAMIC - ].
+telic := aktionsart &
+[ COMPLETED +].
+atelic := aktionsart &
+[ COMPLETED -].
+protracted := aktionsart &
+[ PROTRACTED +].
+instantaneous := aktionsart &
+[ PROTRACTED -].
+
+activity := dynamic & protracted & atelic.
+semelfactive := dynamic & instantaneous & telic.
+accomplishment := dynamic & protracted & telic.
+achievement := dynamic & instantaneous & telic.
+state := stative.
+
+
+spatial-rel := avm.
+
+;II.;;;;;;;;;;;;SPECIFICATIONS FOR VERBS;;;;;;;;;;;;;;;;;;;;;;;;;
+
+sachverhalt := situation.
+non-oriented-svh := sachverhalt.
+posture-svh := non-oriented-svh.  
+
+;lh-pref: 
+ i-sachverhalt := situation.
+ i-non-oriented-svh := i-sachverhalt.
+ i-posture-svh := i-non-oriented-svh.  
+ i-oriented-svh := i-sachverhalt &
+   [ i-PATH-CONSUMPTION  bool].
+; as in "pilen peker mot nord"
+ i-pure-orientation-svh := i-oriented-svh &
+   [ i-PATH-CONSUMPTION  -].
+ i-path-consumption-svh := i-oriented-svh &
+   [ i-PATH-CONSUMPTION  +].
+; as in "veien går mot nord"
+ i-path-constellation-svh := state & i-path-consumption-svh.
+; as in "turen går mot nord"
+ i-locomo-development-svh := dynamic & i-path-consumption-svh.
+
+ i-locomotion-svh-sup := dynamic & i-path-consumption-svh.
+; as in "han løper mot nord"
+ i-locomotion-svh := i-locomotion-svh-sup.
+ i-arg12-oriented-svh := i-oriented-svh &
+   [ ARG2-PATH-CONSUMPTION  bool].
+; as in "rette pilen mot nord"
+ i-arg12-pure-orientation-svh := state & i-arg12-oriented-svh &
+   [ ARG2-PATH-CONSUMPTION  -].
+ i-arg12-path-consumption-svh := i-arg12-oriented-svh &
+   [ ARG2-PATH-CONSUMPTION  +].
+; as in "tegne linjen mot venstre"
+ i-arg12-path-constellation-svh := state & i-arg12-path-consumption-svh.
+; as in "legge turen mot nord"
+ i-arg12-locomo-conduction-svh := dynamic & i-arg12-path-consumption-svh.
+; ejection:
+ i-arg12-locomotion-svh := dynamic & i-arg12-path-consumption-svh.
+ i-arg12-doubleoriented-svh := i-arg12-oriented-svh.
+;NO SUCH  as in "rette pilen mot nord"
+; NO SUCH arg12-pure-doubleorientation-svh := state & arg12-ddoubleoriented-svh &
+;[ ARG2-PATH-CONSUMPTION  -].
+ i-arg12-double-path-consumption-svh := i-arg12-doubleoriented-svh &
+ [ i-PATH-CONSUMPTION  +,
+   ARG2-PATH-CONSUMPTION  +].
+ i-arg12-parallel-double-path-consumption-svh := i-arg12-double-path-consumption-svh.
+ i-arg12-nonparallel-double-path-consumption-svh := i-arg12-double-path-consumption-svh.
+; as in "streken følger linjen"
+ i-arg12-parallel-double-path-constellation-svh := state & i-arg12-parallel-double-path-consumption-svh.
+; as in "streken skjærer linjen"
+ i-arg12-nonparallel-double-path-constellation-svh := state & i-arg12-nonparallel-double-path-consumption-svh.
+; as in "gutten ledsager presidenten"
+ i-arg12-parallel-double-locomotion-svh := dynamic & i-arg12-parallel-double-path-consumption-svh.
+; as in "gutten krysser demonstrasjonstoget"
+ i-arg12-nonparallel-double-locomotion-svh := dynamic & i-arg12-parallel-double-path-consumption-svh.
+; as in "gestikulere mot publikum"
+; as in "smile mot publikum"
+
+init-svh-sup := i-sachverhalt.
+; as in "scream" (on one construal)
+init-svh := init-svh-sup.
+; as in "kick" (on one construal)
+init-und-svh := i-sachverhalt.
+; as in "help" (on one construal)
+init-dat-svh := i-sachverhalt.
+; as in "give" (on one construal)
+init-und-dat-svh := i-sachverhalt.
+; as in "melt" (on one construal)
+und-svh := i-sachverhalt.
+; as in "please" (on one construal)
+und-dat-svh := i-sachverhalt.
+; as in "doubt" (on one construal)
+dat-svh := i-sachverhalt.
+
+initlocomotion-svh := init-svh-sup & i-locomotion-svh-sup.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ i-arg1-svh-rel := arg1-ev-relation & Iarg-relation.
+ i-arg12-svh-rel := arg12-ev-relation & Iarg-relation.
+ i-arg123-svh-rel := arg123-ev-relation & Iarg-relation.
+ i-non-oriented-svh-rel := i-arg1-svh-rel & 
+  [ IARG.CLASS i-non-oriented-svh ].
+; lh 27.03.05 to get "mennene sitter langs stranden", I think
+; ARG0.ROLE xdim should be removed - as in new type below
+;i-posture-svh-rel := i-arg1-svh-rel & 
+;  [ IARG.CLASS i-posture-svh,
+;    ARG0.ROLE xdim  ].
+i-posture-svh-rel := i-arg1-svh-rel & 
+  [ IARG.CLASS i-posture-svh ].
+ i-oriented-svh-rel := i-arg1-svh-rel & 
+  [ IARG.CLASS.i-PATH-CONSUMPTION bool ].
+; as in "pilen peker mot nord"
+ i-pure-orientation-rel := i-oriented-svh-rel & 
+  [ ARG1.ROLE purely-oriented-obj,
+    IARG.CLASS.i-PATH-CONSUMPTION - ].
+; as in "veien går mot nord"
+ i-path-constellation-rel := i-oriented-svh-rel &
+  [IARG.CLASS i-path-constellation-svh,
+   ARG1.ROLE path-obj ] . 
+; as in "turen går mot nord"
+ i-locomotion-development-rel := i-oriented-svh-rel &
+  [ IARG.CLASS i-locomo-development-svh,
+     ARG1.ROLE locomotion-event ].
+; as in "han løper mot nord"
+ i-locomotion-rel := i-oriented-svh-rel &
+  [ ARG0.E.ASPECT dynamic,
+    ARG1.ROLE locomotor-sup,
+    IARG.CLASS i-locomotion-svh ].
+; as in "rette pilen mot nord"
+ i-arg12-pure-orientation-rel := i-arg12-svh-rel &
+ [ IARG.CLASS i-arg12-pure-orientation-svh,
+   ARG2.ROLE purely-oriented-obj ].
+; as in "tegne linjen mot venstre"
+ i-arg12-path-constellation-rel := i-arg12-svh-rel &
+ [ IARG.CLASS i-arg12-path-constellation-svh,
+   ARG2.ROLE path-obj ].
+; as in "legge turen mot nord"
+ i-arg12-locomo-conduction-rel := i-arg12-svh-rel &
+   [ IARG.CLASS i-arg12-locomo-conduction-svh,
+     ARG2.ROLE locomotion-event ].
+;; ejection:
+ i-arg12-locomotion-rel := i-arg12-svh-rel &
+ [ IARG.CLASS i-arg12-locomotion-svh,
+   ARG0.E.ASPECT achievement,
+   ARG1.ROLE initiator,
+   ARG2.ROLE noninit-locomotor ].
+; as in "streken følger linjen"
+ i-arg12-parallel-double-path-constellation-rel := i-arg12-svh-rel &
+ [ IARG.CLASS i-arg12-parallel-double-path-constellation-svh,
+   ARG1.ROLE path-obj,
+   ARG2.ROLE path-obj ].
+; as in "streken skjærer linjen"
+ i-arg12-nonparallel-double-path-constellation-rel := i-arg12-svh-rel &
+ [ IARG.CLASS i-arg12-nonparallel-double-path-constellation-svh,
+   ARG1.ROLE path-obj,
+   ARG2.ROLE path-obj ].
+; as in "gutten ledsager presidenten"
+ i-arg12-parallel-double-locomotion-rel := i-arg12-svh-rel &
+ [ IARG.CLASS i-arg12-parallel-double-locomotion-svh,
+   ARG1.ROLE locomotor-sup,
+   ARG2.ROLE locomotor-sup ].
+; as in "gutten krysser demonstrasjonstoget"
+ i-arg12-nonparallel-double-locomotion-rel := i-arg12-svh-rel &
+ [ IARG.CLASS i-arg12-nonparallel-double-locomotion-svh,
+   ARG1.ROLE locomotor-sup,
+   ARG2.ROLE locomotor-sup ].
+
+; here fill in with ROLE values for the relevant arguments
+; as in "scream" (on one construal)
+ i-arg1-init-rel := i-arg1-svh-rel &
+  [ ARG1.ROLE initiator,
+    IARG.CLASS init-svh ].
+; as in "kick" (on one construal)
+ i-arg12-init-und-rel := i-arg12-svh-rel &
+  [ ARG1.ROLE initiator,
+    ARG2.ROLE undergoer,
+    IARG.CLASS init-und-svh ].
+; as in "help" (on one construal)
+ i-arg12-init-dat-rel := i-arg12-svh-rel &
+  [ ARG1.ROLE initiator,
+    ARG2.ROLE dativerole,
+    IARG.CLASS init-dat-svh ].
+; as in "give" (on one construal)
+ i-arg123-init-und-dat-rel := i-arg123-svh-rel &
+  [ ARG1.ROLE initiator,
+    ARG2.ROLE undergoer,
+    ARG3.ROLE dativerole,
+    IARG.CLASS init-und-dat-svh ].
+; as in "melt" (on one construal)
+ i-arg1-und-rel := i-arg1-svh-rel &
+  [ ARG1.ROLE undergoer,
+    IARG.CLASS und-svh ].
+; as in "please" (on one construal)
+ i-arg12-und-dat-rel := i-arg12-svh-rel &
+  [ ARG1.ROLE undergoer,
+    ARG2.ROLE dativerole,
+    IARG.CLASS und-dat-svh ].
+; as in "doubt" (on one construal)
+ i-arg1-dat-rel := i-arg1-svh-rel &
+  [ ARG1.ROLE dativerole,
+    IARG.CLASS dat-svh ].
+
+
+i-arg1-init-locomotion-rel := i-arg1-svh-rel &
+  [ ARG1.ROLE init-locomotor,
+    IARG.CLASS initlocomotion-svh ].
+
+
+
+
+;;the following two relations have no instance -db feb 05
+;path-conduction-rel := arg12-svh-rel &
+;  [ IARG.CLASS path-conduction,
+;    ARG0.E.ASPECT dynamic,
+;    ARG2.ROLE path-obj ].
+
+;make-pure-oriented-rel := arg12-svh-rel &
+;  [ IARG.CLASS make-pure-oriented,
+;    ARG2.ROLE purely-oriented-obj ].
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+line-svh := sachverhalt &
+[ PATH-CONSUMPTION  bool].
+
+stative-line-svh := line-svh & state.
+activity-line-svh := line-svh & activity.
+
+;pure-orientation := line-svh.
+;path-consumption := line-svh.
+
+
+;path-constellation := path-consumption.
+
+;locomo-development := path-consumption.
+;locomotion := path-consumption.
+
+ejection := sachverhalt.
+locomotion-conduction := sachverhalt.
+;path-conduction := sachverhalt.
+;make-pure-oriented := sachverhalt.
+
+;III.;;;;;;;;;;SPECIFICATIONS FOR PREPOSITIONS;;;;;;;;;;;;;;;;;;;;;;;;
+
+spatial-temporal-class := situation & role.
+
+;;;;;;;;;;;;;;;;;;;LINE-TO-XDIM;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+line-to-xdim := spatial-temporal-class.
+line-to-xdim-spatial := line-to-xdim.
+line-to-xdim-temporal := line-to-xdim.
+line-to-endpnt := line-to-xdim-spatial.
+line-to-startpnt := line-to-xdim-spatial.
+line-to-viapnt := line-to-xdim-spatial.
+line-to-targetpnt := line-to-xdim-spatial.
+line-to-endtime := line-to-xdim-temporal.
+line-to-starttime := line-to-xdim-temporal.
+line-to-viatime := line-to-xdim-temporal.
+line-to-targettime := line-to-xdim-temporal.
+
+;;;;;;;;;;;;;;;;;;XDIM-TO-XDIM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+xdim-to-xdim := spatial-temporal-class.
+positioning := xdim-to-xdim & 
+                       [ SCALAR bool,
+                         TRANSITIVE bool ].
+
+;the following two are now only for annotation purposes
+
+xdim-to-xdim-spatial := xdim-to-xdim.
+xdim-to-xdim-temporal := xdim-to-xdim.
+
+front-back-axis := positioning &
+                      [ FRONT bool,
+                        BACK bool ].
+
+positioning-spatial := positioning.
+positioning-temporal := positioning.
+
+containment-positioning := positioning &
+                           [ EMBEDDED bool,
+                             CONTAINED bool ].
+
+embed-containment := containment-positioning &
+[ EMBEDDED +, CONTAINED -,  SCALAR -, TRANSITIVE +].
+
+contained-embedded := containment-positioning &
+[ EMBEDDED +, CONTAINED +,  SCALAR - ]. 
+
+scalar-containment := containment-positioning &
+[ EMBEDDED +, CONTAINED +,  SCALAR +, TRANSITIVE +].
+
+scalar-non-containment := containment-positioning &
+[ EMBEDDED -, CONTAINED -,  SCALAR + ]. 
+
+non-scalar-non-containment := containment-positioning &
+[ EMBEDDED -, CONTAINED -,  SCALAR - ]. 
+
+front-axis := front-back-axis &
+[ BACK -,   FRONT +,   SCALAR + ].
+
+back-axis :=  front-back-axis  &
+[ BACK +, FRONT -, SCALAR + ].
+
+side-axis :=  front-back-axis &
+[ BACK -, FRONT -, SCALAR +, TRANSITIVE +].
+
+front-back-temporal := positioning-temporal & front-back-axis.
+containment-spatial := positioning-spatial & containment-positioning.
+containment-temporal := positioning-temporal & containment-positioning.
+
+vertical-axis := positioning-spatial &
+[ UPSIDE-OF bool,
+  VERTICAL +,
+  INTEGRATED bool ].
+
+
+non-scalar-vertical := vertical-axis &
+[ SCALAR - ].
+
+integrated-non-scalar := non-scalar-vertical &
+[ INTEGRATED + ].
+
+upside-integrated := integrated-non-scalar &
+[ UPSIDE-OF +,
+  TRANSITIVE - ].
+
+non-transitive-integrated := integrated-non-scalar &
+[ TRANSITIVE - ].
+
+
+scalar-vertical := vertical-axis &
+[ SCALAR + ].
+
+downside-vertical := scalar-vertical &
+[ UPSIDE-OF - ].
+
+upside-vertical := scalar-vertical &
+[ UPSIDE-OF + ].
+
+non-integrated-non-scalar := non-scalar-vertical &
+[ INTEGRATED - ].
+
+
+;;;;;;;;;;;;;;;;LINE-TO-LINE;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+line-to-line := spatial-temporal-class &
+  [ CO-EXTENSIVE-WITH bool ].
+
+co-extensive := line-to-line &
+ [ CO-EXTENSIVE-WITH + ].
+ 
+
+line-to-line-spatial := line-to-line &
+  [ PARALLEL-WITH bool ].
+ 
+line-to-line-temporal := line-to-line &
+  [ PHASE-OVERLAPPING-WITH bool,
+    PHASE-DISJOINT-FROM bool ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;NOMINAL CLASS SPECIFICATIONS;;;;;;;;;;;;;;;;;;;;;;
+
+entities := class.
+time-unit := entities.
+
+
+
+
+; top relations and index types  as subtypes of relations defined 
+; matrix 0.6
+; ROLE is still introduced in the matrix, but will
+; be made part of the predsort.tdl 
+
+Iarg-relation := relation &
+[ IARG class-specified ].
+class-specified := semarg &
+[ CLASS class ].
+
+;verbal relation types with  verb-class information.
+;verbclass information is introduced under CLASS as
+; part of the IARG information
+  
+arg1-svh-rel := arg1-ev-relation & Iarg-relation.
+
+arg12-svh-rel := arg12-ev-relation & Iarg-relation.
+
+
+non-oriented-svh-rel := arg1-svh-rel & 
+  [ IARG.CLASS non-oriented-svh ].
+
+posture-svh-rel := arg1-svh-rel & 
+  [ IARG.CLASS posture-svh,
+    ARG0.ROLE xdim  ].
+
+oriented-svh-rel := arg1-svh-rel & 
+  [ IARG.CLASS stative-line-svh ].
+
+pure-orientation-rel := oriented-svh-rel & 
+  [ ARG1.ROLE purely-oriented-obj,
+    IARG.CLASS.PATH-CONSUMPTION - ].
+
+stative-path-consumption-rel := oriented-svh-rel &
+[IARG.CLASS.PATH-CONSUMPTION +,
+ ARG1.ROLE path-obj ] . 
+
+
+;locomotion-development-rel := path-consumption-rel &
+;  [ ARG1.ROLE locomotion-event ].
+
+active-path-consumption-rel := arg1-svh-rel.
+
+locomotion-rel := active-path-consumption-rel &
+  [ ARG0.E.ASPECT dynamic,
+    ARG1.ROLE locomotor-sup,
+    IARG.CLASS activity-line-svh & [ PATH-CONSUMPTION +] ].
+
+ejection-rel := arg12-svh-rel &
+  [ IARG.CLASS ejection,
+    ARG0.E.ASPECT dynamic,
+    ARG2.ROLE locomotor-sup ].
+
+locomotion-conduction-rel := arg12-svh-rel &
+  [ IARG.CLASS locomotion-conduction,
+    ARG0.E.ASPECT dynamic,
+    ARG2.ROLE locomotion-event ].
+
+;;the following two relations have no instance -db feb 05
+;path-conduction-rel := arg12-svh-rel &
+;  [ IARG.CLASS path-conduction,
+;    ARG0.E.ASPECT dynamic,
+;    ARG2.ROLE path-obj ].
+
+;make-pure-oriented-rel := arg12-svh-rel &
+;  [ IARG.CLASS make-pure-oriented,
+;    ARG2.ROLE purely-oriented-obj ].
+;;;;;;;;;;;;;;
+
+
+
+;; prepositional relations with IARG specifications 
+;; and thematic contraints on their ARG2
+
+
+
+Iarg-prep-mod-relation := prep-mod-relation & Iarg-relation.
+
+;; adverbial relations with IARG specifications
+Iarg-adv-mod-relation := adv-mod-relation & Iarg-relation.
+
+
+
+line-to-z-rel := Iarg-prep-mod-relation.
+y-to-y-rel := Iarg-prep-mod-relation.
+
+xdim-to-xdim-rel := y-to-y-rel &
+  [ ARG0.ROLE xdim-to-xdim,
+    IARG.CLASS xdim-to-xdim]. 
+
+positioning-spatial-rel := xdim-to-xdim-rel & spatial-rel &
+  [ IARG.CLASS positioning,
+    ARG0.ROLE xdim-to-xdim-spatial,
+    ARG1.ROLE xdim ,
+    ARG2.ROLE spatial-entity ].
+
+; this type is used to distinguish one use of "ved" from an integrated one
+unspecified-positioning-spatial-rel := positioning-spatial-rel &
+[ IARG.CLASS [ SCALAR -,
+               TRANSITIVE -]].
+
+positioning-temporal-rel := xdim-to-xdim-rel & 
+  [ ARG0.ROLE xdim-to-xdim-temporal,
+    ARG1.ROLE time-entity,
+    ARG2.ROLE time-entity ].
+
+front-temporal-rel := positioning-temporal-rel &
+   [ IARG.CLASS front-axis & [ TRANSITIVE +] ].
+
+external-locative-rel := positioning-spatial-rel &
+  [ IARG.CLASS front-back-axis  ].
+
+back-external-locative-rel := external-locative-rel &
+[ IARG.CLASS back-axis & [ TRANSITIVE + ] ].
+
+front-external-locative-rel := external-locative-rel &
+[ IARG.CLASS front-axis & [ TRANSITIVE + ] ].
+
+side-external-locative-rel := external-locative-rel &
+[ IARG.CLASS side-axis ].
+
+
+back-temporal-rel := positioning-temporal-rel &
+[ IARG.CLASS back-axis & [ TRANSITIVE +] ].
+
+;  OBS! end-of-path-rel only with lex3...full
+directional-external-locative-rel := line-to-xdim-rel & end-of-path-rel & 
+[ IARG.CLASS front-axis & [ TRANSITIVE +],
+  ARG1.ROLE line  ].
+
+scalar-locative-rel := positioning-spatial-rel &
+  [ IARG.CLASS scalar-vertical ].
+
+non-scalar-locative-rel := positioning-spatial-rel &
+  [ IARG.CLASS non-scalar-vertical ].
+
+downside-vertical-rel := scalar-locative-rel &
+         [ IARG.CLASS downside-vertical & [ TRANSITIVE +]].
+
+;  OBS! end-of-path-rel only with lex3...full
+directional-downside-vertical-rel := line-to-xdim-rel & end-of-path-rel &
+         [ IARG.CLASS downside-vertical & [ TRANSITIVE +]].
+
+
+
+upside-vertical-rel := scalar-locative-rel &
+         [ IARG.CLASS upside-vertical & [ TRANSITIVE +] ].
+
+integrated-locative-rel := non-scalar-locative-rel &
+[ IARG.CLASS integrated-non-scalar]. 
+
+non-transitive-integrated-rel := integrated-locative-rel &
+       [ IARG.CLASS non-transitive-integrated ].
+
+upside-integrated-rel := integrated-locative-rel &
+[ IARG.CLASS upside-integrated ].
+
+
+non-integrated-locative-rel := non-scalar-locative-rel &
+[ IARG.CLASS non-integrated-non-scalar]. 
+
+containment-rel := xdim-to-xdim-rel &
+  [ IARG.CLASS containment-positioning ].
+
+containment-spatial-rel := containment-rel & positioning-spatial-rel.
+containment-temporal-rel := containment-rel & positioning-temporal-rel.
+
+embed-containment-rel  := containment-rel &
+  [ IARG.CLASS embed-containment ].
+
+loc-embed-containment-rel := containment-spatial-rel .
+temp-embed-containment-rel := containment-temporal-rel .
+
+contained-embedded-rel := containment-rel &
+  [ IARG.CLASS contained-embedded & [ TRANSITIVE +] ].
+temp-contained-embedded-rel := contained-embedded-rel & containment-temporal-rel.
+loc-contained-embedded-rel := contained-embedded-rel  & containment-spatial-rel.
+
+scalar-containment-rel  := containment-rel &
+  [ IARG.CLASS scalar-containment ].
+
+temp-scalar-containment-rel := scalar-containment-rel & containment-temporal-rel.
+loc-scalar-containment-rel := scalar-containment-rel & containment-spatial-rel.
+
+scalar-non-contained-rel := containment-rel &
+  [ IARG.CLASS scalar-non-containment & [ TRANSITIVE +] ].
+
+temp-scalar-non-contained-rel := scalar-non-contained-rel & containment-temporal-rel.
+loc-scalar-non-contained-rel := scalar-non-contained-rel & containment-spatial-rel.
+
+line-to-line-rel := y-to-y-rel & line-to-z-rel.
+line-to-line-temporal-rel := line-to-line-rel & 
+  [ ARG0.ROLE line-to-line,
+    IARG.CLASS spatial-temporal-class,
+    ARG1.ROLE timespan,
+    ARG2.ROLE timespan ].
+
+;"på", "i" for "do x på/i to timer"
+
+telic-coextensive-rel := line-to-line-temporal-rel &
+         [ IARG.CLASS co-extensive,
+	   ARG1.E.ASPECT telic  ].
+
+atelic-coextensive-rel := line-to-line-temporal-rel &
+         [ IARG.CLASS co-extensive,
+	   ARG1.E.ASPECT atelic	 ].
+
+;parallel-lines-rel := line-to-line-temporal-rel & prep-nonfixpoint-line-rel &
+;         [ IARG.CLASS back-axis & [ TRANSITIVE + ], 
+;           ARG0.ROLE line-to-line ].
+
+; changed, from the above, to allow 'rusle langs elva, etter veien'.
+; But we perhaps need a temporal "etter" too?
+parallel-lines-rel := line-to-line-spatial-rel & prep-nonfixpoint-line-rel &
+         [ IARG.CLASS back-axis & [ TRANSITIVE + ], 
+           ARG0.ROLE line-to-line ].
+
+line-to-line-spatial-rel := line-to-line-rel & spatial-rel &
+  [ ARG0.ROLE line-to-line,
+    IARG.CLASS spatial-temporal-class,
+    ARG1.ROLE oriented-obj,
+    ARG2.ROLE oriented-obj ].
+
+; OBS! along-path-rel only when using lex3...full
+co-extensive-parallel-rel := line-to-line-spatial-rel & along-path-rel &
+         [ IARG.CLASS [ CO-EXTENSIVE-WITH +,
+                        PARALLEL-WITH + ]].
+
+line-to-xdim-rel := line-to-z-rel &
+  [ IARG.CLASS spatial-temporal-class,
+    ARG0.ROLE line-to-xdim ].
+
+line-to-xdim-temporal-rel := line-to-xdim-rel & prep-nonfixpoint-line-rel &
+  [ ARG0.ROLE line-to-xdim-temporal,
+    ARG1.ROLE timespan,
+    ARG2.ROLE time-entity ].
+
+line-to-xdim-spatial-rel := line-to-xdim-rel &
+  [ ARG0.ROLE line-to-xdim-spatial,
+    ARG1.ROLE oriented-obj,
+    ARG2.ROLE spatial-entity ].
+
+to-endtime-rel := line-to-xdim-temporal-rel &
+  [ ARG0.ROLE line-to-endtime,
+    ARG2.ROLE endtime-of-line ].
+
+from-starttime-rel := line-to-xdim-temporal-rel &
+  [ IARG.CLASS line-to-starttime,
+    ARG2.ROLE starttime-of-line ].
+
+viatime-rel := line-to-xdim-temporal-rel &
+  [ IARG.CLASS line-to-viatime,
+    ARG2.ROLE viatime-of-line ].
+
+toward-targettime-rel := line-to-xdim-temporal-rel &
+  [ IARG.CLASS line-to-targettime,
+    ARG2.ROLE targettime-of-line ].
+
+; OBS! end-of-path-rel only when using lex3..full
+to-endpoint-rel := line-to-xdim-spatial-rel & end-of-path-rel &
+  [ ARG0.ROLE line-to-endpnt,
+    ARG1.ROLE mileage-obj,
+    ARG2.ROLE endpnt-of-line ].
+
+; OBS! beginning-of-path-rel only when using lex3..full
+from-startpoint-rel := line-to-xdim-spatial-rel & beginning-of-path-rel &
+  [ IARG.CLASS line-to-startpnt,
+    ARG1.ROLE oriented-obj,
+    ARG2.ROLE startpnt-of-line ].
+
+; OBS! via-path-rel only when using lex3..full
+via-viapoint-rel := line-to-xdim-spatial-rel & via-path-rel &
+  [ IARG.CLASS line-to-viapnt,
+    ARG1.ROLE oriented-obj,
+    ARG2.ROLE viapnt-of-line ].
+
+toward-targetpoint-rel := line-to-xdim-spatial-rel & prep-nonfixpoint-line-rel &
+  [ IARG.CLASS line-to-targetpnt,
+    ARG1.ROLE oriented-obj,
+    ARG2.ROLE targetpnt-of-line ].
+
+to-endpoint-cum-external-locative-rel := to-endpoint-rel &
+  [ IARG.CLASS back-axis & [ TRANSITIVE +],
+    ARG1.ROLE locomotor-sup ].
+
+to-endpoint-simple-rel := to-endpoint-rel &
+  [ IARG.CLASS line-to-endpnt ].
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;adverbial senses ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; two things changed from above: inherit from orient-adv-rel, and
+; omission of ROLE, to enable combination with ROLE of "langs..." in
+; "oppover langs elven"
+line-rel := Iarg-orient-adv-relation &
+  [ IARG.CLASS spatial-temporal-class,
+    ARG1.ROLE oriented-obj ].
+xdim-rel := Iarg-adv-mod-relation &
+  [ IARG.CLASS spatial-temporal-class,
+    ARG0.ROLE xdim-to-xdim-spatial ].
+
+downside-vertical-adv-rel :=  xdim-rel &
+         [ IARG.CLASS downside-vertical ].
+upside-vertical-adv-rel :=  xdim-rel &
+         [ IARG.CLASS upside-vertical ].
+contained-embedded-adv-rel :=  xdim-rel &
+         [ IARG.CLASS contained-embedded ].
+non-scalar-non-containment-adv-rel :=  xdim-rel &
+         [ IARG.CLASS non-scalar-non-containment ].
+scalar-containment-adv-rel :=  xdim-rel &
+         [ IARG.CLASS scalar-containment  ].
+scalar-non-containmen-adv-rel :=  xdim-rel &
+         [ IARG.CLASS scalar-non-containment & [ TRANSITIVE +] ].
+front-axis-adv-rel :=  xdim-rel &
+         [ IARG.CLASS front-axis ].
+back-axis-adv-rel :=  xdim-rel &
+         [ IARG.CLASS back-axis ].
+line-downside-vertical-adv-rel :=  line-rel &
+         [ IARG.CLASS downside-vertical ].
+line-upside-vertical-adv-rel :=  line-rel &
+         [ IARG.CLASS upside-vertical ].
+line-front-axis-adv-rel :=  line-rel &
+         [ IARG.CLASS front-axis ].
+line-contained-embedded-adv-rel :=  line-rel &
+         [ IARG.CLASS contained-embedded ].
+line-scalar-non-containmen-adv-rel :=  line-rel &
+         [ IARG.CLASS scalar-non-containment ].

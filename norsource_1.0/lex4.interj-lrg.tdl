@@ -1,0 +1,1158 @@
+
+adjø_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "adjø" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_adjø_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ah_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "ah" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ah_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+aha_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "aha" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_aha_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ai_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "ai" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ai_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+akk_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "akk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_akk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+amen_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "amen" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_amen_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+au_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "au" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_au_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+au_revoir_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "au", "revoir" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_au-revoir_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bang_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "bang" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bang_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+basta_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "basta" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_basta_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bevares_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "bevares" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bevares_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bravissimo_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "bravissimo" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bravissimo_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bravo_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "bravo" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bravo_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bums_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "bums" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bums_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+byss_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "byss" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_byss_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bæ_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "bæ" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bæ_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bø_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "bø" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bø_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+degeren_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "degeren" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_degeren_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+degern_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "degern" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_degern_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+dikkedikk_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "dikkedikk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_dikkedikk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ding-dang_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "ding-dang" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ding-dang_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ding-ding_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "ding-ding" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ding-ding_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+dunk_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "dunk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_dunk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+dægeren_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "dægeren" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_dægeren_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+dægern_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "dægern" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_dægern_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+dæven_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "dæven" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_dæven_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+eia_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "eia" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_eia_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fallera_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "fallera" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fallera_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+falleri_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "falleri" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_falleri_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+far_vel_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "far" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_far_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+farken_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "farken" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_farken_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+filiokus_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "filiokus" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_filiokus_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+filleren_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "filleren" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_filleren_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fola_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "fola" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fola_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fy_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "fy" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fy_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fysj_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "fysj" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fysj_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fyterakkern_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "fyterakkern" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fyterakkern_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gakk-gakk_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "gakk-gakk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gakk-gakk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gakk_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "gakk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gakk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gett_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "gett" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gett_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gid_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "gid" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gid_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+giss_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "giss" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_giss_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gitt_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "gitt" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gitt_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+god_natt_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "god" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_god_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ha-ha_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "ha-ha" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ha-ha_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ha_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "ha" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ha_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+haha_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "haha" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_haha_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+halleluja_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "halleluja" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_halleluja_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hallo_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hallo" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hallo_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+halloi_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "halloi" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_halloi_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+haloi_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "haloi" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_haloi_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hands_up_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hands" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hands_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hau_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hau" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hau_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+he_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "he" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_he_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hei_sann_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hei" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hei_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+heia_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "heia" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_heia_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+heil_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "heil" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_heil_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+helledussen_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "helledussen" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_helledussen_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hepp_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hepp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hepp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+herregud_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "herregud" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_herregud_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+heureka_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "heureka" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_heureka_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hi_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hi" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hi_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hill_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hill" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hill_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hipp_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hipp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hipp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hm_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hm" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hm_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ho_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "ho" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ho_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hoho_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hoho" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hoho_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hoi_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hoi" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hoi_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+holdt_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "holdt" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_holdt_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hopp_sann_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hopp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hopp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hoppla_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hoppla" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hoppla_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hoppsa_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hoppsa" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hoppsa_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hoppsasa_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hoppsasa" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hoppsasa_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hosianna_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hosianna" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hosianna_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hu_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hu" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hu_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+huff_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "huff" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_huff_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hui_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hui" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hui_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hurra_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hurra" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hurra_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+husj_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "husj" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_husj_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hut_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hut" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hut_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+huttemegtu_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "huttemegtu" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_huttemegtu_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+huttetu_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "huttetu" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_huttetu_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hypp_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hypp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hypp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hysj_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hysj" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hysj_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hyss_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hyss" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hyss_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hå_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hå" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hå_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hæ_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hæ" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hæ_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hø_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "hø" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hø_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+isj_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "isj" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_isj_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+jadden_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "jadden" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_jadden_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+jaggu_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "jaggu" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_jaggu_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+jaha_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "jaha" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_jaha_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+jemini_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "jemini" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_jemini_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+joggu_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "joggu" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_joggu_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+joho_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "joho" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_joho_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+jøss_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "jøss" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_jøss_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+jøsses_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "jøsses" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_jøsses_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+jøye_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "jøye" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_jøye_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kille_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "kille" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kille_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kiss_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "kiss" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kiss_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+klask_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "klask" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_klask_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+klikk-klakk_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "klikk-klakk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_klikk-klakk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kling_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "kling" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kling_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+klingeling_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "klingeling" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_klingeling_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kliss-klass_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "kliss-klass" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kliss-klass_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+klukk_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "klukk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_klukk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ko-ko_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "ko-ko" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ko-ko_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kra_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "kra" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kra_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kurr_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "kurr" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kurr_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kvakk_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "kvakk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kvakk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kvekk_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "kvekk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kvekk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kvirrevitt_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "kvirrevitt" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kvirrevitt_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kykeliky_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "kykeliky" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kykeliky_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kyrie_eleison_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "kyrie" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kyrie_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lev_vel_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "lev" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lev_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+marsj_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "marsj" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_marsj_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+mjau_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "mjau" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_mjau_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+morn_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "morn" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_morn_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+mø_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "mø" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_mø_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+nam_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "nam" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_nam_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+nja_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "nja" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_nja_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+nå_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "nå" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_nå_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+nåda_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "nåda" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_nåda_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+nøff-nøff_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "nøff-nøff" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_nøff-nøff_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+nøff_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "nøff" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_nøff_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+obs§_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "obs§" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_obs§_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+oho_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "oho" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_oho_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ohoi_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "ohoi" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ohoi_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+oi_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "oi" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_oi_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+okk_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "okk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_okk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+paff_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "paff" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_paff_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pardong_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "pardong" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pardong_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pereat_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "pereat" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pereat_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+piff_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "piff" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_piff_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pinadø_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "pinadø" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pinadø_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pinede_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "pinede" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pinede_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pinedød_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "pinedød" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pinedød_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pip_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "pip" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pip_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+piskadausen_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "piskadausen" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_piskadausen_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+piskadød_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "piskadød" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_piskadød_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pist_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "pist" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pist_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+plaff_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "plaff" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_plaff_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+plask_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "plask" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_plask_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pling_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "pling" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pling_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+plopp_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "plopp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_plopp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+plump_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "plump" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_plump_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pro_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "pro" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pro_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+prosit_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "prosit" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_prosit_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+prositt_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "prositt" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_prositt_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pst_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "pst" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pst_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ptro_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "ptro" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ptro_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+puff_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "puff" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_puff_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+puh_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "puh" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_puh_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+puss_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "puss" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_puss_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pytt_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "pytt" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pytt_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pø_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "pø" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pø_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pøh_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "pøh" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pøh_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+rapp_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "rapp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_rapp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ratsj_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "ratsj" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ratsj_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ritsj_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "ritsj" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ritsj_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+sesam_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "sesam" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sesam_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+sic_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "sic" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sic_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+simsalabim_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "simsalabim" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_simsalabim_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+singott_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "singott" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_singott_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+skål_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "skål" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_skål_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+snapp_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "snapp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_snapp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+snipp_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "snipp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_snipp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+svibrent_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "svibrent" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_svibrent_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+svupp_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "svupp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_svupp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tikk-takk_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "tikk-takk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tikk-takk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tikk_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "tikk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tikk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tja_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "tja" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tja_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tjo_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "tjo" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tjo_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tralala_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "tralala" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tralala_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tripp_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "tripp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tripp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+trom_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "trom" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_trom_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+trommelom_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "trommelom" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_trommelom_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tupp_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "tupp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tupp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tvi_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "tvi" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tvi_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tvibrent_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "tvibrent" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tvibrent_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tyss_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "tyss" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tyss_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tøff_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "tøff" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tøff_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+uff_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "uff" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_uff_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+varsku_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "varsku" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_varsku_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ve_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "ve" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ve_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+vips_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "vips" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vips_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+vivat_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "vivat" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vivat_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+voff-voff_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "voff-voff" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_voff-voff_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+voff_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "voff" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_voff_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+vov-vov_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "vov-vov" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vov-vov_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+vov_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "vov" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vov_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+åhå_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "åhå" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_åhå_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+æsj_n := neut-re-noun-lxm &
+ [ INFLECTION interj,
+   STEM < "æsj" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_æsj_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].

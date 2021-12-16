@@ -1,0 +1,134 @@
+;;; -*- Coding: utf-8; -*-
+
+;covered by Aug 1 04.
+
+;"gutten", "gutter" and "guttene" have an inbuilt quantifier, 
+;introduced by an ltol-rule, and so none of the preceding items can 
+;introduce a Q. Hence, only "hver", "ingen" and the three sg articles 
+;"en", "ei", "et" can embody a quantifier.
+;The type 'rule' is used to regulate that cardinals cannot get iterated, 
+;and items like "noen" therewith.
+;Nouns with definite form ("gutten", "guttene") have a feature DEFINITE+, 
+;whose presence requires a non-empty SPR in the resulting noun phrase. 
+;Also weak adjectives make such a requirement (but they don't require 
+;a definite noun, due to "min glade gutt").
+;The partitive "av" is a hybrid, taking the NP as a complement, 
+;but the left-hand combinant as a specifier. Its semantic contribution 
+;is to say "x instantiates y", where x is introduced by the left-hand 
+;combinant (eg "hver") and y by the governed NP.
+
+
+jeg unner gutten gutten 
+;*
+jeg unner gutt gutt
+jeg unner vin vin
+;*
+jeg unner den gutt den gutt
+jeg unner en gutt en gutt
+jeg unner en vin en vin
+jeg unner fjellet fjellet
+jeg unner vinen vinen
+jeg unner et fjell et fjell
+;*
+jeg unner et gutt et gutt
+;*
+jeg unner en fjell en fjell
+jeg unner tre gutter tre gutter
+jeg unner fire gutter fem gutter
+jeg unner tre fjell tre fjell
+jeg unner hver gutt hver gutt
+jeg unner hver vin hver vin
+jeg unner hvert fjell hvert fjell
+jeg unner ingen gutt ingen gutt
+jeg unner noen gutter noen gutter
+jeg unner noen viner noen viner
+jeg unner noe vin noe vin
+jeg unner en glad gutt en glad gutt
+jeg unner en god vin en god vin
+jeg unner mye god vin mye god vin
+jeg unner tre glade gutter tre glade gutter
+;*
+jeg unner noen tre glade gutter noen tre glade gutter
+;*
+jeg unner fire tre glade gutter fire tre glade gutter
+jeg unner tre glade hyggelige gutter tre glade hyggelige gutter
+;*
+jeg unner tre glade gutt tre glade gutt
+;*
+jeg unner tre glad gutter tre glad gutter
+jeg unner den glade gutten den glade gutten
+;*
+jeg unner den glad gutten den glad gutten
+;*
+jeg unner glade gutten glade gutten
+;*
+jeg unner den glade gutt den glade gutt
+jeg unner de tre glade guttene de tre glade guttene
+jeg unner de tre gode vinene de tre gode vinene
+;*
+jeg unner de tre gode vin de tre gode vin
+jeg unner de glade guttene de glade guttene
+jeg unner glade gutter glade gutter
+;*
+jeg unner de glade gutter de glade gutter
+;*
+jeg unner glade guttene glade guttene
+jeg unner hver av de glade guttene hver av de glade guttene
+jeg unner hver av de tre glade guttene hver av de tre glade guttene
+jeg unner hver av de tre gode vinene hver av de tre gode vinene
+jeg unner noen av de ni guttene noen av de ni guttene
+jeg unner noe av den gode vinen noe av den gode vinen
+jeg unner ingen av de ni guttene ingen av de ni guttene
+jeg unner få av de ni guttene få av de ni guttene
+jeg unner ni av guttene ni av guttene
+jeg unner alle gutter alle gutter
+;*
+jeg unner alle gutt alle gutt
+;*
+jeg unner alle gutten alle gutten
+jeg unner begge guttene begge guttene
+jeg unner alle de tre guttene alle de tre guttene
+jeg unner all den gode vinen all den gode vinen
+jeg unner mine tre gutter mine tre gutter
+jeg unner mine glade gutter mine glade gutter
+jeg unner min glade gutt min glade gutt
+jeg unner all min gode vin all min gode vin
+jeg unner alle mine gode viner alle mine gode viner
+;*
+jeg unner min glad gutt min glad gutt
+jeg unner alle mine gutter alle mine gutter
+jeg unner gutten min gutten min
+jeg unner vinen min vinen min
+;*
+jeg unner glade gutten min glade gutten min
+jeg unner den glade gutten min den glade gutten min
+jeg unner gutten til Ola gutten til Ola
+jeg unner vinen til Ola vinen til Ola
+jeg unner Ola sin gutt Ola sin gutt
+jeg unner gutten si bygd gutten si bygd
+;*
+jeg unner gutten sitt bygd gutten sitt bygd
+jeg unner gutten sin ball gutten sin ball
+jeg unner en gutt sin ball en gutt sin ball
+jeg unner hver gutt sin ball hver gutt sin ball
+jeg unner Ola sin glade gutt Ola sin glade gutt
+;*
+jeg unner Ola sin glade gutten min Ola sin glade gutten min
+
+jeg unner Olas gutt Olas gutt
+jeg unner guttens ball guttens ball
+jeg unner en gutts ball en gutts ball
+jeg unner hver gutts ball hver gutts ball
+jeg unner Olas glade gutt Olas glade gutt
+;*
+jeg unner Olas glade gutten min Olas glade gutten min
+jeg unner Ola sin gutt sin katt Ola sin gutt sin katt
+jeg unner en sekk poteter en sekk poteter
+jeg unner en sekk med poteter en sekk med poteter
+jeg unner et par dusin esker baller et par dusin esker baller
+;*
+jeg unner et dusin ballene et dusin ballene
+jeg unner et hav av katter et hav av katter
+;*
+jeg unner et hav av kattene et hav av kattene
+

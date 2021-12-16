@@ -1,0 +1,15 @@
+;;; Starts script and patch for generating (hindrer pop up av vinduer under generering. Server leser filen istedet)
+;;;
+;;; Dan's patches for generating.
+;;; These patches will cause the generator's output to be written to a file called
+;;; ~/tmp/.generate.<user>.<lang>
+;;; just like the naming convention for the file that the generator is looking for as input, which has the name
+;;; ~/tmp/.transfer.<user>.<lang>
+;;; where <user> is whatever your Ubuntu user name is, and <lang> is either `no' or `en'
+;;;
+;;(lkb-load-lisp (this-directory) "genpatches.lsp" t nil)
+
+(read-script-file-aux (concatenate 'string 
+		      (getenv "HOME")
+		      "/norsource/Grammatikk/lkb/script"))
+(lkb-load-lisp (this-directory) "genpatches.lsp")

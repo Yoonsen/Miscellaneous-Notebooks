@@ -1,0 +1,798 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource -
+;;; 
+;;;    Copyright (c)  NorSource 1.0
+;;;                     
+;;;
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    
+;;;
+
+; Conversion old - new v-lextypes
+v-intr := intrans-arg1-verb-lexeme.
+;LH280912: TODO: make sure that 'det' as subject cannot be interpreted as expletive. Will require a non-trivial opposition, given that expletives now have an ordinary ref-index. Thus, the opposite of the below - and same for all other non-expl types - hm.
+;v-intr := intrans-arg1-verb-lexeme &
+; [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
+v-intr-suDir := intrans-arg1dir-verb-lexeme.
+v-intrObl := intrans-obl-verb-lexeme.
+; suAg 'bo', suTh 'ligge i Finnmark' 
+; make sure using oblLoc and not oblLocus.
+v-intrObl-oblLoc := intrans-locobl-verb-lexeme.
+;;   "Kari fryser på ryggen"
+v-intrObl-oblPRTOFsu := intrans-pp-detached-poss-verb-lexeme & 
+[SYNSEM.LOCAL.CAT.VAL.COMPS < >].
+; to be included in Univcode
+v-intrObl2 := intrans-2obl-verb-lexeme.
+; "se alvorlig på"
+v-intrOblAdv := intrans-adv-obl-verb-lexeme.
+ 
+v-intrObl-oblN := intrans-obl-n-verb-lexeme. 
+v-intrObl-oblDECL := intrans-obl-decl-verb-lexeme.
+v-intrObl-oblDECL-oblSom := v-intrObl-oblDECL &
+  [SYNSEM.LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.HEAD.KEYS.KEY som-clse ]>].
+; should really be a supertype of the next two - never done in Norse
+v-intrObl-oblINTERR := intrans-obl-interr-verb-lexeme.
+v-intrObl-oblYN := v-intrObl-oblINTERR &
+  [ SYNSEM.LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD fin-comp ]> ].
+v-intrObl-oblWH := v-intrObl-oblINTERR &
+  [ SYNSEM.LOCAL.CAT.VAL.ICOMPS <[LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD verb-all ]> ].
+; (also: v-intrObl-oblYN := intrans-indirwhquest-pp-verb-lexeme.)
+v-intrObl-oblAbsinf := intrans-obl-arbinf-verb-lexeme. 
+; spise på, gnage på
+v-intrObl-oblN-ACTIVITY := intrans-atel-obl-verb-lexeme.
+v-intrAdv := intrans-obladv-verb-lexeme.
+v-trAdv := trans-obladv-verb-lexeme.
+v-intrObl-oblRefl := intrans-obl-refl-verb-lexeme.
+
+v-intr-suDECL := intrans-eventarg1-decl-verb-lexeme.
+; should really be a supertype of the next two - never done in Norse
+v-intr-suINTERR := intrans-eventarg1-interr-verb-lexeme.
+;;;v-intr-suYN := intrans-eventarg1-interr-verb-lexeme.
+;;;v-intr-suWH := intrans-eventarg1-interr-verb-lexeme.
+v-intr-suAbsinf := intrans-eventarg1-absinf-verb-lexeme. 
+v-intrObl-suDECL_oblN := intrans-eventarg1-decl-obl-n-verb-lexeme.
+; should really be a supertype of the next two - never done in Norse
+v-intrObl-suINTERR_oblN := intrans-eventarg1-interr-obl-n-verb-lexeme.
+;;;v-intrObl-suYN_oblN := intrans-eventarg1-interr-obl-n-verb-lexeme.
+;;;v-intrObl-suWH_oblN := intrans-eventarg1-interr-obl-n-verb-lexeme.
+v-intrObl-suDECL_oblDECL := intrans-eventarg1decl-eventobldecl-verb-lexeme.
+; should really be a supertype of the next two - never done in Norse
+v-intrObl-suDECL_oblINTERR := intrans-eventarg1decl-eventoblinterr-verb-lexeme.
+;;;v-intrObl-suDECL_oblYN := intrans-eventarg1decl-eventoblinterr-verb-lexeme.
+;;;v-intrObl-suDECL_oblWH := intrans-eventarg1decl-eventoblinterr-verb-lexeme.
+; should really be a supertype of the next two - never done in Norse
+v-intrObl-suINTERR_oblDECL := intrans-eventarg1interr-eventobldecl-verb-lexeme.
+;;;v-intrObl-suYN_oblDECL := intrans-eventarg1interr-eventobldecl-verb-lexeme.
+;;;v-intrObl-suWH_oblDECL := intrans-eventarg1interr-eventobldecl-verb-lexeme.
+; should really be a supertype of the next four - never done in Norse
+v-intrObl-suINTERR_oblINTERR := intrans-eventarg1interr-eventoblinterr-verb-lexeme.
+;;;v-intrObl-suYN_oblYN := intrans-eventarg1interr-eventoblinterr-verb-lexeme.
+;;;v-intrObl-suYN_oblWH := intrans-eventarg1interr-eventoblinterr-verb-lexeme.
+;;;v-intrObl-suWH_oblYN := intrans-eventarg1interr-eventoblinterr-verb-lexeme.
+;;;v-intrObl-suWH_oblWH := intrans-eventarg1interr-eventoblinterr-verb-lexeme.
+
+; for "gutten fremstår som mistenkt"
+v-intrLghtScpr-scSuNrg_scPredprtcl := intrans-secpred-som-arg1-x-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >]. 
+v-intrLghtScpr-scSuNrg_scPredprtclSom := intrans-secpred-som-arg1-x-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >]. 
+
+;v-trScprShft-scObNrgRes_scPPrefl-PLACEMENT
+;v-ALTraisORfin-v-intrExpn-suExpl_expnEQUAT-OR-v-intrScpr-suNrg-scInfORscAdjORscPPORscEQUAT
+v-intrScpr-scSuNrg := intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme.
+v-intrScpr-scSuNrg_scAdv := v-intrScpr-scSuNrg &
+[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.HEAD adv].
+v-intrScpr-scSuNrg_scPP := v-intrScpr-scSuNrg &
+[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.HEAD prep].
+v-intrScpr-scSuNrg_scAdj := v-intrScpr-scSuNrg &
+[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.HEAD adj].
+v-intrScpr-scSuNrg_scPredprtcl := v-intrScpr-scSuNrg &
+[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.HEAD som-or-for].
+v-intrScpr-scSuNrg_scPredprtcl_scSomN := v-intrScpr-scSuNrg_scPredprtcl &
+[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT [HEAD.KEYS.KEY som-pred-n,
+                                         QVAL.DOBJECT [LOCAL.CAT.HEAD nom]]].
+v-intrScpr-scSuNrg_scPredprtcl_scSomClse := v-intrScpr-scSuNrg_scPredprtcl &
+[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT [HEAD.KEYS.KEY som-pred-adj,
+                                         QVAL.DOBJECT [LOCAL.CAT.HEAD verb-all,
+						       LOCAL.CONT.HOOK.INDEX.E.TENSE finite]]].
+v-intrScpr-scSuNrg_scPredprtcl_scSomOmClse := v-intrScpr-scSuNrg_scPredprtcl &
+[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT [HEAD.KEYS.KEY som-om-pred-adj,
+                                         QVAL.DOBJECT [LOCAL.CAT.HEAD verb-all,
+						       LOCAL.CONT.HOOK.INDEX.E.TENSE finite]]].
+v-intrScpr-scSuNrg_scN := intrans-secpred-rais-from-n-arg1-verb-lexeme &
+[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.HEAD comm-noun].
+v-intrScpr-scSuNrg_scSomOmClse := v-intrScpr-scSuNrg &
+[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.HEAD fin-comp & [KEYS.KEY predcomp-som]].
+
+;v-intrScpr-scSuNrg &
+;[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.HEAD noun].
+
+; late til
+;v-ALTraisORfin-late_til-v-intrOblRais-suNrg_oblRaisInf-OR-v-intrOblExlnk-suExpl_oblExlnkDECL := intrans-rais-from-pp-arg1-verb-lexeme.
+v-intrOblRais := intrans-rais-from-pp-arg1-verb-lexeme.
+v-intrOblRais-oblTil := v-intrOblRais &
+  [ SYNSEM [LOCAL.CAT.QVAL.OBL1.LOCAL.CAT [HEAD.KEYS.KEY til-rais,
+                                           QVAL.DOBJECT.LOCAL.CAT.HEAD glob-comp]]].
+; late til at, haste med at/å:
+v-intrOblExlnk-oblExlnkDECL := intrans-rais-from-pp-arg1-verb-lexeme &
+ [ SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CAT.HEAD expl-pron]> ]].
+
+; det beror på deg om han vil komme: (from Presentational-2)
+v-intrOblExpn-expnYN := epon-decl-and-yn-pp-verb-lexeme & top-verb-lexeme &
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD glob-comp & [DECL -]] > ].
+; det beror på deg hvem som vil komme: (from Presentational-2)
+v-intrOblExpn-expnWH := epon-wh-pp-verb-lexeme & top-verb-lexeme.
+; det beror på deg at han kom: (from Presentational-2)
+v-intrOblExpn-expnDECL := epon-decl-and-yn-pp-verb-lexeme & top-verb-lexeme &
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD glob-comp & [DECL +]] > ].
+; det beror på om du vinner om han vil komme: (from Presentational-2)
+v-intrOblExpn-oblYN_expnYN := epon-decl-and-yn-decl-and-yn-pp-clause-verb-lexeme & top-verb-lexeme.
+; det beror på hvem som vinner hvem som vil komme: (from Presentational-2)
+v-intrOblExpn-oblWH_expnWH := epon-wh-wh-pp-clause-verb-lexeme & top-verb-lexeme.
+; det beror på om du vinner hvem som vil komme: (from Presentational-2)
+v-intrOblExpn-oblYN_expnWH := epon-decl-and-yn-wh-pp-clause-verb-lexeme & top-verb-lexeme.
+; det beror på hvem som vinner om han vil komme:  (from Presentational-2)
+v-intrOblExpn-oblWH_expnYN := epon-wh-decl-and-yn-pp-clause-verb-lexeme & top-verb-lexeme.
+
+
+; tykkes, forefalle_2, virke, synes, vedbli
+;v-ALTraisORfin-v-intrExpn-suExpl_expnEQUAT-OR-
+v-intrScpr-suNrg-scInfORscAdjORscPPORscEQUAT := intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme.
+
+; "se syk ut" - ut_6 := adv-particle-word
+v-intrScprPrtcl-scSuNrg_scAdjORPredprtcl := intrans-secpred-prtcl1-rais-from-nonverbal-arg1-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+v-intrScprPrtcl-scSuNrg_scAdj := v-intrScprPrtcl-scSuNrg_scAdjORPredprtcl.
+v-intrScprPrtcl-scSuNrg_scAdj_prtclUt := v-intrScprPrtcl-scSuNrg_scAdj &
+[SYNSEM.LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD [KEYS.KEY ut-pcl ]]>].
+v-intrScprPrtcl-scSuNrg_scPredprtcl := v-intrScprPrtcl-scSuNrg_scAdjORPredprtcl.
+ 
+; for "se ut til å/at"
+v-ALTraisORfin-se_ut_til := intrans-adv-rais-from-pp-arg1-verb-lexeme.
+; se ut som (om)/
+v-intrPrtclOblRais := v-ALTraisORfin-se_ut_til.
+v-intrPrtclOblRais-oblTil_prtclUt := v-intrPrtclOblRais &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY ut-pcl ]]>, 
+    SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.HEAD [KEYS.KEY til-rais ]]>].
+v-intrPrtclOblRais-oblSom_prtclUt := v-intrPrtclOblRais &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY ut-pcl ]]>, 
+    SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.HEAD [KEYS.KEY som-rais ]]>].
+
+v-intrPrtclScpr-scSuNrg := intrans-secpred-prtcl3-rais-from-nonverbal-arg1-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+v-intrPrtclScpr-scSuNrg_prtclUt := v-intrPrtclScpr-scSuNrg &
+[SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD.KEYS.KEY ut-pcl ], []>]. 
+; replaces:
+v-ALTraisORfin-se_ut_som := intrans-secpred-prtcl3-rais-from-nonverbal-arg1-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; OK for "se ut til å/at" - no, it is an obl
+;v-ALTraisORfin-se_ut_til := intrans-secpred-prtcl2-rais-from-nonverbal-arg1-verb-lexeme.
+
+; koke_intr-sec
+; should really be a supertype of the next three - never done in Norse
+v-intrScpr-scSuNrgCsd := intrans-secpred-argx-verb-lexeme.
+;removed:& [KEYS.KEY dir ]
+v-intrScpr-scSuNrgCsd_scAdv := v-intrScpr-scSuNrgCsd &
+  [SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CAT.HEAD adv-reg ] >].
+;removed:& [KEYS.KEY dir ]
+v-intrScpr-scSuNrgCsd_scPP := v-intrScpr-scSuNrgCsd &
+  [SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CAT.HEAD prep & [KEYS.KEY index-sit1]] >].
+v-intrScpr-scSuNrgCsd_scAdj := v-intrScpr-scSuNrgCsd &
+  [SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CAT.HEAD adj-reg ] >].
+; not clear if this is different: intrans-secpred-argcsx-verb-lexeme
+;"skinken henger mør"
+; should really be a supertype of the next three - never done in Norse
+v-intrScpr-scSuArgCsd := intrans-secpred-arg1-csx-verb-lexeme.
+;;;v-intrScpr-scSuArgCsd_scAdj := intrans-secpred-arg1-csx-verb-lexeme.
+;;;v-intrScpr-scSuArgCsd_scAdv := intrans-secpred-arg1-csx-verb-lexeme.
+;;;v-intrScpr-scSuArgCsd_scPP := intrans-secpred-arg1-csx-verb-lexeme.
+
+v-intrPrtcl := intrans-telicparticle-arg1-verb-lexeme.
+v-intrPrtcl-COMPLETEDACTIVITY := intrans-telicparticle-arg1-verb-lexeme.
+v-intrPrtcl-SUSTAINEDACTIVITY := intrans-atelicparticle-arg1-verb-lexeme.
+; for "drive" in "driver og går"
+v-intrSubcoord := intrans-arg1-atelic-verb-lexeme.
+; for "drive/holde" in "driver/holder på med å"
+v-intrPrtclObl-oblEqSuInf := subj-prtcl-equi-pp-atelic-verb-lexeme.
+; forefalle, , "forefalle komme"
+v-intrScpr-scSuNrg_scBareinf := intrans-secpred-rais-from-verbal-arg1-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; forefalle_3, vedbli "forefalle å komme"
+v-intrScpr-scSuNrg_scInf := intrans-secpred-rais-from-infinmarked-arg1-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >]. 
+v-intrAuxmodScpr-scSuNrg_scBareinf := epistemic-modal-verb-lexeme.
+; ha, få
+v-intrAuxperfScpr-scSuNrg_scPerf := aux-perf-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; bli (passive)
+v-intrAuxpassScpr-scSuNrg_scPass := aux-pass-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; prøve, forsøke
+; not clear here what difference is between ob and comp:
+v-tr-obEqInf := subj-equi-verb-lexeme.
+v-trPrtcl-obEqInf := subj-equi-particle-verb-lexeme.
+v-intrAuxmodComp-compEqBareinf := root-modal-verb-lexeme.
+; "be om å komme"; "snakke om å komme"
+v-intrObl-oblEqSuInf := subj-equi-pp-verb-lexeme.
+; "drive med å komme"
+v-intrObl-oblEqSuInf-SUSTAINEDACTIVITY := subj-equi-pp-atelic-verb-lexeme.
+; se_ut-som-np
+v-intrPrtclScpr-scSuNrg_scPredprtclSom := intrans-secpred-prtcl1a-rais-from-nonverbal-arg1-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+v-intrPrtclScpr-scSuNrg_scPredprtclSom_prtclUt := v-intrPrtclScpr-scSuNrg_scPredprtclSom &
+[SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY ut-pcl ]], []>].
+
+; ; test-v;  "se ut til å komme" (til-rais), 
+; "det ser ut til at han kommer" (til-expl
+v-intrObl-suAbsinf := intrans-eventarg1-absinf-obl-n-verb-lexeme.
+v-intrPath-suDir-PUREORIENTATION := intrans-arg1orient-verb-lexeme.
+
+
+v-tr := trans-arg1-2-verb-lexeme.
+; has hardly any content s type - all specification sits in the lexical entry
+v-tr-obEventunit := trans-arg1-2inh-verb-lexeme.
+v-tr-obRefl := trans-arg1-2refl-verb-lexeme.
+v-tr-obDir := trans-arg1-2dir-verb-lexeme.
+; basere NP på, fortelle tull om
+v-trObl := trans-obl-verb-lexeme.
+v-trObl-oblDECL := trans-obl-decl-verb-lexeme.
+v-trObl-oblINTERR := trans-obl-interr-verb-lexeme.
+v-trObl-oblAbsinf := trans-obl-absinf-verb-lexeme.
+; basere seg på - not discriminating about the governee of the prep
+;trans-refl-obl-sup-verb-lexeme.
+; basere seg på
+v-trObl-obRefl := trans-refl-obl-verb-lexeme.
+v-trObl-obRefl_oblN := trans-refl-obl-verb-lexeme.
+v-trObl-obRefl_oblDECL := trans-refl-obl-decl-verb-lexeme.
+v-trObl-obRefl_oblINTERR := trans-refl-obl-interr-verb-lexeme.
+v-trObl-obRefl_oblAbsinf := trans-refl-obl-absinf-verb-lexeme.
+; "vedde 2 kroner med Marit på at..."
+v-trObl2 := trans-2obl-verb-lexeme.
+; "lagre kisten i skogen"
+v-trObl-oblLoc := trans-locobl-verb-lexeme. 
+; "oppholde seg i skogen":
+v-trObl-obRefl-oblLoc := trans-refl-locobl-verb-lexeme.
+;Ola finner seg i å vente:
+;v-trNrfObl-obReflExpl_oblEqSuInf -TODO
+; analogue to  v-intrObl-oblEqSuInf := subj-equi-pp-verb-lexeme.
+; or v-trObl-obRefl_oblEqObInf 'forplikte seg til'
+; oppføre seg.
+v-trAdv-obRefl := trans-refl-obladv-verb-lexeme.
+; "han retter pilen mot nord"
+v-trPath-obDir-ORIENTING := trans-dir-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; "famle seg frem" - the first not a good type definition. The second shared with v-trNrf-suDir_obReflExpl
+v-trPath-obRefl_obDir := trans-refl-dir-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+;v-trPath-obRefl_obDir := trans-arg1dir-2refl-verb-lexeme.
+;;   "Kari skrubber Jon på ryggen" (adv11)
+v-trObl-oblPRTOFob := trans-pp-arg1-detached-poss-verb-lexeme.
+;;   "Kari klør seg på ryggen" (adv11)
+v-trObl-obRefl_oblPRTOFob := trans-pp-arg1-detached-poss-refl-verb-lexeme.
+;;   "Jon kyler Kari en snøball i ryggen" (adv10)
+v-ditrObl-oblPRTOFiob-PARTWHOLE_AFFECTING := ditrans-pp-arg1-2-detached-poss-verb-lexeme.
+; love
+v-ditr-obEqSuInf := subj-equi-doublobj-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; tillate
+v-ditr-obEqIobInf := obj-equi-verb-lexeme.
+;NBv-ditr-iobRefl_obEqIobInf := obj-equi-refl-verb-lexeme.
+; be
+v-ditr-obEqIobBareinf := obj-equi-bare-verb-lexeme.
+; oppfordre
+v-trObl-oblEqObInf := obj-equi-pp-verb-lexeme.
+; han føler seg komme
+v-trScpr-scObNrg_obRefl_scBareinf := trans-secpred-rais-refl-from-verbal-arg2-verb-lexeme.
+;se ham komme:
+v-trScpr-scObNrg_scBareinf := trans-secpred-rais-from-verbal-arg2-verb-lexeme.
+; "han viser seg å komme"
+v-trNrfScpr-obReflExpl_scSuNrg_scInf := trans-secpred-rais-refl-tosubj-from-infinmarked-arg1-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; fortone seg syk (not specific for sc pos)
+v-trNrfScpr-obReflExpl_scSuNrg := trans-secpred-refl-argx-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; la seg se
+v-trNrfScpr-obReflExpl_scSuNrg_scBareinf_suRAISsuMob := la-seg-se-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; la sangen synge
+v-trScpr-scObNrg_scBareinf_obRAISsuMob := la-sangen-synge-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; "han synes meg å komme", "han forekommer meg å komme"
+v-trScpr-scSuNrg_scInf := trans-secpred-rais-from-infinmarked-arg1-verb-lexeme.
+; for "jeg forutsetter ham å komme", with pass: "han forutsettes å komme"
+v-trScpr-scObNrg_scInf := trans-secpred-rais-from-infinmarked-arg2-verb-lexeme.
+; for "jeg forutsetter ham skutt", with pass: "han forutsettes skutt" - Complex Passive - 'pcp' both for passive and perfect
+v-trScpr-scObNrg_scPcp := trans-secpred-rais-from-perfmarked-arg2-verb-lexeme.
+; han synes meg syk/som en tosk
+v-trScpr-scSuNrg_scAdjORPredprtclSom := trans-secpred-rais-from-adj-or-som-arg1-verb-lexeme.
+; these subtypes of the above are concise types, but the 'OR' type is still used in the lexicon; in its definition, there is no item-specification.
+v-trScpr-scSuNrg_scAdj := v-trScpr-scSuNrg_scAdjORPredprtclSom &
+ [SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD adj-reg ] >].
+v-trScpr-scSuNrg_scPredprtclSomN := v-trScpr-scSuNrg_scAdjORPredprtclSom &
+ [SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD [KEYS.KEY som-pred-n ],
+				     LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD nom] >].
+v-trScpr-scSuNrg_scPredprtclSom := v-trScpr-scSuNrg_scAdjORPredprtclSom &
+ [SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD [KEYS.KEY som-pred-adj ],
+				     LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD adj-reg] >].
+v-trScpr-scSuNrg_scN := trans-secpred-rais-from-n-arg1-verb-lexeme &
+[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.HEAD comm-noun]. ;; MHS 170713 This type has no CAT constraint. 
+v-trScpr-scSuNrg_scPP := trans-secpred-rais-from-n-arg1-verb-lexeme &
+[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.HEAD prep & [KEYS.KEY index-sit1]]. ;; MHS 170713 This type has no CAT constraint.
+
+
+
+; anse Adj
+;v-trScpr-scObNrg_scAdjORPredprtcl := trans-secpred-rais-from-nonverbal-arg2-verb-lexeme.
+;v-trScpr-scObNrg := trans-secpred-rais-from-nonverbal-arg2-verb-lexeme.
+
+; gjøre i god form
+v-trScpr-scObNrg := trans-secpred-lexcause-pp-verb-lexeme.
+v-trScpr-obRefl_scObNrg := trans-secpred-refl-lexcause-pp-verb-lexeme.
+
+; anse adj / anse for/som/til
+v-trScpr-scObNrg_scAdj := trans-secpred-rais-from-nonverbal-arg2-verb-lexeme &
+[ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD adj-reg] >].
+v-trScpr-scObNrg_scPP := trans-secpred-rais-from-nonverbal-arg2-verb-lexeme &
+[ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD prep-ultra & [KEYS.KEY index-sit1 ]] >].
+                                      
+v-trScpr-scObNrg_scPredprtclSom := trans-secpred-som-rais-from-nonverbal-arg2-verb-lexeme.
+v-trScpr-scObNrg_scPredprtclForInf := trans-secpred-for-rais-from-nonverbal-arg2-inf-verb-lexeme.
+v-trScpr-scObNrg_scPredprtclFor := trans-secpred-for-rais-from-nonverbal-arg2-verb-lexeme.
+v-trScpr-scObNrg_scPredprtclTilInf := trans-secpred-til-rais-from-nonverbal-arg2-inf-verb-lexeme.
+v-trScpr-scObNrg_scPredprtclTil := trans-secpred-til-rais-from-nonverbal-arg2-verb-lexeme.
+
+; anse seg syk/ anse seg som/for/til
+;v-trScpr-scObNrg_obRefl_scAdjORPredprtcl := trans-secpred-rais-refl-from-nonverbal-arg2-verb-lexeme.
+v-trScpr-scObNrg_obRefl_scAdj := trans-secpred-adj-rais-refl-from-nonverbal-arg2-verb-lexeme.
+; anse seg som syk/ til/ for
+v-trScpr-scObNrg_obRefl_scPredprtclSom := trans-secpred-som-rais-refl-from-nonverbal-arg2-verb-lexeme.
+v-trScpr-scObNrg_obRefl_scPredprtclTil := trans-secpred-til-rais-refl-from-nonverbal-arg2-verb-lexeme.
+v-trScpr-scObNrg_obRefl_scPredprtclForInf := trans-secpred-for-rais-refl-from-nonverbal-arg2-inf-verb-lexeme.
+v-trScpr-scObNrg_obRefl_scPredprtclFor := trans-secpred-for-rais-refl-from-nonverbal-arg2-verb-lexeme.
+; kalle Ola en tosk
+v-trScpr-scObNrg_scN := trans-secpred-rais-from-nominal-arg2-verb-lexeme &
+[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.HEAD comm-noun].
+; kalle seg en tosk
+v-trScpr-scObNrg_obRefl_scN := trans-secpred-rais-refl-from-nominal-arg2-verb-lexeme &
+[SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.HEAD comm-noun].
+;gjøre ham glad:
+;v-trScpr-scObNrgRes := v-trScpr-scObNrg.
+; hoppe_3 "hun hopper skoene flate" - scX
+v-trScpr-scObNrgCsd := trans-secpred-arg1-x-verb-lexeme.
+; "han løp seg sunn" - scX
+v-trScpr-scObNrgCsd_obRefl := trans-secpred-arg1-x-refl-verb-lexeme.
+; "fiffe seg opp"
+v-trPrtcl-obRefl := trans-telicparticle-arg1-x-refl-verb-lexeme.
+; synge bort sorgene
+v-trScprShft-obDir_scObNrgCsd := trans-secpred-shift-arg1-x-verb-lexeme.
+; "muntre ham opp"
+v-trPrtcl-COMPLETEDACTIVITY := trans-telicparticle-arg1-x-verb-lexeme.
+; "han karer seg bort"
+;v-trPrtcl := trans-telicparticle-arg1-x-verb-lexeme.
+; "han karer seg bort"
+v-trPrtclShft := trans-telicparticle-shift-arg1-x-verb-lexeme.
+; "han finner ut svaret"
+;LH may0611 - NEW
+v-trPrtclShft-obCLAUSE := trans-particleshift-eventobj-verb-lexeme.
+; "han regner ut at/hva/om..."
+v-trScpr-obDir_obRefl_scObNrgCsd := trans-secpred-refl-dir-verb-lexeme.
+; sparke ballen flat (defined for sc prep-or-adj)
+v-trScpr-scObArgCsd-sup := trans-secpred-arg1-2-x-verb-lexeme.
+v-trPrtcl := trans-secpred-arg1-2-x-verb-lexeme.
+; sparke_secpred-refl (defined for sc prep-or-adj)
+v-trScpr-obRefl_scObArgCsd := trans-secpred-arg1-2-x-refl-verb-lexeme.
+; sparke_particleshift "sparke bort ballen"
+v-trScprShft-obDir_scObArgCsd := trans-particleshift-verb-lexeme.
+v-trScprAdjShft-scObArgCsd_scAdj := trans-adjshift-verb-lexeme.
+; kle på seg jakken (the Norse type implies reflexive or pron)
+v-trScprShft-scObNrgRes_scPPrefl-PLACEMENT := trans-ppshift-verb-lexeme.
+v-trScprShft-scObNrgRes_scPP-PLACEMENT := trans-ppshift-nonrefl-verb-lexeme.
+; kle på gutten 
+v-intrImpltransfAdv-suAg-RENDERING_IN_POSITION := trans-ppshift-implicit-verb-lexeme.
+; kle på seg 
+v-intrImpltransfAdv-advRefl-suAg-RENDERING_IN_POSITION := trans-ppshift-refl-implicit-verb-lexeme.
+; Preferred new typelabels for the latter two:
+; kle på gutten 
+v-intrScpr-scObimplNrgRes_scPP-PLACEMENT := trans-ppshift-implicit-verb-lexeme.
+; kle på seg 
+v-intrScpr-scObimplNrgRes_scPPrefl-PLACEMENT := trans-ppshift-refl-implicit-verb-lexeme.
+; se_subord
+v-tr-obDECL := trans-subord-verb-lexeme.
+v-tr-obDECL_obV := trans-barefinite-subord-verb-lexeme.
+; vurdere å
+v-tr-obAbsinf := trans-absinfsubord-verb-lexeme.
+; spørre_tr-interr:
+v-intrComp-compINTERR := trans-indir-interr-verb-lexeme.
+v-intrComp-compWH := trans-indirwhquest-verb-lexeme.
+v-intrComp-compYN := trans-indir-y-n-quest-verb-lexeme.
+; overlate, vise_1, unne
+v-ditr := ditrans-arg1-2-3-verb-lexeme.
+; unne_1 (seg)
+v-ditr-iobRefl := ditrans-arg1-2-3refl-verb-lexeme.
+; vise
+v-ditr-obDECL := ditrans-decl-verb-lexeme.
+; forestille_subord-refl
+v-ditr-iobRefl_obDECL := ditrans-refl-decl-verb-lexeme.
+; forespeile ham å
+;NBv-ditr-obEqIobInf := ditrans-equiinf-verb-lexeme.
+; foresette segå
+v-ditr-iobRefl_obEqIobInf := ditrans-refl-equiinf-verb-lexeme.
+
+; spørre_ditr-interr
+v-ditr-obYN := ditrans-y-n-indirwhquest-verb-lexeme.
+v-ditr-obYN_iobRefl := ditrans-y-n-refl-indirwhquest-verb-lexeme.
+v-ditr-obWH := ditrans-wh-indirwhquest-verb-lexeme.
+v-ditr-obWH_iobRefl := ditrans-wh-refl-indirwhquest-verb-lexeme.
+v-trComp-compINTERR := ditrans-y-n-indirwhquest-verb-lexeme.
+v-trNrfComp-obReflExpl_compYN := ditrans-y-n-refl-indirwhquest-verb-lexeme.
+v-trNrfComp-obReflExpl_compWH := ditrans-wh-refl-indirwhquest-verb-lexeme.
+v-ditr-suDECL := ditrans-eventarg1-decl-verb-lexeme.
+v-ditr-suINTERR := ditrans-eventarg1-interr-verb-lexeme.
+v-ditr-suAbsinf := ditrans-eventarg1-absinf-verb-lexeme.
+v-ditr-suDECL_obDECL := ditrans-eventarg1decl-eventarg2decl-verb-lexeme.
+v-ditr-suDECL_obINTERR := ditrans-eventarg1decl-eventarg2interr-verb-lexeme.
+v-ditr-suINTERR_obDECL := ditrans-eventarg1interr-eventarg2decl-verb-lexeme.
+v-ditr-suINTERR_obINTERR := ditrans-eventarg1interr-eventarg2interr-verb-lexeme.
+; suse, regne (from Presentational-2)
+v-intrImpers := impersonal-presentational-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; kvekke, ise, kile, kime (from Presentational-2)
+; TODO - poorly specified:
+v-intrImpersObl := impersonal-presentational-obl-verb-lexeme & top-verb-lexeme.
+; tykne til, klarne opp    (from Presentational-2)
+v-intrImpersPrtcl := impersonal-presentational-telicparticle-verb-lexeme & top-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; sitte, være_6  (from Presentational-2)
+v-intrPresnt := subject-presentational-verb-lexeme & top-verb-lexeme.
+; rusle_4, komme_pres  (from Presentational-2)
+v-intrPresnt-presDir := subject-dir-presentational-verb-lexeme & top-verb-lexeme.
+; "det trenger seg fram en mann"
+; LH 260411: see TODO for 'subject-dir-presentational-refl-verb-lexeme' in norsk.tdl  (from Presentational-2)
+v-trNrfPresnt-obRefl_presDir := subject-dir-presentational-refl-verb-lexeme & top-verb-lexeme.
+; det smyger seg en mann frem
+;v-trNrfPresntPath-obRefl_presDir := TODO  (from Presentational-2)
+v-trNrfPresntPathShft-obRefl_presDir := subject-presentational-secpred-refl-dir-verb-lexeme & top-verb-lexeme.
+; (from Presentational-2) 
+v-trPresntLoc-obRefl := subject-locobl-presentational-refl-verb-lexeme & top-verb-lexeme.
+; "det bor mange i Moss"  (from Presentational-2)
+v-intrPresntLoc := subject-locobl-presentational-verb-lexeme & top-verb-lexeme.
+; "det hopper opp en katt" (from Presentational-2)
+v-intrPresntPath-presDir := subject-presentational-telicparticle-prtcllast-verb-lexeme & top-verb-lexeme.
+; (from Presentational-2)
+v-intrPresntPathShft-presDir := subject-presentational-telicparticle-verb-lexeme & top-verb-lexeme.
+; tilkomme, vente "det venter meg en ulykke" (from Presentational-2)
+v-trPresnt := io-presentational-verb-lexeme & top-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+;  "det setter seg en gutt" (from Presentational-2)
+v-trNrfPresnt-obRefl := subject-presentational-refl-verb-lexeme & top-verb-lexeme.
+;  "det oppholder seg en gutt i hagen" (from Presentational-2)
+v-trNrfPresntLoc-obReflExpl := subject-locobl-presentational-refl-verb-lexeme & top-verb-lexeme.
+; forekomme, foresveve - "det forekommer meg at han kommer" (from Presentational-2)
+;all of these are NEW: (from Presentational-2, all)
+v-trExpnSu-expnDECL := io-epon-verb-lexeme & top-verb-lexeme &
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD fin-comp & [DECL +]] > ].
+;(from Presentational-2)
+v-trExpnSu-expnYN := io-epon-verb-lexeme & top-verb-lexeme &
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD fin-comp & [DECL -]] > ].
+;(from Presentational-2)
+v-trExpnSu-expnWH := io-epon-wh-verb-lexeme & top-verb-lexeme&
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD verb-all ] > ].
+;(from Presentational-2)
+v-trExpnSu-expnDECL_obRefl := io-refl-epon-verb-lexeme & top-verb-lexeme &
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD fin-comp & [DECL +]] > ].
+;(from Presentational-2)
+v-trExpnSu-expnYN_obRefl := io-refl-epon-verb-lexeme & top-verb-lexeme &
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD fin-comp & [DECL -]] > ].
+;(from Presentational-2)
+v-trExpnSu-expnWH_obRefl := io-refl-epon-wh-verb-lexeme & top-verb-lexeme &
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD verb-all ]> ].
+;(from Presentational-2)
+v-trExpnSu-expnCOND := io-epon-verb-lexeme & top-verb-lexeme &
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD fin-comp & [DECL +]] > ].
+;(from Presentational-2)
+v-trExpnSu-expnEqInf := io-epon-verb-lexeme & top-verb-lexeme &
+ [SYNSEM [ LOCAL.CAT [VAL.COMPS < [ LOCAL.CONT.HOOK.INDEX #3 ], 
+				  [LOCAL.CAT.HEAD infin-comp & [ TRANSPAR +,
+								 DECL +  ],
+				   LOCAL.CONT.HOOK.LTOP #1,
+				   LOCAL.CONT.HOOK.XARG #3] >,
+		      VAL.ICOMPS <>],
+	   LKEYS.KEYREL [ARG1 #1,
+			 ARG2 #3]]].
+
+; TODO ;(not yet from Presentational-2)
+v-trExpnOb-expnDECL := trans-subord-expn-verb-lexeme &
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD fin-comp & [DECL +]] > ].
+; TODO ;(not yet from Presentational-2)
+v-trExpnOb-expnCOND := trans-subord-expn-verb-lexeme &
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD fin-comp & [DECL -]] > ].
+; TODO ;(not yet from Presentational-2)
+v-trExpnOb-expnAbsinf := trans-subord-expn-verb-lexeme &
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD infin-comp & [DECL +,
+								     KEYS.KEY infinit-comp]] > ].
+; BIGUPDATE!
+v-trOblExpnOb-expnAbsinf := trans-obl-subord-expn-verb-lexeme &
+   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD infin-comp & [DECL +,
+								     KEYS.KEY infinit-comp]] > ].
+
+; "det viser seg at..." -(from Presentational-2)
+v-trNrfExpnSu-obReflExpl_expnDECL := io-refl-epon-verb-lexeme & top-verb-lexeme.
+; "det tar to timer å gå hit", "det koster fem kroner å..." (from Presentational-2)
+v-trExpnSu-obMeas_expnInfabs := meas-epon-verb-lexeme & top-verb-lexeme.
+; "det tar meg to timer å gå hit", "det koster meg fem kroner å..." (from Presentational-2)
+v-ditrExpnSu-obMeas_expnEqInf := meas-io-epon-verb-lexeme & top-verb-lexeme.
+; forekomme, hende - "det forekommer/hender at han kommer" (from Presentational-2)
+
+;for 'sette' - logically possible, while the 'mother' type allows for both construals. Not used in lexicon yet.
+v-trScpr-scObArgCsd := v-trScpr-scObArgCsd-sup &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], 
+                          [ LOCAL.CAT.HEAD prep-or-adj-or-adv & [SELECTED -]] >].
+v-trScpr-scObArgCsd_scLoc := v-trScpr-scObArgCsd-sup &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD prep-or-adv & [KEYS.KEY index-sit1]] > ].
+v-trScpr-scObArgCsd_scEndpt := v-trScpr-scObArgCsd-sup &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD prep-or-adv & [KEYS.KEY fixpt-dir]] > ].
+
+;v-trScprShft-scObArgCsd_scLoc
+;v-trScpr-obRefl-scObArgCsd_scLoc
+;v-trScprShft-obRefl-scObArgCsd_scLoc
+
+#|
+On CorrList but not in Norsource
+v-trScpr-obDir_obRefl_scObNrgCsd_scAdv
+v-trScpr-obDir_scObNrgCsd_scAdv
+v-trScpr-scObArgConcurr_scAdj
+v-trScpr-scObArgConcurr_scPP
+v-trScpr-scObArgConcurr_scPredprtcl
+v-trScpr-scObArgCsd_scAdj
+v-trScpr-scObArgCsd_scAdv
+v-trScpr-scObNrg_obRefl_scPredprtclFor
+v-trScpr-scObNrg_scBareinf_obRAISsuMob
+v-trScpr-scObNrg_scPredprtclpredFor
+v-trScpr-scObNrg_scPredprtclpredSom
+v-trScpr-scObNrgCsd_obRefl_scAdj
+v-trScpr-scObNrgCsd_obRefl_scPP
+v-trScpr-scObNrgCsd_scAdj
+v-trScpr-scObNrgRes_scAdj
+v-trScpr-scObNrgRes_scPP
+v-trScpr-scSuNrg_scBareinf
+v-trScpr-scSuNrg_scPP
+v-trScpr-scSuNrg_scPredprtcl
+v-trScprShft-scObArgCsd_scAdv
+v-trScprShft-scObArgCsd_scPP
+v-intrObl-oblN-ACTIVITY
+|#
+#|
+v-connect-word
+v-copExpnAdj
+v-copExpnN-expnAbsinf
+v-copExpnN-expnDECL
+v-copExpnN-expnWH
+v-copExpnN-expnYN
+v-copExpnPP-expnDECL
+v-copExpnPP-expnYN
+v-ditrExpnSu-obMeas_expnEqInf
+v-intrExpn-expnAbsinf
+v-intrExpn-expnDECL
+v-intrExpn-expnINTERR
+v-intrImpers
+v-intrImpersObl
+v-intrImpersPrtcl
+v-intrOblExpn-expnDECL
+v-intrOblExpn-expnWH
+v-intrOblExpn-expnYN
+v-intrOblExpn-oblWH_expnWH
+v-intrOblExpn-oblWH_expnYN
+v-intrOblExpn-oblYN_expnWH
+v-intrOblExpn-oblYN_expnYN
+v-intrPresnt
+v-intrPresntLoc
+v-intrPresntPath-presDir
+v-intrPresntPathShft-presDir
+v-intrPresnt-presDir
+v-intrPrtclExpn-expnAbsinf
+v-intrPrtclExpn-expnDECL
+v-intrPrtclExpn-expnInterr
+v-intrScprExpn-scAdj
+v-intrScprExpn-scPredprtcl
+v-trExpnSu-expnCOND
+v-trExpnSu-expnDECL
+v-trExpnSu-expnDECL_obRefl
+v-trExpnSu-expnEqInf
+v-trExpnSu-expnWH
+v-trExpnSu-expnWH_obRefl
+v-trExpnSu-expnYN
+v-trExpnSu-expnYN_obRefl
+v-trExpnSu-obMeas_expnInfabs
+v-trNrfExpnSu-obReflExpl_expnDECL
+v-trNrfPresntLoc-obReflExpl
+v-trNrfPresnt-obRefl
+v-trNrfPresnt-obRefl_presDir
+v-trNrfPresntPathShft-obRefl_presDir
+v-trPresnt
+v-trPresntLoc-obRefl
+|#
+
+
+v-intrExpn-expnDECL := epon-verb-lexeme & top-verb-lexeme.
+; "det spørs om han kommer" (from Presentational-2)
+v-intrExpn-expnINTERR := epon-indirwhquest-verb-lexeme & top-verb-lexeme.
+; "det hjelper å ..." (from Presentational-2)
+v-intrExpn-expnAbsinf := epon-inf-verb-lexeme & top-verb-lexeme.
+; det hører med at (from Presentational-2)
+v-intrPrtclExpn-expnDECL := epon-particle-DECL-verb-lexeme & top-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; det hører med å (from Presentational-2)
+v-intrPrtclExpn-expnAbsinf := epon-particle-inf-verb-lexeme & top-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; det hører med...(from Presentational-2)
+v-intrPrtclExpn-expnInterr := epon-particle-interr-verb-lexeme & top-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; no ex?
+v-tr-suDECL := trans-eventarg1-decl-verb-lexeme.
+v-tr-suINTERR := trans-eventarg1-interr-verb-lexeme.
+v-tr-suAbsinf := trans-eventarg1-absinf-verb-lexeme.
+v-trObl-suDECL := trans-eventarg1-decl-obl-verb-lexeme.
+v-trObl-suINTERR := trans-eventarg1-interr-obl-verb-lexeme.
+v-tr-suDECL_obDECL := trans-eventarg1decl-eventarg2decl-verb-lexeme.
+v-tr-suDECL_obINTERR := trans-eventarg1decl-eventarg2interr-verb-lexeme.
+v-tr-suINTERR_obDECL := trans-eventarg1interr-eventarg2decl-verb-lexeme.
+v-tr-suINTERR_obINTERR := trans-eventarg1interr-eventarg2interr-verb-lexeme.
+v-trObl-suDECL_oblDECL := trans-eventarg1decl-eventobldecl-verb-lexeme.
+v-trObl-suDECL_oblINTERR := trans-eventarg1decl-eventoblinterr-verb-lexeme.
+v-trObl-suINTERR_oblDECL := trans-eventarg1interr-eventobldecl-verb-lexeme.
+v-trObl-suINTERR_oblINTERR := trans-eventarg1interr-eventoblinterr-verb-lexeme.
+; være, bli ("suru") "han er syk"
+v-copAdj := copula-standard-verb-lexeme.
+; ligge brakk
+v-intrLghtScpr-scAdj := copula-standard-verb-lexeme &
+ [SYNSEM.LOCAL.CAT.VAL.COMPS <[LOCAL.DERIVED-HEAD -]>].
+; NB!
+v-copAdj2 := copula-bli-standard-verb-lexeme.
+; være, bli ("aru") "han er i byen"
+v-copPP := copula-locpp-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; være, bli "at han kom er under enhver kritikk", "hvem som kommer er..."
+v-copPP-suDECL := copula-locpp-with-nonepon-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+v-copPP-suAbsinf := copula-locpp-with-nonepon-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+v-copPP-suYN := copula-locpp-with-nonepon-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; være, bli ("aru") "han er her"
+v-copAdv := copula-locadv-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; "han er fra byen"
+v-copPPdir := copula-dirpp-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; være_abs "det er fint i Finnmark"
+v-copImpersAdjLoc := copula-standard-abs-verb-lexeme.
+v-copToughAdj := copula-tough-abs-verb-lexeme.
+
+
+; være_abs-nonepon-decl "at han kommer er fint" "å komme er fint"
+v-copAdj-suDECL := copula-adj-abs-with-nonepon-decl-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+; være_abs-nonepon-quest
+v-copAdj-suINTERR := copula-adj-abs-with-nonepon-quest-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >].
+;;;v-copAdj-suYN := copula-adj-abs-with-nonepon-quest-verb-lexeme.
+;;;v-copAdj-suWH := copula-adj-abs-with-nonepon-quest-verb-lexeme.
+; være_copnom, bli_copnom  - "han er en gutt", "han er gutten"
+v-copN := copula-nom-verb-lexeme & 
+  [ SYNSEM [ LOCAL.CAT.VAL [ SUBJ 1-list,
+			     COMPS < [ LOCAL.CAT.HEAD.DEF -] >]]].
+v-copN-suDECL := copula-noun-with-sudecl-nonepon-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >] &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ 1-list].
+v-copN-suYN := copula-noun-with-suYN-nonepon-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >] & 
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ 1-list].
+v-copN-suWH := copula-noun-with-suWH-nonepon-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >] & 
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ 1-list].
+v-copN-suAbsinf := copula-noun-with-suabsinf-nonepon-verb-lexeme & [ SYNSEM.LOCAL.CAT.VAL.ICOMPS < >] &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ 1-list].
+;v-copPredprtcl := intrans-secpred-som-arg1-x-verb-lexeme.
+v-copPredprtcl := v-intrScpr-scSuNrg_scPredprtcl_scSomN & 
+  [ SYNSEM.LOCAL.CAT.HEAD copula,
+    SYNSEM.LOCAL.CAT.VAL.SUBJ 1-list].
+;same as:
+;v-copPredprtcl := v-intrLghtScpr-scSuNrg_scPredprtcl.
+;v-copPredprtcl := copula-predparticle-verb-lexeme.
+;v-copPredprtcl := intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme.
+;v-copPredprtcl := copula-predprtcl-verb-lexeme.
+v-copPredprtcl-suDECL := intrans-eventarg1-secpred-som-arg1-x-verb-lexeme & 
+  [ SYNSEM.LOCAL.CAT.HEAD copula,
+    SYNSEM.LOCAL.CAT.VAL [ SUBJ 1-list, 
+			   ICOMPS < >]].
+v-copIdN := copula-nom-verb-lexeme & 
+  [ SYNSEM [ LOCAL.CAT.VAL [ SUBJ 1-list & < [ LOCAL.CAT.HEAD.DEF +,
+				      LOCAL.CONT.HOOK.INDEX ref-ind & [PNG.NG.NUM num ]] >,
+			     COMPS < [ LOCAL.CAT.HEAD.DEF +,
+				       LOCAL.CONT.HOOK.INDEX ref-ind & [PNG.NG.NUM num]] >]],
+    EXTRACTED-FROM -].
+; ... er at...
+v-copIdDECL := copula-clause-verb-lexeme & 
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ 1-list].
+; ... er å ...
+v-copIdAbsinf := copula-absinf-verb-lexeme &
+ [ SYNSEM.LOCAL.CAT.HEAD copula ].
+; ... er hvorvidt/hva...
+v-copIdAbsinf-suAbsinf := copula-arg1absinf-absinf-verb-lexeme &
+ [ SYNSEM.LOCAL.CAT.HEAD copula ].
+;v-copIdINTERR := copula-indirwhquest-verb-lexeme.
+v-copIdWH := copula-indirwhquest-verb-lexeme &
+ [ SYNSEM.LOCAL.CAT.HEAD copula ].
+v-copIdYN := copula-indir-y-n-quest-verb-lexeme &
+ [ SYNSEM.LOCAL.CAT.HEAD copula ].
+; ta veien
+v-tr-suDir := trans-arg1dir-2-verb-lexeme.
+; han smyger seg
+v-trNrf-suDir_obReflExpl := trans-arg1dir-2refl-verb-lexeme.
+; = 154 types
+v-trObl-obRefl_oblEqObInf := obj-equi-pp-refl-verb-lexeme.
+v-tr-suDir_obLengthunit := trans-arg1dir-2length-verb-lexeme.
+
+v-intrScprExpn-scAdj := epon-intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme & top-verb-lexeme &
+ [ SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD adj-reg ].
+
+; &
+; [ SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD verb-or-comp ].
+;,
+;   SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.VAL.COMPS <[]> ] >
+; This subsumes the following four:
+; det synes fint at han kommer
+;v-intrScprExpn-scAdj-expnDECL
+; det synes fint å komme
+;v-intrScprExpn-scAdj-expnAbsinf
+; det synes uvisst om han kommer
+;v-intrScprExpn-scAdj-expnYN
+; det synes uvisst hvem som kommer
+;v-intrScprExpn-scAdj-expnWH
+
+; TODO - LH300712 not yet working
+v-intrScprExpn-scPredprtcl := epon-predprtcl-intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme & top-verb-lexeme.
+
+v-copExpnAdj := v-intrScprExpn-scAdj &
+ [ SYNSEM.LOCAL.CAT.HEAD copula ].
+; This subsumes the following four:
+; det er fint at han kommer
+;v-copExpnAdj-expnDECL
+; det er fint å komme
+;v-copExpnAdj-expnAbsinf
+; det er uvisst om han kommer
+;v-copExpnAdj-expnYN 
+; det er uvisst hvem som kommer
+;v-copExpnAdj-expnWH 
+v-copExpnN-expnDECL := v-trExpnSu-expnDECL &
+ [ SYNSEM.LOCAL.CAT.HEAD copula,
+   SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.DERIVED-HEAD -,
+				 LOCAL.DERIVED-BARE-N-FROM-ADJ -], [] > ].
+v-copExpnN-expnAbsinf := io-epon-verb-lexeme  &
+ [SYNSEM.LOCAL.CAT.HEAD copula,
+  SYNSEM [ LOCAL.CAT [VAL.COMPS < [], 
+				  [LOCAL.CAT.HEAD infin-comp & [ TRANSPAR -,
+								 DECL +  ]]>]]].
+v-copExpnN-expnYN := v-trExpnSu-expnYN &
+ [ SYNSEM.LOCAL.CAT.HEAD copula ].
+v-copExpnN-expnWH := v-trExpnSu-expnWH &
+ [ SYNSEM.LOCAL.CAT.HEAD copula ].
+v-copExpnPP-expnDECL := v-intrOblExpn-expnDECL &
+ [ SYNSEM.LOCAL.CAT.HEAD copula ].
+v-copExpnPP-expnYN := v-intrOblExpn-expnYN &
+ [ SYNSEM.LOCAL.CAT.HEAD copula ].
+;v-copExpnPredprtcl-expnDECL (not defined)
+
+
+
+
+
+#|
+; These were never used to large measure - mainly in lex.semlab.tdl.
+; peke
+intrans-arg1orient-verb-lexeme
+; fortære
+trans-arg1-2tel-verb-lexeme
+; spise, vinne
+trans-arg1-2tel-opt-verb-lexeme
+trans-arg1dir-2-verb-lexeme
+trans-arg1dir-2refl-verb-lexeme
+;; first types that can be subtypes of intrans-arg1-...
+posture-verb-lexeme
+arrow-pointing-verb-lexeme 
+road-going-verb-lexeme 
+tour-going-verb-lexeme
+locomotion-verb-lexeme
+;; then types that can be subtypes of trans-arg1-2-...
+directing-arrow-verb-lexeme
+directing-line-verb-lexeme
+directing-tour-verb-lexeme
+ejecting-verb-lexeme
+
+line-follow-line-verb-lexeme
+line-crossing-line-verb-lexeme
+begleiten-verb-lexeme
+crossing-locomotors-verb-lexeme
+init-verb-lexeme
+init-und-verb-lexeme
+init-dat-verb-lexeme
+init-und-dat-verb-lexeme
+und-verb-lexeme
+und-dat-verb-lexeme
+dat-verb-lexeme
+init-locomotion-verb-lexeme
+|#
+
+; more specific types:
+;suMover := sign & [ SYNSEM.LKEYS.KEYREL.ARG1.ROLE locomotor ].
+suMover := sign & [ SYNSEM.LOCAL.CAT.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX.ROLE locomotor ].
+v-intr-suDir-suMover := v-intr-suDir & suMover.
+

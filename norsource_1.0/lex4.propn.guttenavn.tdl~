@@ -1,0 +1,2175 @@
+Aaron_propername := mascsg-anim-proper-name-word &
+[ STEM < "Aaron" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Aaron" ].
+
+Abdirahman_propername := mascsg-anim-proper-name-word &
+[ STEM < "Abdirahman" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Abdirahman" ].
+
+Abdul_propername := mascsg-anim-proper-name-word &
+[ STEM < "Abdul" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Abdul" ].
+
+Abdullah_propername := mascsg-anim-proper-name-word &
+[ STEM < "Abdullah" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Abdullah" ].
+
+Abdullahi_propername := mascsg-anim-proper-name-word &
+[ STEM < "Abdullahi" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Abdullahi" ].
+
+Abel_propername := mascsg-anim-proper-name-word &
+[ STEM < "Abel" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Abel" ].
+
+Adam_propername := mascsg-anim-proper-name-word &
+[ STEM < "Adam" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Adam" ].
+
+Adnan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Adnan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Adnan" ].
+
+Adrian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Adrian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Adrian" ].
+
+Ahmad_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ahmad" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ahmad" ].
+
+Ahmed_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ahmed" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ahmed" ].
+
+Aiden_propername := mascsg-anim-proper-name-word &
+[ STEM < "Aiden" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Aiden" ].
+
+Ailo_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ailo" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ailo" ].
+
+Aksel_propername := mascsg-anim-proper-name-word &
+[ STEM < "Aksel" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Aksel" ].
+
+Alan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Alan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Alan" ].
+
+Albert_propername := mascsg-anim-proper-name-word &
+[ STEM < "Albert" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Albert" ].
+
+Albin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Albin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Albin" ].
+
+Aleksander_propername := mascsg-anim-proper-name-word &
+[ STEM < "Aleksander" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Aleksander" ].
+
+Alex_propername := mascsg-anim-proper-name-word &
+[ STEM < "Alex" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Alex" ].
+
+Alexander_propername := mascsg-anim-proper-name-word &
+[ STEM < "Alexander" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Alexander" ].
+
+Alf_propername := mascsg-anim-proper-name-word &
+[ STEM < "Alf" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Alf" ].
+
+Alfred_propername := mascsg-anim-proper-name-word &
+[ STEM < "Alfred" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Alfred" ].
+
+Ali_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ali" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ali" ].
+
+Allan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Allan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Allan" ].
+
+Alvin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Alvin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Alvin" ].
+
+Amadeus_propername := mascsg-anim-proper-name-word &
+[ STEM < "Amadeus" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Amadeus" ].
+
+Amandus_propername := mascsg-anim-proper-name-word &
+[ STEM < "Amandus" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Amandus" ].
+
+Amar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Amar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Amar" ].
+
+Amin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Amin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Amin" ].
+
+Amir_propername := mascsg-anim-proper-name-word &
+[ STEM < "Amir" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Amir" ].
+
+Amund_propername := mascsg-anim-proper-name-word &
+[ STEM < "Amund" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Amund" ].
+
+Anas_propername := mascsg-anim-proper-name-word &
+[ STEM < "Anas" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Anas" ].
+
+Anders_propername := mascsg-anim-proper-name-word &
+[ STEM < "Anders" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Anders" ].
+
+Andre_propername := mascsg-anim-proper-name-word &
+[ STEM < "Andre" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Andre" ].
+
+Andreas_propername := mascsg-anim-proper-name-word &
+[ STEM < "Andreas" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Andreas" ].
+
+Anthony_propername := mascsg-anim-proper-name-word &
+[ STEM < "Anthony" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Anthony" ].
+
+Anton_propername := mascsg-anim-proper-name-word &
+[ STEM < "Anton" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Anton" ].
+
+Antoni_propername := mascsg-anim-proper-name-word &
+[ STEM < "Antoni" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Antoni" ].
+
+;; found in lexicon lex4.propn2
+;;Antonio_propername := mascsg-anim-proper-name-word &
+;;  [ STEM < "Antonio" >,
+;;  SYNSEM.LKEYS.KEYREL.CARG "Antonio" ].
+
+Are_propername := mascsg-anim-proper-name-word &
+[ STEM < "Are" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Are" ].
+
+Arian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Arian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Arian" ].
+
+Arild_propername := mascsg-anim-proper-name-word &
+[ STEM < "Arild" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Arild" ].
+
+Arin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Arin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Arin" ].
+
+Arman_propername := mascsg-anim-proper-name-word &
+[ STEM < "Arman" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Arman" ].
+
+Arn_propername := mascsg-anim-proper-name-word &
+[ STEM < "Arn" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Arn" ].
+
+Arne_propername := mascsg-anim-proper-name-word &
+[ STEM < "Arne" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Arne" ].
+
+Aron_propername := mascsg-anim-proper-name-word &
+[ STEM < "Aron" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Aron" ].
+
+Arthur_propername := mascsg-anim-proper-name-word &
+[ STEM < "Arthur" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Arthur" ].
+
+Artur_propername := mascsg-anim-proper-name-word &
+[ STEM < "Artur" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Artur" ].
+
+Arvid_propername := mascsg-anim-proper-name-word &
+[ STEM < "Arvid" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Arvid" ].
+
+Arvin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Arvin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Arvin" ].
+
+Aryan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Aryan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Aryan" ].
+
+Asbjørn_propername := mascsg-anim-proper-name-word &
+[ STEM < "Asbjørn" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Asbjørn" ].
+
+Asgeir_propername := mascsg-anim-proper-name-word &
+[ STEM < "Asgeir" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Asgeir" ].
+
+;; found in lexicon lex1.close
+;;Ask_propername := mascsg-anim-proper-name-word &
+;;  [ STEM < "Ask" >,
+;;  SYNSEM.LKEYS.KEYREL.CARG "Ask" ].
+
+Askil_propername := mascsg-anim-proper-name-word &
+[ STEM < "Askil" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Askil" ].
+
+Aslak_propername := mascsg-anim-proper-name-word &
+[ STEM < "Aslak" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Aslak" ].
+
+Atle_propername := mascsg-anim-proper-name-word &
+[ STEM < "Atle" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Atle" ].
+
+Audun_propername := mascsg-anim-proper-name-word &
+[ STEM < "Audun" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Audun" ].
+
+August_propername := mascsg-anim-proper-name-word &
+[ STEM < "August" >,
+  SYNSEM.LKEYS.KEYREL.CARG "August" ].
+
+Aune_propername := mascsg-anim-proper-name-word &
+[ STEM < "Aune" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Aune" ].
+
+Axel_propername := mascsg-anim-proper-name-word &
+[ STEM < "Axel" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Axel" ].
+
+Ayman_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ayman" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ayman" ].
+
+Ayub_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ayub" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ayub" ].
+
+Balder_propername := mascsg-anim-proper-name-word &
+[ STEM < "Balder" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Balder" ].
+
+Bartosz_propername := mascsg-anim-proper-name-word &
+[ STEM < "Bartosz" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Bartosz" ].
+
+Bastian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Bastian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Bastian" ].
+
+Bendik_propername := mascsg-anim-proper-name-word &
+[ STEM < "Bendik" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Bendik" ].
+
+Benjamin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Benjamin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Benjamin" ].
+
+Bernhard_propername := mascsg-anim-proper-name-word &
+[ STEM < "Bernhard" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Bernhard" ].
+
+Bilal_propername := mascsg-anim-proper-name-word &
+[ STEM < "Bilal" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Bilal" ].
+
+Birk_propername := mascsg-anim-proper-name-word &
+[ STEM < "Birk" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Birk" ].
+
+Bjarne_propername := mascsg-anim-proper-name-word &
+[ STEM < "Bjarne" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Bjarne" ].
+
+Bjørn_propername := mascsg-anim-proper-name-word &
+[ STEM < "Bjørn" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Bjørn" ].
+
+Bjørnar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Bjørnar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Bjørnar" ].
+
+Bo_propername := mascsg-anim-proper-name-word &
+[ STEM < "Bo" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Bo" ].
+
+Brage_propername := mascsg-anim-proper-name-word &
+[ STEM < "Brage" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Brage" ].
+
+Brede_propername := mascsg-anim-proper-name-word &
+[ STEM < "Brede" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Brede" ].
+
+Brian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Brian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Brian" ].
+
+Bror_propername := mascsg-anim-proper-name-word &
+[ STEM < "Bror" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Bror" ].
+
+Brynjar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Brynjar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Brynjar" ].
+
+Børge_propername := mascsg-anim-proper-name-word &
+[ STEM < "Børge" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Børge" ].
+
+Bård_propername := mascsg-anim-proper-name-word &
+[ STEM < "Bård" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Bård" ].
+
+Carl_propername := mascsg-anim-proper-name-word &
+[ STEM < "Carl" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Carl" ].
+
+Carlos_propername := mascsg-anim-proper-name-word &
+[ STEM < "Carlos" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Carlos" ].
+
+Casper_propername := mascsg-anim-proper-name-word &
+[ STEM < "Casper" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Casper" ].
+
+Caspian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Caspian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Caspian" ].
+
+Charlie_propername := mascsg-anim-proper-name-word &
+[ STEM < "Charlie" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Charlie" ].
+
+Chris_propername := mascsg-anim-proper-name-word &
+[ STEM < "Chris" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Chris" ].
+
+Chrisander_propername := mascsg-anim-proper-name-word &
+[ STEM < "Chrisander" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Chrisander" ].
+
+Christer_propername := mascsg-anim-proper-name-word &
+[ STEM < "Christer" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Christer" ].
+
+Christian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Christian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Christian" ].
+
+Christoffer_propername := mascsg-anim-proper-name-word &
+[ STEM < "Christoffer" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Christoffer" ].
+
+Christopher_propername := mascsg-anim-proper-name-word &
+[ STEM < "Christopher" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Christopher" ].
+
+Colin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Colin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Colin" ].
+
+Conrad_propername := mascsg-anim-proper-name-word &
+[ STEM < "Conrad" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Conrad" ].
+
+Cornelius_propername := mascsg-anim-proper-name-word &
+[ STEM < "Cornelius" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Cornelius" ].
+
+Dag_propername := mascsg-anim-proper-name-word &
+[ STEM < "Dag" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Dag" ].
+
+Damian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Damian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Damian" ].
+
+Dan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Dan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Dan" ].
+
+Dani_propername := mascsg-anim-proper-name-word &
+[ STEM < "Dani" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Dani" ].
+
+Daniel_propername := mascsg-anim-proper-name-word &
+[ STEM < "Daniel" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Daniel" ].
+
+Darin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Darin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Darin" ].
+
+David_propername := mascsg-anim-proper-name-word &
+[ STEM < "David" >,
+  SYNSEM.LKEYS.KEYREL.CARG "David" ].
+
+Dawid_propername := mascsg-anim-proper-name-word &
+[ STEM < "Dawid" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Dawid" ].
+
+Denis_propername := mascsg-anim-proper-name-word &
+[ STEM < "Denis" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Denis" ].
+
+Dennis_propername := mascsg-anim-proper-name-word &
+[ STEM < "Dennis" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Dennis" ].
+
+Didrik_propername := mascsg-anim-proper-name-word &
+[ STEM < "Didrik" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Didrik" ].
+
+Dominic_propername := mascsg-anim-proper-name-word &
+[ STEM < "Dominic" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Dominic" ].
+
+Dominik_propername := mascsg-anim-proper-name-word &
+[ STEM < "Dominik" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Dominik" ].
+
+Edgar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Edgar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Edgar" ].
+
+Edin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Edin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Edin" ].
+
+Edvald_propername := mascsg-anim-proper-name-word &
+[ STEM < "Edvald" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Edvald" ].
+
+Edvard_propername := mascsg-anim-proper-name-word &
+[ STEM < "Edvard" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Edvard" ].
+
+Edvin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Edvin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Edvin" ].
+
+Edward_propername := mascsg-anim-proper-name-word &
+[ STEM < "Edward" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Edward" ].
+
+Edwin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Edwin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Edwin" ].
+
+Egil_propername := mascsg-anim-proper-name-word &
+[ STEM < "Egil" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Egil" ].
+
+Eilif_propername := mascsg-anim-proper-name-word &
+[ STEM < "Eilif" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Eilif" ].
+
+Einar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Einar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Einar" ].
+
+Eirik_propername := mascsg-anim-proper-name-word &
+[ STEM < "Eirik" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Eirik" ].
+
+Eivind_propername := mascsg-anim-proper-name-word &
+[ STEM < "Eivind" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Eivind" ].
+
+Eldar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Eldar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Eldar" ].
+
+Eliah_propername := mascsg-anim-proper-name-word &
+[ STEM < "Eliah" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Eliah" ].
+
+Elias_propername := mascsg-anim-proper-name-word &
+[ STEM < "Elias" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Elias" ].
+
+Elliot_propername := mascsg-anim-proper-name-word &
+[ STEM < "Elliot" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Elliot" ].
+
+Elliott_propername := mascsg-anim-proper-name-word &
+[ STEM < "Elliott" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Elliott" ].
+
+Emanuel_propername := mascsg-anim-proper-name-word &
+[ STEM < "Emanuel" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Emanuel" ].
+
+Emil_propername := mascsg-anim-proper-name-word &
+[ STEM < "Emil" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Emil" ].
+
+Emilian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Emilian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Emilian" ].
+
+Emilio_propername := mascsg-anim-proper-name-word &
+[ STEM < "Emilio" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Emilio" ].
+
+Emir_propername := mascsg-anim-proper-name-word &
+[ STEM < "Emir" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Emir" ].
+
+Emre_propername := mascsg-anim-proper-name-word &
+[ STEM < "Emre" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Emre" ].
+
+Emrik_propername := mascsg-anim-proper-name-word &
+[ STEM < "Emrik" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Emrik" ].
+
+Endre_propername := mascsg-anim-proper-name-word &
+[ STEM < "Endre" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Endre" ].
+
+Eren_propername := mascsg-anim-proper-name-word &
+[ STEM < "Eren" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Eren" ].
+
+Eric_propername := mascsg-anim-proper-name-word &
+[ STEM < "Eric" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Eric" ].
+
+Erik_propername := mascsg-anim-proper-name-word &
+[ STEM < "Erik" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Erik" ].
+
+;; found in lexicon lex4.propn2
+;;Erlend_propername := mascsg-anim-proper-name-word &
+;;  [ STEM < "Erlend" >,
+;;  SYNSEM.LKEYS.KEYREL.CARG "Erlend" ].
+
+Erling_propername := mascsg-anim-proper-name-word &
+[ STEM < "Erling" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Erling" ].
+
+Eskil_propername := mascsg-anim-proper-name-word &
+[ STEM < "Eskil" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Eskil" ].
+
+Eskild_propername := mascsg-anim-proper-name-word &
+[ STEM < "Eskild" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Eskild" ].
+
+Espen_propername := mascsg-anim-proper-name-word &
+[ STEM < "Espen" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Espen" ].
+
+Evan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Evan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Evan" ].
+
+Even_propername := mascsg-anim-proper-name-word &
+[ STEM < "Even" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Even" ].
+
+Fabian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Fabian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Fabian" ].
+
+Falk_propername := mascsg-anim-proper-name-word &
+[ STEM < "Falk" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Falk" ].
+
+Felix_propername := mascsg-anim-proper-name-word &
+[ STEM < "Felix" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Felix" ].
+
+Ferdinand_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ferdinand" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ferdinand" ].
+
+Filip_propername := mascsg-anim-proper-name-word &
+[ STEM < "Filip" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Filip" ].
+
+Fillip_propername := mascsg-anim-proper-name-word &
+[ STEM < "Fillip" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Fillip" ].
+
+Finn_propername := mascsg-anim-proper-name-word &
+[ STEM < "Finn" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Finn" ].
+
+Franciszek_propername := mascsg-anim-proper-name-word &
+[ STEM < "Franciszek" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Franciszek" ].
+
+;; found in lexicon lex4.propn2
+;;Frank_propername := mascsg-anim-proper-name-word &
+;;  [ STEM < "Frank" >,
+;;  SYNSEM.LKEYS.KEYREL.CARG "Frank" ].
+
+Frederik_propername := mascsg-anim-proper-name-word &
+[ STEM < "Frederik" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Frederik" ].
+
+Fredrick_propername := mascsg-anim-proper-name-word &
+[ STEM < "Fredrick" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Fredrick" ].
+
+Fredrik_propername := mascsg-anim-proper-name-word &
+[ STEM < "Fredrik" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Fredrik" ].
+
+Gabriel_propername := mascsg-anim-proper-name-word &
+[ STEM < "Gabriel" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Gabriel" ].
+
+Gard_propername := mascsg-anim-proper-name-word &
+[ STEM < "Gard" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Gard" ].
+
+Gaute_propername := mascsg-anim-proper-name-word &
+[ STEM < "Gaute" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Gaute" ].
+
+Geir_propername := mascsg-anim-proper-name-word &
+[ STEM < "Geir" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Geir" ].
+
+Georg_propername := mascsg-anim-proper-name-word &
+[ STEM < "Georg" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Georg" ].
+
+Gjermund_propername := mascsg-anim-proper-name-word &
+[ STEM < "Gjermund" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Gjermund" ].
+
+Glenn_propername := mascsg-anim-proper-name-word &
+[ STEM < "Glenn" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Glenn" ].
+
+Gunnar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Gunnar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Gunnar" ].
+
+Gustav_propername := mascsg-anim-proper-name-word &
+[ STEM < "Gustav" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Gustav" ].
+
+Gøran_propername := mascsg-anim-proper-name-word &
+[ STEM < "Gøran" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Gøran" ].
+
+Haakon_propername := mascsg-anim-proper-name-word &
+[ STEM < "Haakon" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Haakon" ].
+
+Hallvard_propername := mascsg-anim-proper-name-word &
+[ STEM < "Hallvard" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Hallvard" ].
+
+Halvard_propername := mascsg-anim-proper-name-word &
+[ STEM < "Halvard" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Halvard" ].
+
+Halvor_propername := mascsg-anim-proper-name-word &
+[ STEM < "Halvor" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Halvor" ].
+
+Hamza_propername := mascsg-anim-proper-name-word &
+[ STEM < "Hamza" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Hamza" ].
+
+Hans_propername := mascsg-anim-proper-name-word &
+[ STEM < "Hans" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Hans" ].
+
+;; found in lexicon lex4.propn1
+;;Harald_propername := mascsg-anim-proper-name-word &
+;;  [ STEM < "Harald" >,
+;;  SYNSEM.LKEYS.KEYREL.CARG "Harald" ].
+
+Hasan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Hasan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Hasan" ].
+
+Hassan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Hassan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Hassan" ].
+
+Hauk_propername := mascsg-anim-proper-name-word &
+[ STEM < "Hauk" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Hauk" ].
+
+Heine_propername := mascsg-anim-proper-name-word &
+[ STEM < "Heine" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Heine" ].
+
+Helge_propername := mascsg-anim-proper-name-word &
+[ STEM < "Helge" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Helge" ].
+
+Helmer_propername := mascsg-anim-proper-name-word &
+[ STEM < "Helmer" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Helmer" ].
+
+Henning_propername := mascsg-anim-proper-name-word &
+[ STEM < "Henning" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Henning" ].
+
+Henrik_propername := mascsg-anim-proper-name-word &
+[ STEM < "Henrik" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Henrik" ].
+
+Henry_propername := mascsg-anim-proper-name-word &
+[ STEM < "Henry" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Henry" ].
+
+;; found in lexicon lex4.propn2
+;;Herman_propername := mascsg-anim-proper-name-word &
+;;  [ STEM < "Herman" >,
+;;  SYNSEM.LKEYS.KEYREL.CARG "Herman" ].
+
+Hermann_propername := mascsg-anim-proper-name-word &
+[ STEM < "Hermann" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Hermann" ].
+
+Hugo_propername := mascsg-anim-proper-name-word &
+[ STEM < "Hugo" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Hugo" ].
+
+Hussein_propername := mascsg-anim-proper-name-word &
+[ STEM < "Hussein" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Hussein" ].
+
+Håkon_propername := mascsg-anim-proper-name-word &
+[ STEM < "Håkon" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Håkon" ].
+
+Håvar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Håvar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Håvar" ].
+
+Håvard_propername := mascsg-anim-proper-name-word &
+[ STEM < "Håvard" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Håvard" ].
+
+Ian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ian" ].
+
+Iben_propername := mascsg-anim-proper-name-word &
+[ STEM < "Iben" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Iben" ].
+
+Ibrahim_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ibrahim" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ibrahim" ].
+
+Ilyas_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ilyas" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ilyas" ].
+
+Imran_propername := mascsg-anim-proper-name-word &
+[ STEM < "Imran" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Imran" ].
+
+Imre_propername := mascsg-anim-proper-name-word &
+[ STEM < "Imre" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Imre" ].
+
+Ingmar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ingmar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ingmar" ].
+
+Isa_propername := mascsg-anim-proper-name-word &
+[ STEM < "Isa" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Isa" ].
+
+Isaac_propername := mascsg-anim-proper-name-word &
+[ STEM < "Isaac" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Isaac" ].
+
+Isac_propername := mascsg-anim-proper-name-word &
+[ STEM < "Isac" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Isac" ].
+
+Isak_propername := mascsg-anim-proper-name-word &
+[ STEM < "Isak" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Isak" ].
+
+Ismail_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ismail" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ismail" ].
+
+Ivan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ivan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ivan" ].
+
+Ivar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ivar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ivar" ].
+
+;; found in lexicon lex4.propn2
+;;Iver_propername := mascsg-anim-proper-name-word &
+;;  [ STEM < "Iver" >,
+;;  SYNSEM.LKEYS.KEYREL.CARG "Iver" ].
+
+Ivo_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ivo" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ivo" ].
+
+Jack_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jack" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jack" ].
+
+Jacob_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jacob" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jacob" ].
+
+Jakob_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jakob" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jakob" ].
+
+Jakub_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jakub" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jakub" ].
+
+James_propername := mascsg-anim-proper-name-word &
+[ STEM < "James" >,
+  SYNSEM.LKEYS.KEYREL.CARG "James" ].
+
+Jamie_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jamie" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jamie" ].
+
+Jan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jan" ].
+
+Jaran_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jaran" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jaran" ].
+
+Jarand_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jarand" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jarand" ].
+
+Jarle_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jarle" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jarle" ].
+
+Jasper_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jasper" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jasper" ].
+
+Jayden_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jayden" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jayden" ].
+
+;; found in lexicon lex1.close
+;;Jens_propername := mascsg-anim-proper-name-word &
+;;  [ STEM < "Jens" >,
+;;  SYNSEM.LKEYS.KEYREL.CARG "Jens" ].
+
+Jeppe_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jeppe" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jeppe" ].
+
+Jesper_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jesper" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jesper" ].
+
+Jim_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jim" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jim" ].
+
+Jimmy_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jimmy" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jimmy" ].
+
+Jo_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jo" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jo" ].
+
+Joachim_propername := mascsg-anim-proper-name-word &
+[ STEM < "Joachim" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Joachim" ].
+
+Joakim_propername := mascsg-anim-proper-name-word &
+[ STEM < "Joakim" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Joakim" ].
+
+Joar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Joar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Joar" ].
+
+Joel_propername := mascsg-anim-proper-name-word &
+[ STEM < "Joel" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Joel" ].
+
+Johan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Johan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Johan" ].
+
+Johann_propername := mascsg-anim-proper-name-word &
+[ STEM < "Johann" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Johann" ].
+
+Johannes_propername := mascsg-anim-proper-name-word &
+[ STEM < "Johannes" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Johannes" ].
+
+John_propername := mascsg-anim-proper-name-word &
+[ STEM < "John" >,
+  SYNSEM.LKEYS.KEYREL.CARG "John" ].
+
+Johnny_propername := mascsg-anim-proper-name-word &
+[ STEM < "Johnny" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Johnny" ].
+
+;; found in lexicon lex1.close
+;;Jon_propername := mascsg-anim-proper-name-word &
+;;  [ STEM < "Jon" >,
+;;  SYNSEM.LKEYS.KEYREL.CARG "Jon" ].
+
+Jonah_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jonah" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jonah" ].
+
+Jonas_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jonas" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jonas" ].
+
+Jonatan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jonatan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jonatan" ].
+
+Jonathan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jonathan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jonathan" ].
+
+Jone_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jone" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jone" ].
+
+Josef_propername := mascsg-anim-proper-name-word &
+[ STEM < "Josef" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Josef" ].
+
+Joseph_propername := mascsg-anim-proper-name-word &
+[ STEM < "Joseph" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Joseph" ].
+
+Joshua_propername := mascsg-anim-proper-name-word &
+[ STEM < "Joshua" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Joshua" ].
+
+Jostein_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jostein" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jostein" ].
+
+Julian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Julian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Julian" ].
+
+Julius_propername := mascsg-anim-proper-name-word &
+[ STEM < "Julius" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Julius" ].
+
+Justin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Justin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Justin" ].
+
+Jøran_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jøran" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jøran" ].
+
+Jørgen_propername := mascsg-anim-proper-name-word &
+[ STEM < "Jørgen" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Jørgen" ].
+
+Kacper_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kacper" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kacper" ].
+
+Kai_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kai" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kai" ].
+
+Kajus_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kajus" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kajus" ].
+
+Kamil_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kamil" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kamil" ].
+
+Karl_propername := mascsg-anim-proper-name-word &
+[ STEM < "Karl" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Karl" ].
+
+Karsten_propername := mascsg-anim-proper-name-word &
+[ STEM < "Karsten" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Karsten" ].
+
+Kaspar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kaspar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kaspar" ].
+
+Kasper_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kasper" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kasper" ].
+
+Kaspian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kaspian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kaspian" ].
+
+;; found in lexicon lex4.propn2
+;;Ken_propername := mascsg-anim-proper-name-word &
+;;  [ STEM < "Ken" >,
+;;  SYNSEM.LKEYS.KEYREL.CARG "Ken" ].
+
+Kenan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kenan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kenan" ].
+
+Kenneth_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kenneth" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kenneth" ].
+
+Kent_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kent" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kent" ].
+
+Kevin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kevin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kevin" ].
+
+Khalid_propername := mascsg-anim-proper-name-word &
+[ STEM < "Khalid" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Khalid" ].
+
+Kian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kian" ].
+
+Kim_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kim" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kim" ].
+
+Kjell_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kjell" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kjell" ].
+
+Kjetil_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kjetil" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kjetil" ].
+
+Knut_propername := mascsg-anim-proper-name-word &
+[ STEM < "Knut" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Knut" ].
+
+Konrad_propername := mascsg-anim-proper-name-word &
+[ STEM < "Konrad" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Konrad" ].
+
+Kornelius_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kornelius" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kornelius" ].
+
+Krister_propername := mascsg-anim-proper-name-word &
+[ STEM < "Krister" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Krister" ].
+
+Kristian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kristian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kristian" ].
+
+Kristoffer_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kristoffer" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kristoffer" ].
+
+Krystian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Krystian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Krystian" ].
+
+Kyrre_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kyrre" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kyrre" ].
+
+Kåre_propername := mascsg-anim-proper-name-word &
+[ STEM < "Kåre" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Kåre" ].
+
+;; found in lexicon lex4.propn2
+;;Lars_propername := mascsg-anim-proper-name-word &
+;;  [ STEM < "Lars" >,
+;;  SYNSEM.LKEYS.KEYREL.CARG "Lars" ].
+
+Lasse_propername := mascsg-anim-proper-name-word &
+[ STEM < "Lasse" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Lasse" ].
+
+Laurits_propername := mascsg-anim-proper-name-word &
+[ STEM < "Laurits" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Laurits" ].
+
+Lauritz_propername := mascsg-anim-proper-name-word &
+[ STEM < "Lauritz" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Lauritz" ].
+
+Lavrans_propername := mascsg-anim-proper-name-word &
+[ STEM < "Lavrans" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Lavrans" ].
+
+Leander_propername := mascsg-anim-proper-name-word &
+[ STEM < "Leander" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Leander" ].
+
+Leif_propername := mascsg-anim-proper-name-word &
+[ STEM < "Leif" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Leif" ].
+
+Leo_propername := mascsg-anim-proper-name-word &
+[ STEM < "Leo" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Leo" ].
+
+Leon_propername := mascsg-anim-proper-name-word &
+[ STEM < "Leon" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Leon" ].
+
+Leonard_propername := mascsg-anim-proper-name-word &
+[ STEM < "Leonard" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Leonard" ].
+
+Leonardo_propername := mascsg-anim-proper-name-word &
+[ STEM < "Leonardo" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Leonardo" ].
+
+Levi_propername := mascsg-anim-proper-name-word &
+[ STEM < "Levi" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Levi" ].
+
+Liam_propername := mascsg-anim-proper-name-word &
+[ STEM < "Liam" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Liam" ].
+
+Linus_propername := mascsg-anim-proper-name-word &
+[ STEM < "Linus" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Linus" ].
+
+Lionel_propername := mascsg-anim-proper-name-word &
+[ STEM < "Lionel" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Lionel" ].
+
+Loke_propername := mascsg-anim-proper-name-word &
+[ STEM < "Loke" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Loke" ].
+
+Louis_propername := mascsg-anim-proper-name-word &
+[ STEM < "Louis" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Louis" ].
+
+Luca_propername := mascsg-anim-proper-name-word &
+[ STEM < "Luca" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Luca" ].
+
+Lucas_propername := mascsg-anim-proper-name-word &
+[ STEM < "Lucas" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Lucas" ].
+
+Ludvig_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ludvig" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ludvig" ].
+
+Ludvik_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ludvik" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ludvik" ].
+
+Luis_propername := mascsg-anim-proper-name-word &
+[ STEM < "Luis" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Luis" ].
+
+Luka_propername := mascsg-anim-proper-name-word &
+[ STEM < "Luka" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Luka" ].
+
+Lukas_propername := mascsg-anim-proper-name-word &
+[ STEM < "Lukas" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Lukas" ].
+
+Maciej_propername := mascsg-anim-proper-name-word &
+[ STEM < "Maciej" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Maciej" ].
+
+Mads_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mads" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mads" ].
+
+Magne_propername := mascsg-anim-proper-name-word &
+[ STEM < "Magne" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Magne" ].
+
+Magnus_propername := mascsg-anim-proper-name-word &
+[ STEM < "Magnus" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Magnus" ].
+
+Mahad_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mahad" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mahad" ].
+
+Mahamed_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mahamed" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mahamed" ].
+
+Mahdi_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mahdi" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mahdi" ].
+
+Maksymilian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Maksymilian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Maksymilian" ].
+
+Marcel_propername := mascsg-anim-proper-name-word &
+[ STEM < "Marcel" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Marcel" ].
+
+Marco_propername := mascsg-anim-proper-name-word &
+[ STEM < "Marco" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Marco" ].
+
+Marcus_propername := mascsg-anim-proper-name-word &
+[ STEM < "Marcus" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Marcus" ].
+
+Mario_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mario" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mario" ].
+
+Marius_propername := mascsg-anim-proper-name-word &
+[ STEM < "Marius" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Marius" ].
+
+Markus_propername := mascsg-anim-proper-name-word &
+[ STEM < "Markus" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Markus" ].
+
+Martin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Martin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Martin" ].
+
+Martinius_propername := mascsg-anim-proper-name-word &
+[ STEM < "Martinius" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Martinius" ].
+
+Martinus_propername := mascsg-anim-proper-name-word &
+[ STEM < "Martinus" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Martinus" ].
+
+Matas_propername := mascsg-anim-proper-name-word &
+[ STEM < "Matas" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Matas" ].
+
+Mateo_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mateo" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mateo" ].
+
+Mateusz_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mateusz" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mateusz" ].
+
+Matheo_propername := mascsg-anim-proper-name-word &
+[ STEM < "Matheo" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Matheo" ].
+
+Matheus_propername := mascsg-anim-proper-name-word &
+[ STEM < "Matheus" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Matheus" ].
+
+Mathias_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mathias" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mathias" ].
+
+Matias_propername := mascsg-anim-proper-name-word &
+[ STEM < "Matias" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Matias" ].
+
+Mats_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mats" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mats" ].
+
+Matteo_propername := mascsg-anim-proper-name-word &
+[ STEM < "Matteo" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Matteo" ].
+
+Matteus_propername := mascsg-anim-proper-name-word &
+[ STEM < "Matteus" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Matteus" ].
+
+Matthew_propername := mascsg-anim-proper-name-word &
+[ STEM < "Matthew" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Matthew" ].
+
+Mattias_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mattias" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mattias" ].
+
+Mattis_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mattis" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mattis" ].
+
+Max_propername := mascsg-anim-proper-name-word &
+[ STEM < "Max" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Max" ].
+
+Maxim_propername := mascsg-anim-proper-name-word &
+[ STEM < "Maxim" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Maxim" ].
+
+Maximilian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Maximilian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Maximilian" ].
+
+Maximillian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Maximillian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Maximillian" ].
+
+Melvin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Melvin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Melvin" ].
+
+Michael_propername := mascsg-anim-proper-name-word &
+[ STEM < "Michael" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Michael" ].
+
+Michal_propername := mascsg-anim-proper-name-word &
+[ STEM < "Michal" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Michal" ].
+
+Mika_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mika" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mika" ].
+
+Mikael_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mikael" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mikael" ].
+
+Mikail_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mikail" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mikail" ].
+
+Mikal_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mikal" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mikal" ].
+
+Mikkel_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mikkel" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mikkel" ].
+
+Mikolaj_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mikolaj" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mikolaj" ].
+
+Milan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Milan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Milan" ].
+
+Milian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Milian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Milian" ].
+
+Milo_propername := mascsg-anim-proper-name-word &
+[ STEM < "Milo" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Milo" ].
+
+Mio_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mio" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mio" ].
+
+Mohamed_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mohamed" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mohamed" ].
+
+Mohammad_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mohammad" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mohammad" ].
+
+Mohammed_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mohammed" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mohammed" ].
+
+Mons_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mons" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mons" ].
+
+Morgan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Morgan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Morgan" ].
+
+Morten_propername := mascsg-anim-proper-name-word &
+[ STEM < "Morten" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Morten" ].
+
+Muhammad_propername := mascsg-anim-proper-name-word &
+[ STEM < "Muhammad" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Muhammad" ].
+
+Muhammed_propername := mascsg-anim-proper-name-word &
+[ STEM < "Muhammed" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Muhammed" ].
+
+Mustafa_propername := mascsg-anim-proper-name-word &
+[ STEM < "Mustafa" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Mustafa" ].
+
+Natan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Natan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Natan" ].
+
+Nataniel_propername := mascsg-anim-proper-name-word &
+[ STEM < "Nataniel" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Nataniel" ].
+
+Nathan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Nathan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Nathan" ].
+
+Nathaniel_propername := mascsg-anim-proper-name-word &
+[ STEM < "Nathaniel" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Nathaniel" ].
+
+Neo_propername := mascsg-anim-proper-name-word &
+[ STEM < "Neo" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Neo" ].
+
+Nichlas_propername := mascsg-anim-proper-name-word &
+[ STEM < "Nichlas" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Nichlas" ].
+
+Nicholas_propername := mascsg-anim-proper-name-word &
+[ STEM < "Nicholas" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Nicholas" ].
+
+Nicklas_propername := mascsg-anim-proper-name-word &
+[ STEM < "Nicklas" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Nicklas" ].
+
+Nickolai_propername := mascsg-anim-proper-name-word &
+[ STEM < "Nickolai" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Nickolai" ].
+
+Niclas_propername := mascsg-anim-proper-name-word &
+[ STEM < "Niclas" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Niclas" ].
+
+Nico_propername := mascsg-anim-proper-name-word &
+[ STEM < "Nico" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Nico" ].
+
+Nicolai_propername := mascsg-anim-proper-name-word &
+[ STEM < "Nicolai" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Nicolai" ].
+
+Nicolas_propername := mascsg-anim-proper-name-word &
+[ STEM < "Nicolas" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Nicolas" ].
+
+Nicolay_propername := mascsg-anim-proper-name-word &
+[ STEM < "Nicolay" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Nicolay" ].
+
+Niklas_propername := mascsg-anim-proper-name-word &
+[ STEM < "Niklas" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Niklas" ].
+
+Nikolai_propername := mascsg-anim-proper-name-word &
+[ STEM < "Nikolai" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Nikolai" ].
+
+Nikolas_propername := mascsg-anim-proper-name-word &
+[ STEM < "Nikolas" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Nikolas" ].
+
+Nikolay_propername := mascsg-anim-proper-name-word &
+[ STEM < "Nikolay" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Nikolay" ].
+
+Nils_propername := mascsg-anim-proper-name-word &
+[ STEM < "Nils" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Nils" ].
+
+Njål_propername := mascsg-anim-proper-name-word &
+[ STEM < "Njål" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Njål" ].
+
+Noa_propername := mascsg-anim-proper-name-word &
+[ STEM < "Noa" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Noa" ].
+
+Noah_propername := mascsg-anim-proper-name-word &
+[ STEM < "Noah" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Noah" ].
+
+Noel_propername := mascsg-anim-proper-name-word &
+[ STEM < "Noel" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Noel" ].
+
+Nojus_propername := mascsg-anim-proper-name-word &
+[ STEM < "Nojus" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Nojus" ].
+
+Odd_propername := mascsg-anim-proper-name-word &
+[ STEM < "Odd" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Odd" ].
+
+Odin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Odin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Odin" ].
+
+;; found in lexicon lex1.close
+;;Ola_propername := mascsg-anim-proper-name-word &
+;;  [ STEM < "Ola" >,
+;;  SYNSEM.LKEYS.KEYREL.CARG "Ola" ].
+
+Olaf_propername := mascsg-anim-proper-name-word &
+[ STEM < "Olaf" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Olaf" ].
+
+Olai_propername := mascsg-anim-proper-name-word &
+[ STEM < "Olai" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Olai" ].
+
+Olander_propername := mascsg-anim-proper-name-word &
+[ STEM < "Olander" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Olander" ].
+
+Olav_propername := mascsg-anim-proper-name-word &
+[ STEM < "Olav" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Olav" ].
+
+Ole_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ole" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ole" ].
+
+Oliver_propername := mascsg-anim-proper-name-word &
+[ STEM < "Oliver" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Oliver" ].
+
+Olivier_propername := mascsg-anim-proper-name-word &
+[ STEM < "Olivier" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Olivier" ].
+
+Oliwier_propername := mascsg-anim-proper-name-word &
+[ STEM < "Oliwier" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Oliwier" ].
+
+Olve_propername := mascsg-anim-proper-name-word &
+[ STEM < "Olve" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Olve" ].
+
+Omar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Omar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Omar" ].
+
+Oscar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Oscar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Oscar" ].
+
+Oskar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Oskar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Oskar" ].
+
+Otto_propername := mascsg-anim-proper-name-word &
+[ STEM < "Otto" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Otto" ].
+
+Patrick_propername := mascsg-anim-proper-name-word &
+[ STEM < "Patrick" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Patrick" ].
+
+Patrik_propername := mascsg-anim-proper-name-word &
+[ STEM < "Patrik" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Patrik" ].
+
+Patryk_propername := mascsg-anim-proper-name-word &
+[ STEM < "Patryk" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Patryk" ].
+
+Paul_propername := mascsg-anim-proper-name-word &
+[ STEM < "Paul" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Paul" ].
+
+Peder_propername := mascsg-anim-proper-name-word &
+[ STEM < "Peder" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Peder" ].
+
+Pelle_propername := mascsg-anim-proper-name-word &
+[ STEM < "Pelle" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Pelle" ].
+
+;; found in lexicon lex1.close
+;;Per_propername := mascsg-anim-proper-name-word &
+;;  [ STEM < "Per" >,
+;;  SYNSEM.LKEYS.KEYREL.CARG "Per" ].
+
+;; found in lexicon lex4.propn2
+;;Peter_propername := mascsg-anim-proper-name-word &
+;;  [ STEM < "Peter" >,
+;;  SYNSEM.LKEYS.KEYREL.CARG "Peter" ].
+
+Petter_propername := mascsg-anim-proper-name-word &
+[ STEM < "Petter" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Petter" ].
+
+Philip_propername := mascsg-anim-proper-name-word &
+[ STEM < "Philip" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Philip" ].
+
+Phillip_propername := mascsg-anim-proper-name-word &
+[ STEM < "Phillip" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Phillip" ].
+
+Piotr_propername := mascsg-anim-proper-name-word &
+[ STEM < "Piotr" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Piotr" ].
+
+Preben_propername := mascsg-anim-proper-name-word &
+[ STEM < "Preben" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Preben" ].
+
+Pål_propername := mascsg-anim-proper-name-word &
+[ STEM < "Pål" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Pål" ].
+
+Rafael_propername := mascsg-anim-proper-name-word &
+[ STEM < "Rafael" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Rafael" ].
+
+Ragnar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ragnar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ragnar" ].
+
+Rasmus_propername := mascsg-anim-proper-name-word &
+[ STEM < "Rasmus" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Rasmus" ].
+
+Ravn_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ravn" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ravn" ].
+
+Rayan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Rayan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Rayan" ].
+
+Remi_propername := mascsg-anim-proper-name-word &
+[ STEM < "Remi" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Remi" ].
+
+Richard_propername := mascsg-anim-proper-name-word &
+[ STEM < "Richard" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Richard" ].
+
+Robert_propername := mascsg-anim-proper-name-word &
+[ STEM < "Robert" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Robert" ].
+
+Robin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Robin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Robin" ].
+
+Rolf_propername := mascsg-anim-proper-name-word &
+[ STEM < "Rolf" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Rolf" ].
+
+Ruben_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ruben" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ruben" ].
+
+Runar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Runar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Runar" ].
+
+Rune_propername := mascsg-anim-proper-name-word &
+[ STEM < "Rune" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Rune" ].
+
+Ryan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ryan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ryan" ].
+
+Said_propername := mascsg-anim-proper-name-word &
+[ STEM < "Said" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Said" ].
+
+Sakarias_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sakarias" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sakarias" ].
+
+Sam_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sam" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sam" ].
+
+Samson_propername := mascsg-anim-proper-name-word &
+[ STEM < "Samson" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Samson" ].
+
+Samuel_propername := mascsg-anim-proper-name-word &
+[ STEM < "Samuel" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Samuel" ].
+
+Sander_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sander" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sander" ].
+
+Scott_propername := mascsg-anim-proper-name-word &
+[ STEM < "Scott" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Scott" ].
+
+Sean_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sean" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sean" ].
+
+Sebastian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sebastian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sebastian" ].
+
+Selmer_propername := mascsg-anim-proper-name-word &
+[ STEM < "Selmer" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Selmer" ].
+
+Severin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Severin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Severin" ].
+
+Shawn_propername := mascsg-anim-proper-name-word &
+[ STEM < "Shawn" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Shawn" ].
+
+Sigmund_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sigmund" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sigmund" ].
+
+Sigurd_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sigurd" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sigurd" ].
+
+Sigve_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sigve" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sigve" ].
+
+Silas_propername := mascsg-anim-proper-name-word &
+[ STEM < "Silas" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Silas" ].
+
+Simen_propername := mascsg-anim-proper-name-word &
+[ STEM < "Simen" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Simen" ].
+
+Simon_propername := mascsg-anim-proper-name-word &
+[ STEM < "Simon" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Simon" ].
+
+Sindre_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sindre" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sindre" ].
+
+Sivert_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sivert" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sivert" ].
+
+Sjur_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sjur" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sjur" ].
+
+Snorre_propername := mascsg-anim-proper-name-word &
+[ STEM < "Snorre" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Snorre" ].
+
+Sofus_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sofus" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sofus" ].
+
+Solan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Solan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Solan" ].
+
+Sondre_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sondre" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sondre" ].
+
+Stefan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Stefan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Stefan" ].
+
+Steffen_propername := mascsg-anim-proper-name-word &
+[ STEM < "Steffen" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Steffen" ].
+
+Stein_propername := mascsg-anim-proper-name-word &
+[ STEM < "Stein" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Stein" ].
+
+Steinar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Steinar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Steinar" ].
+
+Stian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Stian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Stian" ].
+
+Stig_propername := mascsg-anim-proper-name-word &
+[ STEM < "Stig" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Stig" ].
+
+Storm_propername := mascsg-anim-proper-name-word &
+[ STEM < "Storm" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Storm" ].
+
+Sturla_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sturla" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sturla" ].
+
+Sune_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sune" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sune" ].
+
+Svein_propername := mascsg-anim-proper-name-word &
+[ STEM < "Svein" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Svein" ].
+
+Sveinung_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sveinung" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sveinung" ].
+
+Sven_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sven" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sven" ].
+
+Sverre_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sverre" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sverre" ].
+
+Syed_propername := mascsg-anim-proper-name-word &
+[ STEM < "Syed" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Syed" ].
+
+Syver_propername := mascsg-anim-proper-name-word &
+[ STEM < "Syver" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Syver" ].
+
+Sølve_propername := mascsg-anim-proper-name-word &
+[ STEM < "Sølve" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Sølve" ].
+
+Szymon_propername := mascsg-anim-proper-name-word &
+[ STEM < "Szymon" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Szymon" ].
+
+Tage_propername := mascsg-anim-proper-name-word &
+[ STEM < "Tage" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Tage" ].
+
+Taha_propername := mascsg-anim-proper-name-word &
+[ STEM < "Taha" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Taha" ].
+
+Tallak_propername := mascsg-anim-proper-name-word &
+[ STEM < "Tallak" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Tallak" ].
+
+Tarald_propername := mascsg-anim-proper-name-word &
+[ STEM < "Tarald" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Tarald" ].
+
+Tarik_propername := mascsg-anim-proper-name-word &
+[ STEM < "Tarik" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Tarik" ].
+
+Tarjei_propername := mascsg-anim-proper-name-word &
+[ STEM < "Tarjei" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Tarjei" ].
+
+Teo_propername := mascsg-anim-proper-name-word &
+[ STEM < "Teo" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Teo" ].
+
+Teodor_propername := mascsg-anim-proper-name-word &
+[ STEM < "Teodor" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Teodor" ].
+
+Terje_propername := mascsg-anim-proper-name-word &
+[ STEM < "Terje" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Terje" ].
+
+Theo_propername := mascsg-anim-proper-name-word &
+[ STEM < "Theo" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Theo" ].
+
+Theodor_propername := mascsg-anim-proper-name-word &
+[ STEM < "Theodor" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Theodor" ].
+
+Thomas_propername := mascsg-anim-proper-name-word &
+[ STEM < "Thomas" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Thomas" ].
+
+Thor_propername := mascsg-anim-proper-name-word &
+[ STEM < "Thor" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Thor" ].
+
+Thorbjørn_propername := mascsg-anim-proper-name-word &
+[ STEM < "Thorbjørn" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Thorbjørn" ].
+
+Thorvald_propername := mascsg-anim-proper-name-word &
+[ STEM < "Thorvald" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Thorvald" ].
+
+Tian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Tian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Tian" ].
+
+Tim_propername := mascsg-anim-proper-name-word &
+[ STEM < "Tim" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Tim" ].
+
+Timian_propername := mascsg-anim-proper-name-word &
+[ STEM < "Timian" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Timian" ].
+
+Tinius_propername := mascsg-anim-proper-name-word &
+[ STEM < "Tinius" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Tinius" ].
+
+;; found in lexicon lex4.propn2
+;;Tobias_propername := mascsg-anim-proper-name-word &
+;;  [ STEM < "Tobias" >,
+;;  SYNSEM.LKEYS.KEYREL.CARG "Tobias" ].
+
+Tom_propername := mascsg-anim-proper-name-word &
+[ STEM < "Tom" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Tom" ].
+
+Tomas_propername := mascsg-anim-proper-name-word &
+[ STEM < "Tomas" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Tomas" ].
+
+Tommy_propername := mascsg-anim-proper-name-word &
+[ STEM < "Tommy" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Tommy" ].
+
+Tony_propername := mascsg-anim-proper-name-word &
+[ STEM < "Tony" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Tony" ].
+
+Tor_propername := mascsg-anim-proper-name-word &
+[ STEM < "Tor" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Tor" ].
+
+Torben_propername := mascsg-anim-proper-name-word &
+[ STEM < "Torben" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Torben" ].
+
+Torbjørn_propername := mascsg-anim-proper-name-word &
+[ STEM < "Torbjørn" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Torbjørn" ].
+
+Tord_propername := mascsg-anim-proper-name-word &
+[ STEM < "Tord" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Tord" ].
+
+Tore_propername := mascsg-anim-proper-name-word &
+[ STEM < "Tore" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Tore" ].
+
+Torgeir_propername := mascsg-anim-proper-name-word &
+[ STEM < "Torgeir" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Torgeir" ].
+
+Torje_propername := mascsg-anim-proper-name-word &
+[ STEM < "Torje" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Torje" ].
+
+Torjus_propername := mascsg-anim-proper-name-word &
+[ STEM < "Torjus" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Torjus" ].
+
+Tormod_propername := mascsg-anim-proper-name-word &
+[ STEM < "Tormod" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Tormod" ].
+
+Torstein_propername := mascsg-anim-proper-name-word &
+[ STEM < "Torstein" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Torstein" ].
+
+Tristan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Tristan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Tristan" ].
+
+Trond_propername := mascsg-anim-proper-name-word &
+[ STEM < "Trond" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Trond" ].
+
+Troy_propername := mascsg-anim-proper-name-word &
+[ STEM < "Troy" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Troy" ].
+
+Truls_propername := mascsg-anim-proper-name-word &
+[ STEM < "Truls" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Truls" ].
+
+Trygve_propername := mascsg-anim-proper-name-word &
+[ STEM < "Trygve" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Trygve" ].
+
+Trym_propername := mascsg-anim-proper-name-word &
+[ STEM < "Trym" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Trym" ].
+
+Ulrik_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ulrik" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ulrik" ].
+
+Varg_propername := mascsg-anim-proper-name-word &
+[ STEM < "Varg" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Varg" ].
+
+Vebjørn_propername := mascsg-anim-proper-name-word &
+[ STEM < "Vebjørn" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Vebjørn" ].
+
+Vegar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Vegar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Vegar" ].
+
+Vegard_propername := mascsg-anim-proper-name-word &
+[ STEM < "Vegard" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Vegard" ].
+
+Vemund_propername := mascsg-anim-proper-name-word &
+[ STEM < "Vemund" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Vemund" ].
+
+Vetle_propername := mascsg-anim-proper-name-word &
+[ STEM < "Vetle" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Vetle" ].
+
+Victor_propername := mascsg-anim-proper-name-word &
+[ STEM < "Victor" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Victor" ].
+
+Vidar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Vidar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Vidar" ].
+
+Viktor_propername := mascsg-anim-proper-name-word &
+[ STEM < "Viktor" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Viktor" ].
+
+Vilhelm_propername := mascsg-anim-proper-name-word &
+[ STEM < "Vilhelm" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Vilhelm" ].
+
+Viljar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Viljar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Viljar" ].
+
+Vilmer_propername := mascsg-anim-proper-name-word &
+[ STEM < "Vilmer" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Vilmer" ].
+
+Vincent_propername := mascsg-anim-proper-name-word &
+[ STEM < "Vincent" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Vincent" ].
+
+Vinjar_propername := mascsg-anim-proper-name-word &
+[ STEM < "Vinjar" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Vinjar" ].
+
+Wiktor_propername := mascsg-anim-proper-name-word &
+[ STEM < "Wiktor" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Wiktor" ].
+
+Wilhelm_propername := mascsg-anim-proper-name-word &
+[ STEM < "Wilhelm" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Wilhelm" ].
+
+William_propername := mascsg-anim-proper-name-word &
+[ STEM < "William" >,
+  SYNSEM.LKEYS.KEYREL.CARG "William" ].
+
+Wilmer_propername := mascsg-anim-proper-name-word &
+[ STEM < "Wilmer" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Wilmer" ].
+
+Yahya_propername := mascsg-anim-proper-name-word &
+[ STEM < "Yahya" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Yahya" ].
+
+Yasin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Yasin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Yasin" ].
+
+Yassin_propername := mascsg-anim-proper-name-word &
+[ STEM < "Yassin" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Yassin" ].
+
+Yngve_propername := mascsg-anim-proper-name-word &
+[ STEM < "Yngve" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Yngve" ].
+
+Yosef_propername := mascsg-anim-proper-name-word &
+[ STEM < "Yosef" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Yosef" ].
+
+Younes_propername := mascsg-anim-proper-name-word &
+[ STEM < "Younes" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Younes" ].
+
+Yousef_propername := mascsg-anim-proper-name-word &
+[ STEM < "Yousef" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Yousef" ].
+
+Yusuf_propername := mascsg-anim-proper-name-word &
+[ STEM < "Yusuf" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Yusuf" ].
+
+Ørjan_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ørjan" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ørjan" ].
+
+Øystein_propername := mascsg-anim-proper-name-word &
+[ STEM < "Øystein" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Øystein" ].
+
+Øyvind_propername := mascsg-anim-proper-name-word &
+[ STEM < "Øyvind" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Øyvind" ].
+
+Ådne_propername := mascsg-anim-proper-name-word &
+[ STEM < "Ådne" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Ådne" ].
+
+Åsmund_propername := mascsg-anim-proper-name-word &
+[ STEM < "Åsmund" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Åsmund" ].
+
+Zakaria_propername := mascsg-anim-proper-name-word &
+[ STEM < "Zakaria" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Zakaria" ].
+
+Zander_propername := mascsg-anim-proper-name-word &
+[ STEM < "Zander" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Zander" ].
+

@@ -1,0 +1,394 @@
+
+;;; -*- Coding: utf-8; -*-
+
+;; CLAUSE LEVEL
+
+Gutten sover
+Gutten vil sove
+Gutten vil kunne sove
+Gutten vil måtte kunne sove
+Gutten har sovet
+Gutten blir skutt
+Gutten har blitt skutt
+Gutten vil ha blitt skutt
+Gutten vil ha kunnet bli skutt
+Gutten vil ha skullet kunne bli skutt
+Gutten vil skulle kunne ha måttet bli skutt
+Gutten vil ikke sove
+Gutten vil ikke kunne sove
+Gutten vil ikke måtte kunne sove
+Gutten har ikke sovet
+Gutten blir ikke skutt
+Gutten har ikke blitt skutt
+Gutten vil ikke ha blitt skutt
+Gutten vil ikke ha kunnet bli skutt
+Gutten vil ikke ha skullet kunne bli skutt
+Gutten vil ikke skulle kunne ha måttet bli skutt
+Gutten vil snart ikke sove
+Gutten vil snart ikke kunne sove
+Gutten vil snart ikke måtte kunne sove
+Gutten har snart ikke sovet
+Gutten blir trolig ikke skutt
+Gutten har trolig ikke blitt skutt
+Gutten vil trolig ikke ha blitt skutt
+Gutten vil trolig ikke ha kunnet bli skutt
+Gutten vil trolig ikke ha skullet kunne bli skutt
+Gutten vil trolig ikke skulle kunne ha måttet bli skutt
+sover gutten?
+vil gutten sove?
+vil gutten kunne sove?
+vil gutten måtte kunne sove?
+har gutten sovet?
+blir gutten skutt?
+har gutten blitt skutt?
+vil gutten ha blitt skutt?
+vil gutten ha kunnet bli skutt?
+vil gutten ha skullet kunne bli skutt?
+vil gutten skulle kunne ha måttet bli skutt?
+vil gutten ikke sove?
+vil ikke gutten sove?
+vil gutten ikke kunne sove?
+vil ikke gutten kunne sove?
+vil gutten ikke måtte kunne sove?
+vil ikke gutten måtte kunne sove?
+har gutten ikke sovet?
+har ikke gutten sovet?
+blir gutten ikke skutt?
+blir ikke gutten skutt?
+har gutten ikke blitt skutt?
+vil gutten ikke ha blitt skutt?
+vil gutten ikke ha kunnet bli skutt?
+vil gutten ikke ha skullet kunne bli skutt?
+vil gutten ikke skulle kunne ha måttet bli skutt?
+vil gutten snart ikke sove?
+vil ikke gutten snart sove?
+vil ikke snart gutten sove?
+vil gutten snart ikke kunne sove?
+vil gutten snart ikke måtte kunne sove?
+har gutten ikke snart sovet?
+har ikke gutten snart sovet?
+blir ikke gutten trolig skutt?
+blir trolig ikke gutten skutt?
+har trolig ikke gutten blitt skutt?
+har gutten trolig ikke blitt skutt?
+vil ikke gutten trolig ha blitt skutt?
+vil ikke trolig gutten ha kunnet bli skutt?
+vil ikke trolig gutten ha skullet kunne bli skutt?
+vil gutten ikke trolig skulle kunne ha måttet bli skutt?
+På fredag sover gutten.
+På fredag vil gutten sove.
+På fredag vil gutten kunne sove.
+På fredag vil gutten måtte kunne sove.
+På fredag har gutten sovet.
+På fredag blir gutten skutt.
+På fredag har gutten blitt skutt.
+På fredag vil gutten ha blitt skutt.
+På fredag vil gutten ha kunnet bli skutt.
+På fredag vil gutten ha skullet kunne bli skutt.
+På fredag vil gutten skulle kunne ha måttet bli skutt.
+På fredag vil gutten ikke sove.
+På fredag vil gutten ikke kunne sove.
+På fredag vil gutten ikke måtte kunne sove.
+På fredag har gutten ikke sovet.
+På fredag blir gutten ikke skutt.
+På fredag har gutten ikke blitt skutt.
+På fredag vil gutten ikke ha blitt skutt.
+På fredag vil gutten ikke ha kunnet bli skutt.
+På fredag vil gutten ikke ha skullet kunne bli skutt.
+På fredag vil gutten ikke skulle kunne ha måttet bli skutt.
+På fredag vil gutten snart ikke sove.
+På fredag vil gutten snart ikke kunne sove.
+På fredag vil gutten snart ikke måtte kunne sove.
+På fredag har gutten snart ikke sovet.
+På fredag blir gutten trolig ikke skutt.
+På fredag har gutten trolig ikke blitt skutt.
+På fredag vil gutten trolig ikke ha blitt skutt.
+På fredag vil gutten trolig ikke ha kunnet bli skutt.
+På fredag vil gutten trolig ikke ha skullet kunne bli skutt.
+;På fredag vil gutten trolig ikke skulle kunne ha måttet bli skutt.
+Jeg antar at gutten ikke vil sove
+Jeg antar at gutten ikke vil kunne sove
+Jeg antar at gutten ikke vil måtte kunne sove
+Jeg antar at gutten ikke har sovet
+Jeg antar at gutten ikke har skutt
+Jeg antar at gutten ikke har blitt skutt
+Jeg antar at gutten ikke vil ha blitt skutt
+Jeg antar at gutten ikke vil ha kunnet bli skutt
+Jeg antar at gutten ikke vil ha skullet kunne bli skutt
+Jeg antar at gutten ikke vil skulle kunne ha måttet bli skutt
+Jeg antar at gutten snart ikke vil sove
+Jeg antar at gutten snart ikke vil kunne sove
+Jeg antar at gutten snart ikke vil måtte kunne sove
+Jeg antar at gutten i lang tid ikke har sovet
+Jeg antar at gutten trolig ikke blir skutt
+Jeg antar at gutten trolig ikke har blitt skutt
+Jeg antar at gutten trolig ikke vil ha blitt skutt
+Jeg antar at gutten trolig ikke vil ha kunnet bli skutt
+Jeg antar at gutten trolig ikke vil ha skullet kunne bli skutt
+Jeg antar at gutten trolig ikke vil skulle kunne ha måttet bli skutt
+Jeg gjetter hvem gutten ikke vil treffe
+Jeg gjetter hvem gutten ikke vil kunne treffe
+Jeg gjetter hvem gutten ikke vil måtte kunne treffe
+Jeg gjetter hvem gutten ikke har truffet
+Jeg gjetter hvem gutten ikke har skutt
+Jeg gjetter hva gutten ikke har blitt gitt
+Jeg gjetter hva gutten ikke vil ha blitt gitt
+Jeg gjetter hva gutten ikke vil ha kunnet bli gitt
+Jeg gjetter hva gutten ikke vil ha skullet kunne bli gitt
+Jeg gjetter hva gutten ikke vil skulle kunne ha måttet bli gitt
+Jeg gjetter hvem gutten snart ikke vil treffe
+Jeg gjetter hvem gutten snart ikke vil kunne treffe
+Jeg gjetter hvem gutten snart ikke vil måtte kunne treffe
+;Jeg gjetter hvem gutten i lang tid ikke har truffet
+Jeg gjetter hva gutten trolig ikke blir overlatt
+Jeg gjetter hva gutten trolig ikke har blitt overlatt
+Jeg gjetter hva gutten trolig ikke vil ha blitt overlatt
+Jeg gjetter hva gutten trolig ikke vil ha kunnet bli overlatt
+Jeg gjetter hva gutten trolig ikke vil ha skullet kunne bli overlatt
+Jeg gjetter hva gutten trolig ikke vil skulle kunne ha måttet bli overlatt
+Jeg vet hvem som ikke vil sove
+Jeg vet hvem som ikke vil kunne sove
+Jeg vet hvem som ikke vil måtte kunne sove
+Jeg vet hvem som ikke har sovet
+Jeg vet hvem som ikke har skutt
+Jeg vet hvem som ikke har blitt skutt
+Jeg vet hvem som ikke vil ha blitt skutt
+Jeg vet hvem som ikke vil ha kunnet bli skutt
+Jeg vet hvem som ikke vil ha skullet kunne bli skutt
+Jeg vet hvem som ikke vil skulle kunne ha måttet bli skutt
+Jeg vet hvem som snart ikke vil sove
+Jeg vet hvem som snart ikke vil kunne sove
+Jeg vet hvem som snart ikke vil måtte kunne sove
+Jeg vet hvem som i lang tid ikke har sovet
+Jeg vet hvem som trolig ikke blir skutt
+Jeg vet hvem som trolig ikke har blitt skutt
+Jeg vet hvem som trolig ikke vil ha blitt skutt
+Jeg vet hvem som trolig ikke vil ha kunnet bli skutt
+Jeg vet hvem som trolig ikke vil ha skullet kunne bli skutt
+Jeg vet hvem som trolig ikke vil skulle kunne ha måttet bli skutt
+;
+jeg vet hvilket eple gutten spiser
+; I know which apple the boy eats
+;jeg vet hvem sitt eple gutten spiser
+; I know who POSS.MASGSG apple.MASGSG the boy eats
+; 'I know whose apple the boy is eating'
+jeg vet hvem som har spist hva
+; I know who that has eaten what
+;
+; relative constructions:
+jeg ser gutten som spiser eplet
+; I see the boy who eats the apple
+jeg ser gutten som vil spise eplet
+; I see the boy who eats the apple
+jeg ser gutten som vil kunne ha spist eplet
+; I see the boy who eats the apple
+jeg ser eplet gutten spiser
+; I see the apple the boy eats
+jeg ser eplet gutten har spist
+jeg ser eplet gutten må ha spist
+jeg ser eplet som gutten spiser
+; I see the apple which the boy eats
+jeg ser gutten som ikke spiser eplet
+jeg ser gutten som kanskje vil spise eplet
+; I see the boy who eats the apple
+jeg ser gutten som neppe vil kunne ha spist eplet
+; I see the boy who eats the apple
+jeg ser eplet gutten nå spiser
+; I see the apple the boy eats
+jeg ser eplet gutten nå har spist
+jeg ser eplet gutten nå må ha spist
+jeg ser eplet som gutten spiser
+; I see the apple which the boy eats
+jeg ser eplet gutten ikke spiser
+; I see the apple the boy not eats
+; 'I see the apple which the boy is not eating'
+jeg ser eplet som gutten ikke spiser
+; I see the apple which the boy not eats
+; 'I see the apple which the boy is not eating'
+jeg ser eplet som gutten ikke vil spise
+jeg ser eplet som gutten kanskje ikke vil spise
+
+; 'light' pronoun placement:
+jeg ser ham ikke
+; I see him not
+jeg ser ikke ham
+; I see not him
+han setter seg ikke
+; he sets REFL not
+han unner meg den ikke
+unner han meg den ikke?
+unner han meg ikke den?
+unner gutten henne den ikke?
+
+; s-passive:
+ballen kastes
+; the ball is-thrown
+ballen kastes til Ola
+; the ball is-thrown to Ola
+det kastes en ball
+; there is-thrown a ball
+det kastes en ball til Ola
+; there is-thrown a ball to Ola
+jeg overlates en ball
+; I am-given a ball
+en ball overlates meg ikke
+; a ball is-given me not
+det overlates Ola en ball
+; there is-given Ola a ball  
+Ola stoles på
+; Ola is-relied on
+det stoles på Ola
+; there is-relied on Ola
+
+; periphrastic passive:
+ballen blir kastet
+; the ball is thrown
+ballen blir kastet til Ola
+; the ball is thrown to Ola
+det blir kastet en ball
+; there is thrown a ball
+det blir kastet en ball til Ola
+; there is thrown a ball to Ola
+Ola blir overlatt en ball
+; Ola is given a ball
+en ball blir overlatt Ola
+; a ball is given Ola
+det blir overlatt Ola en ball
+; there is given Ola a ball
+Ola blir stolt på
+; Ola is relied on
+det blir stolt på Ola
+; there is relied on Ola
+
+; Complex passive
+Ola fryktes drept
+; Ola is-feared killed
+Ola fryktes forsøkt drept
+; Ola is-feared been-attempted killed
+; 'it is feared that someone has attempted to kill Ola'
+Ola blir fryktet forsøkt drept
+; Ola is-feared been-attempted killed
+Ola antas forutsatt forsøkt drept
+; Ola is-assumed been-presupposed been-attempted killed
+Ola fryktes ankommet
+; Ola is-feared arrived
+Ola fryktes overlatt pistolen
+; Ola is-feared been-given the pistol
+
+;presentationals active:
+det sitter en katt på trappen
+det setter seg en katt på trappen
+det venter meg en ulykke
+
+
+; tough movement:
+Ola er hyggelig å snakke med
+maten er appetittelig å spise
+guttene er hyggelige å se
+
+; nominalmodification of VP
+jeg rusler søndag
+; I stroll Sunday
+; 'I stroll on Sunday'
+
+;Ola ligger for å sove
+; Ola lies in order to sleep
+;Ola ligger uten å sove
+; Ola lies without to sleep
+
+; free predicatives:
+Ola løper glad
+; Ola runs happy
+Ola spiser fisken levende
+; Ola eats the fish alive
+
+; conditionals
+;sover Ola kommer Per
+; sleeps Ola comes Per
+; 'if Ola sleeps, then Per comes'
+sover Ola, kommer Per
+hvis han sover kommer Per
+; if he sleeps comes Per
+hvis han sover, kommer Per
+
+; coordination
+Ola og Per og Kari kommer
+Ola, Per og Kari kommer
+;Ola, Per, og Kari kommer
+
+en skrøpelig, gammel mann sover
+en skrøpelig og gammel mann sover
+
+Ola ligger, går og rusler
+Ola ligger og går og rusler
+Ola går hit og dit
+;Ola går hit, og dit
+;Ola går hit, dit, og til fjellet
+
+; reflexives
+Ola fortærer seg selv
+; Ola devours REFL self
+Ola fortærer seg selv selv
+; Ola devours REFL self self
+Ola vasker seg selv
+; Ola washes REFL self
+Ola vasker seg 
+; Ola washes REFL
+jeg vasker meg 
+; I wash REFL/me
+Ola skammer seg
+; Ola shames REFL
+; 'Ola is ashamed'
+jeg skammer meg
+du skammer deg
+han skammer seg
+hun skammer seg
+den skammer seg
+det skammer seg
+vi skammer oss
+dere skammer dere
+de skammer seg
+;jeg tar min død av det
+;du tar din død av det
+;hun tar sin død av det
+;han tar sin død av det
+;den tar sin død av det
+;det tar sin død av det
+;vi tar vår død av det
+;dere tar deres død av det
+;de tar sin død av det
+
+jeg fortærer meg selv
+; I devour REFL.1p self
+Ola ber meg fortære seg
+; Ola asks me [to] devour REFL
+Ola ber meg fortære seg selv
+; Ola asks me [to] devour REFL self
+Ola ser meg fortære seg
+; Ola sees me devour REFL 
+Ola fortærer maten sin
+; Ola devours food-DEF-MASCSG POSS.REFL.MASCSG
+; Ola devours his food
+Ola gir gutten sin maten sin
+; Ola gives boy-DEF.MASCSG POSS.REFL.MASCSG food-DEF.MASCSG POSS.REFL.MASCSG
+; 'Ola gives his food to his boy'
+Ola gir gutten sin maten sin i huset sitt
+; 'Ola gives his food to his boy in his house'
+Ola kaster ballen sin mot huset sitt
+; 'Ola throws his ball towards his house'
+Ola gir en bok om seg til naboen sin
+; 'Ola gives a book about himself to his neighbor'
+Ola gir seg selv ballen sin
+; 'Ola gives himself his ball'
+Ola gir seg selv seg selv
+; Ola gives REFL self REFL self
+; 'Ola gives himself himself'
+Ola gir sin gutt sitt fjell og sitt hus
+; 'Ola gives his boy his mountain and his house'
+; Ola.3p knows that I like REFL.3p
+;jeg ber Ola vaske seg
+; I ask Ola.3p [to] wash SELF.3p
+;jeg ser Ola vaske seg
+; I see Ola.3p wash SELF.3p
+
+

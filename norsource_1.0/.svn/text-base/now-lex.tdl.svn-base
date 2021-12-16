@@ -1,0 +1,5525 @@
+
+arrangere_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "arrangere" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_arrangere_v_rel" ].
+
+bade_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "bade" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bade_v_rel" ].
+
+bade_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "bade" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bade_v_rel" ].
+
+bakke_impers-pres-obl := v-intrImpersObl &
+ [ INFLECTION nonfstr-et,
+   STEM < "bakke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bakke_v_rel" ].
+
+bakke_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-et,
+   STEM < "bakke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bakke_v_rel" ].
+
+bakke_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "bakke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bakke_v_rel" ].
+
+bakke_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-et,
+   STEM < "bakke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bakke_v_rel" ].
+
+bakke_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "bakke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bakke_v_rel" ].
+
+banke_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "banke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_banke_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+banke_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "banke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_banke_v_rel" ].
+
+banke_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-et,
+   STEM < "banke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_banke_v_rel" ].
+
+banke_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "banke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_banke_v_rel" ].
+
+barbere_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "barbere" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_barbere_v_rel" ].
+
+barbere_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "barbere" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_barbere_v_rel" ].
+
+begynne_intr-obl-med := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "begynne" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_begynne_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+begynne_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "begynne" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_begynne_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+begynne_subj-equi := v-tr-obEqInf &
+ [ INFLECTION nonfstr-te,
+   STEM < "begynne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_begynne_v_rel" ].
+
+begynne_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "begynne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_begynne_v_rel" ].
+
+bestemme_iv := v-intr &
+ [ INFLECTION nonfstr-te,
+   STEM < "bestemme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bestemme_v_rel" ].
+
+bestemme_obj-eq-pp-refl := v-trObl-obRefl_oblEqObInf &
+ [ INFLECTION nonfstr-te,
+   STEM < "bestemme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bestemme_v_rel" ].
+
+bestemme_tr-interr := v-intrComp-compINTERR &
+ [ INFLECTION nonfstr-te,
+   STEM < "bestemme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bestemme_v_rel" ].
+
+bestemme_tr-obl := v-trObl &
+ [ INFLECTION nonfstr-te,
+   STEM < "bestemme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bestemme_v_rel" ].
+
+bestemme_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "bestemme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bestemme_v_rel" ].
+
+bestemme_tr-subord := v-tr-obDECL &
+ [ INFLECTION nonfstr-te,
+   STEM < "bestemme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bestemme_v_rel" ].
+
+bestemme_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "bestemme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bestemme_v_rel" ].
+
+bestille_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "bestille" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bestille_v_rel" ].
+
+betale_ditr := v-ditr &
+ [ INFLECTION nonfstr-te,
+   STEM < "betale" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_betale_v_rel" ].
+
+betale_intr-obl-for := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "betale" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_betale_v_rel",
+            LOCAL.KEY-SPEC for-k ] ].
+
+betale_iv := v-intr &
+ [ INFLECTION nonfstr-te,
+   STEM < "betale" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_betale_v_rel" ].
+
+betale_tr-obl-for := v-trObl &
+ [ INFLECTION nonfstr-te,
+   STEM < "betale" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_betale_v_rel",
+            LOCAL.KEY-SPEC for-k ] ].
+
+betale_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "betale" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_betale_v_rel" ].
+
+betale_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "betale" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_betale_v_rel" ].
+
+bety_tr-subord := v-tr-obDECL &
+ [ INFLECTION finstr-dd,
+   STEM < "bety" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bety_v_rel" ].
+
+bety_tv := v-tr &
+ [ INFLECTION finstr-dd,
+   STEM < "bety" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bety_v_rel" ].
+
+binde_intr-obl := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "binde" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_binde_v_rel" ].
+
+binde_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-strong,
+   STEM < "binde" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_binde_v_rel" ].
+
+binde_tr-obl-med := v-trObl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "binde" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_binde_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+binde_tr-obl-til := v-trObl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "binde" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_binde_v_rel",
+            LOCAL.KEY-SPEC til-k ] ].
+
+binde_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "binde" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_binde_v_rel" ].
+
+binde_tr-refl-obl-til := v-trObl-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "binde" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_binde_v_rel",
+            LOCAL.KEY-SPEC til-k ] ].
+
+binde_tv := v-tr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "binde" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_binde_v_rel" ].
+
+bli_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION finstr-tt,
+   STEM < "bli" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bli_v_rel" ].
+
+;bo_intr-obl-i := v-intrObl-oblN &
+; [ INFLECTION finstr-dd,
+;   STEM < "bo" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_bo_v_rel",
+;            LOCAL.KEY-SPEC i-k ] ].
+
+brenne_impers-pres-obl := v-intrImpersObl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "brenne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_brenne_v_rel" ].
+
+brenne_intr-obl := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "brenne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_brenne_v_rel" ].
+
+brenne_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "brenne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_brenne_v_rel" ].
+
+brenne_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-strong,
+   STEM < "brenne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_brenne_v_rel" ].
+
+brenne_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "brenne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_brenne_v_rel" ].
+
+brenne_tv := v-tr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "brenne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_brenne_v_rel" ].
+
+bruke_subj-equi := v-tr-obEqInf &
+ [ INFLECTION nonfstr-te,
+   STEM < "bruke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bruke_v_rel" ].
+
+bruke_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "bruke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bruke_v_rel" ].
+
+bruke_tr-refl-obl-på := v-trObl-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "bruke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bruke_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+bruke_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "bruke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bruke_v_rel" ].
+
+by_ditr := v-ditr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "by" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_by_v_rel" ].
+
+by_intr-obl-over := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "by" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_by_v_rel",
+            LOCAL.KEY-SPEC over-k ] ].
+
+by_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "by" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_by_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+by_subj-doublobj-equi := v-ditr-obEqSuInf &
+ [ INFLECTION nonfstr-strong,
+   STEM < "by" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_by_v_rel" ].
+
+by_tr-arg1-refl-telicpart := v-trPrtcl-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "by" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_by_v_rel" ].
+
+by_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-strong,
+   STEM < "by" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_by_v_rel" ].
+
+by_tr-obl-på := v-trObl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "by" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_by_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+by_tr-obl-til := v-trObl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "by" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_by_v_rel",
+            LOCAL.KEY-SPEC til-k ] ].
+
+by_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "by" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_by_v_rel" ].
+
+by_tv := v-tr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "by" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_by_v_rel" ].
+
+bygge_intr-obl-med := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "bygge" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bygge_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+bygge_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "bygge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bygge_v_rel" ].
+
+bygge_tr-arg1-refl-telicpart := v-trPrtcl-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "bygge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bygge_v_rel" ].
+
+bygge_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-et,
+   STEM < "bygge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bygge_v_rel" ].
+
+;bygge_tv := v-tr &
+; [ INFLECTION nonfstr,
+;   STEM < "bygge" >,
+;   SYNSEM.LKEYS.KEYREL.PRED "_bygge_v_rel" ].
+
+bytte_intr-obl-med := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "bytte" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bytte_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+bytte_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "bytte" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bytte_v_rel" ].
+
+bytte_subj-eq-pp := v-intrObl-oblEqSuInf &
+ [ INFLECTION nonfstr-et,
+   STEM < "bytte" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bytte_v_rel" ].
+
+bytte_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-et,
+   STEM < "bytte" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bytte_v_rel" ].
+
+bytte_tr-obl-med := v-trObl &
+ [ INFLECTION nonfstr-et,
+   STEM < "bytte" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bytte_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+bytte_tr-ppshift := v-trScprShft-scObNrgRes_scPP-PLACEMENT &
+ [ INFLECTION nonfstr-et,
+   STEM < "bytte" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bytte_v_rel" ].
+
+bytte_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "bytte" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_bytte_v_rel" ].
+
+danse_intr-dir := v-intr-suDir &
+ [ INFLECTION nonfstr-et,
+   STEM < "danse" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_danse_v_rel" ].
+
+danse_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "danse" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_danse_v_rel" ].
+
+danse_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "danse" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_danse_v_rel" ].
+
+danske_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "danske" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_danske_v_rel" ].
+
+dele_intr-obl := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "dele" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dele_v_rel" ].
+
+dele_iv := v-intr &
+ [ INFLECTION nonfstr-te,
+   STEM < "dele" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dele_v_rel" ].
+
+dele_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-te,
+   STEM < "dele" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dele_v_rel" ].
+
+dele_tr-obl := v-trObl &
+ [ INFLECTION nonfstr-te,
+   STEM < "dele" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dele_v_rel" ].
+
+dele_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "dele" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dele_v_rel" ].
+
+dele_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "dele" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dele_v_rel" ].
+
+disse_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "disse" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_disse_v_rel" ].
+
+disse_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "disse" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_disse_v_rel" ].
+
+dra_intr-obl := v-intrObl-oblN &
+ [ INFLECTION finstr-dd,
+   STEM < "dra" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dra_v_rel" ].
+
+dra_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION finstr-dd,
+   STEM < "dra" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dra_v_rel" ].
+
+dra_iv := v-intr &
+ [ INFLECTION finstr-dd,
+   STEM < "dra" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dra_v_rel" ].
+
+dra_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION finstr-dd,
+   STEM < "dra" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dra_v_rel" ].
+
+dra_tr-refl := v-tr-obRefl &
+ [ INFLECTION finstr-dd,
+   STEM < "dra" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dra_v_rel" ].
+
+dra_tr-refl-obl := v-trObl-obRefl &
+ [ INFLECTION finstr-dd,
+   STEM < "dra" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dra_v_rel" ].
+
+dra_tv := v-tr &
+ [ INFLECTION finstr-dd,
+   STEM < "dra" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dra_v_rel" ].
+
+drikke_iv := v-intr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "drikke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_drikke_v_rel" ].
+
+drikke_tr-secpred-arg1-refl := v-trScpr-scObNrgCsd_obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "drikke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_drikke_v_rel" ].
+
+drikke_tv := v-tr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "drikke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_drikke_v_rel" ].
+
+dukke_intr-dir := v-intr-suDir &
+ [ INFLECTION nonfstr-et,
+   STEM < "dukke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dukke_v_rel" ].
+
+dukke_intr-obl := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "dukke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dukke_v_rel" ].
+
+dukke_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-et,
+   STEM < "dukke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dukke_v_rel" ].
+
+dukke_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "dukke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dukke_v_rel" ].
+
+dukke_tr-dir := v-tr-obDir &
+ [ INFLECTION nonfstr-et,
+   STEM < "dukke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dukke_v_rel" ].
+
+dusje_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "dusje" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dusje_v_rel" ].
+
+dusje_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "dusje" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dusje_v_rel" ].
+
+dusje_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "dusje" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_dusje_v_rel" ].
+
+elske_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "elske" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_elske_v_rel" ].
+
+elske_subj-equi := v-tr-obEqInf &
+ [ INFLECTION nonfstr-et,
+   STEM < "elske" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_elske_v_rel" ].
+
+elske_tr-subord := v-tr-obDECL &
+ [ INFLECTION nonfstr-et,
+   STEM < "elske" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_elske_v_rel" ].
+
+elske_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "elske" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_elske_v_rel" ].
+
+fire_iv := v-intr &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "fire" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fire_v_rel" ].
+
+fire_telicparticle := v-trPrtcl-COMPLETEDACTIVITY &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "fire" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fire_v_rel",
+            LOCAL.KEY-SPEC ned-k ] ].
+
+fire_tr-refl-dir := v-trPath-obRefl_obDir &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "fire" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fire_v_rel" ].
+
+fire_tv := v-tr &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "fire" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fire_v_rel" ].
+
+fiske_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "fiske" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fiske_v_rel" ].
+
+fiske_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-et,
+   STEM < "fiske" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fiske_v_rel" ].
+
+fiske_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "fiske" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fiske_v_rel" ].
+
+fly_intr-dir := v-intr-suDir &
+ [ INFLECTION finstr-dd,
+   STEM < "fly" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fly_v_rel" ].
+
+fly_iv := v-intr &
+ [ INFLECTION finstr-dd,
+   STEM < "fly" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fly_v_rel" ].
+
+fly_tv := v-tr &
+ [ INFLECTION finstr-dd,
+   STEM < "fly" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fly_v_rel" ].
+
+flytte_intr-obl-fra := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "flytte" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_flytte_v_rel",
+            LOCAL.KEY-SPEC fra-k ] ].
+
+flytte_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "flytte" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_flytte_v_rel" ].
+
+flytte_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-et,
+   STEM < "flytte" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_flytte_v_rel" ].
+
+flytte_tr-obl := v-trObl &
+ [ INFLECTION nonfstr-et,
+   STEM < "flytte" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_flytte_v_rel" ].
+
+flytte_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "flytte" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_flytte_v_rel" ].
+
+flytte_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "flytte" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_flytte_v_rel" ].
+
+fortelle_ditr := v-ditr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "fortelle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fortelle_v_rel" ].
+
+fortelle_ditr-subord := v-ditr-obDECL &
+ [ INFLECTION nonfstr-strong,
+   STEM < "fortelle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fortelle_v_rel" ].
+
+fortelle_tr-interr := v-intrComp-compINTERR &
+ [ INFLECTION nonfstr-strong,
+   STEM < "fortelle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fortelle_v_rel" ].
+
+fortelle_tr-obl-om := v-trObl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "fortelle" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fortelle_v_rel",
+            LOCAL.KEY-SPEC om-k ] ].
+
+fortelle_tr-subord := v-tr-obDECL &
+ [ INFLECTION nonfstr-strong,
+   STEM < "fortelle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fortelle_v_rel" ].
+
+fortelle_tv := v-tr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "fortelle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fortelle_v_rel" ].
+
+fri_intr-obl-fra := v-intrObl-oblN &
+ [ INFLECTION finstr-dd,
+   STEM < "fri" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fri_v_rel",
+            LOCAL.KEY-SPEC fra-k ] ].
+
+fri_iv := v-intr &
+ [ INFLECTION finstr-dd,
+   STEM < "fri" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fri_v_rel" ].
+
+fri_obj-eq-pp := v-trObl-oblEqObInf &
+ [ INFLECTION finstr-dd,
+   STEM < "fri" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fri_v_rel" ].
+
+fri_obj-eq-pp-refl := v-trObl-obRefl_oblEqObInf &
+ [ INFLECTION finstr-dd,
+   STEM < "fri" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fri_v_rel" ].
+
+fri_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION finstr-dd,
+   STEM < "fri" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fri_v_rel" ].
+
+fri_tr-obl-fra := v-trObl &
+ [ INFLECTION finstr-dd,
+   STEM < "fri" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fri_v_rel",
+            LOCAL.KEY-SPEC fra-k ] ].
+
+fri_tr-refl-obl-fra := v-trObl-obRefl &
+ [ INFLECTION finstr-dd,
+   STEM < "fri" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fri_v_rel",
+            LOCAL.KEY-SPEC fra-k ] ].
+
+fri_tv := v-tr &
+ [ INFLECTION finstr-dd,
+   STEM < "fri" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fri_v_rel" ].
+
+fylle_intr-obl-med := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "fylle" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fylle_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+fylle_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-te,
+   STEM < "fylle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fylle_v_rel" ].
+
+fylle_tr-obl-med := v-trObl &
+ [ INFLECTION nonfstr-te,
+   STEM < "fylle" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fylle_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+fylle_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "fylle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fylle_v_rel" ].
+
+fylle_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "fylle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_fylle_v_rel" ].
+
+gi_ditr := v-ditr &
+ [ INFLECTION finstr-tt,
+   STEM < "gi" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_gi_v_rel" ].
+
+gi_intr-obl-til := v-intrObl-oblN &
+ [ INFLECTION finstr-tt,
+   STEM < "gi" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gi_v_rel",
+            LOCAL.KEY-SPEC til-k ] ].
+
+gi_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION finstr-tt,
+   STEM < "gi" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_gi_v_rel" ].
+
+gi_obj-eq-pp-refl-14 := v-trObl-obRefl_oblEqObInf &
+ [ INFLECTION finstr-tt,
+   STEM < "gi" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_gi_v_rel" ].
+
+gi_tr-arg1-refl-telicpart-12 := v-trPrtcl-obRefl &
+ [ INFLECTION finstr-tt,
+   STEM < "gi" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_gi_v_rel" ].
+
+gi_tr-ppshift := v-trScprShft-scObNrgRes_scPP-PLACEMENT &
+ [ INFLECTION finstr-tt,
+   STEM < "gi" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_gi_v_rel" ].
+
+gi_tr-refl := v-tr-obRefl &
+ [ INFLECTION finstr-tt,
+   STEM < "gi" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_gi_v_rel" ].
+
+gi_tr-refl-obl-13 := v-trObl-obRefl &
+ [ INFLECTION finstr-tt,
+   STEM < "gi" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_gi_v_rel" ].
+
+gi_tr-subord := v-tr-obDECL &
+ [ INFLECTION finstr-tt,
+   STEM < "gi" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_gi_v_rel" ].
+
+gi_tv := v-tr &
+ [ INFLECTION finstr-tt,
+   STEM < "gi" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_gi_v_rel" ].
+
+gifte_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-et,
+   STEM < "gifte" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_gifte_v_rel" ].
+
+gifte_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "gifte" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_gifte_v_rel" ].
+
+gifte_tr-refl-obl-med := v-trObl-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "gifte" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gifte_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+gjerde_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-et,
+   STEM < "gjerde" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_gjerde_v_rel" ].
+
+glede_obj-eq-pp-refl := v-trObl-obRefl_oblEqObInf &
+ [ INFLECTION nonfstr-et,
+   STEM < "glede" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_glede_v_rel" ].
+
+glede_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "glede" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_glede_v_rel" ].
+
+glede_tr-refl-obl-til := v-trObl-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "glede" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_glede_v_rel",
+            LOCAL.KEY-SPEC til-k ] ].
+
+glede_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "glede" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_glede_v_rel" ].
+
+glemme_intr-obl := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "glemme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_glemme_v_rel" ].
+
+glemme_subj-equi := v-tr-obEqInf &
+ [ INFLECTION nonfstr-te,
+   STEM < "glemme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_glemme_v_rel" ].
+
+glemme_tr-arg1-refl-telicpart := v-trPrtcl-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "glemme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_glemme_v_rel" ].
+
+glemme_tr-interr := v-intrComp-compINTERR &
+ [ INFLECTION nonfstr-te,
+   STEM < "glemme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_glemme_v_rel" ].
+
+glemme_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "glemme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_glemme_v_rel" ].
+
+glemme_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "glemme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_glemme_v_rel" ].
+
+greie_intr-obl := v-intrObl-oblN &
+ [ INFLECTION nonfstr-de,
+   STEM < "greie" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_greie_v_rel" ].
+
+greie_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-de,
+   STEM < "greie" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_greie_v_rel" ].
+
+greie_tr-obladv-refl := v-trAdv-obRefl &
+ [ INFLECTION nonfstr-de,
+   STEM < "greie" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_greie_v_rel" ].
+
+greie_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-de,
+   STEM < "greie" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_greie_v_rel" ].
+
+greie_tv := v-tr &
+ [ INFLECTION nonfstr-de,
+   STEM < "greie" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_greie_v_rel" ].
+
+ha_ditr-refl := v-ditr-iobRefl &
+ [ INFLECTION finstr-tt,
+   STEM < "ha" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ha_v_rel" ].
+
+ha_obj-eq-pp := v-trObl-oblEqObInf &
+ [ INFLECTION finstr-tt,
+   STEM < "ha" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ha_v_rel" ].
+
+hake_tr-refl-obl := v-trObl-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "hake" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_hake_v_rel" ].
+
+handle_intr-obl-med := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "handle" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_handle_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+handle_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "handle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_handle_v_rel" ].
+
+handle_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "handle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_handle_v_rel" ].
+
+hete_copnom := v-copN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "hete" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_hete_v_rel" ].
+
+hete_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-strong,
+   STEM < "hete" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_hete_v_rel" ].
+
+hilse_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "hilse" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hilse_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+hilse_iv := v-intr &
+ [ INFLECTION nonfstr-te,
+   STEM < "hilse" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_hilse_v_rel" ].
+
+hilse_tr-obl := v-trObl &
+ [ INFLECTION nonfstr-te,
+   STEM < "hilse" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_hilse_v_rel" ].
+
+hilse_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "hilse" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_hilse_v_rel" ].
+
+hjelpe_intr-obl-mot := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "hjelpe" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hjelpe_v_rel",
+            LOCAL.KEY-SPEC mot-k ] ].
+
+hjelpe_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "hjelpe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_hjelpe_v_rel" ].
+
+hjelpe_iv := v-intr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "hjelpe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_hjelpe_v_rel" ].
+
+hjelpe_obj-eq-pp := v-trObl-oblEqObInf &
+ [ INFLECTION nonfstr-strong,
+   STEM < "hjelpe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_hjelpe_v_rel" ].
+
+hjelpe_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-strong,
+   STEM < "hjelpe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_hjelpe_v_rel" ].
+
+hjelpe_tv := v-tr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "hjelpe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_hjelpe_v_rel" ].
+
+holde_intr-obl-for := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "holde" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_holde_v_rel",
+            LOCAL.KEY-SPEC for-k ] ].
+
+holde_tr-refl-obl-for := v-trObl-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "holde" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_holde_v_rel",
+            LOCAL.KEY-SPEC for-k ] ].
+
+holde_tr-secpred-arg1-refl := v-trScpr-scObNrgCsd_obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "holde" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_holde_v_rel" ].
+
+holde_tv := v-tr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "holde" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_holde_v_rel" ].
+
+huske_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "huske" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_huske2_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+huske_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "huske" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_huske1_v_rel" ].
+
+huske_subj-eq-pp := v-intrObl-oblEqSuInf &
+ [ INFLECTION nonfstr-et,
+   STEM < "huske" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_huske2_v_rel" ].
+
+huske_subj-equi := v-tr-obEqInf &
+ [ INFLECTION nonfstr-et,
+   STEM < "huske" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_huske2_v_rel" ].
+
+huske_tr-interr := v-intrComp-compINTERR &
+ [ INFLECTION nonfstr-et,
+   STEM < "huske" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_huske2_v_rel" ].
+
+huske_tr-subord := v-tr-obDECL &
+ [ INFLECTION nonfstr-et,
+   STEM < "huske" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_huske2_v_rel" ].
+
+huske_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "huske" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_huske2_v_rel" ].
+
+hylle_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-et,
+   STEM < "hylle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_hylle_v_rel" ].
+
+hylle_tr-obl-med := v-trObl &
+ [ INFLECTION nonfstr-et,
+   STEM < "hylle" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hylle_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+hylle_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "hylle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_hylle_v_rel" ].
+
+hytte_intr-obl := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "hytte" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_hytte_v_rel" ].
+
+hytte_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "hytte" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_hytte_v_rel" ].
+
+invitere_iv := v-intr &
+ [ INFLECTION nonfstr-te,
+   STEM < "invitere" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_invitere_v_rel" ].
+
+invitere_tr-obl-til := v-trObl &
+ [ INFLECTION nonfstr-te,
+   STEM < "invitere" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_invitere_v_rel",
+            LOCAL.KEY-SPEC til-k ] ].
+
+invitere_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "invitere" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_invitere_v_rel" ].
+
+jobbe_intr-arg1-som-secpred := v-intrLghtScpr-scSuNrg_scPredprtclSom &
+ [ INFLECTION nonfstr-et,
+   STEM < "jobbe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_jobbe_v_rel" ].
+
+jobbe_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "jobbe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_jobbe_v_rel" ].
+
+jobbe_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "jobbe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_jobbe_v_rel" ].
+
+jogge_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "jogge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_jogge_v_rel" ].
+
+kake_tr-arg1-refl-telicpart := v-trPrtcl-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "kake" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_kake_v_rel" ].
+
+kake_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "kake" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_kake_v_rel" ].
+
+kaste_intr-obl := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "kaste" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_kaste_v_rel" ].
+
+kaste_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-et,
+   STEM < "kaste" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kaste_v_rel",
+            LOCAL.KEY-SPEC opp-k ] ].
+
+kaste_tr-detachposs-refl := v-trObl-obRefl-oblPRTOFob &
+ [ INFLECTION nonfstr-et,
+   STEM < "kaste" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_kaste_v_rel" ].
+
+kaste_tr-ppshift := v-trScprShft-scObNrgRes_scPP-PLACEMENT &
+ [ INFLECTION nonfstr-et,
+   STEM < "kaste" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_kaste_v_rel" ].
+
+;kle_intr-obl := v-intrObl-oblN &
+; [ INFLECTION finstr-dd,
+;   STEM < "kle" >,
+;   SYNSEM.LKEYS.KEYREL.PRED "_kle_v_rel" ].
+
+kle_tr-arg1-refl-telicpart := v-trPrtcl-obRefl &
+ [ INFLECTION finstr-dd,
+   STEM < "kle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_kle_v_rel" ].
+
+kle_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION finstr-dd,
+   STEM < "kle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_kle_v_rel" ].
+
+kle_tr-refl := v-tr-obRefl &
+ [ INFLECTION finstr-dd,
+   STEM < "kle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_kle_v_rel" ].
+
+kle_tv := v-tr &
+ [ INFLECTION finstr-dd,
+   STEM < "kle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_kle_v_rel" ].
+
+klokke_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-et,
+   STEM < "klokke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_klokke_v_rel" ].
+
+koke_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-te,
+   STEM < "koke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_koke_v_rel" ].
+
+koke_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "koke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_koke_v_rel" ].
+
+komme_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "komme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_komme_v_rel" ].
+
+komme_tr-refl-11 := v-tr-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "komme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_komme_v_rel" ].
+
+komme_tr-refl-obl-12 := v-trObl-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "komme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_komme_v_rel" ].
+
+kose_intr-obl-med := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "kose" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kose_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+kose_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "kose" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kose_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+kose_iv := v-intr &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "kose" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_kose_v_rel" ].
+
+kose_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "kose" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_kose_v_rel" ].
+
+kose_tr-refl-obl-med := v-trObl-obRefl &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "kose" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kose_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+koste_intr-obl := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "koste" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_koste_v_rel" ].
+
+koste_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "koste" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_koste_v_rel" ].
+
+koste_tr-ppshift := v-trScprShft-scObNrgRes_scPP-PLACEMENT &
+ [ INFLECTION nonfstr-et,
+   STEM < "koste" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_koste_v_rel" ].
+
+koste_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "koste" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_koste_v_rel" ].
+
+; these are good verbs, but in NoW context, too much overlap with the money
+;krone_tr-obl-til := v-trObl &
+; [ INFLECTION nonfstr-et,
+;   STEM < "krone" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_krone_v_rel",
+;            LOCAL.KEY-SPEC til-k ] ].
+
+;krone_tv := v-tr &
+; [ INFLECTION nonfstr-et,
+;   STEM < "krone" >,
+;   SYNSEM.LKEYS.KEYREL.PRED "_krone_v_rel" ].;
+
+kunne_subj-equi := v-tr-obEqInf &
+ [ INFLECTION nonfstr-strong,
+   STEM < "kunne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_kunne_v_rel" ].
+
+kunne_tv := v-tr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "kunne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_kunne_v_rel" ].
+
+kysse_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "kysse" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_kysse_v_rel" ].
+
+kysse_tr-detachposs := v-trObl-oblPRTOFob &
+ [ INFLECTION nonfstr-et,
+   STEM < "kysse" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_kysse_v_rel" ].
+
+kysse_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "kysse" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_kysse_v_rel" ].
+
+lage_ditr-refl := v-ditr-iobRefl &
+ [ INFLECTION nonfstr-de,
+   STEM < "lage" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_lage_v_rel" ].
+
+lage_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-de,
+   STEM < "lage" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_lage_v_rel" ].
+
+lande_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "lande" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_lande_v_rel" ].
+
+le_intr-obl-av := v-intrObl-oblN &
+ [ INFLECTION finstr-dd,
+   STEM < "le" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_le_v_rel",
+            LOCAL.KEY-SPEC av-k ] ].
+
+le_iv := v-intr &
+ [ INFLECTION finstr-dd,
+   STEM < "le" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_le_v_rel" ].
+
+le_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION finstr-dd,
+   STEM < "le" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_le_v_rel" ].
+
+le_tr-detachposs := v-trObl-oblPRTOFob &
+ [ INFLECTION finstr-dd,
+   STEM < "le" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_le_v_rel" ].
+
+le_tv := v-tr &
+ [ INFLECTION finstr-dd,
+   STEM < "le" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_le_v_rel" ].
+
+lege_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "lege" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_lege_v_rel" ].
+
+lege_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "lege" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_lege_v_rel" ].
+
+legge_intr-obl := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "legge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_legge_v_rel" ].
+
+legge_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "legge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_legge_v_rel" ].
+
+legge_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-strong,
+   STEM < "legge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_legge_v_rel" ].
+
+legge_tr-ppshift := v-trScprShft-scObNrgRes_scPP-PLACEMENT &
+ [ INFLECTION nonfstr-strong,
+   STEM < "legge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_legge_v_rel" ].
+
+legge_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "legge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_legge_v_rel" ].
+
+legge_tr-refl-obl-bak := v-trObl-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "legge" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_legge_v_rel",
+            LOCAL.KEY-SPEC bak-k ] ].
+
+legge_tr-refl-obl-i := v-trObl-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "legge" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_legge_v_rel",
+            LOCAL.KEY-SPEC i-k ] ].
+
+legge_tr-refl-obl-inni := v-trObl-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "legge" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_legge_v_rel",
+            LOCAL.KEY-SPEC inni-k ] ].
+
+legge_tr-refl-obl-på := v-trObl-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "legge" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_legge_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+legge_tr-refl-obl-under := v-trObl-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "legge" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_legge_v_rel",
+            LOCAL.KEY-SPEC under-k ] ].
+
+legge_tr-secpred-arg1-refl := v-trScpr-scObNrgCsd_obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "legge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_legge_v_rel" ].
+
+legge_tv := v-tr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "legge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_legge_v_rel" ].
+
+lese_intr-obl-i := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "lese" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lese_v_rel",
+            LOCAL.KEY-SPEC i-k ] ].
+
+lese_intr-obl-igjennom := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "lese" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lese_v_rel",
+            LOCAL.KEY-SPEC igjennom-k ] ].
+
+lese_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "lese" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lese_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+lese_intr-obl-til := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "lese" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lese_v_rel",
+            LOCAL.KEY-SPEC til-k ] ].
+
+lese_iv := v-intr &
+ [ INFLECTION nonfstr-te,
+   STEM < "lese" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_lese_v_rel" ].
+
+lese_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-te,
+   STEM < "lese" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_lese_v_rel" ].
+
+ligge_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "ligge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ligge_v_rel" ].
+
+like_subj-equi := v-tr-obEqInf &
+ [ INFLECTION nonfstr-te,
+   STEM < "like" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_like_v_rel" ].
+
+like_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "like" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_like_v_rel" ].
+
+like_tr-subord := v-tr-obDECL &
+ [ INFLECTION nonfstr-te,
+   STEM < "like" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_like_v_rel" ].
+
+lue_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr,
+   STEM < "lue" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_lue_v_rel" ].
+
+lue_iv := v-intr &
+ [ INFLECTION nonfstr,
+   STEM < "lue" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_lue_v_rel" ].
+
+mage_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "mage" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_mage_v_rel" ].
+
+olje_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "olje" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_olje_v_rel" ].
+
+oppe_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "oppe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_oppe_v_rel" ].
+
+#|
+parkere_intr-obl-bak := v-intrObl-oblN &
+ [ INFLECTION nonfstr,
+   STEM < "parkere" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_parkere_v_rel",
+            LOCAL.KEY-SPEC bak-k ] ].
+
+parkere_intr-obl-foran := v-intrObl-oblN &
+ [ INFLECTION nonfstr,
+   STEM < "parkere" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_parkere_v_rel",
+            LOCAL.KEY-SPEC foran-k ] ].
+
+parkere_intr-obl-i := v-intrObl-oblN &
+ [ INFLECTION nonfstr,
+   STEM < "parkere" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_parkere_v_rel",
+            LOCAL.KEY-SPEC i-k ] ].
+
+parkere_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION nonfstr,
+   STEM < "parkere" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_parkere_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+parkere_intr-obl-under := v-intrObl-oblN &
+ [ INFLECTION nonfstr,
+   STEM < "parkere" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_parkere_v_rel",
+            LOCAL.KEY-SPEC under-k ] ].
+|#
+
+parkere_iv := v-intr &
+ [ INFLECTION nonfstr-te,
+   STEM < "parkere" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_parkere_v_rel" ].
+
+parkere_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-te,
+   STEM < "parkere" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_parkere_v_rel" ].
+
+parkere_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "parkere" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_parkere_v_rel" ].
+
+passe_intr-obl := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "passe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_passe_v_rel" ].
+
+passe_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "passe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_passe_v_rel" ].
+
+passe_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "passe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_passe_v_rel" ].
+
+passe_tr-refl-obl-for := v-trObl-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "passe" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_passe_v_rel",
+            LOCAL.KEY-SPEC for-k ] ].
+
+passe_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "passe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_passe_v_rel" ].
+
+plante_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-et,
+   STEM < "plante" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_plante_v_rel" ].
+
+plante_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "plante" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_plante_v_rel" ].
+
+pose_iv := v-intr &
+ [ INFLECTION nonfstr,
+   STEM < "pose" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_pose_v_rel" ].
+
+pose_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr,
+   STEM < "pose" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_pose_v_rel" ].
+
+pusse_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "pusse" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pusse_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+pusse_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-et,
+   STEM < "pusse" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_pusse_v_rel" ].
+
+pusse_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-et,
+   STEM < "pusse" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_pusse_v_rel" ].
+
+pusse_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "pusse" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_pusse_v_rel" ].
+
+regne_intr-dir := v-intr-suDir &
+ [ INFLECTION nonfstr-et,
+   STEM < "regne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_regne_v_rel" ].
+
+regne_intr-obl := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "regne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_regne_v_rel" ].
+
+regne_tr-secpr-som := v-trScpr-scObNrg_scPredprtclSom &
+ [ INFLECTION nonfstr-et,
+   STEM < "regne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_regne_v_rel" ].
+
+regne_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "regne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_regne_v_rel" ].
+
+reise_intr-dir := v-intr-suDir &
+ [ INFLECTION nonfstr-te,
+   STEM < "reise" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_reise_v_rel" ].
+
+reise_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-te,
+   STEM < "reise" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_reise_v_rel" ].
+
+reise_tr-arg1-refl-telicpart := v-trPrtcl-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "reise" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_reise_v_rel" ].
+
+reise_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-te,
+   STEM < "reise" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_reise_v_rel" ].
+
+reise_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "reise" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_reise_v_rel" ].
+
+reise_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "reise" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_reise_v_rel" ].
+
+ringe_impers-pres-obl := v-intrImpersObl &
+ [ INFLECTION nonfstr-te,
+   STEM < "ringe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ringe_v_rel" ].
+
+ringe_intr-obl-for := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "ringe" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ringe_v_rel",
+            LOCAL.KEY-SPEC for-k ] ].
+
+ringe_intr-obl-til := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "ringe" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ringe_v_rel",
+            LOCAL.KEY-SPEC til-k ] ].
+
+ringe_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-te,
+   STEM < "ringe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ringe_v_rel" ].
+
+ringe_iv := v-intr &
+ [ INFLECTION nonfstr-te,
+   STEM < "ringe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ringe_v_rel" ].
+
+ringe_tr-arg1-refl-telicpart := v-trPrtcl-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "ringe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ringe_v_rel" ].
+
+ringe_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-te,
+   STEM < "ringe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ringe_v_rel" ].
+
+ringe_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "ringe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ringe_v_rel" ].
+
+ringe_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "ringe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ringe_v_rel" ].
+
+rope_intr-obl-om := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "rope" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_rope_v_rel",
+            LOCAL.KEY-SPEC om-k ] ].
+
+rope_intr-obl-til := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "rope" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_rope_v_rel",
+            LOCAL.KEY-SPEC til-k ] ].
+
+rope_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "rope" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_rope_v_rel" ].
+
+rope_iv := v-intr &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "rope" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_rope_v_rel" ].
+
+rope_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "rope" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_rope_v_rel" ].
+
+rope_tv := v-tr &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "rope" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_rope_v_rel" ].
+
+rose_tr-obl-for := v-trObl &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "rose" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_rose_v_rel",
+            LOCAL.KEY-SPEC for-k ] ].
+
+rose_tr-refl-obl-for := v-trObl-obRefl &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "rose" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_rose_v_rel",
+            LOCAL.KEY-SPEC for-k ] ].
+
+rose_tv := v-tr &
+ [ INFLECTION nonfstr-et_or_te,
+   STEM < "rose" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_rose_v_rel" ].
+
+rotte_tr-arg1-refl-telicpart := v-trPrtcl-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "rotte" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_rotte_v_rel" ].
+
+se_intr-telicpartcl-opp := v-intrPrtcl &
+ [ INFLECTION finstr-tt,
+   STEM < "se" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_se_v_rel",
+            LOCAL.KEY-SPEC opp-k ] ].
+
+se_subj-equi := v-tr-obEqInf &
+ [ INFLECTION finstr-tt,
+   STEM < "se" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_se_v_rel" ].
+
+se_tr-arg1-refl-telicpart := v-trPrtcl-obRefl &
+ [ INFLECTION finstr-tt,
+   STEM < "se" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_se_v_rel" ].
+
+se_tr-subord := v-tr-obDECL &
+ [ INFLECTION finstr-tt,
+   STEM < "se" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_se_v_rel" ].
+
+sees_iv := v-intr &
+ [ INFLECTION nonfstr,
+   STEM < "sees" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sees_v_rel" ].
+
+selge_ditr := v-ditr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "selge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_selge_v_rel" ].
+
+selge_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-strong,
+   STEM < "selge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_selge_v_rel" ].
+
+selge_tr-obl-til := v-trObl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "selge" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_selge_v_rel",
+            LOCAL.KEY-SPEC til-k ] ].
+
+selge_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "selge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_selge_v_rel" ].
+
+selge_tr-refl-obl-til := v-trObl-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "selge" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_selge_v_rel",
+            LOCAL.KEY-SPEC til-k ] ].
+
+selge_tv := v-tr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "selge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_selge_v_rel" ].
+
+sende_ditr := v-ditr &
+ [ INFLECTION nonfstr-te,
+   STEM < "sende" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sende_v_rel" ].
+
+;sende_tv := v-tr &
+; [ INFLECTION nonfstr,
+;   STEM < "sende" >,
+;   SYNSEM.LKEYS.KEYREL.PRED "_sende_v_rel" ].
+
+sette_intr-telicpartcl-10 := v-intrPrtcl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "sette" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sette_v_rel" ].
+
+sette_subj-eq-pp := v-intrObl-oblEqSuInf &
+ [ INFLECTION nonfstr-strong,
+   STEM < "sette" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sette_v_rel" ].
+
+sette_tr-arg1-refl-telicpart := v-trPrtcl-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "sette" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sette_v_rel" ].
+
+sette_tr-ppshift := v-trScprShft-scObNrgRes_scPP-PLACEMENT &
+ [ INFLECTION nonfstr-strong,
+   STEM < "sette" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sette_v_rel" ].
+
+;sette_tr-refl := v-tr-obRefl &
+; [ INFLECTION nonfstr,
+;   STEM < "sette" >,
+;   SYNSEM.LKEYS.KEYREL.PRED "_sette_v_rel" ].
+
+sette_tr-refl-obl-i := v-trObl-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "sette" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sette_v_rel",
+            LOCAL.KEY-SPEC i-k ] ].
+
+sette_tr-refl-obl-på := v-trObl-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "sette" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sette_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+si_ditr := v-ditr &
+ [ INFLECTION finstr-tt,
+   STEM < "si" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_si_v_rel" ].
+
+si_intr-obl := v-intrObl-oblN &
+ [ INFLECTION finstr-tt,
+   STEM < "si" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_si_v_rel" ].
+
+si_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION finstr-tt,
+   STEM < "si" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_si_v_rel" ].
+
+si_tr-obl-om := v-trObl &
+ [ INFLECTION finstr-tt,
+   STEM < "si" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_si_v_rel",
+            LOCAL.KEY-SPEC om-k ] ].
+
+si_tr-ppshift := v-trScprShft-scObNrgRes_scPP-PLACEMENT &
+ [ INFLECTION finstr-tt,
+   STEM < "si" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_si_v_rel" ].
+
+si_tr-subord := v-tr-obDECL &
+ [ INFLECTION finstr-tt,
+   STEM < "si" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_si_v_rel" ].
+
+si_tv := v-tr &
+ [ INFLECTION finstr-tt,
+   STEM < "si" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_si_v_rel" ].
+
+sitte_intr-obl-i := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "sitte" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sitte_v_rel",
+            LOCAL.KEY-SPEC i-k ] ].
+
+sitte_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "sitte" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sitte_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+sitte_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "sitte" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sitte_v_rel" ].
+
+sitte_tr-arg1-secpred := v-trScpr-scObNrgCsd &
+ [ INFLECTION nonfstr-strong,
+   STEM < "sitte" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sitte_v_rel" ].
+
+sjekke_intr-obl-med := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "sjekke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sjekke_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+sjekke_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-et,
+   STEM < "sjekke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sjekke_v_rel" ].
+
+sjekke_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-et,
+   STEM < "sjekke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sjekke_v_rel" ].
+
+sjekke_tr-subord := v-tr-obDECL &
+ [ INFLECTION nonfstr-et,
+   STEM < "sjekke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sjekke_v_rel" ].
+
+sjekke_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "sjekke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sjekke_v_rel" ].
+
+skinne_iv := v-intr &
+ [ INFLECTION nonfstr-te,
+   STEM < "skinne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_skinne_v_rel" ].
+
+sko_tr-refl := v-tr-obRefl &
+ [ INFLECTION finstr-dd,
+   STEM < "sko" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sko_v_rel" ].
+
+sko_tr-refl-obl-med := v-trObl-obRefl &
+ [ INFLECTION finstr-dd,
+   STEM < "sko" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sko_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+sko_tv := v-tr &
+ [ INFLECTION finstr-dd,
+   STEM < "sko" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sko_v_rel" ].
+
+skole_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "skole" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_skole_v_rel" ].
+
+skrive_ditr := v-ditr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "skrive" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_skrive_v_rel" ].
+
+skrive_intr-obl-for := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "skrive" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_skrive_v_rel",
+            LOCAL.KEY-SPEC for-k ] ].
+
+skrive_intr-obl-i := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "skrive" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_skrive_v_rel",
+            LOCAL.KEY-SPEC i-k ] ].
+
+skrive_intr-obl-om := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "skrive" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_skrive_v_rel",
+            LOCAL.KEY-SPEC om-k ] ].
+
+skrive_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "skrive" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_skrive_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+skrive_intr-obl-til := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "skrive" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_skrive_v_rel",
+            LOCAL.KEY-SPEC til-k ] ].
+
+skrive_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "skrive" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_skrive_v_rel" ].
+
+skrive_iv := v-intr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "skrive" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_skrive_v_rel" ].
+
+skrive_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-strong,
+   STEM < "skrive" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_skrive_v_rel" ].
+
+skrive_tr-ppshift := v-trScprShft-scObNrgRes_scPP-PLACEMENT &
+ [ INFLECTION nonfstr-strong,
+   STEM < "skrive" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_skrive_v_rel" ].
+
+skrive_tv := v-tr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "skrive" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_skrive_v_rel" ].
+
+sky_tv := v-tr &
+ [ INFLECTION finstr-dd,
+   STEM < "sky" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sky_v_rel" ].
+
+slange_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "slange" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_slange_v_rel" ].
+
+slange_tr-refl-dir := v-trPath-obRefl_obDir &
+ [ INFLECTION nonfstr-et,
+   STEM < "slange" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_slange_v_rel" ].
+
+slappe_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-et,
+   STEM < "slappe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_slappe_v_rel" ].
+
+slappe_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "slappe" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_slappe_v_rel" ].
+
+smile_intr-obl-til := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "smile" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_smile_v_rel",
+            LOCAL.KEY-SPEC til-k ] ].
+
+smykke_tr-refl-obl-med := v-trObl-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "smykke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_smykke_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+smykke_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "smykke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_smykke_v_rel" ].
+
+snakke_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-et,
+   STEM < "snakke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_snakke_v_rel" ].
+
+snakke_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "snakke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_snakke_v_rel" ].
+
+snakke_tr-arg12-refl-secpred := v-trScpr-scObNrgCsd_obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "snakke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_snakke_v_rel" ].
+
+sove_tr-arg1-secpred := v-trScpr-scObNrgCsd &
+ [ INFLECTION nonfstr-strong,
+   STEM < "sove" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sove_v_rel" ].
+
+spille_ditr := v-ditr &
+ [ INFLECTION nonfstr-te,
+   STEM < "spille" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_spille_v_rel" ].
+
+spille_intr-obl-med := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "spille" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_spille_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+spille_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "spille" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_spille_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+spille_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-te,
+   STEM < "spille" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_spille_v_rel" ].
+
+spille_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "spille" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_spille_v_rel" ].
+
+spise_iv := v-intr &
+ [ INFLECTION nonfstr-te,
+   STEM < "spise" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_spise_v_rel" ].
+
+spise_tr-refl-obl := v-trObl-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "spise" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_spise_v_rel" ].
+
+spise_tr-secpred-arg1-refl := v-trScpr-scObNrgCsd_obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "spise" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_spise_v_rel" ].
+
+stamme_intr-obl-fra := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "stamme" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_stamme_v_rel",
+            LOCAL.KEY-SPEC fra-k ] ].
+
+stamme_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "stamme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_stamme_v_rel" ].
+
+stave_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "stave" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_stave_v_rel" ].
+
+stave_tr-refl-dir := v-trPath-obRefl_obDir &
+ [ INFLECTION nonfstr-et,
+   STEM < "stave" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_stave_v_rel" ].
+
+stave_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "stave" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_stave_v_rel" ].
+
+stenge_intr-obl := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "stenge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_stenge_v_rel" ].
+
+stenge_iv := v-intr &
+ [ INFLECTION nonfstr-te,
+   STEM < "stenge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_stenge_v_rel" ].
+
+stenge_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-te,
+   STEM < "stenge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_stenge_v_rel" ].
+
+stenge_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "stenge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_stenge_v_rel" ].
+
+stue_tr-arg1-refl-telicpart := v-trPrtcl-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "stue" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_stue_v_rel" ].
+
+stue_tr-arg1-secpred := v-trScpr-scObNrgCsd &
+ [ INFLECTION nonfstr-et,
+   STEM < "stue" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_stue_v_rel" ].
+
+stue_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-et,
+   STEM < "stue" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_stue_v_rel" ].
+
+stue_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "stue" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_stue_v_rel" ].
+
+svare_ditr := v-ditr &
+ [ INFLECTION nonfstr-te,
+   STEM < "svare" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_svare_v_rel" ].
+
+svare_ditr-subord := v-ditr-obDECL &
+ [ INFLECTION nonfstr-te,
+   STEM < "svare" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_svare_v_rel" ].
+
+svare_intr-obl-for := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "svare" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_svare_v_rel",
+            LOCAL.KEY-SPEC for-k ] ].
+
+svare_intr-obl-med := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "svare" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_svare_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+svare_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "svare" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_svare_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+svare_iv := v-intr &
+ [ INFLECTION nonfstr-te,
+   STEM < "svare" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_svare_v_rel" ].
+
+svare_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "svare" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_svare_v_rel" ].
+
+svare_tr-subord := v-tr-obDECL &
+ [ INFLECTION nonfstr-te,
+   STEM < "svare" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_svare_v_rel" ].
+
+svare_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "svare" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_svare_v_rel" ].
+
+sykle_intr-dir := v-intr-suDir &
+ [ INFLECTION nonfstr-et,
+   STEM < "sykle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sykle_v_rel" ].
+
+sykle_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "sykle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sykle_v_rel" ].
+
+sykle_tr-dir := v-tr-obDir &
+ [ INFLECTION nonfstr-et,
+   STEM < "sykle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sykle_v_rel" ].
+
+sykle_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "sykle" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_sykle_v_rel" ].
+
+synge_intr-obl-for := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "synge" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_synge_v_rel",
+            LOCAL.KEY-SPEC for-k ] ].
+
+synge_intr-obl-med := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "synge" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_synge_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+synge_intr-obl-om := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "synge" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_synge_v_rel",
+            LOCAL.KEY-SPEC om-k ] ].
+
+synge_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "synge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_synge_v_rel" ].
+
+;synge_tr-arg12-secpred := v-trScpr-scObArgCsd &
+; [ INFLECTION nonfstr,
+;   STEM < "synge" >,
+;   SYNSEM.LKEYS.KEYREL.PRED "_synge_v_rel" ].
+
+synge_tv := v-tr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "synge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_synge_v_rel" ].
+
+ta_ditr-refl-20 := v-ditr-iobRefl &
+ [ INFLECTION finstr-tt,
+   STEM < "ta" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ta_v_rel" ].
+
+ta_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION finstr-tt,
+   STEM < "ta" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ta_v_rel" ].
+
+ta_tr-arg1-refl-telicpart := v-trPrtcl-obRefl &
+ [ INFLECTION finstr-tt,
+   STEM < "ta" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ta_v_rel" ].
+
+ta_tr-detachposs := v-trObl-oblPRTOFob &
+ [ INFLECTION finstr-tt,
+   STEM < "ta" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ta_v_rel" ].
+
+ta_tr-detachposs-refl := v-trObl-obRefl-oblPRTOFob &
+ [ INFLECTION finstr-tt,
+   STEM < "ta" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ta_v_rel" ].
+
+ta_tr-ppshift := v-trScprShft-scObNrgRes_scPP-PLACEMENT &
+ [ INFLECTION finstr-tt,
+   STEM < "ta" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ta_v_rel" ].
+
+ta_tr-refl-obl-15 := v-trObl-obRefl &
+ [ INFLECTION finstr-tt,
+   STEM < "ta" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ta_v_rel" ].
+
+ta_tv := v-tr &
+ [ INFLECTION finstr-tt,
+   STEM < "ta" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ta_v_rel" ].
+
+takke_intr-obl-for := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "takke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_takke_v_rel",
+            LOCAL.KEY-SPEC for-k ] ].
+
+takke_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-et,
+   STEM < "takke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_takke_v_rel" ].
+
+takke_iv := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "takke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_takke_v_rel" ].
+
+takke_tr-obl-for := v-trObl &
+ [ INFLECTION nonfstr-et,
+   STEM < "takke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_takke_v_rel",
+            LOCAL.KEY-SPEC for-k ] ].
+
+takke_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "takke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_takke_v_rel" ].
+
+te_tr-obladv-refl := v-trAdv-obRefl &
+ [ INFLECTION finstr-dd,
+   STEM < "te" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_te_v_rel" ].
+
+te_tr-refl := v-tr-obRefl &
+ [ INFLECTION finstr-dd,
+   STEM < "te" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_te_v_rel" ].
+
+tenke_ditr-refl-subord := v-ditr-iobRefl_obDECL &
+ [ INFLECTION nonfstr-te,
+   STEM < "tenke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_tenke_v_rel" ].
+
+tenke_intr-obl-for := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "tenke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tenke_v_rel",
+            LOCAL.KEY-SPEC for-k ] ].
+
+tenke_intr-obl-med := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "tenke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tenke_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+tenke_intr-obl-over := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "tenke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tenke_v_rel",
+            LOCAL.KEY-SPEC over-k ] ].
+
+tenke_iv := v-intr &
+ [ INFLECTION nonfstr-te,
+   STEM < "tenke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_tenke_v_rel" ].
+
+tenke_obj-eq-refl := v-ditr-iobRefl_obEqIobInf &
+ [ INFLECTION nonfstr-te,
+   STEM < "tenke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_tenke_v_rel" ].
+
+tenke_subj-equi := v-tr-obEqInf &
+ [ INFLECTION nonfstr-te,
+   STEM < "tenke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_tenke_v_rel" ].
+
+tenke_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-te,
+   STEM < "tenke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_tenke_v_rel" ].
+
+tenke_tr-subord := v-tr-obDECL &
+ [ INFLECTION nonfstr-te,
+   STEM < "tenke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_tenke_v_rel" ].
+
+tenke_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "tenke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_tenke_v_rel" ].
+
+tenne_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "tenne" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tenne_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+tenne_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-te,
+   STEM < "tenne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_tenne_v_rel" ].
+
+tenne_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "tenne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_tenne_v_rel" ].
+
+tre_intr-dir := v-intr-suDir &
+ [ INFLECTION finstr-dd,
+   STEM < "tre" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_tre_v_rel" ].
+
+tre_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION finstr-dd,
+   STEM < "tre" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tre_v_rel",
+            LOCAL.KEY-SPEC av-k ] ].
+
+tre_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION finstr-dd,
+   STEM < "tre" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_tre_v_rel" ].
+
+treffe_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "treffe" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_treffe_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+trekke_impers-pres := v-intrImpers &
+ [ INFLECTION nonfstr-strong,
+   STEM < "trekke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_trekke_v_rel" ].
+
+trekke_intr-dir := v-intr-suDir &
+ [ INFLECTION nonfstr-strong,
+   STEM < "trekke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_trekke_v_rel" ].
+
+trekke_intr-obl-fra := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "trekke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_trekke_v_rel",
+            LOCAL.KEY-SPEC fra-k ] ].
+
+trekke_intr-obl-over := v-intrObl-oblN &
+ [ INFLECTION nonfstr-strong,
+   STEM < "trekke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_trekke_v_rel",
+            LOCAL.KEY-SPEC over-k ] ].
+
+trekke_iv := v-intr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "trekke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_trekke_v_rel" ].
+
+trekke_tr-arg1-refl-telicpart := v-trPrtcl-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "trekke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_trekke_v_rel" ].
+
+trekke_tr-arg12-secpred-11 := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-strong,
+   STEM < "trekke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_trekke_v_rel" ].
+
+trekke_tr-obl-12 := v-trObl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "trekke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_trekke_v_rel" ].
+
+trekke_tr-ppshift-10 := v-trScprShft-scObNrgRes_scPP-PLACEMENT &
+ [ INFLECTION nonfstr-strong,
+   STEM < "trekke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_trekke_v_rel" ].
+
+trekke_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "trekke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_trekke_v_rel" ].
+
+trekke_tr-refl-obl-fra := v-trObl-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "trekke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_trekke_v_rel",
+            LOCAL.KEY-SPEC fra-k ] ].
+
+trekke_tv := v-tr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "trekke" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_trekke_v_rel" ].
+
+trene_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION nonfstr-te,
+   STEM < "trene" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_trene_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+trene_iv := v-intr &
+ [ INFLECTION nonfstr-te,
+   STEM < "trene" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_trene_v_rel" ].
+
+trene_tr-arg1-refl-telicpart := v-trPrtcl-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "trene" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_trene_v_rel" ].
+
+trene_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-te,
+   STEM < "trene" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_trene_v_rel" ].
+
+trene_tr-refl-obl-til := v-trObl-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "trene" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_trene_v_rel",
+            LOCAL.KEY-SPEC til-k ] ].
+
+trene_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "trene" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_trene_v_rel" ].
+
+trenge_subj-equi := v-tr-obEqInf &
+ [ INFLECTION nonfstr-te,
+   STEM < "trenge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_trenge_v_rel" ].
+
+trenge_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-te,
+   STEM < "trenge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_trenge_v_rel" ].
+
+trenge_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "trenge" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_trenge_v_rel" ].
+
+trives_intr-obl-bak := v-intrObl-oblN &
+ [ INFLECTION nonfstr-de,
+   STEM < "trives" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_trives_v_rel",
+            LOCAL.KEY-SPEC bak-k ] ].
+
+trives_intr-obl-foran := v-intrObl-oblN &
+ [ INFLECTION nonfstr-de,
+   STEM < "trives" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_trives_v_rel",
+            LOCAL.KEY-SPEC foran-k ] ].
+
+trives_intr-obl-i := v-intrObl-oblN &
+ [ INFLECTION nonfstr-de,
+   STEM < "trives" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_trives_v_rel",
+            LOCAL.KEY-SPEC i-k ] ].
+
+trives_intr-obl-med := v-intrObl-oblN &
+ [ INFLECTION nonfstr-de,
+   STEM < "trives" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_trives_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+trives_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION nonfstr-de,
+   STEM < "trives" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_trives_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+trives_intr-obl-under := v-intrObl-oblN &
+ [ INFLECTION nonfstr-de,
+   STEM < "trives" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_trives_v_rel",
+            LOCAL.KEY-SPEC under-k ] ].
+
+trives_intr-obl-ved := v-intrObl-oblN &
+ [ INFLECTION nonfstr-de,
+   STEM < "trives" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_trives_v_rel",
+            LOCAL.KEY-SPEC ved-k ] ].
+
+trives_iv := v-intr &
+ [ INFLECTION nonfstr-de,
+   STEM < "trives" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_trives_v_rel" ].
+
+tro_intr-obl-på := v-intrObl-oblN &
+ [ INFLECTION finstr-dd,
+   STEM < "tro" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tro_v_rel",
+            LOCAL.KEY-SPEC på-k ] ].
+
+tro_tr-subord := v-tr-obDECL &
+ [ INFLECTION finstr-dd,
+   STEM < "tro" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_tro_v_rel" ].
+
+tro_tv := v-tr &
+ [ INFLECTION finstr-dd,
+   STEM < "tro" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_tro_v_rel" ].
+
+varme_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-et,
+   STEM < "varme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_varme_v_rel" ].
+
+varme_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-et,
+   STEM < "varme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_varme_v_rel" ].
+
+varme_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-et,
+   STEM < "varme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_varme_v_rel" ].
+
+varme_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "varme" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_varme_v_rel" ].
+
+vaske_intr := v-intr &
+ [ INFLECTION nonfstr-et,
+   STEM < "vaske" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vaske_v_rel" ] ].
+
+vaske_intr-obl-i := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "vaske" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vaske_v_rel",
+            LOCAL.KEY-SPEC i-k ] ].
+
+vaske_intr-obl-med := v-intrObl-oblN &
+ [ INFLECTION nonfstr-et,
+   STEM < "vaske" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vaske_v_rel",
+            LOCAL.KEY-SPEC med-k ] ].
+
+vaske_intr-telicpartcl := v-intrPrtcl &
+ [ INFLECTION nonfstr-et,
+   STEM < "vaske" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_vaske_v_rel" ].
+
+vaske_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-et,
+   STEM < "vaske" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_vaske_v_rel" ].
+
+vaske_tr-detachposs-refl := v-trObl-obRefl-oblPRTOFob &
+ [ INFLECTION nonfstr-et,
+   STEM < "vaske" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_vaske_v_rel" ].
+
+vente_subj-eq-pp := v-intrObl-oblEqSuInf &
+ [ INFLECTION nonfstr-et,
+   STEM < "vente" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_vente_v_rel" ].
+
+vente_tr-subord := v-tr-obDECL &
+ [ INFLECTION nonfstr-et,
+   STEM < "vente" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_vente_v_rel" ].
+
+vente_tv := v-tr &
+ [ INFLECTION nonfstr-et,
+   STEM < "vente" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_vente_v_rel" ].
+
+ville_tr-subord := v-tr-obDECL &
+ [ INFLECTION nonfstr-strong,
+   STEM < "ville" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_ville_v_rel" ].
+
+vinne_intr-obl := v-intrObl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "vinne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_vinne_v_rel" ].
+
+vinne_iv := v-intr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "vinne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_vinne_v_rel" ].
+
+vinne_tr-arg12-secpred := v-trScpr-scObArgCsd &
+ [ INFLECTION nonfstr-strong,
+   STEM < "vinne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_vinne_v_rel" ].
+
+vinne_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-strong,
+   STEM < "vinne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_vinne_v_rel" ].
+
+vinne_tv := v-tr &
+ [ INFLECTION nonfstr-strong,
+   STEM < "vinne" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_vinne_v_rel" ].
+
+vise_intr-obl-til := v-intrObl &
+ [ INFLECTION nonfstr-te,
+   STEM < "vise" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vise_v_rel",
+            LOCAL.KEY-SPEC til-k ] ].
+
+vise_tr-refl := v-tr-obRefl &
+ [ INFLECTION nonfstr-te,
+   STEM < "vise" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_vise_v_rel" ].
+
+vise_tr-subord := v-tr-obDECL &
+ [ INFLECTION nonfstr-te,
+   STEM < "vise" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_vise_v_rel" ].
+
+vise_tv := v-tr &
+ [ INFLECTION nonfstr-te,
+   STEM < "vise" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_vise_v_rel" ].
+
+alvorlig_abs-epon-dcl := abs-adj-epon-decl-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "alvorlig" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_alvorlig_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+alvorlig_abs-nonepon-dcl := abs-adj-nonepon-decl-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "alvorlig" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_alvorlig_a_rel" ].
+
+alvorlig_regadj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "alvorlig" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_alvorlig_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+arm_regadj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "arm" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_arm_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bar_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "bar" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bar_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+beige_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "beige" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_beige_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bein_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "bein" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bein_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+biff_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "biff" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_biff_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+brun_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "brun" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_brun_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fersk_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "fersk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fersk_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+forelsket_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "forelsket" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_forelsket_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fri_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "fri" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fri_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+; 'gram i hu' is little used
+;gram_adj := stnd-adj-lxm &
+; [ INFLECTION finstr,
+;   STEM < "gram" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_gram_a_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+halv_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "halv" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_halv_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hvit_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "hvit" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hvit_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+koselig_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "koselig" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_koselig_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+le_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "le" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_le_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lei_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "lei" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lei_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lek_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "lek" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lek_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lik_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "lik" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lik_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+like_ens_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "like" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_like_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lilla_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "lilla" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lilla_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lys_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "lys" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lys_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+mobil_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "mobil" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_mobil_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+nysgjerrig_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "nysgjerrig" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_nysgjerrig_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+oransje_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "oransje" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_oransje_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+passe_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "passe" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_passe_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+redd_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "redd" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_redd_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+rein_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "rein" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_rein_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ringe_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "ringe" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ringe_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;rom_adj := stnd-adj-lxm &
+; [ INFLECTION finstr,
+;   STEM < "rom" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_rom_a_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+rosa_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "rosa" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_rosa_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+salt_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "salt" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_salt_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+sint_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "sint" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sint_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+sjenert_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "sjenert" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sjenert_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+skitten_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "skitten" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_skitten_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+sky_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "sky" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sky_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+sulten_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "sulten" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sulten_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+sur_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "sur" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sur_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+svare_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "svare" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_svare_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+svart_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "svart" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_svart_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tom_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "tom" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tom_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+trist_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "trist" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_trist_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tro_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "tro" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tro_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+turkis_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "turkis" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_turkis_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ung_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "ung" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ung_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+vanskelig_abs-epon-dcl := abs-adj-epon-decl-lxm &
+  [ INFLECTION nonfstr,
+    STEM < "vanskelig" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_vanskelig_a_rel" ].
+
+venstre_adj := stnd-adj-lxm &
+ [ INFLECTION nonfstr,
+   STEM < "venstre" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_venstre_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+vind_adj := stnd-adj-lxm &
+ [ INFLECTION finstr,
+   STEM < "vind" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vind_a_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+afrikaner_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "afrikaner" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_afrikaner_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;agurk_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "agurk" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_agurk_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+alkohol_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "alkohol" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_alkohol_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+amerikaner_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "amerikaner" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_amerikaner_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+apekatt_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "apekatt" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_apekatt_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+apotek_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-n,
+   STEM < "apotek" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_apotek_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+appelsin_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "appelsin" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_appelsin_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+april_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full-long-or-short,
+   STEM < "april" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_april_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+asiat_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "asiat" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_asiat_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+asjett_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "asjett" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_asjett_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+august_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full-long-or-short,
+   STEM < "august" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_august_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+australier_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "australier" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_australier_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;avis_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "avis" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_avis_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+baby_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "baby" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_baby_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;bad_n_neut := neut-re-noun-lxm &
+; [ INFLECTION infl_nshort,
+;   STEM < "bad" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_bad_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+badebukse_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "badebukse" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_badebukse_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+badedrakt_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "badedrakt" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_badedrakt_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+badekar_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "badekar" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_badekar_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bag_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "bag" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bag_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;bagasje_n_masc := masc-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "bagasje" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_bagasje_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+baker_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "baker" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_baker_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ball_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-nshort,
+   STEM < "ball" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ball_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;banan_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "banan" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_banan_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bank_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "bank" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bank_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+banke_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "banke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_banke_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;bar_n_neut := neut-re-noun-lxm &
+; [ INFLECTION final-full-nshort,
+;   STEM < "bar" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_bar_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;barn_n_neut := neut-re-noun-lxm &;
+; [ INFLECTION infl_nshort;,
+;   STEM < "barn" >;,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_barn_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+barnehage_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "barnehage" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_barnehage_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+batteri_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-n,
+   STEM < "batteri" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_batteri_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bein_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "bein" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bein_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+belgier_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "belgier" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_belgier_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+belte_n_neut := neut-re-noun-lxm &
+ [ INFLECTION light-e-nlong,
+   STEM < "belte" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_belte_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;bensinstasjon_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "bensinstasjon" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_bensinstasjon_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bh_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "bh" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bh_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;bibliotek_n_neut := neut-re-noun-lxm &
+; [ INFLECTION final-full-n,
+;   STEM < "bibliotek" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_bibliotek_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+biff_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "biff" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_biff_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bikini_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "bikini" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bikini_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;billett_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "billett" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_billett_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;blad_n_neut := neut-re-noun-lxm &
+; [ INFLECTION final-full-n,
+;   STEM < "blad" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_blad_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;blokk_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "blokk" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_blokk_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+blomst_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "blomst" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_blomst_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bluse_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "bluse" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bluse_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+blyant_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "blyant" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_blyant_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bo_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "bo" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bo_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;bokhylle_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "bokhylle" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_bokhylle_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bomull_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "bomull" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bomull_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;bonde_n_masc := masc-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "bonde" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_bonde_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bord_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "bord" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bord-2_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+brasilianer_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "brasilianer" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_brasilianer_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+brite_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "brite" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_brite_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+brud_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "brud" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_brud_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+brudgom_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full-mm,
+   STEM < "brudgom" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_brudgom_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+brunost_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "brunost" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_brunost_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;brus_n_neut := neut-re-noun-lxm &
+; [ INFLECTION infl_nshort,
+;   STEM < "brus" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_brus_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bryst_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-n,
+   STEM < "bryst" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bryst_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bukett_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "bukett" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bukett_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bukse_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "bukse" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bukse_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+busk_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "busk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_busk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;buss_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "buss" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_buss_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bussholdeplass_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "bussholdeplass" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bussholdeplass_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;butikk_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "butikk" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_butikk_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bytte_n_neut := neut-re-noun-lxm &
+ [ INFLECTION light-e-nlong,
+   STEM < "bytte" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bytte_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+celsius_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "celsius" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_celsius_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;dame_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "dame" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_dame_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+dans_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "dans" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_dans_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+danske_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "danske" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_danske_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;dato_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "dato" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_dato_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+dele_n_neut := neut-re-noun-lxm &
+ [ INFLECTION light-e-nlong,
+   STEM < "dele" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_dele_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+desember_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full-long-or-short,
+   STEM < "desember" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_desember_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+desiliter_masc-meas := masc-measure-vol-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "desiliter" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_desiliter_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY measurnoun ] ].
+
+desimeter_masc-meas := masc-measure-length-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "desimeter" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_desimeter_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY measurnoun ] ].
+
+disse_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "disse" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_disse_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+dress_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "dress" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_dress_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+drikke_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-nshort,
+   STEM < "drikke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_drikke_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+dukke_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "dukke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_dukke_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;dusj_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "dusj" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_dusj_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;dyne_n_masc := masc-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "dyne" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_dyne_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+egg_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "egg" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_egg_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+eksamen_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "eksamen" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_eksamen_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+elefant_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "elefant" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_elefant_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+engelskmann_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "engelskmann" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_engelskmann_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+europeer_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "europeer" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_europeer_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;fabrikk_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "fabrikk" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_fabrikk_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+far_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "far" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_far_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fat_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-n,
+   STEM < "fat" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fat_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+feber_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "feber" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_feber_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+februar_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full-long-or-short,
+   STEM < "februar" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_februar_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+femmer_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "femmer" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_femmer_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+femtedel_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "femtedel" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_femtedel_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+femtilapp_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "femtilapp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_femtilapp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;ferie_n_masc := masc-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "ferie" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_ferie_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fest_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "fest" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fest_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;film_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "film" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_film_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+finger_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "finger" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_finger_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+finne_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "finne" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_finne_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fiske_n_neut := neut-re-noun-lxm &
+ [ INFLECTION light-e-nlong,
+   STEM < "fiske" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fiske_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fisker_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "fisker" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fisker_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fjerdedel_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "fjerdedel" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fjerdedel_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fjernsyn_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "fjernsyn" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fjernsyn_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fjord_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "fjord" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fjord_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+flagg_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "flagg" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_flagg_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+flue_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "flue" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_flue_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;fly_n_neut := neut-re-noun-lxm &
+; [ INFLECTION infl_nshort,
+;   STEM < "fly" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_fly_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+flyplass_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "flyplass" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_flyplass_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+foss_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "foss" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_foss_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;fotball_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "fotball" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_fotball_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+frakk_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "frakk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_frakk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+franskmann_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "franskmann" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_franskmann_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fritid_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "fritid" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fritid_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;frokost_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "frokost" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_frokost_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+frosk_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "frosk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_frosk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fugl_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "fugl" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fugl_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+furu_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "furu" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_furu_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fylle_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "fylle" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fylle_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gaffel_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "gaffel" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gaffel_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gang_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "gang" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gang_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ganger_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "ganger" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ganger_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;gate_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "gate" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_gate_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;genser_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "genser" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_genser_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gifte_n_neut := neut-re-noun-lxm &
+ [ INFLECTION light-e-nlong,
+   STEM < "gifte" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gifte_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;gitar_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "gitar" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_gitar_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gjerde_n_neut := neut-re-noun-lxm &
+ [ INFLECTION light-e-nlong,
+   STEM < "gjerde" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gjerde_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;glass_n_neut := neut-re-noun-lxm &
+; [ INFLECTION infl_nshort,
+;   STEM < "glass" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_glass_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+glede_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "glede" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_glede_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gram_neut-meas := neut-measure-weight-noun-lxm &
+ [ INFLECTION final-full-mm-nshort,
+   STEM < "gram" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gram_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY measurnoun ] ].
+
+gran_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "gran" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gran_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+greie_n_neut := neut-re-noun-lxm &
+ [ INFLECTION light-e-nlong,
+   STEM < "greie" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_greie_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+grein_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "grein" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_grein_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+greker_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "greker" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_greker_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gress_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-nshort,
+   STEM < "gress" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gress_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gris_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "gris" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gris_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gryte_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "gryte" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gryte_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gulrot_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "gulrot" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gulrot_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gulv_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "gulv" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gulv_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;hage_n_masc := masc-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "hage" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_hage_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hagl_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "hagl" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hagl_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hake_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "hake" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hake_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hals_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "hals" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hals_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+halvtime_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "halvtime" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_halvtime_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hammer_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "hammer" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hammer_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hatt_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "hatt" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hatt_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hekto_n_mascorneut := mascorneut-re-noun-lxm &
+ [ INFLECTION infl_m_nshort,
+   STEM < "hekto" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hekto_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;helg_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "helg" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_helg_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hest_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "hest" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hest_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hete_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "hete" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hete_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+himmel_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "himmel" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_himmel_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;historie_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "historie" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_historie_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hjem_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-mm-nshort,
+   STEM < "hjem" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hjem_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hjerne_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "hjerne" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hjerne_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hjerte_n_neut := neut-re-noun-lxm &
+ [ INFLECTION light-e-nlong,
+   STEM < "hjerte" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hjerte_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hjul_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "hjul" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hjul_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hoppe_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "hoppe" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hoppe_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hotell_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-n,
+   STEM < "hotell" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hotell_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hud_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "hud" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hud_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hundrelapp_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "hundrelapp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hundrelapp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+husarbeid_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-n,
+   STEM < "husarbeid" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_husarbeid_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+huske_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "huske" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_huske_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hval_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "hval" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hval_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hylle_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "hylle" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hylle_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+inder_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "inder" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_inder_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+indonesier_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "indonesier" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_indonesier_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+industri_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "industri" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_industri_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;inngang_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "inngang" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_inngang_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+insekt_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-n,
+   STEM < "insekt" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_insekt_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+iskrem_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "iskrem" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_iskrem_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;italiener_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "italiener" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_italiener_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+januar_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full-long-or-short,
+   STEM < "januar" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_januar_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;jente_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "jente" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_jente_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+jord_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "jord" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_jord_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+jordbruk_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "jordbruk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_jordbruk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+jul_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "jul" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_jul_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+julaften_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "julaften" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_julaften_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+jus_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "jus" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_jus_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;kake_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "kake" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_kake_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kalender_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "kalender" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kalender_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kalkun_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "kalkun" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kalkun_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kam_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full-mm,
+   STEM < "kam" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kam_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kamera_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-nlong,
+   STEM < "kamera" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kamera_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;karakter_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "karakter" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_karakter_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;kart_n_neut := neut-re-noun-lxm &
+; [ INFLECTION final-full-n,
+;   STEM < "kart" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_kart_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kaste_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "kaste" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kaste_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kineser_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "kineser" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kineser_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kino_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "kino" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kino_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kjeks_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "kjeks" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kjeks_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kjole_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "kjole" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kjole_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;klokke_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "klokke" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_klokke_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+klut_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "klut" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_klut_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;kne_n_neut := neut-re-noun-lxm &
+; [ INFLECTION final-full-n,
+;   STEM < "kne" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_kne_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kniv_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "kniv" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kniv_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;koffert_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "koffert" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_koffert_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+koke_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "koke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_koke_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kokk_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "kokk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kokk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+komfyr_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "komfyr" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_komfyr_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+komma_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-nlong,
+   STEM < "komma" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_komma_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+komme_n_neut := neut-re-noun-lxm &
+ [ INFLECTION light-e-nlong,
+   STEM < "komme" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_komme_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kommode_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "kommode" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kommode_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;konsert_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "konsert" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_konsert_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+konvolutt_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "konvolutt" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_konvolutt_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kor_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "kor" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kor_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+korketrekker_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "korketrekker" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_korketrekker_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+korn_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "korn" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_korn_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kost_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-nshort,
+   STEM < "kost" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kost_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kronestykke_n_neut := neut-re-noun-lxm &
+ [ INFLECTION light-e-nlong,
+   STEM < "kronestykke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kronestykke_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kropp_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "kropp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kropp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+krydder_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-nshort,
+   STEM < "krydder" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_krydder_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ku_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "ku" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ku_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kubikkmeter_masc-meas := masc-measure-length-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "kubikkmeter" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kubikkmeter_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY measurnoun ] ].
+
+kulde_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "kulde" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kulde_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;kultur_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "kultur" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_kultur_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kunde_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "kunde" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kunde_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kvadratmeter_masc-meas := masc-measure-length-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "kvadratmeter" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kvadratmeter_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY measurnoun ] ].
+
+kvarter_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-n,
+   STEM < "kvarter" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kvarter_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kvist_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "kvist" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kvist_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kvittering_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "kvittering" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kvittering_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+laks_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "laks" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_laks_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lampe_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "lampe" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lampe_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lapp_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "lapp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lapp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lastebil_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "lastebil" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lastebil_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+le_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-nshort,
+   STEM < "le" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_le_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;lege_n_masc := masc-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "lege" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_lege_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+legg_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "legg" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_legg_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lei_n_masc := masc-re-noun-lxm &
+ [ INFLECTION infl_mshort,
+   STEM < "lei" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lei_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;leilighet_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "leilighet" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_leilighet_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lek_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "lek" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lek_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lenestol_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "lenestol" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lenestol_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+leppe_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "leppe" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_leppe_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lever_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "lever" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lever_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lik_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "lik" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lik_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+like_n_masc := masc-re-noun-lxm &
+ [ INFLECTION finalfull-ic,
+   STEM < "like" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_like_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lim_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "lim" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lim_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+linjal_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "linjal" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_linjal_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+liter_masc-meas := masc-measure-vol-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "liter" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_liter_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY measurnoun ] ].
+
+;lommebok_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "lommebok" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_lommebok_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lue_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "lue" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lue_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+luft_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "luft" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_luft_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;lunsj_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "lunsj" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_lunsj_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lyn_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "lyn" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lyn_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;lys_n_neut := neut-re-noun-lxm &
+; [ INFLECTION infl_nshort,
+;   STEM < "lys" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_lys_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;lyst_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "lyst" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_lyst_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+mai_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full-long-or-short,
+   STEM < "mai" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_mai_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+maleri_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-n,
+   STEM < "maleri" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_maleri_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+mark_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "mark" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_mark_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+mars_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full-long-or-short,
+   STEM < "mars" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_mars_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+matematikk_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "matematikk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_matematikk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+medisiner_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "medisiner" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_medisiner_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+mel_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-nshort,
+   STEM < "mel" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_mel_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;melk_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "melk" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_melk_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+milligram_neut-meas := neut-measure-weight-noun-lxm &
+ [ INFLECTION final-full-mm-nshort,
+   STEM < "milligram" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_milligram_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY measurnoun ] ].
+
+milliliter_masc-meas := masc-measure-vol-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "milliliter" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_milliliter_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY measurnoun ] ].
+
+millimeter_masc-meas := masc-measure-length-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "millimeter" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_millimeter_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY measurnoun ] ].
+
+;minibank_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "minibank" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_minibank_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+minus_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-n,
+   STEM < "minus" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_minus_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;mobil_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "mobil" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_mobil_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;mor_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "mor" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_mor_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+motorsykkel_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "motorsykkel" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_motorsykkel_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+munn_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "munn" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_munn_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+mus_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION infl_m_fshort,
+   STEM < "mus" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_mus_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;musikk_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "musikk" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_musikk_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+mygg_n_masc := masc-re-noun-lxm &
+ [ INFLECTION infl_mshort,
+   STEM < "mygg" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_mygg_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+mynt_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "mynt" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_mynt_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+natt_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "natt" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_natt_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+naturfag_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "naturfag" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_naturfag_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+nederlender_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "nederlender" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_nederlender_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+nese_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "nese" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_nese_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+november_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full-long-or-short,
+   STEM < "november" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_november_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+null_n_mascorneut := mascorneut-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "null" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_null_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+nyre_n_mascorneut := mascorneut-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "nyre" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_nyre_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+okse_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "okse" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_okse_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+oktober_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full-long-or-short,
+   STEM < "oktober" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_oktober_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+olje_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "olje" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_olje_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+oransje_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "oransje" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_oransje_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;ordbok_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "ordbok" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_ordbok_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;ost_n_neut := neut-re-noun-lxm &
+; [ INFLECTION final-full-nshort,
+;   STEM < "ost" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_ost_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pakistaner_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "pakistaner" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pakistaner_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+panne_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "panne" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_panne_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+paraply_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "paraply" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_paraply_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;pass_n_neut := neut-re-noun-lxm &
+; [ INFLECTION final-full-nshort,
+;   STEM < "pass" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_pass_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pasta_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "pasta" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pasta_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;penn_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "penn" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_penn_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pepper_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "pepper" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pepper_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;piano_n_neut := neut-re-noun-lxm &
+; [ INFLECTION final-full-n,
+;   STEM < "piano" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_piano_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pilot_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "pilot" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pilot_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+plante_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "plante" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_plante_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+plen_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "plen" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_plen_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+pluss_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-n,
+   STEM < "pluss" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_pluss_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+politimann_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "politimann" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_politimann_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;pose_n_masc := masc-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "pose" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_pose_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;postkontor_n_neut := neut-re-noun-lxm &
+; [ INFLECTION final-full-n,
+;   STEM < "postkontor" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_postkontor_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;pris_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "pris" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_pris_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;pute_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "pute" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_pute_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+radio_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "radio" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_radio_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+regning_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "regning" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_regning_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+rein_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "rein" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_rein_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+reise_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "reise" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_reise_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+restaurant_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "restaurant" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_restaurant_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+rev_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "rev" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_rev_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ringe_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "ringe" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ringe_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ringperm_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "ringperm" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ringperm_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ris_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "ris" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ris_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+rom_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full-mm,
+   STEM < "rom" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_rom_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+rosa_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "rosa" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_rosa_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+rose_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "rose" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_rose_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+rotte_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "rotte" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_rotte_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+russer_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "russer" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_russer_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ryggsekk_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "ryggsekk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ryggsekk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+saft_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "saft" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_saft_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+sag_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "sag" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sag_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+saks_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "saks" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_saks_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+salat_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "salat" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_salat_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+salt_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-n,
+   STEM < "salt" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_salt_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;same_n_masc := masc-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "same" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_same_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;sang_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "sang" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_sang_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+sau_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "sau" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sau_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+saus_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "saus" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_saus_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+selger_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "selger" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_selger_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;september_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full-long-or-short,
+;   STEM < "september" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_september_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+serviett_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "serviett" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_serviett_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+si_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "si" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_si_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+sil_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "sil" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sil_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+sitron_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "sitron" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sitron_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;sjokolade_n_masc := masc-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "sjokolade" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_sjokolade_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;skap_n_neut := neut-re-noun-lxm &
+; [ INFLECTION infl_nshort,
+;   STEM < "skap" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_skap_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;ski_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION infl_m_fshort,
+;   STEM < "ski" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_ski_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;skinke_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "skinke" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_skinke_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+skinne_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "skinne" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_skinne_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+skip_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "skip" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_skip_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+skje_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "skje" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_skje_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+skjelett_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-n,
+   STEM < "skjelett" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_skjelett_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;skjerf_n_neut := neut-re-noun-lxm &
+; [ INFLECTION infl_nshort,
+;   STEM < "skjerf" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_skjerf_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+skjorte_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "skjorte" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_skjorte_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;skole_n_masc := masc-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "skole" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_skole_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+skoletime_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "skoletime" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_skoletime_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+skrivebok_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "skrivebok" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_skrivebok_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+skulder_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "skulder" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_skulder_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+sky_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full-long-or-short,
+   STEM < "sky" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sky_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+slange_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "slange" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_slange_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+slips_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "slips" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_slips_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+smykke_n_neut := neut-re-noun-lxm &
+ [ INFLECTION light-e-nlong,
+   STEM < "smykke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_smykke_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+sokk_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "sokk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sokk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;sol_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "sol" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_sol_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+sommerfugl_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "sommerfugl" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sommerfugl_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+sopp_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "sopp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sopp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+soverom_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-mm-nshort,
+   STEM < "soverom" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_soverom_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+spagetti_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "spagetti" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_spagetti_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+spanjol_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "spanjol" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_spanjol_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+speil_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "speil" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_speil_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+spille_n_neut := neut-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "spille" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_spille_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+sport_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "sport" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sport_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+stamme_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "stamme" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_stamme_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+steikepanne_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "steikepanne" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_steikepanne_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+stenge_n_neut := neut-re-noun-lxm &
+ [ INFLECTION light-e-nlong,
+   STEM < "stenge" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_stenge_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;storm_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "storm" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_storm_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+strand_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "strand" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_strand_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;student_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "student" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_student_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;stue_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION light-e,
+;   STEM < "stue" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_stue_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;sukker_n_neut := neut-re-noun-lxm &
+; [ INFLECTION final-full-nshort,
+;   STEM < "sukker" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_sukker_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+svart_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-nshort,
+   STEM < "svart" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_svart_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+svenske_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "svenske" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_svenske_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;sykehus_n_neut := neut-re-noun-lxm &
+; [ INFLECTION infl_nshort,
+;   STEM < "sykehus" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_sykehus_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+sykepleier_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "sykepleier" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_sykepleier_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;sykkel_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "sykkel" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_sykkel_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+syl_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "syl" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_syl_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tablett_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "tablett" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tablett_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+takke_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "takke" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_takke_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tallerken_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "tallerken" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tallerken_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;tann_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "tann" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_tann_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tannkrem_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "tannkrem" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tannkrem_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tannlege_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "tannlege" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tannlege_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tastatur_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-n,
+   STEM < "tastatur" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tastatur_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tau_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "tau" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tau_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tavle_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "tavle" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tavle_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;taxi_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "taxi" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_taxi_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;te_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "te" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_te_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+teater_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-n,
+   STEM < "teater" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_teater_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;temperatur_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "temperatur" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_temperatur_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+teskje_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "teskje" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_teskje_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tiende_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "tiende" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tiende_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;tikroning_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "tikroning" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_tikroning_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tilbud_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "tilbud" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tilbud_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+toalett_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-n,
+   STEM < "toalett" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_toalett_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;tog_n_neut := neut-re-noun-lxm &
+; [ INFLECTION infl_nshort,
+;   STEM < "tog" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_tog_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+toll_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "toll" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_toll_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tom_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full-mm,
+   STEM < "tom" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tom_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;tomat_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "tomat" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_tomat_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;torsk_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "torsk" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_torsk_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;tre_reginan := neut-reginan-noun-lxm &
+; [ INFLECTION final-full-nlong,
+;   STEM < "tre" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_tre_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;trening_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "trening" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_trening_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+trikk_n_neut := neut-re-noun-lxm &
+ [ INFLECTION infl_nshort,
+   STEM < "trikk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_trikk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tro_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "tro" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tro_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+truse_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "truse" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_truse_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tulipan_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "tulipan" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tulipan_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tunge_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "tunge" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tunge_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;turist_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "turist" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_turist_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+turkis_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "turkis" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_turkis_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+tusenlapp_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "tusenlapp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_tusenlapp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;tysker_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "tysker" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_tysker_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;ulv_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "ulv" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_ulv_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;universitet_n_neut := neut-re-noun-lxm &
+; [ INFLECTION final-full-n,
+;   STEM < "universitet" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_universitet_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+utgang_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "utgang" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_utgang_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;utlending_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "utlending" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_utlending_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+varme_n_masc := masc-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "varme" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_varme_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+vask_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "vask" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vask_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+vaskemaskin_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "vaskemaskin" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vaskemaskin_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+vegg_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "vegg" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vegg_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+vekt_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "vekt" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vekt_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+venninne_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "venninne" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_venninne_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+venstre_n_neut := neut-re-noun-lxm &
+ [ INFLECTION final-full-nshort,
+   STEM < "venstre" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_venstre_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+vente_n_neut := neut-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "vente" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vente_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+veske_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "veske" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_veske_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ville_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "ville" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ville_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+vind_n_masc := masc-re-noun-lxm &
+ [ INFLECTION final-full,
+   STEM < "vind" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vind_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+vinne_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "vinne" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vinne_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;vinter_n_masc := masc-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "vinter" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_vinter_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+vise_n_mascorfem := mascorfem-re-noun-lxm &
+ [ INFLECTION light-e,
+   STEM < "vise" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vise_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;vogn_n_mascorfem := mascorfem-re-noun-lxm &
+; [ INFLECTION final-full,
+;   STEM < "vogn" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_vogn_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].

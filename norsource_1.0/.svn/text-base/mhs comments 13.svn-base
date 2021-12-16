@@ -1,0 +1,778 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; MHS 151213
+
+snill guttene smiler ;; this sentence indicates that we need to consider restricting free subj pred front from interacting with certain mal rules, particularly the mal adjective inflectional rules.
+
+
+
+;;;; from np intern test
+
+en snilt gutten sover ;; mal en for den seems not to be restricted from generating.
+
+en snilt barnet sover ;; the mal rule for dropping determiners with indefinites can conspire with mal en for den and the rule for improper concord between article and noun.
+
+flere snilt gutt sover ;; generates mal sentences.
+
+flere snill gutt sover ;; same as the previous sentence.
+
+
+;;;; from nowtest and s_test_neg 
+
+Jeg, snakker italiensk, engelsk og litt norsk. ;; There's still some messy discriminants related to the coordination construction as I don't understand them sufficiently.
+
+;; mal rule interactions
+
+På fredag ha gutten snart ikke sovet. ;; Here there's some spurious ambiguity going on with the mal verb inflection rules.
+
+ola forakter seg ;; mal subj drop rule and head filler wh rule. 
+
+;; imperatives
+
+Har du med deg pass og kort om helseforsikring?
+
+;; head-subject-wh-rule
+
+Klokka ni banker Anna på døra.
+
+;; mwe
+
+Takk, bare bra!
+
+Ja, vær så god!
+
+;; strange coordination
+
+Han bor i Hamburg og er 25 år.
+
+Han trenger melk, ost, skinge og smør.
+
+De drikker kaffe og spiser muffins på en kafe.
+
+Hun spør noen av studentene om navn og nasjonalitet.
+
+;; adverb strangeness and apposition
+
+et tog stopper på trondheim sentralstasjon
+
+;; non-mcl extraction 
+
+Adressa er Herman Krags vei, men jeg må dra til resepsjonen først.
+
+;; mal-sentence-adverb-initial
+
+Anna vil gjerne ta flybussen til Trondheim.
+
+;; head-subject-wh-rule
+
+overgang betyr at du kan bruke billetten i en time.
+
+;; too many copulas
+
+Peter og Frank er på vei inn til Trondheim. ;; some weird conspiracy involving coordination and copula drop
+
+Vær så god, her er lista.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; MHS 111013
+
+Treebanking test-v-stnd
+
+Adressa er Herman Krags vei, men jeg må dra til resepsjonen først. ;; lots of discriminants.
+
+det regner ;; mal head subject rule and mal head subject before the verb rule interaction.
+
+det synger i fjellene
+
+;; red death - RØD MRS
+
+jeg ber om å komme
+
+han håper på å komme
+
+de snakker om å reise til trondheim
+
+;; no discriminants
+
+at han kom beror på ola
+
+;; SLASH weirdness
+
+han sang det mulig at Ola kommer
+
+Treebanking test-ch1-6-now
+
+;; SLASH weirdness
+
+er det noe mer du trenger?
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; MHS 080813
+
+
+han er den snilleste av de to ;; red mrs. Free variable.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; MHS 070813
+
+Continuing with treebanking massifcentral.
+ 
+;; SLASH shenanigans
+
+jeg snakker om et hav av katter ;; head-prep-indirwhquestclause-comp-rule ;; Should be FIXED. Added the constraint NON-HEAD-DTR.SYNSEM.LOCAL.IS-A-COMPLEMENT + to the type head-prep-indirwhquestclause-comp-phrase.
+
+;; adverbial-stnd-first-verb-mod-rule
+
+jeg snakker om en glad gutt
+
+;; Subject rule oddness
+
+gutt sover
+
+vin renner
+
+mye god vin renner
+
+ni av guttene smiler
+
+fire sover
+
+;; Odd NP structures
+
+mye god vin renner ;; [ [ mye god ] vin ] and [ mye [ god vin ] ]
+
+den glade gutten smiler ;; remember to ask Lars why there's both a head-spec-det-rule and a head-spec-det-adj-rule
+
+de glade gutter smiler ;; same as previous
+
+de tre glade guttene smiler
+
+de tre gode vinene renner
+
+;; Complement rule oddness
+
+jeg ser gutten si bygd ;; head-verb-bareinfin-comp-rule ;; Not really a problem, derp!
+
+;; Possessive structures
+
+jeg snakker om gutten sin ball ;; apposition-for-introduction-rule
+
+mine tre gutter sover ;; [ [ mine tre ] gutter ] og [ mine [ tre gutter ] ]
+
+jeg ser mine tre gutter ;; same as previous 
+
+ola sin gutt sin katt smiler ;; [ [ ola sin ] [ [ gutt sin ] katt ] ]
+
+olas gutts katt løper ;; similar structure as the previous sentence
+
+;; Cardinal structures
+
+Ola løper på tre trettifem ;; apposition rule shenanigans, and, it would seem, that cardinal rules apply to cardinal words that have undergone derivational rules such as card-to-name-of-card-lrule.
+
+ola løper klokka tre trettifem ;; apposition-for-introduction-rule and klokka-spec-rule ; moreover, recall to ask Lars about card-mod-indef-with-interr-rule.
+
+jeg ser ni av guttene ;; is this the correct analysis? Did Lars mention something about this?
+
+jeg unner Ola tre fjell ;; enumeration-by-card-rule og card-to-bare-n-lrule
+
+jeg unner Ola en glad gutt ;; same as previous
+
+;; Quantifier structures
+
+hver av de glade guttene smiler ;; indefquant-to-bare-n-lrule creates here a lot of unwanted ambiguity
+
+hver av de tre glade guttene smiler ;; same as the previous, and there are many more. It would seem to be something that would be a problem in all similar constructions with the current indefquant-to-bare-n-lrule.
+
+jeg ser alle gutter ;; ask Lars about these analyses.
+
+jeg ser begge guttene ;; this receives an analysis with head-verb-allquant-comp-rule.
+
+jeg unner Ola mye god vin ;; 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; MHS 060813
+
+I'm gonna be treebanking massifcentral in the course of the day, and, if necessary, the early parts of tomorrow, noting problematic sentences and phenomena, beginning with test-v-stnd.
+
+
+;; Cyclic MRS
+
+;; Complement oddness
+
+det sniker seg ut en mann ;; look at head-verb-bareinf-comp-rule. ;; Would seem to be FIXED. Added a constraint to subject-presentational-secpred-refl-dir-synsem to the tune of LOCAL.CAT.VAL.COMPS.< [ LOCAL.CAT.HEAD pers-pron ] >, which should be reasonable enough. Moreover, added the same constraint to subject-dir-presentational-refl-verb-lexeme.
+
+det sniker seg en mann hit ;; the same as the previous. Look at v-trnrfpresnt-obrefl_presdir's first complement: it's CAT value is not constrained.
+
+det sniker seg ut en mann ;; same as the previous.
+
+det setter seg en gutt her;; same as the previous. ;; Would seem to be FIXED. Constrained type subject-locobl-presentational-refl-verb-lexeme to have its first complement have head type pers-pron.
+
+;; Complement rule oddness
+
+Jon lurer på hvorvidt du kommer ;; look at the discriminant.
+
+Jeg snakker om hvorvidt du kommer
+
+hvem som kommer beror på om Ola vinner
+
+om han kommer beror på om Ola vinner
+
+det ser ut som om gutten kommer ;; head-prep-indirwhquestclause-comp-rule and head-prep-regclause-comp-rule
+
+han ser ut som om han kommer
+
+det virker som om han kommer
+
+han fortoner seg syk ;; head-verb-barefinite-comp-rule ;; FIXED
+
+han famler seg frem ;; FIXED
+
+hun viser seg som Olas venn ;; FIXED. 
+
+hun anser seg for å være syk ;; FIXED
+
+hun kaller seg en venn ;; FIXED
+
+han oppfører seg pent ;; FIXED
+
+det avhenger av hvorvidt Ola sover hvorvidt Kari smiler ;; head-prep-compclause-comp-rule and head-prep-indirwhquestclause-comp-rule
+
+det avhenger av hvorvidt Ola sover hvem som smiler
+
+han forteller Ola om hvorvidt han kommer
+
+det synes uvisst om han kommer ;; head-verb-indirwhquest-y-n-comp-rule and others
+
+
+;; Red MRS
+
+jeg ber om å komme ;; look at ARGOBLQ attributtet på _be_v-introbl_rel. v-introbl-obleqsuinf
+
+jeg håper på å komme ;; v-introbl-obleqsuinf - and ARGOBLQ
+
+de snakker om å reise til Trondheim ;; v-introbl-obleqsuinf
+
+jeg skrubber ola på ryggen
+
+jeg sparker Ola i baken
+
+Ola klør seg på ryggen
+
+;; SLASH weirdness
+
+Ola driver på med å skrive ;; Look at adv-particle word. ;; FIXED
+
+han ser ut til å komme
+
+gutten ser ut til å komme
+
+det ser ut som om gutten kommer
+
+det ser ut som gutten kommer
+
+det ser ut som at gutten kommer
+
+han ser ut som han kommer
+
+det hører med at han kommer
+
+det hører med å komme
+
+det ser ut til at han kommer
+
+Kari fant ut om Ola kommer
+
+Kari fant ut at Ola kommer
+
+Kari fant på å komme
+
+Ola viser seg å være syk ;; head-verb-bare-finite-comp-rule seems to be a part of the oddness that occurs in relation to this sentence. ;; I believe this to be FIXED now. Added the constraint of COMPS < [ LOCAL.CAT.HEAD pers-pron ], ... > to the relevant verb synsem type. 
+
+han viser seg å komme ;; see the previous. (If I don't comment on a sentence, it usually means that one should look to the previous comment.)
+
+hun anser seg for å være syk
+
+vi muliggjorde det at han fikk innreisetillatelse ;; head-filler-n-topic-rule in a MCL - structure. Look at head-complementizer-comp-fin-rule. ;; I believe this to be FIXED now. Constrained head-filler-topic-phrase to be main clause only by way restricting the MAIN-CL attribute of the type to be +.
+
+det er for andre gang at han taper ;; look at, among other things, head-prep-regclause-comp-rule. ;; Would seem to be FIXED. Added some additional constraints on prep-arg1-prop-epon-lxm to detect and block gaps in the complements.
+
+det er hinsides diskusjon hvorvidt han kommer 
+
+det er som en forbannelse at han kommer
+
+;; No discriminants
+
+At han kom beror på Ola
+
+Kari fant ut hemmeligheten
+
+;; Copula oddness 
+
+Ola viser seg å være syk
+
+hun anser seg for å være syk
+
+det er for andre gang at han taper ;; a plethora of copula
+
+det er fint i Finnmark
+
+det er fint her
+
+
+;; No proper analysis?
+
+det haster med å rydde
+
+hun gjorde det mulig at Ola fikk komme
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; MHS 190713
+
+Added parent no-slash to the following types:
+
+comparative-adv-vp-mod-word-sup
+cmpar-dep-equal-for-noun-word
+cmpar-dep-diff-for-noun-word
+cmpar-dep-reg-word
+cmpar-dep-close-wordto 
+comparative-closecomp-with-cmpar-word
+comparative-closecomp-adv-word
+comparative-adv-word-sup
+
+There might be more places in the comparative system where something should be done about SLASH values. Alternatively, it might be more appropriate to let these types inherit from 1arg and 1comps.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; MHS 180713
+
+I made the mother's FRONT-TO-FILL value be identical to the daughter's in the type pp-mod-vp-org-derivadj-phrase. This was done because certain head initial pp modification rules would not preserve this value and thus allow sentences such as "Smiler mannen med godt humør." However, I can't see any reason for why the same identification shouldn't be made already at the level of the type head-initial, and as such, I'm experimenting with this: the relevant addendum can be found at the bottom of matrix.tdl. At the moment, it seems to be fine.
+
+I've also been investigating the type hierarchy for binary phrases and trying to figure out how to remove certain NON-LOCAL value identities in the hierarchy. 
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; MHS 170713
+
+Today I'm going to check the lex-types-v-with-icomps.tdl for whether all the verb types have SLASH values constrained by v-types-add-SLASH.tdl.
+
+After that, I'll run through test-v-stnd again, noting problematic sentences, then repeating the same for test-cl. 
+
+;;
+
+It's done now. There were quite a few types in lex-types-v-with-icomps.tdl (i.e. to saysv at least 20) that had not been entered into v-types-add-SLASH.tdl. For most of the ones I entered in, I commented on the relevant line ';; MHS 170713 New'.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; MHS 160713
+
+When employing the 'check lexicon' functionality for revisjon 199 one gets the follwing error message
+
+"WARNING: malformed empty difference list at (SYNSEM
+				              LOCAL
+                                              CONT
+                                              HCONS) in ##  "
+
+where ## stands for the relevant lexical or word type. 
+
+It seems to be the case that all of the lexemes or words that prompt this error message have unconstrained HCONS values. This should, of course, be corrected. 
+
+Moreover, it seems that in many of these cases, the lexeme that prompts the error message is defined as being of type lbl-ltop-lex-item. Given the way the lexicon works, and for the sake of keeping lexical entries simple, it will probably be necessary to introduce a daughter of this type that is constrained to have a 0-dlist HCONS value. 
+
+In the other cases, the relevant lexical types (in a broad sense) must be constrained in appropriate way. For the time being, will constrain the ones I find as being HCONS 0-dlist, unless there is some reason obvious to me that an item should not be. (This will probably in many cases be wrong, but I will do it using the addendum functionality so that it is easily removed in the cases it is wrong. These addenda will be found in marked location in norsk.tdl.) 
+
+Investigating with the 'check lexicon' functionality has revealed that these types must include the following: 
+
+measure-out-prep-word 
+part-measurenp-prep-word
+prep-detachposs-word
+part-adj-prep2-word
+part-card-prep-word
+prep-arg1prop-epon-lxm
+part-q-mass-prep-word
+part-q-prep-word
+part-adj-prep-word
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; MHS 150713
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; MHS 140713
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; MHS 130713
+
+Re-wrote the split main clause extraction rules that were written yesterday. 
+
+I'm thinking of reworking the NorSource system for handling light arguments (if the phenomenon can be called that), as discussed with Lars at some point in the last week of June. The idea will be to make adverbial modification mandatory if one of the pronclit rules have been used. The head-verb-pronclit-comp-rule will probably be split in two: one for inverted clauses, one for non-inverted clauses. 
+
+It will also probably be necessary to restrict the adverbial rules some. At the moment there is some spurious ambiguity with the s-adv-final-spec-invert-v-rule and s-adv-spec-invert-v-rule in sentences such as 
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; MHS 110713 
+
+I'm working on making the mal testsuite. In the course of this, (and there was not much progress), I've had to comment in some lexical items. I've been considering adding some features in NorMal so that the applications of certain bonrules can be blocked. 
+
+Say something such as the following: 
+
+sign-min :+ 
+[ --A bool ].
+
+unary-phrase :+ 
+[ ARGS < [--A - ] > ].
+
+binary-phrase :+
+[ ARGS < [--A - ], [--A -] > ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; MHS 100713
+
+v-trscpr-scsunrg_scinf må strammes inn; se på "jeg formoder ham å være dyktig".
+
+I worked some on getting the ICOMPS lists constrained in lex-types-v. New file is called lex-types-v-with-icomps. It has not yet been added to the svn. In addition, I added constraints on word-to-word rules such that they would conserve the SLASH values of their daughters. In other cases, such as prep-word-sel-red-lrule, I had to just constrain the SLASH value of the mother to be 0-dlist since the daughter's VALENCE lists were not restricted sufficiently.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; MHS 090713
+
+
+;; SLASH amalgation
+
+Looking at subtypes of word-to-word-rule, there are several do not constrain their SLASH values. As far as I can see, they are the following:
+
+prep-word-sel-red
+posspron-to-nonbare-n-rule
+indefquant-to-nonbare-n-rule
+posspron-to-bare-n-rule
+indefquant-to-bare-n-rule
+
+;;;; Unconstrained valence lists
+;;
+
+
+;; Checking subtypes of lex-synsem
+
+arg1-comps-synsem has unconstrained SUBJ and ICOMPS. Doesn't seem to get used anywhere, though.
+
+;; Checking subtypes of arg1-predicative-synsem
+
+trans-secpred-rais-from-n-arg1-synsem has no constrains on CAT.
+
+trans-secpred-refl-argx-synsem has no constrains on ICOMPS.
+
+copula-dirpp-synsem has no ICOMPS con.
+
+copula-locadv-synsem has no ICOMPS con.
+
+copula-locpp-synsem has no ICOMPS con.
+
+copula-locpp-with-nonepon-synsem has no ICOMPS con.
+
+copula-predprtcl-synsem has no ICOMPS con.
+
+intrans-secpred-prtcl1-rais-from-non-verbal-arg1-synsem has no ICOMPS con.
+
+intrans-secpred-prtcl1a-rais-from-nonverbal-arg1-synsem has no ICOMPS con.
+
+intrans-secpred-prtcl2-rais-from-nonverbal-arg1-synsem has no ICOMPS con.
+
+intrans-secpred-prtcl3-rais-from-nonverbal-arg1-synsem has no ICOMPS con.
+
+intrans-secpred-rais-from-infinmarked-arg1-synsem has no ICOMPS con.
+
+intrans-secpred-rais-from-perfect-verbal-arg1-synsem has no ICOMPS con.
+
+la-seg-se-synsem has no ICOMPS con.
+
+trans-secpred-rais-refl-tosubj-from-infinmarked-arg1-synsem has no ICOMPS con.
+
+trans-secpred-refl-argx-synsem has no ICOMPS con.
+
+;; Checking subtypes of arg1-subj-synsem
+
+;; Checking subtypes of subtype glbtype585 of arg1-subj-synsem
+
+They were all fine. 
+
+i.e. the types: 
+
+intrans- 			-synsem
+		obl-refl
+		obl-n
+		obl-interr
+		obl-equinf
+		obl-decl
+		arbinf
+		adv-equinf
+		atel-obl
+
+
+;; Checking subtypes of subtype glbtype590 of type arg1-subj-synsem
+
+;; Checking subtypes of previous subtype
+
+;; trans-refl-locobl-synsem
+
+fine
+
+;; trans-obladv-synsem-sup
+
+fine
+
+;; trans-obl-synsem-sup
+
+fine
+
+;; trans-locobl-synsem
+
+fine
+
+;; trans-dir-synsem-sup
+
+trans-refl-dir-synsem has no ICOMPS cons.
+
+trans-dir-synsem has no ICOMPS cons.
+
+;; trans-2obl-synsem-sup
+
+trans-2obl-synsem is fine.
+
+;; obj-equi-pp-synsem-sup
+
+fine
+
+;; trans-secpred-arg1-2-x-synsem
+
+fine
+
+;; trans-arg1-2-synsem-sup 
+
+fine 
+
+;; Checking subtypes of subtype of arg1-subj-synsem
+
+;;;;;;; NEVERMIND parts of the previous
+;;;;;;; NEW REGIME FOR THE VERBAL TYPES, going through lex-types-v
+
+v-introbl-oblloc has an olist valence list.
+
+v-introbl-oblprtofsu has no COMPS cons.
+
+v-intrlghtscpr-scsunrg_scpredprtcl has no ICOMPS cons.
+
+v-intrlghtscpr-scsunrg_scpredprtclsom has no ICOMPS cons.
+
+v-intrscprtprtcøscsunrg_scadj has no ICOMPS cons.
+
+v-intrscprtprtcøscsunrg_scadj_prtclUt has no ICOMPS cons.
+
+ 
+;; SOME COMMENTS
+
+I've gone through all of lex-types-v.tdl now, although the results are stored on the other laptop. There were quite a few examples of types with no constraints on their ICOMPS values. I'll go through and check the valences of other lexeme types tomorrow. Hopefully this can be used to tighten up the grammar.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; MHS 080713 
+
+;; went through v-stnd
+
+;; the following are some observed troublesome sentences from that session
+
+;; SLASHES
+
+jeg fryser på ryggen
+
+om han kommer beror på om Ola vinner
+
+det avhenger av hvem som sover hvem som smiler
+
+det avhenger av hvorvidt ola sover hvem som smiler
+
+gutten tar stien mot fjellet ;; prep-word-sel-red synes ikke å ha noen begrensninger på dens SLASH verdi. FIXED
+
+gutten tar bussen mot fjellet ;; samme som forrige.
+
+kari fant ut om ola kommer ;; synes å være trøbbel å passere SLASH gjennom PP'en; den får en malformet diffliste som SLASH-attributtets verdi.
+
+han forteller Ola om at han kommer ;; mange typer problemer med SLASH'ene. ditrans-decl-synsem har ikke spesifisert ICOMPS. FIXED
+
+han forteller Ola om hvorvidt han kommer ;; samme som forrige.
+
+han forteller Ola om hvem som kommer ;; samme som forrige.
+
+han kjørte bilen i god stand ;; tvilsom, men også prep-sel-red-lrule uten begrensninger for SLASH. prep-word-sel-red 
+
+problemet er om han spiser silden ;; ukjent, synes å være en hallusinert SLASH. Se på verbets leksemtype. FIXED
+
+;; PP
+
+han kledde på gutten ;; på_advmod_reg_p og på_sel can both be the heads of PPs the non-head-dtr's of head-verb-prepcomp-rule.
+
+han kledde på seg ;; samme som forrige
+
+;; unary-rel-dagen-du-kom-rule
+
+han kledde på seg
+
+jeg lurer på hva som skjer
+
+jeg lurer på hvem som kommer
+
+det tar to timer å gå dit
+
+det tar meg to timer å gå dit
+
+om han kommer beror på hvem som vinner
+
+kari fant ut om ola kommer
+
+han forteller Ola om hvem som kommer 
+
+vi forteller barna om å bygge høyhus
+
+det synes uvisst hvem som kommer ;; adv-comp og unary-rel-dagen-du-kom-rule
+
+det er uvisst hvem som kommer ;; også litt mørk materie aktig.
+
+;; RED MRS
+
+jeg ber om å komme
+
+jeg håper på å komme
+
+de snakker om å reiste til Trondheim ;; når man velger vekk å - interjection
+
+;; INTERJECTION
+
+de snakker om å reise til Trondheim ;; her ser man correlative-interjection-rule kan være komplementet til head-prep-comp-rule.
+
+det tar to timer å gå dit ;; gir opphav til mange parser
+
+det tar meg to timer å gå dit ;; samme som forrige
+
+vi forteller barna om å bygge høyhus
+
+;; DARK MATTER
+
+at han kom beror på ola ;; to trær, ingen diskriminanter
+
+kari fant ut hemmeligheten ;; samme som forrige.
+
+;; DUBIOUS?
+ 
+han ble skutt
+
+huset står tomt
+
+gutten virker syk
+
+kjelen koker i stykker
+
+det tar to timer å gå dit
+
+det avhenger av hvem som sover hvem som smiler
+
+;; PLETHORA OF COPULA
+
+jeg formoder ham å være dyktig ;; se på copula. ;; MHS 100713 Her synes problemet å være et svært underspesifisert hovedverb, "formoder". 
+
+jeg anser Ola for å være syk ;; se på copula.
+
+hun anser seg for å være syk
+
+det er fint å være frisk
+
+det er for andre gang at han taper
+
+det er hinsides diskusjon hvorvidt han kommer
+
+det er fint her
+
+;; EXPL-COMP
+
+hun gjorde det mulig at ola fikk komme
+
+han sang det hyggelig
+
+hun spylte det rent i rommet
+
+han sang det mulig at Ola kommer
+
+;; PLETHORA OF COMP RULES
+
+at han kom påførte meg et sjokk
+
+hvorvidt han kommer vil vise oss angrepsplanen
+
+hvem som kommer vil vise oss angrepsplanen
+
+han forteller meg hvorvidt Kari kommer
+
+han forteller meg hvem som kommer
+
+hvorvidt han kommer først vil fortelle os hvorvidt de har en plan
+
+hvem som kommer først forteller oss ikke hvem som kommer sist
+
+hvorvidt han kommer først forteller oss ikke hvem som kommer sist
+
+hvem som kommer først forteller oss ikke hvorvidt han kommer sist
+
+at han kommer viser oss hvorvidt han er skyldig
+
+at han kommer viser oss hvem som er skyldig
+
+;; APPOSITION-FOR-INTRODUCTION
+
+jeg kyler Ola ballen i ryggen
+
+;; INVERSION WITH CLAUSAL SUBJECT
+
+oppgaven er å spise silden
+
+problemet er at han spiser silden
+
+spørsmålet er hvorvidt han kommer

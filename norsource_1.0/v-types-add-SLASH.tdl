@@ -1,0 +1,928 @@
+verb-general-lexeme :+
+[ SYNSEM.LOCAL [ CAT.VAL.SUBJ < #subj >,
+		 ARG-S < #subj, ... >]].
+
+
+no-slash := sign & 
+[ SYNSEM.NON-LOCAL.SLASH 0-dlist ].
+
+
+;;;; MHS 180211
+;; All of these definitions have been stolen from the ERG.
+
+1arg := sign &
+  [ SYNSEM.LOCAL [ ARG-S < [ NON-LOCAL [ SLASH #slash,
+				  REL #rel,
+				  QUE #que ] ] > ],
+    SYNSEM.NON-LOCAL [ SLASH #slash,
+		REL #rel,
+		QUE #que ] ].
+
+
+
+
+
+2arg := sign &
+  [ SYNSEM.LOCAL.ARG-S < [ NON-LOCAL [ SLASH [ LIST #smiddle,
+                                     LAST #slast ],
+                             REL [ LIST #rmiddle,
+                                   LAST #rlast ],
+                             QUE [ LIST #qmiddle,
+                                   LAST #qlast ] ] ],
+		  [ NON-LOCAL [ SLASH [ LIST #sfirst,
+                                     LAST #smiddle ],
+                             REL [ LIST #rfirst,
+                                   LAST #rmiddle ],
+                             QUE [ LIST #qfirst,
+                                   LAST #qmiddle ] ] ] >,
+    SYNSEM.NON-LOCAL [ SLASH [ LIST #sfirst,
+			LAST #slast ],
+		REL [ LIST #rfirst,
+		      LAST #rlast ],
+		QUE [ LIST #qfirst,
+		      LAST #qlast ] ] ].
+
+
+3arg := basic-3arg &
+  [ SYNSEM.LOCAL.ARG-S < [NON-LOCAL.SLASH [ LIST #smiddle2,
+					    LAST #slast ] ],
+                  [ NON-LOCAL.SLASH [ LIST #sfirst,
+				      LAST #smiddle1 ] ],
+                  [ NON-LOCAL.SLASH [ LIST #smiddle1,
+				      LAST #smiddle2 ] ] >,
+    SYNSEM.NON-LOCAL.SLASH [ LIST #sfirst,
+			     LAST #slast ] ].
+
+
+
+basic-3arg := sign &
+  [ SYNSEM.LOCAL [ ARG-S < [ NON-LOCAL [ REL [ LIST #rmiddle2,
+                                     LAST #rlast ],
+                               QUE [ LIST #qmiddle2,
+                                     LAST #qlast ] ] ],
+                    [ NON-LOCAL [ REL [ LIST #rfirst,
+                                     LAST #rmiddle1 ],
+                               QUE [ LIST #qfirst,
+                                     LAST #qmiddle1 ] ] ],
+                    [ NON-LOCAL [ REL [ LIST #rmiddle1,
+                                     LAST #rmiddle2 ],
+                               QUE [ LIST #qmiddle1,
+                                     LAST #qmiddle2 ] ] ] > ],
+    SYNSEM.NON-LOCAL [ REL [ LIST #rfirst,
+		      LAST #rlast ],
+		QUE [ LIST #qfirst,
+		      LAST #qlast ] ] ].
+
+
+
+4arg := sign &
+  [ SYNSEM.LOCAL [ ARG-S < [ NON-LOCAL [ SLASH [ LIST #smiddle3,
+                                       LAST #slast ],
+                               REL [ LIST #rmiddle3,
+                                     LAST #rlast ],
+                               QUE [ LIST #qmiddle3,
+                                     LAST #qlast ] ] ],
+		    [ NON-LOCAL [ SLASH [ LIST #sfirst,
+                                       LAST #smiddle1 ],
+                               REL [ LIST #rfirst,
+                                     LAST #rmiddle1 ],
+                               QUE [ LIST #qfirst,
+                                     LAST #qmiddle1 ] ] ],
+		    [ NON-LOCAL [ SLASH [ LIST #smiddle1,
+                                       LAST #smiddle2 ],
+                               REL [ LIST #rmiddle1,
+                                     LAST #rmiddle2 ],
+                               QUE [ LIST #qmiddle1,
+                                     LAST #qmiddle2 ] ] ],
+		    [ NON-LOCAL [ SLASH [ LIST #smiddle2,
+                                       LAST #smiddle3 ],
+                               REL [ LIST #rmiddle2,
+                                     LAST #rmiddle3 ],
+                               QUE [ LIST #qmiddle2,
+                                     LAST #qmiddle3 ] ] ] > ],
+    SYNSEM.NON-LOCAL [ SLASH [ LIST #sfirst,
+                     LAST #slast ],
+             REL [ LIST #rfirst,
+                   LAST #rlast ],
+             QUE [ LIST #qfirst,
+                   LAST #qlast ] ] ].
+
+
+
+1comps := sign &
+[ SYNSEM.LOCAL [ CAT.VAL.COMPS < #1 >,
+		 ARG-S < [ ], #1 >]].
+
+1obl := sign &
+[ SYNSEM.LOCAL [ CAT.VAL.ICOMPS < #1 >,
+		 ARG-S < [ ], #1 >]].
+
+2obl := sign & 
+[ SYNSEM.LOCAL [ CAT.VAL.ICOMPS < #1, #2 >,
+		 ARG-S < [ ] , #1, #2 >]].
+
+1comps-1obl := sign & 
+[ SYNSEM.LOCAL [ CAT.VAL.COMPS < #1 >,
+		 CAT.VAL.ICOMPS < #2 >,
+		 ARG-S < [ ] , #1, #2 >]].
+
+1comps-2obl := sign & 
+[ SYNSEM.LOCAL [ CAT.VAL.COMPS < #1 >,
+		 CAT.VAL.ICOMPS < #2, #3 >,
+		 ARG-S < [ ] , #1, #2, #3 >]].
+
+2comps := sign & 
+[ SYNSEM.LOCAL [ CAT.VAL.COMPS < #1, #2 >,
+		 ARG-S < [ ] , #1, #2 >]].
+
+2comps-1obl := sign & 
+[ SYNSEM.LOCAL [ CAT.VAL.COMPS < #1, #2 >,
+		 CAT.VAL.ICOMPS < #3 >,
+		 ARG-S < [ ] , #1, #2, #3 >]].
+
+3comps := sign & 
+[ SYNSEM.LOCAL [ CAT.VAL.COMPS < #1, #2, #3 >,
+		 ARG-S < [ ] , #1, #2, #3 >]].
+
+
+1arg-1comps := 1arg &
+[ SYNSEM.LOCAL.CAT.VAL.COMPS < #1 >,
+  SYNSEM.LOCAL.ARG-S < #1 > ].
+
+1arg-1obl := 1arg &
+[ SYNSEM.LOCAL.CAT.VAL.ICOMPS < #1 >,
+  SYNSEM.LOCAL.ARG-S < #1 > ].
+
+2arg-1comps-1obl := 2arg & 
+[ SYNSEM.LOCAL.CAT.VAL.COMPS < #1 >,
+  SYNSEM.LOCAL.CAT.VAL.ICOMPS < #2 >,
+  SYNSEM.LOCAL.ARG-S < #1, #2 > ].
+
+
+
+
+;;;; addendum to complementizer types
+
+
+
+
+basic-compl :+ 1arg-1comps.
+
+
+
+
+
+;;;; addendum to verb types
+
+v-intr :+ 1arg.
+	      
+v-intrImpers :+ 1arg.
+  	
+v-intrImpersPrtcl  :+ 2arg & 1comps.	
+
+v-tr :+ 2arg & 1comps.
+
+v-tr-obdecl :+ 2arg & 1comps.
+
+v-tr-obAbsinf :+ 2arg & 1comps. ;; MHS 170713 New
+		
+v-intrImpersObl :+ 2arg & 1obl.
+
+;LH-14may-11: these are entered later
+;v-intrPresnt :+ 1arg. ; sjekk denne ved senere annledning ;; MHS 170713 This has already a constrained SLASH value.
+
+;v-intrPresntLoc :+ 2arg & 1comps. ; sjekk denne ved senere annledning 
+
+v-intrAdv :+ 2arg & 1comps.
+
+v-intrPrtcl :+ 2arg & 1comps.
+
+v-intrObl :+ 2arg & 1obl.
+
+v-intr-sudir :+ 1arg.
+
+v-intrObl-oblLoc :+ 2arg & 1obl.
+
+v-intrObl-oblprtofsu :+ 2arg & 1obl.
+
+v-intrObl2 :+ 3arg & 2obl.
+
+v-intrOblAdv :+ 3arg & 1comps-1obl.
+
+v-intrObl-oblN :+ 2arg & 1obl.
+
+v-intrObl-oblDecl :+  2arg & 1obl.
+
+v-intrObl-oblInterr :+ 2arg & 1obl.
+
+v-introbl-oblabsinf :+  2arg & 1obl.
+
+v-introbl-obln-activity :+  2arg & 1obl.
+
+v-trAdv :+ 3arg & 2comps.
+
+v-intrObl-oblrefl :+ 2arg & 1obl.
+
+v-intr-suDECL :+ 1arg.
+
+v-intr-suINTERR :+ 1arg.
+
+; LH may14-11, corrected and un-outcommented
+v-intr-suAbsinf :+ 1arg.
+
+; LHmay14-11: this is an active type, so why outcomm.? QUEST 
+;; MHS 170713 Hard to say, to be honest. I'll keep this one commented out and write the proper definition.
+
+v-intrObl-suDECL_OblN :+ 2arg & 1obl.
+
+#|
+v-intrObl-suDECL_OblN :+ 2arg &
+[ SYNSEM.LOCAL [ CAT.VAL.ICOMPS < #1 >,
+		 ARG-S < [ ] , #1 >]].
+|#
+
+
+v-intrObl-suINTERR_OblN :+ 2arg & 1obl.
+
+v-intrObl-suDECL_OblDECL :+ 2arg & 1obl.
+
+v-introbl-suINTERR_oblINTERR :+ 2arg & 1obl. ;; MHS 080713 To be commented in after the evening's treebanking session. See sentences such as "om han kommer beror på om Ola vinner"
+
+; LHmay14-11: a defined, but possibly never occurring type 
+;; MHS 170713 Although it is probably never occurring, I'll write the proper definition for this type and leave it commented in, as part of checking that every type in lex-types-v-with-icomps.tdl is constrained properly with respect to its SLASH value.
+#|
+v-intrObl-suDECL-OblINTERR :+ 2arg &
+[ SYNSEM.LOCAL [ CAT.VAL.ICOMPS < #1 >,
+		 ARG-S < [ ] , #1 >]].
+|#
+
+v-intrObl-suDECL_OblINTERR :+ 2arg & 1obl.
+
+v-intrObl-suINTERR_OblDECL :+ 2arg & 1obl.
+
+
+
+
+
+#|
+v-intrObl-suINTERR-OblINTERR :+ 2arg &
+[ SYNSEM.LOCAL [ CAT.VAL.ICOMPS < #1 >,
+		 ARG-S < [ ] , #1 >]].
+|#
+
+;LH may14-11 added:
+v-intrScpr-scObimplNrgRes_scPP-PLACEMENT :+ 2arg & 1comps.
+
+;LH may14-11 added:
+v-intrScpr-scObimplNrgRes_scPPrefl-PLACEMENT :+ 2arg & 1comps.
+
+;LH may14-11 added:
+v-intrLghtScpr-scAdj :+ 2arg & 1comps.
+
+v-intrLghtscpr-scsunrg_scpredprtcl :+ 2arg & 1comps.
+
+v-intrLghtscpr-scsunrg_scpredprtclsom :+ 2arg & 1comps.
+
+v-intrscpr-scsunrg :+ 2arg & 1comps. 
+
+;LH: commented out, replaced by the typr below:
+;v-ALTraisORfin-late_til-v-intrOblRais-suNrg_oblRaisInf-OR-v-intrOblExlnk-suExpl_oblExlnkDECL :+ 2arg & 1obl. 
+
+;LHmay14-11: v-intrOblRais-oblTil is a subtype of this:
+v-intrOblRais :+ 2arg & 1obl.
+
+; LHmay14: not in use:
+v-intrScpr-suNrg-scInfORscAdjORscPPORscEQUAT :+ 2arg & 1comps.
+
+; LHmay14-11: supertype for types used in lex (see lex-types-v)
+v-intrScprPrtcl-scSuNrg_scAdjORPredprtcl :+ 3arg & 2comps.
+
+; LH 240411: replaced this type by the one below:
+v-ALTraisORfin-se_ut_som :+ 3arg & 2comps.
+v-intrPrtclScpr-scSuNrg_prtclUt :+ 3arg & 2comps.
+
+; LH 200411: first revised v-ALTraisORfin-se_ut_til as an obl-type. It is mother of v-intrPrtclOblRais, two subtypes of which are used in the lexicon; and v-ALTraisORfin-se_ut_til not used in the lexicon, hence, second, for perspicuity I've repeated the info for v-intrPrtclOblRais rather.
+;v-ALTraisORfin-se_ut_til :+ 3arg & 2comps.
+;v-ALTraisORfin-se_ut_til :+ 3arg & 1comps-1obl.
+v-intrPrtclOblRais :+ 3arg & 1comps-1obl.
+
+v-intrScpr-scSuNrgCsd :+ 2arg & 1comps.
+
+v-intrScpr-scSuArgCsd :+ 2arg & 1comps.
+
+v-intrPrtcl-COMPLETEDACTIVITY :+ 2arg & 1comps.
+
+v-intrPrtcl-SUSTAINEDACTIVITY:+ 2arg & 1comps.
+
+v-intrScpr-scSuNrg_scN :+ 2arg & 1comps.
+
+v-intrSubcoord :+ 1arg.
+
+v-intrPrtclObl-oblEqSuInf :+ 3arg & 1comps-1obl. 
+
+v-intrScpr-scSuNrg_scBareinf :+ 2arg & 1comps.
+
+v-intrScpr-scSuNrg_scInf :+ 2arg & 1comps.
+
+v-intrAuxmodScpr-scSuNrg_scBareinf :+ 2arg & 1comps.
+
+v-intrAuxperfScpr-scSuNrg_scPerf :+ 2arg & 1comps.
+
+v-intrAuxpassScpr-scSuNrg_scPass :+ 2arg & 1comps. 
+
+v-tr-obEqInf :+ 2arg & 1comps.
+
+v-intrAuxmodComp-compEqBareinf :+ 2arg & 1comps.
+
+v-intrObl-oblEqSuInf :+ 2arg & 1obl. 
+
+v-intrObl-oblEqSuInf-SUSTAINEDACTIVITY :+ 2arg & 1obl. 
+
+; LH: the type name earlier stated here, 'trPrtclScpr-scSuNrg_scPredprtclSom' was erroneous, but the specification should still be good, thus I just changed the name. Comprises also its subtype v-intrPrtclScpr-scSuNrg_scPredprtclSom_prtclUt.
+v-intrPrtclScpr-scSuNrg_scPredprtclSom :+ 3arg & 2comps.
+
+v-intrObl-suAbsinf :+ 2arg & 1obl.
+
+v-intrPath-suDir-PUREORIENTATION :+ 1arg.
+
+;LH may14-11 added and June11-11 modified as obl:
+v-intrOblExpn-expnDECL :+ 3arg & 1comps-1obl.
+
+;LH may14-11 added and June11-11 modified as obl:
+v-intrOblExpn-expnYN :+ 3arg & 1comps-1obl.
+
+;LH may14-11 added and June11-11 modified as obl:
+v-intrOblExpn-expnWH :+ 3arg & 1comps-1obl.
+
+;LH may16-11 added and June11-11 modified as obl:
+v-intrOblExpn-oblWH_expnWH :+ 3arg & 1comps-1obl.
+
+;LH may16-11 added and June11-11 modified as obl:
+v-intrOblExpn-oblYN_expnYN :+ 3arg & 1comps-1obl. ;; MHS 080713 As before.
+
+;LH may16-11 added and June11-11 modified as obl:
+v-intrOblExpn-oblYN_expnWH :+ 3arg & 1comps-1obl. ;; MHS 080713 Comment in after tb session.
+
+;LH may16-11 added and June11-11 modified as obl:
+v-intrOblExpn-oblWH_expnYN :+ 3arg & 1comps-1obl.
+
+;; v-trScpr-scSuNrg_scN :+ ;; MHS 170713 This type does not have a CAT constraint.
+
+v-tr-obEventunit :+ 2arg & 1comps. 
+
+v-tr-obRefl :+ 2arg & 1comps. 
+
+v-tr-obDir :+ 2arg & 1comps. 
+
+v-trObl :+ 3arg & 1comps-1obl. 
+
+v-trObl-oblDECL :+ 3arg & 1comps-1obl. 
+
+v-trObl-oblINTERR :+ 3arg & 1comps-1obl. 
+
+;LH 310511 added:
+v-trObl-oblAbsinf :+ 3arg & 1comps-1obl. 
+
+v-trObl-obRefl :+ 3arg & 1comps-1obl. 
+
+v-trPath-obDir-ORIENTING :+ 3arg & 2comps. 
+
+v-trObl-obRefl_oblN :+ 3arg & 1comps-1obl. 
+
+v-trObl-obRefl_oblDECL :+ 3arg & 1comps-1obl. 
+
+;LH 310511 added:
+v-trObl-obRefl_oblAbsinf :+ 3arg & 1comps-1obl. 
+
+v-trObl-obRefl_oblINTERR :+ 3arg & 1comps-1obl. 
+
+v-trObl2 :+ 4arg & 1comps-2obl. 
+
+;LH may6-11 seems unnecessary
+;v-trScpr-scObNrgRes :+ 3arg & 1comps-1obl. 
+
+v-trObl-obRefl-oblLoc :+ 3arg & 1comps-1obl. 
+
+v-trAdv-obRefl :+  3arg & 2comps. 
+
+v-trPath-obRefl_obDir :+  3arg & 2comps. 
+
+v-trObl-oblPRTOFob :+ 3arg & 1comps-1obl. 
+
+v-trObl-obRefl_oblPRTOFob :+ 3arg & 1comps-1obl. 
+
+v-ditrObl-oblPRTOFiob-PARTWHOLE_AFFECTING :+ 4arg & 2comps-1obl. 
+
+v-ditr-obEqSuInf :+  3arg & 2comps. 
+
+v-ditr-obEqIobInf :+ 3arg & 2comps. 
+
+v-ditr-iobRefl_obEqIobInf :+ 3arg & 2comps.
+
+v-ditr-obEqIobBareinf :+ 3arg & 2comps.
+
+v-trObl-oblEqObInf :+ 3arg & 1comps-1obl. 
+
+v-trScpr-scObNrg_obRefl_scBareinf :+ 3arg & 2comps. 
+
+v-trScpr-scObNrg_scBareinf :+ 3arg & 2comps.
+
+v-trNrfScpr-obReflExpl_scSuNrg_scInf :+ 3arg & 2comps.
+
+v-trNrfScpr-obReflExpl_scSuNrg :+ 3arg & 2comps.
+
+v-trNrfScpr-obReflExpl_scSuNrg_scBareinf_suRAISsumob :+ 3arg & 2comps. ;; MHS 170713 New
+
+v-trScpr-scObNrg_scBareinf_obRAISsuMob :+ 3arg & 2comps. ;; MHS 170713 New
+
+v-trScpr-scSuNrg_scInf :+ 3arg & 2comps.
+
+v-trScpr-scObNrg_scInf :+ 3arg & 2comps.
+
+v-trScpr-scObNrg_scPP :+ 3arg & 2comps. ;; MHS 170713 New
+
+;LHmay20-11  added:
+v-trScpr-scObNrg :+ 3arg & 2comps.
+
+v-trScpr-obRefl_scObNrg :+ 3arg & 2comps.
+
+v-trScpr-scObNrg_scPcp :+ 3arg & 2comps.
+
+v-trScpr-scSuNrg_scAdjORPredprtclSom :+ 3arg & 2comps.
+
+;v-trScpr-scObNrg_scAdjORPredprtcl :+ 3arg & 2comps.
+
+v-trScpr-scObNrg_scAdj :+ 3arg & 2comps.
+
+v-trScpr-scObNrg_scPredprtclSom :+ 3arg & 2comps.
+
+v-trScpr-scObNrg_scPredprtclFor :+ 3arg & 2comps.
+
+v-trScpr-scObNrg_scPredprtclForInf :+ 3arg & 2comps.
+
+v-trScpr-scObNrg_scPredprtclTil :+ 3arg & 2comps.
+
+v-trScpr-scObNrg_scPredprtclTilInf :+ 3arg & 2comps.
+
+;v-trScpr-scObNrg_obRefl_scAdjORPredprtcl :+ 3arg & 2comps.
+
+v-trScpr-scObNrg_obRefl_scAdj :+ 3arg & 2comps.
+
+v-trScpr-scObNrg_obRefl_scPredprtclSom :+ 3arg & 2comps.
+
+v-trScpr-scObNrg_obRefl_scPredprtclTil :+ 3arg & 2comps.
+
+v-trScpr-scObNrg_obRefl_scPredprtclFor :+ 3arg & 2comps.
+
+v-trScpr-scObNrg_obRefl_scPredprtclForInf :+ 3arg & 2comps.
+
+v-trScpr-scObNrg_scN :+ 3arg & 2comps.
+
+v-trScpr-scObNrg_obRefl_scn :+ 3arg & 2comps.
+
+v-trScpr-scObNrgCsd :+ 3arg & 2comps.
+
+v-trScpr-scObNrgCsd_obRefl :+ 3arg & 2comps.
+
+v-trPrtcl-obRefl :+ 3arg & 2comps.
+
+v-trPrtclShft :+ 3arg & 2comps.
+
+v-trPrtclShft-obCLAUSE :+ 3arg & 2comps.
+
+v-trPrtcl-COMPLETEDACTIVITY :+ 3arg & 2comps.
+
+v-trPrtcl :+ 3arg & 2comps.
+
+v-trPrtcl-obEqInf :+ 3arg & 2comps. ;; MHS 170713 New
+
+v-trScpr-obDir_obRefl_scObNrgCsd :+ 3arg & 2comps.
+
+v-trScprAdjShft-scObArgCsd_scAdj :+ 3arg & 2comps. ;; MHS 170713 New
+
+v-trScpr-scObArgCsd :+ 3arg & 2comps.
+
+v-trScpr-scObArgCsd_scLoc :+ 3arg & 2comps. ;; MHS 170713 New
+
+v-trScpr-scObArgCsd_scEndpt :+ 3arg & 2comps. ;; MHS 170713 New
+
+v-trScpr-obRefl_scObArgCsd :+ 3arg & 2comps.
+
+v-trScprShft-obDir_scObNrgCsd :+ 3arg & 2comps.
+
+v-trScprShft-scObNrgRes_scPPrefl-PLACEMENT :+ 3arg & 2comps. 
+
+v-trScprShft-scObNrgRes_scPP-PLACEMENT :+ 3arg & 2comps.
+
+v-intrImpltransfAdv-suAg-RENDERING_IN_POSITION :+ 2arg & 1comps.
+
+v-intrImpltransfAdv-advRefl-suAg-RENDERING_IN_POSITION :+ 2arg & 1comps.
+
+v-intrComp-compINTERR :+ 2arg & 1comps.
+
+v-intrComp-compWH :+ 2arg & 1comps. ;; MHS 170713 New
+
+v-intrComp-compYN :+ 2arg & 1comps. ;; MHS 170713 New
+
+v-ditr-iobRefl :+ 3arg & 2comps.
+
+v-ditr-obDECL :+ 3arg & 2comps.
+
+v-ditr-iobRefl_obDECL :+ 3arg & 2comps.
+
+v-ditr :+ 3arg & 2comps.
+
+;LH 1206-11  added and retracted:
+;v-ditr-iobRefl_obEqIobInf :+ 3arg & 2comps. 
+
+;LH 020611
+v-ditr-obYN :+ 3arg & 2comps.
+v-ditr-obYN_iobRefl :+ 3arg & 2comps.
+v-ditr-obWH :+ 3arg & 2comps.
+v-ditr-obWH_iobRefl :+ 3arg & 2comps.
+
+v-trComp-compINTERR :+ 3arg & 2comps.
+
+v-ditr-suDECL :+ 3arg & 2comps.
+
+v-ditr-suINTERR :+ 3arg & 2comps.
+
+;LH may 21-11
+v-ditr-suAbsinf :+ 3arg & 2comps.
+v-trNrfComp-obReflExpl_compYN :+ 3arg & 2comps.
+v-trNrfComp-obReflExpl_compWH :+ 3arg & 2comps.
+
+v-ditr-suDECL_obDECL :+ 3arg & 2comps.
+
+v-ditr-suDECL_obINTERR :+ 3arg & 2comps.
+
+v-ditr-suINTERR_obDECL :+ 3arg & 2comps.
+
+v-ditr-suINTERR_obINTERR :+ 3arg & 2comps.
+
+;v-intrImpers :+ 1arg. ; sjekk denne ved senere annledning
+
+;v-intrImpersObl :+ 2arg & 1obl.
+
+;v-intrImpersPrtcl :+ 2arg & 1comps.
+
+v-intrPresnt :+ 2arg & 1comps. 
+
+v-intrPresnt-presDir :+ 2arg & 1comps.
+
+;LH 080611 temporarily out:
+;v-trNrfPresntPath-obRefl_presDir :+ 4arg & 3comps.
+
+;LH 080611 added:
+v-trNrfPresntPathShft-obRefl_presDir :+ 4arg & 3comps.
+
+; LH may14-11, new:
+v-trNrfPresnt-obRefl_presDir :+ 3arg & 2comps.
+
+v-trPresntLoc-obRefl :+ 4arg & 3comps.
+
+v-intrPresntLoc :+ 3arg & 1comps-1obl.
+
+v-intrPresntPath-presDir :+ 3arg & 2comps.
+
+;LH 080611 added:
+v-intrPresntPathShft-presDir :+ 3arg & 2comps.
+
+v-trpresnt :+ 3arg & 2comps.
+
+v-trNrfPresnt-obRefl :+ 3arg & 2comps.
+
+v-trNrfPresntLoc-obReflExpl :+ 4arg & 3comps.
+
+v-trExpnSu-expnDECL :+ 3arg & 2comps.
+
+;LH may21-11 added:
+v-trExpnSu-expnYN :+ 3arg & 2comps.
+v-trExpnSu-expnWH :+ 3arg & 2comps.
+v-trExpnSu-expnDECL_obRefl :+ 3arg & 2comps.
+v-trExpnSu-expnYN_obRefl :+ 3arg & 2comps.
+v-trExpnSu-expnWH_obRefl :+ 3arg & 2comps.
+v-trExpnSu-expnCOND :+ 3arg & 2comps.
+v-trExpnSu-expnEqInf :+ 3arg & 2comps.
+
+v-trNrfExpnSu-obReflExpl_expnDECL :+ 3arg & 2comps.
+
+v-trExpnSu-obMeas_expnInfabs  :+ 3arg & 2comps.
+
+v-ditrExpnSu-obMeas_expnEqInf :+ 4arg & 3comps.
+
+;LH may21-11 added:
+v-trExpnOb-expnDECL :+ 3arg & 2comps.
+v-trExpnOb-expnCOND :+ 3arg & 2comps.
+v-trExpnOb-expnAbsinf :+ 3arg & 2comps.
+
+
+v-intrExpn-expnDECL :+ 2arg & 1comps.
+
+v-intrExpn-expnINTERR :+ 2arg & 1comps.
+
+;LH may15-11: added:
+v-intrExpn-expnAbsinf :+ 2arg & 1comps.
+
+;LH may15-11: added:
+v-intrPrtclExpn-expnDECL :+ 3arg & 2comps.
+
+;LH may15-11: added:
+v-intrPrtclExpn-expnAbsinf :+ 3arg & 2comps.
+
+v-intrPrtclExpn-expnInterr :+ 3arg & 2comps. ;; MHS 170713 New
+
+;LH may15-11: added:
+v-intrOblExlnk-oblExlnkDECL :+ 2arg & 1obl.
+
+v-tr-suDECL :+ 2arg & 1comps.
+
+v-tr-suINTERR :+ 2arg & 1comps.
+
+v-tr-suAbsinf :+ 2arg & 1comps.
+
+v-trObl-suDECL :+ 3arg & 1comps-1obl.
+
+v-trObl-suINTERR :+ 3arg & 1comps-1obl.
+
+v-tr-suDECL_obDECL :+ 2arg & 1comps.
+
+v-tr-suINTERR_obDECL :+ 2arg & 1comps.
+
+v-tr-suINTERR_obINTERR :+ 2arg & 1comps.
+
+v-trObl-suDECL_oblDECL :+ 3arg & 1comps-1obl.
+
+v-trObl-suDECL_oblINTERR :+ 3arg & 1comps-1obl. ;; MHS 170713 New
+
+v-tr-suDECL_obINTERR :+ 2arg & 1comps.
+
+v-trObl-suINTERR_oblDECL :+ 3arg & 1comps-1obl.
+
+v-trObl-suINTERR_oblINTERR :+ 3arg & 1comps-1obl.
+
+v-copAdj :+ 2arg & 1comps.
+
+v-copAdj2 :+ 2arg & 1comps.
+
+v-copPP :+ 2arg & 1comps.
+
+;LH may21-11 added:
+;LH june12-11 suspended because so far unseccesful:
+;v-copPredprtcl :+ 2arg & 1comps. 
+v-copPredprtcl-suDECL :+ 2arg & 1comps. ;; MHS 170713 Commented in
+
+;LH may21-11 added:
+v-copPP-suDECL :+ 2arg & 1comps.
+
+v-copPP-suAbsinf :+ 2arg & 1comps. ;; MHS 170713 New
+
+v-copPP-suYN :+ 2arg & 1comps. ;; MHS 170713 New
+
+v-copAdv :+ 2arg & 1comps.
+
+v-copPPdir :+ 2arg & 1comps.
+
+v-copImpersAdjLoc :+ 2arg & 1comps.
+
+v-copToughAdj :+ 2arg & 1comps.
+
+v-copAdj-suDECL :+ 2arg & 1comps.
+
+v-copAdj-suINTERR :+ 2arg & 1comps.
+
+v-copN :+ 2arg & 1comps.
+
+;LH may21-11 added:
+v-copN-suDECL :+ 2arg & 1comps.
+
+v-copIdN :+ 2arg & 1comps.
+
+v-copIdDECL :+ 2arg & 1comps.
+
+v-copIdAbsinf :+ 2arg & 1comps. ;; MHS 170713 New
+
+v-copIdAbsinf-suAbsinf :+ 2arg & 1comps. ;; MHS 170713 New
+
+v-copIdWH :+ 2arg & 1comps.
+
+v-copIdYN :+ 2arg & 1comps.
+
+;; MHS 100713 added:
+
+v-copN-suYN :+ 2arg & 1comps.
+
+v-copN-suWH :+ 2arg & 1comps.
+
+v-copN-suAbsinf :+ 2arg & 1comps.
+
+;;
+
+v-tr-suDir :+ 2arg & 1comps.
+
+v-trNrf-suDir_obReflExpl :+ 2arg & 1comps.
+
+v-trObl-obRefl_oblEqObInf :+ 3arg & 1comps-1obl.
+
+v-tr-suDir_obLengthunit :+ 2arg & 1comps.
+
+v-intrScprExpn-scAdj :+ 2arg & 1comps. ;; MHS 170713 New
+
+v-intrScprExpn-scPredprtcl :+ 3arg & 2comps. ;; MHS 170713 New
+
+;v-copExpnAdj :+ 2arg & 1comps. ;; MHS 170713 New
+
+v-copExpnN-expnAbsinf :+ 3arg & 2comps.
+
+
+;v-intr-suDir-suMover :+ 1arg.
+
+
+
+#| 
+
+
+basic_zero_arg := synsem &
+  [ LOCAL.ARG-S < >,
+    NONLOC [ SLASH 0-dlist,
+             REL 0-dlist,
+             QUE 0-dlist ] ].
+
+zero_arg := basic_zero_arg & lex_synsem &
+  [ LOCAL.CONT.HCONS <! !> ].
+
+; DPF 13-may-09 Removed identif of --SLTOP with that of ARG-S - why needed?
+;
+basic_one_arg := canonical_synsem &
+  [ LOCAL [ ARG-S < [ NONLOC [ SLASH #slash,
+			       REL #rel,
+			       QUE #que ] ] > ],
+    NONLOC [ SLASH #slash,
+             REL #rel,
+             QUE #que ] ].
+
+one_arg := basic_one_arg &
+  [ LOCAL.CONT.HCONS <! !> ].
+
+unspec_two_arg := basic_lex_synsem &
+  [ LOCAL.ARG-S < [ LOCAL.CONT.HOOK.--SLTOP #sltop,
+		    NONLOC [ SLASH [ LIST #smiddle,
+                                     LAST #slast ],
+                             REL [ LIST #rmiddle,
+                                   LAST #rlast ],
+                             QUE [ LIST #qmiddle,
+                                   LAST #qlast ] ] ],
+		  [ LOCAL.CONT.HOOK.--SLTOP #sltop,
+		    NONLOC [ SLASH [ LIST #sfirst,
+                                     LAST #smiddle ],
+                             REL [ LIST #rfirst,
+                                   LAST #rmiddle ],
+                             QUE [ LIST #qfirst,
+                                   LAST #qmiddle ] ] ] >,
+    LOCAL.CONT.HOOK.--SLTOP #sltop,
+    NONLOC [ SLASH [ LIST #sfirst,
+                     LAST #slast ],
+             REL [ LIST #rfirst,
+                   LAST #rlast ],
+             QUE [ LIST #qfirst,
+                   LAST #qlast ] ] ].
+
+basic_two_arg := unspec_two_arg & lex_synsem.
+
+two_arg := basic_two_arg &
+  [ LOCAL.CONT.HCONS <! !> ].
+
+; 'Kim is worth admiring.'
+;
+worth_two_arg := lex_synsem &
+  [ LOCAL.ARG-S < [ LOCAL.CONT.HOOK.--SLTOP #sltop,
+		    NONLOC [ SLASH #slash,
+                             REL [ LIST #rmiddle,
+                                   LAST #rlast ],
+                             QUE [ LIST #qmiddle,
+                                   LAST #qlast ] ] ],
+                  [ LOCAL.CONT.HOOK.--SLTOP #sltop,
+		    NONLOC [ REL [ LIST #rfirst,
+                                   LAST #rmiddle ],
+                             QUE [ LIST #qfirst,
+                                   LAST #qmiddle ] ] ] >,
+    LOCAL.CONT.HOOK.--SLTOP #sltop,
+    NONLOC [ SLASH #slash,
+             REL [ LIST #rfirst,
+                   LAST #rlast ],
+             QUE [ LIST #qfirst,
+                   LAST #qlast ] ] ].
+
+generic_three_arg := lex_synsem &
+  [ LOCAL [ ARG-S < [ NONLOC [ REL [ LIST #rmiddle2,
+                                     LAST #rlast ],
+                               QUE [ LIST #qmiddle2,
+                                     LAST #qlast ] ] ],
+                    [ NONLOC [ REL [ LIST #rfirst,
+                                     LAST #rmiddle1 ],
+                               QUE [ LIST #qfirst,
+                                     LAST #qmiddle1 ] ] ],
+                    [ NONLOC [ REL [ LIST #rmiddle1,
+                                     LAST #rmiddle2 ],
+                               QUE [ LIST #qmiddle1,
+                                     LAST #qmiddle2 ] ] ] > ],
+    NONLOC [ REL [ LIST #rfirst,
+                   LAST #rlast ],
+             QUE [ LIST #qfirst,
+                   LAST #qlast ] ] ].
+
+basic_three_arg := generic_three_arg &
+  [ LOCAL.ARG-S < [ LOCAL.CONT.HOOK.--SLTOP #sltop,
+		    NONLOC.SLASH [ LIST #smiddle2,
+                                   LAST #slast ] ],
+                  [ LOCAL.CONT.HOOK.--SLTOP #sltop,
+		    NONLOC.SLASH [ LIST #sfirst,
+                                   LAST #smiddle1 ] ],
+                  [ LOCAL.CONT.HOOK.--SLTOP #sltop,
+		    NONLOC.SLASH [ LIST #smiddle1,
+                                   LAST #smiddle2 ] ] >,
+    LOCAL.CONT.HOOK.--SLTOP #sltop,
+    NONLOC.SLASH [ LIST #sfirst,
+                   LAST #slast ] ].
+
+three_arg := basic_three_arg &
+  [ LOCAL.CONT.HCONS <! !> ].
+
+; Don't amalgamate SLASH of last complement
+tough_three_arg := generic_three_arg &
+  [ LOCAL.ARG-S < [ NONLOC.SLASH [ LIST #smiddle1,
+                                   LAST #slast ] ],
+                  [ NONLOC.SLASH [ LIST #sfirst,
+                                   LAST #smiddle1 ] ],
+                  synsem >,
+    NONLOC.SLASH [ LIST #sfirst,
+                   LAST #slast ] ].
+
+; Don't amalgamate REL of last complement (it-cleft, 'have X to finish')
+norel_three_arg := lex_synsem &
+  [ LOCAL [ ARG-S < [ LOCAL.CONT.HOOK.--SLTOP #sltop,
+		      NONLOC [ SLASH [ LIST #smiddle2,
+                                       LAST #slast ],
+                               REL [ LIST #rmiddle,
+                                     LAST #rlast ],
+                               QUE [ LIST #qmiddle2,
+                                     LAST #qlast ] ] ],
+                    [ LOCAL.CONT.HOOK.--SLTOP #sltop,
+		      NONLOC [ SLASH [ LIST #sfirst,
+                                       LAST #smiddle1 ],
+                               REL [ LIST #rfirst,
+                                     LAST #rmiddle ],
+                               QUE [ LIST #qfirst,
+                                     LAST #qmiddle1 ] ] ],
+                    [ LOCAL.CONT.HOOK.--SLTOP #sltop,
+		      NONLOC [ SLASH [ LIST #smiddle1,
+                                       LAST #smiddle2 ],
+                               QUE [ LIST #qmiddle1,
+                                     LAST #qmiddle2 ] ] ] > ],
+    LOCAL.CONT.HOOK.--SLTOP #sltop,
+    NONLOC [ SLASH [ LIST #sfirst,
+                     LAST #slast ],
+             REL [ LIST #rfirst,
+                   LAST #rlast ],
+             QUE [ LIST #qfirst,
+                   LAST #qlast ] ] ].
+four_arg := lex_synsem &
+  [ LOCAL [ ARG-S < [ LOCAL.CONT.HOOK.--SLTOP #sltop,
+		      NONLOC [ SLASH [ LIST #smiddle3,
+                                       LAST #slast ],
+                               REL [ LIST #rmiddle3,
+                                     LAST #rlast ],
+                               QUE [ LIST #qmiddle3,
+                                     LAST #qlast ] ] ],
+		    [ LOCAL.CONT.HOOK.--SLTOP #sltop,
+		      NONLOC [ SLASH [ LIST #sfirst,
+                                       LAST #smiddle1 ],
+                               REL [ LIST #rfirst,
+                                     LAST #rmiddle1 ],
+                               QUE [ LIST #qfirst,
+                                     LAST #qmiddle1 ] ] ],
+		    [ LOCAL.CONT.HOOK.--SLTOP #sltop,
+		      NONLOC [ SLASH [ LIST #smiddle1,
+                                       LAST #smiddle2 ],
+                               REL [ LIST #rmiddle1,
+                                     LAST #rmiddle2 ],
+                               QUE [ LIST #qmiddle1,
+                                     LAST #qmiddle2 ] ] ],
+		    [ LOCAL.CONT.HOOK.--SLTOP #sltop,
+		      NONLOC [ SLASH [ LIST #smiddle2,
+                                       LAST #smiddle3 ],
+                               REL [ LIST #rmiddle2,
+                                     LAST #rmiddle3 ],
+                               QUE [ LIST #qmiddle2,
+                                     LAST #qmiddle3 ] ] ] > ],
+    LOCAL.CONT.HOOK.--SLTOP #sltop,
+    NONLOC [ SLASH [ LIST #sfirst,
+                     LAST #slast ],
+             REL [ LIST #rfirst,
+                   LAST #rlast ],
+             QUE [ LIST #qfirst,
+                   LAST #qlast ] ] ].
+
+	
+
+|#

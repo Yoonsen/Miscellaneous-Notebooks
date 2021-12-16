@@ -1,0 +1,5158 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource -
+;;; 
+;;;    Copyright (c)  NorSource 1.0
+;;;                     
+;;;
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    
+;;;
+
+;; adv, pos i norsource: []
+à-jour_adv := adv-word-reg & 
+ [ STEM < "à", "jour" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_à-jour_adv_rel" ].
+
+;; adv, pos i norsource: []
+à-la-carte_adv := adv-word-reg & 
+ [ STEM < "à","la","carte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_à-la-carte_adv_rel" ].
+
+;; adv, pos i norsource: []
+à-la-grecque_adv := adv-word-reg & 
+ [ STEM < "à","la","grecque" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_à-la-grecque_adv_rel" ].
+
+;; adv, pos i norsource: []
+à-la-mode_adv := adv-word-reg & 
+ [ STEM < "à","la","mode" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_à-la-mode_adv_rel" ].
+
+;; adv, pos i norsource: []
+òg_adv := adv-word-reg & 
+ [ STEM < "òg" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_òg_adv_rel" ].
+
+;; prep, pos i norsource: []
+a_prep := prep-word-reg & 
+ [ STEM < "a" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_a_prep_rel" ].
+
+á_prep := prep-word-reg & 
+ [ STEM < "á" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_á_prep_rel" ].
+
+;; interj, pos i norsource: []
+a_interj := interjection-word & 
+ [ STEM < "a" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_a_interj_rel" ].
+
+;; adv, pos i norsource: []
+a-cappella_adv := adv-word-reg & 
+ [ STEM < "a"," cappella" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_a-cappella_adv_rel" ].
+
+;; adv, pos i norsource: []
+a-konto_adv := adv-word-reg & 
+ [ STEM < "a"," konto" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_a-konto_adv_rel" ].
+
+;; adv, pos i norsource: []
+a-posteriori_adv := adv-word-reg & 
+ [ STEM < "a"," posteriori" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_a-posteriori_adv_rel" ].
+
+;; adv, pos i norsource: []
+a-priori_adv := adv-word-reg & 
+ [ STEM < "a"," priori" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_a-priori_adv_rel" ].
+
+;; adv, pos i norsource: []
+a-tempo_adv := adv-word-reg & 
+ [ STEM < "a"," tempo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_a-tempo_adv_rel" ].
+
+;; adv, pos i norsource: []
+a-verbo_adv := adv-word-reg & 
+ [ STEM < "a"," verbo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_a-verbo_adv_rel" ].
+
+;; adv, pos i norsource: []
+a-vista_adv := adv-word-reg & 
+ [ STEM < "a","vista" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_a-vista_adv_rel" ].
+
+;; adv, pos i norsource: []
+ad-absurdum_adv := adv-word-reg & 
+ [ STEM < "ad","absurdum" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ad-absurdum_adv_rel" ].
+
+;; adv, pos i norsource: []
+ad-acta_adv := adv-word-reg & 
+ [ STEM < "ad","acta" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ad-acta_adv_rel" ].
+
+;; adv, pos i norsource: []
+ad-hoc_adv := adv-word-reg & 
+ [ STEM < "ad","hoc" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ad-hoc_adv_rel" ].
+
+;; adv, pos i norsource: []
+ad-infinitum_adv := adv-word-reg & 
+ [ STEM < "ad","infinitum" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ad-infinitum_adv_rel" ].
+
+;; adv, pos i norsource: []
+ad-notam_adv := adv-word-reg & 
+ [ STEM < "ad","notam" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ad-notam_adv_rel" ].
+
+;; adv, pos i norsource: []
+ad-undas_adv := adv-word-reg & 
+ [ STEM < "ad","undas" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ad-undas_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+adagio_adv := adv-word-reg & 
+ [ STEM < "adagio" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_adagio_adv_rel" ].
+
+;; interj, pos i norsource: []
+adjø_interj := interjection-word & 
+ [ STEM < "adjø" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_adjø_interj_rel" ].
+
+;; interj, pos i norsource: []
+ah_interj := interjection-word & 
+ [ STEM < "ah" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ah_interj_rel" ].
+
+;; interj, pos i norsource: []
+aha_interj := interjection-word & 
+ [ STEM < "aha" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_aha_interj_rel" ].
+
+;; interj, pos i norsource: []
+ai_interj := interjection-word & 
+ [ STEM < "ai" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ai_interj_rel" ].
+
+;; interj, pos i norsource: []
+akk_interj := interjection-word & 
+ [ STEM < "akk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_akk_interj_rel" ].
+
+;; prep, pos i norsource: []
+aktenfor_prep := prep-word-reg & 
+ [ STEM < "aktenfor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_aktenfor_prep_rel" ].
+
+;; prep, pos i norsource: []
+aktenfra_adv := adv-word-reg & 
+ [ STEM < "aktenfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_aktenfra_adv_rel" ].
+
+;; prep, pos i norsource: []
+aktenom_prep := prep-word-reg & 
+ [ STEM < "aktenom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_aktenom_prep_rel" ].
+
+;; prep, pos i norsource: []
+akter_adv := adv-word-reg & 
+ [ STEM < "akter" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_akter_adv_rel" ].
+
+;; prep, pos i norsource: []
+akterover_adv := adv-word-reg & 
+ [ STEM < "akterover" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_akterover_adv_rel" ].
+
+;; prep, pos i norsource: []
+akterut_adv := adv-word-reg & 
+ [ STEM < "akterut" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_akterut_adv_rel" ].
+
+;; adv, pos i norsource: []
+aldeles_adv := adv-word-reg & 
+ [ STEM < "aldeles" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_aldeles_adv_rel" ].
+
+;; adv, pos i norsource: [advs]
+aldri_adv := adv-word-reg & 
+ [ STEM < "aldri" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_aldri_adv_rel" ].
+
+;; adv, pos i norsource: []
+aleine_adv := adv-word-reg & 
+ [ STEM < "aleine" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_aleine_adv_rel" ].
+
+;; adv, pos i norsource: []
+alias_prep := prep-word-reg & 
+ [ STEM < "alias" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_alias_prep_rel" ].
+
+;; adv, pos i norsource: [n]
+allegretto_adv := adv-word-reg & 
+ [ STEM < "allegretto" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_allegretto_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+allegro_adv := adv-word-reg & 
+ [ STEM < "allegro" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_allegro_adv_rel" ].
+
+;; prep, pos i norsource: []
+allesteds_adv := adv-word-reg & 
+ [ STEM < "allesteds" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_allesteds_adv_rel" ].
+
+;; prep, pos i norsource: []
+allestedsfra_adv := adv-word-reg & 
+ [ STEM < "allestedsfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_allestedsfra_adv_rel" ].
+
+;; prep, pos i norsource: []
+allestedshen_prep := prep-word-reg & 
+ [ STEM < "allestedshen" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_allestedshen_prep_rel" ].
+
+;; adv, pos i norsource: []
+alltids_adv := adv-word-reg & 
+ [ STEM < "alltids" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_alltids_adv_rel" ].
+
+;; adv, pos i norsource: []
+altfor_adv := adv-word-reg & 
+ [ STEM < "altfor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_altfor_adv_rel" ].
+
+;; adv, pos i norsource: []
+altså_adv := adv-word-reg & 
+ [ STEM < "altså" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_altså_adv_rel" ].
+
+;; interj, pos i norsource: []
+amen_interj := interjection-word & 
+ [ STEM < "amen" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_amen_interj_rel" ].
+
+;; adv, pos i norsource: []
+amok_adv := adv-word-reg & 
+ [ STEM < "amok" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_amok_adv_rel" ].
+
+;; adv, pos i norsource: []
+an_adv := adv-word-reg & 
+ [ STEM < "an" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_an_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+andante_adv := adv-word-reg & 
+ [ STEM < "andante" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_andante_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+andantino_adv := adv-word-reg & 
+ [ STEM < "andantino" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_andantino_adv_rel" ].
+
+;; adv, pos i norsource: []
+andelsvis_adv := adv-word-reg & 
+ [ STEM < "andelsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_andelsvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+andfares_adv := adv-word-reg & 
+ [ STEM < "andfares" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_andfares_adv_rel" ].
+
+;; adv, pos i norsource: []
+andføttes_adv := adv-word-reg & 
+ [ STEM < "andføttes" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_andføttes_adv_rel" ].
+
+;; prep, pos i norsource: []
+annensteds_adv := adv-word-reg & 
+ [ STEM < "annensteds" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_annensteds_prep_rel" ].
+
+;; prep, pos i norsource: []
+annenstedsfra_adv := adv-word-reg & 
+ [ STEM < "annenstedsfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_annenstedsfra_prep_rel" ].
+
+;; prep, pos i norsource: []
+annenstedshen_adv := adv-word-reg & 
+ [ STEM < "annenstedshen" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_annenstedshen_prep_rel" ].
+
+;; adv, pos i norsource: []
+annetsteds_adv := adv-word-reg & 
+ [ STEM < "annetsteds" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_annetsteds_adv_rel" ].
+
+;; prep, pos i norsource: []
+annetstedsfra_prep := prep-word-reg & 
+ [ STEM < "annetstedsfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_annetstedsfra_prep_rel" ].
+
+;; adv, pos i norsource: []
+annetstedshen_adv := adv-word-reg & 
+ [ STEM < "annetstedshen" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_annetstedshen_adv_rel" ].
+
+;; adv, pos i norsource: []
+anslagsvis_cardspec-word := cardspec-word & 
+ [ STEM < "anslagsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_anslagsvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+anstendigvis_adv := adv-word-reg & 
+ [ STEM < "anstendigvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_anstendigvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+anstigende_adv := adv-word-reg & 
+ [ STEM < "anstigende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_anstigende_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+apropos_prep := prep-word-reg & 
+ [ STEM < "apropos" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_apropos_p_rel" ].
+
+;; prep, pos i norsource: []
+att_adv := adv-word-reg & 
+ [ STEM < "att" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_att_prep_rel" ].
+
+;; prep, pos i norsource: []
+attende_adv := adv-word-reg & 
+ [ STEM < "attende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_attende_prep_rel" ].
+
+;; adv, pos i norsource: []
+atter_adv := adv-word-reg & 
+ [ STEM < "atter" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_atter_adv_rel" ].
+
+;; prep, pos i norsource: []
+attpå_adv := adv-word-reg & 
+ [ STEM < "attpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_attpå_adv_rel" ].
+
+;; adv, pos i norsource: []
+attpåtil_adv := adv-word-reg & 
+ [ STEM < "attpåtil" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_attpåtil_adv_rel" ].
+
+;; adv, pos i norsource: []
+attåt_adv := adv-word-reg & 
+ [ STEM < "attåt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_attåt_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+au_adv := adv-word-reg & 
+ [ STEM < "au" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_au_adv_rel" ].
+
+;; interj, pos i norsource: [n]
+au_interj := interjection-word & 
+ [ STEM < "au" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_au_interj_rel" ].
+
+;; interj, pos i norsource: []
+au-revoir_interj := interjection-word & 
+ [ STEM < "au","revoir" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_au revoir_interj_rel" ].
+
+;; prep, pos i norsource: [n]
+aust_adv := adv-word-reg & 
+ [ STEM < "aust" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_aust_prep_rel" ].
+
+;; prep, pos i norsource: []
+austa_prep := prep-word-reg & 
+ [ STEM < "austa" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_austa_prep_rel" ].
+
+;; prep, pos i norsource: [adj]
+austafjells_adv := adv-word-reg & 
+ [ STEM < "austafjells" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_austafjells_prep_rel" ].
+
+;; prep, pos i norsource: []
+austafor_prep := prep-word-reg & 
+ [ STEM < "austafor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_austafor_prep_rel" ].
+
+;; prep, pos i norsource: []
+austafra_adv := adv-word-reg & 
+ [ STEM < "austafra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_austafra_prep_rel" ].
+
+;; prep, pos i norsource: []
+austetter_adv := adv-word-reg & 
+ [ STEM < "austetter" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_austetter_prep_rel" ].
+
+;; prep, pos i norsource: []
+austfra_adv := adv-word-reg & 
+ [ STEM < "austfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_austfra_prep_rel" ].
+
+;; prep, pos i norsource: []
+austover_adv := adv-word-reg & 
+ [ STEM < "austover" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_austover_prep_rel" ].
+
+;; prep, pos i norsource: []
+austover_prep := prep-word-reg & 
+ [ STEM < "austover" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_austover_prep_rel" ].
+
+;; prep, pos i norsource: []
+austpå_adv := adv-word-reg & 
+ [ STEM < "austpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_austpå_prep_rel" ].
+
+;; prep, pos i norsource: []
+austpå_prep := prep-word-reg & 
+ [ STEM < "austpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_austpå_prep_rel" ].
+
+;; adv, pos i norsource: []
+avdelingsvis_adv := adv-word-reg & 
+ [ STEM < "avdelingsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_avdelingsvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+avdragsvis_adv := adv-word-reg & 
+ [ STEM < "avdragsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_avdragsvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+avhendes_adv := adv-word-reg & 
+ [ STEM < "avhendes" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_avhendes_adv_rel" ].
+
+;; adv, pos i norsource: []
+avhends_adv := adv-word-reg & 
+ [ STEM < "avhends" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_avhends_adv_rel" ].
+
+;; adv, pos i norsource: []
+avsatsvis_adv := adv-word-reg & 
+ [ STEM < "avsatsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_avsatsvis_adv_rel" ].
+
+;; prep, pos i norsource: [n]
+babord_adv := adv-word-reg & 
+ [ STEM < "babord" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_babord_prep_rel" ].
+
+;; prep, pos i norsource: []
+bakafor_prep := prep-word-reg & 
+ [ STEM < "bakafor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bakafor_prep_rel" ].
+
+;; prep, pos i norsource: []
+bakenfor_prep := prep-word-reg & 
+ [ STEM < "bakenfor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bakenfor_prep_rel" ].
+
+;; prep, pos i norsource: []
+bakenifra_adv := adv-word-reg & 
+ [ STEM < "bakenifra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bakenifra_prep_rel" ].
+
+;; prep, pos i norsource: []
+bakfra_adv := adv-word-reg & 
+ [ STEM < "bakfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bakfra_prep_rel" ].
+
+;; adv, pos i norsource: [n, np]
+bakk_adv := adv-word-reg & 
+ [ STEM < "bakk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bakk_adv_rel" ].
+
+;; prep, pos i norsource: []
+bakom_prep := prep-word-reg & 
+ [ STEM < "bakom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bakom_prep_rel" ].
+
+;; prep, pos i norsource: []
+bakover_prep := prep-word-reg & 
+ [ STEM < "bakover" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bakover_prep_rel" ].
+
+;; prep, pos i norsource: []
+bakpå_adv := adv-word-reg & 
+ [ STEM < "bakpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bakpå_prep_rel" ].
+
+bakpå_prep := prep-word-reg & 
+ [ STEM < "bakpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bakpå_prep_rel" ].
+
+;; interj, pos i norsource: [np]
+bang_interj := interjection-word & 
+ [ STEM < "bang" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bang_interj_rel" ].
+
+;; interj, pos i norsource: []
+basta_interj := interjection-word & 
+ [ STEM < "basta" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_basta_interj_rel" ].
+
+;; adv, pos i norsource: []
+bataljonsvis_adv := adv-word-reg & 
+ [ STEM < "bataljonsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bataljonsvis_adv_rel" ].
+
+;; prep, pos i norsource: []
+beint-fram_adv := adv-word-reg & 
+ [ STEM < "beint","fram" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_beint-fram_prep_rel" ].
+
+;; adv, pos i norsource: []
+bekende_adv := adv-word-reg & 
+ [ STEM < "bekende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bekende_adv_rel" ].
+
+;; adv, pos i norsource: []
+belgende_adv := adv-word-reg & 
+ [ STEM < "belgende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_belgende_adv_rel" ].
+
+;; prep, pos i norsource: []
+bent-fram_adv := adv-word-reg & 
+ [ STEM < "bent","fram" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bent-fram_prep_rel" ].
+
+;; prep, pos i norsource: []
+bent-frem_adv := adv-word-reg & 
+ [ STEM < "bent","frem" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bent-frem_prep_rel" ].
+
+;; adv, pos i norsource: []
+betids_adv := adv-word-reg & 
+ [ STEM < "betids" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_betids_adv_rel" ].
+
+;; interj, pos i norsource: []
+bevares_interj := interjection-word & 
+ [ STEM < "bevares" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bevares_interj_rel" ].
+
+;; adv, pos i norsource: []
+bi_adv := adv-word-reg & 
+ [ STEM < "bi" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bi_adv_rel" ].
+
+;; adv, pos i norsource: []
+bidevind_adv := adv-word-reg & 
+ [ STEM < "bidevind" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bidevind_adv_rel" ].
+
+;; adv, pos i norsource: []
+bis_adv := adv-word-reg & 
+ [ STEM < "bis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bis_adv_rel" ].
+
+;; adv, pos i norsource: []
+bitevis_adv := adv-word-reg & 
+ [ STEM < "bitevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bitevis_adv_rel" ].
+
+;; adv, pos i norsource: []
+bitterlig_adv := adv-word-reg & 
+ [ STEM < "bitterlig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bitterlig_adv_rel" ].
+
+;; adv, pos i norsource: []
+blanko_adv := adv-word-reg & 
+ [ STEM < "blanko" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_blanko_adv_rel" ].
+
+;; adv, pos i norsource: []
+blidelig_adv := adv-word-reg & 
+ [ STEM < "blidelig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_blidelig_adv_rel" ].
+
+;; adv, pos i norsource: []
+blikkende_adv := adv-word-reg & 
+ [ STEM < "blikkende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_blikkende_adv_rel" ].
+
+bom-fast_adv := adv-word-reg & 
+ [ STEM < "bom","fast" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bom-fast_adj_rel" ].
+
+;; interj, pos i norsource: [n]
+bom_interj := interjection-word & 
+ [ STEM < "bom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bom_interj_rel" ].
+
+;; adv, pos i norsource: []
+bommende_adv := adv-word-reg & 
+ [ STEM < "bommende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bommende_adv_rel" ].
+
+;; adv, pos i norsource: []
+bona-fide_adv := adv-word-reg & 
+ [ STEM < "bona fide" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bona-fide_adv_rel" ].
+
+;; prep, pos i norsource: []
+bort-imot_prep := prep-word-reg & 
+ [ STEM < "bort","imot" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bort-imot_prep_rel" ].
+
+;; prep, pos i norsource: []
+bort-mot_prep := prep-word-reg & 
+ [ STEM < "bort", "mot" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bort-mot_prep_rel" ].
+
+;; prep, pos i norsource: []
+bortafor_prep := prep-word-reg & 
+ [ STEM < "bortafor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bortafor_prep_rel" ].
+
+;; prep, pos i norsource: []
+bortefra_prep := prep-word-reg & 
+ [ STEM < "bortefra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bortefra_prep_rel" ].
+
+;; prep, pos i norsource: []
+bortenfor_prep := prep-word-reg & 
+ [ STEM < "bortenfor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bortenfor_prep_rel" ].
+
+;; prep, pos i norsource: []
+bortigjennom_prep := prep-word-reg & 
+ [ STEM < "bortigjennom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bortigjennom_prep_rel" ].
+
+;; prep, pos i norsource: [adv]
+bortimot_prep := prep-word-reg & 
+ [ STEM < "bortimot" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bortimot_prep_rel" ].
+
+;; prep, pos i norsource: []
+bortom_prep := prep-word-reg & 
+ [ STEM < "bortom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bortom_prep_rel" ].
+
+;; prep, pos i norsource: [adv]
+bortover_prep := prep-word-reg & 
+ [ STEM < "bortover" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bortover_prep_rel" ].
+
+;; prep, pos i norsource: []
+bortpå_prep := prep-word-reg & 
+ [ STEM < "bortpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bortpå_prep_rel" ].
+
+;; prep, pos i norsource: []
+borttil_prep := prep-word-reg & 
+ [ STEM < "borttil" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_borttil_prep_rel" ].
+
+;; prep, pos i norsource: []
+bortunder_prep := prep-word-reg & 
+ [ STEM < "bortunder" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bortunder_prep_rel" ].
+
+;; prep, pos i norsource: []
+bortved_prep := prep-word-reg & 
+ [ STEM < "bortved" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bortved_prep_rel" ].
+
+;; interj, pos i norsource: []
+bravissimo_interj := interjection-word & 
+ [ STEM < "bravissimo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bravissimo_interj_rel" ].
+
+;; interj, pos i norsource: []
+bravo_interj := interjection-word & 
+ [ STEM < "bravo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bravo_interj_rel" ].
+
+;; adv, pos i norsource: []
+brennfort_adv := adv-word-reg & 
+ [ STEM < "brennfort" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_brennfort_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+brutto_adv := adv-word-reg & 
+ [ STEM < "brutto" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_brutto_adv_rel" ].
+
+;; adv, pos i norsource: []
+bråtevis_adv := adv-word-reg & 
+ [ STEM < "bråtevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bråtevis_adv_rel" ].
+
+;; adv, pos i norsource: []
+bums_adv := adv-word-reg & 
+ [ STEM < "bums" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bums_adv_rel" ].
+
+;; interj, pos i norsource: []
+bums_interj := interjection-word & 
+ [ STEM < "bums" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bums_interj_rel" ].
+
+;; adv, pos i norsource: []
+buntevis_adv := adv-word-reg & 
+ [ STEM < "buntevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_buntevis_adv_rel" ].
+
+;; adv, pos i norsource: []
+buntvis_adv := adv-word-reg & 
+ [ STEM < "buntvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_buntvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+bus-på_adv := adv-word-reg & 
+ [ STEM < "bus", "på" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bus-på_adv_rel" ].
+
+;; prep, pos i norsource: []
+bygdimellom_adv := adv-word-reg & 
+ [ STEM < "bygdimellom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bygdimellom_prep_rel" ].
+
+;; interj, pos i norsource: []
+byss_interj := interjection-word & 
+ [ STEM < "byss" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_byss_interj_rel" ].
+
+;; interj, pos i norsource: []
+bæ_interj := interjection-word & 
+ [ STEM < "bæ" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bæ_interj_rel" ].
+
+;; interj, pos i norsource: [np]
+bø_interj := interjection-word & 
+ [ STEM < "bø" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bø_interj_rel" ].
+
+;; adv, pos i norsource: []
+cantabile_adv := adv-word-reg & 
+ [ STEM < "cantabile" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_cantabile_adv_rel" ].
+
+;; prep, pos i norsource: []
+contra_prep := prep-word-reg & 
+ [ STEM < "contra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_contra_prep_rel" ].
+
+;; adv, pos i norsource: [n]
+crescendo_adv := adv-word-reg & 
+ [ STEM < "crescendo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_crescendo_adv_rel" ].
+
+;; adv, pos i norsource: []
+dagevis_adv := adv-word-reg & 
+ [ STEM < "dagevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dagevis_adv_rel" ].
+
+;; adv, pos i norsource: []
+dagstøtt_adv := adv-word-reg & 
+ [ STEM < "dagstøtt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dagstøtt_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+dakapo_adv := adv-word-reg & 
+ [ STEM < "dakapo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dakapo_adv_rel" ].
+
+;; adv, pos i norsource: []
+dammende_adv := adv-word-reg & 
+ [ STEM < "dammende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dammende_adv_rel" ].
+
+;; adv, pos i norsource: []
+dann-og-vann_adv := adv-word-reg & 
+ [ STEM < "dann", "og", "vann" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dann-og-vann_adv_rel" ].
+
+;; adv, pos i norsource: []
+de-facto_adv := adv-word-reg & 
+ [ STEM < "de","facto" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_de-facto_adv_rel" ].
+
+;; adv, pos i norsource: []
+de-jure_adv := adv-word-reg & 
+ [ STEM < "de", "jure" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_de-jure_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+decrescendo_adv := adv-word-reg & 
+ [ STEM < "decrescendo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_decrescendo_adv_rel" ].
+
+;; interj, pos i norsource: []
+degeren_interj := interjection-word & 
+ [ STEM < "degeren" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_degeren_interj_rel" ].
+
+;; interj, pos i norsource: []
+degern_interj := interjection-word & 
+ [ STEM < "degern" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_degern_interj_rel" ].
+
+;; adv, pos i norsource: []
+dels_adv := adv-word-reg & 
+ [ STEM < "dels" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dels_adv_rel" ].
+
+;; prep, pos i norsource: []
+der-borte_adv := adv-word-reg & 
+ [ STEM < "der","borte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_der borte_prep_rel" ].
+
+;; prep, pos i norsource: []
+der-hen_adv := adv-word-reg & 
+ [ STEM < "der","hen" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_der hen_prep_rel" ].
+
+;; prep, pos i norsource: []
+der-inne_adv := adv-word-reg & 
+ [ STEM < "der","inne" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_der inne_prep_rel" ].
+
+;; prep, pos i norsource: []
+der-nede_adv := adv-word-reg & 
+ [ STEM < "der","nede" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_der nede_prep_rel" ].
+
+;; prep, pos i norsource: []
+der-oppe_adv := adv-word-reg & 
+ [ STEM < "der","oppe" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_der oppe_prep_rel" ].
+
+;; prep, pos i norsource: []
+der-ute_adv := adv-word-reg & 
+ [ STEM < "der","ute" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_der ute_prep_rel" ].
+
+;; adv, pos i norsource: []
+derav_adv := adv-word-reg & 
+ [ STEM < "derav" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_derav_adv_rel" ].
+
+;; prep, pos i norsource: []
+deri_adv := adv-word-reg & 
+ [ STEM < "deri" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_deri_prep_rel" ].
+
+;; prep, pos i norsource: [advs]
+deriblant_adv := adv-word-reg & 
+ [ STEM < "deriblant" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_deriblant_prep_rel" ].
+
+;; prep, pos i norsource: []
+derifra_adv := adv-word-reg & 
+ [ STEM < "derifra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_derifra_prep_rel" ].
+
+;; adv, pos i norsource: [advs]
+derimot_adv := adv-word-reg & 
+ [ STEM < "derimot" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_derimot_adv_rel" ].
+
+;; adv, pos i norsource: []
+dermed_adv := adv-word-reg & 
+ [ STEM < "dermed" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dermed_adv_rel" ].
+
+;; adv, pos i norsource: [advs]
+dernest_adv := adv-word-reg & 
+ [ STEM < "dernest" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dernest_adv_rel" ].
+
+;; prep, pos i norsource: []
+derom_adv := adv-word-reg & 
+ [ STEM < "derom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_derom_prep_rel" ].
+
+;; prep, pos i norsource: []
+derpå_adv := adv-word-reg & 
+ [ STEM < "derpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_derpå_prep_rel" ].
+
+;; prep, pos i norsource: []
+dertil_adv := adv-word-reg & 
+ [ STEM < "dertil" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dertil_prep_rel" ].
+
+;; prep, pos i norsource: []
+derved_adv := adv-word-reg & 
+ [ STEM < "derved" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_derved_prep_rel" ].
+
+;; interj, pos i norsource: []
+dikkedikk_interj := interjection-word & 
+ [ STEM < "dikkedikk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dikkedikk_interj_rel" ].
+
+;; adv, pos i norsource: [n]
+diminuendo_adv := adv-word-reg & 
+ [ STEM < "diminuendo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_diminuendo_adv_rel" ].
+
+;; interj, pos i norsource: []
+ding-dang_interj := interjection-word & 
+ [ STEM < "ding-dang" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ding-dang_interj_rel" ].
+
+;; interj, pos i norsource: []
+ding-ding_interj := interjection-word & 
+ [ STEM < "ding-ding" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ding-ding_interj_rel" ].
+
+;; adv, pos i norsource: []
+dolce_adv := adv-word-reg & 
+ [ STEM < "dolce" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dolce_adv_rel" ].
+
+;; adv, pos i norsource: []
+dorgende_adv := adv-word-reg & 
+ [ STEM < "dorgende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dorgende_adv_rel" ].
+
+;; adv, pos i norsource: []
+dryppende_adv := adv-word-reg & 
+ [ STEM < "dryppende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dryppende_adv_rel" ].
+
+;; adv, pos i norsource: []
+drøssevis_adv := adv-word-reg & 
+ [ STEM < "drøssevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_drøssevis_adv_rel" ].
+
+;; interj, pos i norsource: []
+dunk_interj := interjection-word & 
+ [ STEM < "dunk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dunk_interj_rel" ].
+
+;; adv, pos i norsource: []
+dusinvis_adv := adv-word-reg & 
+ [ STEM < "dusinvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dusinvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+dyende_adv := adv-word-reg & 
+ [ STEM < "dyende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dyende_adv_rel" ].
+
+;; interj, pos i norsource: []
+dægeren_interj := interjection-word & 
+ [ STEM < "dægeren" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dægeren_interj_rel" ].
+
+;; interj, pos i norsource: []
+dægern_interj := interjection-word & 
+ [ STEM < "dægern" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dægern_interj_rel" ].
+
+;; interj, pos i norsource: []
+dæven_interj := interjection-word & 
+ [ STEM < "dæven" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dæven_interj_rel" ].
+
+;; adv, pos i norsource: []
+døgnvis_adv := adv-word-reg & 
+ [ STEM < "døgnvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_døgnvis_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+dønn_adv := adv-word-reg & 
+ [ STEM < "dønn" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dønn_adv_rel" ].
+
+;; adv, pos i norsource: []
+dørg_adv := adv-word-reg & 
+ [ STEM < "dørg" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dørg_adv_rel" ].
+
+;; adv, pos i norsource: []
+dørgende_adv := adv-word-reg & 
+ [ STEM < "dørgende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dørgende_adv_rel" ].
+
+;; adv, pos i norsource: []
+dørimellom_adv := adv-word-reg & 
+ [ STEM < "dørimellom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dørimellom_adv_rel" ].
+
+;; interj, pos i norsource: []
+eia_interj := interjection-word & 
+ [ STEM < "eia" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_eia_interj_rel" ].
+
+;; adv, pos i norsource: []
+eiende_adv := adv-word-reg & 
+ [ STEM < "eiende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_eiende_adv_rel" ].
+
+;; adv, pos i norsource: []
+einkom_adv := adv-word-reg & 
+ [ STEM < "einkom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_einkom_adv_rel" ].
+
+;; adv, pos i norsource: []
+eitrende_adv := adv-word-reg & 
+ [ STEM < "eitrende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_eitrende_adv_rel" ].
+
+;; adv, pos i norsource: []
+eksempelvis_adv := adv-word-reg & 
+ [ STEM < "eksempelvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_eksempelvis_adv_rel" ].
+
+;; prep, pos i norsource: []
+eksklusive_prep := prep-word-reg & 
+ [ STEM < "eksklusive" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_eksklusive_prep_rel" ].
+
+;; adv, pos i norsource: [n]
+ekspress_adv := adv-word-reg & 
+ [ STEM < "ekspress" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ekspress_adv_rel" ].
+
+;; adv, pos i norsource: []
+ekstempore_adv := adv-word-reg & 
+ [ STEM < "ekstempore" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ekstempore_adv_rel" ].
+
+;; adv, pos i norsource: []
+en-bloc_adv := adv-word-reg & 
+ [ STEM < "en","bloc" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_en bloc_adv_rel" ].
+
+;; adv, pos i norsource: []
+en-detail_adv := adv-word-reg & 
+ [ STEM < "en","detail" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_en detail_adv_rel" ].
+
+;; adv, pos i norsource: []
+en-face_adv := adv-word-reg & 
+ [ STEM < "en","face" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_en face_adv_rel" ].
+
+;; adv, pos i norsource: []
+en-gros_adv := adv-word-reg & 
+ [ STEM < "en","gros" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_en gros_adv_rel" ].
+
+;; adv, pos i norsource: []
+en-masse_adv := adv-word-reg & 
+ [ STEM < "en","masse" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_en masse_adv_rel" ].
+
+;; adv, pos i norsource: []
+en-passant_adv := adv-word-reg & 
+ [ STEM < "en","passant" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_en passant_adv_rel" ].
+
+;; adv, pos i norsource: []
+en-profil_adv := adv-word-reg & 
+ [ STEM < "en","profil" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_en profil_adv_rel" ].
+
+;; adv, pos i norsource: []
+en-suite_adv := adv-word-reg & 
+ [ STEM < "en","suite" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_en suite_adv_rel" ].
+
+;; prep, pos i norsource: []
+endefram_adv := adv-word-reg & 
+ [ STEM < "endefram" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_endefram_prep_rel" ].
+
+;; prep, pos i norsource: []
+endefrem_adv := adv-word-reg & 
+ [ STEM < "endefrem" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_endefrem_prep_rel" ].
+
+;; prep, pos i norsource: [adj]
+endelangs_adv := adv-word-reg & 
+ [ STEM < "endelangs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_endelangs_prep_rel" ].
+
+;; adv, pos i norsource: [card]
+ene_adv := adv-word-reg & 
+ [ STEM < "ene" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ene_adv_rel" ].
+
+;; adv, pos i norsource: []
+enkeltvis_adv := adv-word-reg & 
+ [ STEM < "enkeltvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_enkeltvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+enkom_adv := adv-word-reg & 
+ [ STEM < "enkom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_enkom_adv_rel" ].
+
+;; prep, pos i norsource: []
+ensteds_prep := prep-word-reg & 
+ [ STEM < "ensteds" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ensteds_prep_rel" ].
+
+;; adv, pos i norsource: []
+eo-ipso_adv := adv-word-reg & 
+ [ STEM < "eo","ipso" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_eo-ipso_adv_rel" ].
+
+;; adv, pos i norsource: []
+et-cetera_adv := adv-word-reg & 
+ [ STEM < "et","cetera" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_et-cetera_adv_rel" ].
+
+;; adv, pos i norsource: []
+etappevis_adv := adv-word-reg & 
+ [ STEM < "etappevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_etappevis_adv_rel" ].
+
+;; prep, pos i norsource: []
+etsteds_prep := prep-word-reg & 
+ [ STEM < "etsteds" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_etsteds_prep_rel" ].
+
+;; adv, pos i norsource: []
+etterhånden_adv := adv-word-reg & 
+ [ STEM < "etterhånden" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_etterhånden_adv_rel" ].
+
+;; adv, pos i norsource: []
+etterskottsvis_adv := adv-word-reg & 
+ [ STEM < "etterskottsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_etterskottsvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+etterskuddsvis_adv := adv-word-reg & 
+ [ STEM < "etterskuddsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_etterskuddsvis_adv_rel" ].
+
+;; prep, pos i norsource: [n]
+ex_prep := prep-word-reg & 
+ [ STEM < "ex" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ex_prep_rel" ].
+
+;; adv, pos i norsource: []
+ex-animo_adv := adv-word-reg & 
+ [ STEM < "ex","animo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ex-animo_adv_rel" ].
+
+;; adv, pos i norsource: []
+ex-auditorio_adv := adv-word-reg & 
+ [ STEM < "ex","auditorio" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ex-auditorio_adv_rel" ].
+
+;; adv, pos i norsource: []
+ex-cathedra_adv := adv-word-reg & 
+ [ STEM < "ex","cathedra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ex cathedra_adv_rel" ].
+
+;; adv, pos i norsource: []
+ex-officio_adv := adv-word-reg & 
+ [ STEM < "ex","officio" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ex officio_adv_rel" ].
+
+;; interj, pos i norsource: []
+fallera_interj := interjection-word & 
+ [ STEM < "fallera" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fallera_interj_rel" ].
+
+;; interj, pos i norsource: []
+falleri_interj := interjection-word & 
+ [ STEM < "falleri" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_falleri_interj_rel" ].
+
+;; interj, pos i norsource: []
+far-vel_interj := interjection-word & 
+ [ STEM < "far","vel" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_far-vel_interj_rel" ].
+
+;; interj, pos i norsource: []
+farken_interj := interjection-word & 
+ [ STEM < "farken" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_farken_interj_rel" ].
+
+;; adv, pos i norsource: []
+fatt_adv := adv-word-reg & 
+ [ STEM < "fatt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fatt_adv_rel" ].
+
+;; adv, pos i norsource: []
+femti-femti_adv := adv-word-reg & 
+ [ STEM < "femti-femti" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_femti-femti_adv_rel" ].
+
+;; adv, pos i norsource: []
+fifty-fifty_adv := adv-word-reg & 
+ [ STEM < "fifty-fifty" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fifty-fifty_adv_rel" ].
+
+;; interj, pos i norsource: []
+filleren_interj := interjection-word & 
+ [ STEM < "filleren" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_filleren_interj_rel" ].
+
+;; adv, pos i norsource: []
+flekkevis_adv := adv-word-reg & 
+ [ STEM < "flekkevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_flekkevis_adv_rel" ].
+
+;; adv, pos i norsource: []
+flokkevis_adv := adv-word-reg & 
+ [ STEM < "flokkevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_flokkevis_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+fluks_adv := adv-word-reg & 
+ [ STEM < "fluks" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fluks_adv_rel" ].
+
+;; adv, pos i norsource: []
+fluksens_adv := adv-word-reg & 
+ [ STEM < "fluksens" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fluksens_adv_rel" ].
+
+;; adv, pos i norsource: []
+flunkende_adv := adv-word-reg & 
+ [ STEM < "flunkende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_flunkende_adv_rel" ].
+
+;; adv, pos i norsource: []
+flust_adv := adv-word-reg & 
+ [ STEM < "flust" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_flust_adv_rel" ].
+
+;; interj, pos i norsource: []
+fola_interj := interjection-word & 
+ [ STEM < "fola" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fola_interj_rel" ].
+
+;; adv, pos i norsource: []
+for-lengst_adv := adv-word-reg & 
+ [ STEM < "for","lengst" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_for lengst_adv_rel" ].
+
+;; adv, pos i norsource: []
+for-visst_adv := adv-word-reg & 
+ [ STEM < "for","visst" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_for visst_adv_rel" ].
+
+;; adv, pos i norsource: []
+fordevind_adv := adv-word-reg & 
+ [ STEM < "fordevind" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fordevind_adv_rel" ].
+
+;; adv, pos i norsource: []
+fordum_adv := adv-word-reg & 
+ [ STEM < "fordum" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fordum_adv_rel" ].
+
+;; adv, pos i norsource: []
+fore_adv := adv-word-reg & 
+ [ STEM < "fore" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fore_adv_rel" ].
+
+;; adv, pos i norsource: []
+forhakkende_adv := adv-word-reg & 
+ [ STEM < "forhakkende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_forhakkende_adv_rel" ].
+
+;; adv, pos i norsource: []
+forholdsvis_adv := adv-word-reg & 
+ [ STEM < "forholdsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_forholdsvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+forhåpentlig_adv := adv-word-reg & 
+ [ STEM < "forhåpentlig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_forhåpentlig_adv_rel" ].
+
+;; adv, pos i norsource: []
+forhåpentligvis_adv := adv-word-reg & 
+ [ STEM < "forhåpentligvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_forhåpentligvis_adv_rel" ].
+
+;; prep, pos i norsource: []
+formedelst_prep := prep-word-reg & 
+ [ STEM < "formedelst" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_formedelst_prep_rel" ].
+
+;; adv, pos i norsource: []
+formelig_adv := adv-word-reg & 
+ [ STEM < "formelig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_formelig_adv_rel" ].
+
+;; adv, pos i norsource: []
+forsøksvis_adv := adv-word-reg & 
+ [ STEM < "forsøksvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_forsøksvis_adv_rel" ].
+
+;; adv, pos i norsource: [v]
+forte_adv := adv-word-reg & 
+ [ STEM < "forte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_forte_adv_rel" ].
+
+;; adv, pos i norsource: []
+fortfarende_adv := adv-word-reg & 
+ [ STEM < "fortfarende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fortfarende_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+fortissimo_adv := adv-word-reg & 
+ [ STEM < "fortissimo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fortissimo_adv_rel" ].
+
+;; prep, pos i norsource: []
+foruten_prep := prep-word-reg & 
+ [ STEM < "foruten" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_foruten_prep_rel" ].
+
+;; prep, pos i norsource: []
+framfor_prep := prep-word-reg & 
+ [ STEM < "framfor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_framfor_prep_rel" ].
+
+;; prep, pos i norsource: [v]
+framføre_prep := prep-word-reg & 
+ [ STEM < "framføre" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_framføre_prep_rel" ].
+
+;; adv, pos i norsource: []
+framleis_adv := adv-word-reg & 
+ [ STEM < "framleis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_framleis_adv_rel" ].
+
+;; prep, pos i norsource: []
+frammafor_prep := prep-word-reg & 
+ [ STEM < "frammafor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_frammafor_prep_rel" ].
+
+;; prep, pos i norsource: []
+frammenfor_prep := prep-word-reg & 
+ [ STEM < "frammenfor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_frammenfor_prep_rel" ].
+
+;; prep, pos i norsource: []
+framom_prep := prep-word-reg & 
+ [ STEM < "framom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_framom_prep_rel" ].
+
+;; prep, pos i norsource: []
+frampå_prep := prep-word-reg & 
+ [ STEM < "frampå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_frampå_prep_rel" ].
+
+;; adv, pos i norsource: []
+framstupes_adv := adv-word-reg & 
+ [ STEM < "framstupes" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_framstupes_adv_rel" ].
+
+;; adv, pos i norsource: []
+framstups_adv := adv-word-reg & 
+ [ STEM < "framstups" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_framstups_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+franko_adv := adv-word-reg & 
+ [ STEM < "franko" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_franko_adv_rel" ].
+
+;; prep, pos i norsource: [adv, advprt]
+frem_prep := prep-word-reg & 
+ [ STEM < "frem" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_frem_prep_rel" ].
+
+;; prep, pos i norsource: []
+fremfor_prep := prep-word-reg & 
+ [ STEM < "fremfor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fremfor_prep_rel" ].
+
+;; adv, pos i norsource: []
+fremlengs_adv := adv-word-reg & 
+ [ STEM < "fremlengs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fremlengs_adv_rel" ].
+
+;; prep, pos i norsource: []
+fremmenfor_prep := prep-word-reg & 
+ [ STEM < "fremmenfor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fremmenfor_prep_rel" ].
+
+;; prep, pos i norsource: []
+fremom_prep := prep-word-reg & 
+ [ STEM < "fremom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fremom_prep_rel" ].
+
+;; prep, pos i norsource: []
+frempå_prep := prep-word-reg & 
+ [ STEM < "frempå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_frempå_prep_rel" ].
+
+;; adv, pos i norsource: []
+fremstupes_adv := adv-word-reg & 
+ [ STEM < "fremstupes" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fremstupes_adv_rel" ].
+
+;; adv, pos i norsource: []
+fremstups_adv := adv-word-reg & 
+ [ STEM < "fremstups" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fremstups_adv_rel" ].
+
+;; adv, pos i norsource: []
+furioso_adv := adv-word-reg & 
+ [ STEM < "furioso" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_furioso_adv_rel" ].
+
+;; interj, pos i norsource: []
+fy_interj := interjection-word & 
+ [ STEM < "fy" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fy_interj_rel" ].
+
+;; adv, pos i norsource: []
+fylkesvis_adv := adv-word-reg & 
+ [ STEM < "fylkesvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fylkesvis_adv_rel" ].
+
+;; interj, pos i norsource: []
+fysj_interj := interjection-word & 
+ [ STEM < "fysj" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fysj_interj_rel" ].
+
+;; interj, pos i norsource: []
+gakk_interj := interjection-word & 
+ [ STEM < "gakk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gakk_interj_rel" ].
+
+;; interj, pos i norsource: []
+gakk-gakk_interj := interjection-word & 
+ [ STEM < "gakk-gakk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gakk-gakk_interj_rel" ].
+
+;; prep, pos i norsource: []
+gardimellom_adv := adv-word-reg & 
+ [ STEM < "gardimellom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gardimellom_prep_rel" ].
+
+;; prep, pos i norsource: []
+gatelangs_adv := adv-word-reg & 
+ [ STEM < "gatelangs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gatelangs_prep_rel" ].
+
+;; interj, pos i norsource: []
+gett_interj := interjection-word & 
+ [ STEM < "gett" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gett_interj_rel" ].
+
+;; interj, pos i norsource: []
+gid_interj := interjection-word & 
+ [ STEM < "gid" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gid_interj_rel" ].
+
+;; interj, pos i norsource: []
+giss_interj := interjection-word & 
+ [ STEM < "giss" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_giss_interj_rel" ].
+
+;; interj, pos i norsource: []
+gitt_interj := interjection-word & 
+ [ STEM < "gitt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gitt_interj_rel" ].
+
+;; adv, pos i norsource: []
+givetvis_adv := adv-word-reg & 
+ [ STEM < "givetvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_givetvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+gladelig_adv := adv-word-reg & 
+ [ STEM < "gladelig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gladelig_adv_rel" ].
+
+;; adv, pos i norsource: []
+glimtvis_adv := adv-word-reg & 
+ [ STEM < "glimtvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_glimtvis_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+glissando_adv := adv-word-reg & 
+ [ STEM < "glissando" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_glissando_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+glugg_adv := adv-word-reg & 
+ [ STEM < "glugg" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_glugg_adv_rel" ].
+
+;; adv, pos i norsource: []
+gradvis_adv := adv-word-reg & 
+ [ STEM < "gradvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gradvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+grandioso_adv := adv-word-reg & 
+ [ STEM < "grandioso" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_grandioso_adv_rel" ].
+
+;; adv, pos i norsource: []
+granngivelig_adv := adv-word-reg & 
+ [ STEM < "granngivelig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_granngivelig_adv_rel" ].
+
+;; adv, pos i norsource: []
+grassat_adv := adv-word-reg & 
+ [ STEM < "grassat" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_grassat_adv_rel" ].
+
+;; adv, pos i norsource: []
+gruppevis_adv := adv-word-reg & 
+ [ STEM < "gruppevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gruppevis_adv_rel" ].
+
+;; adv, pos i norsource: []
+gudskjelov_adv := adv-word-reg & 
+ [ STEM < "gudskjelov" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gudskjelov_adv_rel" ].
+
+gudskjelov_interj := interjection-word & 
+ [ STEM < "gudskjelov" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gudskjelov_adv_rel" ].
+
+;; adv, pos i norsource: []
+gullende_adv := adv-word-reg & 
+ [ STEM < "gullende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gullende_adv_rel" ].
+
+;; adv, pos i norsource: []
+gørrende_adv := adv-word-reg & 
+ [ STEM < "gørrende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gørrende_adv_rel" ].
+
+;; interj, pos i norsource: [v]
+ha_interj := interjection-word & 
+ [ STEM < "ha" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ha_interj_rel" ].
+
+;; interj, pos i norsource: []
+ha-ha_interj := interjection-word & 
+ [ STEM < "ha-ha" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ha-ha_interj_rel" ].
+
+;; interj, pos i norsource: []
+haha_interj := interjection-word & 
+ [ STEM < "haha" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_haha_interj_rel" ].
+
+;; adv, pos i norsource: []
+hakkende_adv := adv-word-reg & 
+ [ STEM < "hakkende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hakkende_adv_rel" ].
+
+;; interj, pos i norsource: []
+halleluja_interj := interjection-word & 
+ [ STEM < "halleluja" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_halleluja_interj_rel" ].
+
+;; interj, pos i norsource: []
+hallo_interj := interjection-word & 
+ [ STEM < "hallo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hallo_interj_rel" ].
+
+;; interj, pos i norsource: []
+halloi_interj := interjection-word & 
+ [ STEM < "halloi" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_halloi_interj_rel" ].
+
+;; prep, pos i norsource: []
+halvveges_prep := prep-word-reg & 
+ [ STEM < "halvveges" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_halvveges_prep_rel" ].
+
+;; prep, pos i norsource: []
+halvvegs_adv := adv-word-reg & 
+ [ STEM < "halvvegs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_halvvegs_prep_rel" ].
+
+;; adv, pos i norsource: [advs]
+halvveis_adv := adv-word-reg & 
+ [ STEM < "halvveis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_halvveis_adv_rel" ].
+
+;; interj, pos i norsource: []
+hands-up_interj := interjection-word & 
+ [ STEM < "hands", "up" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hands up_interj_rel" ].
+
+;; interj, pos i norsource: []
+hau_interj := interjection-word & 
+ [ STEM < "hau" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hau_interj_rel" ].
+
+;; adv, pos i norsource: []
+haugevis_adv := adv-word-reg & 
+ [ STEM < "haugevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_haugevis_adv_rel" ].
+
+;; interj, pos i norsource: []
+he_interj := interjection-word & 
+ [ STEM < "he" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_he_interj_rel" ].
+
+;; adv, pos i norsource: []
+heden_adv := adv-word-reg & 
+ [ STEM < "heden" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_heden_adv_rel" ].
+
+;; interj, pos i norsource: []
+hei-sann_interj := interjection-word & 
+ [ STEM < "hei","sann" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hei-sann_interj_rel" ].
+
+;; interj, pos i norsource: [np]
+heia_interj := interjection-word & 
+ [ STEM < "heia" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_heia_interj_rel" ].
+
+;; interj, pos i norsource: [adj]
+heil_interj := interjection-word & 
+ [ STEM < "heil" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_heil_interj_rel" ].
+
+;; interj, pos i norsource: []
+helledussen_interj := interjection-word & 
+ [ STEM < "helledussen" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_helledussen_interj_rel" ].
+
+;; adv, pos i norsource: []
+henholdsvis_adv := adv-word-reg & 
+ [ STEM < "henholdsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_henholdsvis_adv_rel" ].
+
+;; prep, pos i norsource: [pn]
+henne_prep := prep-word-reg & 
+ [ STEM < "henne" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_henne_prep_rel" ].
+
+;; interj, pos i norsource: []
+hepp_interj := interjection-word & 
+ [ STEM < "hepp" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hepp_interj_rel" ].
+
+;; prep, pos i norsource: []
+herav_adv := adv-word-reg & 
+ [ STEM < "herav" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_herav_adv_rel" ].
+
+;; prep, pos i norsource: []
+heretter_adv := adv-word-reg & 
+ [ STEM < "heretter" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_heretter_adv_rel" ].
+
+;; prep, pos i norsource: []
+heri_adv := adv-word-reg & 
+ [ STEM < "heri" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_heri_adv_rel" ].
+
+;; prep, pos i norsource: []
+heriblant_adv := adv-word-reg & 
+ [ STEM < "heriblant" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_heriblant_adv_rel" ].
+
+;; prep, pos i norsource: []
+herifra_adv := adv-word-reg & 
+ [ STEM < "herifra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_herifra_adv_rel" ].
+
+;; prep, pos i norsource: []
+herigjennom_adv := adv-word-reg & 
+ [ STEM < "herigjennom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_herigjennom_adv_rel" ].
+
+;; prep, pos i norsource: []
+herimot_adv := adv-word-reg & 
+ [ STEM < "herimot" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_herimot_adv_rel" ].
+
+;; prep, pos i norsource: []
+hermed_adv := adv-word-reg & 
+ [ STEM < "hermed" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hermed_adv_rel" ].
+
+;; prep, pos i norsource: []
+herom_adv := adv-word-reg & 
+ [ STEM < "herom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_herom_adv_rel" ].
+
+;; prep, pos i norsource: []
+herpå_adv := adv-word-reg & 
+ [ STEM < "herpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_herpå_adv_rel" ].
+
+;; interj, pos i norsource: []
+herregud_interj := interjection-word & 
+ [ STEM < "herregud" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_herregud_interj_rel" ].
+
+;; adv, pos i norsource: []
+hersens_adv := adv-word-reg & 
+ [ STEM < "hersens" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hersens_adv_rel" ].
+
+;; prep, pos i norsource: []
+hertil_adv := adv-word-reg & 
+ [ STEM < "hertil" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hertil_adv_rel" ].
+
+;; prep, pos i norsource: []
+herunder_adv := adv-word-reg & 
+ [ STEM < "herunder" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_herunder_adv_rel" ].
+
+;; interj, pos i norsource: []
+heureka_interj := interjection-word & 
+ [ STEM < "heureka" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_heureka_interj_rel" ].
+
+;; interj, pos i norsource: []
+hill_interj := interjection-word & 
+ [ STEM < "hill" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hill_interj_rel" ].
+
+;; adv, pos i norsource: []
+himlende_adv := adv-word-reg & 
+ [ STEM < "himlende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_himlende_adv_rel" ].
+
+;; interj, pos i norsource: [adj]
+hipp_interj := interjection-word & 
+ [ STEM < "hipp" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hipp_interj_rel" ].
+
+;; prep, pos i norsource: []
+hisset_adv := adv-word-reg & 
+ [ STEM < "hisset" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hisset_adv_rel" ].
+
+;; prep, pos i norsource: []
+hist_adv := adv-word-reg & 
+ [ STEM < "hist" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hist_adv_rel" ].
+
+;; prep, pos i norsource: []
+hjemmefra_adv := adv-word-reg & 
+ [ STEM < "hjemmefra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hjemmefra_adv_rel" ].
+
+;; interj, pos i norsource: [intrjct]
+hm_interj := interjection-word & 
+ [ STEM < "hm" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hm_interj_rel" ].
+
+;; interj, pos i norsource: [np]
+ho_interj := interjection-word & 
+ [ STEM < "ho" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ho_interj_rel" ].
+
+;; adv, pos i norsource: []
+hodekulls_adv := adv-word-reg & 
+ [ STEM < "hodekulls" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hodekulls_adv_rel" ].
+
+;; adv, pos i norsource: []
+hodestupes_adv := adv-word-reg & 
+ [ STEM < "hodestupes" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hodestupes_adv_rel" ].
+
+;; adv, pos i norsource: []
+hodestups_adv := adv-word-reg & 
+ [ STEM < "hodestups" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hodestups_adv_rel" ].
+
+;; adv, pos i norsource: []
+hoggende_adv := adv-word-reg & 
+ [ STEM < "hoggende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hoggende_adv_rel" ].
+
+;; interj, pos i norsource: []
+hoho_interj := interjection-word & 
+ [ STEM < "hoho" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hoho_interj_rel" ].
+
+;; interj, pos i norsource: []
+hoi_interj := interjection-word & 
+ [ STEM < "hoi" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hoi_interj_rel" ].
+
+;; interj, pos i norsource: []
+holdt_interj := interjection-word & 
+ [ STEM < "holdt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_holdt_interj_rel" ].
+
+;; adv, pos i norsource: []
+honoris-causa_adv := adv-word-reg & 
+ [ STEM < "honoris","causa" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_honoris-causa_adv_rel" ].
+
+;; interj, pos i norsource: [n]
+hopp_interj := interjection-word & 
+ [ STEM < "hopp" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hopp_interj_rel" ].
+
+;; interj, pos i norsource: []
+hopp-sann_interj := interjection-word & 
+ [ STEM < "hopp","sann" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hopp sann_interj_rel" ].
+
+;; adv, pos i norsource: []
+hoppende_adv := adv-word-reg & 
+ [ STEM < "hoppende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hoppende_adv_rel" ].
+
+;; interj, pos i norsource: []
+hoppla_interj := interjection-word & 
+ [ STEM < "hoppla" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hoppla_interj_rel" ].
+
+;; interj, pos i norsource: []
+hoppsa_interj := interjection-word & 
+ [ STEM < "hoppsa" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hoppsa_interj_rel" ].
+
+;; interj, pos i norsource: []
+hoppsasa_interj := interjection-word & 
+ [ STEM < "hoppsasa" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hoppsasa_interj_rel" ].
+
+;; interj, pos i norsource: []
+hosianna_interj := interjection-word & 
+ [ STEM < "hosianna" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hosianna_interj_rel" ].
+
+;; interj, pos i norsource: []
+hu_interj := interjection-word & 
+ [ STEM < "hu" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hu_interj_rel" ].
+
+;; interj, pos i norsource: []
+huff_interj := interjection-word & 
+ [ STEM < "huff" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_huff_interj_rel" ].
+
+;; interj, pos i norsource: []
+hui_interj := interjection-word & 
+ [ STEM < "hui" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hui_interj_rel" ].
+
+;; adv, pos i norsource: []
+hulter-til-bulter_adv := adv-word-reg & 
+ [ STEM < "hulter", "til", "bulter" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hulter-til-bulter_adv_rel" ].
+
+;; adv, pos i norsource: []
+hundretusenvis_adv := adv-word-reg & 
+ [ STEM < "hundretusenvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hundretusenvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+hundrevis_adv := adv-word-reg & 
+ [ STEM < "hundrevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hundrevis_adv_rel" ].
+
+;; interj, pos i norsource: []
+hurra_interj := interjection-word & 
+ [ STEM < "hurra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hurra_interj_rel" ].
+
+;; adv, pos i norsource: []
+hurra-meg-rundt_adv := adv-word-reg & 
+ [ STEM < "hurra-meg-rundt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hurra-meg-rundt_adv_rel" ].
+
+;; prep, pos i norsource: []
+husimellom_adv := adv-word-reg & 
+ [ STEM < "husimellom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_husimellom_adv_rel" ].
+
+;; interj, pos i norsource: []
+husj_interj := interjection-word & 
+ [ STEM < "husj" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_husj_interj_rel" ].
+
+;; interj, pos i norsource: []
+hut_interj := interjection-word & 
+ [ STEM < "hut" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hut_interj_rel" ].
+
+;; interj, pos i norsource: []
+huttemegtu_interj := interjection-word & 
+ [ STEM < "huttemegtu" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_huttemegtu_interj_rel" ].
+
+;; interj, pos i norsource: []
+huttetu_interj := interjection-word & 
+ [ STEM < "huttetu" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_huttetu_interj_rel" ].
+
+;; interj, pos i norsource: [adj]
+hypp_interj := interjection-word & 
+ [ STEM < "hypp" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hypp_interj_rel" ].
+
+;; interj, pos i norsource: []
+hysj_interj := interjection-word & 
+ [ STEM < "hysj" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hysj_interj_rel" ].
+
+;; interj, pos i norsource: []
+hyss_interj := interjection-word & 
+ [ STEM < "hyss" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hyss_interj_rel" ].
+
+;; interj, pos i norsource: [np]
+hå_interj := interjection-word & 
+ [ STEM < "hå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hå_interj_rel" ].
+
+;; interj, pos i norsource: []
+hæ_interj := interjection-word & 
+ [ STEM < "hæ" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hæ_interj_rel" ].
+
+;; interj, pos i norsource: []
+hø_interj := interjection-word & 
+ [ STEM < "hø" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hø_interj_rel" ].
+
+;; interj, pos i norsource: [intrjct]
+hør_interj := interjection-word & 
+ [ STEM < "hør" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hør_interj_rel" ].
+
+;; adv, pos i norsource: []
+i-alle-fall_adv := adv-word-reg & 
+ [ STEM < "i","alle","fall" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_i-alle-fall_adv_rel" ].
+
+;; adv, pos i norsource: []
+i-stedet_adv := adv-word-reg & 
+ [ STEM < "i","stedet" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_i stedet_adv_rel" ].
+
+;; adv, pos i norsource: []
+ibidem_adv := adv-word-reg & 
+ [ STEM < "ibidem" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ibidem_adv_rel" ].
+
+;; prep, pos i norsource: [adv]
+iblant_prep := prep-word-reg & 
+ [ STEM < "iblant" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_iblant_prep_rel" ].
+
+;; adv, pos i norsource: []
+id-est_adv := adv-word-reg & 
+ [ STEM < "id","est" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_id-est_adv_rel" ].
+
+;; adv, pos i norsource: []
+id-est-abbrev_adv := adv-word-reg & 
+ [ STEM < "i",".","e", "." >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_id-est_adv_rel" ].
+
+;; prep, pos i norsource: []
+ifølge_prep := prep-word-reg & 
+ [ STEM < "ifølge" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ifølge_prep_rel" ].
+
+;; prep, pos i norsource: []
+ikring_prep := prep-word-reg & 
+ [ STEM < "ikring" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ikring_prep_rel" ].
+
+;; adv, pos i norsource: []
+ildende_adv := adv-word-reg & 
+ [ STEM < "ildende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ildende_adv_rel" ].
+
+;; adv, pos i norsource: []
+imens_adv := adv-word-reg & 
+ [ STEM < "imens" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_imens_adv_rel" ].
+
+;; prep, pos i norsource: []
+imot_prep := prep-word-reg & 
+ [ STEM < "imot" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_imot_prep_rel" ].
+
+imot_adv := adv-word-reg & 
+ [ STEM < "imot" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_imot_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-absentia_adv := adv-word-reg & 
+ [ STEM < "in", "absentia" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-absentia_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-absurdum_adv := adv-word-reg & 
+ [ STEM < "in", "absurdum" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-absurdum_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-blanko_adv := adv-word-reg & 
+ [ STEM < "in", "blanko" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-blanko_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-casu_adv := adv-word-reg & 
+ [ STEM < "in", "casu" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-casu_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-contumaciam_adv := adv-word-reg & 
+ [ STEM < "in", "contumaciam" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-contumaciam_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-corpore_adv := adv-word-reg & 
+ [ STEM < "in", "corpore" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-corpore_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-duplo_adv := adv-word-reg & 
+ [ STEM < "in", "duplo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-duplo_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-extenso_adv := adv-word-reg & 
+ [ STEM < "in", "extenso" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-extenso_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-flagranti_adv := adv-word-reg & 
+ [ STEM < "in", "flagranti" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-flagranti_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-honorem_adv := adv-word-reg & 
+ [ STEM < "in", "honorem" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-honorem_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-medias-res_adv := adv-word-reg & 
+ [ STEM < "in", "medias", "res" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-medias-res_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-memoriam_adv := adv-word-reg & 
+ [ STEM < "in", "memoriam" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-memoriam_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-mente_adv := adv-word-reg & 
+ [ STEM < "in", "mente" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-mente_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-natura_adv := adv-word-reg & 
+ [ STEM < "in", "natura" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-natura_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-nuce_adv := adv-word-reg & 
+ [ STEM < "in", "nuce" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-nuce_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-persona_adv := adv-word-reg & 
+ [ STEM < "in", "persona" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-persona_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-quarto_adv := adv-word-reg & 
+ [ STEM < "in", "quarto" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-quarto_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-saldo_adv := adv-word-reg & 
+ [ STEM < "in", "saldo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-saldo_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-situ_adv := adv-word-reg & 
+ [ STEM < "in", "situ" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-situ_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-solidum_adv := adv-word-reg & 
+ [ STEM < "in", "solidum" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-solidum_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-spe_adv := adv-word-reg & 
+ [ STEM < "in", "spe" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-spe_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-triplo_adv := adv-word-reg & 
+ [ STEM < "in", "triplo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-triplo_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-vitro_adv := adv-word-reg & 
+ [ STEM < "in","vitro" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-vitro_adv_rel" ].
+
+;; adv, pos i norsource: []
+in-vivo_adv := adv-word-reg & 
+ [ STEM < "in", "vivo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_in-vivo_adv_rel" ].
+
+;; adv, pos i norsource: []
+ingensteds_adv := adv-word-reg & 
+ [ STEM < "ingensteds" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ingensteds_adv_rel" ].
+
+;; prep, pos i norsource: []
+inklusive_prep := prep-word-reg & 
+ [ STEM < "inklusive" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_inklusive_prep_rel" ].
+
+;; adv, pos i norsource: [n]
+inkognito_adv := adv-word-reg & 
+ [ STEM < "inkognito" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_inkognito_adv_rel" ].
+
+;; prep, pos i norsource: []
+innad_adv := adv-word-reg & 
+ [ STEM < "innad" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innad_adv_rel" ].
+
+;; prep, pos i norsource: []
+innafor_prep := prep-word-reg & 
+ [ STEM < "innafor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innafor_prep_rel" ].
+
+;; prep, pos i norsource: []
+innafra_prep := prep-word-reg & 
+ [ STEM < "innafra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innafra_prep_rel" ].
+
+;; prep, pos i norsource: []
+innalands_adv := adv-word-reg & 
+ [ STEM < "innalands" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innalands_adv_rel" ].
+
+;; prep, pos i norsource: []
+innaskjærs_adv := adv-word-reg & 
+ [ STEM < "innaskjærs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innaskjærs_adv_rel" ].
+
+;; prep, pos i norsource: []
+innefra_prep := prep-word-reg & 
+ [ STEM < "innefra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innefra_prep_rel" ].
+
+;; adv, pos i norsource: []
+innenat_adv := adv-word-reg & 
+ [ STEM < "innenat" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innenat_adv_rel" ].
+
+;; prep, pos i norsource: []
+innenfra_prep := prep-word-reg & 
+ [ STEM < "innenfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innenfra_prep_rel" ].
+
+;; prep, pos i norsource: []
+innenifra_prep := prep-word-reg & 
+ [ STEM < "innenifra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innenifra_prep_rel" ].
+
+;; prep, pos i norsource: []
+innenlands_adv := adv-word-reg & 
+ [ STEM < "innenlands" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innenlands_adv_rel" ].
+
+;; prep, pos i norsource: []
+innenskjærs_adv := adv-word-reg & 
+ [ STEM < "innenskjærs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innenskjærs_adv_rel" ].
+
+;; prep, pos i norsource: []
+innfor_prep := prep-word-reg & 
+ [ STEM < "innfor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innfor_prep_rel" ].
+
+;; prep, pos i norsource: []
+inniblant_prep := prep-word-reg & 
+ [ STEM < "inniblant" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_inniblant_prep_rel" ].
+
+;; prep, pos i norsource: []
+innimellom_prep := prep-word-reg & 
+ [ STEM < "innimellom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innimellom_prep_rel" ].
+
+;; adv, pos i norsource: []
+innledningsvis_adv := adv-word-reg & 
+ [ STEM < "innledningsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innledningsvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+innleiingsvis_adv := adv-word-reg & 
+ [ STEM < "innleiingsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innleiingsvis_adv_rel" ].
+
+;; prep, pos i norsource: []
+innmed_prep := prep-word-reg & 
+ [ STEM < "innmed" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innmed_prep_rel" ].
+
+;; prep, pos i norsource: []
+innom_prep := prep-word-reg & 
+ [ STEM < "innom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innom_prep_rel" ].
+
+innom_adv := adv-word-reg & 
+ [ STEM < "innom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innom_adv_rel" ].
+
+;; prep, pos i norsource: []
+innomhus_adv := adv-word-reg & 
+ [ STEM < "innomhus" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innomhus_adv_rel" ].
+
+;; prep, pos i norsource: []
+innpå_prep := prep-word-reg & 
+ [ STEM < "innpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innpå_prep_rel" ].
+
+;; prep, pos i norsource: []
+innved_prep := prep-word-reg & 
+ [ STEM < "innved" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innved_prep_rel" ].
+
+;; prep, pos i norsource: []
+innåt_prep := prep-word-reg & 
+ [ STEM < "innåt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innåt_prep_rel" ].
+
+isenk_adv := adv-word-reg & 
+ [ STEM < "isenk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_isenk_adv_rel" ].
+
+i-senk_adv := adv-word-reg & 
+ [ STEM < "i","senk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_isenk_adv_rel" ].
+
+;; interj, pos i norsource: []
+isj_interj := interjection-word & 
+ [ STEM < "isj" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_isj_interj_rel" ].
+
+;; prep, pos i norsource: []
+istedenfor_prep := prep-word-reg & 
+ [ STEM < "istedenfor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_istedenfor_prep_rel" ].
+
+;; adv, pos i norsource: []
+især_adv := adv-word-reg & 
+ [ STEM < "især" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_især_adv_rel" ].
+
+;; adv, pos i norsource: []
+item_adv := adv-word-reg & 
+ [ STEM < "item" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_item_adv_rel" ].
+
+;; adv, pos i norsource: [intrjct]
+ja-menn_adv := adv-word-reg & 
+ [ STEM < "ja","menn" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ja menn_adv_rel" ].
+
+;; adv, pos i norsource: [intrjct]
+ja-så-menn_adv := adv-word-reg & 
+ [ STEM < "ja","så","menn" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ja så-menn_adv_rel" ].
+
+;; interj, pos i norsource: []
+jadden_interj := interjection-word & 
+ [ STEM < "jadden" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jadden_interj_rel" ].
+
+;; interj, pos i norsource: []
+jaggu_interj := interjection-word & 
+ [ STEM < "jaggu" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jaggu_interj_rel" ].
+
+;; interj, pos i norsource: []
+jaha_interj := interjection-word & 
+ [ STEM < "jaha" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jaha_interj_rel" ].
+
+;; adv, pos i norsource: []
+jammen_adv := adv-word-reg & 
+ [ STEM < "jammen" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jammen_adv_rel" ].
+
+;; adv, pos i norsource: []
+jamnlig_adv := adv-word-reg & 
+ [ STEM < "jamnlig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jamnlig_adv_rel" ].
+
+;; adv, pos i norsource: []
+jamsides_adv := adv-word-reg & 
+ [ STEM < "jamsides" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jamsides_adv_rel" ].
+
+;; adv, pos i norsource: []
+jamt-over_adv := adv-word-reg & 
+ [ STEM < "jamt","over" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jamt over_adv_rel" ].
+
+;; adv, pos i norsource: []
+jamvel_adv := adv-word-reg & 
+ [ STEM < "jamvel" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jamvel_adv_rel" ].
+
+;; adv, pos i norsource: []
+jaså_interj := interjection-word & 
+ [ STEM < "jaså" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jaså_interj_rel" ].
+
+;; interj, pos i norsource: []
+jemini_interj := interjection-word & 
+ [ STEM < "jemini" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jemini_interj_rel" ].
+
+;; adv, pos i norsource: []
+jevnlig_adv := adv-word-reg & 
+ [ STEM < "jevnlig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jevnlig_adv_rel" ].
+
+;; adv, pos i norsource: []
+jevnsides_adv := adv-word-reg & 
+ [ STEM < "jevnsides" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jevnsides_adv_rel" ].
+
+;; adv, pos i norsource: []
+jevnt-over_adv := adv-word-reg & 
+ [ STEM < "jevnt","over" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jevnt-over_adv_rel" ].
+
+;; adv, pos i norsource: []
+jo-menn_adv := adv-word-reg & 
+ [ STEM < "jo","menn" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jo-menn_adv_rel" ].
+
+;; interj, pos i norsource: []
+joggu_adv := adv-word-reg & 
+ [ STEM < "joggu" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_joggu_adv_rel" ].
+
+;; interj, pos i norsource: []
+joho_interj := interjection-word & 
+ [ STEM < "joho" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_joho_interj_rel" ].
+
+;; adv, pos i norsource: []
+jommen_adv := adv-word-reg & 
+ [ STEM < "jommen" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jommen_adv_rel" ].
+
+;; interj, pos i norsource: []
+jøsses_interj := interjection-word & 
+ [ STEM < "jøsses" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jøsses_interj_rel" ].
+
+;; interj, pos i norsource: [v]
+jøye_interj := interjection-word & 
+ [ STEM < "jøye" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jøye_interj_rel" ].
+
+;; adv, pos i norsource: [n]
+kav_adv := adv-word-reg & 
+ [ STEM < "kav" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kav_adv_rel" ].
+
+;; adv, pos i norsource: []
+kavende_adv := adv-word-reg & 
+ [ STEM < "kavende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kavende_adv_rel" ].
+
+;; adv, pos i norsource: []
+kilovis_adv := adv-word-reg & 
+ [ STEM < "kilovis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kilovis_adv_rel" ].
+
+;; interj, pos i norsource: []
+kiss_interj := interjection-word & 
+ [ STEM < "kiss" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kiss_interj_rel" ].
+
+;; interj, pos i norsource: []
+klask_interj := interjection-word & 
+ [ STEM < "klask" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_klask_interj_rel" ].
+
+;; interj, pos i norsource: []
+klikk-klakk_interj := interjection-word & 
+ [ STEM < "klikk-klakk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_klikk-klakk_interj_rel" ].
+
+;; adv, pos i norsource: [n]
+klin_adv := adv-word-reg & 
+ [ STEM < "klin" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_klin_adv_rel" ].
+
+;; interj, pos i norsource: []
+kling_interj := interjection-word & 
+ [ STEM < "kling" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kling_interj_rel" ].
+
+;; interj, pos i norsource: []
+klingeling_interj := interjection-word & 
+ [ STEM < "klingeling" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_klingeling_interj_rel" ].
+
+;; adv, pos i norsource: []
+klinkende_adv := adv-word-reg & 
+ [ STEM < "klinkende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_klinkende_adv_rel" ].
+
+;; interj, pos i norsource: [adj]
+kliss-klass_interj := interjection-word & 
+ [ STEM < "kliss-klass" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kliss-klass_interj_rel" ].
+
+;; adv, pos i norsource: []
+klokelig_adv := adv-word-reg & 
+ [ STEM < "klokelig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_klokelig_adv_rel" ].
+
+;; interj, pos i norsource: [adj]
+klukk_interj := interjection-word & 
+ [ STEM < "klukk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_klukk_interj_rel" ].
+
+;; adv, pos i norsource: []
+knakende_adv := adv-word-reg & 
+ [ STEM < "knakende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_knakende_adv_rel" ].
+
+;; adv, pos i norsource: []
+knapt_adv := adv-word-reg & 
+ [ STEM < "knapt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_knapt_adv_rel" ].
+
+;; adv, pos i norsource: []
+knasende_adv := adv-word-reg & 
+ [ STEM < "knasende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_knasende_adv_rel" ].
+
+;; adv, pos i norsource: []
+knekkende_adv := adv-word-reg & 
+ [ STEM < "knekkende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_knekkende_adv_rel" ].
+
+;; adv, pos i norsource: []
+knøtrende_adv := adv-word-reg & 
+ [ STEM < "knøtrende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_knøtrende_adv_rel" ].
+
+;; adv, pos i norsource: []
+knøttende_adv := adv-word-reg & 
+ [ STEM < "knøttende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_knøttende_adv_rel" ].
+
+;; interj, pos i norsource: [adj]
+ko-ko_interj := interjection-word & 
+ [ STEM < "ko-ko" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ko-ko_interj_rel" ].
+
+;; adv, pos i norsource: []
+kolende_adv := adv-word-reg & 
+ [ STEM < "kolende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kolende_adv_rel" ].
+
+;; prep, pos i norsource: [adj]
+kontra_prep := prep-word-reg & 
+ [ STEM < "kontra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kontra_prep_rel" ].
+
+;; interj, pos i norsource: []
+kra_interj := interjection-word & 
+ [ STEM < "kra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kra_interj_rel" ].
+
+;; prep, pos i norsource: [adj]
+kring_prep := prep-word-reg & 
+ [ STEM < "kring" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kring_prep_rel" ].
+
+;; prep, pos i norsource: []
+kringom_prep := prep-word-reg & 
+ [ STEM < "kringom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kringom_prep_rel" ].
+
+;; adv, pos i norsource: [n]
+kuli_adv := adv-word-reg & 
+ [ STEM < "kuli" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kuli_adv_rel" ].
+
+;; adv, pos i norsource: []
+kun_adv := adv-word-reg & 
+ [ STEM < "kun" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kun_adv_rel" ].
+
+;; interj, pos i norsource: [adj]
+kurr_interj := interjection-word & 
+ [ STEM < "kurr" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kurr_interj_rel" ].
+
+;; interj, pos i norsource: []
+kvakk_interj := interjection-word & 
+ [ STEM < "kvakk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kvakk_interj_rel" ].
+
+;; adv, pos i norsource: []
+kvartalsvis_adv := adv-word-reg & 
+ [ STEM < "kvartalsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kvartalsvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+kvekk_adv := adv-word-reg & 
+ [ STEM < "kvekk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kvekk_adv_rel" ].
+
+;; interj, pos i norsource: []
+kvekk_interj := interjection-word & 
+ [ STEM < "kvekk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kvekk_interj_rel" ].
+
+;; interj, pos i norsource: []
+kvirrevitt_interj := interjection-word & 
+ [ STEM < "kvirrevitt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kvirrevitt_interj_rel" ].
+
+;; interj, pos i norsource: []
+kykeliky_interj := interjection-word & 
+ [ STEM < "kykeliky" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kykeliky_interj_rel" ].
+
+;; interj, pos i norsource: []
+kyrie-eleison_interj := interjection-word & 
+ [ STEM < "kyrie","eleison" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kyrie eleison_interj_rel" ].
+
+;; adv, pos i norsource: []
+kølende_adv := adv-word-reg & 
+ [ STEM < "kølende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kølende_adv_rel" ].
+
+;; adv, pos i norsource: []
+lagerfritt_adv := adv-word-reg & 
+ [ STEM < "lagerfritt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_lagerfritt_adv_rel" ].
+
+;; adv, pos i norsource: []
+lagom_adv := adv-word-reg & 
+ [ STEM < "lagom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_lagom_adv_rel" ].
+
+;; adv, pos i norsource: []
+lagvis_adv := adv-word-reg & 
+ [ STEM < "lagvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_lagvis_adv_rel" ].
+
+;; prep, pos i norsource: []
+landimellom_adv := adv-word-reg & 
+ [ STEM < "landimellom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_landimellom_adv_rel" ].
+
+;; prep, pos i norsource: []
+landverts_adv := adv-word-reg & 
+ [ STEM < "landverts" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_landverts_adv_rel" ].
+
+;; prep, pos i norsource: []
+langsetter_prep := prep-word-reg & 
+ [ STEM < "langsetter" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_langsetter_prep_rel" ].
+
+;; prep, pos i norsource: []
+langsmed_prep := prep-word-reg & 
+ [ STEM < "langsmed" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_langsmed_prep_rel" ].
+
+;; prep, pos i norsource: []
+langveges_adv := adv-word-reg & 
+ [ STEM < "langveges" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_langveges_adv_rel" ].
+
+;; prep, pos i norsource: []
+langvegesfra_adv := adv-word-reg & 
+ [ STEM < "langvegesfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_langvegesfra_adv_rel" ].
+
+;; prep, pos i norsource: []
+langvegs_adv := adv-word-reg & 
+ [ STEM < "langvegs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_langvegs_adv_rel" ].
+
+;; prep, pos i norsource: []
+langvegsfra_adv := adv-word-reg & 
+ [ STEM < "langvegsfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_langvegsfra_adv_rel" ].
+
+;; prep, pos i norsource: []
+langveis_adv := adv-word-reg & 
+ [ STEM < "langveis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_langveis_adv_rel" ].
+
+;; prep, pos i norsource: []
+langveisfra_adv := adv-word-reg & 
+ [ STEM < "langveisfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_langveisfra_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+larghetto_adv := adv-word-reg & 
+ [ STEM < "larghetto" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_larghetto_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+largo_adv := adv-word-reg & 
+ [ STEM < "largo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_largo_adv_rel" ].
+
+;; adv, pos i norsource: []
+lassevis_adv := adv-word-reg & 
+ [ STEM < "lassevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_lassevis_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+legato_adv := adv-word-reg & 
+ [ STEM < "legato" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_legato_adv_rel" ].
+
+;; adv, pos i norsource: []
+leilighetsvis_adv := adv-word-reg & 
+ [ STEM < "leilighetsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_leilighetsvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+lell_adv := adv-word-reg & 
+ [ STEM < "lell" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_lell_adv_rel" ].
+
+;; adv, pos i norsource: []
+lenger_adv := adv-word-reg & 
+ [ STEM < "lenger" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_lenger_adv_rel" ].
+
+;; interj, pos i norsource: []
+lev-vel_interj := interjection-word & 
+ [ STEM < "lev","vel" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_lev-vel_interj_rel" ].
+
+;; adv, pos i norsource: []
+liddelig_adv := adv-word-reg & 
+ [ STEM < "liddelig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_liddelig_adv_rel" ].
+
+;; sbu, pos i norsource: []
+på-likesom_adv := adv-word-reg & 
+ [ STEM < "på", "likesom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_på-likesom_adv_rel" ].
+
+;; sbu, pos i norsource: [p]
+på-liksom_adv := adv-word-reg & 
+ [ STEM < "på", "liksom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_på-liksom_adv_rel" ].
+
+;; adv, pos i norsource: []
+på-lissom_adv := adv-word-reg & 
+ [ STEM < "på", "lissom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_på-lissom_adv_rel" ].
+
+;; adv, pos i norsource: []
+litervis_adv := adv-word-reg & 
+ [ STEM < "litervis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_litervis_adv_rel" ].
+
+;; adv, pos i norsource: []
+livende_adv := adv-word-reg & 
+ [ STEM < "livende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_livende_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+lukt_adv := adv-word-reg & 
+ [ STEM < "lukt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_lukt_adv_rel" ].
+
+;; adv, pos i norsource: []
+lykkeligvis_adv := adv-word-reg & 
+ [ STEM < "lykkeligvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_lykkeligvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+maestoso_adv := adv-word-reg & 
+ [ STEM < "maestoso" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_maestoso_adv_rel" ].
+
+;; adv, pos i norsource: []
+mala-fide_adv := adv-word-reg & 
+ [ STEM < "mala","fide" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_mala fide_adv_rel" ].
+
+;; adv, pos i norsource: []
+malapropos_adv := adv-word-reg & 
+ [ STEM < "malapropos" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_malapropos_adv_rel" ].
+
+;; prep, pos i norsource: []
+mannemellom_adv := adv-word-reg & 
+ [ STEM < "mannemellom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_mannemellom_adv_rel" ].
+
+;; interj, pos i norsource: []
+marsj_interj := interjection-word & 
+ [ STEM < "marsj" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_marsj_interj_rel" ].
+
+;; adv, pos i norsource: []
+massevis_adv := adv-word-reg & 
+ [ STEM < "massevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_massevis_adv_rel" ].
+
+;; adv, pos i norsource: []
+med-rette_adv := adv-word-reg & 
+ [ STEM < "med","rette" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_med-rette_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+medium_adv := adv-word-reg & 
+ [ STEM < "medium" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_medium_adv_rel" ].
+
+;; prep, pos i norsource: []
+medsols_adv := adv-word-reg & 
+ [ STEM < "medsols" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_medsols_adv_rel" ].
+
+;; prep, pos i norsource: []
+medstrøms_adv := adv-word-reg & 
+ [ STEM < "medstrøms" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_medstrøms_adv_rel" ].
+
+;; adv, pos i norsource: []
+mengdevis_adv := adv-word-reg & 
+ [ STEM < "mengdevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_mengdevis_adv_rel" ].
+
+;; adv, pos i norsource: []
+metervis_adv := adv-word-reg & 
+ [ STEM < "metervis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_metervis_adv_rel" ].
+
+;; adv, pos i norsource: []
+mezzoforte_adv := adv-word-reg & 
+ [ STEM < "mezzoforte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_mezzoforte_adv_rel" ].
+
+;; adv, pos i norsource: []
+midsommers_adv := adv-word-reg & 
+ [ STEM < "midsommers" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_midsommers_adv_rel" ].
+
+;; prep, pos i norsource: []
+midtfjords_adv := adv-word-reg & 
+ [ STEM < "midtfjords" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_midtfjords_adv_rel" ].
+
+;; prep, pos i norsource: []
+midtskips_adv := adv-word-reg & 
+ [ STEM < "midtskips" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_midtskips_adv_rel" ].
+
+;; adv, pos i norsource: []
+midtsommers_adv := adv-word-reg & 
+ [ STEM < "midtsommers" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_midtsommers_adv_rel" ].
+
+;; prep, pos i norsource: []
+midtveges_adv := adv-word-reg & 
+ [ STEM < "midtveges" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_midtveges_adv_rel" ].
+
+;; prep, pos i norsource: []
+midtvegs_adv := adv-word-reg & 
+ [ STEM < "midtvegs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_midtvegs_adv_rel" ].
+
+;; prep, pos i norsource: []
+midtveis_adv := adv-word-reg & 
+ [ STEM < "midtveis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_midtveis_adv_rel" ].
+
+;; adv, pos i norsource: []
+midtvinters_adv := adv-word-reg & 
+ [ STEM < "midtvinters" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_midtvinters_adv_rel" ].
+
+;; adv, pos i norsource: []
+midvinters_adv := adv-word-reg & 
+ [ STEM < "midvinters" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_midvinters_adv_rel" ].
+
+;; adv, pos i norsource: []
+milevis_adv := adv-word-reg & 
+ [ STEM < "milevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_milevis_adv_rel" ].
+
+;; adv, pos i norsource: []
+millionvis_adv := adv-word-reg & 
+ [ STEM < "millionvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_millionvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+min-sann_adv := adv-word-reg & 
+ [ STEM < "min","sann" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_min-sann_adv_rel" ].
+
+;; adv, pos i norsource: []
+min-sant_adv := adv-word-reg & 
+ [ STEM < "min","sant" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_min-sant_adv_rel" ].
+
+;; adv, pos i norsource: []
+min-santen_adv := adv-word-reg & 
+ [ STEM < "min","santen" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_min-santen_adv_rel" ].
+
+;; interj, pos i norsource: []
+mjau_interj := interjection-word & 
+ [ STEM < "mjau" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_mjau_interj_rel" ].
+
+;; adv, pos i norsource: [n, np]
+mo_adv := adv-word-reg & 
+ [ STEM < "mo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_mo_adv_rel" ].
+
+;; adv, pos i norsource: []
+molto_adv := adv-word-reg & 
+ [ STEM < "molto" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_molto_adv_rel" ].
+
+;; interj, pos i norsource: []
+morn_interj := interjection-word & 
+ [ STEM < "morn" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_morn_interj_rel" ].
+
+;; adv, pos i norsource: []
+motsols_adv := adv-word-reg & 
+ [ STEM < "motsols" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_motsols_adv_rel" ].
+
+;; adv, pos i norsource: []
+motstrøms_adv := adv-word-reg & 
+ [ STEM < "motstrøms" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_motstrøms_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+mukk_adv := adv-word-reg & 
+ [ STEM < "mukk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_mukk_adv_rel" ].
+
+;; adv, pos i norsource: []
+mukkende_adv := adv-word-reg & 
+ [ STEM < "mukkende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_mukkende_adv_rel" ].
+
+;; adv, pos i norsource: []
+månedsvis_adv := adv-word-reg & 
+ [ STEM < "månedsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_månedsvis_adv_rel" ].
+
+;; interj, pos i norsource: []
+mø_interj := interjection-word & 
+ [ STEM < "mø" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_mø_interj_rel" ].
+
+;; interj, pos i norsource: []
+nam_interj := interjection-word & 
+ [ STEM < "nam" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nam_interj_rel" ].
+
+;; prep, pos i norsource: []
+nedstrøms_adv := adv-word-reg & 
+ [ STEM < "nedstrøms" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nedstrøms_adv_rel" ].
+
+;; interj, pos i norsource: [intrjct]
+nei_interj := interjection-word & 
+ [ STEM < "nei" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nei_interj_rel" ].
+
+;; adv, pos i norsource: []
+neigu_adv := adv-word-reg & 
+ [ STEM < "neigu" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_neigu_adv_rel" ].
+
+;; adv, pos i norsource: []
+neimen_adv := adv-word-reg & 
+ [ STEM < "neimen" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_neimen_adv_rel" ].
+
+;; adv, pos i norsource: []
+nesegrus_adv := adv-word-reg & 
+ [ STEM < "nesegrus" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nesegrus_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+nest_adv := adv-word-reg & 
+ [ STEM < "nest" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nest_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+netto_adv := adv-word-reg & 
+ [ STEM < "netto" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_netto_adv_rel" ].
+
+;; interj, pos i norsource: []
+nja_interj := interjection-word & 
+ [ STEM < "nja" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nja_interj_rel" ].
+
+;; adv, pos i norsource: []
+noenlunde_adv := adv-word-reg & 
+ [ STEM < "noenlunde" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_noenlunde_adv_rel" ].
+
+;; adv, pos i norsource: []
+noensinne_adv := adv-word-reg & 
+ [ STEM < "noensinne" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_noensinne_adv_rel" ].
+
+;; adv, pos i norsource: []
+noensteds_adv := adv-word-reg & 
+ [ STEM < "noensteds" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_noensteds_adv_rel" ].
+
+;; adv, pos i norsource: []
+noksom_adv := adv-word-reg & 
+ [ STEM < "noksom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_noksom_adv_rel" ].
+
+;; adv, pos i norsource: []
+non-stop_adv := adv-word-reg & 
+ [ STEM < "non","stop" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_non-stop_adv_rel" ].
+
+;; adv, pos i norsource: []
+nonstop_adv := adv-word-reg & 
+ [ STEM < "nonstop" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nonstop_adv_rel" ].
+
+;; prep, pos i norsource: []
+nordafjells_adv := adv-word-reg & 
+ [ STEM < "nordafjells" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nordafjells_adv_rel" ].
+
+;; prep, pos i norsource: [n]
+nordaust_adv := adv-word-reg & 
+ [ STEM < "nordaust" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nordaust_adv_rel" ].
+
+;; prep, pos i norsource: []
+nordenfjells_adv := adv-word-reg & 
+ [ STEM < "nordenfjells" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nordenfjells_adv_rel" ].
+
+;; prep, pos i norsource: []
+nordi_prep := prep-word-reg & 
+ [ STEM < "nordi" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nordi_prep_rel" ].
+
+;; prep, pos i norsource: []
+nordmed_prep := prep-word-reg & 
+ [ STEM < "nordmed" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nordmed_prep_rel" ].
+
+;; prep, pos i norsource: [n]
+nordost_adv := adv-word-reg & 
+ [ STEM < "nordost" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nordost_adv_rel" ].
+
+;; prep, pos i norsource: []
+nordpå_adv := adv-word-reg & 
+ [ STEM < "nordpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nordpå_adv_rel" ].
+
+;; prep, pos i norsource: [n]
+nordvest_adv := adv-word-reg & 
+ [ STEM < "nordvest" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nordvest_adv_rel" ].
+
+;; prep, pos i norsource: [n]
+nordøst_adv := adv-word-reg & 
+ [ STEM < "nordøst" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nordøst_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+notabene_adv := adv-word-reg & 
+ [ STEM < "notabene" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_notabene_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+nu_adv := adv-word-reg & 
+ [ STEM < "nu" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nu_adv_rel" ].
+
+;; adv, pos i norsource: []
+nylig_adv := adv-word-reg & 
+ [ STEM < "nylig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nylig_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+nyss_adv := adv-word-reg & 
+ [ STEM < "nyss" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nyss_adv_rel" ].
+
+;; interj, pos i norsource: []
+nåda_interj := interjection-word & 
+ [ STEM < "nåda" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nåda_interj_rel" ].
+
+;; adv, pos i norsource: []
+nåvel_interj := interjection-word & 
+ [ STEM < "nåvel" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nåvel_interj_rel" ].
+
+;; adv, pos i norsource: [v]
+nære_adv := adv-word-reg & 
+ [ STEM < "nære" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nære_adv_rel" ].
+
+;; prep, pos i norsource: [v]
+nærme_prep := prep-word-reg & 
+ [ STEM < "nærme" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nærme_prep_rel" ].
+
+;; adv, pos i norsource: [adj]
+nærmere_adv := adv-word-reg & 
+ [ STEM < "nærmere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nærmere_adv_rel" ].
+
+;; adv, pos i norsource: [adj]
+nærmere_prep := prep-word-reg & 
+ [ STEM < "nærmere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nærmere_prep_rel" ].
+
+;; interj, pos i norsource: []
+nøff_interj := interjection-word & 
+ [ STEM < "nøff" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nøff_interj_rel" ].
+
+;; interj, pos i norsource: []
+nøff-nøff_interj := interjection-word & 
+ [ STEM < "nøff-nøff" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nøff-nøff_interj_rel" ].
+
+;; interj, pos i norsource: []
+obs-dot_interj := interjection-word & 
+ [ STEM < "obs","." >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_obs_interj_rel" ].
+
+;; adv, pos i norsource: [n]
+offside_adv := adv-word-reg & 
+ [ STEM < "offside" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_offside_adv_rel" ].
+
+;; interj, pos i norsource: []
+oho_interj := interjection-word & 
+ [ STEM < "oho" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_oho_interj_rel" ].
+
+;; interj, pos i norsource: []
+ohoi_interj := interjection-word & 
+ [ STEM < "ohoi" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ohoi_interj_rel" ].
+
+;; interj, pos i norsource: []
+oi_interj := interjection-word & 
+ [ STEM < "oi" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_oi_interj_rel" ].
+
+;; interj, pos i norsource: []
+okk_interj := interjection-word & 
+ [ STEM < "okk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_okk_interj_rel" ].
+
+;; adv, pos i norsource: []
+om-igjen_adv := adv-word-reg & 
+ [ STEM < "om","igjen" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_om-igjen_adv_rel" ].
+
+;; adv, pos i norsource: []
+omme_adv := adv-word-reg & 
+ [ STEM < "omme" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_omme_adv_rel" ].
+
+om-senn_adv := adv-word-reg & 
+ [ STEM < "om","senn" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_om-senn_adv_rel" ].
+
+;; adv, pos i norsource: []
+omsonst_adv := adv-word-reg & 
+ [ STEM < "omsonst" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_omsonst_adv_rel" ].
+
+;; adv, pos i norsource: []
+onnimellom_adv := adv-word-reg & 
+ [ STEM < "onnimellom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_onnimellom_adv_rel" ].
+
+;; adv, pos i norsource: []
+opp-att_adv := adv-word-reg & 
+ [ STEM < "opp","att" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_opp att_adv_rel" ].
+
+;; adv, pos i norsource: []
+opp-ned_adv := adv-word-reg & 
+ [ STEM < "opp","ned" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_opp-ned_adv_rel" ].
+
+;; adv, pos i norsource: []
+oppad_adv := adv-word-reg & 
+ [ STEM < "oppad" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_oppad_adv_rel" ].
+
+;; prep, pos i norsource: []
+oppetter_prep := prep-word-reg & 
+ [ STEM < "oppetter" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_oppetter_prep_rel" ].
+
+;; prep, pos i norsource: []
+oppfor_prep := prep-word-reg & 
+ [ STEM < "oppfor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_oppfor_prep_rel" ].
+
+;; prep, pos i norsource: []
+oppigjennom_prep := prep-word-reg & 
+ [ STEM < "oppigjennom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_oppigjennom_prep_rel" ].
+
+;; prep, pos i norsource: []
+oppmed_prep := prep-word-reg & 
+ [ STEM < "oppmed" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_oppmed_prep_rel" ].
+
+;; prep, pos i norsource: []
+oppom_prep := prep-word-reg & 
+ [ STEM < "oppom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_oppom_prep_rel" ].
+
+;; adv, pos i norsource: []
+oppstrøms_adv := adv-word-reg & 
+ [ STEM < "oppstrøms" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_oppstrøms_adv_rel" ].
+
+;; prep, pos i norsource: []
+oppunder_prep := prep-word-reg & 
+ [ STEM < "oppunder" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_oppunder_prep_rel" ].
+
+;; prep, pos i norsource: []
+oppved_prep := prep-word-reg & 
+ [ STEM < "oppved" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_oppved_prep_rel" ].
+
+;; prep, pos i norsource: []
+;; prep, pos i norsource: [n]
+ost_prep := prep-word-reg & 
+ [ STEM < "ost" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ost_prep_rel" ].
+
+;; prep, pos i norsource: []
+ovabords_prep := prep-word-reg & 
+ [ STEM < "ovabords" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ovabords_prep_rel" ].
+
+;; prep, pos i norsource: []
+ovafor_prep := prep-word-reg & 
+ [ STEM < "ovafor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ovafor_prep_rel" ].
+
+;; prep, pos i norsource: []
+ovafra_prep := prep-word-reg & 
+ [ STEM < "ovafra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ovafra_prep_rel" ].
+
+;; prep, pos i norsource: []
+ovapå_prep := prep-word-reg & 
+ [ STEM < "ovapå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ovapå_prep_rel" ].
+
+;; prep, pos i norsource: []
+ovatil_prep := prep-word-reg & 
+ [ STEM < "ovatil" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ovatil_prep_rel" ].
+
+;; adv, pos i norsource: []
+oven_adv := adv-word-reg & 
+ [ STEM < "oven" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_oven_adv_rel" ].
+
+;; prep, pos i norsource: []
+ovenbords_prep := prep-word-reg & 
+ [ STEM < "ovenbords" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ovenbords_prep_rel" ].
+
+;; prep, pos i norsource: []
+ovenfor_prep := prep-word-reg & 
+ [ STEM < "ovenfor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ovenfor_prep_rel" ].
+
+;; prep, pos i norsource: []
+ovenfra_prep := prep-word-reg & 
+ [ STEM < "ovenfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ovenfra_prep_rel" ].
+
+;; prep, pos i norsource: []
+ovenom_prep := prep-word-reg & 
+ [ STEM < "ovenom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ovenom_prep_rel" ].
+
+;; prep, pos i norsource: []
+ovenpå_adv := adv-word-reg & 
+ [ STEM < "ovenpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ovenpå_adv_rel" ].
+
+;; prep, pos i norsource: []
+oventil_prep := prep-word-reg & 
+ [ STEM < "oventil" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_oventil_prep_rel" ].
+
+;; adv, pos i norsource: []
+overens_adv := adv-word-reg & 
+ [ STEM < "overens" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_overens_adv_rel" ].
+
+;; adv, pos i norsource: []
+overhodet_adv := adv-word-reg & 
+ [ STEM < "overhodet" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_overhodet_adv_rel" ].
+
+;; adv, pos i norsource: []
+overlag_adv := adv-word-reg & 
+ [ STEM < "overlag" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_overlag_adv_rel" ].
+
+;; adv, pos i norsource: []
+overmorgen_adv := adv-word-reg & 
+ [ STEM < "overmorgen" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_overmorgen_adv_rel" ].
+
+;; adv, pos i norsource: []
+overmåte_adv := adv-word-reg & 
+ [ STEM < "overmåte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_overmåte_adv_rel" ].
+
+;; adv, pos i norsource: []
+overvettes_adv := adv-word-reg & 
+ [ STEM < "overvettes" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_overvettes_adv_rel" ].
+
+;; interj, pos i norsource: [adj]
+paff_interj := interjection-word & 
+ [ STEM < "paff" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_paff_interj_rel" ].
+
+;; adv, pos i norsource: []
+pakkende_adv := adv-word-reg & 
+ [ STEM < "pakkende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pakkende_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+pal_adv := adv-word-reg & 
+ [ STEM < "pal" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pal_adv_rel" ].
+
+;; adv, pos i norsource: []
+par-avion_adv := adv-word-reg & 
+ [ STEM < "par","avion" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_par-avion_adv_rel" ].
+
+;; adv, pos i norsource: []
+par-excellence_adv := adv-word-reg & 
+ [ STEM < "par","excellence" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_par-excellence_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+parlando_adv := adv-word-reg & 
+ [ STEM < "parlando" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_parlando_adv_rel" ].
+
+;; adv, pos i norsource: []
+pars-pro-toto_adv := adv-word-reg & 
+ [ STEM < "pars","pro","toto" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pars-pro-toto_adv_rel" ].
+
+;; adv, pos i norsource: []
+partout_adv := adv-word-reg & 
+ [ STEM < "partout" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_partout_adv_rel" ].
+
+;; adv, pos i norsource: []
+parvis_adv := adv-word-reg & 
+ [ STEM < "parvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_parvis_adv_rel" ].
+
+;; prep, pos i norsource: [np]
+per_prep := prep-word-reg & 
+ [ STEM < "per" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_per_prep_rel" ].
+
+;; adv, pos i norsource: []
+per-capita_adv := adv-word-reg & 
+ [ STEM < "per","capita" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_per-capita_adv_rel" ].
+
+;; interj, pos i norsource: []
+pereat_interj := interjection-word & 
+ [ STEM < "pereat" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pereat_interj_rel" ].
+
+;; adv, pos i norsource: []
+peu-om-peu_adv := adv-word-reg & 
+ [ STEM < "peu","om","peu" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_peu-om-peu_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+pianissimo_adv := adv-word-reg & 
+ [ STEM < "pianissimo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pianissimo_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+piano_adv := adv-word-reg & 
+ [ STEM < "piano" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_piano_adv_rel" ].
+
+;; interj, pos i norsource: []
+piff_interj := interjection-word & 
+ [ STEM < "piff" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_piff_interj_rel" ].
+
+;; interj, pos i norsource: []
+pinadø_interj := interjection-word & 
+ [ STEM < "pinadø" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pinadø_interj_rel" ].
+
+;; interj, pos i norsource: []
+pinede_interj := interjection-word & 
+ [ STEM < "pinede" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pinede_interj_rel" ].
+
+;; interj, pos i norsource: []
+pinedød_interj := interjection-word & 
+ [ STEM < "pinedød" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pinedød_interj_rel" ].
+
+;; interj, pos i norsource: []
+pip_interj := interjection-word & 
+ [ STEM < "pip" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pip_interj_rel" ].
+
+;; interj, pos i norsource: []
+piskadausen_interj := interjection-word & 
+ [ STEM < "piskadausen" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_piskadausen_interj_rel" ].
+
+;; interj, pos i norsource: []
+piskadød_interj := interjection-word & 
+ [ STEM < "piskadød" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_piskadød_interj_rel" ].
+
+;; adv, pos i norsource: []
+pist_adv := adv-word-reg & 
+ [ STEM < "pist" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pist_adv_rel" ].
+
+;; interj, pos i norsource: []
+pist_interj := interjection-word & 
+ [ STEM < "pist" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pist_interj_rel" ].
+
+;; adv, pos i norsource: [n]
+pizzicato_adv := adv-word-reg & 
+ [ STEM < "pizzicato" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pizzicato_adv_rel" ].
+
+;; adv, pos i norsource: []
+pladask_adv := adv-word-reg & 
+ [ STEM < "pladask" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pladask_adv_rel" ].
+
+;; interj, pos i norsource: []
+plaff_interj := interjection-word & 
+ [ STEM < "plaff" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_plaff_interj_rel" ].
+
+;; interj, pos i norsource: []
+plask_interj := interjection-word & 
+ [ STEM < "plask" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_plask_interj_rel" ].
+
+;; adv, pos i norsource: []
+plent_adv := adv-word-reg & 
+ [ STEM < "plent" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_plent_adv_rel" ].
+
+;; adv, pos i norsource: []
+plenty_adv := adv-word-reg & 
+ [ STEM < "plenty" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_plenty_adv_rel" ].
+
+;; interj, pos i norsource: []
+pling_interj := interjection-word & 
+ [ STEM < "pling" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pling_interj_rel" ].
+
+;; interj, pos i norsource: []
+plopp_interj := interjection-word & 
+ [ STEM < "plopp" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_plopp_interj_rel" ].
+
+;; interj, pos i norsource: [adj]
+plump_interj := interjection-word & 
+ [ STEM < "plump" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_plump_interj_rel" ].
+
+;; adv, pos i norsource: []
+porsjonsvis_adv := adv-word-reg & 
+ [ STEM < "porsjonsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_porsjonsvis_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+portamento_adv := adv-word-reg & 
+ [ STEM < "portamento" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_portamento_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+portato_adv := adv-word-reg & 
+ [ STEM < "portato" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_portato_adv_rel" ].
+
+;; prep, pos i norsource: [n]
+post_prep := prep-word-reg & 
+ [ STEM < "post" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_post_prep_rel" ].
+
+;; adv, pos i norsource: []
+post-festum_adv := adv-word-reg & 
+ [ STEM < "post","festum" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_post-festum_adv_rel" ].
+
+;; adv, pos i norsource: []
+post-meridiem_adv := adv-word-reg & 
+ [ STEM < "post","meridiem" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_post-meridiem_adv_rel" ].
+
+;; adv, pos i norsource: []
+post-mortem_adv := adv-word-reg & 
+ [ STEM < "post","mortem" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_post-mortem_adv_rel" ].
+
+;; prep, pos i norsource: []
+poste-restante_prep := prep-word-reg & 
+ [ STEM < "poste","restante" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_poste-restante_prep_rel" ].
+
+;; adv, pos i norsource: [n]
+prestissimo_adv := adv-word-reg & 
+ [ STEM < "prestissimo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_prestissimo_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+presto_adv := adv-word-reg & 
+ [ STEM < "presto" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_presto_adv_rel" ].
+
+;; adv, pos i norsource: []
+prima-vista_adv := adv-word-reg & 
+ [ STEM < "prima","vista" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_prima-vista_adv_rel" ].
+
+;; adv, pos i norsource: [adj]
+primo_adv := adv-word-reg & 
+ [ STEM < "primo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_primo_adv_rel" ].
+
+;; prep, pos i norsource: []
+pro_prep := prep-word-reg & 
+ [ STEM < "pro" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pro_prep_rel" ].
+
+;; adv, pos i norsource: []
+pro-anno_adv := adv-word-reg & 
+ [ STEM < "pro","anno" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pro-anno_adv_rel" ].
+
+;; adv, pos i norsource: []
+pro-persona_adv := adv-word-reg & 
+ [ STEM < "pro","persona" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pro-persona_adv_rel" ].
+
+;; adv, pos i norsource: []
+pro-tempore_adv := adv-word-reg & 
+ [ STEM < "pro","tempore" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pro-tempore_adv_rel" ].
+
+;; adv, pos i norsource: []
+proforma_adv := adv-word-reg & 
+ [ STEM < "proforma" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_proforma_adv_rel" ].
+
+;; adv, pos i norsource: []
+prompt_adv := adv-word-reg & 
+ [ STEM < "prompt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_prompt_adv_rel" ].
+
+;; adv, pos i norsource: []
+prompte_adv := adv-word-reg & 
+ [ STEM < "prompte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_prompte_adv_rel" ].
+
+;; adv, pos i norsource: []
+prosentvis_adv := adv-word-reg & 
+ [ STEM < "prosentvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_prosentvis_adv_rel" ].
+
+;; interj, pos i norsource: []
+prosit_interj := interjection-word & 
+ [ STEM < "prosit" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_prosit_interj_rel" ].
+
+;; interj, pos i norsource: []
+prositt_interj := interjection-word & 
+ [ STEM < "prositt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_prositt_interj_rel" ].
+
+;; interj, pos i norsource: []
+pst_interj := interjection-word & 
+ [ STEM < "pst" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pst_interj_rel" ].
+
+;; interj, pos i norsource: []
+ptro_interj := interjection-word & 
+ [ STEM < "ptro" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ptro_interj_rel" ].
+
+;; interj, pos i norsource: []
+puff_interj := interjection-word & 
+ [ STEM < "puff" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_puff_interj_rel" ].
+
+;; interj, pos i norsource: []
+puh_interj := interjection-word & 
+ [ STEM < "puh" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_puh_interj_rel" ].
+
+;; adv, pos i norsource: []
+pukka_adv := adv-word-reg & 
+ [ STEM < "pukka" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pukka_adv_rel" ].
+
+;; adv, pos i norsource: []
+puljevis_adv := adv-word-reg & 
+ [ STEM < "puljevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_puljevis_adv_rel" ].
+
+;; adv, pos i norsource: []
+punktvis_adv := adv-word-reg & 
+ [ STEM < "punktvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_punktvis_adv_rel" ].
+
+;; interj, pos i norsource: []
+puss_interj := interjection-word & 
+ [ STEM < "puss" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_puss_interj_rel" ].
+
+;; interj, pos i norsource: []
+pytt_interj := interjection-word & 
+ [ STEM < "pytt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pytt_interj_rel" ].
+
+;; interj, pos i norsource: []
+pø_interj := interjection-word & 
+ [ STEM < "pø" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pø_interj_rel" ].
+
+;; adv, pos i norsource: []
+pø-om-pø_adv := adv-word-reg & 
+ [ STEM < "pø","om","pø" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pø om pø_adv_rel" ].
+
+;; interj, pos i norsource: []
+pøh_interj := interjection-word & 
+ [ STEM < "pøh" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pøh_interj_rel" ].
+
+;; sbu, pos i norsource: []
+qua_prep := prep-word-reg & 
+ [ STEM < "qua" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_qua_prep_rel" ].
+
+;; adv, pos i norsource: []
+quantum-satis_adv := adv-word-reg & 
+ [ STEM < "quantum","satis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_quantum satis_adv_rel" ].
+
+;; interj, pos i norsource: []
+quo-vadis_interj := interjection-word & 
+ [ STEM < "quo","vadis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_quo-vadis_interj_rel" ].
+
+;; interj, pos i norsource: []
+quod-erat-demonstrandum_interj := interjection-word & 
+ [ STEM < "quod","erat","demonstrandum" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_quod-erat-demonstrandum_interj_rel" ].
+
+;; adv, pos i norsource: []
+rangsøles_adv := adv-word-reg & 
+ [ STEM < "rangsøles" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_rangsøles_adv_rel" ].
+
+;; interj, pos i norsource: [adj]
+rapp_interj := interjection-word & 
+ [ STEM < "rapp" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_rapp_interj_rel" ].
+
+;; adv, pos i norsource: []
+ratevis_adv := adv-word-reg & 
+ [ STEM < "ratevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ratevis_adv_rel" ].
+
+;; interj, pos i norsource: []
+ratsj_interj := interjection-word & 
+ [ STEM < "ratsj" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ratsj_interj_rel" ].
+
+;; adv, pos i norsource: []
+reint_adv := adv-word-reg & 
+ [ STEM < "reint" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_reint_adv_rel" ].
+
+;; adv, pos i norsource: []
+rent_adv := adv-word-reg & 
+ [ STEM < "rent" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_rent_adv_rel" ].
+
+;; adv, pos i norsource: []
+respektive_adv := adv-word-reg & 
+ [ STEM < "respektive" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_respektive_adv_rel" ].
+
+;; adv, pos i norsource: []
+rettsøles_adv := adv-word-reg & 
+ [ STEM < "rettsøles" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_rettsøles_adv_rel" ].
+
+;; adv, pos i norsource: []
+reverenter_adv := adv-word-reg & 
+ [ STEM < "reverenter" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_reverenter_adv_rel" ].
+
+;; adv, pos i norsource: []
+riktig-nok_adv := adv-word-reg & 
+ [ STEM < "riktig","nok" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_riktig-nok_adv_rel" ].
+
+;; adv, pos i norsource: []
+riktignok_adv := adv-word-reg & 
+ [ STEM < "riktignok" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_riktignok_adv_rel" ].
+
+;; adv, pos i norsource: []
+rimeligvis_adv := adv-word-reg & 
+ [ STEM < "rimeligvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_rimeligvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+ringside_adv := adv-word-reg & 
+ [ STEM < "ringside" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ringside_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+ritardando_adv := adv-word-reg & 
+ [ STEM < "ritardando" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ritardando_adv_rel" ].
+
+;; interj, pos i norsource: []
+ritsj_interj := interjection-word & 
+ [ STEM < "ritsj" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ritsj_interj_rel" ].
+
+;; adv, pos i norsource: [n]
+rubato_adv := adv-word-reg & 
+ [ STEM < "rubato" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_rubato_adv_rel" ].
+
+;; adv, pos i norsource: []
+riv-ruskende_degadv := degreepos-spec-word & 
+ [ STEM < "riv", "ruskende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_riv-ruskende_adv_rel" ].
+
+;; adv, pos i norsource: []
+rykkevis_adv := adv-word-reg & 
+ [ STEM < "rykkevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_rykkevis_adv_rel" ].
+
+;; adv, pos i norsource: []
+saktelig_adv := adv-word-reg & 
+ [ STEM < "saktelig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_saktelig_adv_rel" ].
+
+;; adv, pos i norsource: []
+saktens_adv := adv-word-reg & 
+ [ STEM < "saktens" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_saktens_adv_rel" ].
+
+;; prep, pos i norsource: []
+sammesteds_adv := adv-word-reg & 
+ [ STEM < "sammesteds" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sammesteds_adv_rel" ].
+
+;; prep, pos i norsource: []
+sammestedsfra_adv := adv-word-reg & 
+ [ STEM < "sammestedsfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sammestedsfra_adv_rel" ].
+
+;; adv, pos i norsource: []
+samstundes_adv := adv-word-reg & 
+ [ STEM < "samstundes" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_samstundes_adv_rel" ].
+
+;; adv, pos i norsource: []
+sannelig_adv := adv-word-reg & 
+ [ STEM < "sannelig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sannelig_adv_rel" ].
+
+;; adv, pos i norsource: []
+scilicet_adv := adv-word-reg & 
+ [ STEM < "scilicet" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_scilicet_adv_rel" ].
+
+;; adv, pos i norsource: []
+seinhøstes_adv := adv-word-reg & 
+ [ STEM < "seinhøstes" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_seinhøstes_adv_rel" ].
+
+;; adv, pos i norsource: []
+senhøstes_adv := adv-word-reg & 
+ [ STEM < "senhøstes" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_senhøstes_adv_rel" ].
+
+;; interj, pos i norsource: []
+sesam_interj := interjection-word & 
+ [ STEM < "sesam" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sesam_interj_rel" ].
+
+;; adv, pos i norsource: []
+sia_adv := adv-word-reg & 
+ [ STEM < "sia" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sia_adv_rel" ].
+
+;; adv, pos i norsource: []
+sic_adv := adv-word-reg & 
+ [ STEM < "sic" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sic_adv_rel" ].
+
+;; prep, pos i norsource: []
+sidelangs_adv := adv-word-reg & 
+ [ STEM < "sidelangs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sidelangs_adv_rel" ].
+
+sidelengs_adv := adv-word-reg & 
+ [ STEM < "sidelengs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sidelengs_adv_rel" ].
+
+;; adv, pos i norsource: []
+sideveges_adv := adv-word-reg & 
+ [ STEM < "sideveges" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sideveges_adv_rel" ].
+
+;; adv, pos i norsource: []
+sidevegs_adv := adv-word-reg & 
+ [ STEM < "sidevegs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sidevegs_adv_rel" ].
+
+;; adv, pos i norsource: []
+sideveis_adv := adv-word-reg & 
+ [ STEM < "sideveis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sideveis_adv_rel" ].
+
+;; adv, pos i norsource: []
+sikkerlig_adv := adv-word-reg & 
+ [ STEM < "sikkerlig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sikkerlig_adv_rel" ].
+
+;; adv, pos i norsource: []
+silde_adv := adv-word-reg & 
+ [ STEM < "silde" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_silde_adv_rel" ].
+
+;; adv, pos i norsource: []
+simpelthen_adv := adv-word-reg & 
+ [ STEM < "simpelthen" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_simpelthen_adv_rel" ].
+
+;; interj, pos i norsource: []
+simsalabim_interj := interjection-word & 
+ [ STEM < "simsalabim" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_simsalabim_interj_rel" ].
+
+;; interj, pos i norsource: []
+singott_interj := interjection-word & 
+ [ STEM < "singott" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_singott_interj_rel" ].
+
+;; prep, pos i norsource: []
+sistpå_adv := adv-word-reg & 
+ [ STEM < "sistpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sistpå_adv_rel" ].
+
+;; adv, pos i norsource: []
+sjøleies_adv := adv-word-reg & 
+ [ STEM < "sjøleies" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sjøleies_adv_rel" ].
+
+;; adv, pos i norsource: []
+sjøverts_adv := adv-word-reg & 
+ [ STEM < "sjøverts" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sjøverts_adv_rel" ].
+
+;; adv, pos i norsource: []
+skeis_adv := adv-word-reg & 
+ [ STEM < "skeis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_skeis_adv_rel" ].
+
+;; adv, pos i norsource: []
+skiftevis_adv := adv-word-reg & 
+ [ STEM < "skiftevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_skiftevis_adv_rel" ].
+
+;; adv, pos i norsource: []
+skjøns_adv := adv-word-reg & 
+ [ STEM < "skjøns" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_skjøns_adv_rel" ].
+
+;; adv, pos i norsource: []
+skogleies_adv := adv-word-reg & 
+ [ STEM < "skogleies" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_skogleies_adv_rel" ].
+
+;; adv, pos i norsource: []
+skokkevis_adv := adv-word-reg & 
+ [ STEM < "skokkevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_skokkevis_adv_rel" ].
+
+;; adv, pos i norsource: []
+skrevs_adv := adv-word-reg & 
+ [ STEM < "skrevs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_skrevs_adv_rel" ].
+
+;; adv, pos i norsource: []
+skrittvis_adv := adv-word-reg & 
+ [ STEM < "skrittvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_skrittvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+skrås_adv := adv-word-reg & 
+ [ STEM < "skrås" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_skrås_adv_rel" ].
+
+;; interj, pos i norsource: []
+skål_interj := interjection-word & 
+ [ STEM < "skål" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_skål_interj_rel" ].
+
+;; adv, pos i norsource: []
+slettes_adv := adv-word-reg & 
+ [ STEM < "slettes" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_slettes_adv_rel" ].
+
+;; adv, pos i norsource: []
+sluttelig_adv := adv-word-reg & 
+ [ STEM < "sluttelig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sluttelig_adv_rel" ].
+
+;; adv, pos i norsource: []
+småningom_adv := adv-word-reg & 
+ [ STEM < "småningom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_småningom_adv_rel" ].
+
+;; interj, pos i norsource: [adj]
+snapp_interj := interjection-word & 
+ [ STEM < "snapp" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_snapp_interj_rel" ].
+
+;; adv, pos i norsource: []
+sneisevis_adv := adv-word-reg & 
+ [ STEM < "sneisevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sneisevis_adv_rel" ].
+
+;; adv, pos i norsource: []
+snesevis_adv := adv-word-reg & 
+ [ STEM < "snesevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_snesevis_adv_rel" ].
+
+;; interj, pos i norsource: []
+snipp_interj := interjection-word & 
+ [ STEM < "snipp" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_snipp_interj_rel" ].
+
+;; adv, pos i norsource: []
+snuft_adv := adv-word-reg & 
+ [ STEM < "snuft" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_snuft_adv_rel" ].
+
+;; adv, pos i norsource: []
+snupt_adv := adv-word-reg & 
+ [ STEM < "snupt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_snupt_adv_rel" ].
+
+;; adv, pos i norsource: [v]
+snyte_adv := adv-word-reg & 
+ [ STEM < "snyte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_snyte_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+solo_adv := adv-word-reg & 
+ [ STEM < "solo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_solo_adv_rel" ].
+
+;; adv, pos i norsource: []
+sommerstid_adv := adv-word-reg & 
+ [ STEM < "sommerstid" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sommerstid_adv_rel" ].
+
+;; prep, pos i norsource: []
+sommesteds_adv := adv-word-reg & 
+ [ STEM < "sommesteds" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sommesteds_adv_rel" ].
+
+;; adv, pos i norsource: []
+spika_adv := adv-word-reg & 
+ [ STEM < "spika" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_spika_adv_rel" ].
+
+;; adv, pos i norsource: []
+spikende_adv := adv-word-reg & 
+ [ STEM < "spikende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_spikende_adv_rel" ].
+
+;; adv, pos i norsource: []
+sporenstreks_adv := adv-word-reg & 
+ [ STEM < "sporenstreks" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sporenstreks_adv_rel" ].
+
+;; adv, pos i norsource: []
+sprangvis_adv := adv-word-reg & 
+ [ STEM < "sprangvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sprangvis_adv_rel" ].
+
+;; adv, pos i norsource: [n, v]
+sprøyte_adv := adv-word-reg & 
+ [ STEM < "sprøyte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sprøyte_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+stakkato_adv := adv-word-reg & 
+ [ STEM < "stakkato" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_stakkato_adv_rel" ].
+
+;; adv, pos i norsource: []
+stappa_adv := adv-word-reg & 
+ [ STEM < "stappa" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_stappa_adv_rel" ].
+
+;; adv, pos i norsource: []
+stappende_adv := adv-word-reg & 
+ [ STEM < "stappende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_stappende_adv_rel" ].
+
+;; adv, pos i norsource: []
+stedvis_adv := adv-word-reg & 
+ [ STEM < "stedvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_stedvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+steika_adv := adv-word-reg & 
+ [ STEM < "steika" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_steika_adv_rel" ].
+
+;; adv, pos i norsource: []
+straks_adv := adv-word-reg & 
+ [ STEM < "straks" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_straks_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+stringendo_adv := adv-word-reg & 
+ [ STEM < "stringendo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_stringendo_adv_rel" ].
+
+;; adv, pos i norsource: []
+stummende_adv := adv-word-reg & 
+ [ STEM < "stummende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_stummende_adv_rel" ].
+
+;; adv, pos i norsource: []
+stundimellom_adv := adv-word-reg & 
+ [ STEM < "stundimellom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_stundimellom_adv_rel" ].
+
+;; adv, pos i norsource: []
+stundom_adv := adv-word-reg & 
+ [ STEM < "stundom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_stundom_adv_rel" ].
+
+;; adv, pos i norsource: []
+stundomtil_adv := adv-word-reg & 
+ [ STEM < "stundomtil" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_stundomtil_adv_rel" ].
+
+;; adv, pos i norsource: []
+stupende_adv := adv-word-reg & 
+ [ STEM < "stupende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_stupende_adv_rel" ].
+
+;; adv, pos i norsource: []
+styggelig_adv := adv-word-reg & 
+ [ STEM < "styggelig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_styggelig_adv_rel" ].
+
+;; adv, pos i norsource: []
+stykkevis_adv := adv-word-reg & 
+ [ STEM < "stykkevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_stykkevis_adv_rel" ].
+
+;; prep, pos i norsource: [n]
+styrbord_adv := adv-word-reg & 
+ [ STEM < "styrbord" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_styrbord_adv_rel" ].
+
+;; adv, pos i norsource: []
+støtt_adv := adv-word-reg & 
+ [ STEM < "støtt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_støtt_adv_rel" ].
+
+;; adv, pos i norsource: []
+støtvis_adv := adv-word-reg & 
+ [ STEM < "støtvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_støtvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+støytvis_adv := adv-word-reg & 
+ [ STEM < "støytvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_støytvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+summa-summarum_adv := adv-word-reg & 
+ [ STEM < "summa","summarum" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_summa-summarum_adv_rel" ].
+
+;; adv, pos i norsource: []
+svinaktig_adv := adv-word-reg & 
+ [ STEM < "svinaktig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_svinaktig_adv_rel" ].
+
+;; interj, pos i norsource: []
+svupp_interj := interjection-word & 
+ [ STEM < "svupp" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_svupp_interj_rel" ].
+
+;; prep, pos i norsource: [n]
+syd_adv := adv-word-reg & 
+ [ STEM < "syd" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_syd_adv_rel" ].
+
+;; prep, pos i norsource: []
+sydetter_adv := adv-word-reg & 
+ [ STEM < "sydetter" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sydetter_adv_rel" ].
+
+;; prep, pos i norsource: []
+sydfra_adv := adv-word-reg & 
+ [ STEM < "sydfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sydfra_adv_rel" ].
+
+;; prep, pos i norsource: [n]
+sydost_adv := adv-word-reg & 
+ [ STEM < "sydost" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sydost_adv_rel" ].
+
+;; prep, pos i norsource: []
+sydover_adv := adv-word-reg & 
+ [ STEM < "sydover" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sydover_adv_rel" ].
+
+;; prep, pos i norsource: []
+sydpå_adv := adv-word-reg & 
+ [ STEM < "sydpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sydpå_adv_rel" ].
+
+;; prep, pos i norsource: [n]
+sydvest_adv := adv-word-reg & 
+ [ STEM < "sydvest" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sydvest_adv_rel" ].
+
+;; prep, pos i norsource: [n]
+;; adv, pos i norsource: [n]
+sydøst_adv := adv-word-reg & 
+ [ STEM < "sydøst" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sydøst_adv_rel" ].
+
+;; adv, pos i norsource: []
+synderlig_adv := adv-word-reg & 
+ [ STEM < "synderlig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_synderlig_adv_rel" ].
+
+;; adv, pos i norsource: []
+så-pass_adv := adv-word-reg & 
+ [ STEM < "så,,pass" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_så pass_adv_rel" ].
+
+;; det, pos i norsource: []
+sådan_adv := adv-word-reg & 
+ [ STEM < "sådan" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sådan_adv_rel" ].
+
+;; adv, pos i norsource: []
+sågar_adv := adv-word-reg & 
+ [ STEM < "sågar" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sågar_adv_rel" ].
+
+;; adv, pos i norsource: []
+således_adv := adv-word-reg & 
+ [ STEM < "således" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_således_adv_rel" ].
+
+;; adv, pos i norsource: []
+såleis_adv := adv-word-reg & 
+ [ STEM < "såleis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_såleis_adv_rel" ].
+
+;; adv, pos i norsource: []
+såpass_adv := adv-word-reg & 
+ [ STEM < "såpass" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_såpass_adv_rel" ].
+
+særdeles_adv := adv-word-reg & 
+ [ STEM < "særdeles" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_særdeles_adv_rel" ].
+
+;; adv, pos i norsource: []
+særs_adv := adv-word-reg & 
+ [ STEM < "særs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_særs_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+søkk_adv := adv-word-reg & 
+ [ STEM < "søkk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_søkk_adv_rel" ].
+
+;; adv, pos i norsource: []
+søkkende_adv := adv-word-reg & 
+ [ STEM < "søkkende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_søkkende_adv_rel" ].
+
+;; adv, pos i norsource: []
+sønder_adv := adv-word-reg & 
+ [ STEM < "sønder" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sønder_adv_rel" ].
+
+;; prep, pos i norsource: []
+sønnafjells_adv := adv-word-reg & 
+ [ STEM < "sønnafjells" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sønnafjells_adv_rel" ].
+
+;; prep, pos i norsource: []
+sønnafor_adv := adv-word-reg & 
+ [ STEM < "sønnafor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sønnafor_adv_rel" ].
+
+;; prep, pos i norsource: []
+sønnafra_adv := adv-word-reg & 
+ [ STEM < "sønnafra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sønnafra_adv_rel" ].
+
+;; prep, pos i norsource: []
+sønnenfjells_adv := adv-word-reg & 
+ [ STEM < "sønnenfjells" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sønnenfjells_adv_rel" ].
+
+;; prep, pos i norsource: []
+sønnenfra_adv := adv-word-reg & 
+ [ STEM < "sønnenfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sønnenfra_adv_rel" ].
+
+;; prep, pos i norsource: []
+sønnenom_adv := adv-word-reg & 
+ [ STEM < "sønnenom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sønnenom_adv_rel" ].
+
+;; prep, pos i norsource: [n]
+sør_adv := adv-word-reg & 
+ [ STEM < "sør" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sør_adv_rel" ].
+
+;; prep, pos i norsource: [n]
+søraust_adv := adv-word-reg & 
+ [ STEM < "søraust" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_søraust_adv_rel" ].
+
+;; interj, pos i norsource: []
+søren_interj := interjection-word & 
+ [ STEM < "søren" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_søren_interj_rel" ].
+
+;; prep, pos i norsource: []
+søretter_prep := prep-word-reg & 
+ [ STEM < "søretter" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_søretter_prep_rel" ].
+
+;; prep, pos i norsource: []
+sørfra_adv := adv-word-reg & 
+ [ STEM < "sørfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sørfra_adv_rel" ].
+
+;; prep, pos i norsource: [adv]
+sørover_adv := adv-word-reg & 
+ [ STEM < "sørover" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sørover_adv_rel" ].
+
+;; prep, pos i norsource: []
+sørpå_adv := adv-word-reg & 
+ [ STEM < "sørpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sørpå_adv_rel" ].
+
+;; prep, pos i norsource: [n]
+sørvest_adv := adv-word-reg & 
+ [ STEM < "sørvest" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sørvest_adv_rel" ].
+
+;; prep, pos i norsource: [n]
+sørøst_adv := adv-word-reg & 
+ [ STEM < "sørøst" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sørøst_adv_rel" ].
+
+;; interj, pos i norsource: []
+søtten_interj := interjection-word & 
+ [ STEM < "søtten" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_søtten_interj_rel" ].
+
+;; adv, pos i norsource: []
+takimellom_adv := adv-word-reg & 
+ [ STEM < "takimellom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_takimellom_adv_rel" ].
+
+;; adv, pos i norsource: []
+takomtil_adv := adv-word-reg & 
+ [ STEM < "takomtil" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_takomtil_adv_rel" ].
+
+;; adv, pos i norsource: [adj]
+temmelig_adv := adv-word-reg & 
+ [ STEM < "temmelig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_temmelig_adv_rel" ].
+
+;; adv, pos i norsource: []
+tidligdags_adv := adv-word-reg & 
+ [ STEM < "tidligdags" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tidligdags_adv_rel" ].
+
+;; adv, pos i norsource: []
+tidvis_adv := adv-word-reg & 
+ [ STEM < "tidvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tidvis_adv_rel" ].
+
+;; interj, pos i norsource: []
+tikk_interj := interjection-word & 
+ [ STEM < "tikk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tikk_interj_rel" ].
+
+;; interj, pos i norsource: []
+tikk-takk_interj := interjection-word & 
+ [ STEM < "tikk-takk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tikk-takk_interj_rel" ].
+
+;; adv, pos i norsource: []
+tilfeldigvis_adv := adv-word-reg & 
+ [ STEM < "tilfeldigvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tilfeldigvis_adv_rel" ].
+
+;; prep, pos i norsource: []
+tillikemed_prep := prep-word-reg & 
+ [ STEM < "tillikemed" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tillikemed_prep_rel" ].
+
+;; adv, pos i norsource: []
+tilmed_adv := adv-word-reg & 
+ [ STEM < "tilmed" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tilmed_adv_rel" ].
+
+;; adv, pos i norsource: []
+tilnærmelsesvis_adv := adv-word-reg & 
+ [ STEM < "tilnærmelsesvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tilnærmelsesvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+tilovers_adv := adv-word-reg & 
+ [ STEM < "tilovers" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tilovers_adv_rel" ].
+
+;; adv, pos i norsource: []
+til-overs_adv := adv-word-reg & 
+ [ STEM < "til","overs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tilovers_adv_rel" ].
+
+;; adv, pos i norsource: []
+timevis_adv := adv-word-reg & 
+ [ STEM < "timevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_timevis_adv_rel" ].
+
+;; interj, pos i norsource: []
+tja_interj := interjection-word & 
+ [ STEM < "tja" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tja_interj_rel" ].
+
+;; interj, pos i norsource: []
+tjo_interj := interjection-word & 
+ [ STEM < "tjo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tjo_interj_rel" ].
+
+;; adv, pos i norsource: []
+tjokkende_adv := adv-word-reg & 
+ [ STEM < "tjokkende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tjokkende_adv_rel" ].
+
+;; adv, pos i norsource: []
+tomreipes_adv := adv-word-reg & 
+ [ STEM < "tomreipes" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tomreipes_adv_rel" ].
+
+;; interj, pos i norsource: []
+tralala_interj := interjection-word & 
+ [ STEM < "tralala" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tralala_interj_rel" ].
+
+;; prep, pos i norsource: [n]
+trass_prep := prep-word-reg & 
+ [ STEM < "trass" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_trass_prep_rel" ].
+
+;; adv, pos i norsource: []
+trill_adv := adv-word-reg & 
+ [ STEM < "trill" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_trill_adv_rel" ].
+
+;; adv, pos i norsource: []
+trinnvis_adv := adv-word-reg & 
+ [ STEM < "trinnvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_trinnvis_adv_rel" ].
+
+;; interj, pos i norsource: []
+tripp_interj := interjection-word & 
+ [ STEM < "tripp" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tripp_interj_rel" ].
+
+;; interj, pos i norsource: []
+trommelom_interj := interjection-word & 
+ [ STEM < "trommelom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_trommelom_interj_rel" ].
+
+;; adv, pos i norsource: []
+troppevis_adv := adv-word-reg & 
+ [ STEM < "troppevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_troppevis_adv_rel" ].
+
+;; adv, pos i norsource: []
+troppo_adv := adv-word-reg & 
+ [ STEM < "troppo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_troppo_adv_rel" ].
+
+;; adv, pos i norsource: []
+troppsvis_adv := adv-word-reg & 
+ [ STEM < "troppsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_troppsvis_adv_rel" ].
+
+;; prep, pos i norsource: [n]
+tross_prep := prep-word-reg & 
+ [ STEM < "tross" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tross_prep_rel" ].
+
+;; adv, pos i norsource: []
+trutt_adv := adv-word-reg & 
+ [ STEM < "trutt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_trutt_adv_rel" ].
+
+;; interj, pos i norsource: []
+tupp_interj := interjection-word & 
+ [ STEM < "tupp" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tupp_interj_rel" ].
+
+;; adv, pos i norsource: []
+tusenfold_adv := adv-word-reg & 
+ [ STEM < "tusenfold" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tusenfold_adv_rel" ].
+
+;; adv, pos i norsource: []
+tusenvis_adv := adv-word-reg & 
+ [ STEM < "tusenvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tusenvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+tvers_adv := adv-word-reg & 
+ [ STEM < "tvers" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tvers_adv_rel" ].
+
+;; adv, pos i norsource: []
+tvert_adv := adv-word-reg & 
+ [ STEM < "tvert" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tvert_adv_rel" ].
+
+;; interj, pos i norsource: []
+tvi_interj := interjection-word & 
+ [ STEM < "tvi" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tvi_interj_rel" ].
+
+;; adv, pos i norsource: [advs]
+tydeligvis_adv := adv-word-reg & 
+ [ STEM < "tydeligvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tydeligvis_adv_rel" ].
+
+;; interj, pos i norsource: []
+tyss_interj := interjection-word & 
+ [ STEM < "tyss" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tyss_interj_rel" ].
+
+;; adv, pos i norsource: []
+tålig_adv := adv-word-reg & 
+ [ STEM < "tålig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tålig_adv_rel" ].
+
+;; interj, pos i norsource: [adj]
+tøff_interj := interjection-word & 
+ [ STEM < "tøff" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tøff_interj_rel" ].
+
+;; adv, pos i norsource: []
+tønnevis_adv := adv-word-reg & 
+ [ STEM < "tønnevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tønnevis_adv_rel" ].
+
+;; prep, pos i norsource: []
+uansett_prep := prep-word-reg & 
+ [ STEM < "uansett" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_uansett_prep_rel" ].
+
+;; interj, pos i norsource: []
+uff_interj := interjection-word & 
+ [ STEM < "uff" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_uff_interj_rel" ].
+
+;; adv, pos i norsource: []
+ufravendt_adv := adv-word-reg & 
+ [ STEM < "ufravendt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ufravendt_adv_rel" ].
+
+;; adv, pos i norsource: []
+ugjerne_adv := adv-word-reg & 
+ [ STEM < "ugjerne" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ugjerne_adv_rel" ].
+
+;; adv, pos i norsource: []
+uheldigvis_adv := adv-word-reg & 
+ [ STEM < "uheldigvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_uheldigvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+ukevis_adv := adv-word-reg & 
+ [ STEM < "ukevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ukevis_adv_rel" ].
+
+;; adv, pos i norsource: []
+ulykkeligvis_adv := adv-word-reg & 
+ [ STEM < "ulykkeligvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ulykkeligvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+uløyves_adv := adv-word-reg & 
+ [ STEM < "uløyves" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_uløyves_adv_rel" ].
+
+;; adv, pos i norsource: []
+underhånden_adv := adv-word-reg & 
+ [ STEM < "underhånden" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_underhånden_adv_rel" ].
+
+;; prep, pos i norsource: []
+undervegs_adv := adv-word-reg & 
+ [ STEM < "undervegs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_undervegs_adv_rel" ].
+
+;; prep, pos i norsource: []
+underveis_adv := adv-word-reg & 
+ [ STEM < "underveis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_underveis_adv_rel" ].
+
+;; prep, pos i norsource: []
+unna_prep := prep-word-reg & 
+ [ STEM < "unna" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_unna_prep_rel" ].
+
+;; adv, pos i norsource: []
+unntakelsesvis_adv := adv-word-reg & 
+ [ STEM < "unntakelsesvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_unntakelsesvis_adv_rel" ].
+
+;; adv, pos i norsource: []
+unntaksvis_adv := adv-word-reg & 
+ [ STEM < "unntaksvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_unntaksvis_adv_rel" ].
+
+;; adv, pos i norsource: [adj]
+ustyggelig_adv := adv-word-reg & 
+ [ STEM < "ustyggelig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ustyggelig_adv_rel" ].
+
+;; adv, pos i norsource: []
+utaboks_adv := adv-word-reg & 
+ [ STEM < "utaboks" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utaboks_adv_rel" ].
+
+;; prep, pos i norsource: []
+utad_adv := adv-word-reg & 
+ [ STEM < "utad" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utad_adv_rel" ].
+
+;; prep, pos i norsource: []
+utafor_prep := prep-word-reg & 
+ [ STEM < "utafor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utafor_prep_rel" ].
+
+;; prep, pos i norsource: []
+utafra_prep := prep-word-reg & 
+ [ STEM < "utafra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utafra_prep_rel" ].
+
+;; prep, pos i norsource: []
+utalands_adv := adv-word-reg & 
+ [ STEM < "utalands" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utalands_adv_rel" ].
+
+;; prep, pos i norsource: []
+utapå_prep := prep-word-reg & 
+ [ STEM < "utapå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utapå_prep_rel" ].
+
+;; prep, pos i norsource: []
+utav_prep := prep-word-reg & 
+ [ STEM < "utav" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utav_prep_rel" ].
+
+;; adv, pos i norsource: []
+utbygdes_adv := adv-word-reg & 
+ [ STEM < "utbygdes" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utbygdes_adv_rel" ].
+
+;; adv, pos i norsource: []
+utdragsvis_adv := adv-word-reg & 
+ [ STEM < "utdragsvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utdragsvis_adv_rel" ].
+
+;; prep, pos i norsource: []
+utefra_prep := prep-word-reg & 
+ [ STEM < "utefra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utefra_prep_rel" ].
+
+;; adv, pos i norsource: []
+utelukkende_adv := adv-word-reg & 
+ [ STEM < "utelukkende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utelukkende_adv_rel" ].
+
+;; adv, pos i norsource: []
+utenat_adv := adv-word-reg & 
+ [ STEM < "utenat" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utenat_adv_rel" ].
+
+;; adv, pos i norsource: []
+utenboks_adv := adv-word-reg & 
+ [ STEM < "utenboks" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utenboks_adv_rel" ].
+
+;; prep, pos i norsource: []
+utenfra_prep := prep-word-reg & 
+ [ STEM < "utenfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utenfra_prep_rel" ].
+
+;; prep, pos i norsource: []
+utenlands_prep := prep-word-reg & 
+ [ STEM < "utenlands" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utenlands_prep_rel" ].
+
+;; prep, pos i norsource: []
+utenpå_prep := prep-word-reg & 
+ [ STEM < "utenpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utenpå_prep_rel" ].
+
+;; prep, pos i norsource: []
+utetter_prep := prep-word-reg & 
+ [ STEM < "utetter" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utetter_prep_rel" ].
+
+;; prep, pos i norsource: [adv, n]
+utfor_prep := prep-word-reg & 
+ [ STEM < "utfor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utfor_prep_rel" ].
+
+;; prep, pos i norsource: []
+uti_prep := prep-word-reg & 
+ [ STEM < "uti" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_uti_prep_rel" ].
+
+;; prep, pos i norsource: []
+utmed_prep := prep-word-reg & 
+ [ STEM < "utmed" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utmed_prep_rel" ].
+
+;; prep, pos i norsource: []
+utom_prep := prep-word-reg & 
+ [ STEM < "utom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utom_prep_rel" ].
+
+;; prep, pos i norsource: []
+utomhus_adv := adv-word-reg & 
+ [ STEM < "utomhus" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utomhus_adv_rel" ].
+
+;; prep, pos i norsource: [adv]
+utover_adv := adv-word-reg & 
+ [ STEM < "utover" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utover_adv_rel" ].
+
+;; prep, pos i norsource: []
+utpå_prep := prep-word-reg & 
+ [ STEM < "utpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utpå_prep_rel" ].
+
+;; prep, pos i norsource: []
+utved_prep := prep-word-reg & 
+ [ STEM < "utved" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utved_prep_rel" ].
+
+;; adv, pos i norsource: []
+uvegerlig_adv := adv-word-reg & 
+ [ STEM < "uvegerlig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_uvegerlig_adv_rel" ].
+
+;; adv, pos i norsource: [adj]
+uviselig_adv := adv-word-reg & 
+ [ STEM < "uviselig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_uviselig_adv_rel" ].
+
+;; adv, pos i norsource: [adj]
+uvislig_adv := adv-word-reg & 
+ [ STEM < "uvislig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_uvislig_adv_rel" ].
+
+;; prep, pos i norsource: []
+van_prep := prep-word-reg & 
+ [ STEM < "van" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_van_prep_rel" ].
+
+;; interj, pos i norsource: [v]
+varsku_interj := interjection-word & 
+ [ STEM < "varsku" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_varsku_interj_rel" ].
+
+;; interj, pos i norsource: []
+ve_interj := interjection-word & 
+ [ STEM < "ve" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ve_interj_rel" ].
+
+;; prep, pos i norsource: []
+veggimellom_adv := adv-word-reg & 
+ [ STEM < "veggimellom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_veggimellom_adv_rel" ].
+
+;; adv, pos i norsource: []
+vekselvis_adv := adv-word-reg & 
+ [ STEM < "vekselvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vekselvis_adv_rel" ].
+
+;; prep, pos i norsource: []
+versus_prep := prep-word-reg & 
+ [ STEM < "versus" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_versus_prep_rel" ].
+
+;; prep, pos i norsource: []
+vestafjells_adv := adv-word-reg & 
+ [ STEM < "vestafjells" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vestafjells_adv_rel" ].
+
+;; prep, pos i norsource: []
+vestafor_prep := prep-word-reg & 
+ [ STEM < "vestafor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vestafor_prep_rel" ].
+
+;; prep, pos i norsource: []
+vestafra_adv := adv-word-reg & 
+ [ STEM < "vestafra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vestafra_adv_rel" ].
+
+;; prep, pos i norsource: []
+vestenfjells_adv := adv-word-reg & 
+ [ STEM < "vestenfjells" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vestenfjells_adv_rel" ].
+
+;; prep, pos i norsource: []
+vestenfra_adv := adv-word-reg & 
+ [ STEM < "vestenfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vestenfra_adv_rel" ].
+
+;; prep, pos i norsource: []
+vestenom_prep := prep-word-reg & 
+ [ STEM < "vestenom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vestenom_prep_rel" ].
+
+;; prep, pos i norsource: []
+vestfra_adv := adv-word-reg & 
+ [ STEM < "vestfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vestfra_adv_rel" ].
+
+;; prep, pos i norsource: [adv]
+vestover_adv := adv-word-reg & 
+ [ STEM < "vestover" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vestover_adv_rel" ].
+
+;; prep, pos i norsource: []
+vestpå_adv := adv-word-reg & 
+ [ STEM < "vestpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vestpå_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+vibrato_adv := adv-word-reg & 
+ [ STEM < "vibrato" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vibrato_adv_rel" ].
+
+;; adv, pos i norsource: []
+vice-versa_adv := adv-word-reg & 
+ [ STEM < "vice","versa" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vice-versa_adv_rel" ].
+
+;; adv, pos i norsource: []
+vice-versa-dot_adv := adv-word-reg & 
+ [ STEM < "vv","." >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vice-versa_adv_rel" ].
+
+;; adv, pos i norsource: [v]
+vide_adv := adv-word-reg & 
+ [ STEM < "vide" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vide_adv_rel" ].
+
+;; adv, pos i norsource: []
+viden_adv := adv-word-reg & 
+ [ STEM < "viden" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_viden_adv_rel" ].
+
+;; adv, pos i norsource: []
+vinterstid_adv := adv-word-reg & 
+ [ STEM < "vinterstid" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vinterstid_adv_rel" ].
+
+;; interj, pos i norsource: []
+vips_interj := interjection-word & 
+ [ STEM < "vips" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vips_interj_rel" ].
+
+;; prep, pos i norsource: []
+vis-à-vis_prep := prep-word-reg & 
+ [ STEM < "vis-à-vis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vis-à-vis_prep_rel" ].
+
+;; adv, pos i norsource: []
+viselig_adv := adv-word-reg & 
+ [ STEM < "viselig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_viselig_adv_rel" ].
+
+;; adv, pos i norsource: []
+visselig_adv := adv-word-reg & 
+ [ STEM < "visselig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_visselig_adv_rel" ].
+
+;; adv, pos i norsource: []
+visst_adv := adv-word-reg & 
+ [ STEM < "visst" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_visst_adv_rel" ].
+
+;; adv, pos i norsource: []
+visst-nok_adv := adv-word-reg & 
+ [ STEM < "visst","nok" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_visst-nok_adv_rel" ].
+
+;; adv, pos i norsource: []
+visstnok_adv := adv-word-reg & 
+ [ STEM < "visstnok" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_visstnok_adv_rel" ].
+
+;; adv, pos i norsource: []
+vivace_adv := adv-word-reg & 
+ [ STEM < "vivace" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vivace_adv_rel" ].
+
+;; interj, pos i norsource: []
+vivat_interj := interjection-word & 
+ [ STEM < "vivat" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vivat_interj_rel" ].
+
+;; interj, pos i norsource: []
+voff_interj := interjection-word & 
+ [ STEM < "voff" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_voff_interj_rel" ].
+
+;; interj, pos i norsource: []
+voff-voff_interj := interjection-word & 
+ [ STEM < "voff-voff" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_voff-voff_interj_rel" ].
+
+;; prep, pos i norsource: []
+von_prep := prep-word-reg & 
+ [ STEM < "von" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_von_prep_rel" ].
+
+;; adv, pos i norsource: []
+vonlig_adv := adv-word-reg & 
+ [ STEM < "vonlig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vonlig_adv_rel" ].
+
+;; adv, pos i norsource: []
+vonom_adv := adv-word-reg & 
+ [ STEM < "vonom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vonom_adv_rel" ].
+
+;; adv, pos i norsource: []
+vonoms_adv := adv-word-reg & 
+ [ STEM < "vonoms" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vonoms_adv_rel" ].
+
+;; interj, pos i norsource: []
+vov_interj := interjection-word & 
+ [ STEM < "vov" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vov_interj_rel" ].
+
+;; interj, pos i norsource: []
+vov-vov_interj := interjection-word & 
+ [ STEM < "vov-vov" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vov-vov_interj_rel" ].
+
+;; adv, pos i norsource: []
+vrangsøles_adv := adv-word-reg & 
+ [ STEM < "vrangsøles" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vrangsøles_adv_rel" ].
+
+;; adv, pos i norsource: []
+ytterlig_adv := adv-word-reg & 
+ [ STEM < "ytterlig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ytterlig_adv_rel" ].
+
+;; interj, pos i norsource: []
+åhå_interj := interjection-word & 
+ [ STEM < "åhå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_åhå_interj_rel" ].
+
+;; adv, pos i norsource: []
+åkkesom_adv := adv-word-reg & 
+ [ STEM < "åkkesom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_åkkesom_adv_rel" ].
+
+;; adv, pos i norsource: []
+årevis_adv := adv-word-reg & 
+ [ STEM < "årevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_årevis_adv_rel" ].
+
+;; adv, pos i norsource: []
+;; adv, pos i norsource: []
+åssen_adv := adv-word-reg & 
+ [ STEM < "åssen" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_åssen_adv_rel" ].
+
+;; interj, pos i norsource: []
+æ_interj := interjection-word & 
+ [ STEM < "æ" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_æ_interj_rel" ].
+
+;; interj, pos i norsource: []
+æsj_interj := interjection-word & 
+ [ STEM < "æsj" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_æsj_interj_rel" ].
+
+;; adv, pos i norsource: []
+ørende_adv := adv-word-reg & 
+ [ STEM < "ørende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ørende_adv_rel" ].
+
+;; prep, pos i norsource: [n]
+øst_adv := adv-word-reg & 
+ [ STEM < "øst" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_øst_adv_rel" ].
+
+;; prep, pos i norsource: []
+østa_adv := adv-word-reg & 
+ [ STEM < "østa" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_østa_adv_rel" ].
+
+;; prep, pos i norsource: [adj]
+østafjells_adv := adv-word-reg & 
+ [ STEM < "østafjells" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_østafjells_adv_rel" ].
+
+;; prep, pos i norsource: []
+østafor_prep := prep-word-reg & 
+ [ STEM < "østafor" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_østafor_prep_rel" ].
+
+;; prep, pos i norsource: []
+østafra_adv := adv-word-reg & 
+ [ STEM < "østafra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_østafra_adv_rel" ].
+
+;; prep, pos i norsource: [adj]
+østenfjells_adv := adv-word-reg & 
+ [ STEM < "østenfjells" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_østenfjells_adv_rel" ].
+
+;; prep, pos i norsource: []
+østenfra_adv := adv-word-reg & 
+ [ STEM < "østenfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_østenfra_adv_rel" ].
+
+;; prep, pos i norsource: []
+østenom_prep := prep-word-reg & 
+ [ STEM < "østenom" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_østenom_prep_rel" ].
+
+;; prep, pos i norsource: []
+østetter_prep := prep-word-reg & 
+ [ STEM < "østetter" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_østetter_prep_rel" ].
+
+;; prep, pos i norsource: []
+østfra_adv := adv-word-reg & 
+ [ STEM < "østfra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_østfra_adv_rel" ].
+
+;; prep, pos i norsource: [adv]
+østover_adv := adv-word-reg & 
+ [ STEM < "østover" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_østover_adv_rel" ].
+
+;; prep, pos i norsource: []
+østpå_adv := adv-word-reg & 
+ [ STEM < "østpå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_østpå_adv_rel" ].
+
+;; prep, pos i norsource: []
+;; adv, pos i norsource: []
+øyensynlig_adv := adv-word-reg & 
+ [ STEM < "øyensynlig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_øyensynlig_adv_rel" ].
+
+;; adv, pos i norsource: []
+coolly_adv := adv-word-reg & 
+ [ STEM < "coolly" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_coolly_adv_rel" ].
+
+;; interj, pos i norsource: []
+kille_interj := interjection-word & 
+ [ STEM < "kille" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kille_interj_rel" ].
+
+;; adv, pos i norsource: []
+overimorgen_adv := adv-word-reg & 
+ [ STEM < "overimorgen" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_overimorgen_adv_rel" ].
+
+;; interj, pos i norsource: [n]
+pang_interj := interjection-word & 
+ [ STEM < "pang" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pang_interj_rel" ].
+
+;; interj, pos i norsource: []
+pardon_interj := interjection-word & 
+ [ STEM < "pardon" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pardon_interj_rel" ].
+
+;; interj, pos i norsource: []
+pro_interj := interjection-word & 
+ [ STEM < "pro" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pro_interj_rel" ].
+
+;; adv, pos i norsource: []
+unntagelsesvis_adv := adv-word-reg & 
+ [ STEM < "unntagelsesvis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_unntagelsesvis_adv_rel" ].
+
+;; interj, pos i norsource: []
+fyterakkern_interj := interjection-word & 
+ [ STEM < "fyterakkern" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fyterakkern_interj_rel" ].
+
+;; interj, pos i norsource: []
+hi_interj := interjection-word & 
+ [ STEM < "hi" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hi_interj_rel" ].
+
+;; adv, pos i norsource: []
+stetse_adv := adv-word-reg & 
+ [ STEM < "stetse" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_stetse_adv_rel" ].
+
+;; adv, pos i norsource: [n]
+stikk_adv := adv-word-reg & 
+ [ STEM < "stikk" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_stikk_adv_rel" ].
+
+;; adv, pos i norsource: []
+storlig_adv := adv-word-reg & 
+ [ STEM < "storlig" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_storlig_adv_rel" ].
+
+;; adv, pos i norsource: []
+benveges_adv := adv-word-reg & 
+ [ STEM < "benveges" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_benveges_adv_rel" ].
+
+;; adv, pos i norsource: []
+bunkevis_adv := adv-word-reg & 
+ [ STEM < "bunkevis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bunkevis_adv_rel" ].
+
+;; interj, pos i norsource: [adj]
+kvitt_interj := interjection-word & 
+ [ STEM < "kvitt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kvitt_interj_rel" ].
+
+;; interj, pos i norsource: []
+varsko_interj := interjection-word & 
+ [ STEM < "varsko" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_varsko_interj_rel" ].
+
+;; adv, pos i norsource: []
+da-capo_adv := adv-word-reg & 
+ [ STEM < "da","capo" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_da-capo_adv_rel" ].
+
+;; adv, pos i norsource: []
+beint-frem_adv := adv-word-reg & 
+ [ STEM < "beint","frem" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_beint-frem_adv_rel" ].
+
+;; adv, pos i norsource: []
+beintfrem_adv := adv-word-reg & 
+ [ STEM < "beintfrem" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_beintfrem_adv_rel" ].
+
+;; adv, pos i norsource: []
+beinveges_adv := adv-word-reg & 
+ [ STEM < "beinveges" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_beinveges_adv_rel" ].
+
+;; adv, pos i norsource: []
+beinvegs_adv := adv-word-reg & 
+ [ STEM < "beinvegs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_beinvegs_adv_rel" ].
+
+;; adv, pos i norsource: []
+beinveis_adv := adv-word-reg & 
+ [ STEM < "beinveis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_beinveis_adv_rel" ].
+
+;; adv, pos i norsource: []
+benvegs_adv := adv-word-reg & 
+ [ STEM < "benvegs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_benvegs_adv_rel" ].
+
+;; adv, pos i norsource: []
+benveis_adv := adv-word-reg & 
+ [ STEM < "benveis" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_benveis_adv_rel" ].
+
+;; adv, pos i norsource: []
+en-garde_adv := adv-word-reg & 
+ [ STEM < "en","garde" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_en-garde_adv_rel" ].
+
+;; adv, pos i norsource: []
+framåt_adv := adv-word-reg & 
+ [ STEM < "framåt" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_framåt_adv_rel" ].
+
+;; interj, pos i norsource: []
+jepp_interj := interjection-word & 
+ [ STEM < "jepp" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_jepp_interj_rel" ].
+
+;; adv, pos i norsource: []
+krittende_adv := adv-word-reg & 
+ [ STEM < "krittende" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_krittende_adv_rel" ].
+
+;; adv, pos i norsource: []
+mangesteds_adv := adv-word-reg & 
+ [ STEM < "mangesteds" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_mangesteds_adv_rel" ].
+
+;; adv, pos i norsource: []
+møkka_adv := adv-word-reg & 
+ [ STEM < "møkka" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_møkka_adv_rel" ].
+
+;; adv, pos i norsource: []
+subito_adv := adv-word-reg & 
+ [ STEM < "subito" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_subito_adv_rel" ].
+
+;; adv, pos i norsource: []
+tomrepes_adv := adv-word-reg & 
+ [ STEM < "tomrepes" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tomrepes_adv_rel" ].
+
+;; adv, pos i norsource: []
+medurs_adv := adv-word-reg & 
+ [ STEM < "medurs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_medurs_adv_rel" ].
+
+;; adv, pos i norsource: []
+moturs_adv := adv-word-reg & 
+ [ STEM < "moturs" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_moturs_adv_rel" ].
+
+; 649 adverbs
+; 130 preps
+; 200 interjections

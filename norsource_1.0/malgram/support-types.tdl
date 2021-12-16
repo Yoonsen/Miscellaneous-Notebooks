@@ -1,0 +1,21 @@
+;;----------------------------------------------------------------------------------------------;;
+;;	This file contains types to build 'support' rules - that is rules which						;;
+;;	by themselves are not MAL, but are only used in constructions that contain					;;
+;;	MAL-elements, in order to let the rest of the construction fuction as 						;;
+;;	normally as possible, despite the MAL-elements. 											;;
+;;----------------------------------------------------------------------------------------------;;
+
+;; Rule to add a s-adv to the left of a phrase with a mal-rule that removes the verb,
+;; i.e. to the right (as would be normal) of the non-existing verb.
+s-adv-to-lost-verbal-element-support-phrase := head-final & 
+[ SYNSEM.LOCAL.CAT #cat,
+  SYNSEM.LOCAL.CONT.HOOK.INDEX #index,
+  SYNSEM.NON-LOCAL #non-local,
+  NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD s-adv,
+  NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC < [LOCAL.CONT.HOOK.LTOP #arg1] >,
+  HEAD-DTR mal-lost-verbal-element-phrase & 
+	[SYNSEM.LOCAL.CAT #cat,
+	 SYNSEM.LOCAL.CONT.HOOK.INDEX #index,
+	 SYNSEM.LOCAL.CONT.HOOK.LTOP #arg1,
+	 SYNSEM.NON-LOCAL #non-local ] ].
+

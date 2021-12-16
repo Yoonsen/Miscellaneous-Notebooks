@@ -1,0 +1,4 @@
+på_sel_rule1 := generator_rule &
+ [ CONTEXT [ RELS <! [ PRED "selected_prep_rel" ] !> ],
+   FLAGS.TRIGGER "på_sel" ]. 
+

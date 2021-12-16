@@ -1,0 +1,119 @@
+;; mal determinative
+
+; Gender mismatch 1
+mal-n_spec-m_or_f_noun-head-spec-det-rule := mal-head-spec-det-phrase &
+[ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc-or-fem & [ NUM sing ],
+  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG neut & [ NUM sing ] ].
+
+; Gender mismatch 2
+mal-m_or_f_spec-n_noun-head-spec-det-rule := mal-head-spec-det-phrase &
+[ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG neutsg,
+  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG masc-or-fem & [ NUM sing ] ].
+
+; Gender mismatch 3
+
+mal-f_spec-m_noun-head-spec-det-rule := mal-head-spec-det-phrase &
+[ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc-sg,
+  NON-HEAD-DTR mal-art_for_dem-fem-sg-word & [ SYNSEM.LOCAL.AGR.PNG.NG fem & [ NUM sing ]] ].
+
+
+; Number mismatch 1
+mal-pl_spec-sg_noun-head-spec-det-rule := mal-head-spec-det-phrase &
+[ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG sg,
+  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG pl ].
+
+; Number mismatch 2
+mal-sg_spec-pl_noun-head-spec-det-rule := mal-head-spec-det-phrase &
+[ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG pl,
+  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG sg ].
+
+;; mal article
+
+mal-n_spec-m_noun-head-spec-art-rule := mal-head-spec-art-phrase &
+[ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc,
+  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG neut ].
+
+mal-fem_spec-m_noun-head-spec-art-rule := mal-head-spec-art-phrase &
+[ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc,
+  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG fem ].
+
+mal-n_spec-f_noun-head-spec-art-rule := mal-head-spec-art-phrase &
+[ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG fem,
+  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG neut ].
+
+mal-m_or_f_spec-n_noun-head-spec-art-rule := mal-head-spec-art-phrase &
+[ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG neutsg,
+  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG masc-or-fem ].
+
+;; mal quantor
+
+mal-n_spec-m_or_f_noun-head-spec-quantor-rule := mal-head-spec-quantor-phrase & 
+[ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc-or-fem & [ NUM #num ],
+  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG neut & [ NUM sing & #num ] ].
+
+mal-m_or_f_spec-n_noun-head-spec-quantor-rule := mal-head-spec-quantor-phrase & 
+[ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG neut & [ NUM #num ],
+  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG masc-or-fem & [ NUM sing & #num ] ].
+
+mal-pl_spec-sg_noun-head-spec-quantor-rule := mal-head-spec-quantor-phrase & 
+[ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG sg,
+  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG pl ].
+
+mal-sg_spec-pl_noun-head-spec-quantor-rule := mal-head-spec-quantor-phrase & 
+[ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG pl,
+  NON-HEAD-DTR.SYNSEM.LOCAL.AGR.PNG.NG sg ].
+
+;; Rules related to wrong use of inversion
+
+; LH080911: tentatively rule out, since they misfire a lot on the s-test-neg suite
+mal-head-subject-rule := mal-head-subject-phrase.
+mal-head-invertsubject-decl-rule := mal-head-invertsubject-decl-phrase.
+
+;; Rules related definite adj-n-constructions with a dropped det.
+
+mal-adjective-mod-def-neut-sg-rule := mal-adjective-mod-def-phrase &
+[ C-CONT.RELS <! [ PRED "_neutsg_deict_rel", ARG0.PNG.NG [GEN n, NUM sing]] !>  ].
+
+mal-adjective-mod-def-m-or-f-sg-rule := mal-adjective-mod-def-phrase &
+[ C-CONT.RELS <! [ PRED "_commsg_deict_rel", ARG0.PNG.NG [GEN m-or-f, NUM sing]] !>  ].
+
+mal-adjective-mod-def-plur-rule := mal-adjective-mod-def-phrase &
+[ C-CONT.RELS <! [ PRED "_pl_deict_rel", ARG0.PNG.NG.NUM plur] !>].
+
+;;;  Rules related to lacking elements, or elements in excess
+
+mal-vp-to-inf-cp-rule := mal-vp-to-inf-cp-phrase.
+mal-inf-cp-to-vp-rule := mal-inf-cp-to-vp-phrase.
+mal-pred-ap-to-copula-rule := mal-pred-ap-to-copula-phrase.
+mal-np-to-copula-rule := mal-np-to-copula-phrase.
+mal-pp-to-copula-rule := mal-pp-to-copula-phrase.
+mal-adv-to-copula-rule := mal-adv-to-copula-phrase. 
+mal-passive-form-to-passive-vp-rule := mal-passive-form-to-passive-vp-phrase.
+mal-subj-drop-rule := mal-subj-drop-phrase.
+
+
+;mal-np-obj-drop-rule := mal-np-obj-drop-phrase.
+
+#|
+;mal-3rd-refl-np-obj-drop-rule := mal-3rd-refl-np-obj-drop-phrase.
+;mal-2nd-sg-refl-np-obj-drop-rule := mal-2nd-pl-refl-np-obj-drop-phrase.
+;mal-2nd-pl-refl-np-obj-drop-rule := mal-2nd-sg-refl-np-obj-drop-phrase.
+;mal-1st-pl-refl-np-obj-drop-rule := mal-1st-pl-refl-np-obj-drop-phrase.
+;mal-1st-sg-refl-np-obj-drop-rule := mal-1st-sg-refl-np-obj-drop-phrase.
+|#
+
+mal-object-before-the-verb-rule := mal-object-before-the-verb-phrase.
+mal-redundant-med-with-sammen-rule := mal-redundant-med-with-sammen-phrase.
+;mal-np-in-sel-pp-drop-rule := mal-np-in-sel-pp-drop-phrase.
+;mal-vp-subcat-pp-for-np-rule := mal-vp-subcat-pp-for-np-phrase.
+;mal-vp-subcat-np-for-pp-rule := mal-vp-subcat-np-for-pp-phrase.
+mal-refl-pron-with-self-rule := mal-refl-pron-with-self-phrase.
+mal-perf-marker-drop-rule := mal-perf-marker-drop-phrase.
+mal-s-adv-sentence-final-rule := mal-s-adv-sentence-final-phrase.
+mal-quant-adv-final-rule := mal-quant-adv-final-phrase.
+mal-s-adv-sentence-initial-rule := mal-s-adv-sentence-initial-phrase.
+mal-possparticle-drop-rule := mal-possparticle-drop-phrase.
+
+;; 'Support'-rules
+
+s-adv-to-lost-verbal-element-support-rule := s-adv-to-lost-verbal-element-support-phrase.

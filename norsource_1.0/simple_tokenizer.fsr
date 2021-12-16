@@ -1,0 +1,54 @@
+;;; -*- mode: fundamental; coding: utf-8; indent-tabs-mode: t; -*-
+;;
+;; Same behaviour as repp/simple_tokenizer.rpp
+;; exept possession 's'
+;; REPP work on the entire string, FSPP (here) work with the tokens.
+;;
+;; fsr: 'buss' --> 'buss' og 'bus'+'s'
+;; rpp: 'buss' --> 'bus'+'s' token-mapping --> 'buss' og 'bus'+'s' 
+;
+;     regel	beskrivelse
+;	1	setter inn ' ' før og etter streng
+;	2	endre tabulator til ' '
+;	3	fjerner alle duplikate ' '
+;	4	fjerner * hvis først i streng
+;	5*	hvis token ender med 's' så splitt i 'token-s' +'s'
+;	6	hvis [:;!?.-]+' ' så splitt på siste tegn
+;	7	hvis [,"'] så splitt i ' '+tegn+' '
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; tokenization pattern: after normalization, the string will be broken up at
+;;; each occurrence of this pattern; the pattern match itself is deleted.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+:[ \t]+
+;;
+;; regel 1
+!^(.+)$					 \1 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; from here on, token-specific rules, i.e. the pattern has to match the full
+;;; string of the token (implicit `^' and `$' anchoring).  three types of rules
+;;; for now: (i) substitution (`-'), replacing the token with the right-hand
+;;; side match, (ii) augmentation (`+'), adding an alternative spelling for the
+;;; token, and ersatzing (`^'), effectively a substitution but recording what
+;;; the original string was for later retrieval 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; regel 2
+!\t								 
+;;
+;; regel 3
+! +								 
+;;
+;; regel 4
+!^ [*]						  
+;;
+;; regel 5
++([a-z,0-9,æ,ø,å,A-Z,Æ,Ø,Å,-]+)[sS]			 \1 s 
+;;
+;; regel 6
+!([:;!?\.-] )					 \1 
+;;
+;; regel 7
+!([,"'])					 \1 
+;;
+

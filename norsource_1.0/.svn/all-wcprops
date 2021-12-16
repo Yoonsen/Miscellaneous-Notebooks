@@ -1,0 +1,449 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/norsource/!svn/ver/291/lkb_grammars/norsource_1.0
+END
+lex-types-v-with-icomps.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/norsource/!svn/ver/217/lkb_grammars/norsource_1.0/lex-types-v-with-icomps.tdl
+END
+lex4.abbrev-lrg.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/norsource/!svn/ver/282/lkb_grammars/norsource_1.0/lex4.abbrev-lrg.tdl
+END
+exp-types.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/exp-types.tdl
+END
+matrix.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/norsource/!svn/ver/277/lkb_grammars/norsource_1.0/matrix.tdl
+END
+lex4.propn.by_navn.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/norsource/!svn/ver/227/lkb_grammars/norsource_1.0/lex4.propn.by_navn.tdl
+END
+v-types-add-SLASH.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/norsource/!svn/ver/201/lkb_grammars/norsource_1.0/v-types-add-SLASH.tdl
+END
+lex4.propn.kommune_navn.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/norsource/!svn/ver/227/lkb_grammars/norsource_1.0/lex4.propn.kommune_navn.tdl
+END
+rules-norsource.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/rules-norsource.tdl
+END
+lex4.propn.land_navn.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/norsource/!svn/ver/227/lkb_grammars/norsource_1.0/lex4.propn.land_navn.tdl
+END
+lex2.semlab.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/lex2.semlab.tdl
+END
+malscript
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/malscript
+END
+lex1.close.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/norsource/!svn/ver/291/lkb_grammars/norsource_1.0/lex1.close.tdl
+END
+lex4.a-lrg.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/norsource/!svn/ver/284/lkb_grammars/norsource_1.0/lex4.a-lrg.tdl
+END
+irules-a.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/norsource/!svn/ver/279/lkb_grammars/norsource_1.0/irules-a.tdl
+END
+dummy-lex.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/dummy-lex.tdl
+END
+pet.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/norsource/!svn/ver/282/lkb_grammars/norsource_1.0/pet.tdl
+END
+normal.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/norsource/!svn/ver/282/lkb_grammars/norsource_1.0/normal.tdl
+END
+lex4.n-lrg.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/norsource/!svn/ver/290/lkb_grammars/norsource_1.0/lex4.n-lrg.tdl
+END
+irules-n.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/norsource/!svn/ver/283/lkb_grammars/norsource_1.0/irules-n.tdl
+END
+bt.mem
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/bt.mem
+END
+lex4.propn.jentenavn.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/norsource/!svn/ver/227/lkb_grammars/norsource_1.0/lex4.propn.jentenavn.tdl
+END
+lex4.v-lrg.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/norsource/!svn/ver/278/lkb_grammars/norsource_1.0/lex4.v-lrg.tdl
+END
+labels.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/norsource/!svn/ver/278/lkb_grammars/norsource_1.0/labels.tdl
+END
+tmr.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/norsource/!svn/ver/264/lkb_grammars/norsource_1.0/tmr.tdl
+END
+matrix.tdlold
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/matrix.tdlold
+END
+tmt.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/norsource/!svn/ver/121/lkb_grammars/norsource_1.0/tmt.tdl
+END
+lex_ordbank_n.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/norsource/!svn/ver/288/lkb_grammars/norsource_1.0/lex_ordbank_n.tdl
+END
+irules-v.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/norsource/!svn/ver/113/lkb_grammars/norsource_1.0/irules-v.tdl
+END
+norsource.mem
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/norsource.mem
+END
+lex_ordbank_v.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/norsource/!svn/ver/289/lkb_grammars/norsource_1.0/lex_ordbank_v.tdl
+END
+lex4.lextuc.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/lex4.lextuc.tdl
+END
+trigger.mtr
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/trigger.mtr
+END
+lex4.propn.guttenavn.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/norsource/!svn/ver/227/lkb_grammars/norsource_1.0/lex4.propn.guttenavn.tdl
+END
+lex4.interj-lrg.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/lex4.interj-lrg.tdl
+END
+lex4.propn1.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/lex4.propn1.tdl
+END
+local-fns.sql
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/local-fns.sql
+END
+lex4.propn2.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/norsource/!svn/ver/139/lkb_grammars/norsource_1.0/lex4.propn2.tdl
+END
+lex3.p-adv-lean.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/lex3.p-adv-lean.tdl
+END
+mtr.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/mtr.tdl
+END
+comments
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/norsource/!svn/ver/215/lkb_grammars/norsource_1.0/comments
+END
+lrules.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/norsource/!svn/ver/213/lkb_grammars/norsource_1.0/lrules.tdl
+END
+roots.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/norsource/!svn/ver/207/lkb_grammars/norsource_1.0/roots.tdl
+END
+lex3.v-troll.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/lex3.v-troll.tdl
+END
+irules-deriv.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/irules-deriv.tdl
+END
+irregs.tab
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/norsource/!svn/ver/209/lkb_grammars/norsource_1.0/irregs.tab
+END
+mhs comments 13
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/norsource/!svn/ver/268/lkb_grammars/norsource_1.0/mhs%20comments%2013
+END
+rules-common.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/rules-common.tdl
+END
+paraphraser.mtr
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/paraphraser.mtr
+END
+lex4.propn.fylkesnavn.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/norsource/!svn/ver/227/lkb_grammars/norsource_1.0/lex4.propn.fylkesnavn.tdl
+END
+now-lex.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/now-lex.tdl
+END
+rules.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/norsource/!svn/ver/282/lkb_grammars/norsource_1.0/rules.tdl
+END
+norsk.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/norsource/!svn/ver/290/lkb_grammars/norsource_1.0/norsk.tdl
+END
+lex-types-v.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/norsource/!svn/ver/271/lkb_grammars/norsource_1.0/lex-types-v.tdl
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/LICENSE
+END
+Version.lsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/norsource/!svn/ver/279/lkb_grammars/norsource_1.0/Version.lsp
+END
+predsort.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/norsource/!svn/ver/190/lkb_grammars/norsource_1.0/predsort.tdl
+END
+predsort_for_standardMtrx.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/predsort_for_standardMtrx.tdl
+END
+lextuc.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/norsource/!svn/ver/69/lkb_grammars/norsource_1.0/lextuc.tdl
+END
+mal.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/mal.txt
+END
+preprocessor.no.fsr
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/preprocessor.no.fsr
+END
+generation.mtr
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/generation.mtr
+END
+lex2.open.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/norsource/!svn/ver/284/lkb_grammars/norsource_1.0/lex2.open.tdl
+END
+mhs comments
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/mhs%20comments
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/README
+END
+semi.vpm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/semi.vpm
+END
+lex4.propn.etternavn.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/norsource/!svn/ver/282/lkb_grammars/norsource_1.0/lex4.propn.etternavn.tdl
+END
+lex3.p-adv-full.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/norsource/!svn/ver/284/lkb_grammars/norsource_1.0/lex3.p-adv-full.tdl
+END
+Version.lsp.fasl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/Version.lsp.fasl
+END
+transfer.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/transfer.tdl
+END
+norsource_68.mem
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/norsource/!svn/ver/69/lkb_grammars/norsource_1.0/norsource_68.mem
+END
+smaf.conf
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/smaf.conf
+END
+lex_ordbank_other.tdl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/norsource/!svn/ver/286/lkb_grammars/norsource_1.0/lex_ordbank_other.tdl
+END
+simple_tokenizer.fsr
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/simple_tokenizer.fsr
+END
+norsk.tdlold
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/norsk.tdlold
+END

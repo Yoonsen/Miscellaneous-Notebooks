@@ -1,0 +1,69 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource -
+;;; 
+;;;    Copyright (c)  NorSource 1.0
+;;;                     
+;;;
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;
+   
+;;;                   rules-norsource.tdl
+;;;
+;;;  Types for phrasal combination specific to non-mal NorSource
+;;;  
+;;;
+
+;;;; 250311 MHS
+;; app, imp, correl all commented out.
+
+
+apposition-rule := apposition-phrase.
+
+imperative-rule := imperative-phrase.
+
+correlative-interjct-rule := correlative-interjct-phrase.
+
+correlative-interjct-comma-rule := correlative-interjct-comma-phrase.
+
+free-subjpred-rule := free-subjpred-phrase.
+free-objpred-rule := free-objpred-phrase.
+
+#|
+agentive-genitive-np-rule := agentive-genitive-np-phrase.
+agentive-genitive-posspron-rule := agentive-genitive-posspron-phrase.
+undergoer-genitive-np-rule := undergoer-genitive-np-phrase.
+undergoer-genitive-posspron-rule := undergoer-genitive-posspron-phrase.
+actor-genitive-np-rule := actor-genitive-np-phrase.
+actor-genitive-posspron-rule := actor-genitive-posspron-phrase.
+theme-genitive-np-rule := theme-genitive-np-phrase.
+theme-genitive-posspron-rule := theme-genitive-posspron-phrase.
+relational-genitive-np-rule := relational-genitive-np-phrase.
+relational-genitive-posspron-rule := relational-genitive-posspron-phrase.
+|#
+
+
+#|
+disc-firstsingdeveloper-rule := disc-firstsingdeveloper-phrase.
+disc-mediasresdeveloper-rule := disc-mediasresdeveloper-phrase.
+disc-presentdeveloper-rule := disc-presentdeveloper-phrase.
+disc-secondsingdeveloper-rule := disc-secondsingdeveloper-phrase.
+disc-secondpresdeveloper-rule := disc-secondpresdeveloper-phrase.
+disc-scenedeveloper-pres-rule := disc-scenedeveloper-pres-phrase.
+disc-scenedeveloper-reg-rule := disc-scenedeveloper-reg-phrase.
+disc-secondscenedeveloper-pron-rule := disc-secondscenedeveloper-pron-phrase.
+disc-secondscenedeveloper-reg-rule := disc-secondscenedeveloper-reg-phrase.
+disc-secondscenedeveloper-mix-rule := disc-secondscenedeveloper-mix-phrase.
+disc-shortphr-subj-response-rule := disc-shortphr-subj-response-phrase.
+disc-shortphr-obj-response-rule := disc-shortphr-obj-response-phrase.
+disc-shortphr-obl-response-rule := disc-shortphr-obl-response-phrase.
+disc-shortphr-auxembobj-response-rule := disc-shortphr-auxembobj-response-phrase.
+disc-shortphr-auxembobl-response-rule := disc-shortphr-auxembobl-response-phrase.
+disc-shortaddedinfo-subj-rule := disc-shortaddedinfo-subj-phrase.
+disc-shortaddedinfo-obj-rule := disc-shortaddedinfo-obj-phrase.
+disc-shortaddedinfo-obl-rule := disc-shortaddedinfo-obl-phrase.
+disc-shortaddedinfo-auxembobj-rule := disc-shortaddedinfo-auxembobj-phrase.
+disc-shortaddedinfo-auxembobl-rule := disc-shortaddedinfo-auxembobl-phrase.
+|#
+

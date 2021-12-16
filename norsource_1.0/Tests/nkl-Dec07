@@ -1,0 +1,113 @@
+1 det buldrer 2 50
+2 det rabler for ham 2 107
+3 det kvakk i henne 2 143
+4 det løper en hund opp bakken 1 188
+5 det sitter en hund på trappen 3 399
+6 det kommer en mann 1 146
+7 det aner meg at jon smiler 2 117
+8 de tenker 1 65
+9 de krangler 1 32
+10 han fryser 1 38
+11 brevet ankommer 1 16
+12 han stoler på jon 1 178
+13 jon kakker på døra 4 178
+14 jon truer med at han smiler 1 126
+15 de bytter på å smile 4 247
+16 jon lengter etter kari 1 68
+17 jon tviler på at kari smiler 4 186
+18 jon frastår fra å smile 2 120
+19 jon lurer på hva som skal skje 2 332
+20 resultatet avhenger av at jon kommer 2 135
+21 jon bor i byen 2 143
+22 jon avhenger av å smile 2 110
+23 jon jobber som lærer 5 186
+24 jon later som han er syk 2 145
+25 jon later som om han er syk 1 223
+26 jon framstår som en god lærer 1 194
+27 kaffen lukter is 2 171
+28 kaffen lukter godt 1 78
+29 jon er lærer 2 143
+30 jon er snill 1 57
+31 jon livner til 1 36
+32 jon kler på seg 9 250
+33 jon fyrer opp 1 47
+34 jon labber til byen 1 63
+35 bilen slingrer nedover veien 1 48
+36 han gleder naboen 1 47
+37 mannen kjøpte en bil 3 222
+38 han bygger hus 4 148
+39 han sa at han kommer 1 107
+40 jon prøver å komme 1 132
+41 de diskuterer hva som skjedde 1 147
+42 han foretrekker opera 2 76
+43 han hater at kari smiler 1 65
+44 han hater å smile 1 64
+45 jon arver en skog 1 78
+46 han vet hva som skjedde 3 135
+47 saken irriterer gutten 1 45
+48 svampen absorberer vann 2 62
+49 saken gjelder gutten 1 36
+50 kari byr jon på is 23 821
+51 kari ansporer jon til å smile 1 94
+52 harald samlet norge til et rike 2 281
+53 kari gir en bok til jon 9 500
+54 Jon arver en skog fra kari 4 257
+55 han opphøyer seg til gud 3 142
+56 han begraver seg i arbeid 4 187
+57 han forlover seg med noen 1 71
+58 stolen avtegnet seg mot taket 2 151
+59 jon setter koppen på bordet 7 394
+60 jon anser kari for å være snill 1 214
+61 kari ser jon komme 1 189
+62 Kari lar noe være usagt 4 221
+63 Jon maler stolen grønn 3 86
+64 jon gasjerte kari høyt 1 76
+65 Jon får tilbake pengene 2 70
+66 jon kler jakken på seg 12 341
+67 jon kler på seg jakken 12 336
+68 jon later etter seg noe 0 102
+69 jon dresser seg opp 1 102
+70 jon kreker seg fram 2 37
+71 jon får pengene igjen 2 106
+72 jon kaller ham en tosk 2 123
+73 jon verdsetter stolen til en krone 3 199
+74 jon anfører stolen som bevis 6 153
+75 jon kaller ham for en tosk 12 214
+76 jon kaller seg direktør 2 125
+77 jon kaller seg snill 1 113
+78 jon kasserer inn pengene 2 53
+79 jon klamrer seg til pengene 2 85
+80 jon kanaliserer vannet til skogen 3 221
+81 jon skrubber henne på ryggen 2 161
+82 kari gir ham en bok 1 103
+83 kari bemektiget seg skogen 1 54
+84 per lovet jon at han skulle komme 2 233
+85 per tenker seg at noe skjer 1 109
+86 per lovet jon å komme 2 202
+87 per pålegger jon å komme 1 112
+88 per lar dem komme 2 102
+89 jon kan tenke seg å komme 1 197
+90 jon kylte henne en snøball i nakken 1 187
+91 jon ombestemmer seg 1 25
+92 de samrår seg 1 35
+93 de skammer seg 1 44
+94 blodet kaker seg 1 33
+95 jon bemøyer seg med isen 2 67
+96 jon nedlater seg til å smile 1 90
+97 kari gleder seg over isen 3 126
+98 kari gleder seg over at per kommer 1 161
+99 kari gleder seg over å smile 1 129
+100 oppskriften baserer seg på frukt 38 344
+101 summen beløper seg til en krone 2 144
+102 jon åpenbarte seg som en god lærer 4 386
+103 saken arter seg merkelig 1 102
+104 jon lar seg lure 0 90
+105 jon blir beundret 1 69
+106 jon har beundret kari 1 96
+107 jon kan smile 1 40
+
+;;; Total CPU time: 59620 msecs
+
+;;; Mean edges: 146.11
+
+;;; Mean parses: 2.78

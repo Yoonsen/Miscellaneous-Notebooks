@@ -1,0 +1,31 @@
+1 gå fremover 1 64
+2 gå til høyre 8 243
+3 gå to meter 1 128
+4 gå to meter fremover 2 144
+5 gå fremover to meter 1 135
+6 gå til rute fem 1 160
+7 gå fremover til rute fem 1 166
+8 gå to meter rett fremover 6 369
+9 gå litt til høyre 24 587
+10 gå nitti grader til høyre 4 357
+11 gå fire meter nitti grader til høyre 73 1669
+12 gå to meter fremover, deretter nitti grader til høyre 2 457
+13 gå to meter fremover, og deretter nitti grader til høyre 2 429
+14 gå to meter fremover, deretter tre meter nitti grader til høyre 0 6025
+15 gå to meter fremover, så nitti grader til høyre 268 2381
+16 drei rundt 2 94
+17 drei nitti grader til høyre 4 325
+18 drei til høyre nitti grader 3 405
+19 drei ett hundre og tyve grader til venstre 51 882
+20 gå fremover til rute fem  1 166
+21 gå fremover via rute tre til rute fem  7 400
+22 gå fremover gjennom rute tre til rute fem  7 403
+23 gå fremover til rute fem via rute tre 4 338
+24 gå fremover i fem sekunder 1 204
+25 gå fremover i fem sekunder, så drei nitti grader til høyre og gå i fire sekunder 0 8978
+
+;;; Total CPU time: 31350 msecs
+
+;;; Mean edges: 1020.36
+
+;;; Mean parses: 18.96

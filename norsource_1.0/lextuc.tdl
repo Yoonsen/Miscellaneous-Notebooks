@@ -1,0 +1,100 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource -
+;;; 
+;;;    Copyright (c)  NorSource version 0.3
+;;;                       2004-2006 
+;;;
+;;;    Lars Hellan, Dorothee Beermann, Ben Waldron
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    <norsource@hf.ntnu.no>
+;;;
+
+:begin :type.
+
+;;
+;; type hierarchy
+;;
+
+:include "matrix".
+:include "norsk".
+:include "exp-types".
+:include "lex-types-v".
+:include "v-types-add-SLASH.tdl".
+:include "predsort".
+;:include "norskpredsort".
+;:include "infl-codes".
+;:include "inflections.uniq".
+;:include "out.txt".
+;:include "out.txt.new".
+:include "mtr".
+;;; DPF addenda
+
+:include "tmt".
+:begin :instance :status token-mapping-rule.
+:include "tmr".
+:end :instance.
+:end :type.
+
+;;
+;; lexicon entries (instances of status lex-entry or generic-lex-entry)
+;;
+
+:begin :instance :status lex-entry.
+;:include "BigLex/LexDB:nor.NorSource.lex4.n-lrg.tdl".
+;:include "BigLex/LexDB:nor.NorSource.lex4.a-lrg.tdl".
+;:include "BigLex/LexDB:nor.NorSource.lex4.v-lrg.tdl".
+;:include "BigLex/LexDB:nor.NorSource.lex4.interj-lrg.tdl".
+;:include "BigLex/lex4.na-lrg.tdl".
+;:include "BigLex/lex4.v-lrg.tdl".
+:include "lex1.close.tdl" .
+:include "lex2.open.tdl" .
+;:include "lex2.semlab.tdl" .
+:include "lex3.p-adv-full.tdl" .
+:include "lex4.propn1.tdl" .
+:include "lex4.propn2.tdl" .
+;;:include "lex4.n-lrg.tdl".
+:include "lex4.a-lrg.tdl".
+:include "lex4.v-lrg.tdl".
+;:include "lex4.interj-lrg.tdl".
+;:include "malgram/mal-closed-lex.tdl".
+:end :instance.
+
+;;lex.ff
+;; grammar rules and lexical rules (instances of status rule)
+;;
+
+:begin :instance :status rule.
+:include "rules".
+;:include "malgram/rules-mal".
+:end :instance.
+
+:begin :instance :status lex-rule.
+:include "lrules".
+:include "irules-v".
+:include "irules-n".
+:include "irules-a".
+:include "irules-deriv".
+;:include "malgram/irules-mal".
+;:include "malgram/lrules-mal".
+:end :instance.
+
+;;
+;; parse-tree labels (instances)
+;;
+
+:begin :instance.
+:include "labels".
+:end :instance.
+
+;;
+;; start symbols of the grammar (instances)
+;;
+
+:begin :instance.
+:include "roots".
+:end :instance.
+
+
+

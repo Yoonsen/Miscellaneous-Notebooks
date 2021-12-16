@@ -1,0 +1,1815 @@
+agdenes_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Agdenes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Agdenes" ].
+
+alstahaug_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Alstahaug" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alstahaug" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+alta_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Alta" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alta" ].
+
+alvdal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Alvdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alvdal" ].
+
+andebu_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Andebu" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Andebu" ].
+
+andøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Andøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Andøy" ].
+
+aremark_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Aremark" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Aremark" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+arendal_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Arendal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Arendal" ].
+
+asker_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Asker" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Asker" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+askim_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Askim" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Askim" ].
+
+askvoll_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Askvoll" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Askvoll" ].
+
+askøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Askøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Askøy" ].
+
+audnedal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Audnedal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Audnedal" ].
+
+aukra_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Aukra" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Aukra" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+aure_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Aure" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Aure" ].
+
+aurland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Aurland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Aurland" ].
+
+aurskog-høland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Aurskog-Høland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Aurskog-Høland" ].
+
+austevoll_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Austevoll" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Austevoll" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+austrheim_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Austrheim" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Austrheim" ].
+
+averøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Averøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Averøy" ].
+
+balestrand_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Balestrand" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Balestrand" ].
+
+ballangen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ballangen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ballangen" ].
+
+balsfjord_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Balsfjord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Balsfjord" ].
+
+bamble_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bamble" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bamble" ].
+
+bardu_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bardu" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bardu" ].
+
+beiarn_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Beiarn" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Beiarn" ].
+
+berg_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Berg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Berg" ].
+
+;; found in lexicon  lex4.propn2
+;;bergen_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Bergen" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Bergen" ].
+
+berlevåg_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Berlevåg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Berlevåg" ].
+
+bindal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bindal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bindal" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+birkenes_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Birkenes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Birkenes" ].
+
+bjerkreim_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bjerkreim" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bjerkreim" ].
+
+bjugn_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bjugn" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bjugn" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+bodø_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bodø" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bodø" ].
+
+bokn_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bokn" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bokn" ].
+
+bremanger_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bremanger" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bremanger" ].
+
+brønnøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Brønnøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Brønnøy" ].
+
+bygland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bygland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bygland" ].
+
+bykle_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bykle" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bykle" ].
+
+bærum_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bærum" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bærum" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+bø_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bø" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bø" ].
+
+bømlo_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Bømlo" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bømlo" ].
+
+båtsfjord_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Båtsfjord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Båtsfjord" ].
+
+dovre_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Dovre" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Dovre" ].
+
+;; found in lexicon  lex4.propn2
+;;drammen_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Drammen" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Drammen" ].
+
+drangedal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Drangedal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Drangedal" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+dyrøy_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Dyrøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Dyrøy" ].
+
+dønna_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Dønna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Dønna" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+eid_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Eid" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eid" ].
+
+eide_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Eide" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eide" ].
+
+eidfjord_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Eidfjord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eidfjord" ].
+
+eidsberg_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Eidsberg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eidsberg" ].
+
+eidskog_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Eidskog" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eidskog" ].
+
+eidsvoll_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Eidsvoll" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eidsvoll" ].
+
+eigersund_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Eigersund" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eigersund" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+elverum_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Elverum" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Elverum" ].
+
+enebakk_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Enebakk" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Enebakk" ].
+
+engerdal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Engerdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Engerdal" ].
+
+etne_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Etne" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Etne" ].
+
+etnedal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Etnedal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Etnedal" ].
+
+evenes_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Evenes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Evenes" ].
+
+evje_og_hornnes_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Evje", "og", "Hornnes">,
+    SYNSEM.LKEYS.KEYREL.CARG "Evje_og_Hornnes" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+farsund_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Farsund" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Farsund" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+fauske_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Fauske" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fauske" ].
+
+fedje_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Fedje" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fedje" ].
+
+fet_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Fet" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fet" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+finnøy_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Finnøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Finnøy" ].
+
+fitjar_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Fitjar" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fitjar" ].
+
+fjaler_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Fjaler" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fjaler" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+fjell_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Fjell" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fjell" ].
+
+flakstad_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Flakstad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Flakstad" ].
+
+flatanger_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Flatanger" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Flatanger" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+flekkefjord_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Flekkefjord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Flekkefjord" ].
+
+flesberg_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Flesberg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Flesberg" ].
+
+flora_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Flora" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Flora" ].
+
+flå_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Flå" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Flå" ].
+
+folldal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Folldal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Folldal" ].
+
+forsand_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Forsand" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Forsand" ].
+
+fosnes_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Fosnes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fosnes" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+fredrikstad_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Fredrikstad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fredrikstad" ].
+
+frogn_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Frogn" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Frogn" ].
+
+froland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Froland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Froland" ].
+
+frosta_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Frosta" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Frosta" ].
+
+fræna_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Fræna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fræna" ].
+
+;; name problem found in lexicon  lex4.propn.jentenavn
+frøya_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Frøya" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Frøya" ].
+
+fusa_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Fusa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fusa" ].
+
+fyresdal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Fyresdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fyresdal" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+førde_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Førde" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Førde" ].
+
+gamvik_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Gamvik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gamvik" ].
+
+gaular_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Gaular" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gaular" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+gausdal_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Gausdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gausdal" ].
+
+gildeskål_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Gildeskål" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gildeskål" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+giske_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Giske" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Giske" ].
+
+gjemnes_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Gjemnes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gjemnes" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+gjerdrum_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Gjerdrum" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gjerdrum" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+gjerstad_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Gjerstad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gjerstad" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+gjesdal_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Gjesdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gjesdal" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+gjøvik_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Gjøvik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gjøvik" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+gloppen_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Gloppen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gloppen" ].
+
+gol_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Gol" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gol" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+gran_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Gran" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gran" ].
+
+grane_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Grane" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Grane" ].
+
+granvin_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Granvin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Granvin" ].
+
+gratangen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Gratangen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gratangen" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+grimstad_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Grimstad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Grimstad" ].
+
+grong_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Grong" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Grong" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+grue_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Grue" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Grue" ].
+
+gulen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Gulen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gulen" ].
+
+hadsel_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hadsel" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hadsel" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+halden_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Halden" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Halden" ].
+
+halsa_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Halsa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Halsa" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+hamar_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hamar" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hamar" ].
+
+hamarøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hamarøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hamarøy" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+hammerfest_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hammerfest" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hammerfest" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+haram_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Haram" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Haram" ].
+
+hareid_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hareid" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hareid" ].
+
+;; found in lexicon  lex4.propn2
+;;harstad_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Harstad" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Harstad" ].
+
+hasvik_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hasvik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hasvik" ].
+
+hattfjelldal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hattfjelldal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hattfjelldal" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+haugesund_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Haugesund" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Haugesund" ].
+
+hemne_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hemne" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hemne" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+hemnes_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hemnes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hemnes" ].
+
+hemsedal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hemsedal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hemsedal" ].
+
+herøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Herøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Herøy" ].
+
+hitra_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hitra" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hitra" ].
+
+hjartdal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hjartdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hjartdal" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+hjelmeland_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hjelmeland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hjelmeland" ].
+
+hobøl_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hobøl" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hobøl" ].
+
+hof_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hof" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hof" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+hol_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hol" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hol" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+hole_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hole" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hole" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+holmestrand_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Holmestrand" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Holmestrand" ].
+
+holtålen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Holtålen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Holtålen" ].
+
+hornindal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hornindal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hornindal" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+horten_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Horten" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Horten" ].
+
+hurdal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hurdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hurdal" ].
+
+hurum_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hurum" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hurum" ].
+
+hvaler_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hvaler" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hvaler" ].
+
+hyllestad_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hyllestad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hyllestad" ].
+
+hægebostad_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hægebostad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hægebostad" ].
+
+høyanger_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Høyanger" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Høyanger" ].
+
+høylandet_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Høylandet" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Høylandet" ].
+
+hå_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hå" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hå" ].
+
+ibestad_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ibestad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ibestad" ].
+
+inderøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Inderøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Inderøy" ].
+
+iveland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Iveland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Iveland" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+jevnaker_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Jevnaker" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Jevnaker" ].
+
+jondal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Jondal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Jondal" ].
+
+jølster_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Jølster" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Jølster" ].
+
+karasjok_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Karasjok" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Karasjok" ].
+
+karlsøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Karlsøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Karlsøy" ].
+
+karmøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Karmøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Karmøy" ].
+
+kautokeino_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kautokeino" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kautokeino" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+klepp_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Klepp" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Klepp" ].
+
+klæbu_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Klæbu" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Klæbu" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+kongsberg_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kongsberg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kongsberg" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+kongsvinger_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kongsvinger" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kongsvinger" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+kragerø_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kragerø" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kragerø" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+kristiansand_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kristiansand" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kristiansand" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+kristiansund_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kristiansund" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kristiansund" ].
+
+krødsherad_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Krødsherad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Krødsherad" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+kvalsund_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kvalsund" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kvalsund" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+kvam_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kvam" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kvam" ].
+
+kvinesdal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kvinesdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kvinesdal" ].
+
+kvinnherad_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kvinnherad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kvinnherad" ].
+
+kviteseid_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kviteseid" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kviteseid" ].
+
+kvitsøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kvitsøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kvitsøy" ].
+
+kvæfjord_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kvæfjord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kvæfjord" ].
+
+kvænangen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kvænangen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kvænangen" ].
+
+kåfjord_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Kåfjord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kåfjord" ].
+
+lardal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lardal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lardal" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+larvik_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Larvik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Larvik" ].
+
+lavangen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lavangen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lavangen" ].
+
+lebesby_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lebesby" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lebesby" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+leikanger_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Leikanger" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Leikanger" ].
+
+leirfjord_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Leirfjord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Leirfjord" ].
+
+leka_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Leka" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Leka" ].
+
+leksvik_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Leksvik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Leksvik" ].
+
+lenvik_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lenvik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lenvik" ].
+
+lesja_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lesja" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lesja" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+levanger_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Levanger" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Levanger" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+lier_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lier" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lier" ].
+
+lierne_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lierne" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lierne" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+lillehammer_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lillehammer" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lillehammer" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+lillesand_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lillesand" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lillesand" ].
+
+lindesnes_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lindesnes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lindesnes" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+lindås_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lindås" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lindås" ].
+
+;; found in lexicon  lex4.propn2
+;;lom_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Lom" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Lom" ].
+
+loppa_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Loppa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Loppa" ].
+
+lund_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lund" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lund" ].
+
+lunner_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lunner" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lunner" ].
+
+lurøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lurøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lurøy" ].
+
+luster_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Luster" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Luster" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+lyngdal_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lyngdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lyngdal" ].
+
+lyngen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lyngen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lyngen" ].
+
+lærdal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lærdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lærdal" ].
+
+lødingen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lødingen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lødingen" ].
+
+lørenskog_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Lørenskog" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lørenskog" ].
+
+løten_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Løten" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Løten" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+malvik_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Malvik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Malvik" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+mandal_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Mandal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mandal" ].
+
+marker_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Marker" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Marker" ].
+
+marnardal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Marnardal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Marnardal" ].
+
+masfjorden_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Masfjorden" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Masfjorden" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+meland_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Meland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Meland" ].
+
+meldal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Meldal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Meldal" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+melhus_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Melhus" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Melhus" ].
+
+meløy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Meløy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Meløy" ].
+
+meråker_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Meråker" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Meråker" ].
+
+midsund_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Midsund" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Midsund" ].
+
+midtre_gauldal_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Midtre", "Gauldal">,
+    SYNSEM.LKEYS.KEYREL.CARG "Midtre_Gauldal" ].
+
+modalen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Modalen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Modalen" ].
+
+modum_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Modum" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Modum" ].
+
+;; found in lexicon  lex4.propn2
+;;molde_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Molde" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Molde" ].
+
+moskenes_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Moskenes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Moskenes" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+moss_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Moss" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Moss" ].
+
+målselv_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Målselv" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Målselv" ].
+
+måsøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Måsøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Måsøy" ].
+
+namdalseid_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Namdalseid" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Namdalseid" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+namsos_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Namsos" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Namsos" ].
+
+namsskogan_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Namsskogan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Namsskogan" ].
+
+nannestad_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nannestad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nannestad" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+narvik_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Narvik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Narvik" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+naustdal_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Naustdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Naustdal" ].
+
+nedre_eiker_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Nedre", "Eiker">,
+    SYNSEM.LKEYS.KEYREL.CARG "Nedre_Eiker" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+nes_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nes" ].
+
+nesna_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nesna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nesna" ].
+
+nesodden_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nesodden" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nesodden" ].
+
+nesseby_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nesseby" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nesseby" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+nesset_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nesset" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nesset" ].
+
+nissedal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nissedal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nissedal" ].
+
+nittedal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nittedal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nittedal" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+nome_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nome" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nome" ].
+
+nord-aurdal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nord-Aurdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nord-Aurdal" ].
+
+norddal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Norddal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Norddal" ].
+
+nord-fron_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nord-Fron" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nord-Fron" ].
+
+nordkapp_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nordkapp" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nordkapp" ].
+
+nord-odal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nord-Odal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nord-Odal" ].
+
+nordre_land_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Nordre", "Land">,
+    SYNSEM.LKEYS.KEYREL.CARG "Nordre_Land" ].
+
+nordreisa_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nordreisa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nordreisa" ].
+
+nore_og_uvdal_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Nore", "og", "Uvdal">,
+    SYNSEM.LKEYS.KEYREL.CARG "Nore_og_Uvdal" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+notodden_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Notodden" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Notodden" ].
+
+nærøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nærøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nærøy" ].
+
+nøtterøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nøtterøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nøtterøy" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+odda_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Odda" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Odda" ].
+
+oppdal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Oppdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Oppdal" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+oppegård_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Oppegård" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Oppegård" ].
+
+orkdal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Orkdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Orkdal" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+os_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Os" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Os" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+osen_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Osen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Osen" ].
+
+;; found in lexicon  lex4.propn2
+;;oslo_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Oslo" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Oslo" ].
+
+osterøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Osterøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Osterøy" ].
+
+overhalla_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Overhalla" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Overhalla" ].
+
+porsanger_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Porsanger" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Porsanger" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+porsgrunn_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Porsgrunn" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Porsgrunn" ].
+
+radøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Radøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Radøy" ].
+
+rakkestad_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Rakkestad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rakkestad" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+rana_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Rana" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rana" ].
+
+randaberg_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Randaberg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Randaberg" ].
+
+rauma_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Rauma" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rauma" ].
+
+re_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Re" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Re" ].
+
+rendalen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Rendalen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rendalen" ].
+
+rennebu_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Rennebu" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rennebu" ].
+
+rennesøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Rennesøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rennesøy" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+rindal_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Rindal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rindal" ].
+
+ringebu_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ringebu" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ringebu" ].
+
+ringerike_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ringerike" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ringerike" ].
+
+ringsaker_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ringsaker" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ringsaker" ].
+
+rissa_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Rissa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rissa" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+risør_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Risør" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Risør" ].
+
+roan_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Roan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Roan" ].
+
+rollag_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Rollag" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rollag" ].
+
+rygge_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Rygge" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rygge" ].
+
+rælingen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Rælingen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rælingen" ].
+
+rødøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Rødøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rødøy" ].
+
+rømskog_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Rømskog" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rømskog" ].
+
+røros_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Røros" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Røros" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+røst_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Røst" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Røst" ].
+
+røyken_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Røyken" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Røyken" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+røyrvik_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Røyrvik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Røyrvik" ].
+
+råde_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Råde" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Råde" ].
+
+salangen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Salangen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Salangen" ].
+
+saltdal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Saltdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Saltdal" ].
+
+samnanger_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Samnanger" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Samnanger" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+sande_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sande" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sande" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+sandefjord_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sandefjord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sandefjord" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+sandnes_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sandnes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sandnes" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+sandøy_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sandøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sandøy" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+sarpsborg_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sarpsborg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sarpsborg" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+sauda_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sauda" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sauda" ].
+
+sauherad_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sauherad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sauherad" ].
+
+sel_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sel" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sel" ].
+
+selbu_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Selbu" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Selbu" ].
+
+selje_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Selje" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Selje" ].
+
+seljord_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Seljord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Seljord" ].
+
+sigdal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sigdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sigdal" ].
+
+siljan_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Siljan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Siljan" ].
+
+sirdal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sirdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sirdal" ].
+
+skaun_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Skaun" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Skaun" ].
+
+skedsmo_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Skedsmo" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Skedsmo" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+ski_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ski" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ski" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+skien_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Skien" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Skien" ].
+
+skiptvet_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Skiptvet" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Skiptvet" ].
+
+skjervøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Skjervøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Skjervøy" ].
+
+skjåk_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Skjåk" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Skjåk" ].
+
+skodje_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Skodje" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Skodje" ].
+
+skånland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Skånland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Skånland" ].
+
+smøla_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Smøla" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Smøla" ].
+
+snillfjord_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Snillfjord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Snillfjord" ].
+
+snåsa_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Snåsa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Snåsa" ].
+
+sogndal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sogndal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sogndal" ].
+
+sokndal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sokndal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sokndal" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+sola_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sola" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sola" ].
+
+solund_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Solund" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Solund" ].
+
+songdalen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Songdalen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Songdalen" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+sortland_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sortland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sortland" ].
+
+spydeberg_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Spydeberg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Spydeberg" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+stange_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Stange" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stange" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+stavanger_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Stavanger" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stavanger" ].
+
+steigen_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Steigen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Steigen" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+steinkjer_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Steinkjer" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Steinkjer" ].
+
+stjørdal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Stjørdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stjørdal" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+stokke_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Stokke" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stokke" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+stord_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Stord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stord" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+stordal_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Stordal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stordal" ].
+
+stor-elvdal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Stor-Elvdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stor-Elvdal" ].
+
+storfjord_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Storfjord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Storfjord" ].
+
+strand_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Strand" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Strand" ].
+
+;; found in lexicon  lex4.propn2
+;;stranda_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Stranda" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Stranda" ].
+
+stryn_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Stryn" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stryn" ].
+
+sula_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sula" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sula" ].
+
+suldal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Suldal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Suldal" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+sund_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sund" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sund" ].
+
+sunndal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sunndal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sunndal" ].
+
+surnadal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Surnadal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Surnadal" ].
+
+sveio_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sveio" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sveio" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+svelvik_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Svelvik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Svelvik" ].
+
+;; found in lexicon  lex4.propn2
+;;sykkylven_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Sykkylven" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Sykkylven" ].
+
+søgne_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Søgne" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Søgne" ].
+
+sømna_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sømna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sømna" ].
+
+søndre_land_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Søndre", "Land">,
+    SYNSEM.LKEYS.KEYREL.CARG "Søndre_Land" ].
+
+sør-aurdal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sør-Aurdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sør-Aurdal" ].
+
+sørfold_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sørfold" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sørfold" ].
+
+sør-fron_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sør-Fron" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sør-Fron" ].
+
+sør-odal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sør-Odal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sør-Odal" ].
+
+sørreisa_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sørreisa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sørreisa" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+sørum_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sørum" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sørum" ].
+
+sør-varanger_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sør-Varanger" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sør-Varanger" ].
+
+tana_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tana" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tana" ].
+
+time_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Time" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Time" ].
+
+tingvoll_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tingvoll" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tingvoll" ].
+
+tinn_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tinn" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tinn" ].
+
+tjeldsund_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tjeldsund" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tjeldsund" ].
+
+tjøme_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tjøme" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tjøme" ].
+
+tokke_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tokke" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tokke" ].
+
+tolga_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tolga" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tolga" ].
+
+torsken_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Torsken" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Torsken" ].
+
+tranøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tranøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tranøy" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+tromsø_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tromsø" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tromsø" ].
+
+;; found in lexicon  lex4.propn1
+;;trondheim_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Trondheim" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Trondheim" ].
+
+trysil_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Trysil" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Trysil" ].
+
+træna_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Træna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Træna" ].
+
+trøgstad_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Trøgstad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Trøgstad" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+tvedestrand_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tvedestrand" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tvedestrand" ].
+
+tydal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tydal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tydal" ].
+
+tynset_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tynset" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tynset" ].
+
+tysfjord_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tysfjord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tysfjord" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+tysnes_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tysnes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tysnes" ].
+
+tysvær_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tysvær" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tysvær" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+tønsberg_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Tønsberg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tønsberg" ].
+
+ullensaker_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ullensaker" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ullensaker" ].
+
+ullensvang_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ullensvang" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ullensvang" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+ulstein_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ulstein" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ulstein" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+ulvik_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ulvik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ulvik" ].
+
+utsira_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Utsira" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Utsira" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+vadsø_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vadsø" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vadsø" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+vaksdal_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vaksdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vaksdal" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+valle_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Valle" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Valle" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+vang_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vang" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vang" ].
+
+vanylven_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vanylven" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vanylven" ].
+
+;; name problem found in lexicon  lex4.propn.by_navn
+vardø_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vardø" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vardø" ].
+
+vefsn_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vefsn" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vefsn" ].
+
+vega_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vega" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vega" ].
+
+vegårshei_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vegårshei" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vegårshei" ].
+
+vennesla_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vennesla" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vennesla" ].
+
+verdal_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Verdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Verdal" ].
+
+verran_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Verran" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Verran" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+vestby_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vestby" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vestby" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+vestnes_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vestnes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vestnes" ].
+
+vestre_slidre_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Vestre", "Slidre">,
+    SYNSEM.LKEYS.KEYREL.CARG "Vestre_Slidre" ].
+
+vestre_toten_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Vestre", "Toten">,
+    SYNSEM.LKEYS.KEYREL.CARG "Vestre_Toten" ].
+
+vestvågøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vestvågøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vestvågøy" ].
+
+vevelstad_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vevelstad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vevelstad" ].
+
+vik_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vik" ].
+
+vikna_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vikna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vikna" ].
+
+vindafjord_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vindafjord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vindafjord" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+vinje_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vinje" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vinje" ].
+
+volda_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Volda" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Volda" ].
+
+;; found in lexicon  lex4.propn2
+;;voss_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Voss" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Voss" ].
+
+værøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Værøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Værøy" ].
+
+vågan_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vågan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vågan" ].
+
+vågsøy_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vågsøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vågsøy" ].
+
+vågå_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vågå" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vågå" ].
+
+våler_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Våler" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Våler" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+øksnes_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Øksnes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Øksnes" ].
+
+ørland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ørland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ørland" ].
+
+ørskog_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ørskog" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ørskog" ].
+
+ørsta_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ørsta" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ørsta" ].
+
+østre_toten_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Østre", "Toten">,
+    SYNSEM.LKEYS.KEYREL.CARG "Østre_Toten" ].
+
+øvre_eiker_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Øvre", "Eiker">,
+    SYNSEM.LKEYS.KEYREL.CARG "Øvre_Eiker" ].
+
+øyer_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Øyer" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Øyer" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+øygarden_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Øygarden" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Øygarden" ].
+
+øystre_slidre_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Øystre", "Slidre">,
+    SYNSEM.LKEYS.KEYREL.CARG "Øystre_Slidre" ].
+
+åfjord_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Åfjord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Åfjord" ].
+
+ål_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ål" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ål" ].
+
+;; found in lexicon  lex4.propn2
+;;ålesund_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Ålesund" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Ålesund" ].
+
+åmli_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Åmli" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Åmli" ].
+
+åmot_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Åmot" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Åmot" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+årdal_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Årdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Årdal" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+ås_kommune_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Ås" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ås" ].
+
+åseral_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Åseral" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Åseral" ].
+
+åsnes_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Åsnes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Åsnes" ].
+

@@ -1,0 +1,32 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+
+
+;,
+;  FLAGS flags
+
+
+
+demo-hund_mtr  := monotonic_omtr &
+ [ INPUT.RELS <! [ PRED "_demo_n_rel", LBL #h, ARG0 #x ] !>,
+   OUTPUT.RELS <! [ PRED "_hund_n_rel", LBL #h, ARG0 #x ] !> ].
+
+; light_verb_mtr := monotonic_mtr.
+; give+demo_mtr := light_verb_mtr &
+; [ INPUT.RELS <! [ PRED "_give_v_1_rel" ],
+;                 [ PRED "_demo_n_rel", ARG1 #arg1 ],
+;                 [ PRED _of_p_sel_rel ], 
+;                 [ PRED _a_q_rel ] !>,
+;   OUTPUT.RELS <! [ PRED "_demo_v_rel", ARG2 #arg1 ] !> ].
+
+; gi-light_verb_mtr := monotonic_mtr.
+; gi+demo_mtr := light_verb_mtr &
+; [ INPUT.RELS <! [ PRED "_gi_v_rel" ],
+;                 [ PRED "_utforskning_n_rel" ],
+;                 [ PRED "_av_p_rel", ARG2 #arg1 ] !>,
+;   OUTPUT.RELS <! [ PRED "_demoe_v_rel", ARG2 #arg1 ] !> ].
+
+
+
+
+

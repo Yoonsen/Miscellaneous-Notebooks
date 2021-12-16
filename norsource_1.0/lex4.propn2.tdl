@@ -1,0 +1,643 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource -
+;;; 
+;;;    Copyright (c)  NorSource version 0.3
+;;;                       2004-2006 
+;;;
+;;;    Lars Hellan, Dorothee Beermann, Ben Waldron
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    <norsource@hf.ntnu.no>
+;;;
+
+;;;     lex4.propn2.tdl
+;;;
+;;;  This file contains proper names as relevant for the test file hike-no,
+;;;  used for the first deliveries in the LOGON project
+
+Amerika_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Amerika" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Amerika" ].
+
+pål_andersen_n1 := mascsg-anim-proper-name-word  &
+  [ STEM < "Pål", "Andersen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Pål_Andersen" ].
+
+banff_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Banff" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Banff" ].
+
+bangladesh_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Bangladesh" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bangladesh" ].
+
+bergen_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Bergen" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Bergen" ].
+
+bergen_turlag_n1 := neutsg-anim-proper-name-word  &
+  [ STEM < "Bergen", "Turlag" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bergen-Turlag" ].
+
+besseggen_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Besseggen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Besseggen" ].
+
+blåbretinden_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Blåbretinden" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Blåbretinden" ].
+
+blånipa_n1 := femsg-inan-proper-name-word &
+  [ STEM < "Blånipa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Blånipa" ].
+
+børgefjell_n1 := neutsg-inan-proper-name-word &
+  [ STEM < "Børgefjell" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Børgefjell" ].
+
+brasil_n1 :=  mascsg-inan-proper-name-word &
+  [ STEM < "Brasil" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Brasil" ].
+
+bråkdalen_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Bråkdalen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bråkdalen" ].
+
+brurskardet_n1 := neutsg-inan-proper-name-word &
+  [ STEM < "Brurskardet" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Brurskardet" ].
+
+bunnpris_n1 := neutsg-inan-proper-name-word &
+  [ STEM < "Bunnpris" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bunnpris" ].
+
+byfjellene_n1 := commpl-inan-proper-name-word &
+  [ STEM < "Byfjellene" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Byfjellene" ].
+
+danmark_n1 := mascsg-inan-proper-name-word  &
+  [ STEM < "Danmark" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Danmark" ].
+
+dnt_n1 := mascsg-anim-proper-name-word  &
+  [ STEM < "DNT" >,
+    SYNSEM.LKEYS.KEYREL.CARG "DNT" ].
+
+drammen_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Drammen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Drammen" ].
+
+femundsmark_n1 :=  mascsg-inan-proper-name-word &
+  [ STEM < "Femundsmark" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Femundsmark" ].
+
+femundsmarka_n1 := femsg-inan-proper-name-word &
+  [ STEM < "Femundsmarka" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Femundsmarka" ].
+
+fiskevollen_n1 := mascsg-inan-proper-name-word  &
+  [ STEM < "Fiskevollen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fiskevollen" ].
+
+fjedevatnet_n1 :=  neutsg-inan-proper-name-word &
+  [ STEM < "Fjedevatnet" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fjedevatnet" ].
+
+folgefonna_n1 :=  femsg-inan-proper-name-word &
+  [ STEM < "Folgefonna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Folgefonna" ].
+
+forsvaret_n1 :=  neutsg-anim-proper-name-word &
+  [ STEM < "Forsvaret" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Forsvaret" ].
+
+frp_n1 :=  neutsg-inan-proper-name-word &
+  [ STEM < "FRP" >,
+    SYNSEM.LKEYS.KEYREL.CARG "FRP" ].
+
+ghana_n1 :=  mascsg-inan-proper-name-word &
+  [ STEM < "Ghana" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ghana" ].
+
+grindaflethytta_n1 :=  femsg-inan-proper-name-word &
+  [ STEM < "Grindaflethytta" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Grindaflethytta" ].
+
+grøndalen_n1 :=  mascsg-inan-proper-name-word &
+  [ STEM < "Grøndalen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Grøndalen" ].
+
+harstad_n1 :=  mascsg-inan-proper-name-word &
+  [ STEM < "Harstad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Harstad" ].
+
+hjörundfjord_n1 :=  mascsg-inan-proper-name-word &
+  [ STEM < "Hjörundfjord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hjörundfjord" ].
+
+hjørundfjorden_n1 :=  mascsg-inan-proper-name-word &
+  [ STEM < "Hjørundfjorden" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hjørundfjorden" ].
+
+hurtigruta_n1 := femsg-anim-proper-name-word   &
+  [ STEM < "Hurtigruta" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hurtigruta" ].
+
+hurtigrute_n1 :=  mascsg-anim-proper-name-word   &
+  [ STEM < "Hurtigrute" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hurtigrute" ].
+
+italia_n1 :=   mascsg-anim-proper-name-word  &
+  [ STEM < "Italia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Italia" ].
+
+iver_n1 :=   mascsg-anim-proper-name-word  &
+  [ STEM < "Iver" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Iver" ].
+
+kina_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Kina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kina" ].
+
+kjeragveggen_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Kjeragveggen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kjeragveggen" ].
+
+kolåstinden_n1 :=  mascsg-inan-proper-name-word &
+  [ STEM < "Kolåstinden" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kolåstinden" ].
+
+kvarvenveien_n1 :=  mascsg-inan-proper-name-word &
+  [ STEM < "Kvarvenveien" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kvarvenveien" ].
+
+lom_n1 :=  neutsg-inan-proper-name-word  &
+  [ STEM < "Lom" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lom" ].
+
+mexico_n1 :=  mascsg-inan-proper-name-word &
+  [ STEM < "Mexico" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mexico" ].
+
+Minneapolis_n1 :=  mascsg-inan-proper-name-word &
+  [ STEM < "Minneapolis" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Minneapolis" ].
+
+mjølfjell_n1 :=  neutsg-inan-proper-name-word  &
+  [ STEM < "Mjølfjell" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mjølfjell" ].
+
+mjøsa_n1 :=  neutsg-inan-proper-name-word  &
+  [ STEM < "Mjøsa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mjøsa" ].
+
+moholt_n1 :=  mascsg-inan-proper-name-word &
+  [ STEM < "Moholt" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Moholt" ].
+
+molde_n1 :=  mascsg-inan-proper-name-word &
+  [ STEM < "Molde" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Molde" ].
+
+molde_og_romsdals_turistforening_n1 :=  mascsg-anim-proper-name-word  &
+  [ STEM < "Molde", "og", "Romsdals", "Turistforening" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Molde og Romsdals Turistforening" ].
+
+molladalen_n1 := mascsg-inan-proper-name-word &
+[ STEM < "Molladalen">,
+  SYNSEM.LKEYS.KEYREL.CARG "Molladalen" ].
+
+ytre_standal := mascsg-inan-proper-name-word &
+[ STEM < "Ytre","Standal">,
+  SYNSEM.LKEYS.KEYREL.CARG "Ytre Standal" ]. 
+
+mosterhamn_n1 :=  mascsg-inan-proper-name-word  &
+  [ STEM < "Mosterhamn" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mosterhamn" ].
+
+mrt_n1 :=  mascsg-anim-proper-name-word   &
+  [ STEM < "MRT" >,
+    SYNSEM.LKEYS.KEYREL.CARG "MRT" ].
+
+nutec_n1 :=  neutsg-anim-proper-name-word  &
+  [ STEM < "NUTEC" >,
+    SYNSEM.LKEYS.KEYREL.CARG "NUTEC" ].
+
+ortnevik_n1 :=  mascsg-inan-proper-name-word &
+  [ STEM < "Ortnevik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ortnevik" ].
+
+oslo_n1 :=  mascsg-inan-proper-name-word &
+  [ STEM < "Oslo" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Oslo" ].
+
+oterværfjord_n1 := mascsg-inan-proper-name-word  &
+  [ STEM < "Oterværfjord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Oterværfjord" ].
+
+oterværfjorden_n1 := mascsg-inan-proper-name-word  &
+  [ STEM < "Oterværfjorden" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Oterværfjorden" ].
+
+;pål_n1 := mascsg-anim-proper-name-word &
+;  [ STEM < "Pål" >,
+;    SYNSEM.LKEYS.KEYREL.CARG "Pål" ].
+
+patchellhytta_n1 := femsg-inan-proper-name-word &
+  [ STEM < "Patchellhytta" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Patchellhytta" ].
+
+ramoen_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Ramoen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ramoen" ].
+
+rendalssølen_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Rendalssølen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rendalssølen" ].
+
+rødøya_n1 := femsg-inan-proper-name-word &
+  [ STEM < "Rødøya" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rødøya" ].
+
+romsdal_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Romsdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Romsdal" ].
+
+rosenborg_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Rosenborg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rosenborg" ].
+
+runde_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Runde" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Runde" ].
+
+skrim_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Skrim" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Skrim" ].
+
+slogen_n1 := mascsg-inan-proper-name-word  &
+  [ STEM < "Slogen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Slogen" ].
+
+solheimslien_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Solheimslien" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Solheimslien" ].
+
+stabben_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Stabben" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stabben" ].
+
+stigen_n1 :=  mascsg-inan-proper-name-word &
+  [ STEM < "Stigen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stigen"].
+
+stigen_gård_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Stigen", "gård" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stigen gård" ].
+
+stølsheimen_n1 := mascsg-inan-proper-name-word  &
+  [ STEM < "Stølsheimen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stølsheimen" ].
+
+stranda_n1 := femsg-inan-proper-name-word  &
+  [ STEM < "Stranda" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stranda" ].
+
+sunnmørsalpene_n1 := commpl-inan-proper-name-word  &
+  [ STEM < "Sunnmørsalpene" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sunnmørsalpene" ].
+
+sverige_n1 := commpl-inan-proper-name-word  &
+  [ STEM < "Sverige" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sverige" ].
+
+swedes_n1 := commpl-inan-proper-name-word  &
+  [ STEM < "Swedes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Swedes" ].
+
+sykkylven_n1 := mascsg-inan-proper-name-word  &
+  [ STEM < "Sykkylven" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sykkylven" ].
+
+sylvarnes_n1 := neutsg-inan-proper-name-word &
+  [ STEM < "Sylvarnes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sylvarnes" ].
+
+torvik_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Torvik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Torvik" ].
+
+turinformasjonen_n1 := mascsg-anim-proper-name-word   &
+  [ STEM < "Turinformasjonen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Turinformasjonen" ].
+
+turistinformasjonen_n1 := mascsg-anim-proper-name-word  &
+  [ STEM < "Turistinformasjonen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Turistinformasjonen" ].
+
+turlag_n1 := neutsg-anim-proper-name-word  &
+  [ STEM < "Turlag" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Turlag" ].
+
+turlaget_n1 := neutsg-anim-proper-name-word &
+  [ STEM < "Turlaget" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Turlaget" ].
+
+tyskland_n1 := neutsg-anim-proper-name-word &
+  [ STEM < "Tyskland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tyskland" ].
+
+usa_n1 := neutsg-anim-proper-name-word &
+  [ STEM < "USA" >,
+    SYNSEM.LKEYS.KEYREL.CARG "USA" ].
+
+utferdslag_n1 := neutsg-anim-proper-name-word &
+  [ STEM < "Utferdslag" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Utferdslag" ].
+
+vassberget_n1 := neutsg-inan-proper-name-word  &
+  [ STEM < "Vassberget" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vassberget" ].
+
+vefsna_n1 := neutsg-inan-proper-name-word &
+  [ STEM < "Vefsna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vefsna" ].
+
+velleseter_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Velleseter" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Velleseter" ].
+
+velleseterhytta_n1 := femsg-inan-proper-name-word  &
+  [ STEM < "Velleseterhytta" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Velleseterhytta" ].
+
+vellesseterhytta_n1 := femsg-inan-proper-name-word  &
+  [ STEM < "Vellesseterhytta" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vellesseterhytta" ].
+
+vestfold_n1 := neutsg-inan-proper-name-word &
+  [ STEM < "Vestfold" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vestfold" ].
+
+vollavik_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Vollavik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vollavik" ].
+
+voss_n1 := neutsg-inan-proper-name-word &
+  [ STEM < "Voss" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Voss" ].
+
+voss_utferdslag_n1 := neutsg-anim-proper-name-word &
+  [ STEM < "Voss", "Utferdslag" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Voss-Utferdslag" ].
+
+;;; From NOW excercises
+
+Ken_n1 := mascsg-anim-proper-name-word   &
+  [ STEM < "Ken" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ken" ].
+
+Robbins_n1 := mascsg-anim-proper-name-word   &
+  [ STEM < "Robbins" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Robbins" ].
+
+Ken_Robbins_n1 := mascsg-anim-proper-name-word   &
+  [ STEM < "Ken", "Robbins" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ken_Robbins" ].
+
+SPANIA_n1 := femsg-inan-proper-name-word &
+  [ STEM < "SPANIA" >,
+    SYNSEM.LKEYS.KEYREL.CARG "SPANIA" ].
+
+England_n1 := neutsg-inan-proper-name-word &
+  [ STEM < "England" >,
+    SYNSEM.LKEYS.KEYREL.CARG "England" ].
+
+GOMEZ_n1 := mascsg-anim-proper-name-word   &
+  [ STEM < "GOMEZ" >,
+    SYNSEM.LKEYS.KEYREL.CARG "GOMEZ" ].
+
+MONIKA_n1 := femsg-anim-proper-name-word   &
+  [ STEM < "MONIKA" >,
+    SYNSEM.LKEYS.KEYREL.CARG "MONIKA" ].
+
+Emma_n1 := femsg-anim-proper-name-word   &
+  [ STEM < "Emma" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Emma" ].
+
+Maria_n1 := femsg-anim-proper-name-word   &
+  [ STEM < "Maria" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Maria" ].
+
+Maria_Gomez_n1 := femsg-anim-proper-name-word   &
+  [ STEM < "Maria", "Gomez" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Maria_Gomez" ].
+
+NTNU_n1 := neutsg-anim-proper-name-word   &
+  [ STEM < "NTNU" >,
+    SYNSEM.LKEYS.KEYREL.CARG "NTNU" ].
+
+NTNU_Dragvoll_n1 := neutsg-anim-proper-name-word   &
+  [ STEM < "NTNU", "Dragvoll" >,
+    SYNSEM.LKEYS.KEYREL.CARG "NTNU_Dragvoll" ].
+
+POLARLYS_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "POLARLYS" >,
+    SYNSEM.LKEYS.KEYREL.CARG "POLARLYS" ].
+
+BARCELONA_n1 := femsg-inan-proper-name-word &
+  [ STEM < "BARCELONA" >,
+    SYNSEM.LKEYS.KEYREL.CARG "BARCELONA" ].
+
+;MINNEAPOLIS_n1 := neutsg-inan-proper-name-word &
+;  [ STEM < "MINNEAPOLIS" >,
+;    SYNSEM.LKEYS.KEYREL.CARG "MINNEAPOLIS" ].
+
+PETER_n1 := mascsg-anim-proper-name-word   &
+  [ STEM < "PETER" >,
+    SYNSEM.LKEYS.KEYREL.CARG "PETER" ].
+
+ÅLESUND_n1 := neutsg-inan-proper-name-word &
+  [ STEM < "ÅLESUND" >,
+    SYNSEM.LKEYS.KEYREL.CARG "ÅLESUND" ].
+
+OLAV_HARALDSSON_n1 := mascsg-anim-proper-name-word   &
+  [ STEM < "OLAV", "HARALDSSON" >,
+    SYNSEM.LKEYS.KEYREL.CARG "OLAV_HARALDSSON" ].
+
+TOBIAS_n1 := mascsg-anim-proper-name-word   &
+  [ STEM < "TOBIAS" >,
+    SYNSEM.LKEYS.KEYREL.CARG "TOBIAS" ].
+
+HAMBURG_n1 := neutsg-anim-proper-name-word   &
+  [ STEM < "HAMBURG" >,
+    SYNSEM.LKEYS.KEYREL.CARG "HAMBURG" ].
+
+ERLEND_n1 := mascsg-anim-proper-name-word &
+  [ STEM < "ERLEND" >,
+    SYNSEM.LKEYS.KEYREL.CARG "ERLEND" ].
+
+BAKKLANDET_n1 := neutsg-inan-proper-name-word &
+  [ STEM < "BAKKLANDET" >,
+    SYNSEM.LKEYS.KEYREL.CARG "BAKKLANDET" ].
+
+HERMAN_n1 := mascsg-anim-proper-name-word   &
+  [ STEM < "HERMAN" >,
+    SYNSEM.LKEYS.KEYREL.CARG "HERMAN" ].
+
+Frode_Rinnan_n1 := mascsg-anim-proper-name-word   &
+  [ STEM < "Frode", "Rinnan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Frode_Rinnan" ].
+
+OLGA_n1 := femsg-anim-proper-name-word   &
+  [ STEM < "OLGA" >,
+    SYNSEM.LKEYS.KEYREL.CARG "OLGA" ].
+
+MERKUR_n1 := mascsg-anim-proper-name-word   &
+  [ STEM < "MERKUR" >,
+    SYNSEM.LKEYS.KEYREL.CARG "MERKUR" ].
+
+kjøpesenteret_MERKUR_n1 := neutsg-inan-proper-name-word   &
+  [ STEM < "kjøpesenteret", "MERKUR" >,
+    SYNSEM.LKEYS.KEYREL.CARG "kjøpesenteret_MERKUR" ].
+
+STRINDHEIM_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "STRINDHEIM" >,
+    SYNSEM.LKEYS.KEYREL.CARG "STRINDHEIM" ].
+
+BRATTØRA_n1 := femsg-inan-proper-name-word &
+  [ STEM < "BRATTØRA" >,
+    SYNSEM.LKEYS.KEYREL.CARG "BRATTØRA" ].
+
+EØS_n1 := neutsg-inan-proper-name-word &
+  [ STEM < "EØS" >,
+    SYNSEM.LKEYS.KEYREL.CARG "EØS" ].
+
+PIRTERMINALEN_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "PIRTERMINALEN" >,
+    SYNSEM.LKEYS.KEYREL.CARG "PIRTERMINALEN" ].
+
+BOHUS_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "BOHUS" >,
+    SYNSEM.LKEYS.KEYREL.CARG "BOHUS" ].
+
+ANTONIO_n1 := mascsg-anim-proper-name-word   &
+  [ STEM < "ANTONIO" >,
+    SYNSEM.LKEYS.KEYREL.CARG "ANTONIO" ].
+
+STUDENTERSAMFUNDET_n1 := neutsg-inan-proper-name-word &
+  [ STEM < "STUDENTERSAMFUNDET" >,
+    SYNSEM.LKEYS.KEYREL.CARG "STUDENTERSAMFUNDET" ].
+
+Lisa_n1 := femsg-anim-proper-name-word   &
+  [ STEM < "Lisa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lisa" ].
+
+Værnes_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Værnes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Værnes" ].
+
+Moholt-senteret_n1 := neutsg-inan-proper-name-word &
+  [ STEM < "Moholt-senteret" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Moholt-senteret" ].
+
+Rema_n1 := neutsg-inan-proper-name-word &
+  [ STEM < "Rema" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rema" ].
+
+Møllenberg_n1 := neutsg-inan-proper-name-word &
+  [ STEM < "Møllenberg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Møllenberg" ].
+
+Solsiden_n1 := mascsg-inan-proper-name-word &
+  [ STEM < "Solsiden" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Solsiden" ].
+
+Anna_n1 := femsg-anim-proper-name-word   &
+  [ STEM < "Anna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Anna" ].
+
+Anna-Valente_n1 := femsg-anim-proper-name-word   &
+  [ STEM < "Anna", "Valente" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Anna-Valente" ].
+
+Lars_n1 := mascsg-anim-proper-name-word &
+  [ STEM < "Lars" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lars" ].
+
+Roma_n1 := femsg-anim-proper-name-word   &
+  [ STEM < "Roma" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Roma" ].
+
+Frank_n1 := mascsg-anim-proper-name-word &
+  [ STEM < "Frank" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Frank" ].
+
+Herman_Krag_n1 := mascsg-anim-proper-name-word &
+  [ STEM < "Herman", "Krag" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Herman_Krag" ].
+
+Peter_Maier_n1 := mascsg-anim-proper-name-word &
+  [ STEM < "Peter", "Maier" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Peter_Maier" ].
+
+Herman_Krags_vei_n1 := mascsg-anim-proper-name-word &
+  [ STEM < "Herman", "Krags", "vei" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Herman_Krags_vei" ].
+
+; can be put together compositionally
+;Frode_Rinnans_vei_n1 := mascsg-anim-proper-name-word &
+;  [ STEM < "Frode", "Rinnans", "vei" >,
+;    SYNSEM.LKEYS.KEYREL.CARG "Frode_Rinnans_vei" ].
+
+;Moholt_Studentby_n1 :=  mascsg-inan-proper-name-word &
+;  [ STEM < "Moholt", "Studentby" >,
+;    SYNSEM.LKEYS.KEYREL.CARG "Moholt_Studentby" ].
+
+Nidarosdomen_n1 :=  mascsg-inan-proper-name-word &
+  [ STEM < "Nidarosdomen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nidarosdomen" ].
+
+;Trondheim_sentralstasjon_n_masc := mascsg-inan-proper-name-word &
+; [ STEM < "Trondheim", "sentralstasjon" >,
+;   SYNSEM [ LKEYS.KEYREL.CARG "_Trondheim_sentralstasjon" ] ].
+
+City_Syd_n1 := mascsg-inan-proper-name-word &
+ [ STEM < "City", "Syd" >,
+   SYNSEM [ LKEYS.KEYREL.CARG "_City_Syd" ] ].
+
+;Trondheim_sentrum_n1 := neutsg-inan-proper-name-word &
+; [ STEM < "Trondheim", "sentrum" >,
+;   SYNSEM.LKEYS.KEYREL.CARG "_Trondheim_sentrum" ].
+
+Trondheim_torg_n1 := neutsg-inan-proper-name-word &
+ [ STEM < "Trondheim", "torg" >,
+   SYNSEM.LKEYS.KEYREL.CARG "_Trondheim_torg" ].
+
+Erlend_Loe_n1 := mascsg-anim-proper-name-word  &
+  [ STEM < "Erlend", "Loe" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Erlend_Loe" ].
+
+Gamle_Bybro_n1 := mascsg-inan-proper-name-word  &
+  [ STEM < "Gamle", "Bybro" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gamle_Bybro" ].
+
+Nordre_gate_n1 := mascsg-inan-proper-name-word  &
+  [ STEM < "Nordre", "gate" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nordre_gate" ].
+
+Psykologisk_institutt_n1 := neutsg-inan-proper-name-word &
+ [ STEM < "Psykologisk", "institutt" >,
+   SYNSEM.LKEYS.KEYREL.CARG "_Psykologisk_institutt" ].
+
+
+
+
+
+
+
+
+
+
+

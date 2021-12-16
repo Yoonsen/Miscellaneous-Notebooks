@@ -1,0 +1,102 @@
+1 gutten her bak hytta sover 2 122
+2 en gutt her bak hytta sover 1 159
+3 gutt her bak hytta sover 2 142
+4 gutter her bak hytta sover 2 146
+5 noen gutter her bak hytta sover 1 163
+6 gutten her nede sover 2 86
+7 en gutt her nede sover 2 122
+8 gutt her nede sover 2 106
+9 gutter her nede sover 2 110
+10 noen gutter her nede sover 2 126
+11 veien bortover langs elven går her 1 211
+12 en vei bortover langs elven går her 1 260
+13 vei bortover langs elven går her 1 238
+14 veier bortover langs elven går her 1 250
+15 noen veier bortover langs elven går her 1 275
+16 veien opp til fjellet går her 1 163
+17 en vei opp til fjellet går her 1 212
+18 vei opp til fjellet går her 1 190
+19 veier opp til fjellet går her 1 202
+20 noen veier opp til fjellet går her 1 228
+21 veien opp hit går her 1 126
+22 en vei opp hit går her 1 175
+23 vei opp hit går her 1 153
+24 veier opp hit går her 1 165
+25 noen veier opp hit går her 1 191
+26 jeg går opp til fjellet 1 125
+27 jeg går opp hit 1 98
+28 jeg går nedover langs elven 1 191
+29 jeg sover her nede 2 96
+30 jeg går opp, til fjellet 1 161
+31 jeg går opp, hit 1 130
+32 jeg går nedover, langs elven 1 205
+33 jeg sover her, nede 1 108
+34 opp til fjellet går jeg ikke 2 169
+35 opp hit går jeg ikke 2 146
+36 nedover langs elven går jeg ikke 2 219
+37 her nede sover jeg ikke 2 118
+38 her i skogen sover jeg ikke 2 131
+39 jeg har her nede sovet i tre timer 2 546
+40 jeg har her i skogen sovet i tre timer 2 551
+41 på tur har jeg her nede sovet i tre timer 2 611
+42 på tur har jeg her i skogen sovet i tre timer 2 606
+43 hun vet at jeg her nede har sovet i tre timer 4 831
+44 hun vet at jeg her i skogen har sovet i tre timer 4 950
+45 gutten rusler mot fjellet langs elva 1 277
+46 gutter rusler mot fjellet, langs elva 1 343
+47 gutten rusler til fjellet langs elva 1 166
+48 gutten rusler til fjellet, langs elva 1 191
+49 gutten rusler langs elva mot fjellet 1 248
+50 gutten rusler langs elva, mot fjellet 1 282
+51 gutten rusler oppover langs elva 1 136
+52 gutten rusler oppover langs elva til fjellet på to timer 1 343
+53 gutten rusler ned langs elva 1 143
+54 gutten rusler nedover langs elva i tre timer 1 360
+55 gutten løper hit 1 98
+56 gutten løper dit 1 98
+57 gutten løper hit ned 1 118
+58 gutten løper hit ned til skogen 1 166
+59 gutten løper hit på to timer 1 251
+60 gutten løper hit i to timer 0 213
+61 gutten løper her 1 102
+62 gutten løper der 1 107
+63 gutten løper her nede 2 185
+64 gutten løper her nede i skogen 6 411
+65 gutten løper her på to timer 1 278
+66 gutten løper her i to timer 1 248
+67 gutten spiser koteletten på to timer 1 248
+68 jeg spiser koteletten i to timer 1 217
+69 jeg spiser koteletter på to minutter 1 273
+70 jeg spiser koteletter i to timer 1 249
+71 jeg spiser koteletter på to minutter i to dager 0 379
+72 gutten går når hunden løper 1 183
+73 gutten går før hunden løper 1 335
+74 gutten går inntil hunden løper 1 125
+75 mannen går langs elven før gutten kommer til skogen 2 498
+76 veien begynner der stien slutter 1 202
+77 veien begynner når stien slutter 1 207
+78 mannen går langs elven til skogen på to timer 1 390
+79 mannen går langs elven, over brua og til skogen på to timer 2 598
+80 gutten løper nedover forbi brua, langs elven, og videre gjennom skogen til fjellet 3 492
+81 turen går over fjellet 2 127
+82 turen går på bro over elva 4 403
+83 turen går på bro over elva og på bro over elva 139 6122
+84 turen går på bro over en bekk og på bro over en elv 0 10994
+85 turen går videre i myret terreng 5 773
+86 turen går opp gjennom lia til fjellet 1 175
+87 turen går videre i myret terreng opp gjennom lia 4 947
+88 turen går over myrer 2 151
+89 turen går inn gjennom skaret 1 213
+90 turen går inn gjennom skaret mellom elva og fjellet 3 369
+91 turen går over myrer og inn gjennom skaret mellom elva og fjellet 24 878
+92 ruta til Gjevilvasshytta går opp til skogen ved foten av fjellet 2 1106
+93 de spiller fra fem til syv 1 337
+94 de spiller om ettermiddagen 1 208
+95 de spiller til midnatt 1 231
+96 de snakker om Ola til midnatt 1 213
+
+;;; Total CPU time: 93570 msecs
+
+;;; Mean edges: 445.00
+
+;;; Mean parses: 3.16

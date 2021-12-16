@@ -1,0 +1,428 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource -
+;;; 
+;;;    Copyright (c)  NorSource version 0.3
+;;;                       2004-2006 
+;;;
+;;;    Lars Hellan, Dorothee Beermann, Ben Waldron
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    <norsource@hf.ntnu.no>
+;;;
+
+;;     lex4.propn1.tdl
+;;   (types for proper names encountered in hiking texts for Trollheimen,
+;;    and for other domains (e.g. football Norway-Scotland))
+
+aksla-pn := proper-name-word &
+ [ STEM < "Aksla" >,
+   SYNSEM.LKEYS.KEYREL.CARG "aksla" ].
+
+bossvasshøyda-pn := proper-name-word &
+ [ STEM < "Bossvasshøyda" >,
+   SYNSEM.LKEYS.KEYREL.CARG "bossvasshøyda" ].
+
+bossvatnet-pn := proper-name-word &
+ [ STEM < "Bossvatnet" >,
+   SYNSEM.LKEYS.KEYREL.CARG "bossvatnet" ].
+
+bårdsgarden-pn := proper-name-word &
+ [ STEM < "Bårdsgarden" >,
+   SYNSEM.LKEYS.KEYREL.CARG "bårdsgarden" ].
+
+bårdsgardskammen-pn := proper-name-word &
+ [ STEM < "Bårdsgardskammen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "bårdsgardskammen" ].
+
+caldwell-pn := proper-name-word &
+ [ STEM < "Caldwell" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Caldwell" ].
+
+carew-pn := proper-name-word &
+ [ STEM < "Carew" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Carew" ].
+
+claus_lundekvam-pn := proper-name-word &
+ [ STEM < "Claus", "Lundekvam" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Claus Lundekvam" ].
+
+darren_fletcher-pn := proper-name-word &
+ [ STEM < "Darren", "Fletcher" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Darren Fletcher" ].
+
+dickov-pn := proper-name-word &
+ [ STEM < "Dickov" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Dickov" ].
+
+dovrefjell-pn := proper-name-word &
+ [ STEM < "Dovrefjell" >,
+   SYNSEM.LKEYS.KEYREL.CARG "dovrefjell" ].
+
+Dragvoll-pn := proper-name-word &
+ [ STEM < "Dragvoll" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Dragvoll" ].
+
+Elgeseter-pn := proper-name-word &
+ [ STEM < "Elgeseter" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Elgeseter" ].
+
+Elgeseter_bro-pn := proper-name-word &
+ [ STEM < "Elgeseter", "bro" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Elgeseter_bro" ].
+
+engelsbekkhø-pn := proper-name-word &
+ [ STEM < "Engelsbekkhø" >,
+   SYNSEM.LKEYS.KEYREL.CARG "engelsbekkhø" ].
+
+fetchmail_pn := mascsg-inan-proper-name-word &
+  [ STEM < "Fetchmail" >,
+  SYNSEM.LKEYS.KEYREL.CARG "Fetchmail" ].
+
+flyplassen-pn := proper-name-word &
+ [ STEM < "flyplassen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "flyplassen" ].
+
+folla-pn := proper-name-word &
+ [ STEM < "Folla" >,
+   SYNSEM.LKEYS.KEYREL.CARG "folla" ].
+
+folldalen-pn := proper-name-word &
+ [ STEM < "Folldalen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "folldalen" ].
+
+fugløyseter-pn := proper-name-word &
+ [ STEM < "Fugløyseter" >,
+   SYNSEM.LKEYS.KEYREL.CARG "fugløyseter" ].
+
+gammelseterdalen-pn := proper-name-word &
+ [ STEM < "Gammelseterdalen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "gammelseterdalen" ].
+
+gamst-pedersen-pn := proper-name-word &
+ [ STEM < "Gamst", "Pedersen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Gamst-Pedersen" ].
+
+gary_caldwell-pn := proper-name-word &
+ [ STEM < "Gary", "Caldwell" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Gary Caldwell" ].
+
+gjevilvassdalen-pn := proper-name-word &
+ [ STEM < "Gjevilvassdalen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "gjevilvassdalen" ].
+
+gjevilvasshytta-pn := proper-name-word &
+ [ STEM < "Gjevilvasshytta" >,
+   SYNSEM.LKEYS.KEYREL.CARG "gjevilvasshytta" ].
+
+gjevilvatnet-pn := proper-name-word &
+ [ STEM < "Gjevilvatnet" >,
+   SYNSEM.LKEYS.KEYREL.CARG "gjevilvatnet" ].
+
+gråhaugen-pn := proper-name-word &
+ [ STEM < "Gråhaugen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "gråhaugen" ].
+
+gløshaugen-pn := proper-name-word &
+ [ STEM < "Gløshaugen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "gløshaugen" ].
+
+grøafjell-pn := proper-name-word &
+ [ STEM < "Grøafjell" >,
+   SYNSEM.LKEYS.KEYREL.CARG "grøafjell" ].
+
+grøafjellet-pn := proper-name-word &
+ [ STEM < "Grøafjellet" >,
+   SYNSEM.LKEYS.KEYREL.CARG "grøafjellet" ].
+
+gud-pn := mascsg-anim-proper-name-word &
+ [ STEM < "Gud" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Gud" ].
+
+hamningberg-pn := proper-name-word &
+ [ STEM < "Hamningberg" >,
+   SYNSEM.LKEYS.KEYREL.CARG "hamningberg" ].
+
+harald-pn := mascsg-anim-proper-name-word &
+ [ STEM < "Harald" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Harald" ].
+
+hoset-pn := proper-name-word &
+ [ STEM < "Hoset" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Hoset" ].
+
+håmmårbekken-pn := proper-name-word &
+ [ STEM < "Håmmårbekken" >,
+   SYNSEM.LKEYS.KEYREL.CARG "håmmårbekken" ].
+
+høysnydda-pn := proper-name-word &
+ [ STEM < "Høysnydda" >,
+   SYNSEM.LKEYS.KEYREL.CARG "høysnydda" ].
+
+internet-pn := proper-name-word &
+ [ STEM < "internet" >,
+   SYNSEM.LKEYS.KEYREL.CARG "internet" ].
+
+iversen-pn := proper-name-word &
+ [ STEM < "Iversen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Iversen" ].
+
+james_mcfadden-pn := proper-name-word &
+ [ STEM < "James", "McFadden" >,
+   SYNSEM.LKEYS.KEYREL.CARG "James McFadden" ].
+
+Jonsvannsveien-pn := proper-name-word &
+ [ STEM < "Jonsvannsveien" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Jonsvannsveien" ].
+
+kårvatn-pn := proper-name-word &
+ [ STEM < "Kårvatn" >,
+   SYNSEM.LKEYS.KEYREL.CARG "kårvatn" ].
+
+kåsa-pn := proper-name-word &
+ [ STEM < "Kåsa" >,
+   SYNSEM.LKEYS.KEYREL.CARG "kåsa" ].
+
+lade-pn := proper-name-word &
+ [ STEM < "Lade" >,
+   SYNSEM.LKEYS.KEYREL.CARG "lade" ].
+
+langoddbekken-pn := proper-name-word &
+ [ STEM < "Langoddbekken" >,
+   SYNSEM.LKEYS.KEYREL.CARG "langoddbekken" ].
+
+langodden-pn := proper-name-word &
+ [ STEM < "Langodden" >,
+   SYNSEM.LKEYS.KEYREL.CARG "langodden" ].
+
+Lerkendal-pn := proper-name-word &
+ [ STEM < "Lerkendal" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Lerkendal" ].
+
+lomtjønna-pn := proper-name-word &
+ [ STEM < "Lomtjønna" >,
+   SYNSEM.LKEYS.KEYREL.CARG "lomtjønna" ].
+
+lona-pn := proper-name-word &
+ [ STEM < "Lona" >,
+   SYNSEM.LKEYS.KEYREL.CARG "lona" ].
+
+london-pn := proper-name-word &
+ [ STEM < "London" >,
+   SYNSEM.LKEYS.KEYREL.CARG "london" ].
+
+lontjønn-pn := proper-name-word &
+ [ STEM < "Lontjønn" >,
+   SYNSEM.LKEYS.KEYREL.CARG "lontjønn" ].
+
+lontjønna-pn := proper-name-word &
+ [ STEM < "Lontjønna" >,
+   SYNSEM.LKEYS.KEYREL.CARG "lontjønna" ].
+
+lundekvam-pn := proper-name-word &
+ [ STEM < "Lundekvam" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Lundekvam" ].
+
+magne_hoset-pn := proper-name-word &
+ [ STEM < "Magne", "Hoset" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Magne Hoset" ].
+
+midtbyen-pn := proper-name-word &
+ [ STEM < "Midtbyen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Midtbyen" ].
+
+miller-pn := proper-name-word &
+ [ STEM < "Miller" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Miller" ].
+
+myhre-pn := proper-name-word &
+ [ STEM < "Myhre" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Myhre" ].
+
+nardo-pn := proper-name-word &
+ [ STEM < "Nardo" >,
+   SYNSEM.LKEYS.KEYREL.CARG "nardo" ].
+
+nauståa-pn := proper-name-word &
+ [ STEM < "Nauståa" >,
+   SYNSEM.LKEYS.KEYREL.CARG "nauståa" ].
+
+naustådalen-pn := proper-name-word &
+ [ STEM < "Naustådalen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "naustådalen" ].
+
+naustådalsvatn-pn := proper-name-word &
+ [ STEM < "Naustådalsvatn" >,
+   SYNSEM.LKEYS.KEYREL.CARG "naustådalsvatn" ].
+
+naustådalsvatnet-pn := proper-name-word &
+ [ STEM < "Naustådalsvatnet" >,
+   SYNSEM.LKEYS.KEYREL.CARG "naustådalsvatnet" ].
+
+neådalssnota-pn := proper-name-word &
+ [ STEM < "Neådalssnota" >,
+   SYNSEM.LKEYS.KEYREL.CARG "neådalssnota" ].
+
+norge-pn := neutsg-anim-proper-name-word &
+ [ STEM < "Norge" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Norge" ].
+
+nth-pn := neutsg-anim-proper-name-word &
+ [ STEM < "NTH" >,
+   SYNSEM.LKEYS.KEYREL.CARG "NTH" ].
+
+okla-pn := proper-name-word &
+ [ STEM < "Okla" >,
+   SYNSEM.LKEYS.KEYREL.CARG "okla" ].
+
+paris-pn := proper-name-word &
+ [ STEM < "paris" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Paris" ].
+
+paul_dickov-pn := proper-name-word &
+ [ STEM < "Paul", "Dickov" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Paul Dickov" ].
+
+pearson-pn := proper-name-word &
+ [ STEM < "Pearson" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Pearson" ].
+
+Risvollan-pn := proper-name-word &
+ [ STEM < "Risvollan" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Risvollan" ].
+
+romsdalen-pn := proper-name-word &
+ [ STEM < "Romsdalen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "romsdalen" ].
+
+romådalen-pn := proper-name-word &
+ [ STEM < "Romådalen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "romådalen" ].
+
+rondane-pn := proper-name-word &
+ [ STEM < "Rondane" >,
+   SYNSEM.LKEYS.KEYREL.CARG "rondane" ].
+
+russell_anderson-pn := proper-name-word &
+ [ STEM < "Russell", "Anderson" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Russell Anderson" ].
+
+røde-kors-pn := neutsg-anim-proper-name-word &
+ [ STEM < "Røde", "Kors" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Røde-Kors" ].
+
+salen-pn := proper-name-word &
+ [ STEM < "Salen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "salen" ].
+
+salsvatna-pn := proper-name-word &
+ [ STEM < "Salsvatna" >,
+   SYNSEM.LKEYS.KEYREL.CARG "salsvatna" ].
+
+salsvatni-pn := proper-name-word &
+ [ STEM < "Salsvatni" >,
+   SYNSEM.LKEYS.KEYREL.CARG "salsvatni" ].
+
+;sentrum-pn := proper-name-word &
+; [ STEM < "Sentrum" >,
+;   SYNSEM.LKEYS.KEYREL.CARG "sentrum" ].
+
+Skistua-pn := proper-name-word &
+ [ STEM < "Skistua" >,
+   SYNSEM.LKEYS.KEYREL.CARG "skistua" ].
+
+skottland-pn := proper-name-word &
+ [ STEM < "Skottland" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Skottland" ].
+
+slettåa-pn := proper-name-word &
+ [ STEM < "Slettåa" >,
+   SYNSEM.LKEYS.KEYREL.CARG "slettåa" ].
+
+snota-pn := proper-name-word &
+ [ STEM < "Snota" >,
+   SYNSEM.LKEYS.KEYREL.CARG "snota" ].
+
+snothaugen-pn := proper-name-word &
+ [ STEM < "Snothaugen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "snothaugen" ].
+
+sollirabben-pn := proper-name-word &
+ [ STEM < "Sollirabben" >,
+   SYNSEM.LKEYS.KEYREL.CARG "sollirabben" ].
+
+storli-pn := proper-name-word &
+ [ STEM < "Storli" >,
+   SYNSEM.LKEYS.KEYREL.CARG "storli" ].
+
+storlidalen-pn := proper-name-word &
+ [ STEM < "Storlidalen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "storlidalen" ].
+
+strankåa-pn := proper-name-word &
+ [ STEM < "Strankåa" >,
+   SYNSEM.LKEYS.KEYREL.CARG "strankåa" ].
+
+sunndalen-pn := proper-name-word &
+ [ STEM < "Sunndalen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "sunndalen" ].
+
+sylan-pn := proper-name-word &
+ [ STEM < "Sylan" >,
+   SYNSEM.LKEYS.KEYREL.CARG "sylan" ].
+
+sørensen-pn := proper-name-word &
+ [ STEM < "Sørensen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Sørensen" ].
+
+thomas_myhre-pn := proper-name-word &
+ [ STEM < "Thomas", "Myhre" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Thomas Myhre" ].
+
+todalen-pn := proper-name-word &
+ [ STEM < "Todalen" >,
+   SYNSEM.LKEYS.KEYREL.CARG "todalen" ].
+
+todalshytta-pn := proper-name-word &
+ [ STEM < "todalshytta" >,
+   SYNSEM.LKEYS.KEYREL.CARG "todalshytta" ].
+
+todalsvatna-pn := proper-name-word &
+ [ STEM < "Todalsvatna" >,
+   SYNSEM.LKEYS.KEYREL.CARG "todalsvatna" ].
+
+todalsvatnet-pn := proper-name-word &
+ [ STEM < "Todalsvatnet" >,
+   SYNSEM.LKEYS.KEYREL.CARG "todalsvatnet" ].
+
+tovatna-pn := proper-name-word &
+ [ STEM < "Tovatna" >,
+   SYNSEM.LKEYS.KEYREL.CARG "tovatna" ].
+
+trollheimshytta-pn := proper-name-word &
+ [ STEM < "trollheimshytta" >,
+   SYNSEM.LKEYS.KEYREL.CARG "trollheimshytta" ].
+
+trondheim-pn := mascsg-anim-proper-name-word &
+ [ STEM < "Trondheim" >,
+   SYNSEM.LKEYS.KEYREL.CARG "trondheim" ].
+
+trondheimsleia-pn := proper-name-word &
+ [ STEM < "Trondheimsleia" >,
+   SYNSEM.LKEYS.KEYREL.CARG "trondheimsleia" ].
+
+trondhjems_turistforening-pn := proper-name-word &
+ [ STEM < "Trondhjems", "Turistforening" >,
+   SYNSEM.LKEYS.KEYREL.CARG "Trondhjems_Turistforening" ].
+
+tt-pn := proper-name-word &
+ [ STEM < "TT" >,
+   SYNSEM.LKEYS.KEYREL.CARG "TT" ].
+
+tverråa-pn := proper-name-word &
+ [ STEM < "Tverråa" >,
+   SYNSEM.LKEYS.KEYREL.CARG "tverråa" ].
+
+vassendsetra-pn := proper-name-word &
+ [ STEM < "Vassendsetra" >,
+   SYNSEM.LKEYS.KEYREL.CARG "vassendsetra" ].

@@ -1,0 +1,110 @@
+;;; -*- Coding: utf-8; -*-
+
+;
+;; intrans-arg1-verb-lexeme
+
+Ex.
+gutten sover
+; 'the boy sleeps'
+
+SYNSEM.LOCAL.CAT.VAL [SUBJ <[]>,
+                     COMPS <>]
+
+SYNSEM.LOCAL.QVAL.SUBJECT synsem
+
+SYNSEM.LKEYS.KEYREL.ARG1 ref-ind
+
+
+;; intrans-arg1dir-verb-lexeme
+
+Ex.
+gutten rusler mot skogen
+; 'the boy strolls towards the forest'
+
+SYNSEM.LOCAL.CAT.VAL [SUBJ <[]>,
+                     COMPS <>]
+
+SYNSEM.LOCAL.QVAL.SUBJECT synsem
+
+SYNSEM.LOCAL.CONT.HOOK dir-hook
+
+SYNSEM.LKEYS.KEYREL.ARG1 ref-ind
+
+
+
+;; intrans-obl-verb-lexeme 
+
+Ex.
+jeg snakker om fjellet
+; 'I talk about the mountain'
+
+jeg stoler på gutten
+; 'I rely on the boy'
+
+SYNSEM.LOCAL.KEY-SPEC #1,
+SYNSEM.LOCAL.CAT.VAL [SUBJ <[]>,
+                     COMPS <>,
+                     ICOMPS <[LOCAL.CAT [HEAD prep & [KEYS.KEY #1],
+                                        QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind]]>
+
+SYNSEM.LOCAL.CAT.QVAL [SUBJECT synsem,
+                       OBL1.LOCAL.CAT [HEAD prep,
+                                      QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind]]
+
+SYNSEM.LKEYS.KEYREL.ARG1 ref-ind
+
+
+
+
+;; intrans-obl-decl-verb-lexeme
+
+Ex.
+jeg snakker om at du kommer
+; I talk about that you come
+
+SYNSEM.LOCAL.KEY-SPEC #1,
+SYNSEM.LOCAL.CAT.VAL [SUBJ <[]>,
+                     COMPS <>,
+                     ICOMPS <[LOCAL.CAT [HEAD prep & [KEYS.KEY #1],
+                                        QVAL.DOBJECT.LOCAL [CONT.HOOK.INDEX event,
+                                                            CAT.HEAD.DECL +]]]>]
+
+SYNSEM.LOCAL.CAT.QVAL [SUBJECT synsem,
+                       OBL1.LOCAL.CAT [HEAD prep & [KEYS.KEY #1],
+                                      QVAL.DOBJECT.LOCAL [CONT.HOOK.INDEX event,
+                                                         CAT.HEAD.DECL +]]]
+
+SYNSEM.LKEYS.KEYREL.ARG1 ref-ind
+
+
+
+
+
+;; intrans-obl-interr-verb-lexeme
+
+Ex.
+jeg snakker om hvorvidt du kommer
+; I talk about whether you come
+
+jeg snakker om hvem som kommer
+;     I talk about who that comes
+;    'I talk about who comes'
+
+
+SYNSEM.LOCAL.KEY-SPEC #1,
+SYNSEM.LOCAL.CAT.VAL [SUBJ <[]>,
+                     COMPS <>,
+                     ICOMPS <[LOCAL.CAT [HEAD prep & [KEYS.KEY #1],
+                                        QVAL.DOBJECT.LOCAL [CONT.HOOK.INDEX event,
+                                                            CAT.HEAD.DECL -]]]>]
+
+SYNSEM.LOCAL.CAT.QVAL [SUBJECT synsem,
+                       OBL1.LOCAL.CAT [HEAD prep & [KEYS.KEY #1],
+                                      QVAL.DOBJECT.LOCAL [CONT.HOOK.INDEX event,
+                                                         CAT.HEAD.DECL -]]]
+
+SYNSEM.LKEYS.KEYREL.ARG1 ref-ind
+
+
+
+

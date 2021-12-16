@@ -1,0 +1,441 @@
+1 Gutten sover 1 30
+2 Gutten vil sove 1 88
+3 Gutten vil kunne sove 1 194
+4 Gutten vil måtte kunne sove 1 392
+5 Gutten har sovet 3 177
+6 Gutten blir skutt 2 131
+7 Gutten har blitt skutt 2 216
+8 Gutten vil ha blitt skutt 2 408
+9 Gutten vil ha kunnet bli skutt 2 765
+10 Gutten vil ha skullet kunne bli skutt 2 1513
+11 Gutten vil skulle kunne ha måttet bli skutt 2 3339
+12 Gutten vil ikke sove 1 122
+13 Gutten vil ikke kunne sove 1 230
+14 Gutten vil ikke måtte kunne sove 1 430
+15 Gutten har ikke sovet 1 185
+16 Gutten blir ikke skutt 2 171
+17 Gutten har ikke blitt skutt 2 246
+18 Gutten vil ikke ha blitt skutt 2 424
+19 Gutten vil ikke ha kunnet bli skutt 2 749
+20 Gutten vil ikke ha skullet kunne bli skutt 2 1431
+21 Gutten vil ikke skulle kunne ha måttet bli skutt 2 3471
+22 Gutten vil snart ikke sove 4 301
+23 Gutten vil snart ikke kunne sove 6 504
+24 Gutten vil snart ikke måtte kunne sove 10 882
+25 Gutten har snart ikke sovet 4 450
+26 Gutten blir trolig ikke skutt 2 240
+27 Gutten har trolig ikke blitt skutt 2 312
+28 Gutten vil trolig ikke ha blitt skutt 3 505
+29 Gutten vil trolig ikke ha kunnet bli skutt 5 874
+30 Gutten vil trolig ikke ha skullet kunne bli skutt 9 1646
+31 Gutten vil trolig ikke skulle kunne ha måttet bli skutt 17 4226
+32 sover gutten? 1 46
+33 vil gutten sove? 1 96
+34 vil gutten kunne sove? 1 208
+35 vil gutten måtte kunne sove? 1 408
+36 har gutten sovet? 1 145
+37 blir gutten skutt? 2 120
+38 har gutten blitt skutt? 2 217
+39 vil gutten ha blitt skutt? 2 341
+40 vil gutten ha kunnet bli skutt? 2 598
+41 vil gutten ha skullet kunne bli skutt? 2 1152
+42 vil gutten skulle kunne ha måttet bli skutt? 2 3177
+43 vil gutten ikke sove? 1 130
+44 vil ikke gutten sove? 1 113
+45 vil gutten ikke kunne sove? 1 256
+46 vil ikke gutten kunne sove? 1 218
+47 vil gutten ikke måtte kunne sove? 1 482
+48 vil ikke gutten måtte kunne sove? 1 400
+49 har gutten ikke sovet? 1 198
+50 har ikke gutten sovet? 1 160
+51 blir gutten ikke skutt? 2 166
+52 blir ikke gutten skutt? 2 145
+53 har gutten ikke blitt skutt? 2 280
+54 vil gutten ikke ha blitt skutt? 2 409
+55 vil gutten ikke ha kunnet bli skutt? 2 710
+56 vil gutten ikke ha skullet kunne bli skutt? 2 1354
+57 vil gutten ikke skulle kunne ha måttet bli skutt? 2 3919
+58 vil gutten snart ikke sove? 7 304
+59 vil ikke gutten snart sove? 7 221
+60 vil ikke snart gutten sove? 4 235
+61 vil gutten snart ikke kunne sove? 13 602
+62 vil gutten snart ikke måtte kunne sove? 25 1178
+63 har gutten ikke snart sovet? 6 382
+64 har ikke gutten snart sovet? 7 320
+65 blir ikke gutten trolig skutt? 5 207
+66 har gutten trolig ikke blitt skutt? 7 371
+67 vil ikke gutten trolig ha blitt skutt? 17 410
+68 vil ikke trolig gutten ha kunnet bli skutt? 21 571
+69 vil ikke trolig gutten ha skullet kunne bli skutt? 49 1021
+70 vil gutten ikke trolig skulle kunne ha måttet bli skutt? 225 4902
+71 På fredag sover gutten. 1 232
+72 På fredag vil gutten sove. 1 302
+73 På fredag vil gutten kunne sove. 1 424
+74 På fredag vil gutten måtte kunne sove. 1 648
+75 På fredag har gutten sovet. 1 412
+76 På fredag blir gutten skutt. 7 377
+77 På fredag har gutten blitt skutt. 12 532
+78 På fredag vil gutten ha blitt skutt. 42 695
+79 På fredag vil gutten ha kunnet bli skutt. 122 1216
+80 På fredag vil gutten ha skullet kunne bli skutt. 322 2418
+81 På fredag vil gutten skulle kunne ha måttet bli skutt. 802 6527
+82 På fredag vil gutten ikke sove. 1 380
+83 På fredag vil gutten ikke kunne sove. 1 516
+84 På fredag vil gutten ikke måtte kunne sove. 1 766
+85 På fredag har gutten ikke sovet. 1 554
+86 På fredag blir gutten ikke skutt. 7 488
+87 På fredag har gutten ikke blitt skutt. 12 694
+88 På fredag vil gutten ikke ha blitt skutt. 42 817
+89 På fredag vil gutten ikke ha kunnet bli skutt. 122 1382
+90 På fredag vil gutten ikke ha skullet kunne bli skutt. 322 2674
+91 På fredag vil gutten ikke skulle kunne ha måttet bli skutt. 802 7323
+92 På fredag vil gutten snart ikke sove. 27 1150
+93 På fredag vil gutten snart ikke kunne sove. 53 2279
+94 På fredag vil gutten snart ikke måtte kunne sove. 105 4497
+95 På fredag har gutten snart ikke sovet. 27 1860
+96 På fredag blir gutten trolig ikke skutt. 19 808
+97 På fredag har gutten trolig ikke blitt skutt. 37 1530
+98 På fredag vil gutten trolig ikke ha blitt skutt. 97 2329
+99 På fredag vil gutten trolig ikke ha kunnet bli skutt. 241 4890
+100 På fredag vil gutten trolig ikke ha skullet kunne bli skutt. 577 10344
+101 Jeg antar at gutten ikke vil sove 1 202
+102 Jeg antar at gutten ikke vil kunne sove 1 392
+103 Jeg antar at gutten ikke vil måtte kunne sove 1 758
+104 Jeg antar at gutten ikke har sovet 1 284
+105 Jeg antar at gutten ikke har skutt 1 250
+106 Jeg antar at gutten ikke har blitt skutt 2 435
+107 Jeg antar at gutten ikke vil ha blitt skutt 2 854
+108 Jeg antar at gutten ikke vil ha kunnet bli skutt 2 1711
+109 Jeg antar at gutten ikke vil ha skullet kunne bli skutt 2 3487
+110 Jeg antar at gutten ikke vil skulle kunne ha måttet bli skutt 2 7467
+111 Jeg antar at gutten snart ikke vil sove 3 453
+112 Jeg antar at gutten snart ikke vil kunne sove 4 951
+113 Jeg antar at gutten snart ikke vil måtte kunne sove 8 2153
+114 Jeg antar at gutten i lang tid ikke har sovet 1 503
+115 Jeg antar at gutten trolig ikke blir skutt 2 307
+116 Jeg antar at gutten trolig ikke har blitt skutt 2 498
+117 Jeg antar at gutten trolig ikke vil ha blitt skutt 2 958
+118 Jeg antar at gutten trolig ikke vil ha kunnet bli skutt 2 1907
+119 Jeg antar at gutten trolig ikke vil ha skullet kunne bli skutt 2 3871
+120 Jeg antar at gutten trolig ikke vil skulle kunne ha måttet bli skutt 2 8241
+121 Jeg gjetter hvem gutten ikke vil treffe 2 201
+122 Jeg gjetter hvem gutten ikke vil kunne treffe 4 341
+123 Jeg gjetter hvem gutten ikke vil måtte kunne treffe 8 603
+124 Jeg gjetter hvem gutten ikke har truffet 2 228
+125 Jeg gjetter hvem gutten ikke har skutt 2 261
+126 Jeg gjetter hva gutten ikke har blitt gitt 20 600
+127 Jeg gjetter hva gutten ikke vil ha blitt gitt 44 988
+128 Jeg gjetter hva gutten ikke vil ha kunnet bli gitt 96 1765
+129 Jeg gjetter hva gutten ikke vil ha skullet kunne bli gitt 208 3417
+130 Jeg gjetter hva gutten ikke vil skulle kunne ha måttet bli gitt 448 7143
+131 Jeg gjetter hvem gutten snart ikke vil treffe 6 387
+132 Jeg gjetter hvem gutten snart ikke vil kunne treffe 14 714
+133 Jeg gjetter hvem gutten snart ikke vil måtte kunne treffe 36 1429
+134 Jeg gjetter hva gutten trolig ikke blir overlatt 2 254
+135 Jeg gjetter hva gutten trolig ikke har blitt overlatt 4 385
+136 Jeg gjetter hva gutten trolig ikke vil ha blitt overlatt 8 613
+137 Jeg gjetter hva gutten trolig ikke vil ha kunnet bli overlatt 16 1045
+138 Jeg gjetter hva gutten trolig ikke vil ha skullet kunne bli overlatt 32 1874
+139 Jeg gjetter hva gutten trolig ikke vil skulle kunne ha måttet bli overlatt 64 3669
+140 Jeg vet hvem som ikke vil sove 1 215
+141 Jeg vet hvem som ikke vil kunne sove 1 333
+142 Jeg vet hvem som ikke vil måtte kunne sove 1 555
+143 Jeg vet hvem som ikke har sovet 1 317
+144 Jeg vet hvem som ikke har skutt 1 271
+145 Jeg vet hvem som ikke har blitt skutt 1 379
+146 Jeg vet hvem som ikke vil ha blitt skutt 1 618
+147 Jeg vet hvem som ikke vil ha kunnet bli skutt 1 1083
+148 Jeg vet hvem som ikke vil ha skullet kunne bli skutt 1 2051
+149 Jeg vet hvem som ikke vil skulle kunne ha måttet bli skutt 1 4331
+150 Jeg vet hvem som snart ikke vil sove 2 408
+151 Jeg vet hvem som snart ikke vil kunne sove 4 724
+152 Jeg vet hvem som snart ikke vil måtte kunne sove 14 1411
+153 Jeg vet hvem som i lang tid ikke har sovet 1 556
+154 Jeg vet hvem som trolig ikke blir skutt 1 328
+155 Jeg vet hvem som trolig ikke har blitt skutt 1 444
+156 Jeg vet hvem som trolig ikke vil ha blitt skutt 1 724
+157 Jeg vet hvem som trolig ikke vil ha kunnet bli skutt 1 1281
+158 Jeg vet hvem som trolig ikke vil ha skullet kunne bli skutt 1 2437
+159 Jeg vet hvem som trolig ikke vil skulle kunne ha måttet bli skutt 1 5107
+160 jeg vet hvilket eple gutten spiser 4 250
+161 jeg vet hvem som har spist hva 1 292
+162 jeg ser gutten som spiser eplet 1 499
+163 jeg ser gutten som vil spise eplet 1 679
+164 jeg ser gutten som vil kunne ha spist eplet 1 1525
+165 jeg ser eplet gutten spiser 3 371
+166 jeg ser eplet gutten har spist 6 681
+167 jeg ser eplet gutten må ha spist 14 1298
+168 jeg ser eplet som gutten spiser 1 599
+169 jeg ser gutten som ikke spiser eplet 1 549
+170 jeg ser gutten som kanskje vil spise eplet 3 1524
+171 jeg ser gutten som neppe vil kunne ha spist eplet 1 1618
+172 jeg ser eplet gutten nå spiser 6 554
+173 jeg ser eplet gutten nå har spist 12 1105
+174 jeg ser eplet gutten nå må ha spist 28 2300
+175 jeg ser eplet som gutten spiser 1 599
+176 jeg ser eplet gutten ikke spiser 3 392
+177 jeg ser eplet som gutten ikke spiser 1 638
+178 jeg ser eplet som gutten ikke vil spise 2 1237
+179 jeg ser eplet som gutten kanskje ikke vil spise 6 2985
+180 jeg ser ham ikke 1 140
+181 jeg ser ikke ham 1 176
+182 han setter seg ikke 1 127
+183 han unner meg den ikke 2 93
+184 unner han meg den ikke? 4 186
+185 unner han meg ikke den? 4 218
+186 unner gutten henne den ikke? 1 118
+187 ballen kastes 1 140
+188 ballen kastes til Ola 1 252
+189 det kastes en ball 1 261
+190 det kastes en ball til Ola 1 375
+191 jeg overlates en ball 1 192
+192 en ball overlates meg ikke 1 182
+193 det overlates Ola en ball 1 226
+194 Ola stoles på 1 189
+195 det stoles på Ola 1 264
+196 ballen blir kastet 2 171
+197 ballen blir kastet til Ola 2 677
+198 det blir kastet en ball 1 442
+199 det blir kastet en ball til Ola 7 761
+200 Ola blir overlatt en ball 1 184
+201 en ball blir overlatt Ola 1 183
+202 det blir overlatt Ola en ball 1 233
+203 Ola blir stolt på 1 269
+204 det blir stolt på Ola 2 356
+205 Ola fryktes drept 1 146
+206 Ola fryktes forsøkt drept 2 222
+207 Ola blir fryktet forsøkt drept 3 416
+208 Ola antas forutsatt forsøkt drept 3 302
+209 Ola fryktes ankommet 1 134
+210 Ola fryktes overlatt pistolen 1 171
+211 det sitter en katt på trappen 2 478
+212 det setter seg en katt på trappen 3 381
+213 det venter meg en ulykke 2 156
+214 Ola er hyggelig å snakke med 2 1285
+215 maten er appetittelig å spise 2 381
+216 guttene er hyggelige å se 2 511
+217 jeg rusler søndag 1 42
+218 Ola løper glad 1 96
+219 Ola spiser fisken levende 2 129
+220 sover Ola, kommer Per 3 137
+221 hvis han sover kommer Per 1 116
+222 hvis han sover, kommer Per 1 154
+223 Ola og Per og Kari kommer 2 98
+224 Ola, Per og Kari kommer 3 113
+225 en skrøpelig, gammel mann sover 2 146
+226 en skrøpelig og gammel mann sover 3 148
+227 Ola ligger, går og rusler 1 123
+228 Ola ligger og går og rusler 3 115
+229 Ola går hit og dit 1 122
+230 Ola fortærer seg selv 2 56
+231 Ola fortærer seg selv selv 4 103
+232 Ola vasker seg selv 4 107
+233 Ola vasker seg  1 75
+234 jeg vasker meg  2 66
+235 Ola skammer seg 1 45
+236 jeg skammer meg 1 31
+237 du skammer deg 1 41
+238 han skammer seg 1 36
+239 hun skammer seg 1 35
+240 den skammer seg 1 39
+241 det skammer seg 1 83
+242 vi skammer oss 1 66
+243 dere skammer dere 1 140
+244 de skammer seg 1 54
+245 jeg fortærer meg selv 4 42
+246 Ola ber meg fortære seg 2 129
+247 Ola ber meg fortære seg selv 5 158
+248 Ola ser meg fortære seg 1 164
+249 Ola fortærer maten sin 1 54
+250 Ola gir gutten sin maten sin 1 196
+251 Ola gir gutten sin maten sin i huset sitt 2 388
+252 Ola kaster ballen sin mot huset sitt 5 361
+253 Ola gir en bok om seg til naboen sin 4 1218
+254 Ola gir seg selv ballen sin 7 344
+255 Ola gir seg selv seg selv 5 292
+256 Ola gir sin gutt sitt fjell og sitt hus 2 434
+
+;;; Total CPU time: 408860 msecs
+
+;;; Mean edges: 906.44
+
+;;; Mean parses: 22.18
+
+
+
+
+;;; Parsing test file
+[00:07:15] gc-after-hook(): {L#50 N=15m O=0 E=95%} [S=782m R=511m].
+[00:07:19] gc-after-hook(): {L#51 N=37m O=226k E=90%} [S=782m R=511m].
+[00:07:22] gc-after-hook(): {L#52 N=7.6M O=36k E=94%} [S=782m R=512m].
+[00:07:26] gc-after-hook(): {L#53 N=20m O=14k E=94%} [S=782m R=512m].
+[00:07:29] gc-after-hook(): {L#54 N=7.0M O=1.3M E=94%} [S=782m R=513m].
+[00:07:34] gc-after-hook(): {L#55 N=9.0M O=1.1K E=97%} [S=782m R=513m].
+[00:07:38] gc-after-hook(): {L#56 N=21m O=23k E=94%} [S=782m R=513m].
+[00:07:41] gc-after-hook(): {L#57 N=59m O=35k E=87%} [S=782m R=513m].
+[00:07:43] gc-after-hook(): {L#58 N=88m O=101k E=72%} [S=782m R=513m].
+[00:07:45] gc-after-hook(): {L#59 N=6.5M O=113k E=93%} [S=782m R=513m].
+[00:07:50] gc-after-hook(): {L#60 N=16m O=17k E=96%} [S=782m R=513m].
+[00:07:53] gc-after-hook(): {L#61 N=57m O=968k E=87%} [S=782m R=514m].
+[00:07:57] gc-after-hook(): {L#62 N=6.6M O=12k E=96%} [S=782m R=514m].
+[00:08:01] gc-after-hook(): {L#63 N=8.7M O=51k E=96%} [S=782m R=514m].
+[00:08:05] gc-after-hook(): {L#64 N=51m O=9.9K E=89%} [S=782m R=514m].
+[00:08:08] gc-after-hook(): {L#65 N=6.3M O=0 E=95%} [S=782m R=514m].
+[00:08:13] gc-after-hook(): {L#66 N=6.2M O=2.5K E=97%} [S=782m R=514m].
+[00:08:18] gc-after-hook(): {L#67 N=12m O=2.7K E=96%} [S=782m R=514m].
+[00:08:21] gc-after-hook(): {L#68 N=55m O=912 E=88%} [S=782m R=514m].
+[00:08:24] gc-after-hook(): {L#69 N=82m O=968 E=81%} [S=782m R=514m].
+[00:08:27] gc-after-hook(): {L#70 N=102m O=43k E=73%} [S=782m R=514m].
+[00:08:29] gc-after-hook(): {L#71 N=113m O=4.3M E=60%} [S=782m R=518m].
+[00:08:32] gc-after-hook(): {L#72 N=354m O=11m E=25%} [S=782m R=593m].
+19529768 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[00:08:40] gc-after-hook(): {G#72 N=74m O=2.4M E=23%} [S=782m R=689m].
+[00:08:44] gc-after-hook(): {L#73 N=14m O=3.8M E=94%} [S=782m R=689m].
+[00:08:50] gc-after-hook(): {L#74 N=12m O=62k E=97%} [S=782m R=689m].
+[00:08:55] gc-after-hook(): {L#75 N=31m O=0 E=94%} [S=782m R=689m].
+[00:09:00] gc-after-hook(): {L#76 N=76m O=1.9M E=88%} [S=782m R=689m].
+[00:09:00] gc-after-hook(): 33m tenured; forcing global gc().
+[00:09:04] gc-after-hook(): {GR#11 N=76m O=0 E=0%} [S=782m R=689m].
+[00:09:08] gc-after-hook(): {L#77 N=27m O=0 E=92%} [S=782m R=689m].
+[00:09:13] gc-after-hook(): {L#78 N=71m O=133k E=90%} [S=782m R=689m].
+[00:09:17] gc-after-hook(): {L#79 N=105m O=101k E=83%} [S=782m R=689m].
+[00:09:20] gc-after-hook(): {L#80 N=132m O=173k E=74%} [S=782m R=689m].
+[00:09:22] gc-after-hook(): {L#81 N=124m O=27m E=61%} [S=782m R=689m].
+30209864 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[00:09:30] gc-after-hook(): {G#81 N=101m O=0 E=20%} [S=782m R=689m].
+[00:09:32] gc-after-hook(): {L#82 N=6.8M O=0 E=93%} [S=782m R=689m].
+[00:09:37] gc-after-hook(): {L#83 N=58m O=204k E=91%} [S=782m R=689m].
+[00:09:42] gc-after-hook(): {L#84 N=95m O=0 E=85%} [S=782m R=689m].
+[00:09:45] gc-after-hook(): {L#85 N=121m O=0 E=79%} [S=782m R=689m].
+[00:09:48] gc-after-hook(): {L#86 N=133m O=6.4M E=72%} [S=782m R=689m].
+[00:09:48] gc-after-hook(): 33m tenured; forcing global gc().
+[00:09:54] gc-after-hook(): {GR#13 N=81m O=43m E=0%} [S=782m R=729m].
+[00:09:58] gc-after-hook(): {L#87 N=110m O=0 E=82%} [S=782m R=755m].
+[00:10:01] gc-after-hook(): {L#88 N=95m O=37m E=69%} [S=782m R=755m].
+[00:10:01] gc-after-hook(): 37m tenured; forcing global gc().
+[00:10:07] gc-after-hook(): {GR#14 N=68m O=0 E=0%} [S=782m R=755m].
+38350456 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by På fredag vil gutten skulle kunne ha måttet bli skutt.
+[00:10:13] gc-after-hook(): {G#88 N=5.9M O=0 E=58%} [S=782m R=755m].
+[00:10:19] gc-after-hook(): {L#89 N=6.1M O=0 E=97%} [S=782m R=755m].
+[00:10:25] gc-after-hook(): {L#90 N=7.9M O=0 E=97%} [S=782m R=755m].
+[00:10:31] gc-after-hook(): {L#91 N=8.3M O=2.7K E=97%} [S=782m R=755m].
+[00:10:37] gc-after-hook(): {L#92 N=53m O=1.7K E=92%} [S=782m R=755m].
+[00:10:41] gc-after-hook(): {L#93 N=94m O=208k E=85%} [S=782m R=755m].
+[00:10:44] gc-after-hook(): {L#94 N=123m O=352k E=74%} [S=782m R=755m].
+[00:10:46] gc-after-hook(): {L#95 N=16m O=70k E=91%} [S=782m R=755m].
+[00:10:52] gc-after-hook(): {L#96 N=62m O=74k E=91%} [S=782m R=755m].
+[00:10:56] gc-after-hook(): {L#97 N=95m O=226k E=86%} [S=782m R=755m].
+[00:10:59] gc-after-hook(): {L#98 N=119m O=215k E=79%} [S=782m R=755m].
+[00:11:02] gc-after-hook(): {L#99 N=126m O=16m E=70%} [S=782m R=755m].
+17589032 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[00:11:10] gc-after-hook(): {G#99 N=100m O=0 E=22%} [S=782m R=755m].
+[00:11:13] gc-after-hook(): {L#100 N=129m O=0 E=76%} [S=782m R=755m].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by På fredag vil gutten ikke ha skullet kunne bli skutt.
+[00:11:15] gc-after-hook(): {L#101 N=8.8M O=153k E=92%} [S=782m R=755m].
+[00:11:21] gc-after-hook(): {L#102 N=60m O=55k E=91%} [S=782m R=755m].
+[00:11:25] gc-after-hook(): {L#103 N=95m O=204k E=85%} [S=782m R=755m].
+[00:11:29] gc-after-hook(): {L#104 N=121m O=33k E=79%} [S=782m R=755m].
+[00:11:32] gc-after-hook(): {L#105 N=131m O=8.3M E=70%} [S=782m R=755m].
+9138752 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[00:11:39] gc-after-hook(): {G#105 N=95m O=0 E=21%} [S=782m R=755m].
+[00:11:43] gc-after-hook(): {L#106 N=120m O=0 E=80%} [S=782m R=755m].
+[00:11:46] gc-after-hook(): {L#107 N=102m O=35m E=69%} [S=782m R=755m].
+[00:11:46] gc-after-hook(): 60m tenured; forcing global gc().
+[00:11:52] gc-after-hook(): {GR#18 N=76m O=0 E=0%} [S=782m R=755m].
+36680608 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by På fredag vil gutten ikke skulle kunne ha måttet bli skutt.
+[00:11:58] gc-after-hook(): {G#107 N=15m O=0 E=54%} [S=782m R=755m].
+[00:12:04] gc-after-hook(): {L#108 N=32m O=0 E=95%} [S=782m R=755m].
+[00:12:09] gc-after-hook(): {L#109 N=21m O=896 E=95%} [S=782m R=755m].
+[00:12:15] gc-after-hook(): {L#110 N=69m O=62k E=91%} [S=782m R=755m].
+[00:12:20] gc-after-hook(): {L#111 N=102m O=90k E=85%} [S=782m R=755m].
+[00:12:23] gc-after-hook(): {L#112 N=21m O=75k E=92%} [S=782m R=755m].
+[00:12:28] gc-after-hook(): {L#113 N=20m O=11k E=95%} [S=782m R=755m].
+[00:12:34] gc-after-hook(): {L#114 N=39m O=303k E=93%} [S=782m R=755m].
+[00:12:39] gc-after-hook(): {L#115 N=13m O=64k E=96%} [S=782m R=755m].
+[00:12:45] gc-after-hook(): {L#116 N=59m O=148k E=91%} [S=782m R=755m].
+[00:12:49] gc-after-hook(): {L#117 N=97m O=173k E=86%} [S=782m R=755m].
+[00:12:53] gc-after-hook(): {L#118 N=127m O=182k E=75%} [S=782m R=755m].
+[00:12:55] gc-after-hook(): {L#119 N=12m O=154k E=91%} [S=782m R=755m].
+[00:13:00] gc-after-hook(): {L#120 N=59m O=84k E=92%} [S=782m R=755m].
+[00:13:05] gc-after-hook(): {L#121 N=93m O=260k E=86%} [S=782m R=755m].
+[00:13:09] gc-after-hook(): {L#122 N=117m O=250k E=81%} [S=782m R=755m].
+[00:13:12] gc-after-hook(): {L#123 N=126m O=10.0M E=73%} [S=782m R=755m].
+12360040 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[00:13:20] gc-after-hook(): {G#123 N=95m O=0 E=25%} [S=782m R=755m].
+[00:13:23] gc-after-hook(): {L#124 N=126m O=0 E=77%} [S=782m R=755m].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by På fredag vil gutten trolig ikke ha kunnet bli skutt.
+[00:13:25] gc-after-hook(): {L#125 N=11m O=176k E=92%} [S=782m R=755m].
+[00:13:31] gc-after-hook(): {L#126 N=59m O=121k E=92%} [S=782m R=755m].
+[00:13:35] gc-after-hook(): {L#127 N=93m O=50k E=86%} [S=782m R=755m].
+[00:13:39] gc-after-hook(): {L#128 N=118m O=399k E=79%} [S=782m R=755m].
+[00:13:42] gc-after-hook(): {L#129 N=127m O=10m E=72%} [S=782m R=755m].
+11583392 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[00:13:50] gc-after-hook(): {G#129 N=95m O=0 E=23%} [S=782m R=755m].
+[00:13:53] gc-after-hook(): {L#130 N=120m O=0 E=80%} [S=782m R=755m].
+[00:13:57] gc-after-hook(): {L#131 N=103m O=34m E=70%} [S=782m R=755m].
+[00:13:57] gc-after-hook(): 57m tenured; forcing global gc().
+[00:14:02] gc-after-hook(): {GR#22 N=78m O=0 E=0%} [S=782m R=755m].
+35751528 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by På fredag vil gutten trolig ikke ha skullet kunne bli skutt.
+[00:14:09] gc-after-hook(): {G#131 N=23m O=0 E=55%} [S=782m R=755m].
+[00:14:15] gc-after-hook(): {L#132 N=69m O=0 E=91%} [S=782m R=755m].
+[00:14:19] gc-after-hook(): {L#133 N=100m O=50k E=85%} [S=782m R=755m].
+[00:14:23] gc-after-hook(): {L#134 N=127m O=28k E=77%} [S=782m R=755m].
+[00:14:26] gc-after-hook(): {L#135 N=294m O=61k E=52%} [S=837m R=827m].
+[00:14:29] gc-after-hook(): {L#136 N=102m O=68m E=61%} [S=837m R=827m].
+[00:14:29] gc-after-hook(): 68m tenured; forcing global gc().
+[00:14:35] gc-after-hook(): {GR#24 N=70m O=0 E=0%} [S=837m R=827m].
+71669024 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by På fredag vil gutten trolig ikke skulle kunne ha måttet bli skutt.
+[00:14:43] gc-after-hook(): {G#136 N=6.5M O=0 E=62%} [S=837m R=827m].
+[00:14:49] gc-after-hook(): {L#137 N=34m O=0 E=95%} [S=837m R=827m].
+[00:14:54] gc-after-hook(): {L#138 N=40m O=11k E=92%} [S=837m R=827m].
+[00:14:59] gc-after-hook(): {L#139 N=99m O=5.2K E=86%} [S=837m R=827m].
+[00:15:02] gc-after-hook(): {L#140 N=9.0M O=80k E=93%} [S=837m R=827m].
+[00:15:09] gc-after-hook(): {L#141 N=8.1M O=518k E=97%} [S=837m R=827m].
+[00:15:15] gc-after-hook(): {L#142 N=28m O=34k E=95%} [S=837m R=827m].
+[00:15:20] gc-after-hook(): {L#143 N=91m O=0 E=87%} [S=837m R=827m].
+[00:15:24] gc-after-hook(): {L#144 N=29m O=488 E=91%} [S=837m R=827m].
+[00:15:30] gc-after-hook(): {L#145 N=90m O=359k E=88%} [S=837m R=827m].
+[00:15:34] gc-after-hook(): {L#146 N=130m O=60k E=81%} [S=837m R=827m].
+[00:15:37] gc-after-hook(): {L#147 N=160m O=179k E=69%} [S=837m R=827m].
+[00:15:39] gc-after-hook(): {L#148 N=155m O=28m E=51%} [S=837m R=827m].
+30752040 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[00:15:47] gc-after-hook(): {G#148 N=118m O=0 E=12%} [S=837m R=827m].
+[00:15:50] gc-after-hook(): {L#149 N=3.6M O=0 E=94%} [S=837m R=827m].
+[00:15:56] gc-after-hook(): {L#150 N=23m O=59k E=95%} [S=837m R=827m].
+[00:16:01] gc-after-hook(): {L#151 N=38m O=936 E=92%} [S=837m R=827m].
+[00:16:05] gc-after-hook(): {L#152 N=100m O=19k E=81%} [S=837m R=827m].
+[00:16:09] gc-after-hook(): {L#153 N=14m O=352k E=94%} [S=837m R=827m].
+[00:16:15] gc-after-hook(): {L#154 N=24m O=423k E=96%} [S=837m R=827m].
+[00:16:21] gc-after-hook(): {L#155 N=44m O=7.7K E=93%} [S=837m R=827m].
+[00:16:26] gc-after-hook(): {L#156 N=7.0M O=39k E=96%} [S=837m R=827m].
+[00:16:32] gc-after-hook(): {L#157 N=8.9M O=435k E=97%} [S=837m R=827m].
+[00:16:37] gc-after-hook(): {L#158 N=7.4M O=68k E=96%} [S=837m R=827m].
+[00:16:44] gc-after-hook(): {L#159 N=11m O=12k E=97%} [S=837m R=827m].
+[00:16:50] gc-after-hook(): {L#160 N=26m O=421k E=94%} [S=837m R=827m].
+[00:16:55] gc-after-hook(): {L#161 N=82m O=4.2K E=87%} [S=837m R=827m].
+[00:16:59] gc-after-hook(): {L#162 N=7.5M O=6.7K E=94%} [S=837m R=827m].
+[00:17:06] gc-after-hook(): {L#163 N=8.4M O=8.8K E=97%} [S=837m R=827m].
+[00:17:11] gc-after-hook(): {L#164 N=8.5M O=92k E=97%} [S=837m R=827m].
+[00:17:17] gc-after-hook(): {L#165 N=7.5M O=297k E=96%} [S=837m R=827m].
+[00:17:24] gc-after-hook(): {L#166 N=7.7M O=499k E=97%} [S=837m R=827m].
+[00:17:24] gc-after-hook(): 32m tenured; forcing global gc().
+[00:17:27] gc-after-hook(): {GR#27 N=7.7M O=0 E=0%} [S=837m R=827m].
+[00:17:35] gc-after-hook(): {L#167 N=11m O=0 E=96%} [S=837m R=827m].
+[00:17:42] gc-after-hook(): {L#168 N=12m O=368k E=96%} [S=837m R=827m].
+
+;;; Finished test file

@@ -1,0 +1,327 @@
+;;; -*- Coding: utf-8; -*-
+
+;covered by Aug 1 04.
+
+;"gutten", "gutter" and "guttene" have an in-built quantifier, 
+;introduced by an ltol-rule, and so none of the preceding items can 
+;introduce a Q. Hence, only "hver", "ingen" and the three sg articles 
+;"en", "ei", "et" can embody a quantifier.
+;The type 'rule' is used to regulate that cardinals cannot get iterated, 
+;and items like "noen" therewith.
+;Nouns with definite form ("gutten", "guttene") have a feature DEFINITE+, 
+;whose presence requires a non-empty SPR in the resulting noun phrase. 
+;Also weak adjectives make such a requirement (but they don't require 
+;a definite noun, due to "min glade gutt").
+;The partitive "av" is a hybrid, taking the NP as a complement, 
+;but the left-hand combinant as a specifier. Its semantic contribution 
+;is to say "x instantiates y", where x is introduced by the left-hand 
+;combinant (eg "hver") and y by the governed NP.
+
+
+gutten sover
+; boy-DEF sleeps
+gutt sover
+; boy sleeps
+vin renner
+; wine runs
+;*
+den gutt sover
+; that boy sleeps
+en gutt sover
+; a boy sleeps
+en vin renner
+; a wine runs
+fjellet ligger
+; mountain-DEF lies
+vinen renner
+; wine-DEF runs
+et fjell ligger
+; a-NEUTSG mountain[NEUTSG] lies
+;*
+et gutt sover
+; a-NEUTSG boy[MASCSG] lies
+;*
+en fjell ligger
+; a-MASCSG mountain[NEUTSG] lies
+tre gutter sover
+; three boy-PL.INDEF sleep
+tre fjell ligger
+; three mountain-PL.INDEF lie
+hver gutt sover
+; each boy sleeps
+hver vin renner
+; each wine runs
+hvert fjell ligger
+; each mountain lies
+ingen gutt sover
+; no boy sleeps
+noen gutter sover
+; some boy-PL.INDEF sleep
+noen viner renner
+; some wine-PL.INDEF run
+noe vin renner
+; some wine runs
+en glad gutt smiler
+; a glad boy smiles
+en god vin renner
+; a good wine runs
+mye god vin renner
+; much good wine runs
+tre glade gutter smiler
+; three happy boys smile
+;*
+noen tre glade gutter smiler
+; some three happy boys smile
+;*
+fire tre glade gutter smiler
+; four three happy boys smile
+tre glade hyggelige gutter smiler
+; three happy nice boys smile
+;*
+tre glade gutt smiler
+; three happy-PL boy.SG smile
+;*
+tre glad gutter smiler
+; three happy.SG boy-PL smile
+den glade gutten smiler
+; the.DEF happy-WEAK boy-DEF.SG smiles
+;*
+den glad gutten smiler
+; the.DEF happy-STR boy-DEF.SG smiles
+;;*
+glade gutten smiler
+; happy-WEAK boy-DEF.SG smiles
+;*
+den glade gutt smiler
+; the.DEF happy-WEAK boy smiles
+de tre glade guttene smiler
+; the.DEF three happy-WEAK.PL boy-DEF.PL smile
+de tre gode vinene renner
+; the.DEF three good-WEAK.PL wine-DEF.PL run
+;*
+de tre gode vin renner
+; the.DEF three good-WEAK.PL wine run
+de glade guttene smiler
+; the.DEF happy-WEAK.PL boy-DEF.PL smile
+glade gutter smiler
+; happy-STR.PL boy-PL smile
+;*
+de glade gutter smiler
+; the.DEF happy-WEAK.PL boy-PL smile
+;*
+glade guttene smiler
+; happy-WEAK.PL boy-DEF.PL smile
+hver av de glade guttene smiler
+; each of the.DEF happy-WEAK.PL boy-DEF.PL smile
+hver av de tre glade guttene smiler
+; each of the.DEF three happy-WEAK.PL boy-PL smile
+hver av de tre gode vinene renner
+; each of the.DEF three good-WEAK.PL wine-PL run
+noen av de ni guttene smiler
+; some of the.DEF nine boy-DEF.PL smile
+noe av den gode vinen renner
+; some of the.DEF good wine-DEF.PL run
+ingen av de ni guttene smiler
+; none of the.DEF nine boy-DEF.PL smile
+få av de ni guttene smiler
+; few of the.DEF nine boy-DEF.PL smile
+ni av guttene smiler
+; nine of the.DEF boy-DEF.PL smile
+alle gutter sover
+; all-PL boy-PL sleep
+;*
+alle gutt sover
+; all-PL boy.SG sleep
+;*
+alle gutten sover
+; all-PL boy-DEF.SG sleep
+begge guttene sover
+; both boy-DEF.PL smile
+alle de tre guttene sover
+; all-PL the.DEF three boy-DEF.PL smile
+all den gode vinen renner
+; all.SG the.DEF good wine-DEF.SG runs
+mine tre gutter sover
+; my-PL three boy-PL sleep
+mine glade gutter smiler
+; my-PL glad-WEAK.PL boy-PL smiles
+min glade gutt smiler
+; my-PL glad-WEAK.SG boy.SG smiles
+all min gode vin renner
+; all.SG my.SG good-WEAK.SG wine.SG runs
+alle mine gode viner renner
+; all-PL my-PL good-WEAK.PL wine.PL run
+;*
+min glad gutt smiler
+; my.SG glad.STR boy smiles
+
+alle mine gutter smiler
+gutten min smiler
+vinen min renner
+;*
+glade gutten min smiler
+; the.DEF happy-WEAK boy-DEF.MASCSG my.MASCSG smiles
+den glade gutten min smiler
+; the.DEF happy-WEAK boy-DEF.MASCSG my.MASCSG smiles
+; 'my happy boy smiles'
+gutten til Ola smiler
+; boy-DEF.SG to Ola smiles
+; 'the boy of Ola's smiles'
+vinen til Ola renner
+; wine-DEF.SG to Ola runs
+; 'the wine of Ola's runs'
+Ola sin gutt smiler
+; Ola POSS.MASCSG boy.MASCSG smiles
+; 'Ola's boy smiles'
+gutten si bygd sover
+; boy-DEF POSS.FEMSG village.FEMSG sleeps
+; 'the boy's village sleeps'
+;*
+gutten sitt bru sover
+; boy-DEF POSS.NEUTSG bridge.FEMSG sleeps
+; 'the boy's bridge sleeps'
+gutten sin ball ruller
+; boy-DEF POSS.MASCSG ball.MASCSG rolls
+; 'the boy's ball rolls'
+en gutt sin ball ruller
+; a boy POSS.MASCSG ball.MASCSG rolls
+; 'a boy's ball rolls'
+hver gutt sin ball ruller
+; each boy POSS.MASCSG ball.MASCSG rolls
+; 'each boy's ball rolls'
+Ola sin glade gutt smiler
+; Ola POSS.MASCSG happy-WEAK.SG boy.MASCSG smiles
+; 'Ola's happy boy smiles'
+;*
+Ola sin glade gutten min smiler
+; Ola POSS.MASCSG happy-WEAK.SG boy-DEF.MASCSG my.MASCSG smiles
+; 'Ola's my happy boy smiles'
+
+Olas gutt smiler
+; Ola's boy smiles
+guttens ball ruller
+; the boy's ball rolls
+en gutts ball ruller
+; a boy's ball rolls
+hver gutts ball ruller
+; every boy's ball rolls
+Olas glade gutt smiler
+; Ola's happy-WEAK boy smiles
+;*
+Olas glade gutten smiler
+; Ola's happy-WEAK boy-DEF.SG smiles
+Ola sin gutt sin katt løper
+; Ola POSS.MASCSG boy.MASCSG POSS.MASCSG cat.MASCSG runs
+; 'Ola's boy's cat runs'
+Olas gutts katt løper
+; 'Ola's boy's cat runs'
+Ola sin gutts katt løper
+; Ola POSS.MASCSG boy.MASCSG's cat runs
+; 'Ola's boy's cat runs'
+Olas gutt sin katt løper
+; Ola's boy POSS.MASCSG cat.MASCSG runs
+; 'Ola's boy's cat runs'
+en sekk poteter ligger
+; a sack potatoes lies
+en sekk med poteter ligger
+; a sack with potatoes lies
+et par dusin esker baller ligger
+; a pair.SG dozen.PL box-PL ball-PL lie
+; 'a pair dozens of boxes of balls lie'
+;*
+et dusin ballene ligger
+; a dozen.SG ball-DEF.PL lie
+
+et hav av katter løper
+; an ocean of cats run
+;*
+et hav av kattene løper
+; an ocean of cat-DEF.PL run
+Jon hopper to nitten
+; Jon jumps two nineteen
+Ola løper på tre trettifem
+; Jon runs on three thirty-five
+Ola løper tre trettifem
+; Jon runs three thirty-five
+; 'Jon runs at three thirty-five'
+Ola løper torsdag tre trettifem
+; Jon runs Thursday three thirty-five
+; 'Jon runs on Thursday at three thirty-five'
+Ola løper torsdag ettermiddag tre trettifem
+; Jon runs Thursday afternoon three thirty-five
+; 'Jon runs on Thursday afternoon at three thirty-five'
+Ola løper klokka tre trettifem
+; Jon runs clock three thirty-five
+; 'Jon runs at three thirty-five o'clock'
+Ola løper torsdag klokka tre trettifem
+; Jon runs Thursday clock three thirty-five
+; 'Jon runs on Thursday at three thirty-five o'clock'
+Ola løper torsdag ettermiddag klokka tre trettifem
+; Jon runs Thursday afternoon clock three thirty-five
+; 'Jon runs on Thursday afternoon at three thirty-five o'clock'
+Ola løper femten hundre
+; Jon runs fifteen hundred
+Ola finner to tjue
+; Ola finds two twenty
+tre tusen fire hundre ligger
+; three thousand four hundred lie
+tre tusen fire hundre og femti ligger
+; three thousand four hundred and fifty lie
+gul sover
+; yellow.SG sleeps
+gule sover
+; yellow-PL sleep
+de gule sover
+; the.DEF.PL yellow-WEAK sleep
+den gule sover
+; the.DEF.SG yellow-WEAK sleeps
+;*
+den gul sover
+; the.DEF.SG yellow.STR sleeps
+alle gule sover
+; all-PL yellow.PL sleep
+;*
+alle gul sover
+; all-PL yellow.SG sleep
+hver gul sover
+; each.MASC.SG yellow.MASC.SG.STR sleeps
+;*
+hver gule sover
+; each yellow.WEAK sleeps
+hvert gult sover
+; each-NEUTSG yellow-NEUTSG.STR sleeps
+;*
+hvert gul sover
+; each-NEUTSG yellow-COMMSG.STR sleeps
+fire sover
+; four sleep
+de fire sover
+; the.PL four sleep
+alle fire sover
+; all-PL four sleep
+;*
+hver fire sover
+; each four sleeps
+dine sover
+; my-PL sleep
+min sover
+; my-MASCSG sleep
+alle dine sover
+; all-PL my-PL sleep
+;*
+hver dine sover
+; each-SG my-PL sleep
+alt mitt sover
+; all-NEUTSG my-NEUTSG sleeps
+;*
+alt dine sover
+; all-NEUTSG my-PL sleeps
+;*
+den dine sover
+; that.SG my-PL sleeps
+de fleste sover
+; the most sleep
+; 'most of them sleep'
+hele landet løper
+; whole country runs
+; 'the whole country runs'

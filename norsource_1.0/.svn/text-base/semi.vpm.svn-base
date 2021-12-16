@@ -1,0 +1,187 @@
+;;; -*- Mode: TDL; -*-
+;;;
+;;; SEM-I mapping
+;;;
+;;;  order most specific mappings first
+
+;;  new stuff, Bruland
+
+;; replacing determine-variable-type in mrsglobals.lisp
+event      <> e
+ref-ind    <> x
+deg-ind-type <> d
+handle <> h
+individual <> u
+;event_or_index-type <> i
+index <> i
+class-specified <> u
+semarg <> u
+
+;; individual endret fra i til u, Bruland
+
+WH : WH
+ + <> +
+ - <> -
+
+BOUNDED : BOUNDED
+ + <> +
+ - <> -
+
+SORT : SORT
+ verb-act-specification <> verb-act-specification
+ inan-endpnt-of-path <> inan-endpnt-of-path
+ end-of-path-motion <> end-of-path-motion
+
+SF : SF
+  comm             <> comm
+  ques             <> ques
+  prop             <> prop
+  prop-or-ques     <> prop-or-ques
+  *                >> prop
+  prop             << *
+  prop             << [e]
+
+;; old stuff
+
+PNG.NG.NUM : PNG.NG.NUM
+  sing  <> sing
+  plur  <> plur
+  *        >> !
+  !        << *
+
+PNG.NG.GEN : PNG.NG.GEN
+ m   <>  m    
+ f   <>  f    
+ n   <>  n
+ gen << *
+  
+PNG.PERS : PNG.PERS
+ firstpers   <>  firstpers      
+ secpers     <>  secpers      
+ thirdpers   <>  thirdpers     
+
+;;; ROLE
+;;; BOUNDED
+;;; WH
+E.TENSE : E.TENSE
+  pret <> pret
+  pres <> pres
+  ;;
+  ;; `could' yields [ TENSE real_tense, MOOD ind_or_mod_subj ]
+  ;;
+  *      >> tense
+  tense  << *
+
+E.MOOD : E.MOOD 
+  indicative      <> indicative
+  * >> indicative
+  ! << *
+
+;; bruland
+E.ASPECT : E.ASPECT
+  semsort <> semsort
+  * <> *
+
+;; Bruland
+E.DELIMITED : E.DELIMITED
+  + <> +
+  - <> -
+
+;; PATH-TELIC : PATH-TELIC 
+;;  - <> +
+;;  + <> -  
+;;  * >> -     
+
+ROLE : ROLE
+  purely-oriented-obj <> purely-oriented-obj
+  mileage-obj <> mileage-obj
+  path-obj <> path-obj
+  locomotion-instance <> locomotion-instance
+  locomotor <> locomotor
+  init-locomotor <> init-locomotor
+  noninit-locomotor <> noninit-locomotor
+  locomotion-event <> locomotion-event
+  endpnt-of-line <> endpnt
+  startpnt-of-line <> startpnt
+  viapnt-of-line <> viapnt
+  targetpnt-of-line <> targetpnt
+  endtime-of-line <> endtime
+  starttime-of-line <> starttime
+  viatime-of-line <> viatime
+  targettime-of-line <> targettime
+  inceptiontime <> inceptiontime
+
+
+
+
+;; bruland
+;;DISC-MOVE : DISC-MOVE
+;;  single-developer <> single-developer
+;;  scenic-developer <>  scenic-developer
+;;  response <> response
+;;  question <> question
+;;  presented-developer <> presented-developer
+;;  interact-developer <> interact-developer
+;;  added-info <> added-info
+
+;; Bruland, forsøk
+;;IARG.CLASS : IARG.CLASS
+;; * <> *
+
+;; CLASS : CLASS
+;;  * <> *
+
+CLASS.SCALAR : CLASS.SCALAR
+ + <> +
+ - <> -
+ * <> *
+CLASS.TRANSITIVE : CLASS.TRANSITIVE
+ + <> +
+ - <> -
+ * <> *
+CLASS.FRONT : CLASS.FRONT
+ + <> +
+ - <> -
+ * <> *
+CLASS.EMBEDDED : CLASS.EMBEDDED 
+ + <> +
+ - <> -
+ * <> *
+CLASS.CONTAINED : CLASS.CONTAINED
+ + <> +
+ - <> -
+ * <> *
+CLASS.BACK : CLASS.BACK
+ + <> +
+ - <> -
+ * <> *
+CLASS.VERTICAL : CLASS.VERTICAL
+ + <> +
+ - <> -
+ * <> *
+CLASS.UPSIDE-OF : CLASS.UPSIDE-OF
+ + <> +
+ - <> -
+ * <> *
+CLASS.INTEGRATED : CLASS.INTEGRATED
+ + <> +
+ - <> -
+ * <> *
+CLASS.CO-EXTENSIVE-WITH : CLASS.CO-EXTENSIVE-WITH
+ + <> +
+ - <> -
+ * <> *
+CLASS.PARALLEL-WITH : CLASS.PARALLEL-WITH
+ + <> +
+ - <> -
+ * <> *
+CLASS.PHASE-OVERLAPPING-WITH : CLASS.PHASE-OVERLAPPING-WITH
+ + <> +
+ - <> -
+ * <> *
+CLASS.PHASE-DISJOINT-FROM : CLASS.PHASE-DISJOINT-FROM
+ + <> +
+ - <> - 
+ * <> *
+
+

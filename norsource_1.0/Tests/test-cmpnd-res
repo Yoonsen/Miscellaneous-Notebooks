@@ -1,0 +1,186 @@
+;;; -*- Coding: utf-8; -*-
+
+LKB(98): (time (analyse-compound-batch "~/norsource/test-cmpnd2"))
+brannoffer : (brann offer)
+brannslukking : (brannslukking)
+oppdrettslaks : (oppdrett s laks)
+lakseoppdrett : (laks e oppdrett)
+ferskvann : (ferskvann)
+ferskvannsfisk : (ferskvann s fisk)
+fiskeoppdrett : (fisk e oppdrett)
+ørretoppdrett : (ørret oppdrett)
+konkurransesvømming : NIL
+havsvømming : NIL
+bilfabrikk : (bil fabrikk)
+bilkarosseri : (bil karosseri)
+bilkarosserifabrikk : (bil karosseri fabrikk)
+bilkarosserifabrikkarbeider : (bil karosseri fabrikk arbeider)
+terrengbil : (terreng bil)
+veibeskrivelse : (vei beskrivelse)
+kravspesifikasjon : (krav spesifikasjon)
+spesifikasjonsrubrikk : (spesifikasjon s rubrikk)
+kravspesifikasjonsskjema : (krav spesifikasjon s skjema)
+bokutstilling : (bok utstilling)
+utstillingsbod : (utstilling s bod)
+bokutstillingsbod : (bok utstilling s bod)
+trafikkbot : (trafikk bot)
+botsøvelse : (bot s øvelse)
+øvelsesområde : (øvelse s område)
+rakettutskytning : (rakett utskytning)
+utskytningsfelt : (utskytning s felt)
+hekseforfølgelse : (heks e forfølgelse)
+skogdød : (skog død)
+skogsarbeider : (skog s arbeider)
+ørkenrotte : (ørken rotte)
+ørkenvandring : (ørken vandring)
+skogdødsbekjempelse : (skog død s bekjempelse)
+skogdødbekjempelse : (skog død bekjempelse)
+dødsulykke : (død s ulykke)
+ulandsforskning : NIL
+ulandstatus : NIL
+ulandsstatus : NIL
+bisonpels : (bison pels)
+bjørnepels : (bjørn e pels)
+fakturagebyr : (faktura gebyr)
+diasporalitteratur : (diaspora litteratur)
+vendettamord : (vendetta mord)
+gangsterdrap : (gangster drap)
+torturapparat : (tortur apparat)
+pinselsskrik : (pinsel s skrik)
+gledesutbrudd : (glede s utbrudd)
+antidepresjonstablett : NIL
+fotballtrener : (fot ball trener)
+fotballserierunde : (fot ball serie runde)
+fotballserierundekommentar : (fot ball serie runde kommentar)
+akillessene : (akillessene)
+akillessenebetennelse : (akillessene betennelse)
+lårmuskel : (lår muskel)
+muskelbetennelse : (muskel betennelse)
+lårmuskelbetennelse : (lår muskel betennelse)
+amfetaminsprøyte : (amfetamin sprøyte)
+ninjateknikk : NIL
+samuraisverd : (samurai s verd)
+sverdkunst : (sverd kunst)
+barndomsminne : (barn dom s minne)
+norgesvenn : (norgesvenn)
+regjeringsbygg : (regjering s bygg)
+opptaksstudio : (opptak s studio)
+komposthaug : (komp ost haug)
+fornøyelsespark : (fornøyelse s park)
+kirkekaffe : (kirke kaffe)
+treklynge : (tre klynge)
+stafettløper : (stafett løper)
+hestehale : (hest e hale)
+kuhale : NIL
+brannbeskyttelse : (brann beskyttelse)
+beskyttelsesbrille : (beskyttelse s brille)
+brannvern : (brann vern)
+vernebrille : (vern e brille)
+barnevern : (barn e vern)
+barnevernsnemnd : (barn e vern s nemnd)
+ulvefrykt : (ulv e frykt)
+tigerfrykt : (tiger frykt)
+tigerspor : (tiger spor)
+beverspor : (bever spor)
+ulvespor : (ulv e spor)
+elefantspor : (elefant spor)
+spikerboks : (spiker boks)
+elveleie : (elv e leie)
+gulvplanke : (gulv planke)
+sølvfarve : NIL
+smaragdtyv : (smaragd tyv)
+kornbonde : (korn bonde)
+bjørnejeger : (bjørn e jeger)
+julegaveinnpakningspapir : (jul e gave innpakning s papir)
+elgjakttid : (elg jakt tid)
+kunstløpsskøyte : (kunst løp s skøyte)
+ishockeyskøyte : (ishockey skøyte)
+luftputebåt : (luft pute båt)
+luftputebåtterminal : (luft pute båt terminal)
+luftputebåtterminalbygg : (luft pute båt terminal bygg)
+sjølukt : (sjø lukt)
+; cpu time (non-gc) 1,520 msec user, 90 msec system
+; cpu time (gc)     0 msec user, 0 msec system
+; cpu time (total)  1,520 msec user, 90 msec system
+; real time  9,051 msec
+; space allocation:
+;  327,419 cons cells, 4,470,728 other bytes, 23,278 static bytes
+NIL
+LKB(99):
+
+
+To enable/disable the compounder:
+- comment/uncomment the relevant line in norsource/lkb/script
+
+HOW IT WORKS
+- when lexical lookup fails using the basic lexicon (eg. the lexdb/tdl
+files) an attempt is made to analyse the word as a compound
+- the following settings in norsource/lkb/globals.lsp are relevant
+
+(defparameter *compound-constituent-supertype* 'noun-lexeme)
+= all constituent words of the compound must be a subtype of this
+(defparameter *compound-join-strings* '("s" "e"))
+= these short strings are allowed between any 2 constituent words of the
+compound
+(defparameter *compound-sem-path* '(synsem lkeys keyrel pred))
+= the appropriate ..._n_rel for the analysed compound will be inserted here
+
+- analysis as a compound succeeds when the input word can be decomposed
+into a sequence of words (from the basic lexicon, subtype of
+*compound-constituent-supertype*), optionally glued together by an element
+of *compound-join-strings*
+- the final word in this sequence is the "head"
+- a new lexicon entry is constructed on the fly, by taking the lexicon
+entry for the "head" word, replacing the orth value by the appropriate
+compound orth, and replacing the contents of *compound-sem-path* by an
+appropriate  pred value of the form COMPOUND-ORTH_n_rel
+
+Eg.
+
+LKB(63): (analyse-compound "mannkvinne" :format :tdl)
+("
+compound_mannkvinne-0_mann_kvinne := mascorfem-reganim-noun-lxm &
+[ INFLECTION light-e,
+   STEM < \"mannkvinne\" ,
+   SYNSEM [ LKEYS.KEYREL.PRED \"_mannkvinne_n_rel\",
+            LOCAL.CAT.HEAD.KEYS.KEY nom-k ] ].
+")
+LKB(64): (analyse-compound "mannkvinne" :format :basic)
+("mann" "kvinne")
+
+EXTENSIONS
+
+The current mechanism has been intentionally left very simple, as I think
+this is appropriate for initial experimentation. It only really copes with
+noun-noun compounds. But it should produce fewer false positives than a
+more complex mechanism.
+
+A relatively simple extension would be to model the constraints on
+component word (and joining string) combination as a finite state machine.
+I don't know exactly what the rules would be, but this could be used to
+allow compounds of the form
+
+A-N
+V-N
+or even
+? N-A
+? V-A
+
+A more sophisticated extension (...) would
+be to model the constraints as (normal, CFG) grammar rules. This ought to
+be the cleanest and most ideal solution. But it would require a high level
+of integration with other components of the system... . A sample grammar rule might be of the form
+
+adj-morph + noun-morph - noun-compound-word
+
+or, better,
+
+adj-morph + noun-morph - noun-morph
+noun-morph - noun-compound-word
+
+;;;;;;;;;
+
+setf *lexicon* (make-instance 'compound-lex-database :lex *lexicon*))
+
+
+

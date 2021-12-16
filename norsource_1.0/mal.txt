@@ -1,0 +1,93 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Mal-ireglar ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Makes present verbs that look infinitive-like. EAA nov-2010.
+mal-pres-infl_rule :=
+const-pres-verb-word &
+[ GENRE robust ].
+
+mal-present-inf-like_infl_rule :=
+%suffix (* r)(s s)
+mal-inf-verb-word &
+[ GENRE robust ].
+
+mal-past-inf-like-1_infl_rule :=
+%suffix (e edde)(a adde)(o odde)(ø ødde)(å ådde)(u udde)(i idde)(æ ædde)(y ydde)
+mal-inf-verb-word &
+[ GENRE robust,
+  ARGS < [ INFLECTION finstr ] > ].
+
+mal-past-inf-like-2_infl_rule :=
+%suffix (ge get)(ge gte)(de det)(ve vet)(ke ket)(le let)(me met)(ne net)(pe pet)(re ret)(se set)(te tet)(ge gde)(ve vde)(ke kte)(le lte)(me mte)(ne nte)(pe pte)(re rte)(se ste)(dde ddet)(gge gget)(ffe ffet)(kke kket)(lle llet)(mme mte)(nne nnet)(nne nte)(ppe ppet)(rre rret)(sse sset)(eie eiet)(øye øyet)(aie aiet)(eie eide)(øye øyde)(aie aide)(kes ktes)(les ltes)(mes mtes)(nes ntes)(pes ptes)(res redes)(tes tedes)(des dedes)(ves vdes)(kkes ktes)(lles ltes)(mmes mtes)(nnes ntes)(ppes ptes)
+mal-inf-verb-word &
+[ GENRE robust,
+  ARGS < [ INFLECTION nonfstr ] > ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Mal-typar ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; As inf-verb-word, but possibly orth-altering.
+;; Used for the i-rule which makes infintives that look like present 
+;; or past tense verbs. EAA nov-2010.
+mal-inf-verb-word := verb-word & infl-ltow-rule &
+  [ DTR verb-general-lexeme,
+    DTR.SYNSEM.LOCAL.CAT.HEAD.VOICE active ,
+    SYNSEM.LOCAL.CAT.HEAD [VOICE active,
+                           IMPERATIVE -,
+                           DECL +],
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE infin,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD indicative ].
+
+;; Mal-rule to get away without the "å" in an infinitival sentence. EAA nov-2010.
+mal-vp-to-inf-cp-phrase := unary-phrase &
+[ GENRE robust,
+  SYNSEM.LOCAL.CAT.HEAD infin-comp & [ TRANSPAR +,
+                                         DECL +,
+                                         KEYS.KEY infinit-comp],
+  SYNSEM.LOCAL.CAT.VAL #val,
+  SYNSEM.LOCAL.CONT.HOOK.INDEX #index,
+  SYNSEM.NON-LOCAL #nonlocal,
+  SYNSEM.LOCAL.CONT.HOOK.XARG #1,
+  SYNSEM.LOCAL.CONT.HOOK.LTOP #3,  
+  C-CONT [ RELS <! [PRED "_inf-mark_rel",
+				      LBL #3,
+                                      ARG1 #4 ] !> ,
+          HCONS <! !> ],
+  ARGS < [ SYNSEM.LOCAL.CAT.HEAD verb,
+ 	   SYNSEM.LOCAL.CAT.VAL #val & [ COMPS <>, SUBJ < synsem > ],
+	   SYNSEM.LOCAL.CONT.HOOK.INDEX #index & [E.TENSE infin],
+	   SYNSEM.NON-LOCAL #nonlocal,                                   
+	   SYNSEM.LOCAL.CAT.HEAD.MAIN-CL -,
+           SYNSEM.LOCAL.CONT.HOOK.LTOP #4,
+           SYNSEM.LOCAL.CONT.HOOK.XARG #1 
+	] > ].
+
+;; Mal-rule to accomodate for an "å" initially in an infinitival VP. EAA nov-2010.
+mal-inf-cp-to-vp-phrase := phrase &
+[ GENRE robust,
+  INFLECTED +,
+  SYNSEM.NON-LOCAL #nonlocal,
+  SYNSEM.LOCAL.CONT #sem,
+  SYNSEM.LOCAL.CONT.HOOK.XARG #xarg,
+  SYNSEM.LOCAL.CAT.VAL #val,
+  ARGS < [ SYNSEM.LOCAL.CAT.HEAD infin-comp & [ TRANSPAR +],
+	   INFLECTED +,
+           ROOT - ],
+
+         [ SYNSEM.LOCAL.CAT.HEAD verb,
+	   SYNSEM.LOCAL.CAT.VAL #val & [COMPS <>, SUBJ <synsem>],
+	   SYNSEM.LOCAL.CONT #sem & [HOOK.INDEX.E.TENSE infin],
+	   SYNSEM.LOCAL.CONT.HOOK.XARG #xarg,
+	   SYNSEM.NON-LOCAL #nonlocal,
+           INFLECTED +,
+           ROOT - ]
+       > ].
+
+;; mal: "like komme". Treated like "ville komme". We only make a type to 
+;; define that this is an incorrect usage of the given verb. nov-2010 EAA.
+;; Probably not used.
+;;mal-subj-equi-synsem := subj-equi-bare-synsem &
+;;[ LOCAL.CAT.VAL.COMPS < [ LOCAL.CAT.VAL.COMPS <> ] > ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Mal-rules ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+mal-vp-to-inf-cp-rule := mal-vp-to-inf-cp-phrase.
+mal-inf-cp-to-vp-rule := mal-inf-cp-to-vp-phrase.
+
+

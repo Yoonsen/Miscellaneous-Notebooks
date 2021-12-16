@@ -1,0 +1,1603 @@
+;;; -*- Coding: utf-8; -*-
+
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource - test-v-stnd
+;;; 
+;;;    Copyright (c)  NorSource version 0.3
+;;;                       2004-2006 
+;;;
+;;;    Lars Hellan, Dorothee Beermann, Ben Waldron
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    <norsource@hf.ntnu.no>
+;;;
+;;;	Derived from test-v-stnd by commenting out all but the Norwegian ex. 
+;;;	As test-v-stnd changes, this one will be updated from time to time.
+;
+
+;v-intrImpers
+;ROLE:
+;SIT-TYPE: PHENOM
+det regner.
+;'it rains'
+;
+;v-intrImpersPrtcl
+;ROLE:
+;SIT-TYPE: PHENOM_TELIC
+det klarner opp
+;'it clears up'
+;
+;v-intrImpersObl
+;ROLE: loc
+;SIT-TYPE: SEMELFACTIVE
+det kvekker i Ola
+;'it startles in Ola'
+det sprekker i glasset
+;'it cracks in the glass'
+;ROLE: loc
+;SIT-TYPE: ACTIVITY
+det synger i fjellene
+; 'it sings in the mountains'
+;
+;v-intrPresnt-presDir
+;ROLE: agmover
+;SIT-TYPE: MOTION
+det springer en mann
+; 'there runs a man'
+;
+;v-trNrfPresnt-obRefl_presDir
+;ROLE: agmover
+;SIT-TYPE: MOTION
+det smyger seg en mann
+; 'there slithers a man'
+;
+;v-intrPresntPath-presDir
+;ROLE: agmover
+;SIT-TYPE: ENDPNTMOTION
+det springer en mann hit
+; 'there runs a man to here'
+;
+;v-trNrfPresntPath-obReflExpl_presDir
+;ROLE: agmover
+;SIT-TYPE: ENDPNTMOTION
+det smyger seg en mann hit
+; 'there slithers REFL a man to here'
+;
+;v-intrPresnt-presDir
+;ROLE: thmover
+;SIT-TYPE: MOTION
+det ruller en ball
+; 'there rolls a ball'
+;
+;v-intrPresntPath-presDir
+;ROLE: thmover
+;SIT-TYPE: ENDPNTMOTION
+det ruller en ball hit
+; 'there rolls a ball to here'
+;
+;v-intrPresntLoc
+;ROLE: ag_loc
+;SIT-TYPE: POSTURE_LOC
+det sitter en mann i stolen
+;'there sits a man in the chair'
+det sitter en mann her
+;'there sits a man here'
+;
+;v-trNrfPresntLoc-obReflExpl
+det oppholder seg en gutt i hagen
+;'there stays REFL a boy in the garden'
+;;
+;v-trNrfPresnt-obReflExpl
+det setter seg en gutt
+;'there sits REFL a boy'
+;
+;v-trPresnt
+;ROLE: ben_th
+;SIT-TYPE: PENDINGSTATE
+det venter ham en ulykke
+;'there awaits him an accident'
+det tilkommer ham hundre kroner
+;'there "to-come" him a hundred kroner' - "he is supposed to get 100 kroner"
+;
+;v-intr
+;ROLE: ag
+;SIT-TYPE: ACTIVITY / SEMELFACTIVE
+gutten hopper
+;'the boy jumps'
+;
+;v-intrPrtcl
+;ROLE: ag
+;SIT-TYPE: SUSTAINEDACTIVITY
+Ola driver på
+; 'Ola keeps on'
+;ROLE: th
+;SIT-TYPE: SUSTAINEDACTIVITY
+regnet varer ved
+; 'the rain lasts'
+;
+;v-intrSubcoord
+;SIT-TYPE: ACTIVITY
+Ola driver og skriver
+;'Ola keeps and writes' (= 'keeps writing')
+;
+;v-intrPrtclSubcoord
+;ROLE: ag
+;SIT-TYPE: SUSTAINEDACTIVITY
+Ola driver på og plystrer
+; 'Ola keeps on whistling (and whistles)'
+;
+;v-intrPrtcl
+;ROLE: ag
+;SIT-TYPE: COMPLETEDACTIVITY
+Ola stopper opp
+; 'Ola stops up' - "Ola comes to a halt"
+;ROLE: th
+;SIT-TYPE: COMPLETEDACTIVITY
+regnet holder opp
+; 'the rain holds up' - "the rain comes to a halt"
+;
+;v-intr
+;ROLE: sens
+;SIT-TYPE: SENSING_PROTR
+gutten lytter
+;'the boy listens'
+;
+;v-intr
+;ROLE: th
+;SIT-TYPE: PROCESS
+isen smelter
+;'the ice melts'
+;
+;v-intr
+;ROLE: exp
+;SIT-TYPE: EXPERIENCING_PROTR
+gutten fryser
+;'the boy freezes'
+;
+;v-intr
+;ROLE: agmover
+;SIT-TYPE: MOTION
+gutten løper
+; 'the boy runs'
+;
+;v-intr
+;ROLE: thmover
+;SIT-TYPE: MOTION
+ballen ruller
+; 'the ball rolls'
+;
+;v-intrPath-suDir
+;ROLE: orientedobj
+;SIT-TYPE: PUREORIENTATION
+pilen peker mot nord
+; 'the arrow points towards north'
+;
+;v-intrPath-suDir
+;ROLE: orientedobj
+;SIT-TYPE: PATHCONSTELLATION
+veien går mot nord
+; 'the road goes towards north'
+;
+;v-intrPath-suDir
+;ROLE: orientedobj
+;SIT-TYPE: LOCOMODEVELOPMENT
+turen går mot nord
+; 'the tour goes towards north'
+;
+;v-trNrf-suDir_obReflExpl
+;ROLE: orientedobj
+;SIT-TYPE: LOCOMODEVELOPMENT
+gutten lister seg
+; 'the boy tiptoes REFL'
+;
+;v-trNrfPath-suDir_obReflExpl
+;ROLE: orientedobj
+;SIT-TYPE: LOCOMODEVELOPMENT
+gutten lister seg ut
+; 'the boy tiptoes REFL out'
+;
+;v-intr-suDECL
+;ROLE: thSit
+;SIT-TYPE: NONHABITUAL
+at han sover hender
+;'that he sleeps occurs'
+;
+;v-intr-suYN
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+hvorvidt han kommer beror
+;'whether he comes depends'
+;
+;v-intr-suWH
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+??hvem som kommer beror
+;'who comes depends'
+;
+;v-intr-suAbsinf
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+å motta penger for politiske verv stinker
+;'to receive money for political duties sucks'
+;
+;v-intrObl
+;ROLE: ag_topic
+;SIT-TYPE: ABOUTNESS_ACTIVITY
+jeg snakker om Ola
+;'I talk about Ola'
+;
+;v-intrObl
+;ROLE: ag_loc
+;SIT-TYPE: LOCATION
+hun bor i Finnmark
+;'she lives in Finnmark'
+;ROLE: th_loc
+;SIT-TYPE: LOCATION
+Hamningberg ligger i Finnmark
+;'Hamningberg lies in Finnmark'
+;
+;v-intrObl
+;ROLE: ag_affincrem
+;SIT-TYPE: NONCOMPLETED_MONODEVMNT
+hun spiser av eplet
+; 'she eats of the apple'
+;
+;v-intrObl
+;ROLE: ag_thincrem
+;SIT-TYPE: NONCOMPLETED_MONODEVMNT
+hun leser i boken
+; 'she reads in the book'
+;
+;v-intrObl
+;ROLE: ag_activated
+;SIT-TYPE: ACTIVATION
+Ola rører på statuen
+; 'Ola shrugs on the statue'
+;
+;v-intrObl-oblRefl
+;ROLE: ag_activated
+;SIT-TYPE: ACTIVATION
+Ola leer på seg
+; Ola shrugs on REFL = 'Ola shrugs'
+;
+;v-intrObl-oblPRTOFsu
+;ROLE: exp_locth
+;SIT-TYPE: PARTWHOLE_EXPERIENCING
+jeg fryser på ryggen
+;'I freeze on the back' - "I'm cold on my back"
+;
+;v-intrImpltransfAdv
+han sølte på duken
+;'he spilled on the tablecloth'
+han kledde på gutten
+;'he dressed the boy'
+; 
+;v-intrImpltransfAdv-oblRefl
+han sølte på seg
+;'he spilled on himself'
+han kledde på seg
+;'he dressed himself'
+;
+;v-intrObl-oblDECL
+;ROLE: ag_topic
+;SIT-TYPE: ABOUTNESS_ACTIVITY
+de snakker om at det er for sent
+;'they talk about that it is too late'
+;
+;v-intrObl-oblYN
+;ROLE: ag_topic
+;SIT-TYPE: PROPOSITIONALATTITUDE_ACTIVITY
+de lurer på hvorvidt det er for sent
+;'they wonder about whether it is too late'
+;
+;v-intrObl-oblWH
+;ROLE: ag_topic
+;SIT-TYPE: PROPOSITIONALATTITUDE_ACTIVITY
+de lurer på hvem som kommer
+;'they wonder about who that comes'
+;
+;v-intrObl-oblEqSuInf
+;ROLE: ag_topic
+;SIT-TYPE: PROPOSITIONALATTITUDE_ACTIVITY
+han håper på å komme 
+;'he hopes [on] to come'
+;
+;v-intrObl-oblEqSuInf
+;ROLE: ag_topic
+;SIT-TYPE: HABITUAL
+Ola driver med å skrive
+;'Ola keeps with to write'
+;
+;v-intrPrtclObl-oblEqSuInf
+;ROLE: ag_topic
+;SIT-TYPE: ACTIVITY
+Ola driver på med å skrive
+;'Ola keeps on with to write'
+;
+;v-intrObl-oblAbsinf
+;ROLE: ag_topic
+;SIT-TYPE: ABOUTNESS_ACTIVITY
+de snakker om å reise til Mars
+;'they talk about to travel to Mars'
+;
+;v-intrOblRais-suNrg_oblRaisInf
+;ROLE: thSit
+;SIT-TYPE: EXHIBACT
+han later til å komme
+;'he appears [to] to come' - "he appears to come"
+;(v_perifut-intr - for short)
+han kommer til å sove
+;'he comes [to] to sleep' - "he will sleep"
+;
+;v-intrPrtclOblRais-suNrg_oblRaisInf
+;ROLE: thSit
+;SIT-TYPE: EXHIBACT
+han ser ut til å komme
+;'he looks out [to] to come' - "he appears to come"
+;
+;v-trPrtclScpr-scSuNrg_scPredprtclSom
+;ROLE: thSit
+;SIT-TYPE: EXHIBACT
+han ser ut som Ola
+;'he looks 'out' like Ola' - "he appears like Ola"
+;
+;v-intrAdv
+;ROLE: th
+;SIT-TYPE: PROPTY
+han fungerer godt
+; 'he functions well'
+;
+;axv_intr-av1mod
+;[epist-modal]
+;ROLE: thsit
+;SIT-TYPE: 
+han kan komme
+;'he can come'
+;
+;v-intrAuxmodScpr-suDir_scSuNrg_scAdv
+;ROLE:
+;SIT-TYPE:
+han må ut
+;'he must out' (= 'he has to go out')
+;
+;axv_intr-av1perf
+han har kommet
+;'he has come'
+;
+;axv_intrPs-av1pass
+han ble skutt
+;'he was shot'
+;
+;axv_intrPs-av1mod-av2perf-av3pass
+han kan ha blitt skutt
+;'he may have been shot'
+;
+;v-intrLghtScpr-scAdj
+;ROLE: thSit
+;SIT-TYPE: EPISODIC_PROPTY
+huset står tomt
+;'the house stands empty'
+eiendommen ligger brakk
+; 'the property lies nonattended'
+;
+;v-intrScpr-scSuNrg_scAdj
+;ROLE: thSit
+;SIT-TYPE: EXHIBPROPTY
+gutten virker syk
+;'the boy seems sick'
+;
+;v-intrScpr-scSuNrg_scN
+;ROLE: thSit
+;SIT-TYPE: EXHIBPROPTY
+gutten synes en leder
+;'the boy seems a leader'
+;
+;v-intrScpr-scSuNrg_scPP
+;ROLE: thSit
+;SIT-TYPE: EXHIBPROPTY
+gutten virker i orden
+;'the boy seems in good shape'
+;
+;v-intrScpr-scSuNrg_scPredprtcl
+;ROLE: thSit
+;SIT-TYPE: EXHIBPROPTY
+gutten virker som en feiging
+;'the boy appears as a coward'
+;
+;v-intrScpr-scSuNrg_scInf
+;ROLE: thSit
+;SIT-TYPE: EXHIBACT
+han synes å komme
+;'he seems to come'
+;
+;v-trNrfScpr-obReflExpl_scSuNrg_scInf
+han viser seg å komme
+;'he shows REFL to come'
+;
+;v-trNrfScpr-obReflExpl_scSuNrg_scBareinf_suRAISsuMob
+;('subject is raised from subject, promoted thereto from object by Middle Formation')
+stjernen lot seg se
+;'the star let REFL see' (= 'it became possible to see the star')
+;
+;v-trScpr-scObNrg_scBareinf_obRAISsuMob
+;('object is raised from subject, promoted thereto from object by Middle Formation')
+de lot sangen synge
+;'they let the song sing' (= 'be sung')
+;
+;v-trNrfScpr-obReflExpl_scSuNrg_scAdj
+han fortoner seg syk
+;'he appears REFL sick'
+;
+;v-intrScpr-scSuNrg_scBareinf
+;ROLE: thSit
+;SIT-TYPE: EXHIBACT
+han synes komme
+;'he seems come'
+;
+;v-intrScprPrtcl-scSuNrg_scAdj
+;ROLE: quality
+;SIT-TYPE: EXHIBPROPTY
+gutten høres syk ut
+;'the boy sounds sick out'
+;
+;v-intrScprPrtcl-scSuNrg_scPredprtcl
+;ROLE: quality
+;SIT-TYPE: EXHIBPROPTY
+gutten høres ut som en papegøye
+;'the boy sounds out as a parrot'
+;
+;v-intrScpr-scSuNrgCsd_scAdj
+;ROLE: csd
+;SIT-TYPE: INCREMRESULT
+koppen renner full
+; 'the cup runs full' - "the cup fills up"
+;
+;v-intrLghtScpr-scSuNrgCsd_scAdj
+;ROLE: th
+;SIT-TYPE: INCREMRESULT
+firmaet går fallitt 
+;'the company goes broke'
+;
+;v-intrLghtScpr-scSuNrg_scPredprtcl
+;ROLE: th
+;SIT-TYPE: 
+gutten fremstår som mistenkt 
+;'the boy emerges as a suspect'
+;
+;v-intrLghtScpr-scSuNrg_scPredprtcl
+;ROLE: ag
+;SIT-TYPE: 
+Ola stiller som forsvarer 
+;'Ola steps in as a defender'
+;
+;v-intrScpr-scSuNrgCsd_scAdv
+;ROLE: csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+landsbyen snør ned
+;'the village snows down'= 'the village gets snowed in'
+kampen regnet bort
+;'the match rained away'
+;
+;v-intrScpr-scSuNrgCsd_scPP
+;ROLE: csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+kjelen koker i stykker
+; 'the kettle boils to pieces' 
+;
+;v-intrScpr-scSuArgCsd_scAdj
+;ROLE: th_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+skinken henger mør
+;'the ham hangs tender' - "the ham hangs so as to get tender" 
+;
+;v-intrScpr-scSuArgCsd_scAdv
+;ROLE: csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+kaffen koker bort
+;'the coffee boils away'
+;
+;v-intrExpn-expnDECL
+;ROLE: thSit
+;SIT-TYPE:
+det hender at han kommer
+;'it happens that he comes'
+;
+;v-trNrfExpnSu-obReflExpl_expnDECL
+det viser seg at han kommer
+;'it shows itself that he comes'
+;
+;v-trExpnSu-obMeas_expnAbsinf
+det tar to timer å gå dit
+;'it takes two hours to go there'
+;
+;v-ditrExpnSu-obMeas_expnEqInf
+det tar meg to timer å gå dit
+;'it takes me two hours to go there'
+;
+;v-intrExpn-suExpl_expnHYP
+det virker som om han kommer
+; it appears as if he comes
+;
+;v-intrScpr-suNrg-scEquat
+han virker som om han kommer
+; he appears as if he comes
+;
+;v-intrExpn-expnEquat
+det virker som han kommer
+; it appears as though he comes
+;
+;v-intrExpn-expnYN
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det spørs hvorvidt han kommer
+;'it depends whether he comes'
+;
+;v-intrExpn-expnWH
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det spørs hvem som kommer
+;'it depends who that comes'
+;
+;v-intrExpn-expnAbsinf
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det hjelper å sette seg
+;'it helps to sit down'
+;
+;v-intrPrtclExpn-expnDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det hører med at han kommer
+; 'it hears along that he comes' - "it goes with it that he comes"
+;
+;v-intrOblExlnk-oblExlnkDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det later til at han kommer 
+;'it appears [to] that he comes'
+det haster med at han kommer
+;
+;v-intrOblExlnk-oblExlnkAbsinf
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det haster med å rydde
+;'it urges to tiden up'
+;
+;v-intrPrtclOblExlnk-oblExlnkDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det ser ut til at han kommer 
+;'it looks out to that he comes'
+;
+;v-intrOblExpn-oblExpnYN
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det avhenger av deg om han vil vinne 
+;'it depends on you whether he will win'
+;
+;
+;v-tr
+;ROLE: ag_aff
+;SIT-TYPE: AFFECT
+ Kari slår Ola
+;'Kari beats Ola'
+;
+;v-tr
+;ROLE: ag_th
+;SIT-TYPE: REPRESENT
+Kari nevner Ola
+;'Kari mentions Ola'
+;
+;v-tr
+;ROLE: ag_affincrem
+;SIT-TYPE: COMPLETED_MONODEVMNT
+Kari spiser kaken
+;'Kari eats the cake'
+;
+;v-tr
+;ROLE: ag_thincrem
+;SIT-TYPE: COMPLETED_MONODEVMNT
+Kari leser boken
+;'Kari reads the book'
+;
+;v-tr
+;ROLE: sens_th
+;SIT-TYPE: SENSING
+Kari ser Ola
+;'Kari sees Ola'
+;
+;v-tr
+;ROLE: ag_exp
+;SIT-TYPE: CAUSEEMOTION
+Kari skremmer Ola
+;'Kari frightens Ola'
+;
+;v-tr
+;ROLE: th_poss
+;SIT-TYPE: POSSESSION
+boken tilhører Ola
+;'the book belongs-to Ola'
+;
+;v-tr
+;ROLE: th_ben
+;SIT-TYPE: MALEFACTION
+boken skader Ola
+;'the book hurts Ola'
+;
+;v-tr
+;ROLE: th_exp
+;SIT-TYPE: CAUSEEMOTION
+boken deprimerer Ola
+;'the book depresses Ola'
+;
+;v-tr
+;ROLE: th_weightunit
+;SIT-TYPE: WEIGHING
+stenen veier 5 kg
+;'the stone weighs 5 kg'
+;
+;v-tr
+;ROLE: th_timeunit
+;SIT-TYPE: LASTING
+filmen varer 5 timer
+;'the film lasts 5 hours'
+;
+;v-tr
+;ROLE: th_lengthunit
+;SIT-TYPE: EXTENDING
+banen måler 400 meter
+;'the track measures 400 metres'
+;
+;v-tr-suDir
+;ROLE: agmover_lengthunit
+;SIT-TYPE: EXTENDING
+gutten går to kilometer
+; the boy walks two kilometers
+;
+;v-tr
+;ROLE: ag_eventunit
+;SIT-TYPE: ACTIVITY
+hun sover en dyp søvn
+;she sleeps a deep sleep
+;
+;v-tr-obDir
+;ROLE: ag_ejctinhobj 
+;SIT-TYPE: EJECTION
+hun skyter plastikkuler
+;she shoots plastic bullets
+;
+;v-tr
+;ROLE: cog_th
+;SIT-TYPE: COGN
+Kari vet svaret
+;'Kari knows the answer'
+;
+;v-tr-obRefl
+;ROLE: ag_aff
+;SIT-TYPE: AFFECTING
+Kari vasker seg
+;'Kari washes herself'
+;
+;v-trNrf-obReflExpl
+;ROLE: exp
+;SIT-TYPE: EXPER
+Kari skammer seg
+;'Kari shames herself' - "Kari is ashamed"
+;
+;v-tr-obDir
+;ROLE: ag_ejct
+;SIT-TYPE: EJECTION
+han kaster ballen
+; 'he throws the ball'
+;
+;v-tr-obDir
+;ROLE: ag_thmover
+;SIT-TYPE: CAUSEMOTION
+Kari sender pakken
+;'Kari sends the parcel'
+;
+;v-trNrfPath-obReflExpl_obDir
+Han famler seg frem
+;'he fumbles REFL ahead'
+;
+;v-trPath-obDir
+;ROLE: ag_purelyoriented
+;SIT-TYPE: ORIENTING
+han retter pilen mot nord
+; 'he directs the arrow towards north'
+;
+;v-trPath-obDir
+;ROLE: ag_orientedline
+;SIT-TYPE: LINESITUATING
+han tegner linjen mot venstre
+; 'he draws the line to the left'
+;
+;v-tr-suDir
+;ROLE: mover_endpnt
+;SIT-TYPE: ENDPNTMOTION
+Kari når toppen
+;'Kari reaches the top'
+;
+;v-tr
+;ROLE: mover_viapnt
+;SIT-TYPE: VIAPNTMOTION
+Kari passerer kirken
+;'Kari passes the church'
+;
+;v-tr-suDir
+;ROLE: th_endpnt
+;SIT-TYPE: ENDPNTEXTENSION
+stien når toppen
+;'the path reaches the top'
+;
+;v-tr-suDir
+;ROLE: th_viapnt
+;SIT-TYPE: VIAPNTEXTENSION
+stien passerer kirken
+;'the path passes the church'
+;
+;v-tr-suDir_obDir
+;ROLE: mover_alongline
+;SIT-TYPE: ALONGLINEMOTION
+Kari følger stien
+;'Kari follows the path'
+;
+;v-tr-suDir_obDir
+;ROLE: agmover_agmover
+;SIT-TYPE: ACCOMPANYING
+gutten ledsager presidenten
+; 'the boy accompanies the president'
+;
+;v-tr-suDir_obDir
+;ROLE: agmover_agmover
+;SIT-TYPE: CROSSINGMOTIONPATHS
+gutten krysser demonstrasjonstoget
+; the boy crosses the demonstration parade'
+;
+;v-tr-suDir_obDir
+;ROLE: orientedline_orientedline
+;SIT-TYPE: CROSSINGPATHS
+streken skjærer linjen.
+; 'the stroke crosses the line'
+;
+;v-tr-suDir_obDir
+;ROLE: th_alongline
+;SIT-TYPE: PARALLELPATHS/ALONGLINEEXTENSION
+streken følger linjen
+; 'the stroke follows the line'
+stien følger elven
+;'the path follows the river'
+;
+;v-trPath-suDir_obDir
+;ROLE: agmover_locomoevent
+;SIT-TYPE: LOCOMOCONDUCTION
+de legger turen mot nord
+; 'they take the tour towards north'
+;
+;v-tr-suDir_obDir
+;ROLE: agmover_orientedline
+;SIT-TYPE: USINGPATH
+gutten vil ta stien mot fjellet
+; the boy will take the path towards the mountain
+;
+;v-tr-suDir_obDir
+;ROLE: agmover_vehcl
+;SIT-TYPE: USINGVEHICLE
+gutten vil ta bussen mot fjellet
+; the boy will take the bus towards the mountain
+;
+;v-tr-suAbsinf
+;ROLE: thSit_cog
+;SIT-TYPE: PROPOSITIONALATTITUDE
+Å bygge høyhus interesserer Kari
+;'To build highrises interests Kari'
+;
+;v-tr-suDECL
+;ROLE: thSit_cog
+;SIT-TYPE: PROPOSITIONALATTITUDE
+At jeg kommer forundrer Kari
+;'That I come astonishes Kari'
+;
+;v-tr-suYN
+;ROLE: thSit_cog
+;SIT-TYPE: PROPOSITIONALATTITUDE
+hvorvidt jeg kommer interesserer Kari
+;'Whether I come interests Kari'
+;
+;v-tr-suWH
+;ROLE: thSit_cog
+;SIT-TYPE: PROPOSITIONALATTITUDE
+hvem som kommer interesserer Kari
+;'who that comes interests Kari'
+;
+;v-tr-obDECL
+;ROLE: sens_thSit
+;SIT-TYPE: SENSING
+Kari ser at Ola sover
+;'Kari sees that Ola sleeps'
+;
+;v-tr-obDECL
+;ROLE: cog_thSit
+;SIT-TYPE: COGN/ PROPOSITIONALATTITUDE
+Kari vet at jeg kommer
+;'Kari knows that I come'
+;
+;v-intrComp-compYN
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+Kari undres hvorvidt jeg kommer
+;'Kari wonders whether I come'
+;
+;v-intrComp-compWH
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+Kari undres hvem som kommer
+;'Kari wonders who comes'
+;
+;v-tr-obEqInf
+;ROLE: ag_thSit
+;SIT-TYPE: ACTIVITY
+Kari prøver å komme
+;'Kari tries to come'
+;
+;v-intrAuxmodComp-compEqBareinf
+[;v-rootmodal]
+;ROLE: ag_thSit
+;SIT-TYPE:
+Kari kan padle
+;'Kari can paddle'
+;
+;v-tr-obAbsinf
+;ROLE: ag_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+Kari vurderer å komme
+;'Kari considers to come'
+;
+;v-tr-suDECL_obDECL
+;v-tr-suDECL_obYN
+;v-tr-suDECL_obWH
+;v-tr-suWH_obWH
+;
+;v-trNrfPrtcl-obReflExpl
+;ROLE: ag
+;SIT-TYPE: ACTIVITY
+Kari dummet seg ut
+;'Kari fooled herself out'
+;
+;v-trPrtcl-obRefl
+;ROLE: ag
+;SIT-TYPE: COMPLETEDACTIVITY
+Ola fiffer seg opp
+;'Ola shines himself up'
+;
+;v-trPrtcl
+;ROLE: cog_th
+;SIT-TYPE: COGN
+Kari fant ut svaret
+;'Kari found out the answer'
+;
+;v-trPrtcl-obDECL
+;ROLE: cog_thSit
+;SIT-TYPE: COGN
+Kari fant ut at jeg kom
+;'Kari found out that I came'
+;
+;v-trPrtcl-obYN
+;ROLE: cog_thSit
+;SIT-TYPE: COGN
+Kari fant ut hvorvidt jeg kommer
+;'Kari found out whether I come'
+Ola regner ut hvorvidt du kommer
+;'Ola calculates out whether you come'
+;
+;v-trPrtcl-obWH
+;ROLE: cog_thSit
+;SIT-TYPE: COGN
+Kari fant ut hvem som kommer
+;'Kari found out who that comes'
+Ola regner ut hva svaret blir
+;'Ola calculates out what the answer becomes'
+;
+;v-trPrtcl-obEqInf
+;ROLE: ag_thSit
+;SIT-TYPE: ACTIVITY
+Kari fant på å komme
+;'Kari found on to come' - "Kari hit upon coming"
+;
+;v-trObl
+;ROLE: ag_th_intrloc
+;SIT-TYPE: COMMUNICATION
+han forteller nyheten til Ola
+;'he tells the news to Ola'
+;
+;v-trObl-obRefl
+;ROLE: ag_th_com
+;SIT-TYPE: ACHVMNT
+han allierer seg med gutten
+;'he allies himself with the boy'
+;
+;v-trObl-oblPRTOFob
+;ROLE: ag_aff_locth
+;SIT-TYPE: PARTWHOLE_AFFECTING
+jeg sparker Ola i baken
+;'I kick Ola in the butt'
+;
+;v-trObl-obRefl_oblPRTOFob
+;ROLE: ag_aff_locth
+;SIT-TYPE: PARTWHOLE_AFFECTING
+Ola klør seg på ryggen
+;'Ola scrathes himself on the back'
+;
+;v-trObl-oblDECL
+;ROLE: ag_intrloc_thSit
+;SIT-TYPE: LOCUTACT
+han forteller Ola om at han kommer
+;'he tells Ola about that he comes'
+;
+;v-trObl-oblYN
+;ROLE: ag_intrloc_thSit
+;SIT-TYPE: LOCUTACT
+han spør Ola om hvorvidt han kommer
+;'he asks Ola about whether he comes'
+;
+;v-trObl-oblWH
+;ROLE: ag_intrloc_thSit
+;SIT-TYPE: LOCUTACT
+han spør Ola om hvem som kommer
+;'he asks Ola about who that comes'
+;
+;v-trObl-oblEqSuInf
+;ROLE: ag_intrloc_thSit
+;SIT-TYPE: LOCUTACT
+han bønnfalt meg om å få komme
+;'he begged me about to be-allowed come'
+;
+;v-trNrfObl-obReflExpl_oblEqSuInf
+;ROLE: ag_thSit
+;SIT-TYPE: 
+Ola finner seg i å vente
+;'Ola finds himself in to wait' - "Ola accepts waiting"
+;
+;v-trObl-oblEqObInf
+;ROLE: ag_intrloc_thSit
+;SIT-TYPE: LOCUTACT
+han bønnfalt meg om å gå
+;'he begged me about to go'
+;
+;v-trObl-obRefl_oblEqObInf
+;ROLE: ag_th_thSit
+;SIT-TYPE: COMMITMENT
+han forplikter seg til å komme
+;'he commits himself to to come'
+;
+;v-trObl-oblAbsinf
+;ROLE: ag_intrloc_thSit
+;SIT-TYPE: LOCUTACT
+vi forteller barna om å bygge høyhus
+;'we tell the children about to build highrises' 
+;
+;v-trScpr-scSuNrg_scAdj
+;ROLE: cog_thSit
+;SIT-TYPE: PERCEPTION
+han synes meg syk
+;'he seems me sick'
+;
+;v-trScpr-scSuNrg_scN
+;ROLE:cog_thSit 
+;SIT-TYPE: PERCEPTION
+han synes meg en idiot
+;'he seems me an idiot'
+;
+;v-trScpr-scSuNrg_scPP
+;ROLE: cog_thSit
+;SIT-TYPE: PERCEPTION
+han synes meg i godt humør
+;'he seems me in good mood'
+;
+;v-trScpr-scSuNrg_scPredprtcl
+;ROLE: cog_thSit
+;SIT-TYPE: PERCEPTION
+han synes meg som en idiot 
+;'he seems me as an idiot'
+;
+;v-trScpr-scSuNrg_scInf
+;ROLE: cog_thSit
+;SIT-TYPE: PERCEPTION
+han synes meg å komme
+;'he seems me to come'
+;
+;v-trScpr-scSuNrg_scBareinf
+;ROLE: cog_thSit
+;SIT-TYPE: PERCEPTION
+han synes meg komme 
+;'he seems me come'
+;
+;v-trScpr-scObNrg_scInf
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+jeg formoder ham å være kvalifisert 
+;'I assume him to be qualified'
+;
+;v-trScpr-scObNrg_scBareinf
+;ROLE: sens_thSit
+;SIT-TYPE: SENSING
+jeg ser ham ligge
+;'I see him lie'
+;
+;v-trScpr-scObNrg_obRefl_scBareinf
+;ROLE: sens_thSit
+;SIT-TYPE: SENSING
+han kjente seg sove
+;'he felt himself sleep'
+;
+;v-trScpr-scObNrg_scAdj
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+han anser Ola skikket 
+;'he regards Ola qualified'
+;
+;v-trScpr-scObNrg_obRefl_scAdj
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+han anser seg skikket 
+;'he regards himself qualified'
+;
+;v-trScpr-scObNrg_scPredprtcl
+;ROLE: ag_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+han oppfattet bilen som ny 
+;'he percieved the car as new'
+jeg anser Ola for å være syk
+;'I regard Ola for to be sick'
+jeg anser Ola for å løpe vekk
+;'I regard Ola for to run away'
+;
+;v-trScpr-scObNrg_obRefl_scPredprtcl
+;ROLE: ag_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+han oppfattet seg som ny 
+;'he percieved himself as new'
+;hun anser seg for å være syk
+;'she regards herself for to be sick'
+;
+;v-trScpr-scObNrg_scN
+;ROLE: ag_thSit
+;SIT-TYPE: REPRESENT
+hun kaller Ola en venn
+;'she calls Ola a friend'
+;
+;v-trScpr-scObNrg_obRefl_scN
+;ROLE: ag_thSit
+;SIT-TYPE: REPRESENT
+hun kaller seg en venn
+;'she calls herself a friend'
+;
+;v-trScpr-scObArgConcurr_scAdj
+;ROLE: ag_affincrem
+;SIT-TYPE: CONCURRSTATE
+han drakk kaffen varm 
+;'he drank the coffee warm'
+;
+;v-trScpr-scObArgConcurr_scPP
+;ROLE: ag_thvehcl
+;SIT-TYPE: CONCURRSTATE
+han kjørte bilen i god stand
+; 'he drove the car in good shape'
+;
+;v-trScpr-scObArgConcurr_scPredprtcl
+;ROLE: ag_thvehcl
+;SIT-TYPE: CONCURRSTATE
+han kjørte bilen som firmabil
+;'he drove the car as a company car'
+;
+;v-trScpr-scObNrgRes_scAdj
+;ROLE: csr_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGENTITY
+hun gjør skoene flate
+; she makes the shoes flat
+;
+;v-trScpr-scObNrgRes_scPP
+;ROLE: csr_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGENTITY
+hun gjør meg i god form
+; she makes me in good shape
+;
+; NB: changed, to same as above; but there should be added smthg about the resulting state being reflected in the verb
+;v-trScpr-scObNrgRes_scPP
+;ROLE: csr_csd
+;SIT-TYPE: PLACEMENT
+hun setter skoene bak bordet
+;'she puts the shoes behind the table'
+;
+;v-trScpr-scObArgRes_scPP
+hun plasserer skoene bak bordet
+;'she places the shoes behind the table'
+;
+;v-trScprShft-scObArgCsd_scPP
+;ROLE: ag_aff_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+han sparket i stykker ballen
+;'he kicks to pieces the ball'
+;
+;v-trScpr-scObArgCsd_scAdv
+;ROLE: ag_aff_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+han sparket ballen bort
+;'he kicked the ball away'
+;
+;v-trScprShft-scObArgCsd_scAdv
+;ROLE: ag_aff_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+han sparket bort ballen
+;'he kicked away the ball'
+;
+;v-trScpr-scObArgCsd_scAdj
+;ROLE: ag_aff_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+han sparket ballen flat
+;'he kicked the ball flat'
+;
+;v-trScpr-scObNrgCsd_scAdj
+;ROLE: ag_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+han sang rommet tomt
+;'he sang the room empty'
+;
+;v-trScpr-scObNrgCsdBin_scAdj
+;ROLE: ag_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+han spiser kjøleskapet tomt
+;'he eats the refrigerator empty'
+;
+;v-trScpr-scObNrgCsd_obRefl_scAdj
+;ROLE: ag_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+han løp seg sunn
+;'he ran himself healthy'
+;
+;v-trScpr-scObNrgCsd_obRefl_scPP
+;ROLE: ag_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+han sang seg i god form 
+;'he sang himself in good shape'
+;
+;v-trScpr-obDir_obRefl_scObNrgCsd_scAdv
+;ROLE: ag_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+han karer seg bort
+;'he gets himself away'
+;
+;v-trScpr-obDir_scObNrgCsd_scAdv
+;ROLE: ag_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+han sang sorgene bort 
+;'he sang the sorrows away'
+;v-trScprShft-obDir_scObNrgCsd_scAdv
+han sang bort sorgene 
+;'he sang away the sorrows'
+;
+;v-trNrfAd;v-obReflExpl
+;ROLE: ag
+;SIT-TYPE: ACTIVITY
+han oppfører seg pent
+;'he behaves himself nicely'
+;
+;v-trExpnSu-expnDECL
+;ROLE: thSit_cog 
+;SIT-TYPE: PROPOSITIONALATTITUDE
+det bekymrer meg at han kommer
+;'it worries me that he comes'
+;
+;v-trExpnSu-expnYN
+;ROLE: thSit_cog
+;SIT-TYPE: PROPOSITIONALATTITUDE
+det undrer meg hvorvidt han kommer
+;'I wonder whether he comes'
+;
+;v-trExpnSu-expnWH
+;ROLE: thSit_cog
+;SIT-TYPE: PROPOSITIONALATTITUDE
+det overrasker meg hvem som kommer
+;'it surprises me who comes'
+;
+;v-trExpnSu-expnCOND
+;ROLE: thSit_cog
+;SIT-TYPE: PROPOSITIONALATTITUDE
+det vil ikke forundre meg hvis han kommer
+;'it will not surprise me if he comes'
+;
+;v-trExpnSu-expnEqInf
+;ROLE: thSit_cog
+;SIT-TYPE: PROPOSITIONALATTITUDE
+det behager meg å komme
+;'it pleases me to come'
+;
+;v-trExpnOb-expnDECL
+;ROLE: ag_csd  
+;SIT-TYPE: CAUSATION_WITH_CAUSINGENTITY
+vi muliggjorde det at han fikk innreisetillatelse
+;'we possible-made it that he got entrance visa'
+;
+;v-trExpnOb-expnCOND
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+jeg vil beklage det hvis du kommer
+;'I will deplore it if you come'
+;
+;tr-objexpn-yninterr
+;tr-objexpn-whinterr
+;
+;v-trExpnOb-expnAbsinf
+;ROLE: ag_csd 
+;SIT-TYPE: CAUSATION_WITH_CAUSINGENTITY
+vi umuliggjør det å komme
+;'we impossible-make it to come'
+;
+;v-ditr
+;ROLE: ag_rec_th 
+;SIT-TYPE: TRANSFER
+jeg gav ham boken
+;'I gave him the book'
+;
+;v-ditr-iobRefl
+;ROLE: ag_ben_th
+;SIT-TYPE: AVAILING
+han gav seg tid
+;'he gave himself time'
+;
+;v-ditr
+;ROLE: ag_ben_th
+;SIT-TYPE: SUSTAINEDSTATE
+han unner henne boken
+;'he [unner] her the book'
+;
+;v-ditr-iobRefl
+;ROLE: ag_ben_th
+;SIT-TYPE: SUSTAINEDSTATE
+han unner seg boken
+;'he [unner] himself the book'
+;
+;v-ditr-suDECL
+;ROLE: thSit_ben_th
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+at han synger gir Kari hodepine
+;'that he sings gives Kari headache'
+;
+;v-ditr-suYN
+;ROLE: thSit_ben_th
+;SIT-TYPE: REPRESENT
+hvorvidt han kommer først vil vise oss angrepsplanen
+;'whether he comes first shows us the attack plan'
+;
+;v-ditr-suWH
+;ROLE: thSit_ben_th
+;SIT-TYPE: REPRESENT
+hvem som kommer sist viser oss angrepsplanen
+;'who that comes first shows us the attack plan'
+;
+;v-ditr-suAbsinf
+;ROLE: thSit_ben_th
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+å bombe først frarøver fienden moralen
+;'to bomb first deprives the enemy the moral'
+;v-ditr-suAbsinf-suThSit_iobBen_obTh-AVAILING
+å gå tur gir ham styrke
+;'to walk walks gives him strength'
+;
+;v-ditr-obDECL
+;ROLE: ag_intrlctr_thSit
+;SIT-TYPE: COMMUNICATION
+Kari forteller meg at han kommer
+;'Kari tells me that he comes'
+;
+;v-ditr-obYN
+;ROLE: ag_intrlctr_thSit
+;SIT-TYPE: COMMUNICATION
+han forteller meg hvorvidt Kari kommer
+;'he tells me whether Kari comes'
+;
+;v-ditr-obWH
+;ROLE: ag_intrlctr_thSit
+;SIT-TYPE: COMMUNICATION
+han forteller meg hvem som kommer
+;'he tells me who that comes'
+;
+;v-ditr-obEqSuInf
+;ROLE: ag_ben_thSit
+;SIT-TYPE: COMMITMENT
+Kari lover ham å komme
+;'Kari promises him to come'
+;
+;v-ditr-obEqIobInf
+;ROLE: ag_ben_thSit
+;SIT-TYPE: 
+Kari tillater ham å komme
+;'Kari allows him to come'
+;
+;v-ditr-iobRefl_obEqIobInf
+;ROLE: ag_ben_thSit
+;SIT-TYPE: 
+hun tillater seg å komme
+;'she allows herself to come'
+;
+;v-ditr-obEqIobBareinf
+;ROLE: ag_ben_thSit
+;SIT-TYPE:
+Kari ber ham komme
+;'Kari asks him come'
+;
+;v-ditr-iobRefl_obDECL
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+han innbiller seg at du kommer
+;'he imagines himself that you come' = "he imagines that you come"
+;
+;v-trNrfComp-obReflExpl_compYN
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+han undrer seg hvorvidt du kommer
+;'he wonders [himself] whether you come'
+;
+;v-trNrfComp-obReflExpl_compWH
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+han undrer seg hvem som kommer
+;'he wonders [himself] who that comes'
+;
+;v-ditrNrf-iobReflExpl_obEqInf
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+han foresetter seg å komme
+;'he [foresetter] himself to come'
+;
+;v-ditr-suYN_obYN
+;ROLE: thSit_ben_thSit
+;SIT-TYPE: REPRESENT
+hvorvidt han kommer først vil vise oss hvorvidt de har en plan
+;'whether he comes first shows us whether they have a plan'
+;
+;v-ditr-suWH_obWH
+;ROLE: thSit_cog_thSit
+;SIT-TYPE: REPRESENT
+hvem som kommer først viser oss ikke hvem som kommer sist
+;'who that comes first does not show us who that comes last'
+;
+;v-ditrObl-oblPRTOFiob
+;ROLE: ag_aff_ejct_locth
+;SIT-TYPE: PARTWHOLE_AFFECTING
+jeg kaster Ola kakestykker i ansiktet
+;'I throw Ola cakes in the face' - "I throw cakes in the face of Ola"
+;
+;v-copAdj
+;ROLE: th
+;SIT-TYPE: PROPTY
+han er snill
+;'he is kind'
+;
+;v-copAdj-suDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+at han kommer er overraskende
+;'that he comes is surprising'
+;
+;v-copAdj-suAbsinf
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+å løpe er sunt
+;'to run is healthy'
+;
+;v-copAdj-suYN
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+hvorvidt han kommer er uvisst
+;'whether he comes is uncertain'
+;
+;v-copAdj-suWH
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+hvem som kommer er uvisst
+;'who that comes is uncertain'
+;
+;v-copN
+;ROLE: th
+;SIT-TYPE: PROPTY
+han er bonde
+;'he is peasant'
+;
+;v-copN-suDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+at han kom var et sjokk
+;'that he came was a chock'
+;
+;v-copN-suAbsinf
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+å komme var en fornøyelse
+;'to come was a pleasure'
+;
+;v-copN-suYN
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+hvorvidt han kommer er et spørsmål
+;'whether he comes is a question'
+;
+;v-copN-suWH
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+hvem som kommer er et spørsmål
+;'who that comes is a question'
+;
+;v-copPP
+;ROLE: th
+;SIT-TYPE: ASSESS
+forestillingen var under enhver kritikk
+;'the performance was below any critique'
+;
+;v-copPP-suDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+at han kom var over forventning
+;'that he came was above expectation'
+;
+;v-copPP-suAbsinf
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+å synge er under vurdering 
+;'to sing is under consideration'
+;
+;v-copPP-suYN
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+hvorvidt han får synge er under vurdering 
+;'whether he may sing is under consideration'
+;
+;v-copPP-suWH
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+hvem som får synge er under vurdering 
+;'who that may sing is under consideration'
+;
+;v-copPredprtcl
+;ROLE: th
+;SIT-TYPE: ASSESS
+Ola er som en gud 
+;'Ola is like a god'
+;
+;v-copPredprtcl-suDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+at han kom var som bønnhørt 
+;'that he came was like [prayer-heard]'
+;
+;v-copPredprtcl-suAbsinf
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+å danse var som en drøm 
+;'to dance was like a dream'
+;
+;v-copPredprtcl-suYN
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+hvorvidt soldatene lystrer er som et lottospill 
+;'whether the soldiers obey is like a lotto-play'
+;
+;v-copPredprtcl-suWH
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+hvem som lystrer er som et lottospill 
+;'who that obey is like a lotto-play'
+;
+;v-copIdN
+;ROLE: idfd_idfng
+;SIT-TYPE: IDENTITY
+dette er mannen 
+;'this is the man'
+;
+;v-copIdAbsinf
+;ROLE: idfd_idfng
+;SIT-TYPE: IDENTITY
+oppgaven er å spise silden 
+;'the task is to eat the herring'
+;
+;v-copIdDECL
+;ROLE: idfd_idfng
+;SIT-TYPE: IDENTITY
+problemet er at han spiser silden 
+;'the problem is that he eats the herring'
+;
+;v-copIdYN
+;ROLE: idfd_idfng
+;SIT-TYPE: IDENTITY
+problemet er om han spiser silden 
+;'the problem is whether he eats the herring'
+;
+;v-copIdWH
+;ROLE: idfd_idfng
+;SIT-TYPE: IDENTITY
+problemet er hvem som spiser silden 
+;'the problem is who that eats the herring'
+;
+;;v-copIdN-suDECL
+;;v-copIdN-suYN
+;;v-copIdN-suWH
+;;v-copIdN-suAbsinf
+;;v-copIdAbsinf-suAbsinf
+;v-copExpnAdj-expnDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er trist at han kommer 
+;'it is sad that he comes'
+;
+;v-copExpnAdj-expnAbsinf
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er fint å være frisk 
+;'it is nice to be healthy'
+;
+;v-copExpnAdj-expnYN
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er uvisst om han kommer 
+;'it is uncertain whether he comes'
+;
+;v-copExpnAdj-expnWH
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er uvisst hvem som kommer 
+;'it is uncertain who that comes'
+;
+;v-copExpnN-expnDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er en skuffelse at han kommer 
+;'it is a disappointment that he comes'
+;
+;v-copExpnN-expnAbsinf
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er en kunst å spise torsk 
+;'it is an art to eat cod'
+;
+;v-copExpnN-expnYN
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er et spørsmål hvorvidt han kommer 
+;'it is a question whether he comes'
+;
+;v-copExpnN-expnWH
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er et spørsmål hvem som kommer 
+;'it is a question who that comes'
+;
+;v-copExpnPP-expnDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er for andre gang at han taper 
+;'it is for the second time that he loses'
+;
+;v-copExpnPP-expnYN
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er hinsides diskusjon hvorvidt han kommer 
+;'it is beyond discussion whether he comes'
+;
+;v-copExpnPredprtcl-expnDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er som en forbannelse at han kommer 
+;'it is like a curse that he comes'
+det var som bestilt at han tapte igjen 
+;'it was like booked that he lost again'
+;
+;v-copImpersAdjLoc
+;ROLE: locth
+;SIT-TYPE: ASSESS
+det er fint i Finnmark 
+;'it is nice in Finnmark'
+det er fint her 
+;'it is nice here'
+;
+;

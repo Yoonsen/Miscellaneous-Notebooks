@@ -1,0 +1,239 @@
+The parse-numbers as of May 7-9 (2013) are much bigger than indicated, reflecting an earlier version on May 4; but what presently counts most is to get a sound mrs for each sentence, then reduce parse-wood.
+When nothing is said in the comment, the mrs indicated is sound - scopes, and non-fragmented.
+
+
+823 Ola er svært lang 3 423
+svært - degreepos-spec-word
+svært lang - measure-quantword-a-rule
+(measure-quantword-cmpar-rule gives almost the same, only a new hndl for the measure-out EP, while ... a-rule has hndl for measure-out as same as for 'lang')
+824 Ola er hvor lang 1 377
+hvor - degreewh-spec-word
+hvor lang - measure-quantword-a-rule
+(measure-quantword-cmpar-rule gives almost the same, only a new hndl for the measure-out EP, while ... a-rule has hndl for measure-out as same as for 'lang')
+825 Ola er lang nok 6 371
+nok - degreepos-post-spec-word
+lang nok - measure-a-quantword-rule
+826 Ola er nok lang 3 551
+827 Ola er tilstrekkelig lang 3 552
+tilstrekkelig - same as 823
+828 Ola er to meter lang 1 489
+to meter - card-cum-adj-mod-rule
+to meter lang - measure-np-a-rule
+829 En svært lang mann sover 4 327
+svært - degreepos-spec-word
+svært lang - measure-quantword-a-rule
+(measure-quantword-cmpar-rule gives almost the same, only a new hndl for the measure-out EP, while ... a-rule has hndl for measure-out as same as for 'lang')
+830 En hvor lang mann sover 2 349
+hvor - degreewh-spec-word
+hvor lang - measure-quantword-a-rule
+(measure-quantword-cmpar-rule gives almost the same, only a new hndl for the measure-out EP, while ... a-rule has hndl for measure-out as same as for 'lang')
+831 En to meter lang mann sover 10 396
+to meter - card-cum-adj-mod-rule
+to meter lang - measure-np-a-rule
+832 En lang nok mann sover 2 305
+833 Ola er lengre enn Per 1 274
+090513: non-parse - cmpar-mod-rule not working TODO
+Ola er lengre:
+lengre - stnd-adj + comparative-adj-lxm-rule
+834 Ola er mer storvokst enn Per 1 378
+4 parses, all fragmented - TODO
+head-spec-quantor-rule gives fine mrs&scope; 'enn' induces the comparative,
+Which means that Ola er mer storvokst goes with comparative-spec-a-rule, and comparative-adv-word; and thus fragmentation
+835 Ola er atskillig mer storvokst enn Per 1 283
+fragmentet, and old proliferation of 'mesure out' - but scopes
+atskillig - degreecmpar-spec-word
+mer - comparative-adv-word
+atskillig mer - measure-quantword-cmpar-rule
+atskillig mer storvokst - comparative-spec-a-rule
+836 Ola er en lengre mann enn Per 3 884
+does not work with 'en' as article
+one idle exceed-ep, but otherwise ok (idle, because both lengre and enn induce such eps now - no harm done by that)
+lengre - stnd-adj + comparative-adj-lxm-rule
+adjective-mod-indef-rule, card-mod-indef-rule
+837 Ola er en atskillig lengre mann enn Per 3 817
+idle ep like in 836
+atskillig - degreecmpar-spec-word
+lengre - stnd-adj + comparative-adj-lxm-rule
+adjective-mod-indef-rule, card-mod-indef-rule
+838 Ola er en mer storvokst mann enn Per 2 840
+mer - comparative-adv-word
+mer storvokst - comparative-spec-a-rule
+adjective-mod-indef-rule, head-spec-art-rule
+839 Ola er to centimeter lengre enn Per 14 644
+lengre - stnd-adj + comparative-adj-lxm-rule
+to centimeter - card-cum-adj-mod-rule
+to centimeter lengre - measure-quantword-cmpar-rule
+840 Ola er en to centimeter lengre mann enn Per 23 3954
+lengre - stnd-adj + comparative-adj-lxm-rule
+to centimeter - card-cum-adj-mod-rule
+to centimeter lengre - measure-quantword-cmpar-rule
+adjective-mod-indef-rule, head-spec-art-rule
+841 Ola er mer enn to centimeter lengre enn Per 13 1129
+fragmented, but scopes
+mer - comparative-closecomp-with-cmpar-word
+enn - cmpar-dep-close-word
+to centimeter - card-mod-indef-rule
+enn to centimeter - head-cmpardep-close-comp-rule
+mer enn to centimeter - head-cmpadv-comp-rule
+mer enn to centimeter lengre - measure-quantword-cmpar-rule
+842 Ola er atskillig mer enn to centimeter lengre enn Per 9 808
+fragmented and free variable
+atskillig - degreecmpar-spec-word
+atskillig mer enn to centimeter - measure-quantword-cmpar-rule
+atskillig mer enn to centimeter lengre - measure-quantword-cmpar-rule
+843 Ola er mer enn to centimeter mer storvokst enn Per 8 2394
+844 Ola er atskillig mer enn to centimeter mer storvokst enn Per 6 1666
+845 Ola er en mer enn to centimeter lengre mann enn Per 3 1621
+846 Ola er en mer enn to centimeter mer storvokst mann enn Per 2 3480
+847 Ola er en atskillig mer enn to centimeter mer storvokst mann enn Per 2 2370
+848 En lengre mann enn Per sover 3 166
+idle ep, reflecting compar ending - ok
+no admittance for article
+en lengre mann - card-mod-indef-rule
+enn - cmpar-dep-diff-for-noun-word
+849 En atskillig lengre mann enn Per sover 3 207
+atskillig - degreecmpar-spec-word
+atskillig lengre - measure-quantword-cmpar-rule
+enn - cmpar-dep-diff-for-noun-word
+850 En mye lengre mann enn Per sover 3 268
+mye - degreecmpar-spec-word
+mye lengre - measure-quantword-cmpar-rule
+enn - cmpar-dep-diff-for-noun-word
+851 En hvor mye lengre mann enn Per sover 3 400
+hvor - degreewh-spec-word
+mye - degreecmpar-spec-word
+hvor mye - measure-quantword-a-rule
+hvor mye lengre - measure-quantword-cmpar-rule
+852 En mer storvokst mann enn Per sover 2 175
+fragmented, but scope
+with art, or card:
+mer - comparative-adv-word
+mer storvokst - comparative-spec-a-rule (not: measure-quantword-cmpar-rule)
+853 En to centimeter lengre mann enn Per sover 27 644
+to centimeter - card-cum-adj-mod-rule  or card-mod-indef-rule: same mrs
+to centimeter lengre - measure-quantword-cmpar-rule
+to centimeter lengre mann - adjective-mod-indef-rule
+854 En mer enn to centimeter lengre mann enn Per sover 3 545
+fragmented and free variable (non-scope) - x9
+mer - comparative-closecomp-with-cmpar-word
+enn - cmpar-close-dep-word
+enn to cm - head-cmpardep-close-comp-rule
+mer enn to cm - head-cmpadv-comp-rule
+mer enn to cm lengre - measure-quantword-cmpar-rule
+mer enn to cm lengre mann - adjective-mod-indef-rule
+855 En mye mer enn to centimeter lengre mann enn Per sover 3 663
+fragmented and free variable (non-scope) - x30
+mye - degreecmpar-spec-word
+mer - comparative-closecomp-with-cmpar-word
+enn - cmpar-close-dep-word
+enn to cm - head-cmpardep-close-comp-rule
+mer enn to cm - head-cmpadv-comp-rule
+mye mer enn to cm - measure-quantword-cmpar-rule
+mye mer enn to cm lengre - measure-quantword-cmpar-rule
+856 En hvor mye mer enn to centimeter lengre mann enn Per sover 3 845
+fragmented and free variable (non-scope) - x36
+hvor - degreewh-spec-word
+mye - degreecmpar-spec-word
+hvor mye - measure-quantword-a-rule
+mer - comparative-closecomp-with-cmpar-word
+enn - cmpar-close-dep-word
+enn to cm - head-cmpardep-close-comp-rule
+mer enn to cm - head-cmpadv-comp-rule
+hvor mye mer enn to cm - measure-quantword-cmpar-rule
+hvor mye mer enn to cm lengre - measure-quantword-cmpar-rule
+857 En mer enn to centimeter mer storvokst mann enn Per sover 2 516
+fragmented and free variable (non-scope) - x9
+mer (1) - comparative-closecomp-with-cmpar-word
+enn - cmpar-close-dep-word
+enn to cm - head-cmpardep-close-comp-rule
+mer enn to cm
+mer (2) - comparative-adv-word
+mer enn to cm mer - measure-quantword-cmpar-rule
+858 Ola er den høyeste av guttene 22 1794
+fragmented and free variables (non-scope) - x9, x11
+av - part-adj-prep-word
+859 Ola er den høyeste av alle guttene 16 1766
+860 Ola er den høyeste gutten 1 417
+861 Den høyeste av guttene sover 22 366
+fragmented and free variables (non-scope) - x5, x4
+av - part-adj-prep-word
+den - gives strange ep commsg-deict-rel
+den  høyeste av guttene - head-spec-det-rule (which works better with 'den høye gutten')
+with 'av' as rel-prep-word, and A -> N, one gets a wellformed mrs, which also makes sense
+862 Den høyeste av alle guttene sover 16 469
+with 'av' as rel-prep-word, and A -> N, one gets a wellformed mrs, which also makes sense
+863 Den høyeste gutten sover 1 67
+864 Mye vin renner 1 118
+865 Svært mye vin renner 4 187
+svært - degreepos-spec-word
+mye - quant-indef-adjcard-sg-word
+svært mye - measure-quantword-cmpar-rule
+
+866 Svært lite vin renner 3 257
+867 Hvor mye vin renner? 4 172
+hvor - degreewh-spec-word
+mye - quant-indef-adjcard-sg-word
+hvor mye - measure-quantword-cmpar-rule
+
+868 Hvor lite vin renner? 3 284
+869 Mer vin enn vann renner 4 155
+mer - quant-indef-adjcard2-sg-word
+head-spec-quantor-rule
+
+870 Mindre vin enn vann renner 8 225
+871 Atskillig mer vin enn vann renner 2 180
+atskillig - degreecmpar-spec-word
+mer - quant-indef-adjcard-sg-word
+head-spec-quantor-rule
+atskillig mer - measure-quantword-cmpar-rule
+head-spec-quantor-rule
+
+872 Atskillig mindre vin enn vann renner 6 280
+873 Hvor mye mer vin enn vann renner? 6 311
+hvor - degreewh-spec-word
+mye - degree-cmpar-spec-word
+mer - mye - quant-indef-adjcard-sg-word
+hvor mye - measure-quantword-a-rule
+hvor mye mer - measure-quantword-cmpar-rule
+head-spec-quantor-rule
+
+874 Hvor mye mindre vin enn vann renner? 26 619
+875 Mange gutter løper 1 95
+mange - quant-indef-card-pl-word
+head-spec-quantor-rule
+
+876 Svært mange gutter løper 3 148
+svært - degreepos-spec-word
+mange - stnd-adj
+svært mange - measure-quantword-cmpar-rule or measure-quantword-a-rule
+adjective-mod-indef-rule
+
+877 Svært få gutter løper 10 524
+878 Hvor mange gutter løper? 3 133
+hvor - degreewh-spec-word
+mange - stnd-adj-lxm
+hvor mange - measure-quantword-a-rule
+adjective-mod-indef-rule
+
+879 Hvor få gutter løper? 3 684
+880 Flere gutter enn menn løper 3 118
+flere - quant-indef-cmpar-card-pl-word
+head-spec-quantor-rule
+
+881 Færre gutter enn menn løper 2 104
+882 Atskillig flere gutter enn menn løper 2 139
+atskillig - degreecmpar-spec-word
+flere - quant-indef-cmpar-card-pl-word
+atskillig flere - measure-quantword-cmpar-rule
+head-spec-quantor-rule
+
+883 Atskillig færre gutter enn menn løper 1 119
+884 Hvor mange flere gutter enn menn løper 2 185
+hvor- degreewh-spec-word
+mange- degreecmpar-spec-word   
+flere- quant-indef-cmpar-card-pl-word
+hvor mange - measure-quantword-a-rule   
+hvor mange flere - measure-quantword-cmpar-rule
+head-spec-quantor-rule
+
+885 Hvor mange færre gutter enn menn løper 2 168

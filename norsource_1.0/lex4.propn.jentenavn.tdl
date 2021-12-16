@@ -1,0 +1,2358 @@
+abigail_propername := femsg-anim-proper-name-word &
+  [ STEM < "Abigail" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Abigail" ].
+
+ada_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ada" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ada" ].
+
+adele_propername := femsg-anim-proper-name-word &
+  [ STEM < "Adele" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Adele" ].
+
+adina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Adina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Adina" ].
+
+adine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Adine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Adine" ].
+
+adriana_propername := femsg-anim-proper-name-word &
+  [ STEM < "Adriana" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Adriana" ].
+
+agathe_propername := femsg-anim-proper-name-word &
+  [ STEM < "Agathe" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Agathe" ].
+
+agnes_propername := femsg-anim-proper-name-word &
+  [ STEM < "Agnes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Agnes" ].
+
+agnete_propername := femsg-anim-proper-name-word &
+  [ STEM < "Agnete" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Agnete" ].
+
+agnethe_propername := femsg-anim-proper-name-word &
+  [ STEM < "Agnethe" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Agnethe" ].
+
+aida_propername := femsg-anim-proper-name-word &
+  [ STEM < "Aida" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Aida" ].
+
+ailin_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ailin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ailin" ].
+
+aimee_propername := femsg-anim-proper-name-word &
+  [ STEM < "Aimee" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Aimee" ].
+
+aina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Aina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Aina" ].
+
+aisha_propername := femsg-anim-proper-name-word &
+  [ STEM < "Aisha" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Aisha" ].
+
+ajla_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ajla" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ajla" ].
+
+alba_propername := femsg-anim-proper-name-word &
+  [ STEM < "Alba" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alba" ].
+
+albertine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Albertine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Albertine" ].
+
+alea_propername := femsg-anim-proper-name-word &
+  [ STEM < "Alea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alea" ].
+
+aleksandra_propername := femsg-anim-proper-name-word &
+  [ STEM < "Aleksandra" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Aleksandra" ].
+
+alette_propername := femsg-anim-proper-name-word &
+  [ STEM < "Alette" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alette" ].
+
+alexandra_propername := femsg-anim-proper-name-word &
+  [ STEM < "Alexandra" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alexandra" ].
+
+alice_propername := femsg-anim-proper-name-word &
+  [ STEM < "Alice" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alice" ].
+
+alicia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Alicia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alicia" ].
+
+alicja_propername := femsg-anim-proper-name-word &
+  [ STEM < "Alicja" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alicja" ].
+
+alida_propername := femsg-anim-proper-name-word &
+  [ STEM < "Alida" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alida" ].
+
+alina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Alina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alina" ].
+
+aline_propername := femsg-anim-proper-name-word &
+  [ STEM < "Aline" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Aline" ].
+
+alisa_propername := femsg-anim-proper-name-word &
+  [ STEM < "Alisa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alisa" ].
+
+alise_propername := femsg-anim-proper-name-word &
+  [ STEM < "Alise" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alise" ].
+
+alisha_propername := femsg-anim-proper-name-word &
+  [ STEM < "Alisha" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alisha" ].
+
+alma_propername := femsg-anim-proper-name-word &
+  [ STEM < "Alma" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alma" ].
+
+alva_propername := femsg-anim-proper-name-word &
+  [ STEM < "Alva" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alva" ].
+
+alvilde_propername := femsg-anim-proper-name-word &
+  [ STEM < "Alvilde" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alvilde" ].
+
+amal_propername := femsg-anim-proper-name-word &
+  [ STEM < "Amal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Amal" ].
+
+amalia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Amalia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Amalia" ].
+
+amalie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Amalie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Amalie" ].
+
+amanda_propername := femsg-anim-proper-name-word &
+  [ STEM < "Amanda" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Amanda" ].
+
+amelia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Amelia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Amelia" ].
+
+amelie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Amelie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Amelie" ].
+
+amina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Amina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Amina" ].
+
+amira_propername := femsg-anim-proper-name-word &
+  [ STEM < "Amira" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Amira" ].
+
+amna_propername := femsg-anim-proper-name-word &
+  [ STEM < "Amna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Amna" ].
+
+amy_propername := femsg-anim-proper-name-word &
+  [ STEM < "Amy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Amy" ].
+
+ana_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ana" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ana" ].
+
+anastasia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Anastasia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Anastasia" ].
+
+andrea_propername := femsg-anim-proper-name-word &
+  [ STEM < "Andrea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Andrea" ].
+
+andrine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Andrine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Andrine" ].
+
+ane_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ane" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ane" ].
+
+anea_propername := femsg-anim-proper-name-word &
+  [ STEM < "Anea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Anea" ].
+
+anette_propername := femsg-anim-proper-name-word &
+  [ STEM < "Anette" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Anette" ].
+
+angela_propername := femsg-anim-proper-name-word &
+  [ STEM < "Angela" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Angela" ].
+
+angelica_propername := femsg-anim-proper-name-word &
+  [ STEM < "Angelica" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Angelica" ].
+
+angelika_propername := femsg-anim-proper-name-word &
+  [ STEM < "Angelika" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Angelika" ].
+
+angelina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Angelina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Angelina" ].
+
+anine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Anine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Anine" ].
+
+anisa_propername := femsg-anim-proper-name-word &
+  [ STEM < "Anisa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Anisa" ].
+
+anita_propername := femsg-anim-proper-name-word &
+  [ STEM < "Anita" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Anita" ].
+
+anja_propername := femsg-anim-proper-name-word &
+  [ STEM < "Anja" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Anja" ].
+
+ann_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ann" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ann" ].
+
+;; found in lexicon  lex4.propn2
+;;anna_propername := femsg-anim-proper-name-word &
+;;  [ STEM < "Anna" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Anna" ].
+
+annabel_propername := femsg-anim-proper-name-word &
+  [ STEM < "Annabel" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Annabel" ].
+
+annabell_propername := femsg-anim-proper-name-word &
+  [ STEM < "Annabell" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Annabell" ].
+
+annabelle_propername := femsg-anim-proper-name-word &
+  [ STEM < "Annabelle" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Annabelle" ].
+
+anne_propername := femsg-anim-proper-name-word &
+  [ STEM < "Anne" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Anne" ].
+
+anneli_propername := femsg-anim-proper-name-word &
+  [ STEM < "Anneli" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Anneli" ].
+
+annie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Annie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Annie" ].
+
+annika_propername := femsg-anim-proper-name-word &
+  [ STEM < "Annika" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Annika" ].
+
+anniken_propername := femsg-anim-proper-name-word &
+  [ STEM < "Anniken" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Anniken" ].
+
+aria_propername := femsg-anim-proper-name-word &
+  [ STEM < "Aria" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Aria" ].
+
+ariana_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ariana" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ariana" ].
+
+ariane_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ariane" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ariane" ].
+
+ariel_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ariel" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ariel" ].
+
+astri_propername := femsg-anim-proper-name-word &
+  [ STEM < "Astri" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Astri" ].
+
+astrid_propername := femsg-anim-proper-name-word &
+  [ STEM < "Astrid" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Astrid" ].
+
+aurora_propername := femsg-anim-proper-name-word &
+  [ STEM < "Aurora" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Aurora" ].
+
+ava_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ava" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ava" ].
+
+aya_propername := femsg-anim-proper-name-word &
+  [ STEM < "Aya" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Aya" ].
+
+ayla_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ayla" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ayla" ].
+
+aylin_propername := femsg-anim-proper-name-word &
+  [ STEM < "Aylin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Aylin" ].
+
+beatrice_propername := femsg-anim-proper-name-word &
+  [ STEM < "Beatrice" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Beatrice" ].
+
+bella_propername := femsg-anim-proper-name-word &
+  [ STEM < "Bella" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bella" ].
+
+benedicte_propername := femsg-anim-proper-name-word &
+  [ STEM < "Benedicte" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Benedicte" ].
+
+benedikte_propername := femsg-anim-proper-name-word &
+  [ STEM < "Benedikte" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Benedikte" ].
+
+berit_propername := femsg-anim-proper-name-word &
+  [ STEM < "Berit" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Berit" ].
+
+bertine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Bertine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bertine" ].
+
+betina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Betina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Betina" ].
+
+bettina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Bettina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bettina" ].
+
+bianca_propername := femsg-anim-proper-name-word &
+  [ STEM < "Bianca" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bianca" ].
+
+birgitte_propername := femsg-anim-proper-name-word &
+  [ STEM < "Birgitte" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Birgitte" ].
+
+camilla_propername := femsg-anim-proper-name-word &
+  [ STEM < "Camilla" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Camilla" ].
+
+carina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Carina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Carina" ].
+
+carmen_propername := femsg-anim-proper-name-word &
+  [ STEM < "Carmen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Carmen" ].
+
+caroline_propername := femsg-anim-proper-name-word &
+  [ STEM < "Caroline" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Caroline" ].
+
+cassandra_propername := femsg-anim-proper-name-word &
+  [ STEM < "Cassandra" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Cassandra" ].
+
+cathrine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Cathrine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Cathrine" ].
+
+cecilia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Cecilia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Cecilia" ].
+
+cecilie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Cecilie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Cecilie" ].
+
+celia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Celia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Celia" ].
+
+celin_propername := femsg-anim-proper-name-word &
+  [ STEM < "Celin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Celin" ].
+
+celina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Celina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Celina" ].
+
+celine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Celine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Celine" ].
+
+charlotte_propername := femsg-anim-proper-name-word &
+  [ STEM < "Charlotte" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Charlotte" ].
+
+chloe_propername := femsg-anim-proper-name-word &
+  [ STEM < "Chloe" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Chloe" ].
+
+christiane_propername := femsg-anim-proper-name-word &
+  [ STEM < "Christiane" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Christiane" ].
+
+christina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Christina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Christina" ].
+
+christine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Christine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Christine" ].
+
+cindy_propername := femsg-anim-proper-name-word &
+  [ STEM < "Cindy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Cindy" ].
+
+clara_propername := femsg-anim-proper-name-word &
+  [ STEM < "Clara" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Clara" ].
+
+cornelia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Cornelia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Cornelia" ].
+
+dania_propername := femsg-anim-proper-name-word &
+  [ STEM < "Dania" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Dania" ].
+
+daniela_propername := femsg-anim-proper-name-word &
+  [ STEM < "Daniela" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Daniela" ].
+
+daniella_propername := femsg-anim-proper-name-word &
+  [ STEM < "Daniella" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Daniella" ].
+
+delina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Delina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Delina" ].
+
+diana_propername := femsg-anim-proper-name-word &
+  [ STEM < "Diana" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Diana" ].
+
+dina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Dina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Dina" ].
+
+dorthe_propername := femsg-anim-proper-name-word &
+  [ STEM < "Dorthe" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Dorthe" ].
+
+dorthea_propername := femsg-anim-proper-name-word &
+  [ STEM < "Dorthea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Dorthea" ].
+
+ea_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ea" ].
+
+ebba_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ebba" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ebba" ].
+
+edel_propername := femsg-anim-proper-name-word &
+  [ STEM < "Edel" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Edel" ].
+
+edith_propername := femsg-anim-proper-name-word &
+  [ STEM < "Edith" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Edith" ].
+
+eileen_propername := femsg-anim-proper-name-word &
+  [ STEM < "Eileen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eileen" ].
+
+eir_propername := femsg-anim-proper-name-word &
+  [ STEM < "Eir" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eir" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+eira_jente_propername := femsg-anim-proper-name-word &
+  [ STEM < "Eira" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eira" ].
+
+eiril_propername := femsg-anim-proper-name-word &
+  [ STEM < "Eiril" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eiril" ].
+
+eirill_propername := femsg-anim-proper-name-word &
+  [ STEM < "Eirill" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eirill" ].
+
+eirin_propername := femsg-anim-proper-name-word &
+  [ STEM < "Eirin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eirin" ].
+
+eivor_propername := femsg-anim-proper-name-word &
+  [ STEM < "Eivor" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eivor" ].
+
+ela_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ela" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ela" ].
+
+elea_propername := femsg-anim-proper-name-word &
+  [ STEM < "Elea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Elea" ].
+
+elena_propername := femsg-anim-proper-name-word &
+  [ STEM < "Elena" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Elena" ].
+
+eli_propername := femsg-anim-proper-name-word &
+  [ STEM < "Eli" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eli" ].
+
+eliana_propername := femsg-anim-proper-name-word &
+  [ STEM < "Eliana" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eliana" ].
+
+elida_propername := femsg-anim-proper-name-word &
+  [ STEM < "Elida" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Elida" ].
+
+elin_propername := femsg-anim-proper-name-word &
+  [ STEM < "Elin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Elin" ].
+
+elina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Elina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Elina" ].
+
+eline_propername := femsg-anim-proper-name-word &
+  [ STEM < "Eline" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eline" ].
+
+elisa_propername := femsg-anim-proper-name-word &
+  [ STEM < "Elisa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Elisa" ].
+
+elisabeth_propername := femsg-anim-proper-name-word &
+  [ STEM < "Elisabeth" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Elisabeth" ].
+
+elise_propername := femsg-anim-proper-name-word &
+  [ STEM < "Elise" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Elise" ].
+
+eliza_propername := femsg-anim-proper-name-word &
+  [ STEM < "Eliza" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eliza" ].
+
+elizabeth_propername := femsg-anim-proper-name-word &
+  [ STEM < "Elizabeth" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Elizabeth" ].
+
+ella_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ella" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ella" ].
+
+elle_propername := femsg-anim-proper-name-word &
+  [ STEM < "Elle" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Elle" ].
+
+ellen_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ellen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ellen" ].
+
+ellie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ellie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ellie" ].
+
+ellinor_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ellinor" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ellinor" ].
+
+elsa_propername := femsg-anim-proper-name-word &
+  [ STEM < "Elsa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Elsa" ].
+
+else_propername := femsg-anim-proper-name-word &
+  [ STEM < "Else" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Else" ].
+
+elvira_propername := femsg-anim-proper-name-word &
+  [ STEM < "Elvira" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Elvira" ].
+
+ema_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ema" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ema" ].
+
+;; found in lexicon  lex1.close
+;;embla_propername := femsg-anim-proper-name-word &
+;;  [ STEM < "Embla" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Embla" ].
+
+emelie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Emelie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Emelie" ].
+
+emeline_propername := femsg-anim-proper-name-word &
+  [ STEM < "Emeline" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Emeline" ].
+
+emely_propername := femsg-anim-proper-name-word &
+  [ STEM < "Emely" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Emely" ].
+
+emilia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Emilia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Emilia" ].
+
+emilie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Emilie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Emilie" ].
+
+emilija_propername := femsg-anim-proper-name-word &
+  [ STEM < "Emilija" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Emilija" ].
+
+emily_propername := femsg-anim-proper-name-word &
+  [ STEM < "Emily" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Emily" ].
+
+emina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Emina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Emina" ].
+
+emine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Emine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Emine" ].
+
+;; found in lexicon  lex4.propn2
+;;emma_propername := femsg-anim-proper-name-word &
+;;  [ STEM < "Emma" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Emma" ].
+
+emmeli_propername := femsg-anim-proper-name-word &
+  [ STEM < "Emmeli" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Emmeli" ].
+
+emmelin_propername := femsg-anim-proper-name-word &
+  [ STEM < "Emmelin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Emmelin" ].
+
+emmeline_propername := femsg-anim-proper-name-word &
+  [ STEM < "Emmeline" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Emmeline" ].
+
+emmy_propername := femsg-anim-proper-name-word &
+  [ STEM < "Emmy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Emmy" ].
+
+enya_propername := femsg-anim-proper-name-word &
+  [ STEM < "Enya" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Enya" ].
+
+erica_propername := femsg-anim-proper-name-word &
+  [ STEM < "Erica" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Erica" ].
+
+erika_propername := femsg-anim-proper-name-word &
+  [ STEM < "Erika" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Erika" ].
+
+erle_propername := femsg-anim-proper-name-word &
+  [ STEM < "Erle" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Erle" ].
+
+ester_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ester" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ester" ].
+
+esther_propername := femsg-anim-proper-name-word &
+  [ STEM < "Esther" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Esther" ].
+
+eva_propername := femsg-anim-proper-name-word &
+  [ STEM < "Eva" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Eva" ].
+
+evelina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Evelina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Evelina" ].
+
+evelyn_propername := femsg-anim-proper-name-word &
+  [ STEM < "Evelyn" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Evelyn" ].
+
+fanny_propername := femsg-anim-proper-name-word &
+  [ STEM < "Fanny" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fanny" ].
+
+fatima_propername := femsg-anim-proper-name-word &
+  [ STEM < "Fatima" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fatima" ].
+
+felicia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Felicia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Felicia" ].
+
+filippa_propername := femsg-anim-proper-name-word &
+  [ STEM < "Filippa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Filippa" ].
+
+fiona_propername := femsg-anim-proper-name-word &
+  [ STEM < "Fiona" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fiona" ].
+
+fredrikke_propername := femsg-anim-proper-name-word &
+  [ STEM < "Fredrikke" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fredrikke" ].
+
+freja_propername := femsg-anim-proper-name-word &
+  [ STEM < "Freja" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Freja" ].
+
+freya_propername := femsg-anim-proper-name-word &
+  [ STEM < "Freya" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Freya" ].
+
+frida_propername := femsg-anim-proper-name-word &
+  [ STEM < "Frida" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Frida" ].
+
+fride_propername := femsg-anim-proper-name-word &
+  [ STEM < "Fride" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fride" ].
+
+frøya_propername := femsg-anim-proper-name-word &
+  [ STEM < "Frøya" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Frøya" ].
+
+frøydis_propername := femsg-anim-proper-name-word &
+  [ STEM < "Frøydis" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Frøydis" ].
+
+gabija_propername := femsg-anim-proper-name-word &
+  [ STEM < "Gabija" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gabija" ].
+
+gabriela_propername := femsg-anim-proper-name-word &
+  [ STEM < "Gabriela" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gabriela" ].
+
+gabriella_propername := femsg-anim-proper-name-word &
+  [ STEM < "Gabriella" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gabriella" ].
+
+gina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Gina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gina" ].
+
+gunhild_propername := femsg-anim-proper-name-word &
+  [ STEM < "Gunhild" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gunhild" ].
+
+guro_propername := femsg-anim-proper-name-word &
+  [ STEM < "Guro" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Guro" ].
+
+hafsa_propername := femsg-anim-proper-name-word &
+  [ STEM < "Hafsa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hafsa" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+hana_jente_propername := femsg-anim-proper-name-word &
+  [ STEM < "Hana" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hana" ].
+
+hanna_propername := femsg-anim-proper-name-word &
+  [ STEM < "Hanna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hanna" ].
+
+hannah_propername := femsg-anim-proper-name-word &
+  [ STEM < "Hannah" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hannah" ].
+
+hanne_propername := femsg-anim-proper-name-word &
+  [ STEM < "Hanne" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hanne" ].
+
+hedda_propername := femsg-anim-proper-name-word &
+  [ STEM < "Hedda" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hedda" ].
+
+hedvig_propername := femsg-anim-proper-name-word &
+  [ STEM < "Hedvig" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hedvig" ].
+
+hege_propername := femsg-anim-proper-name-word &
+  [ STEM < "Hege" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hege" ].
+
+heidi_propername := femsg-anim-proper-name-word &
+  [ STEM < "Heidi" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Heidi" ].
+
+helen_propername := femsg-anim-proper-name-word &
+  [ STEM < "Helen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Helen" ].
+
+helena_propername := femsg-anim-proper-name-word &
+  [ STEM < "Helena" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Helena" ].
+
+helene_propername := femsg-anim-proper-name-word &
+  [ STEM < "Helene" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Helene" ].
+
+helin_propername := femsg-anim-proper-name-word &
+  [ STEM < "Helin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Helin" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+helle_jente_propername := femsg-anim-proper-name-word &
+  [ STEM < "Helle" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Helle" ].
+
+hennie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Hennie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hennie" ].
+
+henny_propername := femsg-anim-proper-name-word &
+  [ STEM < "Henny" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Henny" ].
+
+henriette_propername := femsg-anim-proper-name-word &
+  [ STEM < "Henriette" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Henriette" ].
+
+henrikke_propername := femsg-anim-proper-name-word &
+  [ STEM < "Henrikke" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Henrikke" ].
+
+hermine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Hermine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hermine" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+hilde_jente_propername := femsg-anim-proper-name-word &
+  [ STEM < "Hilde" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hilde" ].
+
+;; name problem found in lexicon  lex4.propn.guttenavn
+iben_jente_propername := femsg-anim-proper-name-word &
+  [ STEM < "Iben" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Iben" ].
+
+ida_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ida" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ida" ].
+
+idun_propername := femsg-anim-proper-name-word &
+  [ STEM < "Idun" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Idun" ].
+
+idunn_propername := femsg-anim-proper-name-word &
+  [ STEM < "Idunn" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Idunn" ].
+
+iman_propername := femsg-anim-proper-name-word &
+  [ STEM < "Iman" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Iman" ].
+
+ina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ina" ].
+
+ine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ine" ].
+
+ines_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ines" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ines" ].
+
+inga_propername := femsg-anim-proper-name-word &
+  [ STEM < "Inga" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Inga" ].
+
+ingebjørg_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ingebjørg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ingebjørg" ].
+
+ingeborg_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ingeborg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ingeborg" ].
+
+ingelin_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ingelin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ingelin" ].
+
+inger_propername := femsg-anim-proper-name-word &
+  [ STEM < "Inger" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Inger" ].
+
+ingri_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ingri" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ingri" ].
+
+ingrid_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ingrid" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ingrid" ].
+
+ingunn_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ingunn" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ingunn" ].
+
+ingvild_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ingvild" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ingvild" ].
+
+iqra_propername := femsg-anim-proper-name-word &
+  [ STEM < "Iqra" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Iqra" ].
+
+irene_propername := femsg-anim-proper-name-word &
+  [ STEM < "Irene" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Irene" ].
+
+iris_propername := femsg-anim-proper-name-word &
+  [ STEM < "Iris" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Iris" ].
+
+irmelin_propername := femsg-anim-proper-name-word &
+  [ STEM < "Irmelin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Irmelin" ].
+
+;; name problem found in lexicon  lex4.propn.guttenavn
+isa_jente_propername := femsg-anim-proper-name-word &
+  [ STEM < "Isa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Isa" ].
+
+isabel_propername := femsg-anim-proper-name-word &
+  [ STEM < "Isabel" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Isabel" ].
+
+isabell_propername := femsg-anim-proper-name-word &
+  [ STEM < "Isabell" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Isabell" ].
+
+isabella_propername := femsg-anim-proper-name-word &
+  [ STEM < "Isabella" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Isabella" ].
+
+isabelle_propername := femsg-anim-proper-name-word &
+  [ STEM < "Isabelle" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Isabelle" ].
+
+iselin_propername := femsg-anim-proper-name-word &
+  [ STEM < "Iselin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Iselin" ].
+
+isra_propername := femsg-anim-proper-name-word &
+  [ STEM < "Isra" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Isra" ].
+
+janne_propername := femsg-anim-proper-name-word &
+  [ STEM < "Janne" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Janne" ].
+
+jasmin_propername := femsg-anim-proper-name-word &
+  [ STEM < "Jasmin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Jasmin" ].
+
+jasmine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Jasmine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Jasmine" ].
+
+jeanette_propername := femsg-anim-proper-name-word &
+  [ STEM < "Jeanette" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Jeanette" ].
+
+jennie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Jennie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Jennie" ].
+
+jennifer_propername := femsg-anim-proper-name-word &
+  [ STEM < "Jennifer" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Jennifer" ].
+
+jenny_propername := femsg-anim-proper-name-word &
+  [ STEM < "Jenny" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Jenny" ].
+
+jessica_propername := femsg-anim-proper-name-word &
+  [ STEM < "Jessica" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Jessica" ].
+
+johanna_propername := femsg-anim-proper-name-word &
+  [ STEM < "Johanna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Johanna" ].
+
+johanne_propername := femsg-anim-proper-name-word &
+  [ STEM < "Johanne" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Johanne" ].
+
+josefine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Josefine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Josefine" ].
+
+josephine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Josephine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Josephine" ].
+
+julia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Julia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Julia" ].
+
+juliane_propername := femsg-anim-proper-name-word &
+  [ STEM < "Juliane" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Juliane" ].
+
+julianne_propername := femsg-anim-proper-name-word &
+  [ STEM < "Julianne" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Julianne" ].
+
+julie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Julie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Julie" ].
+
+june_propername := femsg-anim-proper-name-word &
+  [ STEM < "June" >,
+    SYNSEM.LKEYS.KEYREL.CARG "June" ].
+
+juni_propername := femsg-anim-proper-name-word &
+  [ STEM < "Juni" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Juni" ].
+
+kaia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kaia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kaia" ].
+
+kaisa_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kaisa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kaisa" ].
+
+kaja_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kaja" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kaja" ].
+
+kajsa_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kajsa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kajsa" ].
+
+kamile_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kamile" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kamile" ].
+
+kamilla_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kamilla" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kamilla" ].
+
+karen_propername := femsg-anim-proper-name-word &
+  [ STEM < "Karen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Karen" ].
+
+;; found in lexicon  lex1.close
+;;kari_propername := femsg-anim-proper-name-word &
+;;  [ STEM < "Kari" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Kari" ].
+
+karianne_propername := femsg-anim-proper-name-word &
+  [ STEM < "Karianne" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Karianne" ].
+
+karin_propername := femsg-anim-proper-name-word &
+  [ STEM < "Karin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Karin" ].
+
+karina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Karina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Karina" ].
+
+karine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Karine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Karine" ].
+
+karolina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Karolina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Karolina" ].
+
+karoline_propername := femsg-anim-proper-name-word &
+  [ STEM < "Karoline" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Karoline" ].
+
+katarina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Katarina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Katarina" ].
+
+katharina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Katharina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Katharina" ].
+
+kathrine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kathrine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kathrine" ].
+
+katinka_propername := femsg-anim-proper-name-word &
+  [ STEM < "Katinka" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Katinka" ].
+
+katja_propername := femsg-anim-proper-name-word &
+  [ STEM < "Katja" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Katja" ].
+
+katrine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Katrine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Katrine" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+kaya_jente_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kaya" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kaya" ].
+
+kayla_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kayla" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kayla" ].
+
+khadija_propername := femsg-anim-proper-name-word &
+  [ STEM < "Khadija" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Khadija" ].
+
+kine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kine" ].
+
+kinga_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kinga" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kinga" ].
+
+kira_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kira" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kira" ].
+
+kjersti_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kjersti" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kjersti" ].
+
+klara_propername := femsg-anim-proper-name-word &
+  [ STEM < "Klara" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Klara" ].
+
+klaudia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Klaudia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Klaudia" ].
+
+kornelia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kornelia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kornelia" ].
+
+kristiane_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kristiane" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kristiane" ].
+
+kristin_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kristin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kristin" ].
+
+kristina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kristina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kristina" ].
+
+kristine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Kristine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kristine" ].
+
+laiba_propername := femsg-anim-proper-name-word &
+  [ STEM < "Laiba" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Laiba" ].
+
+laila_propername := femsg-anim-proper-name-word &
+  [ STEM < "Laila" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Laila" ].
+
+lana_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lana" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lana" ].
+
+lara_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lara" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lara" ].
+
+laura_propername := femsg-anim-proper-name-word &
+  [ STEM < "Laura" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Laura" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+lea_jente_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lea" ].
+
+leah_propername := femsg-anim-proper-name-word &
+  [ STEM < "Leah" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Leah" ].
+
+leana_propername := femsg-anim-proper-name-word &
+  [ STEM < "Leana" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Leana" ].
+
+leila_propername := femsg-anim-proper-name-word &
+  [ STEM < "Leila" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Leila" ].
+
+lena_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lena" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lena" ].
+
+lene_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lene" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lene" ].
+
+leona_propername := femsg-anim-proper-name-word &
+  [ STEM < "Leona" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Leona" ].
+
+leonora_propername := femsg-anim-proper-name-word &
+  [ STEM < "Leonora" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Leonora" ].
+
+lerke_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lerke" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lerke" ].
+
+liana_propername := femsg-anim-proper-name-word &
+  [ STEM < "Liana" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Liana" ].
+
+liliana_propername := femsg-anim-proper-name-word &
+  [ STEM < "Liliana" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Liliana" ].
+
+lilja_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lilja" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lilja" ].
+
+lilje_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lilje" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lilje" ].
+
+lilli_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lilli" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lilli" ].
+
+lillian_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lillian" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lillian" ].
+
+lilly_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lilly" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lilly" ].
+
+lily_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lily" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lily" ].
+
+lina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lina" ].
+
+linda_propername := femsg-anim-proper-name-word &
+  [ STEM < "Linda" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Linda" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+linde_jente_propername := femsg-anim-proper-name-word &
+  [ STEM < "Linde" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Linde" ].
+
+line_propername := femsg-anim-proper-name-word &
+  [ STEM < "Line" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Line" ].
+
+linea_propername := femsg-anim-proper-name-word &
+  [ STEM < "Linea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Linea" ].
+
+linn_propername := femsg-anim-proper-name-word &
+  [ STEM < "Linn" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Linn" ].
+
+linnea_propername := femsg-anim-proper-name-word &
+  [ STEM < "Linnea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Linnea" ].
+
+;; found in lexicon  lex4.propn2
+;;lisa_propername := femsg-anim-proper-name-word &
+;;  [ STEM < "Lisa" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Lisa" ].
+
+lise_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lise" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lise" ].
+
+liv_propername := femsg-anim-proper-name-word &
+  [ STEM < "Liv" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Liv" ].
+
+liva_propername := femsg-anim-proper-name-word &
+  [ STEM < "Liva" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Liva" ].
+
+live_propername := femsg-anim-proper-name-word &
+  [ STEM < "Live" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Live" ].
+
+livia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Livia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Livia" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+lone_jente_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lone" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lone" ].
+
+lotta_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lotta" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lotta" ].
+
+lotte_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lotte" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lotte" ].
+
+louise_propername := femsg-anim-proper-name-word &
+  [ STEM < "Louise" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Louise" ].
+
+lovise_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lovise" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lovise" ].
+
+lucia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lucia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lucia" ].
+
+lucy_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lucy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lucy" ].
+
+luna_propername := femsg-anim-proper-name-word &
+  [ STEM < "Luna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Luna" ].
+
+lycke_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lycke" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lycke" ].
+
+lydia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lydia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lydia" ].
+
+lykke_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lykke" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lykke" ].
+
+lærke_propername := femsg-anim-proper-name-word &
+  [ STEM < "Lærke" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lærke" ].
+
+madeleine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Madeleine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Madeleine" ].
+
+madelen_propername := femsg-anim-proper-name-word &
+  [ STEM < "Madelen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Madelen" ].
+
+madelene_propername := femsg-anim-proper-name-word &
+  [ STEM < "Madelene" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Madelene" ].
+
+magdalena_propername := femsg-anim-proper-name-word &
+  [ STEM < "Magdalena" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Magdalena" ].
+
+mai_propername := femsg-anim-proper-name-word &
+  [ STEM < "Mai" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mai" ].
+
+maia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Maia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Maia" ].
+
+maida_propername := femsg-anim-proper-name-word &
+  [ STEM < "Maida" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Maida" ].
+
+maiken_propername := femsg-anim-proper-name-word &
+  [ STEM < "Maiken" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Maiken" ].
+
+maja_propername := femsg-anim-proper-name-word &
+  [ STEM < "Maja" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Maja" ].
+
+malaika_propername := femsg-anim-proper-name-word &
+  [ STEM < "Malaika" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Malaika" ].
+
+malak_propername := femsg-anim-proper-name-word &
+  [ STEM < "Malak" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Malak" ].
+
+malena_propername := femsg-anim-proper-name-word &
+  [ STEM < "Malena" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Malena" ].
+
+malene_propername := femsg-anim-proper-name-word &
+  [ STEM < "Malene" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Malene" ].
+
+mali_propername := femsg-anim-proper-name-word &
+  [ STEM < "Mali" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mali" ].
+
+malin_propername := femsg-anim-proper-name-word &
+  [ STEM < "Malin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Malin" ].
+
+maren_propername := femsg-anim-proper-name-word &
+  [ STEM < "Maren" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Maren" ].
+
+margit_propername := femsg-anim-proper-name-word &
+  [ STEM < "Margit" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Margit" ].
+
+margrete_propername := femsg-anim-proper-name-word &
+  [ STEM < "Margrete" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Margrete" ].
+
+margrethe_propername := femsg-anim-proper-name-word &
+  [ STEM < "Margrethe" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Margrethe" ].
+
+mari_propername := femsg-anim-proper-name-word &
+  [ STEM < "Mari" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mari" ].
+
+;; found in lexicon  lex4.propn2
+;;maria_propername := femsg-anim-proper-name-word &
+;;  [ STEM < "Maria" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Maria" ].
+
+mariam_propername := femsg-anim-proper-name-word &
+  [ STEM < "Mariam" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mariam" ].
+
+marianne_propername := femsg-anim-proper-name-word &
+  [ STEM < "Marianne" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Marianne" ].
+
+marie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Marie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Marie" ].
+
+mariel_propername := femsg-anim-proper-name-word &
+  [ STEM < "Mariel" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mariel" ].
+
+mariell_propername := femsg-anim-proper-name-word &
+  [ STEM < "Mariell" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mariell" ].
+
+marielle_propername := femsg-anim-proper-name-word &
+  [ STEM < "Marielle" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Marielle" ].
+
+marina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Marina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Marina" ].
+
+marion_propername := femsg-anim-proper-name-word &
+  [ STEM < "Marion" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Marion" ].
+
+;; found in lexicon  lex1.close
+;;marit_propername := femsg-anim-proper-name-word &
+;;  [ STEM < "Marit" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Marit" ].
+
+marita_propername := femsg-anim-proper-name-word &
+  [ STEM < "Marita" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Marita" ].
+
+marlene_propername := femsg-anim-proper-name-word &
+  [ STEM < "Marlene" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Marlene" ].
+
+marta_propername := femsg-anim-proper-name-word &
+  [ STEM < "Marta" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Marta" ].
+
+marte_propername := femsg-anim-proper-name-word &
+  [ STEM < "Marte" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Marte" ].
+
+martha_propername := femsg-anim-proper-name-word &
+  [ STEM < "Martha" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Martha" ].
+
+marthe_propername := femsg-anim-proper-name-word &
+  [ STEM < "Marthe" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Marthe" ].
+
+marthine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Marthine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Marthine" ].
+
+martina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Martina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Martina" ].
+
+martine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Martine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Martine" ].
+
+martyna_propername := femsg-anim-proper-name-word &
+  [ STEM < "Martyna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Martyna" ].
+
+marwa_propername := femsg-anim-proper-name-word &
+  [ STEM < "Marwa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Marwa" ].
+
+mary_propername := femsg-anim-proper-name-word &
+  [ STEM < "Mary" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mary" ].
+
+maryam_propername := femsg-anim-proper-name-word &
+  [ STEM < "Maryam" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Maryam" ].
+
+mathea_propername := femsg-anim-proper-name-word &
+  [ STEM < "Mathea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mathea" ].
+
+mathilda_propername := femsg-anim-proper-name-word &
+  [ STEM < "Mathilda" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mathilda" ].
+
+mathilde_propername := femsg-anim-proper-name-word &
+  [ STEM < "Mathilde" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mathilde" ].
+
+matilda_propername := femsg-anim-proper-name-word &
+  [ STEM < "Matilda" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Matilda" ].
+
+matilde_propername := femsg-anim-proper-name-word &
+  [ STEM < "Matilde" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Matilde" ].
+
+maud_propername := femsg-anim-proper-name-word &
+  [ STEM < "Maud" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Maud" ].
+
+may_propername := femsg-anim-proper-name-word &
+  [ STEM < "May" >,
+    SYNSEM.LKEYS.KEYREL.CARG "May" ].
+
+maya_propername := femsg-anim-proper-name-word &
+  [ STEM < "Maya" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Maya" ].
+
+medina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Medina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Medina" ].
+
+melina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Melina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Melina" ].
+
+melinda_propername := femsg-anim-proper-name-word &
+  [ STEM < "Melinda" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Melinda" ].
+
+melisa_propername := femsg-anim-proper-name-word &
+  [ STEM < "Melisa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Melisa" ].
+
+melissa_propername := femsg-anim-proper-name-word &
+  [ STEM < "Melissa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Melissa" ].
+
+mia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Mia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mia" ].
+
+michelle_propername := femsg-anim-proper-name-word &
+  [ STEM < "Michelle" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Michelle" ].
+
+mie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Mie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mie" ].
+
+mila_propername := femsg-anim-proper-name-word &
+  [ STEM < "Mila" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mila" ].
+
+milena_propername := femsg-anim-proper-name-word &
+  [ STEM < "Milena" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Milena" ].
+
+milja_propername := femsg-anim-proper-name-word &
+  [ STEM < "Milja" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Milja" ].
+
+milla_propername := femsg-anim-proper-name-word &
+  [ STEM < "Milla" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Milla" ].
+
+mille_propername := femsg-anim-proper-name-word &
+  [ STEM < "Mille" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mille" ].
+
+millie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Millie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Millie" ].
+
+mina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Mina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mina" ].
+
+mira_propername := femsg-anim-proper-name-word &
+  [ STEM < "Mira" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mira" ].
+
+miriam_propername := femsg-anim-proper-name-word &
+  [ STEM < "Miriam" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Miriam" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+moa_jente_propername := femsg-anim-proper-name-word &
+  [ STEM < "Moa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Moa" ].
+
+molly_propername := femsg-anim-proper-name-word &
+  [ STEM < "Molly" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Molly" ].
+
+mona_propername := femsg-anim-proper-name-word &
+  [ STEM < "Mona" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mona" ].
+
+monica_propername := femsg-anim-proper-name-word &
+  [ STEM < "Monica" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Monica" ].
+
+muna_propername := femsg-anim-proper-name-word &
+  [ STEM < "Muna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Muna" ].
+
+nadia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Nadia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nadia" ].
+
+najma_propername := femsg-anim-proper-name-word &
+  [ STEM < "Najma" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Najma" ].
+
+nanna_propername := femsg-anim-proper-name-word &
+  [ STEM < "Nanna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nanna" ].
+
+naomi_propername := femsg-anim-proper-name-word &
+  [ STEM < "Naomi" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Naomi" ].
+
+natalia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Natalia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Natalia" ].
+
+natalie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Natalie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Natalie" ].
+
+natasha_propername := femsg-anim-proper-name-word &
+  [ STEM < "Natasha" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Natasha" ].
+
+nathalie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Nathalie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nathalie" ].
+
+nellie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Nellie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nellie" ].
+
+nelly_propername := femsg-anim-proper-name-word &
+  [ STEM < "Nelly" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nelly" ].
+
+nicole_propername := femsg-anim-proper-name-word &
+  [ STEM < "Nicole" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nicole" ].
+
+nicoline_propername := femsg-anim-proper-name-word &
+  [ STEM < "Nicoline" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nicoline" ].
+
+nikola_propername := femsg-anim-proper-name-word &
+  [ STEM < "Nikola" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nikola" ].
+
+nikoline_propername := femsg-anim-proper-name-word &
+  [ STEM < "Nikoline" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nikoline" ].
+
+nila_propername := femsg-anim-proper-name-word &
+  [ STEM < "Nila" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nila" ].
+
+nina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Nina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nina" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+noor_jente_propername := femsg-anim-proper-name-word &
+  [ STEM < "Noor" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Noor" ].
+
+nora_propername := femsg-anim-proper-name-word &
+  [ STEM < "Nora" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nora" ].
+
+norah_propername := femsg-anim-proper-name-word &
+  [ STEM < "Norah" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Norah" ].
+
+nova_propername := femsg-anim-proper-name-word &
+  [ STEM < "Nova" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nova" ].
+
+oda_propername := femsg-anim-proper-name-word &
+  [ STEM < "Oda" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Oda" ].
+
+olava_propername := femsg-anim-proper-name-word &
+  [ STEM < "Olava" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Olava" ].
+
+olea_propername := femsg-anim-proper-name-word &
+  [ STEM < "Olea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Olea" ].
+
+oline_propername := femsg-anim-proper-name-word &
+  [ STEM < "Oline" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Oline" ].
+
+olivia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Olivia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Olivia" ].
+
+oliwia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Oliwia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Oliwia" ].
+
+othelie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Othelie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Othelie" ].
+
+othilie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Othilie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Othilie" ].
+
+otilie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Otilie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Otilie" ].
+
+patrycja_propername := femsg-anim-proper-name-word &
+  [ STEM < "Patrycja" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Patrycja" ].
+
+paula_propername := femsg-anim-proper-name-word &
+  [ STEM < "Paula" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Paula" ].
+
+paulina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Paulina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Paulina" ].
+
+pauline_propername := femsg-anim-proper-name-word &
+  [ STEM < "Pauline" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Pauline" ].
+
+pernille_propername := femsg-anim-proper-name-word &
+  [ STEM < "Pernille" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Pernille" ].
+
+petra_propername := femsg-anim-proper-name-word &
+  [ STEM < "Petra" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Petra" ].
+
+pia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Pia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Pia" ].
+
+rachel_propername := femsg-anim-proper-name-word &
+  [ STEM < "Rachel" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rachel" ].
+
+ragna_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ragna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ragna" ].
+
+ragnhild_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ragnhild" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ragnhild" ].
+
+rakel_propername := femsg-anim-proper-name-word &
+  [ STEM < "Rakel" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rakel" ].
+
+ramona_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ramona" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ramona" ].
+
+randi_propername := femsg-anim-proper-name-word &
+  [ STEM < "Randi" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Randi" ].
+
+rania_propername := femsg-anim-proper-name-word &
+  [ STEM < "Rania" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rania" ].
+
+rebecca_propername := femsg-anim-proper-name-word &
+  [ STEM < "Rebecca" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rebecca" ].
+
+rebecka_propername := femsg-anim-proper-name-word &
+  [ STEM < "Rebecka" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rebecka" ].
+
+rebekka_propername := femsg-anim-proper-name-word &
+  [ STEM < "Rebekka" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rebekka" ].
+
+regine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Regine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Regine" ].
+
+renate_propername := femsg-anim-proper-name-word &
+  [ STEM < "Renate" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Renate" ].
+
+rikke_propername := femsg-anim-proper-name-word &
+  [ STEM < "Rikke" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rikke" ].
+
+ronja_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ronja" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ronja" ].
+
+rose_propername := femsg-anim-proper-name-word &
+  [ STEM < "Rose" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rose" ].
+
+runa_propername := femsg-anim-proper-name-word &
+  [ STEM < "Runa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Runa" ].
+
+ruth_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ruth" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ruth" ].
+
+sabrina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sabrina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sabrina" ].
+
+safa_propername := femsg-anim-proper-name-word &
+  [ STEM < "Safa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Safa" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+saga_jente_propername := femsg-anim-proper-name-word &
+  [ STEM < "Saga" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Saga" ].
+
+sahra_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sahra" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sahra" ].
+
+salma_propername := femsg-anim-proper-name-word &
+  [ STEM < "Salma" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Salma" ].
+
+samantha_propername := femsg-anim-proper-name-word &
+  [ STEM < "Samantha" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Samantha" ].
+
+samira_propername := femsg-anim-proper-name-word &
+  [ STEM < "Samira" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Samira" ].
+
+sandra_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sandra" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sandra" ].
+
+sanna_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sanna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sanna" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+sanne_jente_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sanne" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sanne" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+sara_jente_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sara" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sara" ].
+
+sarah_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sarah" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sarah" ].
+
+savannah_propername := femsg-anim-proper-name-word &
+  [ STEM < "Savannah" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Savannah" ].
+
+selena_propername := femsg-anim-proper-name-word &
+  [ STEM < "Selena" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Selena" ].
+
+selin_propername := femsg-anim-proper-name-word &
+  [ STEM < "Selin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Selin" ].
+
+selina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Selina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Selina" ].
+
+seline_propername := femsg-anim-proper-name-word &
+  [ STEM < "Seline" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Seline" ].
+
+selma_propername := femsg-anim-proper-name-word &
+  [ STEM < "Selma" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Selma" ].
+
+serina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Serina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Serina" ].
+
+serine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Serine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Serine" ].
+
+sienna_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sienna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sienna" ].
+
+signe_propername := femsg-anim-proper-name-word &
+  [ STEM < "Signe" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Signe" ].
+
+sigrid_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sigrid" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sigrid" ].
+
+sigrun_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sigrun" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sigrun" ].
+
+silja_propername := femsg-anim-proper-name-word &
+  [ STEM < "Silja" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Silja" ].
+
+silje_propername := femsg-anim-proper-name-word &
+  [ STEM < "Silje" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Silje" ].
+
+simone_propername := femsg-anim-proper-name-word &
+  [ STEM < "Simone" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Simone" ].
+
+sina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sina" ].
+
+sine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sine" ].
+
+siren_propername := femsg-anim-proper-name-word &
+  [ STEM < "Siren" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Siren" ].
+
+siri_propername := femsg-anim-proper-name-word &
+  [ STEM < "Siri" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Siri" ].
+
+siril_propername := femsg-anim-proper-name-word &
+  [ STEM < "Siril" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Siril" ].
+
+siv_propername := femsg-anim-proper-name-word &
+  [ STEM < "Siv" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Siv" ].
+
+sofia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sofia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sofia" ].
+
+sofie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sofie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sofie" ].
+
+sol_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sol" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sol" ].
+
+solveig_propername := femsg-anim-proper-name-word &
+  [ STEM < "Solveig" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Solveig" ].
+
+sonia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sonia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sonia" ].
+
+sonja_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sonja" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sonja" ].
+
+sophia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sophia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sophia" ].
+
+sophie_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sophie" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sophie" ].
+
+stella_propername := femsg-anim-proper-name-word &
+  [ STEM < "Stella" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stella" ].
+
+stina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Stina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stina" ].
+
+stine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Stine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stine" ].
+
+sumaya_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sumaya" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sumaya" ].
+
+sunniva_propername := femsg-anim-proper-name-word &
+  [ STEM < "Sunniva" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sunniva" ].
+
+susann_propername := femsg-anim-proper-name-word &
+  [ STEM < "Susann" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Susann" ].
+
+susanna_propername := femsg-anim-proper-name-word &
+  [ STEM < "Susanna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Susanna" ].
+
+susanne_propername := femsg-anim-proper-name-word &
+  [ STEM < "Susanne" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Susanne" ].
+
+synne_propername := femsg-anim-proper-name-word &
+  [ STEM < "Synne" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Synne" ].
+
+synnøve_propername := femsg-anim-proper-name-word &
+  [ STEM < "Synnøve" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Synnøve" ].
+
+tale_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tale" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tale" ].
+
+tara_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tara" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tara" ].
+
+tea_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tea" ].
+
+terese_propername := femsg-anim-proper-name-word &
+  [ STEM < "Terese" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Terese" ].
+
+thale_propername := femsg-anim-proper-name-word &
+  [ STEM < "Thale" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Thale" ].
+
+thea_propername := femsg-anim-proper-name-word &
+  [ STEM < "Thea" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Thea" ].
+
+thelma_propername := femsg-anim-proper-name-word &
+  [ STEM < "Thelma" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Thelma" ].
+
+therese_propername := femsg-anim-proper-name-word &
+  [ STEM < "Therese" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Therese" ].
+
+thilde_propername := femsg-anim-proper-name-word &
+  [ STEM < "Thilde" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Thilde" ].
+
+thora_propername := femsg-anim-proper-name-word &
+  [ STEM < "Thora" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Thora" ].
+
+tia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tia" ].
+
+tilda_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tilda" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tilda" ].
+
+tilde_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tilde" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tilde" ].
+
+tilje_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tilje" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tilje" ].
+
+tilla_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tilla" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tilla" ].
+
+tina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tina" ].
+
+tindra_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tindra" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tindra" ].
+
+tine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tine" ].
+
+tiril_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tiril" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tiril" ].
+
+tirill_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tirill" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tirill" ].
+
+tomine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tomine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tomine" ].
+
+tone_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tone" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tone" ].
+
+tonje_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tonje" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tonje" ].
+
+tora_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tora" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tora" ].
+
+tove_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tove" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tove" ].
+
+trine_propername := femsg-anim-proper-name-word &
+  [ STEM < "Trine" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Trine" ].
+
+trude_propername := femsg-anim-proper-name-word &
+  [ STEM < "Trude" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Trude" ].
+
+tuva_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tuva" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tuva" ].
+
+tyra_propername := femsg-anim-proper-name-word &
+  [ STEM < "Tyra" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tyra" ].
+
+ugne_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ugne" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ugne" ].
+
+ulla_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ulla" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ulla" ].
+
+ulrikke_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ulrikke" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ulrikke" ].
+
+una_propername := femsg-anim-proper-name-word &
+  [ STEM < "Una" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Una" ].
+
+valentina_propername := femsg-anim-proper-name-word &
+  [ STEM < "Valentina" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Valentina" ].
+
+vanessa_propername := femsg-anim-proper-name-word &
+  [ STEM < "Vanessa" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vanessa" ].
+
+vanja_propername := femsg-anim-proper-name-word &
+  [ STEM < "Vanja" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vanja" ].
+
+vera_propername := femsg-anim-proper-name-word &
+  [ STEM < "Vera" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vera" ].
+
+veronica_propername := femsg-anim-proper-name-word &
+  [ STEM < "Veronica" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Veronica" ].
+
+veronika_propername := femsg-anim-proper-name-word &
+  [ STEM < "Veronika" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Veronika" ].
+
+veslemøy_propername := femsg-anim-proper-name-word &
+  [ STEM < "Veslemøy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Veslemøy" ].
+
+victoria_propername := femsg-anim-proper-name-word &
+  [ STEM < "Victoria" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Victoria" ].
+
+vida_propername := femsg-anim-proper-name-word &
+  [ STEM < "Vida" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vida" ].
+
+viktoria_propername := femsg-anim-proper-name-word &
+  [ STEM < "Viktoria" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Viktoria" ].
+
+vilde_propername := femsg-anim-proper-name-word &
+  [ STEM < "Vilde" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vilde" ].
+
+vilja_propername := femsg-anim-proper-name-word &
+  [ STEM < "Vilja" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vilja" ].
+
+vilje_propername := femsg-anim-proper-name-word &
+  [ STEM < "Vilje" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vilje" ].
+
+vilma_propername := femsg-anim-proper-name-word &
+  [ STEM < "Vilma" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vilma" ].
+
+viola_propername := femsg-anim-proper-name-word &
+  [ STEM < "Viola" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Viola" ].
+
+vivian_propername := femsg-anim-proper-name-word &
+  [ STEM < "Vivian" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vivian" ].
+
+vår_propername := femsg-anim-proper-name-word &
+  [ STEM < "Vår" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vår" ].
+
+vårin_propername := femsg-anim-proper-name-word &
+  [ STEM < "Vårin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vårin" ].
+
+weronika_propername := femsg-anim-proper-name-word &
+  [ STEM < "Weronika" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Weronika" ].
+
+wiktoria_propername := femsg-anim-proper-name-word &
+  [ STEM < "Wiktoria" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Wiktoria" ].
+
+wilma_propername := femsg-anim-proper-name-word &
+  [ STEM < "Wilma" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Wilma" ].
+
+yasmin_propername := femsg-anim-proper-name-word &
+  [ STEM < "Yasmin" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Yasmin" ].
+
+ylva_propername := femsg-anim-proper-name-word &
+  [ STEM < "Ylva" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ylva" ].
+
+yusra_propername := femsg-anim-proper-name-word &
+  [ STEM < "Yusra" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Yusra" ].
+
+zahra_propername := femsg-anim-proper-name-word &
+  [ STEM < "Zahra" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Zahra" ].
+
+zainab_propername := femsg-anim-proper-name-word &
+  [ STEM < "Zainab" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Zainab" ].
+
+zara_propername := femsg-anim-proper-name-word &
+  [ STEM < "Zara" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Zara" ].
+
+zoe_propername := femsg-anim-proper-name-word &
+  [ STEM < "Zoe" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Zoe" ].
+
+zofia_propername := femsg-anim-proper-name-word &
+  [ STEM < "Zofia" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Zofia" ].
+
+zuzanna_propername := femsg-anim-proper-name-word &
+  [ STEM < "Zuzanna" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Zuzanna" ].
+
+åse_propername := femsg-anim-proper-name-word &
+  [ STEM < "Åse" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Åse" ].
+
+åshild_propername := femsg-anim-proper-name-word &
+  [ STEM < "Åshild" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Åshild" ].
+
+åsne_propername := femsg-anim-proper-name-word &
+  [ STEM < "Åsne" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Åsne" ].
+

@@ -1,0 +1,4900 @@
+;; adj, pos i norsource: []
+-abel_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-abel" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-abel_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+abiotisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "abiotisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_abiotisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+aboriginsk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "aboriginsk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_aboriginsk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+adoptiv_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "adoptiv" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_adoptiv_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+adspredt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "adspredt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_adspredt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+akrostisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "akrostisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_akrostisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-aktig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-aktig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-aktig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+albinotisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "albinotisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_albinotisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+alderssvekka_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "alderssvekka" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_alderssvekka_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+alderssvekket_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "alderssvekket" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_alderssvekket_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+alderssvekt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "alderssvekt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_alderssvekt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+alikvant_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "alikvant" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_alikvant_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+alikvot_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "alikvot" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_alikvot_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+allmennspråklig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "allmennspråklig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_allmennspråklig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+allround_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "allround" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_allround_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+altoverskyggende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "altoverskyggende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_altoverskyggende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+amenoreisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "amenoreisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_amenoreisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-an_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-an" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-an_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+anamnestisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "anamnestisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_anamnestisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [np, ord]
+andre_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "andre" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_andre_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+anglosaksisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "anglosaksisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_anglosaksisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+anorektisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "anorektisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_anorektisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ansett_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ansett" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ansett_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-ant_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-ant" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-ant_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+antecedent_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "antecedent" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_antecedent_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+antiviral_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "antiviral" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_antiviral_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+antroposentrisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "antroposentrisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_antroposentrisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+anvendbar_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "anvendbar" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_anvendbar_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+arkimedisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "arkimedisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_arkimedisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-arma_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-arma" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-arma_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-armet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-armet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-armet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-arta_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-arta" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-arta_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-artet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-artet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-artet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+aspartam_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "aspartam" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_aspartam_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+atopisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "atopisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_atopisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [deg]
+atskillig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "atskillig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_atskillig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+attende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "attende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_attende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+attendels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "attendels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_attendels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+avbleika_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "avbleika" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_avbleika_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+avbleka_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "avbleka" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_avbleka_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+avgrunnsdjup_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "avgrunnsdjup" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_avgrunnsdjup_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+avgrunnsdyp_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "avgrunnsdyp" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_avgrunnsdyp_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+avtagbar_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "avtagbar" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_avtagbar_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+bakfull_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "bakfull" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_bakfull_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-bar_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-bar" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-bar_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [v]
+bedre_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "bedre" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_bedre_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-beint_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-beint" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-beint_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-bent_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-bent" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-bent_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+bentfram_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "bentfram" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_bentfram_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+besj_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "besj" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_besj_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+bilingv_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "bilingv" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_bilingv_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+billiontedels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "billiontedels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_billiontedels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+bimedial_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "bimedial" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_bimedial_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+biogenetisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "biogenetisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_biogenetisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-blada_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-blada" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-blada_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-bladet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-bladet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-bladet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+blatant_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "blatant" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_blatant_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+blubbet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "blubbet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_blubbet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+blubbete_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "blubbete" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_blubbete_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-bo_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-bo" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-bo_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+bosnjakisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "bosnjakisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_bosnjakisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+brazzavillekongolesisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "brazzavillekongolesisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_brazzavillekongolesisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+breial_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "breial" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_breial_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-bu_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-bu" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-bu_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+bulimisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "bulimisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_bulimisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+burmesisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "burmesisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_burmesisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-bær_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-bær" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-bær_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-båren_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-båren" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-båren_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-båret_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-båret" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-båret_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+cerebral parese-ramma_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "cerebral parese-ramma" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_cerebral parese-ramma_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+cerebral parese-rammet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "cerebral parese-rammet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_cerebral parese-rammet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+charmant_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "charmant" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_charmant_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+daudbrent_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "daudbrent" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_daudbrent_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+delirisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "delirisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_delirisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+deltidsansatt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "deltidsansatt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_deltidsansatt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+dement_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "dement" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_dement_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+den slags_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "den slags" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_den slags_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+devonisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "devonisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_devonisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+diagonalveva_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "diagonalveva" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_diagonalveva_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+dialytisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "dialytisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_dialytisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+dikotom_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "dikotom" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_dikotom_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+dikotomisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "dikotomisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_dikotomisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+dioptrisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "dioptrisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_dioptrisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+dissonant_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "dissonant" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_dissonant_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+djevelbesatt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "djevelbesatt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_djevelbesatt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+dobbeltspent_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "dobbeltspent" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_dobbeltspent_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+duknakka_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "duknakka" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_duknakka_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+duknakket_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "duknakket" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_duknakket_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+dusement_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "dusement" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_dusement_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+dypgående_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "dypgående" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_dypgående_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+dysmenoreisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "dysmenoreisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_dysmenoreisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+dyspneisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "dyspneisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_dyspneisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+dystopisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "dystopisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_dystopisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+dødskjedelig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "dødskjedelig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_dødskjedelig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+egdsk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "egdsk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_egdsk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-egga_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-egga" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-egga_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-egget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-egget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-egget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+eksponentiell_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "eksponentiell" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_eksponentiell_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ekstraktiv_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ekstraktiv" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ekstraktiv_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+eldre_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "eldre" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_eldre_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+elitistisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "elitistisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_elitistisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+elitær_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "elitær" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_elitær_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ellevedels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ellevedels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ellevedels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ellevte_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ellevte" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ellevte_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ellevtedels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ellevtedels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ellevtedels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+emansipatorisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "emansipatorisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_emansipatorisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+emblematisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "emblematisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_emblematisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+emeritus_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "emeritus" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_emeritus_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+emiratarabisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "emiratarabisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_emiratarabisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+empatisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "empatisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_empatisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-ende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-ende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-ende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+enegga_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "enegga" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_enegga_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+enegget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "enegget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_enegget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+engelsk-norsk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "engelsk-norsk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_engelsk-norsk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ensella_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ensella" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ensella_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ensellet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ensellet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ensellet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ensyklisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ensyklisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ensyklisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ensyklopedisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ensyklopedisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ensyklopedisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-ent_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-ent" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-ent_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ente_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ente" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ente_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+eolisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "eolisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_eolisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+eplekjekk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "eplekjekk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_eplekjekk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ergonomisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ergonomisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ergonomisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+eskimoisk-aleutisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "eskimoisk-aleutisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_eskimoisk-aleutisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-etasjes_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-etasjes" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-etasjes_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+etterreformatorisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "etterreformatorisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_etterreformatorisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+eudaimonistisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "eudaimonistisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_eudaimonistisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+euforisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "euforisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_euforisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+evklidsk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "evklidsk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_evklidsk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-fasa_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-fasa" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-fasa_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-faset_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-faset" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-faset_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+fasistisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "fasistisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_fasistisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+feitlaten_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "feitlaten" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_feitlaten_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-feldig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-feldig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-feldig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+femdels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "femdels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_femdels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+feministisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "feministisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_feministisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+femstrøken_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "femstrøken" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_femstrøken_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+femstrøket_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "femstrøket" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_femstrøket_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [ord]
+femte_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "femte" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_femte_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+femtedels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "femtedels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_femtedels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+femtende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "femtende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_femtende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+femtendedels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "femtendedels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_femtendedels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+femtendels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "femtendels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_femtendels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+femtidels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "femtidels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_femtidels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+femtiende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "femtiende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_femtiende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-ferdig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-ferdig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-ferdig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+fetladen_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "fetladen" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_fetladen_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+fibret_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "fibret" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_fibret_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+fibrete_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "fibrete" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_fibrete_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-fil_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-fil" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-fil_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-fingra_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-fingra" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-fingra_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-fingret_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-fingret" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-fingret_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+firedels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "firedels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_firedels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+firefots_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "firefots" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_firefots_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+firehjulsdrevet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "firehjulsdrevet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_firehjulsdrevet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+firemanns_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "firemanns" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_firemanns_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+firfelta_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "firfelta" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_firfelta_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+firfeltet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "firfeltet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_firfeltet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+firfelts_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "firfelts" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_firfelts_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+firfots_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "firfots" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_firfots_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+firhjulsdrevet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "firhjulsdrevet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_firhjulsdrevet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-fjelsk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-fjelsk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-fjelsk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [ord]
+fjerde_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "fjerde" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_fjerde_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+fjerdedels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "fjerdedels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_fjerdedels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+fjonet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "fjonet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_fjonet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+fjonete_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "fjonete" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_fjonete_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+fjortende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "fjortende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_fjortende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+fjortendedels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "fjortendedels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_fjortendedels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+fjortendels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "fjortendels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_fjortendels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+flersella_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "flersella" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_flersella_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+flersellet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "flersellet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_flersellet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+fluffy_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "fluffy" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_fluffy_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+flydykig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "flydykig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_flydykig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+flyvedyktig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "flyvedyktig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_flyvedyktig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+flyveferdig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "flyveferdig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_flyveferdig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [np, v]
+flå_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "flå" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_flå_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-fob_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-fob" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-fob_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-foldig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-foldig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-foldig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+foldrik_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "foldrik" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_foldrik_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-fon_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-fon" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-fon_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-forma_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-forma" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-forma_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-formet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-formet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-formet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-formig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-formig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-formig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [adv, n]
+fort_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "fort" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_fort_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+fortrydelig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "fortrydelig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_fortrydelig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+forutsigbar_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "forutsigbar" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_forutsigbar_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-fota_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-fota" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-fota_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-fotet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-fotet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-fotet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+frihetlig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "frihetlig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_frihetlig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+fruktig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "fruktig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_fruktig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-full_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-full" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-full_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+fylogenetisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "fylogenetisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_fylogenetisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [quant]
+færre_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "færre" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_færre_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [quant]
+færrest_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "færrest" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_færrest_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+førreformatorisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "førreformatorisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_førreformatorisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [ord]
+første_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "første" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_første_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+førtidels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "førtidels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_førtidels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+førtiende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "førtiende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_førtiende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-føtt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-føtt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-føtt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+gammal_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "gammal" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_gammal_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-gatta_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-gatta" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-gatta_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-gattet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-gattet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-gattet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+gem_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "gem" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_gem_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n, np]
+gram_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "gram" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_gram_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+grapset_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "grapset" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_grapset_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+grapsete_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "grapsete" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_grapsete_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-grendt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-grendt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-grendt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+grenseoverskridende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "grenseoverskridende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_grenseoverskridende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+grensesprengende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "grensesprengende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_grensesprengende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-haftig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-haftig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-haftig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+halal_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "halal" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_halal_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-halsa_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-halsa" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-halsa_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-halset_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-halset" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-halset_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+halvspråklig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "halvspråklig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_halvspråklig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+halvtredje_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "halvtredje" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_halvtredje_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+handfri_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "handfri" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_handfri_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [np]
+haram_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "haram" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_haram_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+harry_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "harry" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_harry_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+havsens_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "havsens" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_havsens_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+hegemonisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "hegemonisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_hegemonisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+heilhvit_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "heilhvit" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_heilhvit_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+heilkvit_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "heilkvit" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_heilkvit_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+heiltent_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "heiltent" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_heiltent_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+heltent_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "heltent" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_heltent_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [v]
+hende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "hende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_hende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-hendt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-hendt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-hendt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+heterolog_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "heterolog" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_heterolog_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+hivpositiv_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "hivpositiv" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_hivpositiv_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-hjerta_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-hjerta" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-hjerta_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-hjertet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-hjertet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-hjertet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-hjertig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-hjertig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-hjertig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-holdig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-holdig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-holdig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+holistisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "holistisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_holistisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+homeopatisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "homeopatisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_homeopatisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+homolog_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "homolog" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_homolog_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+horet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "horet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_horet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+horete_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "horete" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_horete_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+hudlaus_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "hudlaus" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_hudlaus_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+hullsalig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "hullsalig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_hullsalig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+hundrede_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "hundrede" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_hundrede_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+hundrededels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "hundrededels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_hundrededels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+hundredels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "hundredels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_hundredels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+hydrologisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "hydrologisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_hydrologisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+håndfri_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "håndfri" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_håndfri_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-håra_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-håra" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-håra_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-håret_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-håret" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-håret_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-id_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-id" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-id_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+idel_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "idel" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_idel_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+idélaus_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "idélaus" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_idélaus_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-ig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-ig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-ig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ihopkrøket_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ihopkrøket" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ihopkrøket_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+imbesil_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "imbesil" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_imbesil_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+improvisatorisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "improvisatorisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_improvisatorisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-in_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-in" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-in_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+informasjonsteknologisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "informasjonsteknologisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_informasjonsteknologisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+informatisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "informatisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_informatisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+initiell_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "initiell" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_initiell_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+innbygget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "innbygget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_innbygget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+innebygget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "innebygget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_innebygget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+innhugget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "innhugget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_innhugget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+innrøket_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "innrøket" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_innrøket_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+innrøyket_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "innrøyket" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_innrøyket_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+innveva_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "innveva" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_innveva_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+innvevet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "innvevet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_innvevet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+insestuøs_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "insestuøs" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_insestuøs_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+intrasellulær_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "intrasellulær" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_intrasellulær_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+inuittisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "inuittisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_inuittisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-isk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-isk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-isk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+islamistisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "islamistisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_islamistisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+iterativ_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "iterativ" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_iterativ_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-iv_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-iv" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-iv_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+jappet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "jappet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_jappet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+jappete_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "jappete" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_jappete_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+jentegal_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "jentegal" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_jentegal_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+jettdrevet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "jettdrevet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_jettdrevet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+jurisprudens_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "jurisprudens" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_jurisprudens_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+kakifarga_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "kakifarga" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_kakifarga_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+kakifarget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "kakifarget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_kakifarget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-kalibra_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-kalibra" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-kalibra_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-kalibret_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-kalibret" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-kalibret_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-kanta_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-kanta" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-kanta_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-kantet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-kantet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-kantet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+kardiologisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "kardiologisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_kardiologisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+kasakhstansk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "kasakhstansk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_kasakhstansk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+khmerisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "khmerisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_khmerisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-kjefta_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-kjefta" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-kjefta_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-kjeftet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-kjeftet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-kjeftet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+kjip_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "kjip" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_kjip_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-klasses_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-klasses" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-klasses_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+klinkbygget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "klinkbygget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_klinkbygget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+kobberrød_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "kobberrød" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_kobberrød_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+kommunefarga_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "kommunefarga" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_kommunefarga_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+kommunefarget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "kommunefarget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_kommunefarget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+kommunegrå_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "kommunegrå" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_kommunegrå_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+kommunikativ_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "kommunikativ" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_kommunikativ_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+konfutsiansk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "konfutsiansk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_konfutsiansk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+konseptuell_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "konseptuell" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_konseptuell_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+kontemporær_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "kontemporær" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_kontemporær_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+kopperrød_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "kopperrød" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_kopperrød_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+korny_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "korny" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_korny_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+kosovisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "kosovisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_kosovisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+kravellbygget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "kravellbygget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_kravellbygget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+kretaisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "kretaisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_kretaisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+krokbøyet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "krokbøyet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_krokbøyet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+krumbøyet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "krumbøyet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_krumbøyet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+kul_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "kul" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_kul_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+kvar_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "kvar" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_kvar_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+langfri_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "langfri" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_langfri_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+langlig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "langlig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_langlig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [deg]
+langt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "langt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_langt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-laten_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-laten" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-laten_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-laus_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-laus" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-laus_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n, np, v]
+le_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "le" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_le_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+lek_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "lek" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_lek_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-lemma_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-lemma" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-lemma_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-lemmet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-lemmet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-lemmet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-lendt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-lendt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-lendt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+lengst_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "lengst" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_lengst_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+leprøs_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "leprøs" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_leprøs_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+letargisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "letargisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_letargisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-lett_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-lett" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-lett_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+lettroende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "lettroende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_lettroende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+lettruen_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "lettruen" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_lettruen_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+lettruende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "lettruende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_lettruende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+lettrøket_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "lettrøket" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_lettrøket_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+lettrøyket_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "lettrøyket" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_lettrøyket_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+lett-troende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "lett-troende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_lett-troende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+lett-truende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "lett-truende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_lett-truende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+levende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "levende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_levende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-lig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-lig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-lig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [advcmpr, n, v]
+like_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "like" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_like_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+lille_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "lille" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_lille_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+litisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "litisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_litisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [adv, deg, quant]
+litt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "litt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_litt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [np, v]
+live_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "live" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_live_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+livsalig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "livsalig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_livsalig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+livsens_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "livsens" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_livsens_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+ln_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ln" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ln_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-logisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-logisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-logisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+lulesamisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "lulesamisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_lulesamisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+lumbal_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "lumbal" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_lumbal_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-lyndt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-lyndt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-lyndt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-lynt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-lynt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-lynt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+lysskjær_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "lysskjær" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_lysskjær_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-lytisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-lytisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-lytisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+lærvillig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "lærvillig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_lærvillig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-løpa_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-løpa" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-løpa_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-løpet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-løpet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-løpet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-løs_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-løs" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-løs_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-låten_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-låten" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-låten_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+mafiøs_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "mafiøs" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_mafiøs_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+magmatisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "magmatisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_magmatisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+maks_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "maks" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_maks_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+maktlaus_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "maktlaus" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_maktlaus_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+maktløs_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "maktløs" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_maktløs_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-man_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-man" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-man_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+maorisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "maorisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_maorisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+masokistisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "masokistisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_masokistisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-masta_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-masta" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-masta_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-mastet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-mastet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-mastet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+material_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "material" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_material_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+medioker_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "medioker" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_medioker_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+meditativ_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "meditativ" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_meditativ_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+megaloman_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "megaloman" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_megaloman_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+meliorativ_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "meliorativ" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_meliorativ_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-messig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-messig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-messig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+metonymisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "metonymisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_metonymisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+mikronesisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "mikronesisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_mikronesisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-minded_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-minded" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-minded_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [adv, advcmpr, quant]
+mindre_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "mindre" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_mindre_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+minimalistisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "minimalistisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_minimalistisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [adv, quant]
+minst_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "minst" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_minst_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+mintgrønn_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "mintgrønn" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_mintgrønn_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n, np]
+mo_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "mo" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_mo_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+mod_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "mod" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_mod_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-modig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-modig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-modig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+monofon_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "monofon" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_monofon_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+monofonisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "monofonisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_monofonisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+monokromatisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "monokromatisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_monokromatisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+monotypisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "monotypisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_monotypisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+muldet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "muldet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_muldet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+muldete_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "muldete" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_muldete_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+multimedial_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "multimedial" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_multimedial_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-munna_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-munna" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-munna_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-munnet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-munnet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-munnet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [adv, deg, quant]
+mye_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "mye" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_mye_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-mynt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-mynt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-mynt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-mælt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-mælt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-mælt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+møllspist_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "møllspist" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_møllspist_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+n._adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "n." >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_n._a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-nakka_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-nakka" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-nakka_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-nakket_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-nakket" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-nakket_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+namngjeten_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "namngjeten" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_namngjeten_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+narkoleptisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "narkoleptisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_narkoleptisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+natal_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "natal" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_natal_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+nebuløs_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "nebuløs" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_nebuløs_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+nederlagsdømt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "nederlagsdømt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_nederlagsdømt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+nerdet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "nerdet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_nerdet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+nerdete_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "nerdete" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_nerdete_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+nidels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "nidels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_nidels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [ord]
+niende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "niende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_niende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+niendedels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "niendedels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_niendedels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+nittende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "nittende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_nittende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+nittendels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "nittendels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_nittendels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+nittidels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "nittidels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_nittidels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+nittiende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "nittiende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_nittiende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+nokturn_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "nokturn" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_nokturn_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-nom_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-nom" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-nom_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+non profit_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "non profit" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_non profit_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+nonprofit_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "nonprofit" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_nonprofit_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+nonsjalant_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "nonsjalant" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_nonsjalant_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+nordistisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "nordistisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_nordistisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+norskbygget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "norskbygget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_norskbygget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+norsk-norsk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "norsk-norsk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_norsk-norsk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+nykter_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "nykter" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_nykter_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [adv, p]
+nær_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "nær" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_nær_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+nødig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "nødig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_nødig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+nåblek_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "nåblek" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_nåblek_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [advs]
+ofte_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ofte" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ofte_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-oid_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-oid" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-oid_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+oksitansk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "oksitansk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_oksitansk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+okulær_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "okulær" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_okulær_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ombygget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ombygget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ombygget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+omforenet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "omforenet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_omforenet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+omnipotent_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "omnipotent" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_omnipotent_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+omskåren_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "omskåren" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_omskåren_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+omskåret_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "omskåret" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_omskåret_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+omsøkt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "omsøkt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_omsøkt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+opphugget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "opphugget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_opphugget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+orbital_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "orbital" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_orbital_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ordhag_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ordhag" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ordhag_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ortofonisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ortofonisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ortofonisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ostinat_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ostinat" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ostinat_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+overbygget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "overbygget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_overbygget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+overgripende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "overgripende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_overgripende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+parafinsk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "parafinsk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_parafinsk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+paralympisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "paralympisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_paralympisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+perlebrodert_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "perlebrodert" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_perlebrodert_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+pinglet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "pinglet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_pinglet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+pinglete_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "pinglete" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_pinglete_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+polysem_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "polysem" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_polysem_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+postoperativ_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "postoperativ" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_postoperativ_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+privateiet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "privateiet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_privateiet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+proaktiv_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "proaktiv" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_proaktiv_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+prosedabel_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "prosedabel" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_prosedabel_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+protokollær_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "protokollær" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_protokollær_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+provençalsk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "provençalsk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_provençalsk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+psoriatisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "psoriatisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_psoriatisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+pubertal_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "pubertal" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_pubertal_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+pyreneisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "pyreneisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_pyreneisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+pønal_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "pønal" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_pønal_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+påkrevet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "påkrevet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_påkrevet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+påver_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "påver" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_påver_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ravgæren_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ravgæren" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ravgæren_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+reklamefinansiert_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "reklamefinansiert" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_reklamefinansiert_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+repetitiv_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "repetitiv" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_repetitiv_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+retentiv_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "retentiv" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_retentiv_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+retoromansk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "retoromansk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_retoromansk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [v]
+ringe_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ringe" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ringe_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+rocka_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "rocka" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_rocka_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+rocket_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "rocket" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_rocket_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+rom_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "rom" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_rom_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-rygga_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-rygga" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-rygga_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-rygget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-rygget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-rygget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+rødlett_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "rødlett" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_rødlett_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+rånet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "rånet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_rånet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+rånete_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "rånete" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_rånete_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sadomasokistisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sadomasokistisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sadomasokistisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sammenkrøket_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sammenkrøket" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sammenkrøket_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sammenvevd_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sammenvevd" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sammenvevd_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sammenvevet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sammenvevet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sammenvevet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+seif_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "seif" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_seif_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+seilonsk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "seilonsk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_seilonsk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+seksdels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "seksdels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_seksdels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sekstende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sekstende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sekstende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sekstidels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sekstidels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sekstidels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sekstiende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sekstiende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sekstiende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+seleber_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "seleber" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_seleber_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sella_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sella" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sella_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sellular_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sellular" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sellular_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sellulær_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sellulær" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sellulær_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+selvhøgtidelig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "selvhøgtidelig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_selvhøgtidelig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+selvsamme_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "selvsamme" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_selvsamme_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+semiologisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "semiologisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_semiologisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+senisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "senisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_senisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sexistisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sexistisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sexistisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-sida_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-sida" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-sida_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-sidet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-sidet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-sidet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-sidig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-sidig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-sidig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sientologisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sientologisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sientologisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-sifra_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-sifra" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-sifra_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-sifret_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-sifret" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-sifret_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-siktig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-siktig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-siktig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-sinna_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-sinna" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-sinna_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-sinnet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-sinnet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-sinnet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sirkumpolar_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sirkumpolar" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sirkumpolar_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sirkumpolær_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sirkumpolær" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sirkumpolær_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sisiliansk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sisiliansk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sisiliansk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [adv]
+sist_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sist" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sist_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [ord]
+sjette_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sjette" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sjette_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sjettedels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sjettedels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sjettedels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sjudels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sjudels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sjudels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [ord]
+sjuende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sjuende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sjuende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sjuendedels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sjuendedels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sjuendedels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sjukdomsframkallende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sjukdomsframkallende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sjukdomsframkallende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sjukdomsfremkallende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sjukdomsfremkallende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sjukdomsfremkallende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sjølhøgtidelig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sjølhøgtidelig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sjølhøgtidelig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sjølhøytidelig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sjølhøytidelig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sjølhøytidelig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sjølsamme_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sjølsamme" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sjølsamme_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-sk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-sk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-sk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-skafta_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-skafta" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-skafta_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-skaftet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-skaftet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-skaftet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+skalar_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "skalar" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_skalar_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+skapende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "skapende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_skapende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [np]
+skaret_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "skaret" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_skaret_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+skarete_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "skarete" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_skarete_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+skinn- og beinfri_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "skinn- og beinfri" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_skinn- og beinfri_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+skinn- og benfri_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "skinn- og benfri" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_skinn- og benfri_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+skjelv_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "skjelv" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_skjelv_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-skopisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-skopisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-skopisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+slagordprega_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "slagordprega" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_slagordprega_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+slagordpreget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "slagordpreget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_slagordpreget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sli_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sli" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sli_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sløy_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sløy" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sløy_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+slående_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "slående" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_slående_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+snaksy_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "snaksy" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_snaksy_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+snillistisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "snillistisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_snillistisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+snøet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "snøet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_snøet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+snøete_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "snøete" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_snøete_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-sofisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-sofisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-sofisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-som_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-som" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-som_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sparsomsommelig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sparsomsommelig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sparsomsommelig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+spektakulær_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "spektakulær" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_spektakulær_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+spesialpreventiv_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "spesialpreventiv" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_spesialpreventiv_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+spinngal_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "spinngal" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_spinngal_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+spinngalen_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "spinngalen" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_spinngalen_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+spinngæren_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "spinngæren" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_spinngæren_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-spora_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-spora" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-spora_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sporbar_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sporbar" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sporbar_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-sporet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-sporet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-sporet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+språkteknologisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "språkteknologisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_språkteknologisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+spuriøs_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "spuriøs" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_spuriøs_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+steikende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "steikende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_steikende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n, np]
+stein_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "stein" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_stein_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+stekende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "stekende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_stekende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+stereotypisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "stereotypisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_stereotypisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+stetsevarende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "stetsevarende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_stetsevarende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+stevnelei_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "stevnelei" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_stevnelei_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-stjerners_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-stjerners" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-stjerners_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+storladen_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "storladen" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_storladen_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+straight_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "straight" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_straight_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+stribar_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "stribar" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_stribar_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+størst_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "størst" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_størst_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+subversiv_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "subversiv" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_subversiv_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [v]
+svare_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "svare" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_svare_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+svartstill_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "svartstill" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_svartstill_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+svartstille_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "svartstille" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_svartstille_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+svinedyr_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "svinedyr" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_svinedyr_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+svint_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "svint" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_svint_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sykdomsframkallende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sykdomsframkallende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sykdomsframkallende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sykdomsfremkallende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sykdomsfremkallende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sykdomsfremkallende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+syklamen_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "syklamen" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_syklamen_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-sylindra_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-sylindra" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-sylindra_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-sylindret_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-sylindret" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-sylindret_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+synshemma_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "synshemma" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_synshemma_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+synshemmet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "synshemmet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_synshemmet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+syttende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "syttende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_syttende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+syttendels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "syttendels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_syttendels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+syttidels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "syttidels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_syttidels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+syttiende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "syttiende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_syttiende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+syvarma_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "syvarma" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_syvarma_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+syvarmet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "syvarmet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_syvarmet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+syvdels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "syvdels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_syvdels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+syvdobbel_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "syvdobbel" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_syvdobbel_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+syvdobbelt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "syvdobbelt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_syvdobbelt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [ord]
+syvende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "syvende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_syvende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+syvendedels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "syvendedels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_syvendedels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+syvårig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "syvårig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_syvårig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+syvårs_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "syvårs" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_syvårs_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+sølibatær_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "sølibatær" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_sølibatær_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+søtladen_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "søtladen" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_søtladen_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tabloid_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tabloid" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tabloid_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+tadsjikisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tadsjikisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tadsjikisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-tagelig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-tagelig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-tagelig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-tagende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-tagende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-tagende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-takelig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-takelig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-takelig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-takende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-takende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-takende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tamilsk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tamilsk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tamilsk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tanketom_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tanketom" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tanketom_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+teksansk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "teksansk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_teksansk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tettbygget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tettbygget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tettbygget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+texansk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "texansk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_texansk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tidels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tidels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tidels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n, ord]
+tiende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tiende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tiende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tiendedels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tiendedels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tiendedels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tilsatt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tilsatt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tilsatt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tiltalt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tiltalt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tiltalt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+timoresisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "timoresisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_timoresisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tipp topp_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tipp topp" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tipp topp_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+titt_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "titt" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_titt_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tjenstvillig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tjenstvillig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tjenstvillig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tjuende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tjuende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tjuende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tofrøblada_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tofrøblada" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tofrøblada_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tofrøbladet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tofrøbladet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tofrøbladet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tolvdels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tolvdels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tolvdels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tolvte_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tolvte" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tolvte_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tolvtedels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tolvtedels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tolvtedels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-toms_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-toms" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-toms_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tonedøv_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tonedøv" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tonedøv_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+trafikksikker_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "trafikksikker" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_trafikksikker_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+transendent_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "transendent" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_transendent_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+transendental_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "transendental" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_transendental_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+transseksuell_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "transseksuell" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_transseksuell_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tredels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tredels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tredels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [ord]
+tredje_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tredje" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tredje_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tredjedels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tredjedels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tredjedels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tredveårig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tredveårig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tredveårig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+treig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "treig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_treig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+trendy_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "trendy" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_trendy_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+trettende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "trettende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_trettende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+trettendels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "trettendels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_trettendels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+trettidels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "trettidels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_trettidels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+trettiende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "trettiende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_trettiende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+trilliondels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "trilliondels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_trilliondels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+trillionte_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "trillionte" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_trillionte_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-trinns_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-trinns" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-trinns_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n, v]
+tro_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tro" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tro_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+trælsom_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "trælsom" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_trælsom_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+trøblet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "trøblet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_trøblet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+trøblete_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "trøblete" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_trøblete_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-tråda_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-tråda" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-tråda_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-trådet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-trådet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-trådet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-tråds_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-tråds" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-tråds_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tsjadisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tsjadisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tsjadisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tsjetsjensk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tsjetsjensk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tsjetsjensk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tusende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tusende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tusende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tuvet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tuvet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tuvet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tuvete_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tuvete" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tuvete_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+tverrplattfot_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tverrplattfot" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tverrplattfot_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tvikrøket_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tvikrøket" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tvikrøket_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [v]
+ty_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ty" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ty_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-tydig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-tydig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-tydig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tyngre_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tyngre" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tyngre_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+tyngst_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "tyngst" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_tyngst_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+uadskillelig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "uadskillelig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_uadskillelig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ubebygget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ubebygget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ubebygget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ubleika_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ubleika" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ubleika_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ubleiket_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ubleiket" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ubleiket_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ultimat_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ultimat" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ultimat_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ulykkelig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ulykkelig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ulykkelig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+up to date_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "up to date" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_up to date_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+up-to-date_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "up-to-date" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_up-to-date_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+upåkrevet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "upåkrevet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_upåkrevet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+usa-amerikansk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "usa-amerikansk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_usa-amerikansk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+uskrellet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "uskrellet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_uskrellet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+utagbar_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "utagbar" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_utagbar_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+utbyttbar_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "utbyttbar" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_utbyttbar_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+uthugget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "uthugget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_uthugget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+utskyllet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "utskyllet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_utskyllet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+uutsprunget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "uutsprunget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_uutsprunget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+uvegsom_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "uvegsom" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_uvegsom_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+valma_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "valma" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_valma_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+valmet_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "valmet" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_valmet_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+vampyrisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "vampyrisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_vampyrisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+vantro_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "vantro" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_vantro_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+vantru_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "vantru" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_vantru_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-vegga_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-vegga" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-vegga_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-vegget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-vegget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-vegget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+velbygget_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "velbygget" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_velbygget_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [deg]
+veldig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "veldig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_veldig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+veldreidd_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "veldreidd" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_veldreidd_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+velnæret_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "velnæret" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_velnæret_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-vennlig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-vennlig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-vennlig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-verdig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-verdig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-verdig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+verre_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "verre" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_verre_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+verst_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "verst" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_verst_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-villig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-villig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-villig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+vind_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "vind" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_vind_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+viral_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "viral" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_viral_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+virkelighetstro_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "virkelighetstro" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_virkelighetstro_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [n]
+virkelighetstru_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "virkelighetstru" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_virkelighetstru_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+volatil_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "volatil" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_volatil_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+voluntaristisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "voluntaristisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_voluntaristisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-voren_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-voren" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-voren_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+ønologisk_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "ønologisk" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_ønologisk_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-øra_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-øra" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-øra_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-øret_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-øret" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-øret_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+øs_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "øs" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_øs_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-øs_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-øs" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-øs_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-øyd_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-øyd" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-øyd_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+åndrik_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "åndrik" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_åndrik_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-åra_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-åra" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-åra_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-året_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-året" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-året_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-årig_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-årig" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-årig_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+-års_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "-års" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_-års_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+åttedels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "åttedels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_åttedels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: [ord]
+åttende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "åttende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_åttende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+åttendedels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "åttendedels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_åttendedels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+åttidels_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "åttidels" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_åttidels_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+
+;; adj, pos i norsource: []
+åttiende_adj := stnd-adj-lxm & 
+ [ INFLECTION finstr, 
+   STEM < "åttiende" >, 
+   SYNSEM [ LKEYS.KEYREL.PRED "_åttiende_a_rel", 
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ]. 
+

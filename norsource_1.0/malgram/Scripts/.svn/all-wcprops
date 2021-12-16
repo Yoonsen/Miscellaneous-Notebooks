@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/malgram/Scripts
+END
+irule_conj.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/malgram/Scripts/irule_conj.py
+END
+make_np_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/malgram/Scripts/make_np_test.py
+END
+find_verb_subcat.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/malgram/Scripts/find_verb_subcat.py
+END
+check_test_suite.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/malgram/Scripts/check_test_suite.py
+END
+build_lex_file.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/malgram/Scripts/build_lex_file.py
+END
+find_in_more_lists.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/norsource/!svn/ver/7/lkb_grammars/norsource_1.0/malgram/Scripts/find_in_more_lists.py
+END

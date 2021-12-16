@@ -1,0 +1,2229 @@
+
+
+
+COMMENTS
+
+December 05, 2009
+
+Documentation on the grammar is available at http://www.typecraft.org/tc2wiki/Norwegian_HPSG_grammar_NorSource. A demo is accessible here, and also at http://august.hf.ntnu.no:8200/norsource (however, maintaining the connection between the demo and the current CVS is proving difficult, so what one sees on the demo is not necessarily an updated analysis).
+
+The grammar follows the standard LKB/Matrix (Matrix0.6) grammar set up as concerns path architecture. 
+Note that
+
+- there are three type files:
+        norsk.tdl, the main file;
+        predsort.tdl, devoted mainly to types for spatio-temporal expressions 
+        going beyond the most basic combinatorial needs;
+        lex-types-v.tdl, doing a conversion from the 'old' verb types defined in 
+	norsk.tdl from 2002 up to 2008, to those defined in Hellan and Dakubu 2009 
+	(the 'Construction Labeling' types).
+
+- there are many small size lexicon files:
+        - lex1.close.tdl contains all closed class items except spatio-temporal
+        prepositions and adverbs, and representatives of all subtypes of open 
+        class items, including all verb types; 
+        - lex2.open.tdl contains open class items supporting the test files 
+        - lex3.p-adv-full.tdl contains all spatiotemporal prepositions and
+        adverbs
+        - lex4.propn1.tdl and lex4.propn2.tdl contain proper names supporting
+        the test files (lex4.propn2.tdl devoted exclusively to the test file
+        hike.no)
+        - lex2.semlab.tdl has words with types adapted to special semantic
+        specifications of more experimental nature
+
+- there are also three large lexicon files - lex4.lrg-v.tdl, lex4.lrg-a.tdl and lex4.lrg-n.tdl, the latter very big and taken over as a word list from NorKompLeks, but with inflectional and grammatical information supplied here. (The same goes for the other two.)
+
+- irules come in three versions, for v, a and n.
+
+- test suites, with translations to English, are found in the directory /Tests:
+       - test-v represents all verb frames, with comments, for the types defined by 2008
+       - test-v-lrge represents all frames corrrresponding to those defined in lex-types-v.tdl
+       - test-np represents most configurations inside NPs
+       - test-p represents all uses of spatiotemporal prepositions and adverbs,
+         with comments
+       - test-dir represents more complex spatio-temporal constructions, and
+         exemplifies calculation of aspect (...INDEX.PATH-TELIC bool)
+       - test-cmpar represents constructions with comparatives and other degree
+         specifications
+       - test-clause represents constructions at clausal level, including
+          - wh-dependencies (topicalization, relativization, constituent questions)
+          - adverbial distribution
+          - pronominal distribution
+          - passive 
+          - reflexives
+          - coordination
+          - punctuation in many environments
+          - apposition
+          - free predicatives
+          - derivational morphology
+       - mrs-suite, a counterpart to the same-named suite developed for English
+       - hike-no, the first test suite used in the LOGON project
+       - hike-no25first, a subpart of the above with full lexicon support   
+         
+ 
+
+COMMENTARIES
+
+In the following we provide commentaries on general phenomena as analyzed in
+ the grammar and exemplified in the test files. These commentaries will be
+ steadily growing, and soon be made available as independent pdf-files, at
+ http://wiki.delph-in.net/moin/NorsourceSummary. 
+
+Order of presentation:
+      Clausal level phenomena
+      Prepositions
+      Reflexives
+      'Light' pronouns
+      Noun phrases
+      Verbs
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+Clausal level phenomena
+
+'Wh-movement'
+The grammar deals only with 'properly governed traces', i.e., extraction of
+complements, more specifically, NP complements of verbs and prepositions. 
+This means that the head-filler-rule will not accommodate missing subjects, and
+not 'missing' adjuncts. On the latter, see next point.
+
+Adverbial placement
+In a matrix clause, there are three main locations for adverbial elements:
+(i) clause initial, 
+(ii) after finite verb, and 
+(iii) clause final (i.e., after all nuclear complements)
+On (i):
+Contrary to standard generative treatments, the clause initial position is
+*not* accounted for via wh-movement/head-filler-rule; rather, it is one of the
+directly assigned adverbial sites. It presupposes subj-verb-inversion, and
+preempts the possibility of wh-fronting, factors straightforwardly regulated by
+boolean features. Semantically, the adverbial is related to the matrix verb,
+which leaves as a gap in the over-all account the situations where a fronted
+adverbial relates to an embedded clause.
+Since adverbials are ungoverned, fronted adverbials are never 'missing' in a
+syntactic sense. 
+Statistics done by Lars Johnsen indicates that in 90% of the cases where an
+item distinct from the subject occupies the front position, this is done by an
+adverbial. Moreover, this is a very frequent constellation in Norwegian. It
+would not be plausible to have a syntactically unmotivated rule account for so
+many cases, so we regard our analysis as linguistically plausible. (But
+accounting for cases  where a fronted adverbial relates to an embedded clause -
+although a not very frequent situation - remains to be accounted for.)
+
+On (ii)
+This is a position much preferred by so-called sentence adverbs, and avoided by
+directional phrases. Boolean features are used to regulate access to the
+position. 
+
+On (iii)
+S-adverbs avoid this position.
+
+The three positions are accounted for by different rules. In cases where (ii)
+and (iii) extensionally coincide, as in an intransitive construction, we want
+to avoid doubling of parses; this is accomplished through boolean features.
+
+In the spatio-temporal domain of adverbials, we recognize two distinctions:
+- directional vs. 'event' m odification, formally reflected in whether the ARG1
+of the adverbial is identified with a 'mover' argument of the verb, or with the
+event index (of the verb); 
+- adverbials inducing the telicity value ...PATH-TELIC +, vs. those that
+don't. The former are directionals with what we call a *fix-point* value (a
+start, via or end point), the latter are 'non-fixpoint' directionals and
+'event'-adverbials, called 'sit(uational)-index' adverbials.
+Three different combinatorial processes (VP + adverbial) are here needed: 
+-- (a) inducing PATH-TELIC +  and ARG1 = mover: the adverbial is referred to as 'dir-fixpoint';
+-- (b) inducing PATH-TELIC bool and ARG1 = mover: the adverbial is referred to as 'dir-non-fixpoint';
+-- (c) inducing PATH-TELIC bool and ARG1 = sit-index: the adverbial is referred to as 'sit-index';
+For positions (i) and (iii), all three types apply, for position (ii), only
+(c). With 'adverbial' standardly meaning either a PP or an adverb-phrase, this
+gives altogether 14  rules for combining adverbials with a V-projection; in
+addition come cases where a time-NP combines with the V-projection (as in
+"komme søndag" 'come (on) Sunday'), so all in all there are 17 rules in this
+domain. (See further in the section 'Prepositions'.)
+The test file 'test-dir' illustrates much of the above.
+
+A further complexity resides in 'stacking' of adverbials, as in "down to the
+river", "here under the bed": in principle such sequences can form a
+constituent together, or they can be analyzed as iteration of VP-adjunction. In
+the former case, we treat the first adverbial as head, and the second as an
+adjunct. There are four possible such constellations (with internal iteration
+in turn possible): adv-adv ("her nede", "opp
+hit"), adv-PP ("her i Finnmark", "opp til toppen"), PP-PP ("langs bekken
+nedover lia"), and PP-adv ("langs bekken hit"). In each constellation,
+uniformity is required regarding the parameters (a)-(c): thus, a constituent of
+this type has either of the structures 
+'HEAD: dir-fixpoint, ADJCT: dir-fixpont'
+'HEAD: dir-non-fixpoint, ADJCT: dir-non-fixpont'
+'HEAD: sit-index, ADJCT: sit-index'
+(when two consecutive adverbials are not uniform in this respect, the only
+analysis is iterated VP-adjunction). Semantically, an important difference
+between this adverbial-adjunction structure and the iterated VP-adjunction
+structure is that in the former case, the ARG0 of each adverbial is the same,
+meaning, in the case of directionals,  that the specifications induced by each
+adverbial apply to the same part of the directional event; in contrast, when
+iteratedly VP-adjoining, each adverbial ARG0 is distinct. When a comma
+intervenes between two adverbials, iterated VP-adjunction is the only analysis
+available. 
+When one adverbial is adjoined to another, their
+ARG1 has identical value (either the same mover, or the same head index). This
+cannot be induced if we assign the adjunct adverb or preposition the same type
+as they have when adjoining directly to a V-projection, therefore the system
+has to recognize a 'series 2' of all adverbial-adjoinable adverbs and
+prepositions. For details, see the comments on the test-file 'test-p', and the
+section 'Prepositions' below.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Prepositions
+
+Prepositions are treated semantically as two-place predicates; the arguments
+are formally labelled ARG1 and ARG2, with ARG2 corresponding to the syntactic item
+counted as *governed* by the preposition, the *governee*. The governee is in
+most cases an NP, but can also be a finite clause or an infinitival
+expression. In either case, the preposition and the governee are treated as a
+constituent labelled 'PP'. This PP can identify
+the ARG1 in a limited number of ways, most frequently through *modification*, but
+also through carrying *argument* status. 
+     When the PP is a modifier, the most typical case - encoded in the classification of the preposition as 'reg-mod-lex-item' - is that
+the ARG1 is identical to the INDEX of the item modified: if the item modified
+is a VP, then typically the ARG1 of the prepositional relation is an *event
+index*, and if the item modified is a noun or NP, then typically the ARG1 of
+the prepositional relation is a *referential index*. In NorSource this always
+holds when the item modified is a noun, whereas when the item modified is a VP,
+a further case is recognized where the PP is a *directional expression*: in a
+construction like 'John runs to the farm', where "to" is a directional P, its
+ARG1 will be the index of "John", i.e., the index of the *subject* of the verb,
+and in a construction like 'John throws the stone out of the window', the
+ARG1 of "to" will be the index of "the stone", i.e., the index of the *object*
+of the verb (cf. Beermann and Hellan (2004); in these cases, the lexical type
+of the P is 'dir-mod-lex-item').
+The two main cases where the PP acts as an argument both involve a verb as the
+head. One is where the PP expresses a predication of one of the NP arguments of
+the verb, as in "put the vase on the table" - here the ARG1 of "on" is
+identical to the referential index of "the vase". Another is where the P is
+counted as *selected* by the verb, as in "rely on Peter", where "on Peter"
+counts as an 'oblique' argument of "rely", or "talk to Peter", where "to Peter"
+counts as an 'oblique' argument of "talk". Although the predictability of the
+choice of preposition varies in such cases, and likewise the obligatoriness of
+the PP, we uniformly count the preposition as meaning-bearing in these
+constructions - thus, for English, even in "rely on Peter", where "on" is fully
+predictable and the PP obligatory, "on" serves in a meaning similar to what it
+has in "base on", "depend on", etc.. In these cases it is less obvious what to
+count as the ARG1 of the preposition, but the choice made in NorSource is to
+identify it with the INDEX of the verb, so that, e.g., the 'talk' event is seen
+as 'to Peter'. As a specification of time or place of an event, this would not
+make sense, but to the extent that we see the event 'intensionally', i.e., qua
+a talking event, it makes sense to say that it is 'to' Peter.
+
+The above provides the basic design of our treatment of prepositions. There are
+many further cases: PPs modifying adverbs, as in "down along the path"; PPs
+being arguments of adjectives, as in "fond of food"; and more. All cases find
+their place in the general architecture now outlined, with the prepositional
+relation taking an ARG1 and an ARG2, the types of these being in general either
+event or ref-ind, and their identity established through combinatorial
+mechanisms as sketched. 
+
+Within this basic design, we now will focus on our
+treatment of "til", and in particular, describe how we envisage capturing
+a factor like the *gist* of "til" as outlined in section 1. This 'gist'
+obviously resides somewhere in the semantics of the preposition, and our goal
+is to establish a formal locus for its representation relative to the general
+Matrix architecture, and the general approach to prepositions just sketched. We
+proceed by 
+(i) giving a brief outline of the classificatory resources of the
+system, and showing how an array of uses of "til" can be accommodated within
+this system;
+(ii) with reference to some semantic properties implemented in this analysis,
+which are important to the general grammatical combinatorics, showing a
+detailed approach to spatio-temporal semantics as is currently implemented in
+NorSource;
+(iii) with this semantics as a background, assessing what further articulation
+is needed to represent the 'gist' in a way rendering it amenable, e.g., to
+translation purposes.
+
+Classificatory resources in a Matrix grammar.
+To distinguish types of prepositions, at least five slots for specification are
+available in a Matrix grammar:
+
+Parameter 1.
+The 'sign' type, which, in the case of prepositions, will be subtypes of
+'word';
+Parameter 2.
+The 'head' type, found at the specificational path
+          SYNSEM.LOCAL.CAT.HEAD head
+Parameter 3.
+A type used for more or less ad hoc subclassification of 'head', found at the
+path
+          SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY predsort
+Parameter 4.
+The 'semsort' type, used for further semantic specification inside the INDEX
+specification, thus at the path
+          SYNSEM.LOCAL.CONT.HOOK.INDEX.SORT semsort
+Parameter 5.
+The specification of what kinds of items the preposition can modify, found at
+the path
+          SYNSEM.LOCAL.CAT.HEAD.MOD < [LOCAL...] >
+where what is specified inside of 'LOCAL' can be any combination of parameters
+2, 3 and 4.
+
+The specification of a preposition can avail itself of any combination of these
+parameters. Given that each type by itself can be construed through a multiple
+inheritance system, this is to say that the formal resources for specification
+are quite rich.
+
+We now illustrate ten different items "til" as recognized in NorSource, and
+indicate how they are differentiated using the parameters mentioned. As will be
+clear, while still falling short of fully covering the array of usages
+mentioned in section 1, many of the usages are reflected, and more can be
+added. For current purposes, more importantly, we will see that the possible
+'gist' as such of "til" is not yet represented, giving rise to the subsequent
+sections.
+
+Instances of "til"
+A. "til" heading a PP serving as modifier
+
+Sign type: dir-fixpoint-prep-word, a descendant from dir-mod-lex-item:
+gutten rusler til skogen
+'the boy strolls to the wood'
+hun kaster ballen til huset
+'she throws the ball to the house'
+det løper en gutt til skogen
+'there runs a boy to the wood'
+
+Characteristics:
+Parameters 3 and 4 are used in the specification
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.SORT fix-point-motion,
+    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY pathconsumpt-dir ] ].
+where the SORT specification is referred to by combinatorial rules calculating
+the telicity value of the verbal construction where the PP takes part; here,
+that value is 'telic', as opposed to 'atelic' for prepositions like "langs"
+('along'). The KEYS.KEY specification informs rules of PP placement, for
+instance in the following respect: while Norwegian in general allows PPs to
+occur either fronted (a position we treat as a normal adverbial site, and not
+as representing a wh-dependency), or immediately after the finite verb, or
+after all NP arguments in a VP, directional PPs are less felicitous in the
+second of these positions, and are excluded from occurring there through
+reference to this KEYS.KEY value.
+Parameter 5 is activated in having a MOD specification requiring the ARG1 of
+the preposition be identical to the 'mover' argument of the verb (represented
+by the attribute 'DIRARG'), formally of the form
+    SYNSEM.LOCAL.CAT.HEAD.MOD < [LOCAL.CONT.HOOK.DIRARG #1] >,
+    SYNSEM.LKEYS.KEYREL.ARG1 #1
+(as opposed to 'event-modifying' prepositions which have the corresponding
+specification
+    SYNSEM.LOCAL.CAT.HEAD.MOD < [LOCAL.CONT.HOOK.INDEX #1] >,
+    SYNSEM.LKEYS.KEYREL.ARG1 #1
+- cf. the outline above).
+
+Sign type: dir-fixpoint-prep-2-word
+gutten rusler bort til skogen
+The phrase "bort til skogen" has as a possible analysis the adverb "bort" as a
+head and "til skogen" as a modifier. Relative to the verb, "til" behaves as in
+the previous case, but since it now modifies the adverb, its MOD specification
+now has to be such that both "bort" and "til" take the verb's DIRARG as their
+ARG1. At the same time, the INDEX of "bort" and "til" will be identified, to
+signal that "bort" and "til skogen" reflect aspects of one and the same
+motion. Both of these factors sort under Parameter 5.
+
+These two items "til" are obviously one and the same real lexical item,
+formally distinguished only for combinatorial concerns. A common feature
+specified is that their ARG2 has a SORT specification 'endpoint-of-path', a
+value which is visible in the mrs output, and whose functionality in an
+interpretive application is demonstrated in Beermann et al. 2005.
+
+
+Sign type: time-prep-word
+gutten sover til klokka tre
+'the boy sleeps until 3 o'clock'
+
+
+Sign type: nom-dir-fixpt-prep-word
+bussen til Trondheim går klokka tre
+stien til fjellet går herfra
+
+
+Sign type: prep-word-poss
+gutten til Ola sover
+
+
+B. "til" heading a PP serving as argument
+
+Sign type: prep-word-sel
+jeg snakker til gutten
+'I talk to the boy'
+Is selected by verbs of type 'intrans-obl-arg1-verb-lexeme'
+
+
+Sign type: prep-rais-word 
+Usage 1:
+gutten  ser   ut  til å komme
+boy-the looks out to to come
+'the boy appears to come'
+det   ser   ut  til å komme en gutt
+there looks out to to come  a boy
+'there appears to come a boy'
+
+"til" is here selected by a verb of type 
+'intrans-secpred-prtcl2-rais-from-nonverbal-arg1-verb-lexeme'
+and interacts with the phrasal rules 'head-prep-rais-comp-rule' (combining with
+the infinitive) and 'head-verb-prep-comp-rule' (combining with the verbal
+projection). ("ut" is of type 'adv-particle-word' and combines with the verb
+through 'head-verb-advparticle-comp-rule'. " å" is of type 'inf-comp' and
+combines with the embedded VP through 'head-complementizer-comp-rule'.)
+
+Usage 2:
+Ola later til å komme
+det later til å komme en gutt
+
+The selecting verb is here of type
+'intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme', and the combination of
+the PP with the verb goes through 'head-verb-preprais-comp-rule': otherwise as
+above.
+
+Usage 3:
+han forplikter seg til å komme
+
+The verb belongs to type 'obj-equi-pp-refl-verb-lexeme'.
+
+
+Sign type: prep-expl-dep-word
+det ser  ut  til at  det kommer en gutt
+it looks out to that there comes a boy
+'it appears that there comes a boy"
+Has the same context as the item above. The differentiation is purely
+combinatiracally motivated, to account for a raising behavior versus expletive subject.
+
+
+
+Sign type: som-n-pred-comp
+Ola opphøyer seg til konge
+'Ola elevates himself to king'
+
+The selecting verb is of type
+'trans-secpred-som-rais-refl-from-nonverbal-arg2-verb-lexeme', and interacting
+rules are 'head-complementizer-noun-rule' and 'head-verb-som-comp-rule'.
+
+
+C. Cases where "til" acts as an adverb (particle), selected by a verb.
+ 
+Sign type: adv-particle-word
+ KEYS.KEY til-pcl
+
+Usage 1:
+Ola hjelper til 
+Ola hjelper til og spiser maten
+The selecting verb is of type 'intrans-atelicparticle-arg1-verb-lexeme', and
+combines with "til" through 'head-verb-advparticle-comp-rule'.
+
+Usage 2:
+Ola hjelper til med å spise maten
+The selecting verb is of type 'subj-prtcl-equi-pp-atelic-verb-lexeme', and
+combines with "til" through 'head-verb-advparticle-comp-rule'. ("med" is of
+type prep-rais-word - KEYS.KEY med-rais - and "med å spise" combines with
+"hjelper til" through 'head-verb-preprais-comp-rule'.)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+Reflexives
+
+The treatment of reflexives follows the outline in Hellan 2005.
+
+Two main strategies apply.
+(i) The reflexive, of form "seg" ("meg/deg/oss/dere"), may be said to belong
+within the lexical frame of a verb, as a 'lexically tame' item; it may be a
+DOBJECT, IOBJECT or the NP of a 'selected' PP. Being 'tame' does *not* mean:
+'being without meaning', or 'being obligatory'. Technically, coreference
+between binder and bindee is here encoded in the lexical specification of the
+verb.  
+(ii) The reflexive, of form "seg ("meg/deg/oss/dere) (selv)", or possessive
+"min/din(sin/vår/deres", induces an 'I must be bound' requirement which is
+propagated up during the combinatorial mechanism, and released when a
+possible binding configuration and a possible binder are found. An unreleased
+'I must be bound' requirement blocks the derivation. The attribute encoding
+propagated information is '...LOCAL.BND-RESP <...>'.
+
+The formal treatment has so far one major limitation: it propagates the 'I must
+be bound' requirement only for one binder at the time, which means that we
+allow only one reflexive binder per clause, where the reflexives bound, if
+many, must either all be of the form '[REFL-I +, REFL-II +]'
+("selv"-reflxives), or all of the form '[REFL-I +, REFL-II -]', which comprises
+non-lexically bound "seg" ("meg/deg/oss/dere") and the posessives. It is well
+known that with productive patterns of non-locally bound reflexives, there may
+be many overlapping binding dependencies at the same time, and a binder can in
+practice bind a '[REFL-I +, REFL-II +]' reflexive and a '[REFL-I +, REFL-II -]'
+reflexive at the same time. By stacking the multiple 'I must be bound'
+requirements in such a situation on a *list*, one may hope to be able to cope
+with such situations as well, although for reasons pointed to in Hellan 2005,
+non-trivial complexities arise. The present implementation is compatible with
+such developments, in using a list-based algorithm, but it currently allows
+only one-membered lists.
+It may be noted that in most cases of multiple binding-relations cooccurring,
+at least one relation would be with a 1st or 2nd person reflexive. The forms
+for these reflexives - "meg/deg/oss/dere" - are homonyms with the corresponding
+pronominal forms, and in case a reflexive parse fails for the reflexive, a
+pronominal parse still comes out. In the MRS for the latter, no information is
+really lost compared to what an MRS for the reflexive would have given, since
+there is only one 1sg referent, or one 2sg referent, etc., per sentence.
+Note that if a verb has an entry both for a 'tame' reflexive and for ordinary
+object NPs, like "vaske" 'wash', then a sentence like "jeg vasker meg" will get
+one parse where "meg" is a reflexive, and one where "meg" is a pronominal
+(actually two parses for the latter, since "meg" as a pronominal is
+underspecified with regard to status as discourse-bound - cf. section "'Light'
+pronouns, and status of a personal pronoun as discourse-bound vs. not
+discourse-bound"). 
+
+
+For the 'non-lexical' binding constellations, the semantics of a binding
+relation would most perspicuously be represented by identity of variables for
+binder and bindee. To a limited extent, however, NorSource allows the INDEX
+specification of a nominal item to host information which reflects local
+dependencies of the item. For that reason, the semantic replica of a binding
+relation is an MRS arg12-relational EP with the PRED-value
+"coreferential-with_rel", and ARG1 and ARG2 being the ref-ind's of the binder
+and the bindee, respectively. 
+
+In the formalism, reciprocals are treated like reflexives.
+
+No special algorithm is designed for 'Principle B' effects. The correct
+semantics of "Ola liker ham" 'Ola likes him' is one where 'Ola' and 'him' have
+distinct indices, and as the standard mechanism works, this is what is
+derived anyway. As long as "ham" does not induce a "coreferential-with" EP, and
+lexical frames for 'tame' reflexives specify the bindee as '[REFL-I +]',
+whereas "ham" is specified as '[REFL-I -]', there is no way for a non-reflexive
+to get the semantics of a reflexive. (The only additional situation in
+Norwegian of a Principle B type is for cases like "Jon fortærer seg selv/ *seg"
+'Jon devours himself': here [seg] must be long distance bound. A mechanism
+using an attribute 'WAIT-BND-RESP' accommodates this type of situation.)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+'Light' pronouns, and status of a personal pronoun as discourse-bound
+vs. not discourse-bound
+
+Intonational factors affecting this type of status are not represented in this
+grammar, but placement relative to s-adverbs is: When a personal pronoun
+precedes an s-adv like "ikke", it is interpreted as discourse-bound. 
+Some pronouns are inherently marked for discourse-bound status, and the marking
+for this status affects their admissible distribution relative to "ikke". (For
+instance, a 'bare [seg]-reflexive is 'DISC-BOUND +'.)
+The only situation where one gets double parses for a personal pronoun acting
+as object, is when no s-adv occurs, and the pronoun itself is underspecified
+for discourse-bound status. 
+The marking of the parameter is '...LOCAL.CTXT.DISC-BOUND bool'. 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+Noun phrases
+
+Noun phrases are treated as headed by the noun. We observe the convention that
+in the MRS representation of an NP, there should be one and only one EP
+introducing a quantifier binding the head noun variable (i.e., the variable
+serving as value of ARG0 in the EP representing the head noun predicate, and as
+INDEX of the head projection of the NP). Some principled *problems* pertaining
+to this general convention are discussed in Beermann & Hellan 2005 [Nodalida],
+and in the implementation, we note some practical problems too; see below. The
+quantifier binding the head noun variable we call the Head Quantifier (HQ), and
+the requirement that there should be only one such item we call the 'HQ-unique
+Constraint'. 
+
+Conventionally (i.e., for English), the HQ may be construed as being
+contributed partly by word items such as articles - definite
+and indefinite - and quantifiers, and partly through Specifier phrases like
+Genitive phrases and measure phrases. These items all have the status as
+Specifiers: since each NP is guaranteed (by the rules of English syntax) to
+contain one and only one Specifier item (main exception being bare plurals),
+the Specifier is thus the element through which the HQ-unique constraint is
+obeyed. 
+
+In Norwegian, the main exponent of definiteness is the suffixed article - this
+holds both for singular and plural. In this central case, thus, the HQ is
+contributed by the noun word rather than from a Specifier. 
+It is also a fact of Norwegian syntax that bare singulars can be used
+fairly freely; the need for syntactic Specifiers is less than in English. 
+For these reasons, the present grammar takes the strategy of endowing the
+following word forms with an HQ EP:
+- definite singular, as in "gutten" 'boy-DEF', 
+- indefinite plural, as in bare plurals like "gutter"  'boy-PL'and 
+- definite plural, as in "guttene" 'boy-DEF.PL'. 
+The HQ EP is introduced by an ltol-rule.
+
+Singular forms not marked for definite do not introduce an HQ EP. Such
+nouns can combine with quantifier items like "hver" 'each' and "ingen" 'no',
+and with the sg articles "en", "ei", "et", which all provide an
+HQ. Combination with genitives (as in "min gutt" 'my boy') and with measure
+expressions (as in "to flasker vin" 'two bottles wine') induces an HQ
+combinatorially (in C-CONT). For cases where no such source for an HQ appears,
+an ltol-rule induces the HQ on the noun itself. In such cases, the SPR of the
+noun is empty, whereas in the above cases where quantifiers, articles or
+genitives/measure phrases contribute an HQ, these items are required by the
+noun through a one-membered list as value of SPR.
+Plural forms not marked for definite can also combine with quantifiers, like
+"alle" 'all', "noen" 'some', and "ingen" 'no', and in these cases, it is the
+quantifier and not the PL ending which contributes the HQ. The same goes for
+genitives/measure phrases, as in "mine gutter" 'my boys' and "to kilo poteter"
+'two kilos potatoes'. 
+For both singular and plural nouns lacking a DEF suffix, there are thus two
+combinatorial 'life lines' as encoded in the feature structure of the noun: one
+reflected in an empty SPR and a RELS list containing the HQ EP, and one
+reflected in a non-empty SPR, and lacking the HQ EP. 
+ 
+Nouns carrying a DEF-suffix have the feature specification '..HEAD.DEFINITE
++'. For nouns not carrying this suffix, we have been careful in *not* calling
+them 'indefinite': also noun forms not carrying the DEF suffix can be
+part of NPs counted as 'definite', by the empirical criteria of being excluded
+from a presentational construction, and being able to contain so-called 'weak'
+form adjectives. An example is "min snille[WEAK] gutt" 'my kind boy'. The HEAD
+specification of the head noun of any such NP reflects this definiteness by the
+feature '..HEAD.DEF +'. 'DEFINITE +' entails 'DEF +', but not vice versa. When
+a noun carries the features 'DEF +, DEFINITE -', it has a non-empty SPR, since
+for instance a Genitive NP has to combine with it; if the noun has combined
+with a weak adjective form, then also a demonstrative or a definite article
+word "den/det/de" can fullfill the non-empty SPR.
+
+When a noun is 'DEFINITE +', and hence has an HQ assigned in its semantics, it
+may still take a SPR: it can always be preceded by a demonstrative (as in
+"denne gutten" 'this boy'), and if preceded by an adjective (which is
+necessarily weak when preceding a DEFINITE+ noun), then this sequence
+'adj[WEAK]-N[DEFINITE+]' has to be prededed by a demonstrative or a definite
+article word (as in "denne snille gutten" or "den snille gutten" 'this kind
+boy'/ 'the kind boy'). Note that a Genitive is excluded in these cases: "*min
+gutten" and "*min snille gutten" are impossible, it can only be "min gutt" or
+"min snille gutt". This means that while a DEFINITE+ noun by itself may
+optionally occur with a demonstrative, and thus with a specifier, the rule for
+combining a weak adjective with a noun creates a non-empty 'obligatory'
+SPR. 
+
+What combines with a DEFINITE+ noun by itself is not regulated in the SPR
+of the noun, but rather in the SPEC specification of potential Specifier words;
+thus, for instance, demonstratives allow for it, quantifiers like "noen" 'some'
+disallow it. 
+
+Cardinals can combine with any kind of noun (in terms of DEF/DEFINITE
+specifications), but when combining with a DEFINITE+ noun, the combination
+creates a SPR requirement for a demonstrative or a definite article (just as
+when a weak adjective combines with a noun). Whether cardinals should be
+treated as modifiers or specifiers is not obvious - in earlier versions of
+NorSource they were traeted as modifiers, but currently they are
+specifiers. Semantically they introduce a 'measure-out' relation. Since
+cardinals can be preceded by other specifiers (as in "mine tre gutter" with
+"mine" as a specifier preceding "tre gutter", or "de tre guttene" with "de" as
+a specifier preceding "tre gutter"), we cannot in general restrict the number
+of specifiers relative to a given noun as being just one. 
+
+In partitive constructions with the partitive preposition "av", "av" is a
+hybrid, taking the NP as a complement, and the left-hand combinant as a
+specifier. Its semantic contribution is "x instantiates y", where x is
+introduced by the left-hand combinant (e.g. "hver", or a cardinal) and y by the
+governed NP, as the 'larger set'. 
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+Verbs (to be continued; this text relates to the types defined up to 2008, found in norsk.tdl, which have later been converted in lex-types-v.tdl (see introduction)):
+
+The test file 'test-v' has examples of each verb frame recognized by the
+grammar. Test-v itself is annotated with the phrasal rules relevant for each
+verb type, along with types of other relevant items in the argument frame. 
+
+In the present file, we show and comment on the MRSes generated for each
+verb type. With example (1), we also explain some of the annotations generally used.  
+
+(1)
+"gutten sover"
+boy-DEF.MASCSG sleep-PRES
+the boy sleeps
+TYPE: intrans-arg1-verb-lexeme
+
+MRS:
+
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ \"_gutt_n_rel\"
+            LBL: h3
+            ARG0: x4 [ x WH: - SORT: GLBTYPE1421 ROLE: ROLE PNG.NG: MASC-SG PNG.PERS: THIRDPERS BOUNDED: + ] ]
+          [ \"_def_q_rel\"
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ \"_sove_v_rel\"
+            LBL: h8
+            ARG0: e2
+            ARG1: x4 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h9 ] >
+   HCONS: < h6 qeq h3 h9 qeq h8 > ]
+
+Comments:
+The variable e2 represents the event type associated with verbs ('event-verb';
+prepositions and adjectives have another event type, 'ad-event'). In addition
+to its standard expansions 'E tam' and 'SORT semsort', it has the following
+attributes:
+  PATH-TELIC bool, representing telicity effects of adverbial modification;
+  INCR-TELIC bool, representing 'Aktionsart', i.e., aspectual class of verbs
+  ROLE role, as defined in predsort.tdl (see references [3] and [4])
+  WH bool, representing whether the item is 'questioned' or not.
+Under 'E tam', the following features are declared:
+  TENSE tense, with subtypes 'finite', being 'present' and 'past', and
+  'non-finite', being 'infin' and 'perf' ('present participle' is analyzed as
+  an adjective, derived by the ltow-rule presparticpl-adj-lxm)
+  MOOD mood, being indicative and imperative
+  ASPECT semsort, not further developed in norsk.tdl, but used in predsort.tdl
+  DELIMITED bool, representing telicity effects induced by the semantics of NPs
+  (reflected on the NP by the feature 'BOUNDED bool')
+
+The variable x4 represents the type ref-ind. 'WH' and 'ROLE' are as above. The
+path PNG.NG defines a type for gender and number combined, and PNG.PERS a type
+for person. BOUNDED bool represents whether the semantics of the NP induces
+telicity for the entire clause or not (so far, such an effect only reflects the
+object of a clause).
+
+
+(2)
+"gutten rusler mot skogen"
+boy-DEF.MASCSG stroll-PRES toward forest-DEF.MASCSG
+'the boy strolls towards the forest'
+TYPE: intrans-arg1dir-verb-lexeme
+
+"
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ \"_gutt_n_rel\"
+            LBL: h3
+            ARG0: x4 [ x WH: - SORT: GLBTYPE1421 ROLE: ORIENTED-OBJ PNG.NG: MASC-SG PNG.PERS: THIRDPERS BOUNDED: + ] ]
+          [ \"_def_q_rel\"
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ \"_rusle_v_rel\"
+            LBL: h8
+            ARG0: e2
+            ARG1: x4 ]
+          [ \"_mot_p_rel\"
+            LBL: h8
+            ARG0: u11 [ u SORT: NON-FIX-POINT ROLE: LINE-TO-XDIM-SPATIAL WH: BOOL ]
+            ARG1: x4
+            ARG2: x10 [ x SORT: GLBTYPE1425 ROLE: TARGETPNT-OF-LINE WH: - PNG.NG: MASC-SG PNG.PERS: THIRDPERS BOUNDED: + ]
+            IARG: s9 [ s CLASS: LINE-TO-TARGETPNT ] ]
+          [ \"_skog_n_rel\"
+            LBL: h12
+            ARG0: x10 ]
+          [ \"_def_q_rel\"
+            LBL: h13
+            ARG0: x10
+            RSTR: h14
+            BODY: h15 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h16 ] >
+   HCONS: < h6 qeq h3 h14 qeq h12 h16 qeq h8 > ]
+
+"
+COMMENT:
+The part
+
+          [ \"_mot_p_rel\"
+            LBL: h8
+            ARG0: u11 [ u SORT: NON-FIX-POINT ROLE: LINE-TO-XDIM-SPATIAL WH: BOOL ]
+            ARG1: x4
+            ARG2: x10 [ x SORT: GLBTYPE1425 ROLE: TARGETPNT-OF-LINE WH: - PNG.NG: MASC-SG PNG.PERS: THIRDPERS BOUNDED: + ]
+            IARG: s9 [ s CLASS: LINE-TO-TARGETPNT ] ]
+
+instantiates
+(a) The ARG1 of the preposition "mot" is identified with the ARG1 of the
+verb. Directional prepositions achieve this effect; they modify verbs, one of
+whose arguments is propagated into the verb's HOOK as DIRARG (the type serving
+as value of HOOK is here 'dirhook', as opposed to 'hook' for nondirectional
+verbs), and the XARG of the preposition (equal to its ARG1) is identified with
+the verb's DIRARG. In this case, the DIRARG is the subject of the verb; it can
+also be the object, cf. the type arg1-2dir-verb-lexeme.
+(b) "mot" 's lexical entry is:
+mot_diratel_p := dir-nonfixpoint-prep-word &
+  [ STEM < "mot" >,
+    SYNSEM.LKEYS.KEYREL [PRED "_mot_p_rel"],
+    SYNSEM.LKEYS.KEYREL toward-targetpoint-rel].
+Its sign type 'dir-nonfixpoint-prep-word' induces the
+aspectual value 'PATH-TELIC bool', as opposed to prepositions of type
+'dir-fixpoint-prep-word' which induce 'PATH-TELIC +'. 
+The KEYREL type 'toward-targetpoint-rel' is defined in preposrt.tdl, and induces
+the ROLE values shown for ARG0, ARG1, ARG2 and IARG. The value of ARG0.SORT is
+induced by 'dir-nonfixpoint-prep-word', and likewise the values of ARG1.SORT
+ and ARG2.SORT, but for these in conjunction with the x-type arguments (both inheriting from 'inan-thing & full-thing').
+
+
+(3)
+jeg snakker om fjellet
+I talk-PRES about mountain-DEF.NEUTSG
+ 'I talk about the mountain'
+TYPE: intrans-obl-verb-lexeme
+
+"
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ \"_1sg_pron_rel\"
+            LBL: h3
+            ARG0: x4 [ x SORT: REFERENTIAL-THING ROLE: ROLE WH: - PNG.PERS: FIRSTPERS PNG.NG: SG ] ]
+          [ \"_pronoun_q_rel\"
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ \"_snakke_v_rel\"
+            LBL: h8
+            ARG0: e2
+            ARG1: x4 ]
+          [ \"_om_p_rel\"
+            LBL: h9
+            ARG0: u10 [ u SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG1: e2
+            ARG2: x11 [ x SORT: GLBTYPE1425 ROLE: ROLE WH: - PNG.NG: NEUTSG PNG.PERS: THIRDPERS BOUNDED: + ] ]
+          [ \"_fjell_n_rel\"
+            LBL: h12
+            ARG0: x11 ]
+          [ \"_def_q_rel\"
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h16 ] >
+   HCONS: < h6 qeq h3 h14 qeq h12 h16 qeq h8 > ]
+
+"
+COMMENT
+The part
+          [ \"_om_p_rel\"
+            LBL: h9
+            ARG0: u10 [ u SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG1: e2
+            ARG2: x11 [ x SORT: GLBTYPE1425 ROLE: ROLE WH: - PNG.NG: NEUTSG
+            PNG.PERS: THIRDPERS BOUNDED: + ] ]
+
+instantiates that "om fjellet" ('about the mountain') is predicated of the
+event as such, represented by 'e2'; however, e2 is here to be seen as a TALKING
+event, and not just a set of time and place coordinates. The effect is induced
+by the type 'intrans-obl-verb-lexeme' together with 'prep-word-sel', crucially
+involving KEYS.KEY specifications; thus, the lexical entry of "snakke"
+relevant is:
+snakke_intr-obl-om := intrans-obl-verb-lexeme &
+ [ STEM < "snakke" >,
+   INFLECTION v1-v1b-v11,
+   SYNSEM.LKEYS.KEYREL.PRED "_snakke_v_rel",
+   SYNSEM.LOCAL.CAT.VAL.ICOMPS < [LOCAL.CAT.HEAD [KEYS.KEY om-fct-spec ]]> ].
+and for "om":
+om_sel := prep-word-sel &
+  [ STEM < "om" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_om_p_rel",
+    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY om-topic-of ]].
+(where 'om-topic-of' is a subtype of 'om-fct-spec').
+
+Note that the relevant attribute inside VAL here is ICOMPS - this is where
+so-called 'oblique' PPs are entered as arguments of the verb.
+
+(4)
+jeg stoler på gutten
+ 'I rely on the boy'
+
+"
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ \"_1sg_pron_rel\"
+            LBL: h3
+            ARG0: x4 [ x SORT: REFERENTIAL-THING ROLE: ROLE WH: - PNG.PERS: FIRSTPERS PNG.NG: SG ] ]
+          [ \"_pronoun_q_rel\"
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ \"_stole_v_rel\"
+            LBL: h8
+            ARG0: e2
+            ARG1: x4 ]
+          [ \"_på_p_rel\"
+            LBL: h9
+            ARG0: u10 [ u SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG1: e2
+            ARG2: x11 [ x SORT: GLBTYPE1421 ROLE: ROLE WH: - PNG.NG: MASC-SG PNG.PERS: THIRDPERS BOUNDED: + ] ]
+          [ \"_gutt_n_rel\"
+            LBL: h12
+            ARG0: x11 ]
+          [ \"_def_q_rel\"
+            LBL: h13
+            ARG0: x11
+            RSTR: h14
+            BODY: h15 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h16 ] >
+   HCONS: < h6 qeq h3 h14 qeq h12 h16 qeq h8 > ]
+
+COMMENT:
+Exactly the same approach as for (3), even here when the PP is obligatory and
+"på" is the only option (i.e., the kind of case where one often claims there to
+be no semantic content).
+
+
+(5)
+jeg snakker om at du kommer
+I talk-PRES about that you come-PRES
+
+
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ \"_1sg_pron_rel\"
+            LBL: h3
+            ARG0: x4 [ x SORT: REFERENTIAL-THING ROLE: ROLE WH: - PNG.PERS: FIRSTPERS PNG.NG: SG ] ]
+          [ \"_pronoun_q_rel\"
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ \"_snakke_v_rel\"
+            LBL: h8
+            ARG0: e2
+            ARG1: x4 ]
+          [ \"_om_p_rel\"
+            LBL: h9
+            ARG0: u11 [ u SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG1: e2
+            ARG2: h10 ]
+          [ \"_at_rel\"
+            LBL: h10
+            ARG0: e13 [ e E.MOOD: INDICATIVE E.TENSE: PRES E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: - ]
+            ARG1: h12 ]
+          [ \"_2sg_pron_rel\"
+            LBL: h14
+            ARG0: x15 [ x WH: - SORT: REFERENTIAL-THING ROLE: ROLE PNG.PERS: SECPERS PNG.NG: SG ] ]
+          [ \"_pronoun_q_rel\"
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ \"_komme_v_rel\"
+            LBL: h19
+            ARG0: e13
+            ARG1: x15 ]
+          [ proposition_m_rel
+            LBL: h12
+            MARG: h20 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h21 ] >
+   HCONS: < h6 qeq h3 h17 qeq h14 h20 qeq h19 h21 qeq h8 > ]
+
+COMMENT: 
+As shown by the EP
+ [ \"_om_p_rel\"
+            LBL: h9
+            ARG0: u11 [ u SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG1: e2
+            ARG2: h10 ]
+
+also the that-clause is related to the talking event, analogously to the
+governed NP in example (3).
+The relevant lexical entry for "snakke" is the same as in example (3), but "om"
+now instantiates a different entry, namely
+
+om_clause := prep-clause-word &
+  [ STEM < "om" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_om_p_rel",
+    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY om-clse]].
+
+where om-clse is a subtype of om-fct-spec.
+
+
+(6)
+jeg snakker om hvorvidt du kommer
+I talk-PRES about whether you come-PRES
+
+"
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ \"_1sg_pron_rel\"
+            LBL: h3
+            ARG0: x4 [ x SORT: REFERENTIAL-THING ROLE: ROLE WH: - PNG.PERS: FIRSTPERS PNG.NG: SG ] ]
+          [ \"_pronoun_q_rel\"
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ \"_snakke_v_rel\"
+            LBL: h8
+            ARG0: e2
+            ARG1: x4 ]
+          [ \"_om_p_rel\"
+            LBL: h9
+            ARG0: u11 [ u SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG1: e2
+            ARG2: h10 ]
+          [ \"hvorvidt_rel\"
+            LBL: h10
+            ARG0: e13 [ e E.MOOD: INDICATIVE E.TENSE: PRES E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: - ]
+            ARG1: h12 ]
+          [ \"_2sg_pron_rel\"
+            LBL: h14
+            ARG0: x15 [ x WH: - SORT: REFERENTIAL-THING ROLE: ROLE PNG.PERS: SECPERS PNG.NG: SG ] ]
+          [ \"_pronoun_q_rel\"
+            LBL: h16
+            ARG0: x15
+            RSTR: h17
+            BODY: h18 ]
+          [ \"_komme_v_rel\"
+            LBL: h19
+            ARG0: e13
+            ARG1: x15 ]
+          [ proposition_m_rel
+            LBL: h12
+            MARG: h20 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h21 ] >
+   HCONS: < h6 qeq h3 h17 qeq h14 h20 qeq h19 h21 qeq h8 > ]
+
+COMMENT:   
+In the MRS, the interrogative nature of "hvorvidt" 'whether' has to be read off
+the PRED value; obviously the EP
+
+[ proposition_m_rel
+            LBL: h12
+            MARG: h20 ]
+
+should have 'question_m_rel' rather than 'proposition_...'.
+In the phrasal combinatorics, selection is done by reference to a head feature
+'DECL bool'. Thus,
+"om", as selected by "snakke", allows its clausal complement to be either 
+  LOCAL.CAT.HEAD.DECL -
+or
+  LOCAL.CAT.HEAD.DECL +.
+In contrast, the "på" selected by "stole" allows only 
+  LOCAL.CAT.HEAD.DECL + ( a hack here: this is made hold for clause-taking "på"
+  in general, and not as taken by "stole"; needs amendment)
+hence the non-parse for sentence (8) & (9):
+
+(8) * jeg stoler på hvorvidt du kommer
+(9) * jeg stoler på hvem som kommer
+
+Similar to (6) is (7), as far as combinatorics is concerned, but here the MRS
+is more revealing about the interrogative force (induced by the subj-verb
+combination):
+
+(7) jeg snakker om hvem som kommer
+    I talk-PRES about who that come-PRES
+    'I talk about who comes'
+
+"
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ \"_1sg_pron_rel\"
+            LBL: h3
+            ARG0: x4 [ x SORT: REFERENTIAL-THING ROLE: ROLE WH: - PNG.PERS: FIRSTPERS PNG.NG: SG ] ]
+          [ \"_pronoun_q_rel\"
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ \"_snakke_v_rel\"
+            LBL: h8
+            ARG0: e2
+            ARG1: x4 ]
+          [ \"_om_p_rel\"
+            LBL: h9
+            ARG0: u11 [ u SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG1: e2
+            ARG2: h10 ]
+          [ \"_3wh_pron_rel\"
+            LBL: h12
+            ARG0: x13 [ x WH: + SORT: SEMSORT ROLE: ROLE PNG.NG: NG PNG.PERS: THIRDPERS ] ]
+          [ \"_interrog_q_rel\"
+            LBL: h14
+            ARG0: x13
+            RSTR: h15
+            BODY: h16 ]
+          [ \"_res_pron_rel\"
+            LBL: h17
+            ARG0: x13 ]
+          [ \"_komme_v_rel\"
+            LBL: h18
+            ARG0: e19 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG1: x13 ]
+          [ question_m_rel
+            LBL: h20
+            MARG: h21 ]
+          [ question_m_rel
+            LBL: h10
+            MARG: h22 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h23 ] >
+   HCONS: < h6 qeq h3 h15 qeq h12 h21 qeq h18 h22 qeq h20 h23 qeq h8 > ]
+
+"
+
+
+A very similar construction is instantiated in (10)-(11), but with quite
+different analysis:
+
+(10) Jon lurer på hva som skjer
+     Jon wonder-PRES on what that happen-PRES
+     'Jon wonders what happens'
+
+"
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ named_rel
+            LBL: h3
+            ARG0: x4 [ x SORT: REFERENTIAL-THING ROLE: ROLE WH: - PNG.NG: MASC-SG PNG.PERS: THIRDPERS ]
+            CARG: \"Jon\" ]
+          [ \"_def_q_rel\"
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ \"_lure_v_rel\"
+            LBL: h8
+            ARG0: e2
+            ARG1: x4
+            ARG2: h9 ]
+          [ \"_på_p_rel\"
+            LBL: h9
+            ARG0: u12 [ u SORT: INDIRQUEST-PREP ROLE: ROLE WH: BOOL ]
+            ARG1: u11 [ u SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG2: h10 ]
+          [ \"_3wh_pron_rel\"
+            LBL: h13
+            ARG0: x14 [ x WH: + SORT: SEMSORT ROLE: ROLE PNG.NG: NG PNG.PERS: THIRDPERS ] ]
+          [ \"_interrog_q_rel\"
+            LBL: h15
+            ARG0: x14
+            RSTR: h16
+            BODY: h17 ]
+          [ \"_res_pron_rel\"
+            LBL: h18
+            ARG0: x14 ]
+          [ \"_skje_v_rel\"
+            LBL: h19
+            ARG0: e20 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG1: x14 ]
+          [ question_m_rel
+            LBL: h21
+            MARG: h22 ]
+          [ question_m_rel
+            LBL: h10
+            MARG: h23 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h24 ] >
+   HCONS: < h6 qeq h3 h16 qeq h13 h22 qeq h19 h23 qeq h21 h24 qeq h8 > ]
+
+This på-PP is in the COMPS list, and "på" here belongs to a different type than
+in connection with "stole", just as "lure" is of a different type:
+
+lure_indirwhquest-pp := intrans-indirwhquest-pp-verb-lexeme &
+  [ STEM < "lure" >,
+    INFLECTION v2,
+    SYNSEM.LKEYS.KEYREL.PRED "_lure_v_rel",
+    SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY på-indirqu ]]>].
+
+på_indirwhquest := prep-indirwhquest-word &
+  [ STEM < "på" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_på_p_rel",
+    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY på-indirqu]].
+
+The intuition is that verbs of this type are more directly tied to the
+interrogative clause; in the MRS, this is reflected in that the ARG1 of the
+preposition ("på") is not linked to anything.
+
+(11) Jon lurer på hvorvidt du kommer
+     Jon wonder-PRES on whether you come-PRES
+
+uses the same "lure" and the same "på"; the MRS is now less telling about the
+interrogative embedding, since no interrogative combination rule is at force -
+cf. (6).
+
+"
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ named_rel
+            LBL: h3
+            ARG0: x4 [ x SORT: REFERENTIAL-THING ROLE: ROLE WH: - PNG.NG: MASC-SG PNG.PERS: THIRDPERS ]
+            CARG: \"Jon\" ]
+          [ \"_def_q_rel\"
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ \"_lure_v_rel\"
+            LBL: h8
+            ARG0: e2
+            ARG1: x4
+            ARG2: h9 ]
+          [ \"_på_p_rel\"
+            LBL: h9
+            ARG0: u12 [ u SORT: INDIRQUEST-PREP ROLE: ROLE WH: BOOL ]
+            ARG1: u11 [ u SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG2: h10 ]
+          [ \"hvorvidt_rel\"
+            LBL: h10
+            ARG0: e14 [ e E.MOOD: INDICATIVE E.TENSE: PRES E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: - ]
+            ARG1: h13 ]
+          [ \"_2sg_pron_rel\"
+            LBL: h15
+            ARG0: x16 [ x WH: - SORT: REFERENTIAL-THING ROLE: ROLE PNG.PERS: SECPERS PNG.NG: SG ] ]
+          [ \"_pronoun_q_rel\"
+            LBL: h17
+            ARG0: x16
+            RSTR: h18
+            BODY: h19 ]
+          [ \"_komme_v_rel\"
+            LBL: h20
+            ARG0: e14
+            ARG1: x16 ]
+          [ proposition_m_rel
+            LBL: h13
+            MARG: h21 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h22 ] >
+   HCONS: < h6 qeq h3 h18 qeq h15 h21 qeq h20 h22 qeq h8 > ]
+
+Combinatorially, this "på" selects the head feature DECL -, hence combination
+with a that-clause is blocked, as in
+
+(12) * Jon lurer på at du kommer
+       Jon wonder-PRES on that you come-PRES
+
+
+Raising verbs
+(13) gutten virker syk
+     boy-DEF.MASCSG seem-PRES sick-MASC-OR-FEM-SG
+
+"
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ \"_gutt_n_rel\"
+            LBL: h3
+            ARG0: x4 [ x SORT: GLBTYPE1421 ROLE: ROLE WH: - BOUNDED: + PNG.NG: MASC-SG PNG.PERS: THIRDPERS ] ]
+          [ \"_def_q_rel\"
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ \"_virke_v_rel\"
+            LBL: h8
+            ARG0: e2
+            ARG1: h9 ]
+          [ \"_syk_j_rel\"
+            LBL: h9
+            ARG0: u10 [ u SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG1: x4 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h11 ] >
+   HCONS: < h6 qeq h3 h11 qeq h8 > ]
+
+COMMENT: The analysis is the classical one for subj-to-subj-raising: "virke"
+takes as semantic argument (its ARG1) a clause, the ARG1 inside which is
+realized by the matrix subject.
+
+(14) han høres syk ut
+     he-MASCSG sound-PRES sick-MASC-OR-FEM-SG out
+     'he sounds sick'
+
+
+"
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ \"_3sg_masc_pron_rel\"
+            LBL: h3
+            ARG0: x4 [ x SORT: REFERENTIAL-THING ROLE: ROLE WH: - PNG.NG: MASC-SG PNG.PERS: THIRDPERS ] ]
+          [ \"_pronoun_q_rel\"
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ \"_høres_v_rel\"
+            LBL: h8
+            ARG0: e2
+            ARG1: h9 ]
+          [ \"_syk_j_rel\"
+            LBL: h9
+            ARG0: u10 [ u SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG1: x4 ]
+          [ \"_of-appearance_a_rel\"
+            LBL: h11
+            ARG0: u12 [ u SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG1: e2 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h13 ] >
+   HCONS: < h6 qeq h3 h13 qeq h8 > ]
+
+"
+LKB(13): 
+
+COMMENT:
+The item "høres" is treated analogously to 'seem' or 'sound', as taking as sole
+semantic argument a proposition, with the content 'he sick'. 
+e2, the index of the 'sounding' event, is qualified by "ut", semantically
+glossed as _of-appearance_a_rel; the EP
+         [ \"_of-appearance_a_rel\"
+            LBL: h11
+            ARG0: u12 [ u SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG1: e2 ]
+thus signals "ut" as functioning as a kind of evidentiality marker, like in
+German "er sieht krank aus"/"er hört sich krank an".
+
+"ut" is categorized as 'adverb', but as a subclass called 'particle'. Both
+"syk" and "ut" are on the verb's COMPS list, with "ut" particularly selected by
+"høres", by the following lexical entries:
+
+høres_sec-ut := intrans-secpred-prtcl1-rais-from-nonverbal-arg1-verb-lexeme &
+  [ STEM < "høres" >,
+    INFLECTION v100,
+    SYNSEM [LKEYS.KEYREL.PRED "_høres_v_rel"],
+    SYNSEM.LOCAL.CAT.VAL.COMPS < [], [LOCAL.CAT.HEAD [KEYS.KEY ut-pcl ]]>].
+
+ut_partcl := adv-particle-word &
+  [ STEM < "ut" >,
+    SYNSEM [LOCAL.CAT.HEAD.KEYS.KEY ut-pcl,
+            LKEYS.KEYREL.PRED "_of-appearance_a_rel"]].
+
+Combinatorial rules are head-verb-adj-comp-rule and
+head-verb-advparticle-comp-rule, reflecting structure
+
+                           VP
+                          / \
+                         V'  ut
+                        / \
+                   høres   syk   
+
+
+(15) Ola later til å komme
+     Ola appear-PRES to-PREP to-INFMARK come-INF
+     'Ola appears to be coming'
+
+                        VP
+                       / \
+                  later   PP
+                         / \
+                      til   CP
+                           / \
+                         å    VP
+
+
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ named_rel
+            LBL: h3
+            ARG0: x4 [ x SORT: REFERENTIAL-THING ROLE: ROLE WH: - PNG.NG: MASC-SG PNG.PERS: THIRDPERS ]
+            CARG: \"Ola\" ]
+          [ \"_def_q_rel\"
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ \"_late_v_rel\"
+            LBL: h8
+            ARG0: e2
+            ARG1: h9 ]
+          [ proposition_m_rel
+            LBL: h9
+            MARG: h10 ]
+          [ proposition_m_rel
+            LBL: h11
+            MARG: h12 ]
+          [ \"_komme_v_rel\"
+            LBL: h13
+            ARG0: e14 [ e SORT: SEMSORT ROLE: ROLE WH: - E.MOOD: INDICATIVE E.TENSE: INFIN E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL ]
+            ARG1: x4 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h15 ] >
+   HCONS: < h6 qeq h3 h10 qeq h11 h12 qeq h13 h15 qeq h8 > ]
+
+
+COMMENT:
+"late" has the same basic semantics as the verbs in the previous examples, as
+taking as sole semantic argument a proposition, with the content 'he come'. The
+latter is technically embedded under the ARG1 of the matrix verb via a chain of
+qeq's, these being induced by the preposition "til", which otherwise has no
+reflex in the MRS in this use, categorized as 'prep-rais-word'. It gets
+selected by the verb through the following entries:
+
+late_til-å-rais := intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme &
+  [ STEM < "late" >,
+    INFLECTION v102,
+    SYNSEM [LKEYS.KEYREL.PRED "_late_v_rel",
+            LOCAL.CAT.VAL.COMPS <[LOCAL.CAT.HEAD.KEYS.KEY til-rais ]>]].
+
+til_rais := prep-rais-word &
+  [ STEM < "til" >,
+    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY til-rais ] ].
+
+Both "late" and "til" have a 'raising' combinatorics, mediating subject
+requirements of the embedded verb to requirements of the matrix verb. We
+thereby also account for
+
+(16)  det later til å komme en gutt
+      there appear-PRES to-PREP to-INFMARK come-INF a boy
+     'there appears to be a boy coming'
+
+                        VP
+                       / \
+                  later   PP
+                         / \
+                      til   CP
+                           / \
+                         å    VP
+
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ \"_expletive_rel\"
+            LBL: h3
+            ARG0: u4 ]
+          [ \"_late_v_rel\"
+            LBL: h5
+            ARG0: e2
+            ARG1: h6 ]
+          [ proposition_m_rel
+            LBL: h6
+            MARG: h7 ]
+          [ proposition_m_rel
+            LBL: h8
+            MARG: h9 ]
+          [ \"_komme_v_rel\"
+            LBL: h10
+            ARG0: e11 [ e SORT: SEMSORT ROLE: ROLE WH: - E.MOOD: INDICATIVE E.TENSE: INFIN E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL ]
+            ARG1: x12 [ x SORT: GLBTYPE1421 BOUNDED: BOOL ROLE: ROLE WH: - PNG.NG: MASC-SG PNG.PERS: THIRDPERS ] ]
+          [ \"exactly_1_q_rel\"
+            LBL: h13
+            ARG0: x12
+            RSTR: h14
+            BODY: h15 ]
+          [ \"_gutt_n_rel\"
+            LBL: h16
+            ARG0: x12 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h17 ] >
+   HCONS: < h7 qeq h8 h9 qeq h10 h14 qeq h16 h17 qeq h5 > ]
+
+COMMENT: The embedded verbal construction is a presentational construction, and
+its requirement of an expletive subject is meediated to the matrix
+verb. Through the non-parse of (17), one observes that the indefiniteness
+restriction on the NP following the main verb is maintained:
+
+(18)  * det later til å komme gutten
+
+In many cases, a raising verb can alternatively occur with a finite clause, and
+an expletive subject. "late til" is such a case:
+
+(19)  det later til at gutten kommer
+; it appears to-PREP that comes the boy
+;  'it appears that the boy comes'
+
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ \"_expletive_rel\"
+            LBL: h3
+            ARG0: u4 ]
+          [ \"_late_v_rel\"
+            LBL: h5
+            ARG0: e2
+            ARG1: h6 ]
+          [ proposition_m_rel
+            LBL: h6
+            MARG: h7 ]
+          [ \"_at_rel\"
+            LBL: h8
+            ARG0: e10 [ e SORT: SEMSORT ROLE: ROLE WH: - E.MOOD: INDICATIVE E.TENSE: PRES E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL ]
+            ARG1: h9 ]
+          [ \"_gutt_n_rel\"
+            LBL: h11
+            ARG0: x12 [ x WH: - SORT: GLBTYPE1421 ROLE: ROLE PNG.NG: MASC-SG PNG.PERS: THIRDPERS BOUNDED: + ] ]
+          [ \"_def_q_rel\"
+            LBL: h13
+            ARG0: x12
+            RSTR: h14
+            BODY: h15 ]
+          [ \"_komme_v_rel\"
+            LBL: h16
+            ARG0: e10
+            ARG1: x12 ]
+          [ proposition_m_rel
+            LBL: h9
+            MARG: h17 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h18 ] >
+   HCONS: < h7 qeq h8 h14 qeq h11 h17 qeq h16 h18 qeq h5 > ]
+
+COMMENT: the type of "late" is as before, but "til" is now non-transparent, and
+has the type 'prep-expl-dep-word'. 
+
+The above cases illustrate
+- a raising verb alone
+- a raising verb with a particle
+- a raising verb with a 'transparent' PP
+We next look at a case where the raising verb occurs both with a particle and a
+transparent PP:
+
+(20)  gutten ser ut til å komme
+      boy-DEF look-PRES out to-PREP to-INFMARK come-INF
+      'the boy looks as if he is coming'
+
+                              V
+                             / \
+                           V    \
+                          / \    \
+                         V'  ut   \
+                        ser        PP
+                                  / \
+                               til   CP
+                                    / \
+                                  å    VP
+
+se_ut-til := intrans-secpred-prtcl2-rais-from-nonverbal-arg1-verb-lexeme &
+  [ STEM < "se" >,
+    INFLECTION v32-v32a,
+    SYNSEM [LKEYS.KEYREL.PRED "_se_v_rel"],
+    SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY ut-pcl ]], 
+                                 [LOCAL.CAT.HEAD [KEYS.KEY til-rais ]]>].
+
+
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ \"_gutt_n_rel\"
+            LBL: h3
+            ARG0: x4 [ x SORT: GLBTYPE1421 ROLE: ROLE WH: - BOUNDED: + PNG.NG: MASC-SG PNG.PERS: THIRDPERS ] ]
+          [ \"_def_q_rel\"
+            LBL: h5
+            ARG0: x4
+            RSTR: h6
+            BODY: h7 ]
+          [ \"_se_v_rel\"
+            LBL: h8
+            ARG0: e2
+            ARG1: h9 ]
+          [ \"_of-appearance_a_rel\"
+            LBL: h10
+            ARG0: u11 [ u SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG1: e2 ]
+          [ proposition_m_rel
+            LBL: h9
+            MARG: h12 ]
+          [ proposition_m_rel
+            LBL: h13
+            MARG: h14 ]
+          [ \"_komme_v_rel\"
+            LBL: h15
+            ARG0: e16 [ e SORT: SEMSORT ROLE: ROLE WH: - E.MOOD: INDICATIVE E.TENSE: INFIN E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL ]
+            ARG1: x4 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h17 ] >
+   HCONS: < h6 qeq h3 h12 qeq h13 h14 qeq h15 h17 qeq h8 > ]
+
+COMMENT:
+This MRS combines the effect of the particle "ut" and the "til"-PP displayed
+above. 
+The raising effect with regard to expletives and presentationals is again
+shown, like in (17)/(18):
+
+(21)  det ser ut til å komme en gutt
+
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ \"_expletive_rel\"
+            LBL: h3
+            ARG0: u4 ]
+          [ \"_se_v_rel\"
+            LBL: h5
+            ARG0: e2
+            ARG1: h6 ]
+          [ \"_of-appearance_a_rel\"
+            LBL: h7
+            ARG0: u8 [ u SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG1: e2 ]
+          [ proposition_m_rel
+            LBL: h6
+            MARG: h9 ]
+          [ proposition_m_rel
+            LBL: h10
+            MARG: h11 ]
+          [ \"_komme_v_rel\"
+            LBL: h12
+            ARG0: e13 [ e SORT: SEMSORT ROLE: ROLE WH: - E.MOOD: INDICATIVE E.TENSE: INFIN E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL ]
+            ARG1: x14 [ x SORT: GLBTYPE1421 BOUNDED: BOOL ROLE: ROLE WH: - PNG.NG: MASC-SG PNG.PERS: THIRDPERS ] ]
+          [ \"exactly_1_q_rel\"
+            LBL: h15
+            ARG0: x14
+            RSTR: h16
+            BODY: h17 ]
+          [ \"_gutt_n_rel\"
+            LBL: h18
+            ARG0: x14 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h19 ] >
+   HCONS: < h9 qeq h10 h11 qeq h12 h16 qeq h18 h19 qeq h5 > ]
+
+(22)  * det ser ut til å komme gutten
+
+As illustrated with "late til", also "se ut til" has a finite, non-transparent counterpart:
+
+(23)  det ser ut til at gutten kommer
+
+
+                              V
+                             / \
+                           V    \
+                          / \    \
+                         V'  ut   \
+                        ser        PP
+                                  / \
+                               til   CP
+                                    / \
+                                  at   S
+
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ \"_expletive_rel\"
+            LBL: h3
+            ARG0: u4 ]
+          [ \"_se_v_rel\"
+            LBL: h5
+            ARG0: e2
+            ARG1: h6 ]
+          [ \"_of-appearance_a_rel\"
+            LBL: h7
+            ARG0: u8 [ u SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG1: e2 ]
+          [ proposition_m_rel
+            LBL: h6
+            MARG: h9 ]
+          [ \"_at_rel\"
+            LBL: h10
+            ARG0: e12 [ e SORT: SEMSORT ROLE: ROLE WH: - E.MOOD: INDICATIVE E.TENSE: PRES E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL ]
+            ARG1: h11 ]
+          [ \"_gutt_n_rel\"
+            LBL: h13
+            ARG0: x14 [ x WH: - SORT: GLBTYPE1421 ROLE: ROLE PNG.NG: MASC-SG PNG.PERS: THIRDPERS BOUNDED: + ] ]
+          [ \"_def_q_rel\"
+            LBL: h15
+            ARG0: x14
+            RSTR: h16
+            BODY: h17 ]
+          [ \"_komme_v_rel\"
+            LBL: h18
+            ARG0: e12
+            ARG1: x14 ]
+          [ proposition_m_rel
+            LBL: h11
+            MARG: h19 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h20 ] >
+   HCONS: < h9 qeq h10 h16 qeq h13 h19 qeq h18 h20 qeq h5 > ]
+
+
+(24)  det ser ut som om gutten kommer
+; it looks out as if the boy comes
+; 'it looks as if the boy is coming'
+
+                             V
+                             / \
+                           V    \
+                          / \    \
+                         V'  ut   \
+                        ser        PP
+                                  / \
+                               som   CP
+                                    / \
+                                  om   S
+
+"som" is prep-expl-dep-word, like "til" in "late til", and "se ut" is the same
+as in the previous cases, repeated, even though the second selected item now
+has the shape "som":
+
+se_ut-til := intrans-secpred-prtcl2-rais-from-nonverbal-arg1-verb-lexeme &
+  [ STEM < "se" >,
+    INFLECTION v32-v32a,
+    SYNSEM [LKEYS.KEYREL.PRED "_se_v_rel"],
+    SYNSEM.LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD [KEYS.KEY ut-pcl ]], 
+                                 [LOCAL.CAT.HEAD [KEYS.KEY til-rais ]]>].
+
+The MRS for (24), accordingly, is the same as for (23)  det ser ut til at gutten kommer:
+
+ [ LTOP: h1
+   INDEX: e2 [ e E.TENSE: PRES E.MOOD: INDICATIVE E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+   RELS: <
+          [ \"_expletive_rel\"
+            LBL: h3
+            ARG0: u4 ]
+          [ \"_se_v_rel\"
+            LBL: h5
+            ARG0: e2
+            ARG1: h6 ]
+          [ \"_of-appearance_a_rel\"
+            LBL: h7
+            ARG0: u8 [ u SORT: SEMSORT ROLE: ROLE WH: BOOL ]
+            ARG1: e2 ]
+          [ proposition_m_rel
+            LBL: h6
+            MARG: h9 ]
+          [ \"_om_rel\"
+            LBL: h10
+            ARG0: e12 [ e SORT: SEMSORT ROLE: ROLE WH: - E.MOOD: INDICATIVE E.TENSE: PRES E.ASPECT: SEMSORT E.DELIMITED: BOOL PATH-TELIC: BOOL INCR-TELIC: BOOL ]
+            ARG1: h11 ]
+          [ \"_gutt_n_rel\"
+            LBL: h13
+            ARG0: x14 [ x WH: - SORT: GLBTYPE1421 ROLE: ROLE PNG.NG: MASC-SG PNG.PERS: THIRDPERS BOUNDED: + ] ]
+          [ \"_def_q_rel\"
+            LBL: h15
+            ARG0: x14
+            RSTR: h16
+            BODY: h17 ]
+          [ \"_komme_v_rel\"
+            LBL: h18
+            ARG0: e12
+            ARG1: x14 ]
+          [ proposition_m_rel
+            LBL: h11
+            MARG: h19 ]
+          [ proposition_m_rel
+            LBL: h1
+            MARG: h20 ] >
+   HCONS: < h9 qeq h10 h16 qeq h13 h19 qeq h18 h20 qeq h5 > ]
+
+COMMENT:
+The equivalence of MRSes for (23) and (24) misses a maening difference: with
+"som om", there is something like an irrealis presupposition, signalling that
+the boy doesn't actually come. Absence of such a presupposition we get with:
+
+(25)  det ser ut som gutten kommer
+
+With the tree structure indicated for (24), it is difficult to give the lexical
+item control of the irrealis factor, since the "om" is one step too deeply
+embedded. An alternative is to treat "som om" as one item, alternating wiith
+"som", and have two distinct entries for the verb, one with the irrealis factor
+and one without.
+A case suggesting that there is some compositionality in the "som om" sequence
+is
+
+(26)  det ser ut som at gutten kommer
+
+which on the current analysis has the same MRS as immediately above, just with
+"at_rel" instead of "om_rel". On the alternative analysis, "som at" would be
+treated as another unit. Aother reason for a compositional approach to "som om"
+is that the effect of "om" here may be traced to other uses of "om", as
+introducing question clauses.
+Pending a non-ad hoc treatment of the irrealis vs realis factor, we so far
+stick to the analysis presented, on which (25) does not yet have an analysis;
+the line of amending the account probably will treat "som om" and "som at" as
+units here, alternating with "som" as in (25).
+
+
+
+
+;;;;;; DIFF-LIST SVN 220713d ;;;;;;;;;;;;;
+
++++ lex-types-v-with-icomps.tdl	(working copy)
+@@ -492,6 +492,10 @@
+ v-trExpnOb-expnAbsinf := trans-subord-expn-verb-lexeme &
+    [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD infin-comp & [DECL +,
+ 								     KEYS.KEY infinit-comp]] > ].
++; NEW NB!
++v-trOblExpnOb-expnAbsinf := trans-obl-subord-expn-verb-lexeme &
++   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [], [ LOCAL.CAT.HEAD infin-comp & [DECL +,
++								     KEYS.KEY infinit-comp]] > ].
+ 
+ ; "det viser seg at..." -(from Presentational-2)
+ v-trNrfExpnSu-obReflExpl_expnDECL := io-refl-epon-verb-lexeme & top-verb-lexeme.
+Index: lex4.a-lrg.tdl
+===================================================================
+--- lex4.a-lrg.tdl	(revision 212)
++++ lex4.a-lrg.tdl	(working copy)
+@@ -49741,11 +49741,11 @@
+    SYNSEM [ LKEYS.KEYREL.PRED "_sirlig_a_rel",
+             LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+ 
+-sist_adj := stnd-adj-lxm &
+- [ INFLECTION nonfstr,
+-   STEM < "sist" >,
+-   SYNSEM [ LKEYS.KEYREL.PRED "_sist_a_rel",
+-            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
++;sist_adj := stnd-adj-lxm &
++; [ INFLECTION nonfstr,
++;   STEM < "sist" >,
++;   SYNSEM [ LKEYS.KEYREL.PRED "_sist_a_rel",
++;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+ 
+ sistnevnt_adj := stnd-adj-lxm &
+  [ INFLECTION nonfstr,
+Index: irules-a.tdl
+===================================================================
+--- irules-a.tdl	(revision 212)
++++ irules-a.tdl	(working copy)
+@@ -231,7 +231,7 @@
+ ;[ ARGS.FIRST adv-from-adj-superlat-lxm ].
+ 
+ adv-from-adj-pos-finstr_infl_rule :=
+-%suffix (t tt)(e ett)(a a)(o o)(ø øtt)(å ått)(u u)(i idt)(i itt)(æ ætt)(y y)(y ytt)(d dt)(dd dd)(ad ad)(id id)(øyd øyd)(øy øyt)(g gt)(gg gt)(k kt)(kk kt)(l lt)(ll lt)(n nt)(nn nt)(p pt)(pp pt)(m mt)(r rt)(rt rt)(nt nt)(rr rt)(s st)(gs gs)(v vt)(øt øtt)(et ett)(gt gt)(dsk dsk)(nsk nsk)(gsk gsk)(lsk lsk)(norsk norsk)(kt kt)
++%suffix (t tt)(e ett)(a a)(o o)(ø øtt)(å ått)(u u)(i idt)(i itt)(æ ætt)(y y)(y ytt)(d dt)(dd dd)(ad ad)(id id)(øyd øyd)(øy øyt)(g gt)(gg gt)(k kt)(kk kt)(l lt)(ll lt)(n nt)(nn nt)(p pt)(pp pt)(m mt)(r rt)(rt rt)(nt nt)(rr rt)(s st)(gs gs)(v vt)(øt øtt)(et ett)(gt gt)(dsk dsk)(nsk nsk)(gsk gsk)(lsk lskt)(rsk rskt)(msk mskt)(kt kt)
+ adv-from-adj-t-pos-word & 
+   [ ARGS.FIRST.INFLECTION finstr ].
+ 
+Index: lrules.tdl
+===================================================================
+--- lrules.tdl	(revision 212)
++++ lrules.tdl	(working copy)
+@@ -83,7 +83,8 @@
+ degadv-from-adj_t-pos-lrule := degadv-from-adj_t-pos-lxm.
+ adv-from-adj-superlat-lrule := adv-from-adj-superlat-lxm.
+ 
+-adj-to-bare-n-lrule := adj-to-bare-n-rule.
++; these two are such a nuisance
++adj-to-bare-n-lrule := adj-to-bare-n-rule.; but now very restricted 210713
+ ;adj-to-nonbare-n-lrule := adj-to-nonbare-n-rule.
+ adj-to-n-cum-quantifier-lrule := adj-to-n-cum-quantifier-rule.
+ adj-to-n-cum-indefarticle-lrule := adj-to-n-cum-indefarticle-rule.
+Index: norsk.tdl
+===================================================================
+--- norsk.tdl	(revision 211)
++++ norsk.tdl	(working copy)
+@@ -807,9 +807,11 @@
+ has-k := predsort.
+ mål-k := predsort.
+ død-k := predsort.
++søvn-k := predsort.
+ måte-k := relinan.
+ fare-k := relinan.
+ sang-k := relinan.
++vakt-k := relinan.
+ ;;;;;;;
+ 
+ selct := adhoc-norm.
+@@ -1135,8 +1137,8 @@
+ absadj0-epon := absadj0.
+ ; this one only on adj-lxm (ie, non-abs)
+ propt := adj-selct & predcomp.
++color := propt.
+ 
+-
+ adv-selct := selct.
+ pcl := adv-selct.
+ ut-pcl := pcl & ut-k.
+@@ -1154,7 +1156,7 @@
+ ved-pcl := pcl & ved-k.
+ 
+ comptizer := selct.
+-predcomp := comptizer.
++predcomp := comptizer & prim-mod.
+ predcomp-inf := predcomp.
+ predcomp-adj := predcomp.
+ predcomp-n := predcomp.
+@@ -1313,9 +1315,11 @@
+ inhr-comp := non-measurnoun.
+ leir-inhcmp := inhr-comp & leir-k.
+ død-inhcmp := inhr-comp & død-k.
++søvn-inhcmp := inhr-comp & søvn-k.
+ rundtur-inhcmp := inhr-comp.
+ fløyten-inhcmp := inhr-comp & fløyten-k.
+ has-inhcmp := inhr-comp & has-k.
++vakt-inhcmp := inhr-comp & vakt-k.
+ 
+ nom-k := reganim & reginan & relinan & relanim & dirnoun.
+ anonym-k := reganim & reginan & relinan & relanim & dirnoun & propt. 
+@@ -3375,7 +3379,7 @@
+     SYNSEM.LOCAL.CAT.HEAD #3 & cardnum & [KEYS.KEY crdnum,
+                                           DEGREE positive],
+     SYNSEM.LOCAL.XCAT [HEAD #3 ],
+-    SYNSEM.LOCAL.CAT.VAL.SPEC < [ LOCAL.CAT.HEAD nom ]>,     
++    SYNSEM.LOCAL.CAT.VAL.SPEC < [ LOCAL.CAT.HEAD np-head ]>,     
+     SYNSEM.LKEYS.KEYREL card-relation,
+ ;    SYNSEM.LKEYS.KEYREL card-arg1-relation & [ARG1 #1], ; gets rid of ARG1, and dependencies is now ok
+ ;    SYNSEM.LOCAL.CONT.HOOK.XARG #1, ; gets rid of ARG1, and dependencies is now ok
+@@ -3790,8 +3794,21 @@
+ ;LOCAL.CONT.HOOK.LTOP #2,
+ ;    				   ,
+ ;SYNSEM.LKEYS.KEYREL deictic-rel,
++;    SYNSEM.LKEYS.KEYREL.ARG1 #1 
+     
++dem-word-super := lbl-ltop-lex-item & lex-or-phrase-synsem & no-slash &
++  [ SYNSEM.LOCAL.CAT.HEAD det,
++    SYNSEM.LOCAL.CAT.VAL [ SUBJ <>,
++                           SPR <>,
++                           COMPS <>,
++                           SPEC < [SYNSEM.LOCAL.CONT.HOOK.LTOP #2,
++				   LOCAL.CONT.HOOK.INDEX #1 & [WH -],
++                                   LOCAL.CONT.RELS <! [LBL #2] !>] >],
++    SYNSEM.LOCAL.CONT.HOOK.LTOP #2,
++    SYNSEM.LOCAL.CONT.HOOK.INDEX #1,; this was commented away, not sure why.
++    SYNSEM.LKEYS.KEYREL arg0-relation ]. 
+ 
++#|
+ dem-word-super := lbl-ltop-lex-item & lex-or-phrase-synsem & no-slash &
+   [ SYNSEM.LOCAL.CAT.HEAD det,
+     SYNSEM.LOCAL.CAT.VAL [ SUBJ <>,
+@@ -3803,8 +3820,8 @@
+     SYNSEM.LOCAL.CONT.HOOK.LTOP #2,
+  ;   SYNSEM.LOCAL.CONT.HOOK.INDEX #1,
+     SYNSEM.LKEYS.KEYREL.ARG1 #1  ].
++|#
+ 
+-
+ dem-word-sup := dem-word-super &
+   [ SYNSEM.LOCAL.CAT.VAL.SPEC < [LOCAL.CAT.HEAD.DEF +] >,
+     SYNSEM.LOCAL.CONT.HCONS <!!> ].
+@@ -4157,7 +4174,7 @@
+     SYNSEM.LOCAL.CAT.VAL [ SUBJ list,
+                            SPR list,
+                            COMPS <>,
+-                           SPEC < [LOCAL.CAT.HEAD nom,
++                           SPEC < [LOCAL.CAT.HEAD np-head,
+                                    LOCAL.CONT.HOOK.INDEX #1,
+                                    LOCAL.CONT.HOOK.LTOP #3]>],
+     SYNSEM.LOCAL.CONT.HOOK comp-hook & [ INDEX #1 & [WH -] ],
+@@ -4307,6 +4324,7 @@
+ 
+ art-cardone-word-sup := indef-card-quantifier-word-sup &
+   [ SYNSEM.LOCAL.CAT.HEAD art,
++    SYNSEM.LOCAL.CAT.VAL.SPEC < [LOCAL.CAT.HEAD nom]>,
+     SYNSEM.LOCAL.CONT.RELS <! [PRED "_exactly_1_q_rel"] !>].
+ 
+ 
+@@ -4319,23 +4337,33 @@
+ ; "intet", "hvert"
+ quant-indef-card-neutsg-word := quant-indef-card-word &
+   [ SYNSEM.LOCAL.AGR.PNG.NG neutsg,
+-    SYNSEM.LOCAL.CAT.HEAD n-quant].
++    SYNSEM.LOCAL.CAT.HEAD n-quant,
++    SYNSEM.LOCAL.CAT.VAL.SPEC < [LOCAL.CAT.HEAD nom]>].
+ 
+ ; "ingenting" - should really be an 'np'-item, but provisionally:
+ quant-indef-card-mascsg-word := quant-indef-card-word &
+   [ SYNSEM.LOCAL.AGR.PNG.NG masc-sg,
+-    SYNSEM.LOCAL.CAT.HEAD n-quant ].
++    SYNSEM.LOCAL.CAT.HEAD n-quant,
++    SYNSEM.LOCAL.CAT.VAL.SPEC < [LOCAL.CAT.HEAD nom]> ].
+ 
+ ; "ingen", mange, flere (abs)
+ quant-indef-card-pl-word := quant-indef-card-word &
+   [ SYNSEM.LOCAL.AGR.PNG.NG pl,
+     SYNSEM.LOCAL.CAT.HEAD n-quant,
++    SYNSEM.LOCAL.CAT.VAL.SPEC < [LOCAL.CAT.HEAD nom]>,
+     SYNSEM.LOCAL.CONT.HOOK.INDEX.WH -,
+     SYNSEM.LOCAL.CMPAR-PENDING - ].
+ 
++quant-indef-card-univ-word := quant-indef-card-word &
++  [ SYNSEM.LOCAL.AGR.PNG.NG pl,
++    SYNSEM.LOCAL.CAT.HEAD n-quant,
++    SYNSEM.LOCAL.CONT.HOOK.INDEX.WH -,
++    SYNSEM.LOCAL.CMPAR-PENDING - ].
++
+ quant-indef-cmpar-card-pl-word := quant-indef-card-word &
+   [ SYNSEM.LOCAL.AGR.PNG.NG pl,
+     SYNSEM.LOCAL.CAT.HEAD quant,
++    SYNSEM.LOCAL.CAT.VAL.SPEC < [LOCAL.CAT.HEAD nom]>,
+     SYNSEM.LOCAL.CMPAR-PENDING bool ].
+ 
+ ; "ingen", "noen", "hver"
+@@ -4360,8 +4388,7 @@
+ ; "Ola drikker litt vin". Real quantification
+ quant-indef-adjcard2-sg-word := quant-indef-card-word &
+   [ SYNSEM.LOCAL.AGR.PNG.NG sg,
+-    SYNSEM.LOCAL.CAT.VAL.SPR <>,
+-    SYNSEM.LOCAL.CAT.HEAD adj-quant ].
++    SYNSEM.LOCAL.CAT.VAL.SPR <> ].
+ 
+ ; "litt", "mye" (comparable 'mass' quantifiers), combined with "svært"
+ ; or "hvor" - 'how much wine'
+@@ -6859,6 +6886,10 @@
+ trans-subord-expn-verb-lexeme := verb-lexeme &
+ [ SYNSEM trans-subord-expn-synsem ].
+ 
++; overlate det til Ola å
++trans-obl-subord-expn-verb-lexeme := verb-lexeme &
++[ SYNSEM trans-obl-subord-expn-synsem ].
++
+ ; spørre_tr-interr
+ trans-indirwhquest-verb-lexeme := verb-lexeme &
+ [ SYNSEM trans-indirwhquest-synsem ].
+@@ -8236,10 +8267,11 @@
+ 
+ ; associated with strong-adj-lxm:
+ ;& [DEF - ,
+-;							     DEFINITE -]
++;
++;SYNSEM.LOCAL.CAT.HEAD.MOD < [LOCAL.CAT.HEAD noun ]>,
++;    							     DEFINITE -]
+ stnd-adj-lxm := stnd-adj-lxm-sup & reg-mod-lex-item &
+-  [ SYNSEM.LOCAL.CAT.HEAD.MOD < [LOCAL.CAT.HEAD noun ]>,
+-    SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
++  [ SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
+     SYNSEM.LOCAL.CAN-MODIFY + ].
+ 
+                                       
+@@ -8793,7 +8825,7 @@
+   [ SYNSEM.LOCAL.CONT.HOOK.VARG #1,
+     SYNSEM.LOCAL.CMPAR-PENDING #2,
+     SYNSEM.LOCAL.CONT.HOOK.INDEX.WH #3,
+-    HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD nom,
++    HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD np-head,; rather than nom, to allow 'alle fire'
+ ;    HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD -, ; 'alle gule sover' must be allowed
+     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPR <>,
+     NON-HEAD-DTR.SYNSEM.LOCAL.CMPAR-PENDING #2,
+@@ -8838,13 +8870,15 @@
+     C-CONT.RELS <! !>,
+     C-CONT.HCONS <! !>  ].
+ 
+-head-spec-art-phrase-sup := head-spec-art-phrase-super-sup & head-spec-phrase-cardblock.
++head-spec-art-phrase-sup := head-spec-art-phrase-super-sup & head-spec-phrase-cardblock &
++  [ HEAD-DTR.SYNSEM.LOCAL.SPEC-TO-BARE-N - ].
+ 
+ head-spec-art-phrase := head-spec-art-phrase-2sup & head-spec-phrase-cardblock.
+ 
+ ;LH040513 turning this to 'list' is for n-connect-spr-phrase
+ head-spec-art-phrase-2sup := head-spec-art-phrase-super-sup &
+-  [ SYNSEM.LOCAL.CAT.VAL.SPEC list ].
++  [ SYNSEM.LOCAL.CAT.VAL.SPEC list,
++    HEAD-DTR.SYNSEM.LOCAL.SPEC-TO-BARE-N -].
+ 
+ 
+ head-spec-art-cum-plurspec-phrase := head-spec-art-phrase-sup &
+@@ -8926,7 +8960,8 @@
+     HEAD-DTR.SYNSEM.LOCAL.BND-RESP #5,
+     HEAD-DTR.RULE [ NEEDS-CARD bool,
+                    NOMORE-CARD - ],
+-    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD adj-quant & [KEYS.KEY adjquant-post],
++    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD adj-quant & [KEYS.KEY adjquant-post,
++						    DEGREE superlative],
+     C-CONT [ RELS <! !>,
+ 	     HCONS <! !>]].
+ 
+@@ -9770,7 +9805,7 @@
+     SYNSEM.LOCAL.BND-RESP #bndresp,
+     SYNSEM.LOCAL.ADJ-SITE-OPEN -,
+     HEAD-DTR.SYNSEM.LOCAL.BND-RESP #bndresp,
+-    HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD noun & [ DEF +],
++    HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD noun & [ DEF bool], ; from '+'
+     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #1 & [PNG.NG.NUM #3, ;perhaps not warranted, but N+N combinations are running wild ...
+                                                 WH -],
+     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <>,
+@@ -10470,7 +10505,7 @@
+     SYNSEM.LOCAL.CLIT-SITE-OPEN -,
+     SYNSEM.LOCAL.ADJ-SITE-OPEN -,
+ ;    HEAD-DTR.SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
+-    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD prep-ultra,    
++    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD prep-ultra & [KEYS.KEY prim-mod],    
+ ;    NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX [SORT item-specification],; han må hit
+     NON-HEAD-DTR.SYNSEM.LOCAL.WAIT-BND-RESP #resp,
+     NON-HEAD-DTR.SYNSEM.LOCAL.BINDING [ LEX-TAME - ],
+@@ -12048,7 +12083,7 @@
+      NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #1,
+      NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD adj & [KEYS.KEY propt],
+      NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
+-     NON-HEAD-DTR.SYNSEM.LOCAL.CAN-MODIFY + ].
++     NON-HEAD-DTR.SYNSEM.LOCAL.CAN-MODIFY +].
+ 
+ adjective-mod-phrase := adjective-mod-phrase-sup & a-mod-phrase.
+ 
+@@ -12568,9 +12603,11 @@
+ ;    ARGS < a-connect-word, sign >].
+ 
+ connect-a-mod-phrase := connector-leftmod-phrase & 
+-  [ SYNSEM.LOCAL.WH-ISLAND +,
++  [ SYNSEM.LOCAL.AGR #agr,
++    SYNSEM.LOCAL.WH-ISLAND +,
+     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD adj-reg & [MOD < [LOCAL.CAT.HEAD head]>],;because adjectives generally modify nouns
+     ARGS < a-connector, sign & [SYNSEM.LOCAL.CAT.HEAD adj-reg,
++				SYNSEM.LOCAL.AGR #agr,
+ 				SYNSEM.LOCAL.CAT.VAL [COMPS <>,
+ 						      ICOMPS <>],
+ 				SYNSEM.LOCAL.HAS-PERIOD -]> ].
+@@ -12619,7 +12656,7 @@
+ 				    VAL [ SUBJ <>,
+ ;					  SPR #spr,
+ ;					  SPR olist,
+-;					  SPR <>, ; to avoid 'ti' using cum-def-dem lrule in 'og ti'. olist doesn't suffice.; but sorry, to get 'Per, og Ola' with same rule for 'og' and ',', this condition must be erased.
++					  SPR <>, ; to avoid 'ti' using cum-def-dem lrule in 'og ti'. olist doesn't suffice.; but sorry, to get 'Per, og Ola' with same rule for 'og' and ',', this condition must be erased. owever, this leaves the N unconstrained relative to the many SPR-sensitive l-to-l-rules. Rather define ", og" as a single sign.
+ 					  SPEC olist,
+ 					  COMPS <>,
+ 					  ICOMPS <>]],
+@@ -12960,9 +12997,13 @@
+ 
+ ; gul  +  og grønn
+ a-connect-phrase := head-adj-phrase & rule &
+-  [ NON-HEAD-DTR connect-a-mod-phrase,
++  [ SYNSEM.LOCAL.AGR #agr,
+     SYNSEM.LOCAL.WH-ISLAND +,
+-;    HEAD-DTR adj-to-bare-n-rule,
++    HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD adj-reg,
++    HEAD-DTR.SYNSEM.LOCAL.AGR #agr,
++    NON-HEAD-DTR.SYNSEM.LOCAL.AGR #agr,
++    NON-HEAD-DTR connect-a-mod-phrase,
++    ;    HEAD-DTR adj-to-bare-n-rule,
+     C-CONT [RELS <! !>,
+             HCONS <! !>]].
+ 
+@@ -14180,11 +14221,11 @@
+ pp-mod-rel-n-phrase := pp-mod-phrase &
+   [ SYNSEM.LOCAL.DERIVED-HEAD #11,
+     SYNSEM.LOCAL.BND-RESP #5,
+-    SYNSEM.LOCAL.CAT.VAL #val & [SUBJ null,
++    SYNSEM.LOCAL.CAT.VAL #val & [SUBJ olist,
+ 				 COMPS null,
+ 				 ICOMPS null,
+ 				 SPEC null,
+-				 SPR null],
++				 SPR list], ; was null, preventing combination with genitive
+   ;  SYNSEM.NON-LOCAL #nl, ;; MHS 190713 This type inherits from basic-head--mod-phrase-simple-sup, which has non-local amalgation defined. As such, these re-entrancies are inappropriate.
+     RULE #6,
+     HEAD-DTR.RULE #6,
+@@ -15011,19 +15052,19 @@
+ s-adv-final-spec-v-phrase :=  main-cl-first-verb-spec-phrase & head-initial &
+   [  SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN -,
+      HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ < synsem >,
+-    HEAD-DTR.SYNSEM.LOCAL.ADJ-SITE-OPEN -,
++     HEAD-DTR.SYNSEM.LOCAL.ADJ-SITE-OPEN -,
+      HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
+      HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
+-    HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD [ INV -],
++     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD [ INV -],
+      NON-HEAD-DTR.CAN-OCCUR-FINAL + ].
+ 
+ s-adv-final-spec-invert-v-phrase :=  main-cl-first-verb-spec-phrase & head-initial &
+   [  SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN -,
+      HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ olist,
+-    HEAD-DTR.SYNSEM.LOCAL.ADJ-SITE-OPEN -,
++     HEAD-DTR.SYNSEM.LOCAL.ADJ-SITE-OPEN -,
+      HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
+      HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
+-    HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD [ INV +],
++     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD [ INV +],
+      NON-HEAD-DTR.CAN-OCCUR-FINAL bool ].
+ 
+ ; for clause-initial position ...
+@@ -15114,6 +15155,21 @@
+ s-adv-fragmfinal-n-spec-phrase := s-adv-fragmfinal-spec-phrase-sup &
+   [ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD nominal ].
+ 
++s-adv-final-spec-v-subord-phrase :=  first-verb-specification & basic-head-spec-tweak-phrase & head-initial &
++  [  SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN -,
++     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ < synsem >,
++     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD [ MAIN-CL -],
++     HEAD-DTR.SYNSEM.LOCAL.ADJ-SITE-OPEN -,
++     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
++     HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS <>,
++     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD [ INV -],
++     NON-HEAD-DTR.CAN-OCCUR-FINAL +,
++     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC < [LOCAL.CONT.HOOK.LTOP #5] >,
++     NON-HEAD-DTR.SYNSEM.LOCAL.CONT.RELS <! [LBL semarg,
++					     ARG1 #5] !>,
++     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD s-adv  ].
++
++
+ ;;  ALTERED for malgram
+ 
+ ; semarg <- #lbl
+@@ -15784,7 +15840,8 @@
+     SYNSEM.LOCAL.CONT.HOOK.INDEX #1 & [WH -],
+     HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD nom & [RELATIVPRON -],
+     HEAD-DTR.SYNSEM.LOCAL.BINDING.BOUND -,
+-;    HEAD-DTR.SYNSEM.LOCAL.SPEC-TO-BARE-N -,
++    HEAD-DTR.SYNSEM.LOCAL.SPEC-TO-BARE-N -,
++    HEAD-DTR.SYNSEM.LOCAL.CARD-TO-BARE-N -, ; 'en' first in a clause gets interpreted as relative head
+ ;    HEAD-DTR.SYNSEM.LOCAL.DERIVED-HEAD -,
+     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ <>,
+     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <>,
+@@ -18546,8 +18603,10 @@
+ 			     LARG #16] !>].
+ |#
+ 
++; muliggjøre det å komme
+ ;LH may8-11
+ ;				 CONT.HOOK.INDEX expl-ind ]],
++
+ trans-subord-expn-synsem := arg1-subj-synsem &
+   [LOCAL.CONT.HOOK hook,
+    LOCAL.CAT.VAL.COMPS < [LOCAL[ CAT.HEAD expl-pron,
+@@ -18558,6 +18617,17 @@
+    LOCAL.CAT.VAL.ICOMPS <>,
+   LKEYS.KEYREL.ARG2 #2 ].
+ 
++; overlate det til Ola å komme
++trans-obl-subord-expn-synsem := arg1-subj-synsem &
++  [LOCAL.CONT.HOOK hook,
++   LOCAL.CAT.VAL.COMPS < [LOCAL[ CAT.HEAD expl-pron,
++				 CONT.HOOK.INDEX ref-ind ]],
++			 [LOCAL.CAT.HEAD glob-comp & [TRANSPAR -],
++                          LOCAL.CAT.HEAD.IMPERATIVE -,
++			  LOCAL.CONT.HOOK.LTOP #2 & semarg] >,
++   LOCAL.CAT.VAL.ICOMPS <[]>,
++  LKEYS.KEYREL.ARG2 #2 ].
++
+ ;if subclassification needed, the these, pls the conditional
+ #|
+ trans-subord-expn-decl-synsem := trans-subord-expn-synsem &
+@@ -20380,7 +20450,8 @@
+     SYNSEM.LOCAL.DERIVED-HEAD +,
+     SYNSEM.LOCAL.DERIVED-BARE-N-FROM-ADJ +,
+     DTR.SYNSEM.LOCAL [ DERIVED-BARE-N-FROM-ADJ +,
+-		       CONT.HOOK.LTOP #3 ] ].
++		       CONT.HOOK.LTOP #3,
++		       CAT.HEAD.KEYS.KEY color] ].
+ 
+ 
+ #|
+@@ -20546,10 +20617,11 @@
+     SYNSEM.LOCAL.CAT [ HEAD.DEFINITE -,
+                        HEAD.DEF +,
+                        HEAD.BARE +,
+-                       VAL.SPR <> ],
++                       VAL.SPR <>,
++		       HEAD.KEYS.KEY predsort],; KEYS.KEY #kk comment out, to enable 'døde i 1030'
+     DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #3,
+     DTR cardinal-word & 
+-        [ SYNSEM.LOCAL.CAT.HEAD cardnum,
++        [ SYNSEM.LOCAL.CAT.HEAD cardnum & [KEYS.KEY predsort],; KEYS.KEY #kk comment out, to enable 'døde i 1030'
+           SYNSEM.LOCAL.CONT.HOOK.XARG.PNG.PERS #1] ].
+ 
+ ; motivated mainly by "andre" as in "andre kommer"; so perhaps rather a special lexical entry for "andre" for such uses
+Index: lex3.p-adv-full.tdl
+===================================================================
+--- lex3.p-adv-full.tdl	(revision 212)
++++ lex3.p-adv-full.tdl	(working copy)
+@@ -821,6 +821,10 @@
+   [ STEM < "vanligvis" >,
+     SYNSEM.LKEYS.KEYREL.PRED "_vanligvis_adv_rel"].
+ 
++til-å-begynne-med_reg_adv := adv-word-reg &
++  [ STEM < "til", "å", "begynne", "med" >,
++    SYNSEM.LKEYS.KEYREL.PRED "_til-å-begynne-med_adv_rel"].
++
+ fremdeles_reg_adv := adv-word-reg &
+   [ STEM < "fremdeles" >,
+     SYNSEM.LKEYS.KEYREL.PRED "_fremdeles_adv_rel"].
+lhellan@HFF30626:~/lkb_grammars/norsource_1.0$ 

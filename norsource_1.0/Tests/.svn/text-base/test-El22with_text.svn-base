@@ -1,0 +1,756 @@
+;;; -*- Coding: utf-8; -*-
+;
+;
+; 2.  Bestemthetsform hos adjektivet
+;I ubestemt form får adjektivene %Gâ%@t i intetkjønn entall og %Gâ%@e i flertall. I bestemt form ender adjektivene på %Gâ%@e.
+;1.Time begynte klokka kvart over åtte. (Kina, 1)
+Timen begynte klokka kvart over åtte.
+;2.Jeg leser norskbok mellom klokka ni og ti. (Bangladesh, 1)
+Jeg leser boka mellom klokka ni og ti.
+;3.Gamle mennesker i denne gruppe har ikke noe problem. (Ghana, 1)
+Gamle mennesker i denne gruppa har ikke noe problem.
+;4.Om ettermiddag spiser det lunsj og sover til kvelden. (Pakistan, 1)
+Om ettermiddagen spiser de lunsj og sover til kvelden.
+;5.Først går jeg på bibliotek. (Bangladesh, 1)
+Først går jeg på biblioteket.
+;6.Jeg har så fine romkameratene. (Bangladesh, 1)
+Jeg har så fine kamerater.
+;7.Jeg kjøpte fire agurkene og to kinakålene. (Kina, 1)
+Jeg kjøpte fire agurker og to tomater.
+;8.Gamle menneskene gjør ikke veldig tungt yrke. (Ghana, 1)
+Gamle mennesker gjør ikke veldig tungt arbeid.
+;9.På mandag ettermiddagen har jeg norsktimer. (Kina, 1)
+På mandag ettermiddag har jeg norsktimer.
+;10.Hvert programmet er enten propaganda eller underholdning. (USA, 2)
+Hvert program er enten propaganda eller underholdning.
+;
+;3.  Numeruskongruens: Adjektiv og substantiv
+;Det skal være samsvar i numerus mellom adjektivet og substantivet i setningen.
+;1.Vanligvis er det vanskelig å få en plass ved universitetet for de elevene som er fra en dårlige videregående skole. (Kina, 3)
+Vanligvis er det vanskelig å få plass ved universitetet for de elevene som er fra en dårlig videregående skole.
+;2.Jeg lærer å lage norske mat. (Mexico)
+Jeg lærer å lage norsk mat.
+;3.Norge er et rike land. (Rwanda)
+Norge er et rikt land.
+;4.Brasil har store sosial variasjoner. (Brasil, 1)
+Brasil har store sosiale variasjoner.
+;5.Nye farge kom på trærne om høsten. (Brasil)
+Ny farge kom på trærne om høsten. 
+;6.De som har fått utdanning er for det meste kledd i gammeldags klær. (Ghana, 1)
+De som har fått utdanning er for det meste kledd i gamle klær.
+;7.Norge er et stille land med greie og nydelige menneske. (Ghana, 1)
+Norge er et stille land med greie og nydelige mennesker.
+;8. Jeg er sulten og putter vann, salt kjøtt, gul erter og kinakål sammen. (Kina, 1)
+Jeg er sulten og putter vann, salt kjøtt, gule erter og kål sammen.
+;9.Jeg kjøpte masse afrikanske mat der. (Nigeria, 2)
+Jeg kjøpte mye afrikansk mat der.
+;10.Etterpå skal jeg kjøpe bare norsk romaner og sladderblader. (Nigeria, 1)
+Etterpå skal jeg kjøpe bare norske romaner og blader.
+;
+;4.  Numeruskongruens : Determinant og substantiv
+;Det skal være samsvar i numerus mellom determinant og substantiv.
+;Eksempel:
+;1.For en måneder siden, snakket jeg ikke norsk. (Kina, 1)
+For en måned siden snakket jeg ikke norsk.
+;2.Det var de første helg jeg har vært i Norge. (Tyskland)
+Det var de første helgene jeg var i Norge.
+;3.Men hvert små tingene kan blir katastrofale i future. (India, 3)
+Hver liten ting kan bli katastrofal i framtida.
+;4.Folke er ikke følsom denne dager. (India, 3)
+Folk er ikke følsomme denne dagen.
+;5.Fordi det er noe ganger vanskelig. (Ghana, 1)
+Det er vanskelig noen ganger.
+;6.De liker samme mat som det yngre. (Ghana, 1)
+De liker samme mat som de yngre.
+;7.Hvis man er fortsatt sprek kan han/hun også søke jobb i andre bedrift. (Ghana, 1)
+Hvis man fortsatt er sprek kan man også søke jobb i andre bedrifter.
+;8.Mange norske akademiker og nesten alle anstendig politiker, unntatt fra det Frp har innrømmet at norske arbeidsgivere fremdeles har stereotype forholdninger til mørke hudede. (Tamil, 3)
+Mange norske akademikere og nesten alle anstendige politikere, unntatt fra Frp har innrømmet at norske arbeidsgivere fremdeles har stereotype holdninger til mørkhudede.
+;9.Ofte kjøper jeg noe sladderblader. (Nigeria, 1)
+Ofte kjøper jeg noen blader.
+;10.Noen av ektepar skal til naturen eller andre byer flere ganger hvert år. (Kina, 1)
+Noen av ekteparene skal til naturen eller andre byer flere ganger hvert år.
+;
+; 5.  Genuskongruens: Determinant og substantiv
+;Det skal være samsvar i genus mellom determinant og substantiv.
+;Eksempel:
+;1.I en oljeraffineri hvor jeg ikke trivdes, arbeidet jeg. (Sri Lanka, 1)
+I et oljeraffineri hvor jeg ikke trivdes, arbeidet jeg.
+;2.Det vil være en typisk eksempel. (Russland, 3)
+Det vil være et typisk eksempel.
+;3.Vi studerer et leksjon hver dag. (Kina, 1)
+Vi studerer en leksjon hver dag.
+;4.Inversjon er allerede en problem for meg. (Brasil, 1)
+Inversjon er allerede et problem for meg.
+;5.Jeg gikk til det andre siden av veien før jeg fikk taxi. (Ghana, 1)
+Jeg gikk til den andre siden av veien før jeg fikk taxi.
+;6.Til å begynne med forsto jeg ikke norsk og kjente ikke en menneske her. (Kina, 1)
+Til å begynne med forsto jeg ikke norsk og kjente ikke et menneske her.
+;7.Det er det viktigste fordel jeg kan få. (Kina, 1)
+Det er den viktigste fordelen jeg kan få.
+;8.Jeg så et dokumentarfilm på Discovery Channel. (Tamil, 3)
+;9.Det er ikke et overraskelse. (USA, 2)
+Det er ikke en overraskelse.
+;10.En god økonomi er et viktig del av ekteskapene. (Nigeria, 2)
+En god økonomi er en viktig del av ekteskapene.
+;
+; 6.  Genuskongruens : Adjektiv og substantiv
+;Adjektivet bøyes i samsvar med substantivets genus.
+;Eksempel:
+;1.Derfor kan en få godt kunnskap om folk. (Eritrea, 1)
+Derfor kan en få god kunnskap om folk.
+;2.Jeg synes at blokken står på et attraktiv og praktisk sted. (Singapore, 1)
+Jeg synes at blokken står på et attraktivt og praktisk sted.
+;3.Dette er et ren tilfelle. (Tamil, 3)
+Dette er et rent tilfelle.
+;4.Men til samene, som har en intim tilknytning til natur og kald vær, var det ikke noe problem. (Tamil, 3)
+Men for samene, som har en intim tilknytning til natur og kaldt vær, var det ikke noe problem.
+;5.Denne trist historien har laget den situasjonen som nåværende gamle må streve med. (Sri Lanka, 1)
+Denne triste historien har laget den situasjonen som nåværende gamle må streve med.
+;6.De har barne som har godt ledende Stilling. (Ghana, 1)
+De har et barn som har en god ledende stilling.
+;
+; 7.  Numeruskongruens: Pronomen og substantiv
+;Det må være samsvar i numerus mellom pronomenet og substantivet i setningen.
+;Eksempel:
+;1.Jeg bruker ganske mye Internett for mine studie. (Nigeria, 2)
+Jeg bruker ganske mye Internett i mine studier.
+;2.Vi har noen skole for gutt og jente. (Irak)
+Vi har noen skoler for gutter og jenter.
+;3.Men du har også tid å være med dine barna. (Tsjekkia)
+Men du har også tid til å være med dine barn.
+;4.Jeg aldri arbeidet overtid på grunn av barna mi. (Bosnia, 3)
+Jeg arbeidet aldri overtid på grunn av barna mine.
+;5.Men før jeg lager mat, vil jeg støvsuger hybelen våre. (Ghana, 1)
+Men før jeg lager mat, vil jeg støvsuge hybelen vår.
+;6.Jeg savner så mye alle i min familie og min venner. (Singapore, 1)
+Jeg savner alle i min familie og mine venner så mye.
+;
+; 8.  Genuskongruens: Pronomen og substantiv
+;Det må være samsvar i genus mellom substantivet og pronomenet i en setning.
+;Eksempel:
+;1.Men han har, uten tvil, vellykket i å fremvise sin kultur og sin folk til verden. (Tamil, 3) 
+Men han har,  uten tvil, lyktes med å vise frem sin kultur og sitt folk til verden.
+;2.Av og til skrever jeg dikt i min språk. (Kosovo, 3)
+Av og til skriver jeg dikt i mitt språk.
+;3.Siden det var min første besøk, var jeg redd. (Ghana, 1)
+Siden det var mitt første besøk, var jeg redd.
+;4.Undertiden vil jeg gjerne å ligge på senga min. (Ghana, 1)
+Undertiden vil jeg gjerne ligge på senga mi.
+;5.Da vi vasker opp og rydder kjøkkenet vår. (Eritrea, 1)
+Da vasker vi opp og rydder kjøkkenet vårt.
+;6.¡ÉSola skinner¡É blir ord som en bare finner i tekstboka sitt. (Kina, 1)
+"Sola skinner" blir ord som en bare finner i boka si.
+;7.Med veiviseren var de to sterke elementer tilsettet til mitt kunnskap om Norge. (Tamil, 3)
+Med veiviseren var de to sterke elementene tilsatt min kunnskap om Norge.
+
+; 9.  Predikativkongruens
+;Predikativet beskriver subjektet og knyttes til subjektet ved hjelp av kopulaverb. Være og bli er de vanligste verbene.
+;Eksempel:
+;1.Alt er så dyre i Norge.  (Ghana, 1)
+Alt er så dyrt i Norge.
+;2.Vi var tørst og sulten så vi kjøpte is. (Sri Lanka, 1)
+Vi var tørste og sultne, så vi kjøpte is.
+;3.Vi var glad. (Kina, 1)
+Vi var glade.
+;4.Bibliotekene er veldig godt. (Kina, 1)
+Bibliotekene er veldig gode.
+;5.Vi er spesielt glad i vår stue og kjøkken. (Singapore, 1)
+Vi er spesielt glade i vår stue og kjøkken.
+;6.Disse variasjoner er herlig å se på. (Brasil, 1)
+Disse variasjonene er herlige å se på.
+;7.Etter timene er vi sulten og trøtt. (Kina, 1)
+Etter timene er vi sultne og trøtte.
+;8.De er snill og jeg sitter på når jeg går hjem. (Kina, 1)
+De er snille og jeg sitter på når jeg skal hjem.
+;9.Skoles system i Kina er like som i Norge. (Kina, 3)
+Skolesystemet i Kina er likt som i Norge.
+;10.Norge er kjemperike på innsjøer, vann, fosser og elver i alle landsdeler. (Russland, 3)
+Norge er veldig rikt på innsjøer, vann, fosser og elver i alle landsdeler.
+;
+;10.  Presens og preteritum etter infinitivsmerket
+;Etter infinitivsmerket må verbet alltid stå i infinitiv.
+;Eksempel:
+;1.Så, vi har å går på gym for exercise. (India, 3)
+Så vi bruker å gå på gym for å trene.
+;2.Det er vanskelig å vakner så tidlig. (Bangladesh, 1)
+Det er vanskelig å våkne så tidlig.
+;3.Det er noen ganger vanskelig å spør nordmann spørsmål. (Ghana, 1)
+Det er noen ganger vanskelig å spørre nordmenn.
+;4.Så jeg åpent døra og var overrasket å så min venn fra Oslo. (Pakistan, 1)
+Så jeg åpnet døra og var overrasket over å se min venn fra Oslo.
+;5.Du vet at jeg liker å ser på film. (Ghana, 1)
+Du vet at jeg liker å se på film.
+;6.Jeg liker å går ut om vinteren her. (Brasil, 1)
+Jeg liker å gå ut om vinteren her.
+;7.Jeg synes, de nye reglene for norsk statsborgerskap ville gjort det lettere for innvandrere å ble hjemmehørende i Norge. (Tyskland, 3)
+Jeg mener at de nye reglene for norsk statsborgerskap ville gjort det lettere for innvandrere å bli hjemmehørende i Norge.
+;8.Når en forteller om gamle mennesker i Sri Lanka er det vanskelig å betrakter alle gamle på den samme måten. (Sri Lanka, 1)
+Når en forteller om gamle mennesker i Sri Lanka er det vanskelig å betrakte alle gamle på samme måte.
+;9.Selv om jeg får fordelen av å lærte et nytt språk er det litt vanskelig synes jeg. (Sri Lanka, 1)
+Selv om jeg får fordelen av å lære et nytt språk, er det litt vanskelig.
+;10.Det var vanskelig å husket alle. (Kina, 1)
+Det var vanskelig å huske alle.
+;
+;11.  Presens og preteritum for infinitivsform
+;Verbalet består av enten et finitt verb alene eller et finitt og ett eller flere infinitte verb.  To eller flere finitte verb kan ikke utgjøre verbalet i en setning.
+;Eksempel:
+;1.Deretter vil jeg lager maten. (Ghana, 1)
+Deretter vil jeg lage maten.
+;2.Så kan jeg sover for lang tid. (Bangladesh, 1)
+Jeg kan sove i lang tid.
+;3.Når du skal kommer hit for å besøke meg, er jeg sikke at du liker virkelig å være her. (Etiopia, 1)
+Når du skal komme hit for å besøke meg, er jeg sikker på at du virkelig liker å være her.
+;4.Jeg skal ser mange ting. (Bangladesh, 1)
+Jeg skal se mange ting.
+;5.Jeg vil gjerne ikke lengter hjem. (Ghana, 1)
+Jeg vil gjerne ikke lengte hjem.
+;6.Men før jeg lager mat, vil jeg vasker opp og deretter vil jeg lager maten. (Ghana, 
+1)
+Men før jeg lager mat, vil jeg vaske opp og deretter vil jeg lage maten.
+;7.De vil alltid spiller sjakk. (Nigeria,1)
+De vil alltid spille sjakk.
+;8.Jeg ville klipper håret i sentrum. (Kina, 1)
+Jeg ville klippe håret i sentrum.
+;9.Nå jeg må går til AVH. (Sri Lanka, 1)
+Nå må jeg gå til universitetet.
+;10.Det er bedre enn går ut om sommeren i Brasil. (Brasil, 1)
+Det er bedre enn å gå ut om sommeren i Brasil.
+;
+;12.  Infinitiv for presensform
+;En setning må alltid inneholde et verb i presens, preteritum eller imperativ (finitt del).
+;Eksempel:
+;1.Men jeg tro at Danmark føler skam over deg. (USA, 2)
+Men jeg tror at Danmark føler skam over deg.
+;2.Det er ikke vanskelig å forstå hvorfor mennesker reise til Sverige for handle. (Brasil, 1)
+Det er ikke vanskelig å forstå hvorfor mennesker reiser til Sverige for å handle.
+;3.Jeg lure på hva de lokale folk tenker om det. (Singapore, 1)
+Jeg lurer på hva det lokale folket tenker om det.
+;4.Skolens lege passe på elevene. (Russland, 3)
+Skolens lege passer på elevene.
+;5.Hver student lage mat. (Bangladesh, 1)
+Hver student lager mat.
+;6.Først de invitere vennene. (Ghana, 1)
+Først inviterer de vennene.
+;7.Så til tross for at vi ennå er vennlige mot hverandre og hjelpe hverandre når det er nødvendig, føler jeg meg litt alene. (Kina, 1)
+Så til tross for at vi ennå er vennlige mot hverandre og hjelper hverandre når det er nødvendig, føler jeg meg litt alene.
+;8.I hvert fall de foretrekke å være hjemme bedre enn sykehus. (Sri Lanka, 1)
+I hvert fall foretrekker de heller å være hjemme enn på sykehus.
+;9.Det er upraktisk når jeg lage mat. (Kina, 1)
+Det er upraktisk når jeg lager mat.
+;10.Jeg har aldri gått på ski, men jeg tro jeg like det. (Kina, 1)
+Jeg har aldri gått på ski, men jeg tror jeg liker det.
+;
+;13.  Bruk av refleksivform
+;Mange verb står med refleksivt objekt.  Ved noen av disse verbene er det obligatorisk å ha med det refleksive pronomenet.  
+;De tre siste eksemplene skiller seg noe ut.
+;Eksempel:
+;1.Noen ganger føler elevene * sliten og nervøs i timene. (Kina, 1)
+Noen ganger føler elevene seg slitne og nervøse i timene.
+;2.Hvis jeg ser * omkring så har jeg bare naboer som har ett barn. (Tyskland, 3)
+Hvis jeg ser meg omkring, så har jeg bare naboer som har ett barn.
+;3.Jeg likte * her. (Etiopia, 1)
+Jeg likte meg her.
+;4.Jeg holder på å like * her. (Kina, 1)
+Jeg holder på å like meg her.
+;5.Det er veldig bra for øve * å skrive. (Brasil, 1)
+Det er veldig bra for å øve seg på å skrive.
+;6.Jeg beklaget * mye over de sommer temperaturene. (Singapore, 1)
+Jeg beklaget meg mye over sommertemperaturene.
+;7.Vi var 60 studenter som bestemte seg å reise med tog. (Pakistan, 1)
+Vi var seksti studenter som bestemt oss for å reise med tog.
+;8.I denne perioden bosatte seg mange tyskere i nærheten av den russiske hovedstaden. (Russland, 3)
+I denne perioden bosatte mange tyskere seg i nærheten av den russiske hovedstaden.
+;9.De lage mat seg i Norge. (Bangladesh, 1)
+De lager seg mat i Norge.
+;
+;14.  Overflødig bruk av infinitivsmerket
+;I setninger med modale hjelpeverb (+ verbet få) brukes ikke infinitivsmerket foran infinitt del av verbet.
+;Eksempel:
+;1.Jeg vil gjerne å arbeide i Sør- Amerika. (Spania)
+Jeg vil gjerne arbeide i Sør- Amerika.
+;2.Jeg vil studere norsk ved universitetet og å få gode kunnskap i norsk. (Russland)
+Jeg vil studere norsk ved universitetet og få gode kunnskaper i norsk.
+;3.Man får ikke å vite mye om personene. (Island, 3)
+Man får ikke vite mye om personene.
+;4.Jeg har ikke mange venner derfor kan ikke jeg å besøke dem. (Iran)
+Jeg har ikke mange venner, derfor kan jeg ikke besøke dem.
+;5.Skal jeg å se på TV og å høre på musikk. (Ghana, 1)
+Jeg skal se på TV og høre på musikk.
+;6.Jeg gleder meg til å den ferien. (Kina, 1)
+Jeg gleder meg til den ferien.
+;7.Undertiden vil jeg gjerne å ligge på senga min. (Ghana, 1)
+Undertiden vil jeg gjerne ligge på senga mi.
+;
+;15.  Utelatt infinitivsmerke
+;Infinitivsmerket å brukes foran verb i infinitiv.  
+;Eksempel:
+;1.Det er ikke vanskelig å forstå hvorfor mennesker reise til Sverige for * handle. (Brasil, 1)
+Det er ikke vanskelig å forstå hvorfor mennesker reiser til Sverige for å handle.
+;2.Dompapen fortsatte * fløyte. (Afghanistan)
+Dompapen fortsatte å fløyte.
+;3.Jeg liker * svømme og jeg skal til svømmehallen. (Etiopia)
+Jeg liker å svømme og jeg skal til svømmehallen.
+;4.De fortsetter * drikke sammen. (Ghana, 1)
+De fortsetter å drikke sammen.
+;5.Jeg pleier * fortelle ham om kurset i Norge. (Ghana, 1)
+Jeg pleier å fortelle ham om kurset i Norge.
+;6.Jeg er nå i Trondheim for * studere. (Ghana, 1)
+Jeg er nå i Trondheim for å studere.
+;7.Noen av mennesker vil gjerne betjene for allmenheten som * hjelpe politikonstabler til trafikken. (Kina, 1)
+Noen av menneskene vil gjerne betjene allmennheten, som å hjelpe politikonstabler i trafikken.
+;8.Vi begynner * studere klokka kvart over åtte. (Ghana, 1)
+Vi begynner å studere klokka kvart over åtte.
+;
+;16.  Utelatt subjekt
+;
+;I tillegg til et finitt verb, må setningen alltid inneholde et subjekt (bortsett fra i imperativsetninger).
+;Eksempel:
+;1.Hvordan går * med deg og studiet ditt? (Nigeria, 2)
+Hvordan går det med deg og studiet ditt?
+;2.I morgen er * fredag, og vi skal ikke ha timer. (Kina, 1)
+I morgen er det fredag, og vi skal ikke ha timer.
+;3.Blader er * alltid på trærne. (Brasil, 1)
+Blader er det alltid på trærne.
+;4.Iblant kjøper * klær. (Bangladesh, 1)
+Iblant kjøper jeg klær.
+;5.I Bangladesh har * ikke avdeling for gamle mennesker. (Bangladesh, 1)
+I Bangladesh har vi ikke avdeling for gamle mennesker.
+;6.I dag er * fredag. (Ghana, 1)
+I dag er det fredag.
+;7.Så ofte ser * på mange programmer. (Ghana, 1)
+Ofte ser de på mange programmer.
+;8.Men er * egentlig det?(Tamil, 3)
+Er det egentlig det?
+;9.Etterpå tørker * meg med håndkle. (Ghana, 1)
+Etterpå tørker jeg meg med håndkle.
+;10.Etterpå leser * boka. (Nigeria, 1)
+Etterpå leser vi boka. 
+;
+;17.  Utelatt finitt verbal
+;En setning må alltid inneholde et finitt verb (presens, preteritum, imperativ).
+;Eksempel:
+;1.De unge * respekt for de gamle. (Kina, 1)
+De unge har respekt for de gamle.
+;2.Vi * framme til Oslo klokka ti. (Pakistan, 1)
+Vi var framme i Oslo klokka ti.
+;3.Livet her * ikke verst. (Ghana, 1)
+Livet her er ikke verst.
+;4.De som har fått utdanning * for det meste kledd gammeldagse klær. (Ghana, 1)
+De som har fått utdanning er for det meste kledd i fine klær.
+;5.En person * drept, men de andre var OK. (Ghana, 1)
+En person ble drept, men de andre var OK.
+;6.Klokka tre ringte jeg til en venn som også * fra Ghana. (Ghana, 1)
+Klokka tre ringte jeg til en venn som også var fra Ghana.
+;7.Hvis de * syke, er det fri på sykehus. (Kina, 1)
+Hvis de er syke, er det gratis på sykehuset.
+;8.Men bare eldre mennesker som ikke * noen barn, bor der. (Sri Lanka, 1)
+Men bare eldre mennesker som ikke har noen barn bor der.
+;9.Unnskyld meg for å skrive et brev så sent. (Bangladesh, 1)
+Unnskyld meg for at jeg skriver et brev så sent.
+;10.Olje- og gassvirksomhet * gjort Norge et av verdens rikeste land. (Tamil, 3)
+Olje og gassvirksomhet har gjort Norge til et av verdens rikeste land. 
+;
+;18.  Inversjon
+;Verbal og subjekt bytter plass i setningen. 
+;Eksempel:
+;1.Før skriver jeg om nyhetsbilder, må jeg fortelle om standpunktet mitt. (USA, 2)
+Før jeg skriver om bilder, må jeg fortelle om livet mitt.
+;2.Jeg tror har du det bra. (Ghana, 1)
+Jeg tror du har det bra.
+;3.Programmet liker jeg best er en amerikansk serie. (Ghana, 1)
+Programmet jeg liker best er en amerikansk serie.
+;4.Da jeg starter dagen med en bønn om hjelp. (Ghana, 1)
+Da starter jeg dagen med en bønn om hjelp.
+;5.Da jeg sover litt. (Sri Lanka, 1)
+Da sover jeg litt.
+;6.I brevet ditt du spurte om meg. (Kina, 1)
+I brevet ditt spurte du om meg.
+;7.Derfor det er vanskelig. (Kina, 1)
+Derfor er det vanskelig.
+;8.Det vanligste er at basert på det siste vitnemålet, lærerne foreslår en av tre mulige skoleår. (Tyskland, 3)
+Det vanligste er at basert på det siste vitnemålet, foreslår lærerne et av tre mulige skoleår.
+;9.Selv om har Norge lite dyrka jord, er det selvsagt at Norge har gode ressurser for videre utvikling. (Russland, 3)
+Selv om Norge har lite dyrka jord, er det selvsagt at Norge har gode ressurser for videre utvikling.
+;10.Kom vi hjem og sov. (Pakistan, 1)
+Vi kom hjem og sov.
+;
+;19.  Antall finitte verb
+;I en setning skal det bare være en finitt verbform (dvs. presens, preteritum, imperativ).
+;Eksempel:
+;1.Jeg er prøver å studere. (Nigeria, 1)
+Jeg prøver å studere.
+;2.Vi skal ha besøke fra USA. (Mexico)
+Vi skal ha besøk fra USA.
+;3.Jeg vil prøver å arbeide i byen min. (Spania)
+Jeg vil prøve å arbeide i byen min.
+;4.Vi viser respekterer hverandre. (Iran)
+Vi viser respekt for hverandre.
+;5.Jeg pleier alltid løper og jogger. (Iran)
+Jeg pleier alltid å løpe og jobbe.
+;6.Noen pessimister kan finner det som en av katastrofale problemer i verden. (India, 3)
+Noen pessimister finner det som et av de katastrofale problemer i verden. 
+;7.Vinter er kommer fort. (Bangladesh, 1)
+Vinter kommer fort.
+;8.De er som alltid går til kirken. (Etiopia, 1)
+De som alltid går til kirken står tidlig opp.
+;9.Jeg pleier står opp klokka fem over halv åtte. (Ghana, 1)
+Jeg pleier å stå opp klokka fem over halv åtte.
+;10.I første tre uker det var regnet hver dag. (Kina, 1)
+I de første tre ukene regnet det hver dag.
+;
+;20.  Utelatt objekt
+;Noen ganger krever verbalet et objekt, sammen med subjektet, for å danne mening.
+;Eksempel:
+;1.Jeg venter på * . (Kina)
+Jeg venter på deg.
+;2.Du kan bare vente på *. (Italia, 3)
+Du kan bare vente på meg.
+;3.Jeg har fått låne * i Norge. (Bangladesh, 1
+Jeg har fått låne penger i Norge.
+;4.Jeg synes det er bra trening for * selv. (Kina, 1)
+Jeg synes det er bra trening for meg selv.
+;5.Været var fint så vi bestemte * for å bli der i to timer. (Pakistan, 1)
+Været var fint, så vi bestemte oss for å bli der i to timer.
+;6.De har ikke * å gjøre. (Pakistan, 1)
+De har ikke noe å gjøre.
+;
+;21.  Enkeltstående leddsetning
+;For å gi mening må en leddsetning være knytta til en hovedsetning.
+;
+;Eksempel:
+;1.Fordi systemet i Nigeria ikke har tatt forhåndsregler, for de gamle menneskene. (Nigeria, 1)
+;2.Andre som bor i stad og arbeider. (Bangladesh, 1)
+;3.Etter at gikk vi til Obs med NNs bil. (Sri Lanka, 1)
+;4.På grunn av de har gode kunnskap på arbeide. (Afghanistan)
+;
+;22.  Plassering av adverbial
+;Vanligvis er adverbialet plassert etter subjektet og det finitte verbalet i setningen. Den infinitte delen av verbet, direkte og indirekte objekt og predikativ plasseres etter adverbialet.  I leddsetning står ikke foran finitt verbal. 
+;Eksempel
+;1.Været er sjenert alltid. (Etiopia, 1)
+Været er alltid sjenerende.
+;2.De snakker sammen høyt. (Ghana, 1)
+De snakker høyt sammen.
+;3.Derfor lengter de hjem alltid. (Ghana, 1)
+Derfor lengter de alltid hjem.
+;4.Men jeg spiser alltid ikke det. (Etiopia, 1)
+Men jeg spiser ikke alltid det. 
+;5.Vi endelig rakk til Moholt klokka halv to. (Ghana, 1)
+Vi rakk endelig Moholt klokka halv to.
+;6.Hvis en kunne ikke få eget hus, blir det problemer. (Ghana, 1)
+Hvis en ikke kunne få eget hus, ble det problemer.
+;7.De virkelig forstår demokrati. (Ghana, 1)
+De forstår virkelig demokrati.
+;8.Og den brå veksten krever mange arbeidere plutselig. (Tamil, 3)
+Den brå veksten krever plutselig mange arbeidere.
+;9.Det er vanskelig også å bruke presens og infinitiv. (Brasil, 1)
+Det er også vanskelig å bruke presens og infinitiv.
+;10.Jeg har falt mange ganger når jeg var ikke konsentrert nok om veien. (Brasil, 1)
+Jeg har falt mange ganger når jeg ikke var konsentrert nok om veien.
+;11.Jeg frøs mye og ble ofte deprimert fordi jeg hadde ikke nok tykke klær. (Singapore, 1)
+Jeg frøs mye og ble ofte deprimert fordi jeg ikke hadde nok tykke klær.
+;
+;23.  Plassering av preposisjon
+;
+;Preposisjoner forbinder et ord eller en setning med det foregående.  Preposisjonene kan settes foran ulike substantiviske ledd.
+;
+;Eksempel:
+;1.Neste dag har vi fly om tidlig morgenen. (Pakistan, 1)
+Neste dag har vi fly tidlig om morgenen.
+;2.Etterpå slår opp jeg TV-en. (Iran)
+Etterpå slår jeg på TVen. 
+;3.Det skjer om akkurat dag. (Ghana, 1)
+Det skjer akkurat nå om dagen.
+;4.I brevet ditt spurte du om meg vanlig dag i Norge. (Kina,1)
+I brevet ditt spurte du meg om en  vanlig dag i Norge.
+;
+; 24.  Bruk av preposisjon
+;
+;Preposisjoner forbinder et ord eller en setning med det foregående.  Preposisjonene kan settes foran ulike substantiviske ledd.  
+;Eksempel:
+;1.Det betyr at de nå kan helt konsentrere seg på rasismen. (Island, 3)
+Det betyr at de nå helt kan konsentrere seg om rasismen.
+;2.Det er kanskje en plan av Gud. (Etiopia, 1)
+Det er kanskje en plan fra Gud. 
+;3.Det er rart at nesten alle kan engelsk, men alt er i norsk. (Kina, 1)
+Det er rart at nesten alle kan engelsk, men alt er på norsk.
+;4.Jeg handler mat i Bunnpris. (Kina, 1)
+Jeg handler mat på Bunnpris.
+;5.Det er en mangel av lærlingsstillinger i Tyskland. (Tyskland, 3)
+Det er en mangel på stillinger i Tyskland.
+;6.Jeg ble på senga siden, for det var fridag. (Pakistan, 1)
+Jeg ble i senga siden, for det var fridag.
+;7.Jeg tok to biller og ventet for toget. (Pakistan, 1)
+Jeg tok to biler og ventet på toget.
+;8.Jeg bodde på Kringsjå student by for to dager. (Pakistan, 1)
+Jeg bodde på studentbyen i to dager.
+;9.Men i mandager vi begynner klokka tolv. (Ghana, 1)
+Men på mandager begynner vi klokka tolv.
+;10.Jeg besøkte NN og XX på Bergen. (Ghana, 1)
+Jeg besøkte Per og Ola i Bergen.
+;11.Man arbeider mye om uttale og det er fint. (Brasil, 1)
+Man arbeider mye med uttale, og det er fint.
+;
+;26.  Overflødig bruk av preposisjon
+;
+;Preposisjoner forbinder et ord eller en setning med det foregående.  Preposisjonene kan settes foran ulike substantiviske ledd.  
+;
+;Eksempel:
+;1.Jeg har prøvd til å gjøre som hun anbefaler. (Nigeria, 2)
+Jeg har prøvd å gjøre som hun anbefaler.
+;2.I hele tiden pratet vi om Norge. (Pakistan, 1)
+Hele tiden pratet vi om Norge.
+;3.Men vennene mine på liker ikke programmet. (Nigeria, 1)
+Men vennene mine liker ikke programmet.
+;4.Vi spiser middag sammen med. (Ghana, 1)
+Vi spiser middag sammen.
+;5.Jeg liker på kurs i norsk. (Etiopia, 1)
+Jeg liker kurset i norsk.
+;6.Jeg begynte på norskkurs fra den 2. september. (Kina, 1)
+Jeg begynte på norskkurs den andre september.
+;7.Flere folke sitter på computer for hele dagen. (India, 3)
+Flere folk sitter foran computeren  hele dagen.
+;8.Jeg liker å tenke av bare godt for vår verden. (India, 3)
+Jeg liker å tenke bare godt for vår verden.
+;9.Hvordan kan jeg nå i målene? (Iran)
+Hvordan kan jeg nå målene?
+;10.Så jeg hjelper med barna mine og kona mi. (Afghanistan)
+Så jeg hjelper barna mine og kona mi.
+;
+;27.  Gradbøyning
+;
+;De beskrivende og klassifiserende adjektivene har gradbøyning i formene positiv, komparativ og superlativ.  I de fleste tilfeller der vi bruker disse formene, gir vi uttrykk for sammenligning. Noen adverb blir også gradbøyd.
+;Eksempel:
+;1.Det er uheldig at til og med dette slektskapet blir svak etter at barna begynner på skole. (Sri Lanka, 1)
+Det er uheldig at til og med dette slektskapet blir svakere etter at barna begynner på skolen.
+;2.De spiser alltid god mat enn andre mennesker. (Bangladesh, 1)
+De spiser alltid bedre mat enn andre mennesker.
+;3.Jeg synes det er stor fordeler for utenlandske studenter å få avdelinger så tidligere. (Bangladesh, 1)
+Jeg synes det er en stor fordel for utenlandske studenter å få avdelinger så tidlig.
+;4.Det er veldig vanskelig å avslutte om hvilket system er bedre eller dårligere. (Kina, 2)
+Det er veldig vanskelig å si hvilket system som er best eller dårligst. 
+;6.Det er fint å få avdelinger så tidligere. (Bangladesh, 1)
+Det er fint å få avdelinger så tidlig.
+;
+;28.  Sammensatte ord 
+;
+;Når man innskrenker betydningen av et substantiv ved hjelp av et annet substantiv, må ordene skrives sammen.
+;Eksempel:
+;1.Jeg begynte på norsk kurset på Dragvoll september i fjor. (Nigeria, 2)
+Jeg begynte på norskkurset på Dragvoll september i fjor.
+;2.De får pensjon aldrende når de er femti fem år. (Ghana, 1)
+De får alderspensjon når de er femtifem år.
+;3.Etter den prøven skal vi ha en jul ferie. (Kina, 1)
+Etter den prøven skal vi ha juleferie.
+;4.Det var godt iden at jeg kunne spare penger for å kjøpe jule gaver. (Kina, 1)
+Det var en god ide at jeg kunne spare penger for å kjøpe julegaver.
+;5.Livsstils sykdom ødelegger kvinners sexliv. (USA, 2)
+Livsstilssykdommer ødelegger kvinners sexliv.
+;6.I slutt fant Ola toget nummeret. (Pakistan, 1)
+Til slutt fant Ola tognummeret. 
+;7.Jeg bodde på Kringsjå student by for to dager. (Pakistan, 1)
+Jeg bodde på studentbyen i to dager.
+;8.Jeg har ingen framtid plane å engasjere meg i politikk men hvem vet. (Ghana, 1)
+Jeg har ingen framtidsplaner om å engasjere meg i politikk.
+;9.Det er mitt inntrykk at Ghana kunne bruke resourserer hennes og overlever Økonomi problemetene. (Ghana, 1)
+Det er mitt inntrykk at Ghana kunne bruke ressursene sine og overleve økonomiproblemene.
+;10.Mannen min og jeg bor i Havstein areal, og her består av flere lave blokk leiligheter. (Singapore, 1)
+Mannen min og jeg bor i Havsteinområdet, og det består av flere lave blokkleiligheter.
+;11.Jeg beklaget mye over de sommer temperaturene. (Singapore, 1)
+Jeg beklaget meg mye over sommertemperaturene.
+;
+;29.  Determinant utelatt før substantiv og adjektiv
+;
+;I eksempelsetningene nedenfor er bestemt og ubestemt artikkel utelatt. 
+;Eksempel:
+;1.Dette forandret hele livet til * russiske tyskerne. (Russland, 3)
+Dette forandret hele livet til de russiske tyskerne.
+;2.Jeg ringer til * venn. (Bangladesh, 1)
+Jeg ringer til en venn.
+;3.De bor i * andre huset. (Bangladesh, 1)
+De bor i det andre huset.
+;4.Det tar * halv time. (Kina, 1)
+Det tar en halv time.
+;5.Han er * god lærer. (Kina, 1)
+Han er en god lærer.
+;6.Jeg kjøper ofte mat sammen med * nye vennen min. (Kina, 1)
+Jeg kjøper ofte mat sammen med den nye vennen min.
+;7.Øverst på Europakartet , på den vestlige delen av * skandinaviske halvøyen ligger Norge. (Russland, 3)
+Øverst på Europakartet, på den vestlige delen av den skandinaviske halvøyen, ligger Norge.
+;8.Det er * moderne system. (Ghana, 1)
+Det er et moderne system.
+;9.Jeg sto da opp klokka ni om morgenen og tok * dusj og fikk meg frokost. (Pakistan, 1)
+Jeg sto da opp klokka ni om morgenen og tok en dusj og fikk meg frokost.
+;10.Det er * nytt liv. (Ghana, 1)
+Det er et nytt liv.
+;
+;30.  Determinant i bruk før adjektiv og substantiv
+;
+;I eksempelsetningene nedenfor er bruk av bestemt og ubestemt artikkel unødvendig.
+;Eksempel:
+;1.De hadde en samme spørsmål. (Kina, 1)
+De hadde samme spørsmål.
+;2.Kanskje skal jeg arbeid på den Oil- fabrikken av Italia. (Italia, 1)
+Kanskje skal jeg arbeide på oljefabrikken i Italia.
+;3.Mange folk har ikke en adgang til Internett. (Nigeria, 2)
+Mange folk har ikke adgang til Internett.
+;4.I Tyskland er skole og utdanning ansvaret av de delstatene. (Tyskland, 3)
+I Tyskland er skole og utdanning ansvaret til delstatene.
+;5.Den hovedgrunnen til konflikten er en rase ønsker å spille overlegen rolle til andre. (Tamil, 3)
+Hovedgrunnen til konflikten er at en rase ønsker å spille en overlegen rolle overfor andre.
+;6.Før jeg reiste til Norge var jeg en lærer. (Nigeria, 1)
+Før jeg reiste til Norge var jeg lærer.
+;7.Jeg begynner å studere en kvart over åtte. (Kina, 1)
+Jeg begynner å studere kvart over åtte.
+;8.Jeg spiser frokost fra klokka en kvart over sju til ti over halv tre. (Kina, 1)
+Jeg spiser frokost fra klokka kvart over sju til ti over halv tre.
+;
+;31.  Bøyning og valg av eiendomspronomen
+;De fleste eiendomspronomenene bøyes adjektivisk, altså i kjønn og tall i samsvar med substantivet det står til. Denne bøyningen gjelder 1. pers. entall og flertall, 2. pers. entall og sin i 3. pers. entall. Resten av eiendomspronomenene er ubøyelige, det vil si at formen er den samme enten de står til hankjønn, hunkjønn, intetkjønn eller flertall.
+;Eksempel:
+;1.Jeg hadde også besteforeldrene sine boende sammen med oss. (Sri Lanka, 1)
+Jeg hadde også besteforeldrene mine boende sammen med meg.
+;2.Men de nyter livet deres. (Bangladesh, 1)
+Men de nyter livet sitt.
+;3.Så begynte jeg å skrive brevene til vennene sine. (Etiopia, 1)
+Så begynte jeg å skrive brevene til vennene mine.
+;4.I begynnelsen reiste jeg sammen med mora og søstera mine. (Ghana, 1)
+I begynnelsen reiste jeg sammen med mora og søstera mi.
+;5.Noen gamle bor alene, men naboene sine vil ta vare på dem. (Kina, 1)
+Noen gamle bor alene, men naboene deres vil ta vare på dem.
+;6.Sammen med gode vennene mi fra Kina. (Kina, 1)
+;Sammen med de gode vennene mine fra Kina.
+;7.Da lengter du etter vennene sine. (USA, 2)
+Da lengter du etter vennene dine.
+;8.Først vil jeg takke for hjelpen ditt. (Ghana, 1)
+Først vil jeg takke for hjelpen din.
+;9.I Oslo gikk jeg med vennen min og NN med vennen hans. (Pakistan, 1)
+I Oslo gikk jeg med vennen min og Kari med vennen sin.
+;10.Så går de gamle folkene til vennen deres og bruker tid sammen. Pakistan, 1)
+     Så går de gamle folkene til vennen sin og bruker tid sammen.
+; 
+;32.  Utelatt relativpronomen
+;
+;Relativpronomenet som innleder adjektiviske leddsetninger.  Som skiller seg fra vanlige konjunksjoner fordi ordet i tillegg til å innlede en leddsetning også refererer til et ledd i helsetningen. 
+;Eksempel:
+;1.Men hvilke ungdomsskoler * skal opptakke dem, er avhengig av elevens karakter i barneskole. (Kina, 3)
+Men hvilke skoler som skal ta dem opp, er avhengig av elevens karakter i barneskolen.
+;2.Barna * har rik familie går privat skole. (Etiopia)
+Barna som har rik familie går på privat skole.
+;3.Etter middag har vi hatt en liten konkurranse om hvem * skal bli først å rekke øya. (Tyskland)
+Etter middag har vi hatt en liten konkurranse om hvem som skal bli først til å rekke øya.
+;4.Også, vi har problemer med folke * går etter penger. (India, 3)
+Også har vi problemer med folk som går etter penger.
+;5.Så kan jeg vite hva * hender i hjemlandet mitt. (Bangladesh, 1)
+Så kan jeg vite hva som hender i hjemlandet mitt.
+;6.Jeg leser ei bok * heter ¡ÉNy i Norge¡É.  (Ghana, 1)
+;Jeg leser ei bok som heter "Ny i Norge".
+;7.Programmet liker jeg best er amerikanske serie * heter ¡ÉJump Street¡É. (Ghana, 1)
+Programmet  jeg liker best er en amerikansk serie som heter Jump Street.
+;8.Av og til synes jeg kanskje det er flere mennesker * heter NN i Bergen. (Kina, 1)
+Av og til synes jeg kanskje det er flere mennesker som heter Ola i Bergen.
+;9.Det var fiskeindustri og skog * ga største delen av inntekter til landet. (Tamil, 3)
+Det var fiskeindustri og skog som ga størstedelen av inntekter til landet.
+;10.Jeg håper å få en ledende stilling i en god kraft bedrift * hete NN. (Ghana, 1)
+Jeg håper å få en ledende stilling i en god bedrift.
+;
+;33.  Bøyning og valg av personlig pronomen
+;Noen personlige pronomen har en form når de står som subjekt, en annen som objekt.  De bøyes i subjektsform og objektsform. 
+;Eksempel:
+;1.Først må jeg fortelle du om meg. (Ghana,1)
+Først må jeg fortelle deg om meg.
+;2.Jeg har aldri sett hun på Dragvoll. (Brasil, 1)
+Jeg har aldri sett henne på Dragvoll.
+;3.Unskkyld meg for ikke skriver brev til du. (Pakistan, 1)
+Unnskyld meg for ikke å ha skrevet brev til deg.
+;
+;34.  Bruk av for-å
+;
+;Når man spør om hensikten eller formålet med noe, svarer vi ofte med for-å + infinitiv.  
+;Eksempel:
+;1.Kanskje jeg må vente to måneder * å svare det. (Etiopia)
+Kanskje må jeg vente to måneder for å svare på det.
+;2.Vår fotballklubben Galatasaray kom til Trondheim * og spille med Rosenborg. (Tyrkia)
+Vår fotballklubb kom til Trondheim for å spille mot Rosenborg.
+;3.Jeg er ikke så redd * å snakke nå. (Brasil, 1)
+Jeg er ikke så redd for å snakke nå.
+;4.Man må ta to eller tre fly * å komme fra Brasil til Norge. (Brasil, 1)
+Man må ta to eller tre fly for å komme fra Brasil til Norge.
+;5.Jeg er her * studere til bygningsingeniør. (Ghana, 1)
+Jeg er her for å studere til ingeniør.
+;6.Jeg er nå i Trondheim * å fortsette å studere. (Ghana, 1)
+Jeg er nå i Trondheim for å fortsette å studere.
+;7.Jeg bestemte meg * å gå en tur. (Ghana,1 )
+Jeg bestemte meg for å gå en tur.
+;8.Jeg var glad * å se ham. (Nigeria, 1)
+Jeg var glad for å se ham.
+;9.Da jeg var i Kina, ofte gikk jeg til Karaoke * å synge. (Kina, 2)
+Da jeg var i Kina, gikk jeg ofte på Karaoke for å synge.
+;10.Den de bruker * leve. (Ghana, 1)
+;Den de bruker for å leve.
+;
+;35.  Genitivs- s
+;
+;Genitiv bruker vi: for å uttrykke eieforhold, tilhørighet i videre forstand, i mange faste uttrykk, navn og titler og i uttrykk for mål og vekt.  I stedet for genitiv kan vi ofte bruke preposisjoner for å uttrykke eiendomsforhold.
+;Eksempel:
+;1.Om kvelden kommer alle det samfunnet medlemmer ut. (Eritrea, 1)
+Om kvelden kommer alle samfunnets medlemmer ut. 
+;2.Jeg går til kursavdelingen kjeller. (Ghana, 1)
+Jeg går til kursavdelingens kjeller.
+;3.Etter ti år skoleutdannelse får man en såkalt ¡ÉRealschulabschluss¡É. (Tyskland, 3)
+Etter ti års skoleutdannelse får man en premie.
+;4.Vi har en 3-rom leilighet. (Singapore, 1)
+Vi har en treroms leilighet.
+;
+;36.  Og/å
+;
+;Å brukes foran verb i infinitiv.  Ellers brukes og.  Når to verb i infinitiv sideordnes, brukes og. 
+;Eksempel:
+;1.Jeg liker og se på TV. (Etiopia, 4)
+Jeg liker å se på TV.
+;2.Det kan være lurt å drøfte dette med de andre landene å veksle erfaringen i dette på statens nivå. (Russland, 3)
+Det kan være lurt å drøfte dette med de andre landene og utveksle erfaringer om dette på statens nivå. 
+;3.Jeg er nå i Trondheim å fortsetter studere. (Ghana, 1)
+Jeg er nå i Trondheim og fortsetter å studere. 
+;4.Norge er et veldig vakkert og godt land og leve i. (Russland, 3)
+Norge er et veldig vakkert og godt land å leve i.
+;5.Til å med¡Ä (Tamil, 3)
+;Til og med.
+;
+;37.  Utelatt konjunksjonen %Gâ%@ at
+;
+;Den underordnede konjunksjonen at innleder substantiviske leddsetninger.  At står først i en fortellende leddsetning.
+;Eksempel:
+;1.Det betyr * jeg kan arbeide på forskjellig plasser. (Russland)
+Det betyr at jeg kan arbeide på forskjellige plasser.
+;2.På grunn av * de har gode kunnskap på arbeide. (Afghanistan)
+De vinner på grunn av at de har gode kunnskaper om arbeidet.
+;3.Det eneste som er merkelig, er * ingen ville holde seg unna det som skjedde. (Russland, 3)
+Det eneste som er merkelig, er at ingen vil holde seg unna det som skjedde.
+;4.Pessimister gjører mange aktivitetene fordi de tenker på * de har bare ni og tjue dager for! (Italia, 3)
+Pessimister gjør mange aktiviteter fordi de tenker på at de bare har tjueni dager igjen!
+;
+;38.  Dobbel bestemthet
+;Ved konkreter er dobbelt bestemmelse det vanlige. Det vil si at vi har bestemt form av substantivet sammen med adjektivets bestemte artikkel eller sammen med påpekende pronomen.  Ved abstrakter brukes ofte uttrykksmåtene om hverandre.  
+;Eksempel:
+;1.Dette liv har noen fordeler. (Nigeria, 2)
+Dette livet har noen fordeler.
+;2.* Største innsjø er Mjøsa. (Russland, 3)
+Den største innsjøen er Mjøsa.
+;3.Dette land er veldig forskjellig fra mitt hjemland Mexico. (Mexico)
+Dette landet er veldig forskjellig fra mitt hjemland Mexico.
+;4.Den første ulempe er at alle snakker norsk. (Kina, 1)
+Den første ulempen er at alle snakker norsk.
+;5.Disse program skulle fordre studieopphold i utlandet. (Tyskland, 3)
+Disse programmene skulle fordre opphold i utlandet.
+;6.I denne sammenheng finnes det også EU- utvekslingsprogram for studenter. (Tyskland, 3)
+I denne sammenhengen finnes det også program for studenter.
+;7.Derfor tror jeg at dette emne omfatter både framtidsplaner jeg har nå og de jeg hadde tidligere. (Sri Lanka)
+Derfor tror jeg at dette emnet omfatter både framtidsplaner jeg har nå og de jeg hadde tidligere.
+;8.Jeg skal jobbe sammen med de andre ingeniører som er allerede i Ghana, (Ghana, 1)
+Jeg skal jobbe sammen med de andre ingeniører som allerede er i Ghana.
+;9.Disse variasjoner er herlig å se på. (Brasil, 1)
+Disse variasjonene er herlige å se på.
+
+
+

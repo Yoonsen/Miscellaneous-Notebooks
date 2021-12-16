@@ -1,0 +1,227 @@
+133 non-parses
+37 parsed strings
+Score: -34
+average: -34 : 170 = -0,2
+
+
+1 Gutten sove 1 120 :: 2
+2 Gutten vil sover 1 93 :: 2
+3 Gutten vil kunne sover 2 437 wrong on webdemo - udated lex-entries for 'kunne' not reflected
+4 Gutten vil kan sover 0 99
+5 Gutten vil kan sove 0 165
+6 Gutten vil måtte kunne sover 4 1894 wrong on webdemo?- udated lex-entries for 'kunne' not reflected
+7 Gutten vil måtte kan sove 0 660
+8 Gutten vil må kunne sove 0 377
+9 Gutten vil må kan sover 0 115
+10 Gutten har sover 0 142
+11 Gutten bli skutt 2 325 :: 2
+12 Gutten bli skutte 0 483
+13 Gutten blir skutte 0 479
+14 Gutten ha blitt skutt 2 588 :: 1
+15 Gutten har bli skutt 0 486
+16 Gutten har blitt skyter 0 303
+17 Gutten vil har bli skutt 0 611
+18 Gutten vil har bli skutt 0 611
+19 Gutten vil ha blitt skyte 0 710
+20 Gutten vil ha kan blitt skutt 0 501
+21 Gutten vil ha kunne bli skutt 0 1394
+22 Gutten vil ha kunne blitt skutt 0 710
+23 Gutten vil har skullet kunnet bli skutt 0 816
+24 Gutten vil har skal kunnet bli skutt 0 615
+25 Gutten vil skal kunnet hatt måtte bli skutt 0 1659
+26 Gutten vil skulle kunnet hatt måtte blitt skutt 0 1217
+27 Gutten vil skal kan ha måttet blitt skutt 0 721
+28 Gutten ikke vil sove 0 192
+29 Gutten vil sove ikke 1 225 :: 2
+30 gutten ikke vil måtte kunne sove 0 2216
+31 gutten ikke har sovet 0 347
+32 gutten ikke har skutt 0 322
+33 gutten ikke har blitt skutt 0 595
+34 gutten ikke vil ha blitt skutt 0 868
+35 gutten ikke vil ha kunnet bli skutt 0 1672
+36 gutten ikke vil ha skullet kunne bli skutt 0 5558
+37 gutten ikke vil skulle kunne ha måttet bli skutt 0 10518
+38 gutten snart ikke vil sove 0 679
+39 gutten i lang tid ikke har sovet 0 1150
+40 gutten trolig ikke blir skutt 0 460
+41 gutten trolig ikke har blitt skutt 0 730
+42 gutten trolig ikke vil ha blitt skutt 0 1008
+43 gutten trolig ikke vil ha kunnet bli skutt 0 1916
+44 gutten trolig ikke vil ha skullet kunne bli skutt 0 6387
+45 gutten trolig ikke vil skulle kunne ha måttet bli skutt 0 10354
+46 sove gutten? 1 145 The sentence contains an incorrect subject-verb inversion.
+The word "sove" is an infinitive, but should be put in past or present tense.
+:: 0 - 1 correct message, 1 confusing one. In malgram there are two parses, and the second one is fine. Maybe the 'inversion' mal-rule should be omitted. mal-head-invertsubject-decl-rule -TODO-DONE
+47 vil sover gutten? 0 98
+48 vil sove gutten? 0 164
+49 vil kunne sove gutten? 0 381
+50 vil måtte kunne gutten sove? 0 1294
+51 vil måtte gutten kunne sove? 0 1412
+52 blir skutt gutten? 0 287
+53 vil ha blitt skutt gutten? 0 621
+54 vil hatt gutten kunnet bli skutt? 0 1039
+55 vil gutten hatt skullet kunne bli skutt? 72 3244 :: -5
+56 vil skulle kunne ha måttet bli skutt gutten? 0 10049
+57 vil ikke sove gutten? 0 220
+58 vil ikke kunne gutten sove? 0 544
+59 vil ikke måtte kunne gutten sove? 0 1573
+60 blir ikke skutt gutten? 8 426
+ The word "blir" is in the present tense, but should be in infinitive.
+Past perfective tense requires an auxiliary verb "å ha" in addition to the past participle "skutt".
+:: -5
+mal-present-inf-like_infl_rule should be checked (also error message that it has been redefined) TODO
+And the other message should probably say "ha or bli" TODO-DONE
+61 har ikke blitt skutt gutten? 24 588
+Past perfective form must be preceded by an auxiliary verb "å ha".
+:: -5
+mal-perf-marker-drop-rule  responsible here
+62 vil ikke ha blitt skutt gutten? 0 731
+63 vil ikke ha kunnet bli skutt gutten? 0 1287
+64 vil ikke ha skullet kunne bli skutt gutten? 0 3805
+65 vil ikke skulle kunne ha måttet bli skutt gutten? 0 11547
+66 vil snart gutten ikke sovet? 96 2477
+The sentence lacks subject-verb inversion.
+Past perfective form must be preceded by an auxiliary verb "å ha".
+:: -5
+but the second message is right, so again it looks like the inversion rule should go out - mal-head-subject-rule TODO-DONE
+67 vil snart gutten ikke kunnet sove? 0 1388
+68 vil snart ikke gutten måttet kunnet sove? 0 1086
+69 har snart gutten ikke sove? 0 903
+70 vil trolig gutten ikke hatt blitt skutt? 15 2909
+71 vil gutten trolig ikke hatt kunnet bli skutt? 0 2216
+72 sover på fredag gutten. 0 348
+73 vil sove på fredag gutten. 0 481
+74 På fredag vil gutten ikke skal kunne ha måttet bli skutt. 0 10184
+75 På fredag vil gutten snart ikke sover. 54 6155
+76 På fredag vil gutten snart ikke kunnet sove. 0 6733
+77 På fredag vil gutten snart ikke må kunne sove. 0 5934
+78 På fredag ha gutten snart ikke sovet. 0 7766
+79 På fredag bli gutten trolig ikke skutt. 119 2595
+80 På fredag ha gutten trolig ikke bli skutt. 15 4038
+no lexicon entries for: "trolig"
+adv-from-adj-pos-lrule seems to not apply in the webversion
+with antakeligvis:
+vil antakeligvis gutten ikke hatt blitt skutt?
+ The sentence lacks subject-verb inversion.
+Past perfective tense requires an auxiliary verb "å ha" in addition to the past participle "hatt".
+TODO-DONE: the message is not in the list of messages: change message to 'preceding' rather than 'in addition to' - 'preceding the participle'
+it's mal-perf-marker-drop-rule which gives this funny message, whereas in other connections it has a shorter message. Find out. TODO-TRIED
+and TODO-DONE: omit mal-head-subject-rule .
+81 På fredag vil gutten trolig ikke blitt skutt. 0 2639
+82 Jeg antar at gutten vil ikke sove 0 711
+83 Jeg gjetter hvem gutten vil ikke treffe 0 374
+84 Jeg gjetter hvem gutten vil ikke kunne treffe 0 657
+85 Jeg gjetter hvem gutten vil ikke måtte kunne treffe 0 1939
+86 Jeg gjetter hvem gutten har ikke truffet 0 372
+87 Jeg gjetter hvem gutten har ikke skutt 0 518
+88 Jeg gjetter hva gutten har ikke blitt gitt 0 860
+89 Jeg gjetter hvem gutten vil snart ikke vil treffe 0 1761
+90 Jeg gjetter hvem gutten har i lang tid ikke truffet 0 1801
+91 Jeg gjetter hva gutten blir trolig ikke overlatt 0 655
+92 Jeg vet hvem ikke vil sove 0 365
+93 Jeg vet hvem vil ikke sove 0 326
+94 Jeg vet hvem som vil ikke sove 0 357
+95 Jeg vet hvem ikke vil kunne sove 0 665
+96 Jeg vet hvem ikke vil kan sove 0 373
+97 Jeg vet hvem vil ikke kunne sove 0 597
+98 Jeg vet hvem som vil ikke kunne sove 0 628
+99 Jeg vet hvem som vil ikke kan sove 0 372
+100 Jeg vet hvem som har ikke sovet 0 557
+101 Jeg vet hvem har ikke sovet 0 529
+102 Jeg vet hvem ikke har sovet 0 521
+103 Jeg vet hvem ikke har blitt skutt 0 742
+104 Jeg vet hvem ikke vil ha blitt skutt 0 953
+105 Jeg vet hvem ikke vil ha kunnet bli skutt 0 1597
+106 Jeg vet hvem ikke vil ha skullet kunne bli skutt 0 4602
+107 jeg vet hva hvem som har spist 0 391
+108 jeg vet hvem har spist hva 0 369
+109 jeg ser gutten som spise eplet 0 781
+110 jeg ser gutten som spist eplet 0 609
+111 jeg ser gutten som vil kan ha spist eplet 0 827
+112 jeg ser eplet gutten spise 3 846 :: 1
+113 jeg ser eplet gutten spist 7 931
+The sentence lacks subject-verb inversion.
+Past perfective form must be preceded by an auxiliary verb "å ha".
+:: -5
+(but the second is ok)
+114 jeg ser eplet gutten ha spist 8 1569 :: 1
+115 jeg ser eplet som gutten spist 0 863
+116 jeg ser gutten som spiser kanskje eplet 0 967
+117 jeg ser gutten som vil spise kanskje eplet 0 1223
+118 jeg ser gutten som vil neppe kunne ha spist eplet 0 1934
+119 jeg ser eplet gutten har nå spist 10 2646
+The sentence lacks subject-verb inversion.
+Past perfective form must be preceded by an auxiliary verb "å ha".
+:: -5
+120 jeg ser eplet gutten må nå ha spist 9 4527 wellformed
+:: 0
+121 jeg ser eplet gutten spiser ikke 6 1242
+In main clauses, sentential adverbs must be placed directly after the finite verb.
+the mal-rule doesn't see that this is a subordinate clause?
+Actually cannot see any 'mal'-rule in the rules list
+:: -5
+122 jeg ser eplet som gutten spiser ikker 0 1058
+123 jeg ser eplet som gutten vil ikke spise 9 2648
+There should always be a verb in the sentence. Try using "er" or "var" before the phrase "jeg".
+The word "jeg" is marked with the wrong case, try using "meg" instead.
+In main clauses, sentential adverbs must be placed directly after the finite verb.
+The last one ok.
+:: -5
+NB. I see as one message coming up:  In main clauses, sentential adverbs, such as "vil", must be placed directly after the verb, before any objects. - - This was removed from the list weeks ago, so how come it is still in? TODO-TRIED: an old list is apparently being fused with the current list.
+124 jeg ser eplet som gutten vil kanskje ikke spise 57 10786
+Same as for the one above.
+:: -5
+125 jeg ser Ola ikke 3 469 :: 1
+126 han setter ikke seg 0 290
+127 unner han ikke seg den? 0 452
+128 unner seg han ikke den? 0 480
+129 unner seg ikke han den? 0 581
+130 unner ikke seg han den? 0 234
+131 ballen kastes Ola til 0 413
+132 det kastes ballen  0 416
+133 det kastes ballen til Ola 0 572
+134 meg ble overlatt en ball 2 500 :: 1
+135 det overlates Ola ballen 0 356
+136 Ola stoles 0 146
+137 det stoles  0 235
+138 det vaskes seg 0 431
+139 det skammes seg 0 323
+140 det foraktes seg selv 0 343
+141 ballen bli kastet 2 354 :: 2
+142 ballen bli kastet til Ola 2 973 :: 1
+143 det blir kastet ballen 0 535
+144 det blir kastet ballen til Ola 0 866
+145 det blir overlatt Ola ballen 0 508
+146 Ola fryktes drepe 1 283
+147 Ola fryktes forsøkes drept 0 497
+148 Ola blir fryktet forsøkes drept 0 623
+149 Ola blir fryktet forsøkt drepes 0 677
+150 Ola antas forutsette forsøkt drept 7 571
+no lexicon entries for: "drept"  - - what the heck? this is covered.
+:: -5
+151 Ola fryktes ankomme 1 258 :: 1
+152 Ola fryktes overlate pistolen 1 335 :: 1
+153 Ola er hyggelig snakke med 0 1047
+154 maten er gode å spise 1 510 :: 1
+155 guttene er hyggelig å se 0 986
+156 jeg rusler gutten 0 43
+157 Ola ligger for sove 1 293 :: -5
+158 Ola ligger sove 0 186
+159 Ola ligger uten sove 0 258
+160 Ola løper glade 0 126
+161 hvis han sover Per kommer 1 197 :: 1
+162 hvis han sover, Per kommer 1 195 :: 1
+163 Ola Per Kari kommer 1 137
+164 Ola ligger går rusler 0 148
+165 Ola forakter seg 0 118
+166 han skammer ham 0 58
+167 hun skammer henne 0 88
+168 den skammer den 0 76
+169 det skammer det 0 276
+170 de skammer dem 0 100
+
+;;; Total CPU time: 543410 msecs
+
+;;; Mean edges: 1373.22
+
+;;; Mean parses: 3.24

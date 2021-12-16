@@ -1,0 +1,625 @@
+1 Ken Robbins kommer fra England. 0 22
+2 Han bor i London. 0 10
+3 Ken er tjuetre år gammel. 0 16
+4 Han reiser med tog fra Oslo til Trondheim. 0 28
+5 Ken snakker med ei dame. 0 16
+6 Hun kommer fra Norge. 0 14
+7 Jeg heter Monika. 0 9
+8 Hva heter du? 0 14
+9 Jeg heter Ken. 0 9
+10 Hvor kommer du fra? 0 14
+11 Jeg kommer fra England. 0 14
+12 Jeg kommer fra Oslo, men jeg bor i Trondheim. 0 35
+13 Har du familie i Trondheim? 0 22
+14 Jeg er gift, og jeg har ei jente. 0 25
+15 Hva heter hun? 0 14
+16 Hun heter Emma. 0 9
+17 Hun er seks år. 0 13
+18 Anna Valente kommer fra Italia. 0 31
+19 Hun bor i Roma. 0 10
+20 Anna er tjueto år gammel. 0 20
+21 Hun reiser med fly fra Roma til Trondheim. 0 34
+22 Lars er norsk. 0 12
+23 Han reiser også med fly fra Roma. 0 26
+24 Jeg kommer fra Italia. 0 14
+25 Er du norsk? 0 10
+26 Jeg kommer fra Trondheim. 0 14
+27 Hva gjør du i Norge? 0 23
+28 Jeg er student. 0 5
+29 Jeg studerer på NTNU. 0 11
+30 Jeg jobber på NTNU. 0 13
+31 Hva jobber du med? 0 21
+32 Jeg er professor i antropologi. 0 11
+33 Hva studerer du? 0 12
+34 Jeg studerer arkitektur. 0 7
+35 Du er flink i norsk. 0 16
+36 Jeg snakker ikke italiensk, men jeg snakker litt spansk. 0 47
+37 Jeg snakker også engelsk. 0 13
+38 Snakker du engelsk? 0 14
+39 Jeg snakker italiensk, engelsk og litt norsk. 0 36
+40 Maria Gomez kommer fra Spania. 0 21
+41 Hun bor i Barcelona. 0 10
+42 Maria er nitten år gammel. 0 16
+43 Hun reiser med båt fra Bergen til Trondheim. 0 27
+44 Den heter Polarlys. 0 10
+45 Lisa er også på Polarlys. 0 18
+46 Hun er turist. 0 5
+47 Snakker du norsk? 0 14
+48 Er det ledig her? 0 20
+49 Hvor er vi nå? 0 10
+50 Vi kommer snart til Ålesund. 0 26
+51 Jeg har familie i Norge. 0 17
+52 Er du fra Norge? 0 17
+53 Jeg er ikke norsk.  0 22
+54 Jeg er spansk. 0 5
+55 Jeg studerer norsk. 0 7
+56 Jeg heter Maria. 0 9
+57 Jeg heter Lisa. 0 9
+58 Det er hyggelig å hilse på deg. 0 36
+59 Hvordan går det? 0 6
+60 Hvordan går det med deg? 0 20
+61 Det går bra. 0 16
+62 Er vi snart i Trondheim? 0 26
+63 Trondheim er neste by. 0 13
+64 Vi ses kanskje seinere? 0 40
+65 Peter Maier kommer fra Tyskland. 0 19
+66 Han bor i Hamburg og er tjuefem år. 0 18
+67 Han reiser til Trondheim med bil. 0 13
+68 Peter reiser sammen med Frank. 0 12
+69 Frank er også tysk. 0 9
+70 De stopper på en bensinstasjon. 0 20
+71 Hvor langt er det til Trondheim? 0 34
+72 Det er tre hundre kilometer. 0 31
+73 Hvor kommer dere fra? 0 23
+74 Vi kommer fra Tyskland. 0 17
+75 Er dere turister? 0 19
+76 Vi er studenter. 0 8
+77 Har du et kart over Norge? 0 27
+78 Hva koster det? 0 12
+79 Det koster sekstini kroner. 0 21
+80 Jeg tar også en brus og ei avis. 0 35
+81 Det blir nittini kroner. 0 19
+82 Her er hundre. 0 5
+83 Her er ei krone tilbake. 0 18
+84 Det er mandag, og klokka er åtte. 0 33
+85 Et tog stopper på Trondheim sentralstasjon. 0 20
+86 Ken går av toget. 0 8
+87 Han vil gjerne ta en taxi fra sentralstasjonen til Moholt. 0 42
+88 Han ser en taxisjåfør og snakker med henne. 0 24
+89 Kan du hjelpe meg? 0 22
+90 Jeg skal dra til Moholt studentby. 0 21
+91 Har du ei adresse? 0 15
+92 Jeg skal sjekke. 0 5
+93 Adressa er Herman Krags vei, men jeg må dra til resepsjonen først. 0 49
+94 Har du adressa til resepsjonen? 0 16
+95 Adressa er Frode Rinnans vei en. 0 30
+96 Skal jeg hjelpe deg med bagasjen? 0 21
+97 Taxisjåføren kjører til studentbyen. 0 9
+98 Ken betaler to hundre kroner og går til resepsjonen. 0 33
+99 Ken går av toget på Trondheim sentralstasjon. 0 22
+100 Anna kommer med fly fra Roma. 0 27
+101 Flyet lander på Værnes tirsdag klokka to. 0 38
+102 Anna vil gjerne ta flybussen til Trondheim. 0 33
+103 Hun har ei veske, to kofferter og tre poser. 0 40
+104 Bussjåføren står utenfor bussen. 0 7
+105 Anna spør ham. 0 10
+106 Kan du hjelpe meg med koffertene? 0 26
+107 Hva koster bussturen til Trondheim? 0 16
+108 Kan jeg betale med kort? 0 15
+109 Det går bra. 0 16
+110 Hvordan kommer jeg til Moholt studentby? 0 17
+111 Du kan ta flybussen til Strindheim. 0 24
+112 Buss nummer ni går fra Strindheim til Moholt. 0 32
+113 Anna tar posene og veska og går inn i bussen. 0 35
+114 Flybussen stopper på Strindheim. 0 11
+115 Nå kommer buss nummer ni, men bussen kjører. 0 34
+116 Hun må vente på neste buss. 0 28
+117 Anna må vente på neste buss. 0 33
+118 Det er onsdag morgen, og Polarlys kommer til Trondheim. 0 37
+119 Klokka er kvart over åtte. 0 30
+120 Maria skal ta buss nummer to fra Pirterminalen til sentrum. 0 51
+121 Hun må bytte buss i sentrum for å komme til Moholt studentby. 0 55
+122 Jeg må bytte buss i sentrum. 0 30
+123 Hvilken buss går fra sentrum til Moholt studentby? 0 35
+124 Du kan ta buss nummer fem. 0 33
+125 Når går den? 0 7
+126 Den går klokka halv ni og kvart på ni. 0 45
+127 Vil du ha ei bussrute? 0 22
+128 Hvor mye koster billetten? 0 15
+129 Den koster tretti kroner. 0 12
+130 Må jeg betale tretti kroner på neste buss også? 0 44
+131 Du kan få overgang. 0 14
+132 Hva betyr overgang? 0 10
+133 Overgang betyr at du kan bruke billetten i én time. 0 42
+134 Maria tar buss nummer fem klokka halv ni. 0 38
+135 Klokka ni kommer bussen til studentbyen. 0 24
+136 Maria finner ikke resepsjonen. 0 20
+137 Endelig ser hun et skilt. 0 20
+138 Der ligger resepsjonen. 0 11
+139 Der ligger resepsjonen for Moholt studentby. 0 22
+140 Maria må bytte buss i sentrum for å komme til Moholt studentby. 0 60
+141 Det er torsdag ettermiddag, og klokka er ti over ett. 0 42
+142 Peter og Frank er på vei inn til Trondheim. 0 23
+143 Peter stopper bilen. 0 7
+144 De ser på kartet. 0 19
+145 Hvor er Moholt? 0 5
+146 Resepsjonen på Moholt studentby stenger klokka tre. 0 33
+147 Finner du Moholt? 0 12
+148 Her er Moholt. 0 5
+149 Det ligger litt øst for Trondheim sentrum. 0 40
+150 Først kommer vi til et kjøpesenter. 0 25
+151 Det heter City Syd. 0 25
+152 Skal vi ta en kopp kaffe der? 0 32
+153 Jeg er litt sulten. 0 16
+154 Peter og Frank stopper på City Syd. 0 21
+155 Klokka er ti på halv to. 0 25
+156 De spiser rundstykker og drikker kaffe på en kafé der. 0 40
+157 Frank kjøper også en brus. 0 14
+158 Etterpå kjører de til Moholt, men de finner ikke studentbyen. 0 50
+159 De ser et skilt med NTNU på, og de kjører til NTNU Dragvoll. 0 67
+160 Der stopper de for å spørre noen studenter. 0 37
+161 Vi finner ikke Moholt studentby. 0 24
+162 Kan dere hjelpe oss? 0 31
+163 Vi kan hjelpe dere. 0 20
+164 Først må dere ta til venstre og kjøre tilbake til Moholt. 0 66
+165 Der ligger resepsjonen. 0 11
+166 Peter og Frank takker dem. 0 11
+167 De kjører til Moholt og parkerer på parkeringsplassen. 0 31
+168 Klokka er ti på tre. 0 22
+169 Peter og Frank stopper på en kafé. 0 18
+170 Ken kommer til resepsjonen på Moholt. 0 15
+171 Hva kan jeg hjelpe deg med? 0 26
+172 Jeg vil gjerne hente nøkkelen til hybelen. 0 29
+173 Hva heter du? 0 14
+174 Jeg heter Ken Robbins. 0 11
+175 Kan du stave etternavnet? 0 18
+176 Hva er fødselsdatoen? 0 10
+177 Her er kontrakten. 0 5
+178 Du må skrive under på den. 0 24
+179 Ken skriver under på skjemaet. 0 13
+180 Har du pass? 0 10
+181 Jeg har dessverre ikke mobiltelefon ennå. 0 23
+182 Har du et mobilnummer? 0 16
+183 Det er greit. 0 15
+184 Her har du nøkkelen til hybelen og et kart over Moholt. 0 37
+185 Du skal bo i Herman Krags vei trettisyv tolv. 0 44
+186 Tallet betyr bygning nr trettisyv, første etasje, rom nr tolv. 0 45
+187 Du må også fylle ut ei inventarliste. 0 34
+188 Jeg forstår ikke. 0 5
+189 Det er ei liste over møbler og utstyr på hybelen. 0 43
+190 Du må sjekke at alt er der: ei seng, et bord, en stol. 0 68
+191 Her er lista. 0 5
+192 Hva er ei inventarliste? 0 15
+193 Ken går ut fra resepsjonen. 0 20
+194 Bagasjen står ute på trappa. 0 21
+195 Anna går av bussen på Moholt. 0 20
+196 Hun finner Moholt studentby og går til resepsjonen. 0 26
+197 Der får hun kontrakt, nøkkel og et kart over studentbyen. 0 42
+198 Anna bærer tre poser, to kofferter og ei veske til hybel nr. tjue tjuefire. 0 68
+199 Den er i andre etasje. 0 20
+200 Først går hun inn på kjøkkenet. 0 20
+201 Hun skal dele det med tre studenter. 0 39
+202 Hybelen ligger ved siden av kjøkkenet. 0 15
+203 Den er ikke stor. 0 14
+204 Den har ei brun seng, et brunt bord og et skap. 0 43
+205 Ei høy bokhylle står ved siden av døra. 0 30
+206 Under vinduet står et skrivebord. 0 13
+207 Det er stort. 0 15
+208 Gardinene er fæle. 0 7
+209 Her skal hun bo i ett år. 0 29
+210 Hun setter veska på bordet og legger koffertene under senga. 0 29
+211 I posene finner hun sjokolade og te. 0 28
+212 Gjennom vinduet ser hun en stor parkeringsplass. 0 18
+213 Det er stille her. 0 28
+214 Hjemme i Roma er det aldri stille. 0 43
+215 Hva gjør mor og far nå? 0 20
+216 Tenker Antonio på henne? 0 16
+217 Maria henter nøkkelen til hybelen i resepsjonen på Moholt. 0 28
+218 Så finner hun hybel tjue tjueen. 0 22
+219 På kjøkkenet møter hun Anna. 0 13
+220 Jeg heter Maria Gomez. 0 16
+221 Bor du her? 0 11
+222 Skal du også bo her? 0 21
+223 Jeg heter Anna Valente. 0 16
+224 Det er ikke så moderne, men det er fint og stort. 0 67
+225 Vi kan ha gjester til middag. 0 23
+226 De går inn på Marias rom. 0 32
+227 Anna ser gitaren til Maria. 0 18
+228 Spiller du gitar? 0 13
+229 Jeg studerer musikk. 0 7
+230 Spiller du et instrument? 0 19
+231 Vi har et piano hjemme i Roma, men jeg er ikke så flink. 0 67
+232 Jeg har en bror. 0 8
+233 Han er kjempeflink. 0 5
+234 Han heter Antonio og er femten år. 0 23
+235 Har du søsken? 0 10
+236 Vi er fire søsken. 0 16
+237 Jeg har ei søster og to brødre. 0 21
+238 Vil du ha en kopp te? 0 23
+239 Jeg har en stor sjokolade på rommet. 0 22
+240 Jeg sier ikke nei til sjokolade. 0 22
+241 Anna finner to store kopper i skapet på kjøkkenet. 0 46
+242 På kjøkkenbenken står vannkokeren. 0 9
+243 Anna koker litt vann og går på rommet for å finne teen og sjokoladen i bokhylla. 0 62
+244 Maria spiller gitar. 0 13
+245 Maria og Anna skal drikke te og spise sjokolade. 0 45
+246 Det er morgen på Moholt studentby. 0 27
+247 Peter står opp klokka åtte. 0 18
+248 Han går inn på badet. 0 13
+249 Han tar en dusj, tørker seg og barberer seg. 0 26
+250 Etterpå pusser han tennene og kler på seg. 0 27
+251 Frank kommer for å spise frokost sammen med Peter. 0 33
+252 De setter seg inne på kjøkkenet. 0 32
+253 Du har et stort, fint kjøkken. 0 34
+254 Jeg deler det med to italienere og en nordmann. 0 43
+255 Hvordan er de? 0 5
+256 Jeg vet ikke. 0 5
+257 De kommer i morgen. 0 17
+258 Jeg gleder meg til å treffe dem. 0 23
+259 Det blir spennende. 0 15
+260 Er du sulten? 0 10
+261 Jeg er kjempesulten. 0 5
+262 Hva har du lyst på? 0 31
+263 Jeg har brød, ost, salami og skinke. 0 27
+264 Jeg har melk, te og kaffe. 0 20
+265 Jeg vil gjerne ha ei brødskive med ost og skinke og ei skive med salami. 0 73
+266 Vil du ha en kopp kaffe? 0 23
+267 Kaffen i Norge er ikke god. 0 25
+268 Jeg lager ikke norsk kaffe. 0 22
+269 Jeg lager bare tysk kaffe. 0 22
+270 Da tar jeg en kopp kaffe. 0 21
+271 Peter henter maten i kjøleskapet. 0 14
+272 Etterpå spiser de frokost. 0 17
+273 Peter lager tysk kaffe. 0 10
+274 Klokka er ni, og Ken står opp. 0 25
+275 Han spiser frokost og går til Moholt-senteret. 0 20
+276 Dette senteret ligger rett ved siden av studentbyen. 0 36
+277 Han skal handle mat og sende to postkort til England, men først må han ta ut penger i minibanken. 0 92
+278 Han tar ut tusen kroner, og etterpå går han til postkontoret. 0 33
+279 Der trekker han en kølapp. 0 16
+280 Han må vente i fem minutter. 0 22
+281 Jeg vil gjerne sende disse postkortene til England. 0 39
+282 Hva koster det? 0 12
+283 Det koster ti kroner for ett kort. 0 40
+284 Det blir tjue kroner til sammen. 0 29
+285 Kan jeg få fem frimerker til? 0 15
+286 Det blir femti kroner. 0 19
+287 Ken går opp trappa til Rema. 0 18
+288 Han trenger ei handlevogn. 0 12
+289 For å ta ei handlevogn må han ha ti kroner. 0 41
+290 Han ser i lommeboka. 0 13
+291 Heldigvis har han en tikroning. 0 16
+292 Først går han til fruktdisken. 0 15
+293 Han tar fem epler, tre pærer og to bananer. 0 34
+294 Så går han til kjøledisken. 0 13
+295 Han trenger melk, ost, skinke og smør. 0 34
+296 Han tar en ost, men han finner ikke prisen. 0 37
+297 Han spør en ekspeditør. 0 8
+298 Hva koster denne osten? 0 20
+299 Den koster førti kroner. 0 12
+300 Du kan ta denne osten i stedet. 0 35
+301 Den er ikke så dyr. 0 19
+302 Den koster tjuefem kroner. 0 10
+303 Etterpå går Ken til brødhylla. 0 12
+304 Hvilket brød skal han kjøpe? 0 19
+305 Noen brød er billige, og noen brød er dyre. 0 33
+306 Han tar et billig brød, fire rundstykker og noen boller. 0 38
+307 Ken går til kassen for å betale. 0 17
+308 Etterpå går han hjem og slapper av. 0 20
+309 Ken handler mat. 0 7
+310 Ken går til Rema for å handle. 0 22
+311 Ken tar ut tusen kroner i minibanken. 0 22
+312 Anna er på vei til bussen. 0 21
+313 Klokka er tolv, og det er litt kaldt i dag. 0 55
+314 Anna skal dra til byen for å kjøpe klær. 0 37
+315 Hun trenger ei ny jakke og en genser. 0 32
+316 Klokka halv ett kommer hun til Solsiden. 0 33
+317 Hun går til en klesbutikk. 0 11
+318 Det er salg der i dag. 0 27
+319 Anna ser på ei tykk jakke. 0 26
+320 Den er blå og ganske fin, men den er for stor. 0 35
+321 Jakka er størrelse førtito, og Anna bruker størrelse førti. 0 47
+322 Hun spør en ekspeditør. 0 8
+323 Anna går til prøverommet. 0 13
+324 Hun prøver jakka, og den passer. 0 18
+325 Hun trenger også en varm genser. 0 17
+326 I butikken finner hun en tykk, lysegrå genser. 0 25
+327 Hun vil gjerne kjøpe den. 0 22
+328 Hun prøver også noen tynne gensere. 0 26
+329 Dessuten trenger hun et nytt skjerf. 0 23
+330 Hun finner et grønt, tykt skjerf, og det passer til genseren og jakka. 0 61
+331 Anna går til kassen for å betale. 0 22
+332 Klærne koster ni hundre kroner til sammen. 0 33
+333 Det er ikke så billig, men Anna er fornøyd. 0 48
+334 Anna skal dra til byen for å kjøpe klær. 0 37
+335 Det er ettermiddag. 0 15
+336 Maria sykler til Moholt-senteret. 0 16
+337 Hun trenger ei ny pute, og hun vil gjerne kjøpe ei bok i bokhandelen. 0 63
+338 Maria tar en handlevogn og går inn på Bohus. 0 27
+339 Bohus er en stor interiørbutikk. 0 16
+340 Først ser hun på noen lys til hybelen. 0 41
+341 Hun legger to fine lys og en liten lysestake i handlekurven. 0 55
+342 Hun finner også fire små tekopper. 0 22
+343 Så går hun for å se på ei pute. 0 39
+344 Hun finner ei god og myk pute. 0 19
+345 Den koster bare hundre kroner. 0 28
+346 Kanskje hun skal kjøpe ei ny dyne også? 0 41
+347 Dynene er litt for dyre. 0 20
+348 Etterpå går Maria til bokhandelen. 0 17
+349 Hun har lyst til å kjøpe en norsk roman. 0 43
+350 Det skal bli interessant å lese ei norsk bok. 0 50
+351 Maria ser ikke prisen på boka. 0 29
+352 Hun spør ekspeditøren om hjelp. 0 9
+353 Maria finner ei god og myk pute. 0 24
+354 Hvor mye koster denne romanen? 0 23
+355 Den koster hundre og syttifire kroner og femti øre. 0 36
+356 Jeg leser den faktisk nå. 0 13
+357 Den er kjempebra. 0 6
+358 Jeg tar den. 0 5
+359 Jeg kommer fra Spania. 0 14
+360 Jeg skal studere her dette semesteret. 0 25
+361 Jeg kan litt norsk. 0 16
+362 Du er flink allerede. 0 12
+363 Er det noe mer du trenger? 0 33
+364 Hvor finner jeg notatbøker og penner? 0 13
+365 Maria finner ei notatbok og noen penner. 0 24
+366 Snart skal hun begynne å studere. 0 31
+367 Hun ser også en liten spansk-norsk ordbok. 0 25
+368 Den er litt dyr, men Maria kjøper den. 0 36
+369 Maria er i godt humør nå. 0 24
+370 Hun bestemmer seg for å spise på bakeriet. 0 29
+371 De har mange gode kaker der. 0 28
+372 Hun er litt sulten. 0 16
+373 Hun kjøper en bagett med ost og skinke, et kakestykke og en kopp kaffe. 0 62
+374 Nå skal hun kose seg. 0 21
+375 Hun begynner å lese i boka. 0 23
+376 Den er spennende. 0 6
+377 Etterpå sykler hun hjem til studentbyen. 0 17
+378 Maria setter lysene og lysestaken på et lite bord på hybelen. 0 48
+379 Det blir koselig. 0 15
+380 Hun ligger i senga og leser i boka. 0 25
+381 Klokka ni banker Anna på døra. 0 30
+382 Vil du ha en kopp te? 0 23
+383 Maria legger to fine lys i handlekurven. 0 44
+384 Maria finner ei god og myk pute. 0 24
+385 Peter skal til politiet. 0 7
+386 Han må fylle ut et skjema og vise fram pass og andre papirer. 0 70
+387 Peter ser på kartet over Trondheim. 0 23
+388 Politistasjonen ligger på Brattøra, ved siden av jernbanestasjonen. 0 28
+389 Han kjører dit og parkerer. 0 19
+390 Jeg er utlending og skal bo her i over tre måneder. 0 34
+391 Derfor vil jeg gjerne søke om oppholdstillatelse. 0 26
+392 Jeg kommer fra Tyskland. 0 14
+393 Hva skal du gjøre i Norge? 0 29
+394 Jeg skal studere. 0 5
+395 Her er et brev fra NTNU. 0 20
+396 Det er en bekreftelse på studieplassen. 0 30
+397 Har du med deg pass og kort om helseforsikring? 0 36
+398 Tyskland er et EØS-land. 0 11
+399 Derfor må du bare registrere deg. 0 32
+400 Da får du et registreringsbevis. 0 26
+401 Hva gjør jeg for å registrere meg? 0 29
+402 Du må fylle ut dette skjemaet og legge ved to like bilder. 0 71
+403 Du kan ta bilder i fotoautomaten der borte. 0 36
+404 Peter står i kø for å ta bilder. 0 31
+405 En annen student sitter ved siden av ham. 0 27
+406 Hun forteller at hun heter Olga. 0 21
+407 Hun har russisk pass og må betale over tusen kroner i gebyr for å få oppholdstillatelse. 0 54
+408 Noen andre studenter er fra EØS-land. 0 26
+409 De må ikke betale. 0 19
+410 Peter bestemmer seg for å spise middag på restaurant i dag. 0 42
+411 Kanskje han skal invitere Olga til å bli med? 0 38
+412 Peter må ikke betale noe for å registrere seg. 0 44
+413 Peter skal til politiet for å registrere seg. 0 24
+414 Ken drar til kjøpesenteret Merkur for å kjøpe ny mobiltelefon. 0 38
+415 Der finner han også mange billige CDer. 0 39
+416 Etterpå går Ken til Solsiden. 0 12
+417 Det er litt vanskelig å finne fram, men han treffer en gammel mann på veien. 0 68
+418 Han viser Ken veien til Solsiden. 0 17
+419 Mannen er norsk. 0 6
+420 Han inviterer Ken på en kopp kaffe. 0 19
+421 De drikker kaffe og spiser muffins på en kafé. 0 42
+422 Mannen forteller Ken mye om Trondheim. 0 20
+423 De snakker også om Tyskland. 0 21
+424 Det er veldig hyggelig. 0 20
+425 Dagen etter forteller Ken en venn om byturen. 0 22
+426 I går dro jeg til Merkur. 0 14
+427 Jeg kjøpte ny mobil, og jeg fant også mange billige CDer der. 0 53
+428 Etterpå gikk jeg til Solsiden. 0 11
+429 Det var litt vanskelig å finne fram, men jeg traff en gammel mann på veien. 0 68
+430 Han viste meg veien til Solsiden. 0 14
+431 Mannen var norsk. 0 8
+432 Han inviterte meg på en kopp kaffe. 0 19
+433 Vi drakk kaffe og spiste muffins på en kafé. 0 37
+434 Mannen fortalte meg mye om Trondheim. 0 20
+435 Vi snakket også om Tyskland. 0 20
+436 Det var veldig hyggelig. 0 22
+437 Ken går til Solsiden. 0 8
+438 Anna tar bussen til Trondheim sentrum. 0 17
+439 Hun vil gjerne se litt av byen. 0 39
+440 Hun begynner turen på torget i Trondheim og leser litt om Trondheims historie i en brosjyre. 0 64
+441 Så går hun til Nordre gate. 0 21
+442 Det er ei travel gågate med mange butikker. 0 40
+443 Så går hun opp til Nidarosdomen. 0 16
+444 Mange busser med turister står foran Nidarosdomen. 0 24
+445 Etterpå drar hun til Gamle Bybro. 0 21
+446 Der treffer hun to italienske turister og snakker litt med dem. 0 51
+447 Turistene har et kart, men de greier ikke å finne fiskemarkedet på kartet. 0 67
+448 Anna hjelper dem. 0 14
+449 Etterpå går hun til Bakklandet. 0 12
+450 Der møter hun Maria på en hyggelig kafé. 0 32
+451 Ei uke seinere er Anna på studentbyen. 0 30
+452 Hun forteller en venn om turen til Trondheim sentrum. 0 22
+453 Forrige uke tok jeg bussen til sentrum. 0 26
+454 Jeg begynte turen på torget. 0 14
+455 Der leste jeg litt om Trondheims historie. 0 39
+456 Så gikk jeg til Nordre gate, og etterpå gikk jeg til Nidarosdomen. 0 42
+457 Mange busser med turister sto foran Nidarosdomen. 0 24
+458 Så dro jeg til Gamle Bybro. 0 22
+459 Der traff jeg to italienske turister og snakket litt med dem. 0 51
+460 Turistene hadde et kart, med de greide ikke å finne fiskemarkedet på kartet. 0 66
+461 Jeg hjalp dem. 0 5
+462 Etterpå gikk jeg til Bakklandet, og der møtte jeg Maria på en hyggelig kafé. 0 55
+463 Anna ser på Nidarosdomen. 0 18
+464 I dag syklet jeg til Bakklandet, et koselig område i nærheten av Trondheim sentrum. 0 56
+465 På Bakklandet er det mange gamle trehus i forskjellige farger. 0 62
+466 Det er også mange hyggelige kaféer og fine restauranter der. 0 47
+467 Jeg møtte Anna på en av kaféene. 0 26
+468 Jeg bestilte et stort stykke sjokoladekake og en kopp kaffe. 0 57
+469 Jeg betalte over åtti kroner for kakestykket og kaffen. 0 29
+470 Alt er så dyrt i Norge. 0 30
+471 Kaka var kjempegod. 0 9
+472 Jeg spurte servitøren om oppskrifta, men den var hemmelig, sa han. 0 49
+473 Anna er ei veldig hyggelig jente. 0 25
+474 Jeg er så glad for at vi er naboer. 0 31
+475 Vi satt på kaféen i over to timer, for vi hadde så mye å snakke om. 0 82
+476 Sykkelen stod utenfor hele tiden, uten lås. 0 27
+477 Jeg glemte å låse den da jeg gikk inn. 0 40
+478 Jeg tror at Trondheim er en trygg by, og det er få fattige mennesker her. 0 60
+479 Nordmenn er rare. 0 5
+480 De er snille og hyggelige, men de holder ikke døra åpen for deg. 0 61
+481 I går fikk jeg døra på postkontoret i ansiktet, og i dag døra på kaféen. 0 47
+482 Etter besøket på politistasjonen kjørte Peter til Trondheim torg. 0 33
+483 Han parkerte ved siden av Nidarosdomen, en stor katedral. 0 24
+484 Den ville han se. 0 20
+485 En guide fortalte ham om katedralen. 0 20
+486 Denne skulpturen er fin. 0 13
+487 Det er en skulptur av Olav Haraldsson. 0 24
+488 Hvem var han? 0 7
+489 Olav Haraldsson var en norsk vikingkonge. 0 19
+490 Han er veldig viktig for denne kirka. 0 26
+491 Nidarosdomen står over graven til denne kongen. 0 20
+492 Han døde i tusen og tretti. 0 18
+493 Hvor gammel er kirka? 0 7
+494 De bygde den mellom tusen og sytti og tretten hundre. 0 36
+495 Seinere brant den mange ganger, men de bygde den opp igjen. 0 50
+496 Skulpturen ser ikke gammel ut. 0 19
+497 Den er fra ca. nitten hundre og tretti. 0 29
+498 Nidarosdomen var ei flott kirke, og guiden var flink. 0 37
+499 Peter gikk rundt i kirka og snakket med guiden i en hel time. 0 50
+500 Seinere møtte han Frank i byen. 0 19
+501 De gikk rundt i sentrum og så i butikker. 0 41
+502 De ble sultne og trøtte. 0 16
+503 I et bakeri kjøpte de rundstykker og bagetter. 0 33
+504 Så kjørte de til Franks hybel på Møllenberg. 0 38
+505 Det var hyggelig der. 0 22
+506 Etter en halv time var de mette og glade igjen. 0 50
+507 Mange av disse skulpturene er ganske nye. 0 33
+508 Ken har nettopp stått opp. 0 12
+509 Han har dusjet, og han har spist frokost. 0 25
+510 Nå venter han på bussen. 0 15
+511 Ken skal dra til Dragvoll i dag. 0 21
+512 Dragvoll er en av campusene ved NTNU, og den ligger i nærheten av Moholt studentby. 0 48
+513 Ken skal studere psykologi på Dragvoll. 0 21
+514 Han har ikke vært der før, men han har snakket med en konsulent på telefonen. 0 65
+515 Han har også skrevet noen e-poster til en professor på instituttet. 0 34
+516 Det er bare fem minutter med buss opp til Dragvoll. 0 50
+517 Det er grønt og fint der, og bygningene er store og lyse. 0 59
+518 Ved inngangen ser han et stort kart, og her finner han Psykologisk institutt. 0 50
+519 Instituttet ligger i bygg tolv. 0 14
+520 Han går dit og treffer konsulenten. 0 22
+521 Hun er veldig hyggelig og forteller ham litt om studiet. 0 36
+522 Etterpå går han til bokhandelen og ser på noen bøker. 0 29
+523 Bøkene er veldig dyre, men han må kjøpe dem. 0 32
+524 Ken trenger også et ID-kort for studenter. 0 27
+525 Han må gå til et kontor i bygg seks. 0 26
+526 Han snakker med ei dame der. 0 24
+527 Det er ettermiddag, og Anna har kommet hjem fra universitetet. 0 47
+528 Hun har vært på Gløshaugen i dag. 0 24
+529 Gløshaugen er også en campus ved NTNU, og Anna skal studere arkitektur der dette semesteret. 0 68
+530 Det har vært en lang dag, og Anna er litt trøtt og sliten når hun kommer hjem til hybelen. 0 86
+531 Hun møter Maria på kjøkkenet. 0 18
+532 Vil du ha noe å spise? 0 29
+533 Jeg har bare spist et eple til lunsj i dag. 0 44
+534 Hvor har du vært? 0 12
+535 Jeg har vært på Gløshaugen og snakket med foreleseren. 0 32
+536 Forelesningene begynner i neste uke. 0 21
+537 Jeg har også møtt to andre arkitektstudenter, ei norsk jente og en tysk gutt. 0 62
+538 Den tyske gutten bor faktisk i etasjen under. 0 25
+539 Jeg har truffet ham. 0 7
+540 Han var her i går for å låne litt sukker. 0 42
+541 Hva heter den norske jenta? 0 31
+542 Han heter Tobias. 0 9
+543 Jeg husker ikke, men jeg treffer henne i morgen. 0 38
+544 Har du gjort andre ting i dag også? 0 32
+545 Jeg har gjort mye. 0 7
+546 Jeg har fått ID-kort, og jeg har kjøpt noen kompendier. 0 30
+547 Jeg har også lest studieplanen på nettet. 0 26
+548 Dessuten har jeg lånt noen bøker på biblioteket. 0 18
+549 Jeg har forresten lyst til å kjøpe den nye romanen til Erlend Loe. 0 57
+550 Har du lest den? 0 21
+551 Jeg har den faktisk, men jeg har ikke lest den ennå. 0 42
+552 Har du lest andre romaner av ham? 0 36
+553 Den var veldig god. 0 13
+554 Anna har vært på Gløshaugen i dag. 0 29
+555 Det er en fin dag i Trondheim. 0 27
+556 Sola skinner, og det er ganske varmt. 0 38
+557 Maria er på vei til Dragvoll. 0 21
+558 Hun studerer musikk der og skal ha en forelesning i dag. 0 35
+559 Etter forelesningen sykler hun til idrettssenteret. 0 17
+560 Det ligger på den andre siden av veien. 0 40
+561 Maria vil gjerne trene litt. 0 29
+562 Hun liker å spille fotball og volleyball. 0 26
+563 Dessuten liker hun å danse. 0 15
+564 Kanskje har de tangokurs der? 0 27
+565 Hun går inn på idrettssenteret og snakker med en mann i resepsjonen. 0 35
+566 Hva kan jeg gjøre for deg? 0 23
+567 Jeg er student ved NTNU, og jeg vil gjerne trene her. 0 48
+568 Har du betalt semesteravgiften? 0 12
+569 Her er semesterkortet. 0 5
+570 Har du trent her før? 0 14
+571 Jeg har nettopp kommet til Trondheim. 0 17
+572 Du kan kjøpe helårskort eller semesterkort. 0 30
+573 Vi selger også dagsbilletter. 0 14
+574 Hva koster semesterkortet? 0 12
+575 Det koster fire hundre og femti kroner. 0 39
+576 Jeg tar et semesterkort. 0 11
+577 Etterpå sykler Maria ned til Studentersamfundet. 0 23
+578 Studentersamfundet ligger nær sentrum og er en organisasjon for studenter. 0 28
+579 De arrangerer konserter, forelesninger, forskjellige arrangementer og festivaler der. 0 39
+580 Maria har sett noen bilder av Studentersamfundet. 0 25
+581 Hun synes at det røde, runde huset ser spesielt ut. 0 82
+582 På lørdag vil hun gå på konsert der. 0 26
+583 På lørdag vil Maria gå på konsert på studentersamfundet. 0 35
+584 Tidlig en morgen kjører Peter til Dragvoll for å begynne på norskkurs. 0 40
+585 Han gleder seg til å treffe de andre studentene på kurset. 0 50
+586 Han finner auditorium tolv i bygg ti. 0 18
+587 Timen skal begynne om ti minutter. 0 20
+588 Ti-femten studenter har allerede kommet, og nå kommer læreren også. 0 38
+589 Hun spør noen av studentene om navn og nasjonalitet. 0 21
+590 Jeg er tysk. 0 5
+591 Hvor lenge har du vært i Norge? 0 34
+592 Jeg kom til Norge for fjorten dager siden. 0 27
+593 Jeg har vært her i Trondheim i ei uke. 0 31
+594 Har du gått på norskkurs før? 0 27
+595 Jeg har lært litt fordi jeg har en norsk venn. 0 36
+596 Han studerte i Hamburg i fjor. 0 17
+597 Da lærte han meg norsk, og jeg lærte ham tysk. 0 38
+598 Jeg liker å lære språk. 0 21
+599 Det er bra. 0 15
+600 Jeg håper at du kommer til å trives på dette kurset. 0 65
+601 Peter sitter foran to søte jenter. 0 30
+602 Klokka blir kvart over ni, og læreren begynner å undervise. 0 48
+603 Det er interessant, men Peter gleder seg til pausen. 0 38
+604 Han vil snakke med den lyse jenta. 0 36
+605 Jeg er italiener. 0 5
+606 Du er tysker? 0 10
+607 Har du et viskelær? 0 16
+608 Hvordan visste du det? 0 18
+609 Jeg hørte at du fortalte det til læreren. 0 38
+610 Jeg heter Anna, og dette er Maria, som er fra Barcelona. 0 52
+611 Jeg heter Peter. 0 9
+612 Her er viskelæret. 0 5
+613 Etter pausen er Peter fornøyd. 0 11
+614 Han har snakket med begge jentene og en engelsk gutt. 0 37
+615 De bor på Moholt alle tre. 0 34
+616 Anna studerer arkitektur på Gløshaugen. 0 18
+617 Hun skal dit etterpå, og Peter skal kjøre henne. 0 35
+618 Norskkurset er i auditorium tolv i bygg ti. 0 20
+619  0 1
+
+;;; Total CPU time: 3080 msecs
+
+;;; Mean edges: 26.13
+
+;;; Mean parses: 0.00

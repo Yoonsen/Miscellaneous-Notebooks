@@ -1,0 +1,271 @@
+; ; LH211011  have moved this to norsk.tdl, since they are ancestors into that file
+;fpos_prom_rel := arg1-relation &
+;[ PRED "first_position_prominent"].
+
+
+
+;;;;
+;
+; ; LH060811  have moved this to norsk.tdl, since they are ancestors into that file
+#|
+;; 14.12.10 MHS
+;; Changed RIGHT-ADJ-SITE-OPEN + to -.
+
+head-filler-topic-phrase := basic-head-filler-phrase & head-final &
+  [ SYNSEM.LOCAL.CAT.HEAD verb-all & [INV +,
+                                      DECL +],
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD #6,
+    SYNSEM.LOCAL.CONT.HOOK.XARG #xarg,
+    SYNSEM.LOCAL.CONT.HOOK.VARG #varg,
+    SYNSEM.LOCAL.CAT.VAL.SUBJ #1,
+    SYNSEM.LOCAL.CAT.VAL.COMPS #2,
+    SYNSEM.LOCAL.CAT.VAL.ICOMPS #3,
+    SYNSEM.LOCAL.CAT #cat,
+    SYNSEM.LOCAL.CAT.QVAL #qval,
+    SYNSEM.LOCAL.ADJ-SITE-OPEN -,
+    SYNSEM.BIND #8,
+    SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN -,
+    SYNSEM.LOCAL.BND-RESP #bndresp,
+    HEAD-DTR.SYNSEM.LOCAL.BND-RESP #bndresp,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.IMPERATIVE -,
+    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD #6,
+    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.XARG #xarg,
+    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.VARG #varg,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ #1,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS #2,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.ICOMPS #3,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ <anti-synsem>,
+    HEAD-DTR.SYNSEM.LOCAL.CAT #cat,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL #qval,
+    HEAD-DTR.EXTRACTED-FROM +,
+    HEAD-DTR.FRONT-TO-FILL +,
+    HEAD-DTR.SYNSEM.BIND #8,
+    HEAD-DTR.SYNSEM.LOCAL.HAS-PERIOD -,
+    HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN -,
+    NON-HEAD-DTR.RULE card-ok,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.ACCUSATIVE +,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPR <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.COORD-RELEASED +,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK [ INDEX #ind, LTOP #lbl ], ;; MHS 180511 Add re-entrancy of LTOP and LBL to fix leaf/hole mismatch.
+    C-CONT [ RELS <!fpos_prom_rel & [ ARG1 #ind, LBL #lbl ] !>,
+	     HCONS <! !> ] ].
+|#
+
+#|
+; LH  have moved these to norsk.tdl, since they are ancestors into that file
+mod-front-phrase := var-cc_opn-adj-head-phrase &
+  [ SYNSEM.LOCAL.CAT.VAL [COMPS <>,
+                          ICOMPS <>],
+    SYNSEM.LOCAL.CAT.QVAL #qval,
+    SYNSEM.LOCAL.CONT.HOOK #1 & [LTOP #top],
+    SYNSEM.LOCAL.COORD-RELEASED #18,
+    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK #1 & [LTOP #top],
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ < anti-synsem >,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.QVAL #qval,
+    HEAD-DTR.SYNSEM.LOCAL.COORD-RELEASED #18,
+    HEAD-DTR.SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPR <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPEC <>,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK [ INDEX #ind, LTOP #lbl ], ;; MHS 180511 Add re-entrancy of LTOP and LBL to fix leaf/hole mismatch.
+    C-CONT [RELS.LIST.FIRST fpos_prom_rel & [ ARG1 #ind, LBL #lbl ],
+            HCONS <! !>]].
+
+; var-cc_opn-adj-head-phrase is defined in mal-types.tdl, in turn based on new types in matrix.tdl. Regular types shouldn't emerge from a mal-dedicated file.
+front-mod-vp-phrase := var-cc_opn-adj-head-phrase &
+  [ SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN -,
+    SYNSEM.LOCAL.ADJ-SITE-OPEN -,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS <>,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PATH-TELIC bool,
+    HEAD-DTR.SYNSEM.LOCAL.HAS-PUNCT -,
+    HEAD-DTR.SYNSEM.LOCAL.RIGHT-ADJ-SITE-OPEN +,
+    HEAD-DTR.FRONT-TO-FILL + ].
+|#
+
+#|
+; moved to norsk.tdl
+extracted-verbcomp-phrase-sup := extracted-comp-phrase &
+  [ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all ].
+
+
+;;; 16.12.10 MHS Added COMPS-BEGUN - in an attempt to reduce spurious ambiguity. Might be a problem, though I don't know specifically how or why. 
+
+mcl-extracted-verbcomp-phrase := extracted-verbcomp-phrase-sup &
+ [ HEAD-DTR.SYNSEM.LOCAL [ CAT [ HEAD [ MAIN-CL +,
+					INV + ],
+				 VAL.SUBJ < anti-synsem >,
+				 QVAL.SUBJECT.SYNSEM.LOCAL.CAT.HEAD.ACCUSATIVE -],
+			   COMPS-BEGUN -]].
+
+non-mcl-extracted-verbcomp-phrase := extracted-verbcomp-phrase-sup &
+[ HEAD-DTR.SYNSEM.LOCAL.CAT [ HEAD [ MAIN-CL - ]]].
+
+extracted-verbicomp-phrase-sup := extracted-icomp-phrase &
+  [ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb-all ].
+
+
+;;; 16.12.10 MHS Added COMPS-BEGUN - in an attempt to reduce spurious ambiguity. Might be a problem, though I don't know specifically how or why. 
+
+mcl-extracted-verbicomp-phrase := extracted-verbicomp-phrase-sup &
+ [ HEAD-DTR.SYNSEM.LOCAL [ CAT [ HEAD [ MAIN-CL +,
+					INV + ],
+				 VAL.SUBJ < anti-synsem >,
+				 QVAL.SUBJECT.SYNSEM.LOCAL.CAT.HEAD.ACCUSATIVE -],
+			   COMPS-BEGUN -]].
+
+non-mcl-extracted-verbicomp-phrase := extracted-verbicomp-phrase-sup &
+[ HEAD-DTR.SYNSEM.LOCAL.CAT [ HEAD [ MAIN-CL - ]]].
+|#
+
+#|
+phr-synsem := canonical-synsem & lex-or-phrase-synsem &
+  [ LOCAL local-min,
+    PHR-P phr-prop-min,
+    LEX - ].
+|#
+
+#|
+bools-min := avm.
+bools := bools-min &
+[ ADJ-B adj-bools,
+  PNCT-B punct-bools].
+v-phr-bools := bools &
+[ VRB-B v-bools ].
+n-phr-bools := bools &
+[ NOM-B n-bools ].
+v-and-n-phr-bools := v-phr-bools & n-phr-bools.
+
+adj-bools := avm &
+[ ADJ-S-OPN bool,
+  ADJ-S-SUB-OPN bool,
+  R-ADJ-S-OPN bool ].
+
+punct-bools := avm &
+[ HAS-P bool,
+  HAS-PER bool ].
+
+v-bools := avm &
+[ INV-S-OPN bool,
+  CLIT-S-OPN bool,
+  CLIT-P-CONF bool,
+  COMPS-BEG bool ].
+
+n-bools := avm &
+[ SPC-2-BARE-N bool,
+  CARD-2-BARE-N bool,
+  POSSP-2-BARE-N bool ].
+
+
+local := local-min &
+  [ CTXT ctxt-min,
+    BOOLS bools-min,
+    KEY-SPEC predsort,
+    ALT-SPEC predsort,
+    XSORT semsort ].
+
+
+adj-local := local &
+  [ BOOLS.ADJ-B [  ADJ-S-OPN #adjsopn,
+		       ADJ-S-SUB-OPN #adjsub,
+		       R-ADJ-S-OPN #radjsopn ],
+    ADJ-SITE-OPEN bool & #adjsopn,
+    ADJ-SITE-SUBORD-OPEN bool & #adjsub,
+    RIGHT-ADJ-SITE-OPEN bool & #radjsopn ].
+
+
+v-local := local &
+  [ BOOLS.VRB-B [  INV-S-OPN #inv,
+		       CLIT-S-OPN #cls,
+		       CLIT-P-CONF #clconf,
+		       COMPS-BEG #comps ],
+    INVERT-SITE-OPEN bool & #inv,
+    CLIT-SITE-OPEN bool & #cls,
+    CLIT-PRON-CONFIRMED bool & #clconf,
+    COMPS-BEGUN bool & #comps,
+    ADV-MODIFIED bool,
+    DELIMTELFIXED bool,
+    PATHTELFIXED bool,
+    INCRTELFIXED bool,
+    DELIMTELACTV bool,
+    PATHTELACTV bool,
+    INCRTELACTV bool ].
+
+
+pnct-local := local &
+  [ BOOLS.PNCT-B  [ HAS-P #p,
+			HAS-PER #per ],
+    HAS-PUNCT bool & #p,
+    HAS-PERIOD bool & #per ].
+
+
+n-local := local &
+  [ BOOLS.NOM-B  [ SPC-2-BARE-N #spc,
+		       CARD-2-BARE-N #card,
+		       POSSP-2-BARE-N #poss ],
+    SPEC-TO-BARE-N bool & #spc,
+    CARD-TO-BARE-N bool & #card,
+    POSSPRON-TO-BARE-N bool & #poss ].
+
+
+cmb-rest-local := local &
+  [ CAN-CMB-FIXPT bool,
+    CAN-CMB-NONFIXPT-DIR bool,
+    CAN-CMB-INDEX-SIT bool,
+    CAN-CMB-V bool ].
+
+coord-rest-local := local & 
+  [ COORD-RELEASED bool,
+    COORD-POL bool,
+    SUBJ-ONLY bool,
+    CORRCOORD-CLOSED bool,
+    CAN-COORD-COMP bool ].
+
+
+mixed-rest-local := local &
+  [ IS-A-COMPLEMENT bool,
+    HAS-A-V-COMPLEMENT bool,
+    REL-CL-SOM-INIT bool,
+    CAN-NP-MOD bool,
+    NEED-IMP-UNARY bool,
+    DERIVED-HEAD bool,
+    CAN-PASTPART-ADJ bool,
+    HAS-REL-CL bool,
+    MUST-APP bool,
+    CAN-APP bool,
+    OBJ-DEL-APPLIED bool ].
+
+
+cmb-and-coord-rest-local := cmb-rest-local & coord-rest-local.
+cmb-and-mixed-rest-local := cmb-rest-local & mixed-rest-local.
+coord-and-mixed-rest-local := coord-rest-local & mixed-rest-local.
+rest-local := cmb-and-coord-rest-local & cmb-and-mixed-rest-local & coord-and-mixed-rest-local. 
+
+
+adj-and-pnct-local := adj-local & pnct-local.
+rest-and-adj-local := adj-local & rest-local.
+rest-and-pnct-local := rest-local & pnct-local.
+rest-adj-and-pnct-local := adj-and-pnct-local & rest-and-adj-local & rest-and-pnct-local.
+
+v-and-adj-local := v-local & adj-local.
+v-and-pnct-local := v-local & pnct-local.
+v-and-rest-local := v-local & rest-local.
+v-adj-and-pnct-local := v-and-adj-local & v-and-pnct-local & adj-and-pnct-local.
+v-rest-and-adj-local := v-and-adj-local & v-and-rest-local & rest-and-adj-local.
+v-rest-and-pnct-local := v-and-rest-local & v-and-pnct-local & rest-and-pnct-local.
+v-rest-adj-and-pnct-local := v-adj-and-pnct-local & v-rest-and-adj-local & v-rest-and-pnct-local & rest-adj-and-pnct-local.
+
+n-and-adj-local := n-local & adj-local.
+n-and-pnct-local := n-local & pnct-local.
+n-and-rest-local := n-local & rest-local.
+n-adj-and-pnct-local := n-and-adj-local & n-and-pnct-local & adj-and-pnct-local.
+n-rest-and-adj-local := n-and-adj-local & n-and-rest-local & rest-and-adj-local.
+n-rest-and-pnct-local := n-and-rest-local & n-and-pnct-local & rest-and-pnct-local.
+n-rest-adj-and-pnct-local := n-adj-and-pnct-local & n-rest-and-adj-local & n-rest-and-pnct-local & rest-adj-and-pnct-local.
+
+full-local := v-rest-adj-and-pnct-local & n-rest-adj-and-pnct-local.
+
+|#

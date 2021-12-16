@@ -1,0 +1,2503 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource - test-v-stnd
+;;; 
+;;;    Copyright (c)  NorSource version 1.0
+;;;                       2004-2006 
+;;;
+;;;   
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;   
+;;;
+;
+; LKB(1): (batch-check-morphology t)
+; NB: don't erase!
+;
+;
+;;; Design of tokens:
+; on top is a coded description of the construction type to which the token belongs. In many cases indications of 'Role' and 'Situation type' are also entered, but they are not operative in Norsource. 
+; If the type of the head verb lexeme in the token is different from the construction type, this type is mentioned next, using the same code of description. 
+;Underneath, initiated by 'Old:..', comes the type of the lexeme used in the earlier type system, and possibly information about the types of the items with which the verb combines, and some of the combinatory rules.
+; Then comes the example, with a cursory gloss underneath.
+; Most of the description code is straightforward, but here a few less obvious labels:
+;
+; trObl - transitive (subject and object) plus an oblique constituent  
+; trNrf - transitive whose object is nonreferential 
+; scSuNrg - secondary predicate (or 'small clause predicate') predicated of the subject, where the subject is not an argument of the matrix verb (typically: 'raising to subject')
+; scObNrg - secondary predicate (or 'small clause predicate') predicated of the object, where the object is not an argument of the matrix verb (typically: 'raising to object')
+; scSuArg - secondary predicate (or 'small clause predicate') predicated of the subject, where the subject is an argument of the matrix verb (thus NOT 'raising to subject')
+; scObArg - secondary predicate (or 'small clause predicate') predicated of the object, where the object is an argument of the matrix verb (thus NOT 'raising to object')
+;
+;
+;v-intrImpers
+;ROLE:
+;SIT-TYPE: PHENOM
+;; Old: impersonal-presentational-verb-lexeme
+det regner 
+;'it rains'
+;
+;v-intrImpersPrtcl
+;ROLE:
+;SIT-TYPE: PHENOM_TELIC
+;; Old: impersonal-presentational-telicparticle-verb-lexeme
+det klarner opp 
+;'it clears up'
+;
+;v-intrImpersObl
+;ROLE: loc
+;SIT-TYPE: SEMELFACTIVE
+;; Old: impersonal-presentational-obl-verb-lexeme
+det kvekker i Ola 
+;'it startles in Ola'
+det sprekker i glasset
+;'it cracks in the glass'
+;ROLE: loc
+;SIT-TYPE: ACTIVITY
+det synger i fjellene
+; 'it sings in the mountains'
+;
+; NB for the analysis of presentationals in norsk.tdl - for QVAL, only the expletive subject is given an attribute
+;v-intrPresnt-presDir
+;ROLE: agmover
+;SIT-TYPE: MOTION
+;; Old: subject-dir-presentational-verb-lexeme
+det løper en mann
+; 'there runs a man'
+;ROLE: thmover
+;SIT-TYPE: MOTION
+det ruller en ball
+; 'there rolls a ball'
+;
+; "hit" combines by telic-adv-mod-vp-rule - it is not counted in the valence
+;ROLE: agmover
+;SIT-TYPE: ENDPNTMOTION
+det løper en mann hit
+; 'there runs a man to here'
+det kommer en mann hit
+; 'there comes a man to here'
+det løper to gutter mot skogen
+; there run two boys towards the forest
+;ROLE: thmover
+;SIT-TYPE: ENDPNTMOTION
+det ruller en ball hit
+; 'there rolls a ball to here'
+;
+; v-trNrfPresnt-obRefl_presDir
+;or (but not used) v-trPresnt-obRefl_presDir
+;ROLE: agmover
+;SIT-TYPE: MOTION
+;; Old: subject-dir-presentational-refl-verb-lexeme
+; NB: the example is artificial, when a reflexive occurs in a presentational like this, there is normally need for a path argument. See below.
+det smyger seg en mann
+; 'there slithers a man'
+; "hit" combines by telic-adv-mod-vp-rule - it is not counted in the valence:
+det smyger seg en mann hit
+; 'there slithers a man to here'
+; Notice that this type is very close to 'v-trScpr-obDir_obRefl_scObNrgCsd', for constructions like 'kjøre seg ut'. Cases like 'kare seg ut', in lex1.close under the latter type, are not that different from 'smyge'.
+;
+;
+;v-intrPresntPath-presDir
+det smetter en katt ut
+;there ?slipped a cat out'
+;v-intrPresntPathShft-presDir
+det smetter ut en katt
+;there ?slipped out a cat'
+; old: subject-presentational-telicparticle-verb-lexeme.
+;ROLE: agmover
+;SIT-TYPE: ENDPNTMOTION
+; '...Path' in the labeling code indicates that the path element is an argument.
+; The way the grammar is organized, though, if the path item precedes the presented NP, it has to count as an argument (on COMPS), even if the verb as such would not require it as argument. Example:
+det kommer hit en mann
+; 'there comes to-here a man'
+; Therefore, although "komme" can occur by itself, for this construction we have to make an entry for "komme" where it has the type v-intrPresntPathShft-presDir.
+;; "kommer hit" goes by head-verb-adverb-comp-rule or head-verb-particleshift-comp-rule - possible redundancy in having two such rules - TODO
+;
+;As reflexive versions of the above, we have
+;v-trNrfPresntPath-obRefl_presDir
+det sniker seg en mann ut
+; 'there slithers REFL a man out'
+;v-trNrfPresntPathShft-obRefl_presDir
+det sniker seg ut en mann
+; 'there slithers REFL out a man'
+;or (but not used in lex) v-trNrfPresntPath-obReflExpl_presDir or v-trPresntPath-obRefl_presDir
+; old: subject-presentational-secpred-refl-dir-verb-lexeme
+; '...Path' indicates that the path element is an argument. As said above, by the way the grammar is organized, if the path item precedes the presented NP, it has to count as an argument (on COMPS), even if the verb as such would not require it as argument. When a reflexive occurs in a presentational like this, though, there is normally valence-need for a path argument. Example where 'hit' is required:
+;ROLE: agmover
+;SIT-TYPE: ENDPNTMOTION
+det sniker seg en mann hit
+; 'there slithers REFL a man to here'
+; TODO: this doesn't parse because the verb is defined as 'hook', not 'dir-hook'
+;Also with a reflexive, the path item can precede the presented item, as in
+det sniker seg ut en mann
+;'there slithered REFL out a man'
+;This will require a 'Shft' type analogous to those with secpreds - TODO (and the same point about dir-hook as above).
+;;
+;
+;v-intrPresntLoc
+; '...Loc' indicates that the locative element is an argument.
+;ROLE: ag_loc
+;SIT-TYPE: POSTURE_LOC
+;; Old: subject-presentational-verb-lexeme
+det sitter en mann i stolen
+;'there sits a man in the chair'
+det sitter en mann her
+;'there sits a man here'
+;
+;v-trPresntLoc-obRefl 
+; old: subject-locobl-presentational-refl-verb-lexeme
+;- not easy to distinguish between 'full' and 'expletive' "seg"s in practice - and in the mrs currently not much difference is made. So v-trNrfPresntLoc-obReflExpl (not in lex) is an alternative; '...Loc' indicates that the locative element is an argument.
+det oppholder seg en gutt i hagen
+;'there stays REFL a boy in the garden'
+;
+det setter seg en gutt her
+; there set REFL two boys here
+;;
+;
+; v-trNrfPresnt-obReflExpl
+det setter seg en gutt
+; there set REFL two boys
+; 'there sit down two boys'
+
+;v-trPresnt
+;ROLE: ben_th
+;SIT-TYPE: PENDINGSTATE
+;; Old: io-presentational-verb-lexeme
+det venter ham en ulykke
+;'there awaits him an accident'
+det tilkommer ham hundre kroner
+;'there "to-come" him a hundred kroner' - "he is supposed to get 100 kroner"
+;
+;v-intr
+;ROLE: ag
+;SIT-TYPE: ACTIVITY / SEMELFACTIVE
+gutten hopper
+;'the boy jumps'
+gutten sover
+; 'the boy sleeps'
+;
+;v-intrPrtcl-SUSTAINEDACTIVITY
+;ROLE: ag
+;SIT-TYPE: SUSTAINEDACTIVITY
+;; Old: intrans-atelicparticle-arg1-verb-lexeme
+;;;; på: adv-particle-word - KEYS.KEY på-pcl
+;;;;; driver|| på: head-verb-advpartivle-comp-rule
+;artificial example
+;Ola driver på
+; 'Ola keeps on'
+;ROLE: th
+;SIT-TYPE: SUSTAINEDACTIVITY
+; in entry for 'vare' in lex1.close, using
+; SYNSEM.LOCAL.CAT.QVAL.DOBJECT [LOCAL.CONT.HOOK hook & [INDEX.SORT measure-unit
+; to rule out all readings with the noun 'ved' ('wood').
+regnværet varer ved
+; 'the rain lasts'
+;
+;could be named 'v-intrPrtclSubcoord', but is handled by v-intrPrtcl.
+; rule: coordination-v-rule, conoining VPs,
+; But beware that coordination-finite-clause also applies here, which it shouldn't - 
+; TODO: It applies also to "Ola løper og løper" allowing distinct subjects - should be avoided. Has to do with 'antilist' vs 'null' as SUBJ-value...
+; TODO: "driver på og" is here an aspectual operator, and no analysis made for that yet. Same with "driver og", so these are commented out, illustrating nothing but plain coordination.
+;Ola driver på og plystrer 
+; 'Ola keeps on whistling (and whistles)'
+;
+;v-intrPrtcl-COMPLETEDACTIVITY
+;ROLE: ag
+;SIT-TYPE: COMPLETEDACTIVITY
+Ola stopper opp
+; 'Ola stops up' - "Ola comes to a halt"
+;ROLE: th
+;SIT-TYPE: COMPLETEDACTIVITY
+regnværet holder opp
+; 'the rain holds up' - "the rain comes to a halt"
+;
+;v-intr
+;ROLE: senser
+;SIT-TYPE: SENSING_PROTR
+gutten lytter
+;'the boy listens'
+;
+;v-intr
+;ROLE: th
+;SIT-TYPE: PROCESS
+isen smelter
+;'the ice melts'
+;
+;v-intr
+;ROLE: exp
+;SIT-TYPE: EXPERIENCING_PROTR
+gutten fryser
+;'the boy freezes'
+;
+;v-intr
+;ROLE: agmover
+;SIT-TYPE: MOTION
+gutten løper
+; 'the boy runs'
+;
+;v-intr
+;ROLE: thmover
+;SIT-TYPE: MOTION
+ballen ruller
+; 'the ball rolls'
+;
+;v-intrPath-suDir
+;ROLE: orientedobj
+;SIT-TYPE: PUREORIENTATION
+;; Old: intrans-arg1orient-verb-lexeme
+pilen peker mot nord
+; 'the arrow points towards north'
+;
+;v-intrPath-suDir
+;ROLE: orientedobj
+;SIT-TYPE: PATHCONSTELLATION
+veien går mot nord
+; 'the road goes towards north'
+;
+;v-intrPath-suDir
+;ROLE: orientedobj
+;SIT-TYPE: LOCOMODEVELOPMENT
+turen går mot nord
+; 'the tour goes towards north'
+;
+;v-intrPath-suDir
+;ROLE: orientedobj
+;SIT-TYPE: LOCOMOTION
+gutten rusler mot skogen
+; 'the boy strolls towards the forest'
+;
+;
+;v-trNrf-suDir_obReflExpl
+;ROLE: orientedobj
+;SIT-TYPE: LOCOMODEVELOPMENT
+gutten lister seg
+; 'the boy tiptoes REFL'
+;for the next one could conceive of as correct
+;v-trNrfPath-suDir_obReflExpl
+; but in the grammar, 'ut' is adjoined, and one manages with the above type. For very similar cases like 'kare', see v-trScpr-obDir_obRefl_scObNrgCsd_scAdv - thus, whenever the directional is oblig, it is construed as a secpred. Not obvious that that is correct, but so it works... (TODO?)
+gutten lister seg ut
+; 'the boy tiptoes REFL out'
+;
+;v-intr-suDECL
+;ROLE: thSit
+;SIT-TYPE: NONHABITUAL
+at han sover hender
+;'that he sleeps occurs'
+;
+;v-intr-suYN (not used)
+;v-intr-suINTERR
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+hvorvidt han kommer spørs
+;'whether he comes depends'
+;
+;v-intr-suWH (not used)
+;v-intr-suINTERR
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+hvem som kommer spørs
+;'who comes depends'
+;
+;v-intr-suAbsinf
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+å motta penger for politiske verv stinker
+;'to receive money for political duties sucks'
+;
+;v-intrObl
+;ROLE: ag_topic
+;SIT-TYPE: ABOUTNESS_ACTIVITY
+;; Old: intrans-obl-verb-lexeme (cf. comments at 'prep-clause-word' in norsk.tdl)
+;;;; om, på: prep-word-sel
+jeg snakker om fjellet
+; 'I talk about the mountain'
+jeg stoler på gutten
+; 'I rely on the boy'
+jeg snakker om Ola
+;'I talk about Ola'
+;
+;v-intrObl-oblLoc
+;it differs from v-intrObl-oblN in applying both to PP and Adv, and is restricted to those verbs that really subcat for a location argument.
+;ROLE: ag_loc
+;SIT-TYPE: LOCATION
+; old: intrans-locobl-verb-lexeme
+hun bor i Finnmark
+;'she lives in Finnmark'
+;ROLE: th_loc
+;SIT-TYPE: LOCATION
+Hamningberg ligger i Finnmark
+;'Hamningberg lies in Finnmark'
+;
+;v-intrObl
+;ROLE: ag_affincrem
+;SIT-TYPE: NONCOMPLETED_MONODEVMNT
+;; Old: intrans-atel-obl-verb-lexeme
+;;;; på: prep-atelic-word; head-verb-icomp-rule
+Ola tygger på eplet
+; Ola eats on the food
+; 'Ola eats of the food'
+hun spiser av eplet
+; 'she eats of the apple'
+;
+;v-intrObl
+;ROLE: ag_thincrem
+;SIT-TYPE: NONCOMPLETED_MONODEVMNT
+hun leser i boken
+; 'she reads in the book'
+;
+;v-intrObl
+;ROLE: ag_activated
+;SIT-TYPE: ACTIVATION
+Ola rører på statuen 
+; 'Ola shrugs the statue'
+;
+;v-intrObl-oblRefl
+;ROLE: ag_activated
+;SIT-TYPE: ACTIVATION
+;; Old: intrans-obl-refl-verb-lexeme
+Ola leer på seg
+; Ola shrugs REFL = 'Ola shrugs'
+;
+;v-intrObl-oblPRTOFsu
+;ROLE: exp_locth
+;SIT-TYPE: PARTWHOLE_EXPERIENCING
+;old: intrans-pp-detached-poss-verb-lexeme
+jeg fryser på ryggen
+;'I freeze on the back' - "I'm cold on my back"
+;
+; NEW label
+;v-intrScpr-scObimplNrgRes_scPP-PLACEMENT
+; earlier: ;v-intrImplicobjObl
+; old: trans-ppshift-implicit-verb-lexeme
+;ROLE: ag_th_csdloc
+;SIT-TYPE: RENDERING_IN_POSITION
+; the preposition is prep-word-reg. Redundancy in combinatory rules - TODO
+han sølte på duken
+;'he spilled on the tablecloth'
+han kledde på gutten
+;'he dressed the boy'
+;"søle" is also defined as plain intr, and with that one gets that the 'søling' takes place on the 'duk', which is the happy-innocent construal.
+; 
+; NEW label
+;v-intrScpr-scObimplNrgRes_scPPrefl-PLACEMENT
+; earlier: ;v-intrImplicobjObl-oblRefl
+;old: trans-ppshift-refl-implicit-verb-lexeme
+; the preposition is prep-word-reg. Redundancy in combinatory rules - TODO
+han sølte på seg
+;'he spilled on himself'
+han kledde på seg
+;'he dressed himself'
+; "søle" is also defined as plain intr, and with that one gets that the 'søling' takes place on the 'duk', which is the happy-innocent construal.
+;
+;v-intrObl-oblDECL
+;ROLE: ag_topic
+;SIT-TYPE: ABOUTNESS_ACTIVITY
+;;;; om: prep-clause-word
+;;;;; head-prep-compclause-comp-rule
+;;;;;; head-actv-verb-icomp-rule
+jeg snakker om at du kommer
+; I talk about that you come
+jeg stoler på at du kommer
+; I rely on that you come
+dette beror på at du kommer
+; this depends on that you come
+dette avhenger av at du kommer
+; this depends on that you come
+;
+;v-intrObl-oblYN (not used)
+;v-intrObl-oblInterr
+;ROLE: ag_topic
+;SIT-TYPE: PROPOSITIONALATTITUDE_ACTIVITY
+; Old: intrans-indirwhquest-pp-verb-lexeme
+;;;; på: prep-indirwhquest-word; head-prep-indirwhquestclause-comp-rule
+;;;; head-verb-prepindirwhquest-comp-rule
+Jon lurer på hvorvidt du kommer
+;  Jon wonders on whether you come
+; 'Jon wonders whether you come'
+jeg snakker om hvorvidt du kommer
+; I talk about whether you come
+;
+;v-intrObl-oblWH (not used)
+;v-intrObl-oblInterr
+;ROLE: ag_topic
+;SIT-TYPE: PROPOSITIONALATTITUDE_ACTIVITY
+; Old: intrans-indirwhquest-pp-verb-lexeme
+;;;; på: prep-indirwhquest-word; head-prep-indirwhquestclause-comp-rule
+;;;; head-verb-prepindirwhquest-comp-rule
+Jon lurer på hva som skjer
+;  Jon wonders on what that happens
+;  'Jon wonders what happens'
+de lurer på hvem som kommer
+;'they wonder about who that comes'
+;
+;v-intrObl-oblEqSuInf
+;ROLE: ag_topic
+;SIT-TYPE: PROPOSITIONALATTITUDE_ACTIVITY
+;; Old: subj-equi-pp-verb-lexeme
+;;;; om: prep-rais-word; head-prep-rais-comp-rule
+;;;; head-verb-preprais-comp-rule
+jeg ber om å komme
+; I ask about-PREP to-INF come
+; 'I request to come'
+han håper på å komme 
+;'he hopes [on] to come'
+;
+;v-intrObl-oblEqSuInf-SUSTAINEDACTIVITY
+;ROLE: ag_topic
+;SIT-TYPE: HABITUAL
+;; Old: subj-equi-pp-atelic-verb-lexeme
+;;;; med: prep-rais-word - KEYS.KEY med-rais
+;;;;; med|| å spise: head-prep-rais-comp-rule
+katten driver med å fortære maten
+; Ola drives with-PREP to-INF eat the food
+; 'Ola is engaged in eating the food'
+Ola driver med å skrive
+;'Ola keeps with to write'
+;
+;v-intrSubcoord
+; this fails to construe 'drive' as an aspectual operator, so comment out. TODO
+;SIT-TYPE: ACTIVITY
+;; Old: intrans-arg1-atelic-verb-lexeme
+;Ola driver og skriver;  
+; bruland, pet problem
+;'Ola keeps and writes' (= 'keeps writing')
+;
+;v-intrPrtclObl-oblEqSuInf
+;ROLE: ag_topic
+;SIT-TYPE: ACTIVITY
+;; Old: subj-prtcl-equi-pp-atelic-verb-lexeme
+;;;; på: adv-particle-word - KEYS.KEY på-pcl
+;;;; med: prep-rais-word - KEYS.KEY med-rais
+;;;;; driver|| på: head-verb-advpartivle-comp-rule
+;;;;; driver på|| med å spise: head-verb-preprais-comp-rule
+ulven driver på med å fortære maten
+; Ola drives on-ADV with-PREP to-INF eat the food
+; 'Ola is engaged in eating the food'
+Ola driver på med å skrive
+;'Ola keeps on with to write'
+;
+;v-intrObl-oblAbsinf
+;ROLE: ag_topic
+;SIT-TYPE: ABOUTNESS_ACTIVITY
+de snakker om å reise til Trondheim
+;'they talk about to travel to Mars'
+;
+;v-intrOblRais-oblTil
+; not:
+; v-intrScpr-scSuNrg - this was the type used in lex1.close for this, but it is a real prep-Obl
+;ROLE: thSit
+;SIT-TYPE: EXHIBACT
+;; Old: intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme
+;; It is also used with 'v-intrOblExlnk-oblExlnkDECL' 
+;;;; til: prep-rais-word; head-prep-rais-comp-rule
+;;;; head-verb-preprais-comp-rule
+han later til å komme
+;'he appears [to] to come' - "he appears to come"
+;(v_perifut-intr - for short)
+han kommer til å sove
+;'he comes [to] to sleep' - "he will sleep"
+det later til å komme to gutter
+; there appears to-PREP to-INFMARK come-INF two boys
+;  'there appear to be two boys coming'
+;
+;v-intrObl-suDECL_oblN
+; old: intrans-eventarg1-decl-obl-n-verb-lexeme
+at han kom beror på Ola
+;v-intrObl-suYN_oblN (not used)
+;v-intrObl-suINTERR_oblN
+; old: intrans-eventarg1-interr-obl-n-verb-lexeme
+om han kommer avhenger av Ola
+;v-intrObl-suWH_oblN (not used)
+;v-intrObl-suINTERR_oblN
+; old: intrans-eventarg1-interr-obl-n-verb-lexeme
+hvem som kommer avhenger av Ola
+;
+;v-intrObl-suDECL_oblDECL
+; old: intrans-eventarg1decl-eventobldecl-verb-lexeme
+at han kom beror på at Ola vant
+;v-intrObl-suYN_oblYN (not used)
+;v-intrObl-suINTERR_oblINTERR
+; old: intrans-eventarg1interr-eventoblinterr-verb-lexeme
+om han kommer beror på om Ola vinner
+;v-intrObl-suWH_oblYN (not used)
+;v-intrObl-suINTERR_oblINTERR
+; "om" - y-n-quest-subord-comp
+; old: intrans-eventarg1interr-eventoblinterr-verb-lexeme
+hvem som kommer beror på om Ola vinner
+;v-intrObl-suYN_oblWH
+;v-intrObl-suINTERR_oblINTERR
+; "om" - y-n-quest-subord-comp
+; old: intrans-eventarg1interr-eventoblinterr-verb-lexeme
+om han kommer beror på hvem som vinner
+;v-intrObl-suWH_oblWH (not used)
+;v-intrObl-suINTERR_oblINTERR
+; old: intrans-eventarg1interr-eventoblinterr-verb-lexeme
+hvem som kommer beror på hvem som vinner
+;
+;in the lexicon called:
+;v-intrPrtclOblRais-oblTil_prtclUt
+;earlier also called: v-intrPrtclOblRais-suNrg_oblRaisInf
+;ROLE: thSit
+;SIT-TYPE: EXHIBACT
+; intrans-secpred-prtcl2-rais-from-nonverbal-arg1-verb-lexeme in old
+;;;; til: prep-rais-word; head-prep-rais-comp-rule; head-verb-prep-comp-rule
+;;;; ut: adv-particle-word; head-verb-advparticle-comp-rule
+;;;; å: inf-comp; head-complementizer-comp-rule
+han ser ut til å komme
+;'he looks out [to] to come' - "he appears to come"
+gutten ser ut til å komme
+;  boy-DEF look-PRES out to-PREP to-INFMARK come-INF
+;   'the boy looks as if he is coming'
+det ser ut til å komme en gutt
+; there  looks out to-PREP to-INFMARK come-INF two boys
+;   'there looks as if there are two boys coming'
+;
+; with "som", this is probably no more an obl construction.
+; Attempted new type: v-intrPrtclScpr-scSuNrg_prtclUt, but not yet giving right parse. TODO (Attempted analogous to "virke", but doesn't come automatically.)
+; ;v-intrPrtclOblRais-oblSom_prtclUt
+; gives right tree, but not coherent mrs
+;;;; som: prep-expl-dep-word; head-prep-rais-comp-rule; head-verb-prep-comp-rule
+;;;; ut: adv-particle-word; head-verb-advparticle-comp-rule
+;;;; om: y-n-quest-subord-comp; head-complementizer-comp-rule
+det ser ut som om gutten kommer
+;; ;;;; som: prep-s-expl-dep-word; head-prep-rais-comp-rule; head-verb-prep-comp-rule
+det ser ut som gutten kommer
+; there looks out as the boy comes
+; 'it looks as if the boy is coming'
+;
+;;;; som: prep-expl-dep-word; head-prep-rais-comp-rule; head-verb-prep-comp-rule
+;;;; ut: adv-particle-word; head-verb-advparticle-comp-rule
+;;;; at: decl-subord-comp; head-complementizer-comp-rule
+det ser ut som at gutten kommer 
+; it looks out as that the boy comes
+; 'it looks as the boy is coming'
+;
+; Also accounted for, however with v-intrPrtclScpr-scSuNrg_prtclUt as operative type; this type is also used for 'det ser ut som (om) gutten kommer', however not successfully, as one may expect.
+; The identity of the "han"s looks fine, but two pronoun-q-rel come to bind the same variable, hence no scoping and illformed mrs. TODO.
+han ser ut som han kommer
+han ser ut som om han kommer
+
+;v-intrPrtclScpr-scSuNrg_scPredprtclSom_prtclUt
+;ROLE: thSit
+;SIT-TYPE: EXHIBACT
+han ser ut som Ola
+;'he looks 'out' like Ola' - "he appears like Ola"
+;
+;v-intrAdv
+;ROLE: th
+;SIT-TYPE: PROPTY
+;; Old: intrans-obladv-verb-lexeme
+han fungerer godt
+; 'he functions well'
+;
+;v-intrAuxmodScpr-scSuNrg_scBareinf
+;[epist-modal]
+;ROLE: thsit
+;SIT-TYPE: 
+;; Old: epistemic-modal-verb-lexeme
+han kan komme
+;'he can come'
+;
+;; also, this one based on old 'root-modal-verb-lexeme'
+jeg vil komme
+; I will come
+;
+;v-intrAuxmodScpr-suDir_scSuNrg_scAdv (not used)
+; v-intrScpr-scSuNrg
+;ROLE:
+;SIT-TYPE:
+han må ut
+;'he must out' (= 'he has to go out')
+;
+;v-intrAuxperfScpr-scSuNrg_scPerf
+;; Old: aux-perf-verb-lexeme
+han har kommet
+;'he has come'
+;
+;NEW
+;v_peripass-intrPs-suPob (not used)
+; 'bli': v-intrAuxpassScpr-scSuNrg_scPass
+; 'skutt' is produced by a lexical rule of passivization
+han ble skutt
+;'he was shot'
+;
+;v-intrLghtScpr-scAdj
+;ROLE: thSit
+;SIT-TYPE: EPISODIC_PROPTY
+; norsk.tdl type: copula-standard-verb-lexeme
+; the 'lightness' in these verbs is reflected in the PRED value, which is like the PRED for the copula.
+; Notice that this type does not have common supertype with v-intrLghtscpr-scsunrg_scpredprtcl (old: intrans-secpred-som-arg1-x-verb-lexeme)
+huset står tomt
+;'the house stands empty'
+eiendommen ligger brakk
+; 'the property lies nonattended'
+;
+;v-intrScpr-scSuNrg_scAdj
+;ROLE: thSit
+;SIT-TYPE: EXHIBPROPTY
+;; Old: intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme
+gutten virker syk
+;'the boy seems sick'
+;
+;v-intrScpr-scSuNrg_scN
+;ROLE: thSit
+;SIT-TYPE: EXHIBPROPTY
+gutten synes et talent
+;'the boy seems a leader'
+;
+;v-intrScpr-scSuNrg_scPP
+;ROLE: thSit
+;SIT-TYPE: EXHIBPROPTY
+gutten virker i orden
+;'the boy seems in good shape'
+;
+;v-intrScpr-scSuNrg_scPredprtcl
+;ROLE: thSit
+;SIT-TYPE: EXHIBPROPTY
+gutten virker som en feiging
+;'the boy appears as a coward'
+;
+;v-intrScpr-scSuNrg_scInf
+;ROLE: thSit
+;SIT-TYPE: EXHIBACT
+;; Old: intrans-secpred-rais-from-infinmarked-arg1-verb-lexeme
+han synes å komme
+;'he seems to come'
+;
+;v-trNrfScpr-obReflExpl_scSuNrg_scInf
+;; Old: trans-secpred-rais-refl-tosubj-from-infinmarked-arg1-verb-lexeme
+Ola viser seg å være syk
+; 'Ola shows REFL to be sick'
+; 'Ola turns out to be sick'
+han viser seg å komme
+;'he shows REFL to come'
+;
+;NEW
+;v-trNrfScpr-obReflExpl_scSuNrg_scBareinf_suRAISsuMob
+;('subject is raised from subject, promoted thereto from object by Middle Formation')
+stjernen lot seg se
+;'the star let REFL see' (= 'it became possiblr to see the star')
+; understood agent is free variable, started on TODO
+;
+;NEW
+;v-trScpr-scObNrg_scBareinf_obRAISsuMob
+;('object is raised from subject, promoted thereto from object by Middle Formation')
+de lot sangen synge
+;'they let the song sing' (= 'be sung')
+; understood agent is free variable, started on TODO
+;
+;NEW
+;v-trNrfScpr-obReflExpl_scSuNrg_scAdj
+han fortoner seg syk
+;'he appears REFL sick'
+;
+;v-intrScpr-scSuNrg_scBareinf
+;ROLE: thSit
+;SIT-TYPE: EXHIBACT
+;; Old: intrans-secpred-rais-from-verbal-arg1-verb-lexeme (Swedish)
+han forefaller komme
+; he seems come
+han synes komme
+;'he seems come'
+;
+;v-intrScprPrtcl-scSuNrg_scAdj_prtclUt
+;ROLE: quality
+;SIT-TYPE: EXHIBPROPTY
+;; Old: intrans-secpred-prtcl1-rais-from-nonverbal-arg1-verb-lexeme
+;;;; ut: adv-particle-word; head-verb-advparticle-comp-rule
+;;;; head-verb-adj-comp-rule
+gutten høres syk ut
+;'the boy sounds sick out'
+;
+;v-intrScprPrtcl-scSuNrg_scPredprtcl
+;ROLE: quality
+;SIT-TYPE: EXHIBPROPTY
+gutten høres ut som en papegøye
+;'the boy sounds out as a parrot'
+;
+;v-intrScpr-scSuNrgCsd_scAdj
+;ROLE: csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+koppen renner full
+; 'the cup runs full' - "the cup fills up"
+kjelen koker tørr
+; 'the kettle boils dry'
+;
+;v-intrScpr-scSuNrgCsd
+;v-intrLghtScpr-scSuNrgCsd_scAdj (not used)
+;ROLE: th
+;SIT-TYPE: INCREMRESULT
+; 'fallitt' is the adj option
+firmaet går fallitt 
+;'the company goes broke'
+;
+;v-intrLghtScpr-scSuNrg_scPredprtcl
+;ROLE: ag 
+;; Old: intrans-secpred-som-arg1-x-verb-lexeme
+Ola stiller som forsvarer 
+;'Ola steps in as a defender'
+;ROLE: th 
+gutten fremstår som mistenkt 
+;'the boy emerges as a suspect'
+;
+;
+;v-intrScpr-scSuNrgCsd
+;v-intrScpr-scSuNrgCsd_scAdv (not used, but true enough)
+;ROLE: csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+;; Old:intrans-secpred-argx-verb-lexeme
+landsbyen snør ned
+;'the village snows down'
+kampen regnet bort
+;'the match rained away'
+;
+;v-intrScpr-scSuNrgCsd
+;v-intrScpr-scSuNrgCsd_scPP (not used, but true enough)
+;ROLE: csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+;; Old:intrans-secpred-argx-verb-lexeme
+kjelen koker i stykker
+; 'the kettle boils to pieces' 
+;
+;v-intrScpr-scSuNrgCsd
+;v-intrScpr-scSuArgCsd_scAdj (not used)
+;ROLE: th_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+skinken henger mør
+;'the ham hangs tender' - "the ham hangs so as to get tender" 
+;
+;v-intrScpr-scSuArgCsd
+;v-intrScpr-scSuArgCsd_scAdv (not used)
+; also:
+;v-intrPrtcl-COMPLETEDACTIVITY
+;ROLE: csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+; Old: intrans-secpred-arg1-csx-verb-lexeme
+;; Old:intrans-telicparticle-arg1-verb-lexeme
+kaffen koker bort
+;'the coffee boils away'
+; TODO: this one is more aspectual, and probably need a marking for that in the aspectual slot
+kaffen koker opp
+; 'the koffee boils up' = 'becomes ready'
+;
+;v-intrExpn-expnDECL
+;ROLE: thSit
+;SIT-TYPE:
+;; Old: epon-verb-lexeme
+det hender at han kommer
+;'it happens that he comes'
+;
+;v-trNrfExpnSu-obReflExpl_expnDECL
+;; Old: io-refl-epon-verb-lexeme
+det viser seg at han kommer
+;'it shows itself that he comes'
+;
+;v-trExpnSu-obMeas_expnInfabs
+;old: meas-epon-verb-lexeme
+det tar to timer å gå dit  
+; bruland, pet problem
+;'it takes two hours to go there'
+;
+;v-ditrExpnSu-obMeas_expnEqInf
+;old: meas-io-epon-verb-lexeme
+det tar meg to timer å gå dit 
+;'it takes me two hours to go there'
+;
+;v-intrScpr-scSuNrg
+;head-verb-adverb-comp-rule
+; som: prep-expl-dep-word
+;head-prep-rais-comp-rule
+; om: y-n-quest-subord-comp
+; one would expect the type to involve expn or exlnk, as would describe the construction, but these are the types that operate. Thus, not:
+; v-intrExpn-expnEQUAT or v-intrExpn-suExpl_expnHYP (neither in use)
+; "som" is here prep-expl-dep-word, not som-adj-pred-clse-comp, nor prep-clause-word
+; old: intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme
+det virker som om han kommer
+det synes som om han kommer
+; it appears as if he comes
+; The last one also activates the version of "synes" for "synes meg som...", where "som", as 'filler-pronoun', functions as inverted subject.TODO
+;
+;  v-intrScpr-scSuNrg
+;(also) v-intrExpn-expnEQUAT (not used)
+; "som" is here prep-s-expl-dep-word, not prep-expl-dep-word, nor som-adj-pred-clse-comp, nor prep-clause-word
+det virker som han kommer
+det synes som han kommer
+; it appears as though he comes
+;
+;v-intrScpr-scSuNrg/v-intrScpr-scSuNrg_scSomOmClse
+; "som om" is here decl-comp, not prep-clause-word
+; No identity of the "han"s yet, and fragmented, but does scope. TODO.
+han virker som om han kommer
+han synes som om han kommer
+; he appears as if he comes
+;
+;v-intrScpr-scSuNrg
+;(also) v-intrScpr-suNrg-scEQUAT (not used)
+; "som" is here som-adj-pred-clse-comp, not prep-clause-word
+; old: intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme
+; The identity of the "han"s looks fine, but two pronoun-q-rel come to bind the same variable, hence no scoping and illformed mrs. TODO.
+han virker som han kommer
+han synes som han kommer
+; he appears as if he comes
+;
+;v-intrExpn-expnINTERR
+; v-intrExpn-expnYN (not used)
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+;; Old: epon-indirwhquest-verb-lexeme
+;;;;;;; 'spørs' can be either pres or past, therefore two parses
+det spørs om han kommer
+; it "questions" if he comes
+; 'it is a question if he comes'
+; old: epon-indirwhquest-verb-lexeme
+det spørs hvorvidt han kommer
+;'it depends whether he comes'
+;
+;v-intrExpn-expnINTERR
+;v-intrExpn-expnWH (not used)
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+; old: epon-indirwhquest-verb-lexeme
+det spørs hvem som kommer
+;'it depends who that comes'
+;
+;v-intrExpn-expnAbsinf
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+; old: epon-inf-verb-lexeme
+det hjelper å sette seg
+;'it helps to sit down'
+;
+;v-intrPrtclExpn-expnDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+; old: epon-particle-DECL-verb-lexeme
+det hører med at han kommer
+; 'it hears along that he comes' - "it goes with it that he comes"
+;
+;v-intrPrtclExpn-expnAbsinf
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+; old: epon-particle-inf-verb-lexeme
+det hører med å komme
+; 'it hears along to come' - "it goes with it that one comes"
+;
+;v-intrOblExlnk-oblExlnkDECL
+;; Old, but with a secpred analysis of the PP: intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme
+;; It is also used with 'v-intrOblRais-suNrg_oblRaisInf'
+;;;; til: prep-expl-dep-word; head-prep-rais-comp-rule; head-verb-prep-rais-comp-rule
+;;;; at: decl-subord-comp; head-complementizer-comp-rule
+det later til at han kommer 
+;'it appears [to] that he comes'
+det haster med at han kommer
+; Both of these rules apply, without difference: head-prep-regclause-comp-phrase and head-prep-rais-comp-phrase, so see if they are both necessary. TODO
+
+;v-intrOblExlnk-oblExlnkAbsinf (not defined, but should work with the entry working for the above case. TODO why not))
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det haster med å rydde
+;'it urges to tiden up'
+;
+;v-intrPrtclOblRais-oblTil_prtclUt
+; head-verb-preprais-comp-rule,
+; head-prep-rais-comp-rule
+; Old: intrans-adv-rais-from-pp-arg1-verb-lexeme
+det ser ut til at han kommer 
+;'it looks out to that he comes'
+;
+;v-intrOblExpn-expnDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+; norsk.tdl: epon-decl-and-yn-pp-verb-lexeme
+det beror på deg at han vant 
+;'it depends on you that he won'
+;
+;v-intrOblExpn-expnYN
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+; norsk.tdl: epon-decl-and-yn-pp-verb-lexeme
+det avhenger av deg om han vil vinne 
+;'it depends on you whether he will win'
+det beror på deg hvorvidt Ola vinner 
+;'it depends on you whether he will win'
+;
+;v-intrOblExpn-expnWH
+; old: epon-wh-pp-verb-lexeme
+det avhenger av deg hvem som vinner
+;'it depends on you who wins'
+; 
+;
+;v-intrOblExpn-oblWH_expnWH
+; "av" -prep-clause-word
+;head-prep-bareclause-comp-rule  - not any more, see below
+;head-actv-verb-icomp-finepon-comp-rule- - not any more, see below
+; LH190713: head-prep-indirwhquestclause-comp-phrase
+; LH190713: head-actv-verb-icomp-fineponWH-phrase
+;head-verb-indirwhquest-subjwh-comp-rule
+;old: epon-wh-wh-pp-clause-verb-lexeme
+det avhenger av hvem som sover hvem som smiler
+;'it depends on who sleeps who smiles'
+;
+;v-intrOblExpn-oblYN_expnYN
+; "av" -prep-clause-word
+;head-prep-bareclause-comp-rule
+;head-actv-verb-icomp-finepon-comp-rule-
+;head-verb-indirwhquest-y-n-comp-rule
+; old: epon-decl-and-yn-decl-and-yn-pp-clause-verb-lexeme
+det avhenger av hvorvidt Ola sover hvorvidt Kari smiler
+;'it depends on whether Ola sleeps whether Kari smiles'
+;
+;v-intrOblExpn-oblYN_expnWH
+; "av" -prep-clause-word
+;head-prep-bareclause-comp-rule
+;head-actv-verb-icomp-finepon-comp-rule-
+;head-verb-indirwhquest-subjwh-comp-rule
+;old: epon-decl-and-yn-wh-pp-clause-verb-lexeme
+det avhenger av hvorvidt Ola sover hvem som smiler
+;'it depends on whether Ola sleeps who smiles'
+;
+;v-intrOblExpn-oblWH_expnYN
+; "av" -prep-clause-word
+;head-prep-bareclause-comp-rule
+;head-actv-verb-icomp-finepon-comp-rule-
+;head-verb-indirwhquest-y-n-comp-rule
+; old:  epon-wh-decl-and-yn-pp-clause-verb-lexeme
+det avhenger av hvem som sover hvorvidt Kari smiler
+;'it depends on who sleeps who smiles'
+;
+;
+;
+;v-tr
+;ROLE: ag_aff
+;SIT-TYPE: AFFECT
+ Kari slår Ola
+;'Kari beats Ola'
+;
+;v-tr
+;ROLE: ag_th
+;SIT-TYPE: REPRESENT
+Kari nevner Ola
+;'Kari mentions Ola'
+;
+;v-tr
+;ROLE: ag_affincrem
+;SIT-TYPE: COMPLETED_MONODEVMNT
+;; Old: trans-arg1-2-verb-lexeme 
+hun fortærer maten
+; she devours the food
+Kari spiser kaken
+;'Kari eats the cake'
+;
+;v-tr
+;ROLE: ag_thincrem
+;SIT-TYPE: COMPLETED_MONODEVMNT
+Kari leser boken
+;'Kari reads the book'
+;
+;v-tr
+;ROLE: sens_th
+;SIT-TYPE: SENSING
+Kari ser Ola
+;'Kari sees Ola'
+;
+;v-tr
+;ROLE: ag_exp
+;SIT-TYPE: CAUSEEMOTION
+Kari skremmer Ola
+;'Kari frightens Ola'
+;
+;v-tr
+;ROLE: th_poss
+;SIT-TYPE: POSSESSION
+boken tilhører Ola
+;'the book belongs-to Ola'
+;
+;v-tr
+;ROLE: th_ben
+;SIT-TYPE: MALEFACTION
+boken skader Ola
+;'the book hurts Ola'
+;
+;v-tr
+;ROLE: th_exp
+;SIT-TYPE: CAUSEEMOTION
+boken deprimerer Ola
+;'the book depresses Ola'
+;
+;v-tr
+;ROLE: th_weightunit
+;SIT-TYPE: WEIGHING
+stenen veier 5 kg
+;'the stone weighs 5 kg'
+;
+;v-tr
+;ROLE: th_timeunit
+;SIT-TYPE: LASTING
+; in entry in lex1.close, using
+; SYNSEM.LOCAL.CAT.QVAL.DOBJECT [LOCAL.CONT.HOOK hook & [INDEX.SORT measure-unit ]]
+filmen varer 5 timer
+;'the film lasts 5 hours'
+;
+;v-tr
+;ROLE: th_lengthunit
+;SIT-TYPE: EXTENDING
+banen måler en kilometer
+;'the track measures a kilometre'
+;
+;v-tr-suDir
+;ROLE: agmover_lengthunit
+;SIT-TYPE: EXTENDING
+;; Old: trans-arg1dir-2length-verb-lexeme
+gutten går to kilometer
+; the boy walks two kilometers
+;
+;v-tr-obEventunit
+;ROLE: ag_eventunit
+;SIT-TYPE: ACTIVITY
+;old: trans-arg1-2inh-verb-lexeme
+hun sover en dyp søvn
+;she sleeps a deep sleep
+;
+;v-tr-obDir
+;ROLE: ag_ejctinhobj 
+;SIT-TYPE: EJECTION
+;old: trans-arg1-2dir-verb-lexeme
+hun skyter plastikkuler
+;she shoots plastic bullets
+;
+;v-tr
+;ROLE: cog_th
+;SIT-TYPE: COGN
+Kari vet svaret
+;'Kari knows the answer'
+;
+;v-tr-obRefl
+;ROLE: ag_aff
+;SIT-TYPE: AFFECTING
+;; Old: trans-arg1-2refl-verb-lexeme
+Kari vasker seg
+;Kari washes REFL
+;'Kari washes herself'
+;
+;v-trNrf-obReflExpl
+;ROLE: exp
+;SIT-TYPE: EXPER
+Kari skammer seg
+; Kari shames REFL
+;"Kari is ashamed"
+;
+;v-tr-obDir
+;ROLE: ag_ejct
+;SIT-TYPE: EJECTION
+;old: trans-arg1-2dir-verb-lexeme
+han kaster ballen
+; 'he throws the ball'
+;
+;v-tr-obDir
+;ROLE: ag_thmover
+;SIT-TYPE: CAUSEMOTION
+;old: trans-arg1-2dir-verb-lexeme
+Kari sender pakken
+;'Kari sends the parcel'
+;
+; NEW
+;v-trPath-obRefl_obDir
+;old: trans-refl-dir-verb-lexeme
+Han famler seg frem
+;'he fumbles REFL ahead'
+;
+;v-trPath-obDir
+;ROLE: ag_purelyoriented
+;SIT-TYPE: ORIENTING
+; 'path' means that the directional is an argument
+;old: trans-dir-verb-lexeme
+han retter pilen mot nord
+; 'he directs the arrow towards north'
+;
+; NEW type
+;v-trPath-obDir
+;ROLE: ag_orientedline
+;SIT-TYPE: LINESITUATING
+;old: trans-dir-verb-lexeme
+han tegner linjen mot venstre
+; 'he draws the line to the left'
+;
+;v-tr-suDir
+;ROLE: mover_endpnt
+;SIT-TYPE: ENDPNTMOTION
+Kari når toppen
+;'Kari reaches the top'
+;
+;v-tr-suDir
+;ROLE: mover_viapnt
+;SIT-TYPE: VIAPNTMOTION
+Kari passerer kirken
+;'Kari passes the church'
+;
+;v-tr-suDir
+;ROLE: th_endpnt
+;SIT-TYPE: ENDPNTEXTENSION
+stien når toppen
+;'the path reaches the top'
+;
+;v-tr-suDir
+;ROLE: th_viapnt
+;SIT-TYPE: VIAPNTEXTENSION
+stien passerer kirken
+;'the path passes the church'
+;
+;v-tr-suDir_obDir
+;ROLE: mover_alongline
+;SIT-TYPE: ALONGLINEMOTION
+Kari følger stien
+;'Kari follows the path'
+;
+;v-tr-suDir_obDir
+;ROLE: agmover_agmover
+;SIT-TYPE: ACCOMPANYING
+gutten ledsager presidenten
+; 'the boy accompanies the president'
+;
+;v-tr-suDir_obDir
+;ROLE: agmover_agmover
+;SIT-TYPE: CROSSINGMOTIONPATHS
+gutten krysser demonstrasjonstoget
+; the boy crosses the demonstration parade'
+;
+;v-tr-suDir_obDir
+;ROLE: orientedline_orientedline
+;SIT-TYPE: CROSSINGPATHS
+streken skjærer linjen.
+; 'the stroke crosses the line'
+;
+;v-tr-suDir_obDir
+;ROLE: th_alongline
+;SIT-TYPE: PARALLELPATHS/ALONGLINEEXTENSION
+streken følger linjen
+; 'the stroke follows the line'
+stien følger elven
+;'the path follows the river'
+;
+;v-trPath-obDir
+;ROLE: agmover_locomoevent
+;SIT-TYPE: LOCOMOCONDUCTION
+de legger turen mot nord
+; 'they take the tour towards north'
+;
+;v-tr-obDir
+;ROLE: agmover_orientedline
+;SIT-TYPE: USINGPATH
+;; Old: trans-arg1dir-2-verb-lexeme
+gutten tar stien mot fjellet
+; the boy takes the path towards the mountain
+;
+;v-tr-obDir
+;ROLE: agmover_vehcl
+;SIT-TYPE: USINGVEHICLE
+gutten tar bussen mot fjellet
+; the boy takes the bus towards the mountain
+;
+;v-tr-suAbsinf
+;ROLE: thSit_cog
+;SIT-TYPE: PROPOSITIONALATTITUDE
+Å bygge høyhus interesserer Kari
+;'To build highrises interests Kari'
+;
+;v-tr-suDECL
+;ROLE: thSit_cog
+;SIT-TYPE: PROPOSITIONALATTITUDE
+At jeg kommer forundrer Kari
+;'That I come astonishes Kari'
+;
+;v-tr-suINTERR
+;v-tr-suYN (really, but not used)
+;ROLE: thSit_cog
+;SIT-TYPE: PROPOSITIONALATTITUDE
+hvorvidt jeg kommer interesserer Kari
+;'Whether I come interests Kari'
+;
+;v-tr-suINTERR
+;v-tr-suWH (really, but not used)
+;ROLE: thSit_cog
+;SIT-TYPE: PROPOSITIONALATTITUDE
+hvem som kommer interesserer Kari
+;'who that comes interests Kari'
+;
+;v-tr-obDECL
+;ROLE: sens_thSit
+;SIT-TYPE: SENSING
+Kari ser at Ola sover
+;'Kari sees that Ola sleeps'
+;
+;v-tr-obDECL
+;ROLE: cog_thSit
+;SIT-TYPE: COGN/ PROPOSITIONALATTITUDE
+Kari vet at jeg kommer
+;'Kari knows that I come'
+;
+;v-tr-obYN (not used, but conceivably these are objects)
+;v-intrComp-compINTERR
+;: TODO: distinguish this from the one below
+;ROLE: cog_thSit
+;SIT-TYPE: COGN/ PROPOSITIONALATTITUDE
+;; Old: trans-indirwhquest-verb-lexeme
+jeg vet hvorvidt han kommer
+; I know whether he comes
+;
+;v-tr-obWH (not used, but conceivably these are objects)
+; v-intrComp-compINTERR
+;ROLE: cog_thSit
+;SIT-TYPE: COGN/ PROPOSITIONALATTITUDE
+;; Old: trans-indirwhquest-verb-lexeme
+jeg vet hvem som kommer
+; I know who that comes
+; I know who comes
+jeg vet hvem han liker
+; I know who he likes
+;
+; In contrast to above, these complements do not count as objects, hence the main type is 'intr':
+;v-intrComp-compINTERR
+;v-intrComp-compYN (not used)
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+Kari undres hvorvidt jeg kommer
+;'Kari wonders whether I come'
+;
+;v-intrComp-compINTERR
+;v-intrComp-compWH (not used)
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+Kari undres hvem som kommer
+;'Kari wonders who comes'
+;
+;v-tr-obEqInf
+;ROLE: ag_thSit
+;SIT-TYPE: ACTIVITY
+;; subj-equi-verb-lexeme
+Kari prøver å komme
+;'Kari tries to come'
+;
+;v-intrAuxmodComp-compEqBareinf
+;[v-rootmodal]
+; old: root-modal-verb-lexeme
+;ROLE: ag_thSit
+;SIT-TYPE:
+Kari kan padle
+;'Kari can paddle'
+;
+;v-tr-obAbsinf
+;ROLE: ag_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+Kari vurderer å komme
+;'Kari considers to come'
+; Free variable for subject of infinitive, too much struggle yet to bind it. So, no scoping, but also not fragmented.
+;
+;v-tr-suDECL_obDECL
+At han kommer antyder at hun kommer
+;old: trans-eventarg1decl-eventarg2decl-verb-lexeme
+;v-tr-suDECL_obINTERR
+;v-tr-suDECL_obYN (not used)
+At han kommer indikerer hvorvidt hun kommer
+;v-tr-suDECL_obINTERR
+;v-tr-suDECL_obWH (not used)
+At han kommer indikerer hvem som sover
+;v-tr-suINTERR_obINTERR
+; comprises:
+;v-tr-suYN_obYN (not used)
+om han kommer indikerer hvorvidt hun kommer
+;v-tr-suYN_obWH (not used)
+om han kommer indikerer hvem som sover
+;v-tr-suWH_obYN (not used)
+hvem som sover indikerer hvorvidt hun kommer
+;v-tr-suWH_obWH (not used)
+hvem som sover indikerer hvem som kommer
+
+
+;v-trPrtcl-obRefl
+;v-trNrfPrtcl-obReflExpl (correct, but overtydelig - not used)
+;ROLE: ag
+;SIT-TYPE: ACTIVITY
+Kari dummet seg ut
+;'Kari fooled herself out'
+;
+;v-trPrtcl-obRefl
+;ROLE: ag
+;SIT-TYPE: COMPLETEDACTIVITY
+;; Old: trans-telicparticle-arg1-x-refl-verb-lexeme
+;;;; head-verb-advparticle-comp-rule
+Ola fiffer seg opp
+;'Ola shines himself up'
+;
+;v-trPrtclShft
+;ROLE: cog_th
+;SIT-TYPE: PROPOSITIONALATTITUDE
+;old: trans-telicparticle-shift-arg1-x-verb-lexeme
+;nothing intelligent said about "ut", unfortunately
+Kari fant ut hemmeligheten
+;'Kari found out the secret'
+;
+;v-trPrtclShft-obDECL (not used)
+;v-trPrtclShft-obYN (not used)
+; TODO-perhaps: define these types, analogous to v-intrComp-compINTERR, just with prtcl in addition. But v-trPrtclShft-obCLAUSE does fine, so perhaps not bother
+;
+;v-trPrtclShft-obCLAUSE
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+; old: trans-particleshift-eventobj-verb-lexeme
+Kari fant ut hvorvidt jeg kommer
+;'Kari found out whether I come'
+Ola regner ut hvorvidt du kommer
+;'Ola calculates out whether you come'
+Kari fant ut hvem som kommer
+;'Kari found out who that comes'
+Kari fant ut om Ola kommer
+;'Kari found out whether Ola comes'
+Kari fant ut at Ola kommer
+;'Kari found out that Ola comes'
+Ola regner ut hvem som kommer
+;'Ola calculates out what the answer becomes'
+;
+;v-trPrtclShft-obEqInf (not yet defined)
+; now: v-trPrtcl-obEqInf
+;ROLE: ag_thSit
+;SIT-TYPE: ACTIVITY
+Kari fant på å komme
+;'Kari found on to come' - "Kari hit upon coming"
+;
+;v-trObl
+;ROLE: ag_th_intrloc
+;SIT-TYPE: COMMUNICATION
+;; Old:trans-obl-verb-lexeme
+han forteller nyheten til Ola
+;'he tells the news to Ola'
+;
+;ROLE: ag_th_?
+;SIT-TYPE: COMPARISON (?)
+;; Old: trans-obl-verb-lexeme
+jeg sammenligner Ola med gutten
+; i compare Ola with the boy
+;
+;v-trObl-obRefl
+;ROLE: ag_th_com
+;SIT-TYPE: ACHVMNT
+;; Old: trans-refl-obl-verb-lexeme
+han allierer seg med gutten
+;'he allies himself with the boy'
+;
+;v-trObl-oblPRTOFob
+;ROLE: ag_aff_locth
+;SIT-TYPE: PARTWHOLE_AFFECTING
+;; Old: trans-pp-arg1-detached-poss-verb-lexeme
+jeg skrubber Ola på ryggen
+; I scrub Ola on the back
+; 'I scrub Ola on his the back'
+jeg sparker Ola i baken
+;'I kick Ola in the butt'
+;
+;v-trObl-obRefl_oblPRTOFob
+;ROLE: ag_aff_locth
+;SIT-TYPE: PARTWHOLE_AFFECTING
+;; Old: trans-pp-arg1-detached-poss-refl-verb-lexeme
+Ola klør seg på ryggen
+;'Ola scrathes himself on the back'
+;
+;v-trObl-oblDECL
+;ROLE: ag_intrloc_thSit
+;SIT-TYPE: LOCUTACT
+;head-actv-verb-icomp-rule
+; with "om_clause".
+;old: trans-obl-decl-verb-lexeme
+han forteller Ola om at han kommer
+;'he tells Ola about that he comes'
+;
+;v-trObl-oblINTERR 
+;old: trans-obl-interr-verb-lexeme
+;v-trObl-oblYN (not used)
+;head-actv-verb-icomp-rule
+; with "om_clause".
+;v-trComp-compINTERR - works also, except for not using ARGOBLQ, instead ARG3 - old: ditrans-indirwhquest-verb-lexeme
+; also v-trScpr-scObArgCsd works,  except for not using ARGOBLQ, instead ARGX
+;ROLE: ag_intrloc_thSit
+;SIT-TYPE: LOCUTACT
+han forteller Ola om hvorvidt han kommer
+;'he asks Ola about whether he comes'
+han forteller Ola om hvem som kommer
+;'he asks Ola about who that comes'
+
+;
+;v-trObl-oblEqSuInf
+;ROLE: ag_intrloc_thSit
+;SIT-TYPE: LOCUTACT
+;bad example, since the subj-control effect is induced by "få", in a way not implemented. The example illustrates object control, since 'be' is also defined for that (two ex below). Cannot think of any straight cases of this type.
+han ber meg om å få komme
+;'he asks me about to be-allowed come'
+;
+;v-trNrfObl-obReflExpl_oblEqSuInf (not defined)
+;ROLE: ag_thSit
+;SIT-TYPE: COMMITMENT
+;Ola finner seg i å vente (see under v-trObl-obRefl_oblEqObInf)
+;'Ola finds himself in to wait' - "Ola accepts waiting"
+;
+;v-trObl-oblEqObInf
+;ROLE: ag_intrloc_thSit
+;SIT-TYPE: LOCUTACT
+;TODO: no ARGoblq.
+;; Old: obj-equi-pp-verb-lexeme
+; "om": prep-rais-word
+jeg anmoder Ola om å komme
+; I request Ola about-PREP to-INF come
+; 'I request Ola to come'
+;
+;v-trObl-obRefl_oblEqObInf
+;ROLE: ag_th_thSit
+;SIT-TYPE: COMMITMENT
+;; Old: obj-equi-pp-refl-verb-lexeme
+; "om": prep-rais-word
+han forplikter seg til å komme
+; he commits REFL to-PREP to-INF come
+;'he commits himself to to come'
+;Ola finner seg i å vente
+;'Ola finds himself in to wait' - "Ola accepts waiting"
+;
+;v-trObl-oblAbsinf
+;v-ditr-obdecl also works (but without any ARGoblq)
+;old: ditrans-subord-verb-lexeme
+;ROLE: ag_intrloc_thSit
+;SIT-TYPE: LOCUTACT
+vi forteller barna om å bygge høyhus
+;'we tell the children about to build highrises' 
+;
+; should be
+;v-trScpr-scSuNrg_scAdj
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+; but in lexicon we use
+; v-trScpr-scSuNrg_scAdjORPredprtclSom, which corresponds to
+;; Old: trans-secpred-rais-from-adj-or-som-arg1-verb-lexeme
+;; TODO: doesn't work: the two NPs are forced identical, but unclear why-
+han forekommer meg syk
+; he occurs me sick'
+han synes meg syk
+;'he seems me sick'
+han synes ham syk
+;'he seems him sick'
+; but curiously, "han forekommer meg som syk" and "han forekommer meg å være syk" are both ok. Likewise han synes meg i godt humør. So it looks as if the combination of a simple adjective into the construction is what causes the mischief.
+;
+;v-trScpr-scSuNrg_scN 
+;Gives coherent MRS, non-fragmented, but doesn't scope, unclear why. (in type, if the 'LBL #3' in the second EP in RELS is omitted, it scopes, but then the 'instantiate' part is no more under the 'synes' scope.)
+;ROLE:cog_thSit 
+;SIT-TYPE: PROPOSITIONALATTITUDE
+han synes meg en idiot
+;'he seems me an idiot'
+;
+;v-trScpr-scSuNrg_scPP (not defined)
+; v-trScpr-scSuNrg_scAdjORPredprtclSom - used here successfully
+;old: trans-secpred-rais-from-adj-or-som-arg1-verb-lexeme
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+;head-verb-prepsit-comp-rule
+han synes meg i godt humør
+;'he seems me in good mood'
+;
+; should be
+;v-trScpr-scSuNrg_scPredprtcl
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+; but in lexicon we use
+; v-trScpr-scSuNrg_scAdjORPredprtclSom, which corresponds to
+;; Old: trans-secpred-rais-from-adj-or-som-arg1-verb-lexeme
+;; TODO: with som+adj is fine, with som+np the h10 value of ARG1 fails to connect to the smallclause
+;; som - 'som-adj-pred-pp-cp,å'
+han foresvever meg som syk
+; he occurs me as sick'
+;; som - 'som-n-pred-comp'
+han synes meg som en idiot 
+;'he seems me as an idiot'
+;; TODO: with som+adj is fine, with som+np the h10 value of ARG1 fails to connect to the smallclause
+; In the latter, the MRS is otherwise like for "han synes meg en idiot" see above), except for missing a quantifier binding the variable 'x16', as is done for han synes meg som en idiot (but still no scoping). It is "som", type 'som-n-pred-comp', which introduces the instantiate EP in this case, disconnected from the other EPs, so less easy to adjust and identify.
+;
+;v-trScpr-scSuNrg_obRefl_scPredprtcl (not defined)
+; v-trScpr-scObNrg_obRefl_scPredprtclSom (used)
+;; Old: trans-secpred-som-rais-refl-from-nonverbal-arg2-verb-lexeme
+;;;; som: som-n-pred-comp; head-complementizer-noun-rule; head-verb-som-comp-rule
+Ola viser seg som venn
+; Ola shows REFL as friend
+; 'Ola shows himself as a friend'
+;Rather incoherent MRS. And:
+; Scoping: "`Rel _pronoun_q_rel has a duplicate bound variable'"
+;
+;v-trScpr-scSuNrg_scInf 
+;; Old: trans-secpred-rais-from-infinmarked-arg1-verb-lexeme
+;Also used:
+; v-trScpr-scSuNrg_scAdjORPredprtclSom, which corresponds to
+;; Old: trans-secpred-rais-from-adj-or-som-arg1-verb-lexeme
+; TODO: see if this is an unwanted redundancy. Both apply fine to all of the sentences below
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+jeg forekommer Ola å være syk
+; I appear Ola to-INF be sick
+; 'I appear to Ola to be sick'
+han synes meg å komme
+;'he seems me to come'
+han forekommer meg å komme
+;'he seems me to come'
+det forekommer Ola å rusle to gutter
+; there appear Ola to-INF stroll two boys
+; 'there appear to Ola to be two boys strolling'
+; has a duplicate handle with intro-sit TODO
+;
+; not grammatical in Norw:
+;v-trScpr-scSuNrg_scBareinf (not defined)
+;What is used:
+; v-trScpr-scSuNrg_scAdjORPredprtclSom, which corresponds to
+;; Old: trans-secpred-rais-from-adj-or-som-arg1-verb-lexeme
+; (see just above)
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+;han synes meg komme 
+;'he seems me come'
+;
+;v-trScpr-scObNrg_scInf
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+; old: trans-secpred-rais-from-infinmarked-arg2-verb-lexeme
+jeg formoder ham å være dyktig 
+;'I assume him to be qualified'
+;
+;v-trScpr-scObNrg_scBareinf
+;ROLE: sens_thSit
+;SIT-TYPE: SENSING
+;; Old: trans-secpred-rais-from-verbal-arg2-verb-lexeme
+jeg ser ham løpe
+;'I see him lie'
+jeg ser det komme to gutter
+; I see there come two boys
+; has a duplicate handle with intro-sit TODO
+;
+;v-trScpr-scObNrg_obRefl_scBareinf
+;ROLE: sens_thSit
+;SIT-TYPE: SENSING
+;; Old: trans-secpred-rais-refl-from-verbal-arg2-verb-lexeme
+;head-verb-bareinfin-comp-rule
+han følte seg sove
+; he felt REFL sleep
+; 'he felt himself sleeping'
+han kjente seg sove
+;'he felt himself sleep'
+;
+;v-trScpr-scObNrg_scAdj (not defined)
+; used: v-trScpr-scObNrg_scPredprtclFor
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+han anser Ola kvalifisert 
+;'he regards Ola qualified'
+;
+;v-trScpr-scObNrg_obRefl_scAdj (not defined)
+; defined and used: v-trScpr-scObNrg_obRefl_scAdjORPredprtcl
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+han anser seg skikket 
+;'he regards himself qualified'
+;
+;v-trScpr-scObNrg_scPredprtcl
+; defined, as an exercise in lifting particle selection up to verbtype:
+;v-trScpr-scObNrg_scPredprtclSom
+;v-trScpr-scObNrg_scPredprtclTil
+;v-trScpr-scObNrg_scPredprtclFor
+;ROLE: ag_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+;; Old: trans-secpred-rais-from-nonverbal-arg2-verb-lexeme
+;;;; for: som-or-for-comp; head-complementizer-comp-rule;
+;;;; head-verb-inf-or-s-comp-rule
+jeg anser Ola for å være syk
+;'I regard Ola for to be sick'
+; I regard Ola for-PREP to-INF be sick
+jeg anser Ola for å løpe vekk
+;'I regard Ola for to run away'
+jeg anser det for å komme mange gutter
+; I regard there for-PREP to-INF come many boys
+; 'I regard there as coming many boys'
+;
+;;;; som: som-adj-pred-comp; head-complementizer-adj-or-prep-rule;
+;;;; head-verb-som-comp-rule
+jeg anser Ola som syk
+; I regard Ola as sick
+han oppfattet bilen som ny 
+;'he percieved the car as new'
+;
+; the next one has incoherent MRS - ARG2 h9 not filled. TODO
+;;;; som: som-n-pred-comp; head-complementizer-noun-rule;
+;;;; head-verb-som-comp-rule
+jeg anser Ola som min venn
+; I regard Ola as my friend
+;
+;v-trScpr-scObNrg_obRefl_scPredprtcl
+;'subtyped' as:
+;v-trScpr-scObNrg_obRefl_scPredprtclSom
+;v-trScpr-scObNrg_obRefl_scPredprtclTil
+;v-trScpr-scObNrg_obRefl_scPredprtclFor
+;ROLE: ag_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+;; Old: trans-secpred-rais-refl-from-nonverbal-arg2-verb-lexeme
+;; Old: trans-secpred-som-rais-refl-from-nonverbal-arg2-verb-lexeme
+;etc.
+;
+; this one has wrong semantics, as often with NPs as predicatives:
+;;;; som: som-n-pred-comp; head-complementizer-noun-rule;
+;;;; head-verb-som-comp-rule
+hun viser seg som Olas venn
+; she regards REFL as Ola's friend
+; 'she regards herself as Ola's friend'
+; has incoherent MRS - ARG2 h9 not filled. TODO
+; `Rel _pronoun_q_rel has a duplicate bound variable'
+;
+han oppfattet seg som syk 
+;'he percieved himself as sick'
+hun anser seg for å være syk
+; she regards REFL for-PREP to-PREP be sick
+; 'she regards herself as being sick'
+;
+; v-trScpr-scObNrg_obRefl_scAdjORPredprtcl - which is really a supertype to the intended one:
+han anser seg syk
+; she regards REFL sick
+; 'she regards herself as sick'
+
+
+;v-trScpr-scObNrg_scN
+;ROLE: ag_thSit
+;SIT-TYPE: REPRESENT
+;; Old: trans-secpred-rais-from-nominal-arg2-verb-lexeme
+hun kaller Ola en venn
+;'she calls Ola a friend'
+;
+;v-trScpr-scObNrg_obRefl_scN
+;ROLE: ag_thSit
+;SIT-TYPE: REPRESENT
+;; Old: trans-secpred-rais-refl-from-nominal-arg2-verb-lexeme
+hun kaller seg en venn
+;'she calls herself a friend'
+
+;v-trScpr-scObArgConcurr_scAdj (not defined)
+; this is supposed to adjoin 'varm' as a free predicative, and does, when rule is activated.
+;ROLE: ag_affincrem
+;SIT-TYPE: CONCURRSTATE
+han drakk kaffen varm 
+;'he drank the coffee warm'
+;
+;v-trScpr-scObArgConcurr_scPP (not defined)
+; this is supposed to adjoin 'i god stand' as a free predicative, and does, when rule is activated. When not, a secpred type still applies - v-trScpr-scObArgCsd
+;ROLE: ag_thvehcl
+;SIT-TYPE: CONCURRSTATE
+han kjørte bilen i god stand
+; 'he drove the car in good shape'
+;
+;v-trScpr-scObArgConcurr_scPredprtcl (not defined)
+; this is supposed to adjoin 'som firmabil' as a free predicative, and does, when rule is activated. When not, a secpred type still applies - v-trScpr-scObArgCsd
+;ROLE: ag_thvehcl
+;SIT-TYPE: CONCURRSTATE
+han kjørte bilen som firmabil
+;'he drove the car as a company car'
+;
+;v-trScpr-scObNrgRes_scAdj (not defined)
+;v-trScpr-scObNrg (used - renders 'gjøre' as 'cause')
+;also posssible, but wrong meaning of 'gjøre': v-trScpr-scObNrg_scAdjORPredprtcl
+; ;ROLE: csr_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGENTITY
+hun gjør skoene flate
+; she makes the shoes flat
+;
+;v-trScpr-scObNrgRes_scPP(not defined)
+;v-trScpr-scObNrg (used - renders 'gjøre' as 'cause')
+;ROLE: csr_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGENTITY
+;two rules can apply, make no difference to mrs - can one of them be dispensed with? - namely:
+;head-verb-prepsit-comp-rule
+;head-verb-adverb-comp-rule
+hun gjør meg i god form
+; she makes me in good shape
+;
+;"det" as expletive and "mulig" as abs-adj-epon-decl-lxm.
+; 'mulig at Ola fikk komme' as one AP
+hun gjorde det mulig at Ola fikk komme
+; she made it possible that Ola could come
+;
+; NB: changed, to same as for 'gjør meg i god form'; but there should be added smthg about the resulting state being reflected in the verb
+;v-trScpr-scObNrgRes_scPP (not defined)
+;v-trScpr-scObArgCsd
+;ROLE: csr_csd
+;SIT-TYPE: PLACEMENT
+hun setter skoene bak bordet
+;'she puts the shoes behind the table'
+hun plasserer skoene bak bordet
+;'she places the shoes behind the table'
+;
+;v-trScprShft-scObArgCsd_scPP (not defined)
+;used:
+;v-trScprShft-scObNrgRes_scPP-PLACEMENT
+;; old: trans-ppshift-verb-lexeme
+;in parse, the intended type not applying. TODO
+hun bredde på Ola dynen
+;'she put over him the cover'
+; many instances in lex4.v-lrge
+;
+;v-trScprShft-scObNrgRes_scPPrefl-PLACEMENT
+;ROLE: ag_aff_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+;; old: trans-ppshift-verb-lexeme
+;;;; i: prep-word-reg
+;;;; jafser||i seg: head-verb-prepsit-comp-rule
+;two rules can apply, make no difference to mrs - can one of them be dispensed with? - namely:
+;head-verb-prepsit-comp-rule
+;head-verb-adverb-comp-rule
+Ola jafser i seg maten
+; Ola gobbles in REFL the food
+; 'Ola gobbles the food into him'
+;
+;v-trScpr-scObArgCsd_scAdv (not defined)
+;v-trScpr-scObArgCsd
+;ROLE: ag_aff_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+;; Old: trans-arg1-2dir-verb-lexeme 
+han sparket ballen bort
+;'he kicked the ball away'
+;
+;v-trScprShft-scObArgCsd_scAdv (not defined)
+; v-trScprShft-obDir_scObNrgCsd (used)
+;ROLE: ag_aff_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+;; Old: trans-particleshift-verb-lexeme
+;two rules can apply, make no difference to mrs - can one of them be dispensed with? - namely:
+;head-verb-particleshift-comp-rule
+;head-verb-adverb-comp-rule
+han sparket bort ballen
+;'he kicked away the ball'
+;
+;v-trScpr-scObArgCsd_scAdj (not defined)
+; v-trScpr-scObArgCsd (used)
+;ROLE: ag_aff_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+;; Old: trans-secpred-arg1-2-x-verb-lexeme
+jeg sparker ballen flat
+; I kick the ball flat
+;
+; no good type for this yet. (Parse right now is with 'i stykker' as an adverb in mid-position.) Should be the shifted counterpart of the above. TODO
+han sparket i stykker ballen
+;'he kicks to pieces the ball'
+;
+;v-trScpr-scObNrgCsd_scAdj (not defined)
+;v-trScpr-scObNrgCsd (used)
+;ROLE: ag_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+han sang rommet tomt
+;'he sang the room empty'
+;;
+;v-trScpr-scObNrgCsd_scAdj (not defined)
+;v-trScpr-scObNrgCsd (used)
+;ROLE: ag_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+; "det" as expletive, and "hyggelig" as abs0-adj-lxm.
+han sang det hyggelig
+;'he sang it nice (in the room)'
+; "det" as expletive, and "rent" as abs0-adj-lxm.
+hun spylte det rent i rommet
+;'she flushed it clean in the room'
+;(here it is the flushing rather than the cleanness which is in the room. TODO)
+;
+; "det" as expletive, and "mulig" as abs-adj-epon-decl-lxm.
+han sang det mulig at Ola kommer
+;'he sang it possible that Ola comes' (singing opening a diplomatic impasse)
+; perhaps a bit force. But semantics works fine.
+;
+;v-trScpr-scObNrgCsdBin_scAdj (not defined)
+;v-trScpr-scObNrgCsd (used)
+;ROLE: ag_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+han spiser kjøleskapet tomt
+;'he eats the refrigerator empty'
+
+;v-trScpr-scObNrgCsd_obRefl_scAdj (not defined)
+;v-trScpr-scObNrgCsd_obRefl (used)
+;ROLE: ag_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+;; Old: trans-secpred-arg1-2-x-refl-verb-lexeme
+han løp seg sunn
+;'he ran himself healthy'
+;
+;v-trScpr-scObNrgCsd_obRefl_scPP (not defined)
+;v-trScpr-scObNrgCsd_obRefl (used)
+;ROLE: ag_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+han sang seg i god form 
+;'he sang himself in good shape'
+;
+;v-trScpr-obDir_obRefl_scObNrgCsd_scAdv (not defined)
+;v-trScpr-obDir_obRefl_scObNrgCsd (used)
+;ROLE: ag_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+;; Old: trans-refl-dir-verb-lexeme
+han karer seg bort
+;'he gets himself away'
+;
+;v-trScpr-obDir_scObNrgCsd_scAdv (not defined)
+;v-trScpr-scObNrgCsd (used)
+;ROLE: ag_csd
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+han sang sorgene bort 
+;'he sang the sorrows away'
+;
+;v-trScprShft-obDir_scObNrgCsd
+;old: trans-secpred-shift-arg1-x-verb-lexeme
+han sang bort sorgene 
+;'he sang away the sorrows'
+;
+;v-trAdv-obRefl
+;ROLE: ag
+;SIT-TYPE: ACTIVITY
+;; Obl: trans-refl-obladv-verb-lexeme
+han oppfører seg pent
+;'he behaves himself nicely'
+;
+;v-trExpnSu-expnDECL - names the construction, and type for expn-verbs
+; and
+;v-trScpr-scSuNrg_scAdjORPredprtclSom - type for raising verbs, whose definition also covers the 'non-raised' expn-constr
+;ROLE: thSit_cog 
+;SIT-TYPE: PROPOSITIONALATTITUDE
+;; Old: io-epon-verb-lexeme
+; with both v-trExpnSu-expnDECL and v-trScpr-scSuNrg_scAdjORPredprtclSom
+det foresvever Ola at du er frisk
+; it seems Ola that you are healthy
+; with v-trExpnSu-expnDECL only:
+det undrer meg at han kommer
+;'it worries me that he comes'
+;
+;v-trExpnSu-expnYN
+;ROLE: thSit_cog
+;SIT-TYPE: PROPOSITIONALATTITUDE
+;old: io-epon-verb-lexeme
+det interesserer meg hvorvidt han kommer
+;'it interests me whether he comes'
+;
+;v-trExpnSu-expnWH
+;ROLE: thSit_cog
+;SIT-TYPE: PROPOSITIONALATTITUDE
+;old: io-epon-verb-lexeme
+det overrasker meg hvem som kommer
+;'it surprises me who comes'
+;
+;v-trExpnSu-expnDECL_obRefl
+;old: io-refl-epon-verb-lexeme
+det viser seg at han kommer
+;it reveals REFL that he comes
+;
+;v-trExpnSu-expnYN_obRefl
+; also labeled v-trNrfExpnSu-obReflExpl_expnDECL, and "vise" is defined for both, but so far the representations are the same, since they both come from io-refl-epon-verb-lexeme.
+;old: io-refl-epon-verb-lexeme
+det viser seg om han kommer
+;it reveals REFL whether he comes
+;
+;v-trExpnSu-expnWH_obRefl
+;old: io-refl-epon-verb-lexeme
+det viser seg hvem som kommer
+;it reveals REFL who comeshere
+;
+;v-trExpnSu-expnCOND
+;ROLE: thSit_cog
+;SIT-TYPE: PROPOSITIONALATTITUDE
+;old: io-epon-verb-lexeme
+det vil ikke forundre meg hvis han kommer
+;'it will not surprise me if he comes'
+;
+;v-trExpnSu-expnEqInf
+;ROLE: thSit_cog
+;SIT-TYPE: PROPOSITIONALATTITUDE
+;old: io-epon-verb-lexeme, with restrictions - see lex-types-v
+det behager meg å komme
+;'it pleases me to come'
+;
+; All of the following using:
+; v-intrScprExpn-scAdj
+; norsk.tdl: epon-intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme.
+; type descriptions not yet implemented:
+; v-intrScprExpn-scAdj-expnDECL
+det synes fint at han kommer
+; v-intrScprExpn-scAdj-expnAbsinf 
+det synes fint å komme
+; v-intrScprExpn-scAdj-expnYN 
+det synes uvisst om han kommer
+; v-intrScprExpn-scAdj-expnWH 
+det synes uvisst hvem som kommer
+;
+;v-trExpnOb-expnDECL
+;ROLE: ag_csd  
+;SIT-TYPE: CAUSATION_WITH_CAUSINGENTITY
+;old: trans-subord-expn-verb-lexeme
+vi muliggjorde det at han fikk innreisetillatelse
+;'we possible-made it that he got entrance visa'
+;
+;v-trExpnOb-expnCOND
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+;old: trans-subord-expn-verb-lexeme
+jeg vil beklage det om du kommer
+;'I will deplore it if you come'
+;
+; not defined, and seem not to exist in reality
+;tr-objexpn-expnYN
+;tr-objexpn-expnWH
+;
+;v-trExpnOb-expnAbsinf
+;ROLE: ag_csd 
+;SIT-TYPE: CAUSATION_WITH_CAUSINGENTITY
+;old: trans-subord-expn-verb-lexeme
+vi muliggjør det å komme
+;'we impossible-make it to come'
+;
+;v-ditr
+;ROLE: ag_rec_th 
+;SIT-TYPE: TRANSFER
+;; Old: ditrans-arg1-2-3-verb-lexeme
+jeg gav ham boken
+;'I gave him the book'
+;ROLE: ag_ben_th
+;SIT-TYPE: SUSTAINEDSTATE
+han unner henne boken
+;'he ['gönnt'] her the book'
+;
+;v-ditr-iobRefl
+;; Old: ditrans-arg1-2-3refl-verb-lexeme
+;ROLE: ag_ben_th
+;SIT-TYPE: AVAILING
+han gav seg tid
+;'he gave himself time'
+;SIT-TYPE: SUSTAINEDSTATE
+hun unner seg litt vin
+; she "gönnt" SELF some wine
+;;
+;v-ditr-suDECL
+;ROLE: thSit_ben_th
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+;old: ditrans-eventarg1-decl-verb-lexeme
+at han synger gir Kari hodepine
+;'that he sings gives Kari headache'
+at han kom påførte meg et sjokk
+;'that he came gave me a choque'
+;
+;v-ditr-suYN (not defined)
+;v-ditr-suINTERR (used)
+;ROLE: thSit_ben_th
+;SIT-TYPE: REPRESENT
+;old: ditrans-eventarg1-interr-verb-lexeme
+hvorvidt han kommer vil vise oss angrepsplanen
+;'whether he comes first shows us the attack plan'
+;
+;v-ditr-suWH (not defined)
+;v-ditr-suINTERR
+;ROLE: thSit_ben_th
+;SIT-TYPE: REPRESENT
+;old: ditrans-eventarg1-interr-verb-lexeme
+hvem som kommer vil vise oss angrepsplanen
+;'who that comes first shows us the attack plan'
+;
+;v-ditr-suAbsinf
+;ROLE: thSit_ben_th
+;SIT-TYPE: CAUSATION_WITH_CAUSINGEVENT
+;old: ditrans-eventarg1-absinf-verb-lexeme
+å angripe først frarøver fienden moralen
+;'to bomb first deprives the enemy the moral'
+;v-ditr-suAbsinf-suThSit_iobBen_obTh-AVAILING
+å gå tur gir ham styrke  
+; bruland, pet problem
+;'to walk walks gives him strength'
+;
+;v-ditr-obDECL
+;ROLE: ag_intrlctr_thSit
+;SIT-TYPE: COMMUNICATION
+;; Old: ditrans-decl-verb-lexeme
+Kari forteller meg at han kommer
+;'Kari tells me that he comes'
+;
+;v-ditr-obDECL_iobRefl
+;; Old: ditrans-refl-decl-verb-lexeme
+hun forestiller seg at du er syk
+; she imagines REFL that you are sick
+; 'she imagines that you are sick'
+;
+;v-ditr-obYN 
+;; old: ditrans-y-n-indirwhquest-verb-lexeme
+;v-trComp-compINTERR (also used)
+;ROLE: ag_intrlctr_thSit
+;SIT-TYPE: COMMUNICATION
+;; Old: ditrans-indirwhquest-verb-lexeme
+;head-verb-indirwhquest-y-n-comp-rule
+instrumentet viser Ola hvorvidt du er syk
+; the instrument shows Ola whether you are sick
+han forteller meg hvorvidt Kari kommer
+;'he tells me whether Kari comes'
+;
+;v-ditr-obWH 
+;; old: ditrans-wh-indirwhquest-verb-lexeme
+;v-trComp-compINTERR (also used)
+;ROLE: ag_intrlctr_thSit
+;SIT-TYPE: COMMUNICATION
+;;; Old: ditrans-indirwhquest-verb-lexeme
+;head-verb-indirwhquest-subjwh-comp-rule
+han forteller meg hvem som kommer
+;'he tells me who that comes'
+;
+;v-ditr-obEqSuInf
+;ROLE: ag_ben_thSit
+;SIT-TYPE: COMMITMENT
+;; Old: subj-equi-doublobj-verb-lexeme
+jeg lover Ola å komme
+; I promise Ola to-INF come
+Kari lover ham å komme
+;'Kari promises him to come'
+;
+;v-ditr-obEqIobInf
+;ROLE: ag_ben_thSit
+;SIT-TYPE: COMMITMENT
+;; Old: obj-equi-verb-lexeme
+jeg tillater Ola å komme
+; I allow Ola to-INF come
+Kari tillater ham å komme
+;'Kari allows him to come'
+;
+;v-ditr-iobRefl_obEqIobInf
+;ROLE: ag_ben_thSit
+;SIT-TYPE: COMMITMENT
+;; Old: obj-equi-refl-verb-lexeme
+hun tillater seg å komme
+;'she allows REFL to come'
+;
+;v-ditr-obEqIobBareinf
+;ROLE: ag_ben_thSit
+;SIT-TYPE: COMMITMENT
+;; Old: obj-equi-bare-verb-lexeme
+jeg ber Ola komme
+; I ask Ola come
+; 'I ask Ola to come'
+Kari ber ham komme
+;'Kari asks him come'
+;
+;v-ditr-obDECL_iobRefl
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+;old: ditrans-refl-subord-verb-lexeme
+han innbiller seg at du kommer
+;'he imagines himself that you come' = "he imagines that you come"
+;
+; v-ditr-obYN_iobRefl
+; old: ditrans-y-n-refl-indirwhquest-verb-lexeme
+;v-trNrfComp-obReflExpl_compYN
+;Non-referentiality of the "seg" is not explicitly represented in this type.
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+;old: ditrans-refl-indirwhquest-verb-lexeme
+han undrer seg hvorvidt du kommer
+;'he wonders REFL whether you come'
+;
+; v-ditr-obWH_iobRefl
+; old: ditrans-wh-refl-indirwhquest-verb-lexeme
+;v-trNrfComp-obReflExpl_compWH
+;Non-referentiality of the "seg" is not explicitly represented in this type.
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+;old: ditrans-refl-indirwhquest-verb-lexeme
+han undrer seg hvem som kommer
+;'he wonders REFL who that comes'
+;
+;v-ditr-obDECL
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+han forespeiler Kari at det blir storm
+;'he 'makes-anticipate' Kari that there will be storm'
+;
+;v-ditr-obEqInf
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+han forespeiler Kari å få komme
+;'he 'makes-anticipate' Kari to 'be-allowed-to' come'
+;
+;v-ditr-obDECL_iobRefl
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+han foresetter seg at han skal komme
+;'he 'sets-as-goal' REFL that he will come'
+;
+;v-ditr-obEqInf_iobRefl
+;ROLE: cog_thSit
+;SIT-TYPE: PROPOSITIONALATTITUDE
+han foresetter seg å komme
+;'he 'sets-as-goal' REFL to come'
+;
+;v-ditr-suYN_obYN (not defined)
+; v-ditr-suINTERR_obINTERR (used)
+;ROLE: thSit_ben_thSit
+;SIT-TYPE: REPRESENT
+;old: ditrans-eventarg1interr-eventarg2interr-verb-lexeme
+hvorvidt han kommer først vil fortelle oss hvorvidt de har en plan
+;'whether he comes first shows us whether they have a plan'
+;
+;v-ditr-suWH_obWH (not defined)
+; v-ditr-suINTERR_obINTERR (used)
+;ROLE: thSit_cog_thSit
+;SIT-TYPE: REPRESENT
+;old: ditrans-eventarg1interr-eventarg2interr-verb-lexeme
+hvem som kommer først forteller oss ikke hvem som kommer sist
+;'who that comes first does not show us who that comes last'
+;
+;v-ditr-suYN_obWH (not defined)
+; v-ditr-suINTERR_obINTERR (used)
+;ROLE: thSit_cog_thSit
+;SIT-TYPE: REPRESENT
+;old: ditrans-eventarg1interr-eventarg2interr-verb-lexeme
+hvorvidt han kommer først forteller oss ikke hvem som kommer sist
+;'whether he comes first does not show us who that comes last'
+;
+;v-ditr-suWH_obYN (not defined)
+; v-ditr-suINTERR_obINTERR (used)
+;ROLE: thSit_cog_thSit
+;SIT-TYPE: REPRESENT
+;old: ditrans-eventarg1interr-eventarg2interr-verb-lexeme
+hvem som kommer først forteller oss ikke hvorvidt han kommer sist
+;'who comes first does not show us whether he comes last'
+;
+;v-ditr-suDECL_obDECL
+; old: ditrans-eventarg1decl-eventarg2decl-verb-lexeme
+at han kommer viser oss at han er skyldig
+;'that he comes shows us that he is guilty'
+;
+;v-ditr-suDECL_obYN (not defined)
+;v-ditr-suDECL_obINTERR (used)
+;old: ditrans-eventarg1decl-eventarg2interr-verb-lexeme
+at han kommer viser oss hvorvidt han er skyldig
+;'that he comes shows us whether he is guilty'
+;v-ditr-suDECL_obWH (not defined)
+;v-ditr-suDECL_obINTERR (used)
+at han kommer viser oss hvem som er skyldig
+;'that he comes shows us who is guilty'
+;
+;v-ditr-suINTERR_obDECL
+;old: ditrans-eventarg1interr-eventarg2decl-verb-lexeme
+;TODO: possibly no such examples. "*whether he sleeps determines that he comes" - odd.
+;
+;v-ditrObl-oblPRTOFiob
+;ROLE: ag_aff_ejct_locth
+;SIT-TYPE: PARTWHOLE_AFFECTING
+;; Old: ditrans-pp-arg1-2-detached-poss-verb-lexeme
+; TODO: "i ryggen" is predicated of the event. should be 'ballen'. Otherwise all relations are covered.
+jeg kyler Ola ballen i ryggen
+; I throw Ola two balls in the back
+; 'I throw two balls in the back of Ola'
+jeg kaster Ola kakestykker i ansiktet
+;'I throw Ola cakes in the face' - "I throw cakes in the face of Ola"
+;
+;v-copAdj
+;ROLE: th
+;SIT-TYPE: PROPTY
+;; Old: copula-standard-verb-lexeme
+han er snill
+;'he is kind'
+;
+;v-copAdj-suDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+;; old: copula-adj-abs-with-nonepon-decl-verb-lexeme
+;;;; fint: abs-adj-nonepon-decl-lxm
+at du kommer er fint
+; that you come is nice
+at han kommer er overraskende
+;'that he comes is surprising'
+;
+;v-copAdj-suAbsinf (not defined)
+;v-copAdj-suDECL (used)
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+;; old: copula-adj-abs-with-nonepon-decl-verb-lexeme
+;;;; sunt: abs-adj-nonepon-decl-lxm
+å løpe er sunt
+;'to run is healthy'
+;
+;v-copAdj-suYN (not defined)
+;v-copAdj-suINTERR (used)
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+;; Old: copula-adj-abs-with-nonepon-quest-verb-lexeme
+;;;; uvisst: abs-adj-nonepon-quest-lxm
+hvorvidt han kommer er uvisst
+;'whether he comes is uncertain'
+;
+;v-copAdj-suWH (not defined)
+;v-copAdj-suINTERR (used)
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+;; Old: copula-adj-abs-with-nonepon-quest-verb-lexeme
+;;;; uvisst: abs-adj-nonepon-quest-lxm
+hvem som kommer er uvisst
+;'who that comes is uncertain'
+;
+;v-copN
+;ROLE: th
+;SIT-TYPE: PROPTY
+;; Old: copula-nom-verb-lexeme (also for identity)
+han er bonde
+;'he is peasant'
+;
+;v-copN-suDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+; copula-noun-with-nonepon-verb-lexeme
+at han kom var et sjokk
+;'that he came was a chock'
+; the MRS has 'e2 instantiate x
+;
+;v-copN-suAbsinf (NB: for SLASH-file)
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+; copula-noun-with-nonepon-verb-lexeme
+å komme var en fornøyelse
+;'to come was a pleasure'
+;
+;v-copN-suYN (NB: for SLASH-file)
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+; it is wellformed, but has SF: prop and wh- all over the place in the hvorvidt clause, so obviously misses that aspect. TODO
+hvorvidt han kommer er et spørsmål
+;'whether he comes is a question'
+;
+;v-copN-suWH (NB: for SLASH-file)
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+hvem som kommer er et spørsmål
+;'who that comes is a question'
+;here the SF value is fine, clearly induced by the clause internally, as opposed to above. That the verb type be v-copN-suDECL is of course still odd, so there is a TODO here as well.
+;
+;v-copAdv
+;ROLE: th
+;SIT-TYPE: LOCATEDNESS
+;; Old: copula-loc-verb-lexeme
+;;;; head-cop-prepadv-comp-rule
+hun er her
+; she is here
+;
+;v-copPP
+;ROLE: th
+;SIT-TYPE: LOCATEDNESS
+;; Old: copula-loc-verb-lexeme
+;;;; head-cop-prepadv-comp-rule
+hun er i Finnmark
+; she is in Finnmark
+;
+;
+;v-copPP
+;ROLE: th
+;SIT-TYPE: ASSESS
+;; Old: copula-loc-verb-lexeme
+;;;; head-cop-prepadv-comp-rule
+forestillingen var under enhver kritikk
+;'the performance was below any critique'
+; what in the MRS is called 'location' should here perhaps be called 'status'. TODO
+;
+;v-copPP-suDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+;old: copula-locpp-with-nonepon-verb-lexeme
+; TODO slightly: the 'over' is here predicated of the index of "at", not the label, since the latter creates conflict with expectations of what the XARG of a preposition can be, encoded in 'reg-mod-lex-item'. Not the time to explore loosening this up.
+at han kom var over forventning
+;'that he came was above expectation'
+;
+;v-copPP-suAbsinf (no lex item for this yet)
+;old: copula-locpp-with-nonepon-verb-lexeme
+;using v-copPP-suDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+; TODO slightly: the 'under' is here predicated of the index of "synge", not the label, since the latter creates conflict with expectations of what the XARG of a preposition can be, encoded in 'reg-mod-lex-item'. Not the time to explore loosening this up.
+å synge er under vurdering 
+;'to sing is under consideration'
+;
+;v-copPP-suYN (no lex item for this yet)
+;using v-copPP-suDECL
+;old: copula-locpp-with-nonepon-verb-lexeme
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+; TODO slightly: the 'under' is here predicated of the index of "synge", not the label, since the latter creates conflict with expectations of what the XARG of a preposition can be, encoded in 'reg-mod-lex-item'. Not the time to explore loosening this up.
+hvorvidt han får synge er under vurdering 
+;'whether he may sing is under consideration'
+;
+;v-copPP-suWH (not defined)
+;using v-copPP-suDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+; TODO: ; Fragmented.
+hvem som får synge er under vurdering 
+;'who that may sing is under consideration'
+;
+;v-copPredprtcl
+; old: v-intrLghtScpr-scSuNrg_scPredprtcl
+; as seen in lex-types-v, there are many attempts for this one, none of them fully satisfactory. The present one claims that Ola instantiates a god, while the 'property' EP is unconnected to a handle. TODO
+;ROLE: th
+;SIT-TYPE: ASSESS
+;head.verb-som-comp-rule
+Ola er som en gud 
+;'Ola is like a god'
+;
+;v-copPredprtcl-suDECL
+;old: intrans-eventarg1-secpred-som-arg1-x-verb-lexeme
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+at han kom var som bønnhørt 
+;'that he came was like [prayer-heard]'
+; TODO: no successful parse
+;
+;v-copPredprtcl-suAbsinf
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+å danse var som en drøm 
+;'to dance was like a dream'
+; TODO: no parse
+;
+;v-copPredprtcl-suYN (not defined)
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+hvorvidt soldatene lystrer er som et lottospill 
+;'whether the soldiers obey is like a lotto-play'
+; TODO: no parse
+;
+;v-copPredprtcl-suWH (not defined)
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+hvem som lystrer er som et lottospill 
+;'who that obey is like a lotto-play'
+; TODO: no parse
+;
+;v-copIdN
+;ROLE: idfd_idfng
+;SIT-TYPE: IDENTITY
+;; Old: copula-nom-verb-lexeme (also for predicative)
+dette er mannen 
+;'this is the man'
+;
+;v-copIdAbsinf
+;ROLE: idfd_idfng
+;SIT-TYPE: IDENTITY
+oppgaven er å spise silden 
+;'the task is to eat the herring'
+;
+;v-copIdDECL
+;old: copula-clause-verb-lexeme
+;ROLE: idfd_idfng
+;SIT-TYPE: IDENTITY
+problemet er at han spiser silden 
+;'the problem is that he eats the herring'
+;
+;v-copIdYN (not defined)
+;v-copIdINTERR (works correctly)
+;ROLE: idfd_idfng
+;SIT-TYPE: IDENTITY
+;; Old: copula-indirwhquest-verb-lexeme (also WH)
+spørsmålet er hvorvidt han kommer
+; the question is whether he comes
+problemet er om han spiser silden 
+;'the problem is whether he eats the herring'
+;
+;v-copIdWH (not defined)
+;v-copIdINTERR (works correctly)
+;ROLE: idfd_idfng
+;SIT-TYPE: IDENTITY
+;; Old: copula-indirwhquest-verb-lexeme (also for YN)
+spørsmålet er hva han spiser
+; the question is what he eats
+problemet er hvem som spiser silden 
+;'the problem is who that eats the herring'
+;
+;;v-copIdAbsinf-suAbsinf 
+å leve er å streve
+; 'to live is to struggle'
+;
+;
+;;v-copExpnAdj := v-intrScprExpn-scAdj.
+;;;; fint: abs-adj-epon-decl-lxm
+;;;; uvisst: abs-adj-epon-quest-lxm
+; This subsumes the following four:
+;v-copExpnAdj-expnDECL
+det er fint at han kommer
+; 'it is fine that he comes'
+;v-copExpnAdj-expnAbsinf
+det er fint å være frisk
+; 'it is fine to be healthy'
+;v-copExpnAdj-expnYN 
+det er uvisst om han kommer
+; 'it's uncertain whether he comes'
+;v-copExpnAdj-expnWH 
+det er uvisst hvem som kommer
+; 'it's uncertain who comes'
+;
+;v-copExpnN-expnDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er en skuffelse at han kommer 
+;'it is a disappointment that he comes'
+;
+;v-copExpnN-expnAbsinf
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er en kunst å spise torsk 
+;'it is an art to eat cod'
+;
+;v-copExpnN-expnYN
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er et spørsmål hvorvidt han kommer 
+;'it is a question whether he comes'
+;
+;v-copExpnN-expnWH
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er et spørsmål hvem som kommer 
+;'it is a question who that comes'
+;
+;v-copExpnPP-expnDECL
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er for andre gang at han taper 
+;'it is for the second time that he loses'
+;
+;v-copExpnPP-expnYN (not defined)
+; instead: v-copExpnAdj := v-intrScprExpn-scAdj
+; - where 'adj' is not specified. works together with prep-arg1prop-epon-lxm as somewhat intermediate preposition type, taking the epon as complement, on the model of 'uvisst'
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er hinsides diskusjon hvorvidt han kommer 
+;'it is beyond discussion whether he comes'
+;
+;v-copExpnPredprtcl-expnDECL (not defined)
+;ROLE: thSit
+;SIT-TYPE: ASSESS
+det er som en forbannelse at han kommer 
+;'it is like a curse that he comes'
+det var som bestilt at han tapte igjen 
+;'it was like booked that he lost again'
+;TODO: no parse
+;
+; være - v-copexpnadj
+; fin - abs-adj-epon-decl-lxm
+; head-verb-adj-comp-rule V-AP
+; head-adj-comp-rule  A-PP
+;not more: v-copImpersAdjLoc
+;ROLE: locth
+;SIT-TYPE: ASSESS
+;; Old: copula-standard-abs-verb-lexeme
+; not more: "fint" is abs0-adj-lxm
+det er fint i Finnmark 
+;'it is nice in Finnmark'
+
+; this needs more - TODO ('her' doesn't quite go as 'i finnmark')
+det er fint her 
+;'it is nice here'
+;
+; være - v-copexpnadj
+; fin - abs-adj-epon-decl-lxm
+; head-verb-adj-comp-rule V-AP
+; head-adj-comp-rule  A-PP
+det er langt til Finnmark
+;'it's far to Finnmark'
+

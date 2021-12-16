@@ -1,0 +1,73 @@
+1 Ola er svært høy 1 76
+2 Ola er hvor høy 1 83
+3 Ola er høy nok 1 99
+4 Ola er nok høy 5 219
+5 Ola er tilstrekkelig høy 1 76
+6 Ola er to meter høy 1 177
+7 En svært høy mann sover 1 91
+8 En hvor høy mann sover 1 96
+9 En to meter høy mann sover 1 155
+10 En høy nok mann sover 1 91
+11 Ola er høyere enn Per 1 78
+12 Ola er mer storvokst enn Per 1 113
+13 Ola er atskillig mer storvokst enn Per 1 100
+14 Ola er en høyere mann enn Per 1 184
+15 Ola er en atskillig høyere mann enn Per 1 172
+16 Ola er en mer storvokst mann enn Per 1 223
+17 Ola er to centimeter høyere enn Per 1 215
+18 Ola er en to centimeter høyere mann enn Per 1 254
+19 Ola er mer enn to centimeter høyere enn Per 1 330
+20 Ola er atskillig mer enn to centimeter høyere enn Per 1 263
+21 Ola er mer enn to centimeter mer storvokst enn Per 2 412
+22 Ola er atskillig mer enn to centimeter mer storvokst enn Per 2 323
+23 Ola er en mer enn to centimeter høyere mann enn Per 1 454
+24 Ola er en mer enn to centimeter mer storvokst mann enn Per 2 618
+25 Ola er en atskillig mer enn to centimeter mer storvokst mann enn Per 2 471
+26 En høyere mann enn Per sover 1 71
+27 En atskillig høyere mann enn Per sover 1 83
+28 En mye høyere mann enn Per sover 1 99
+29 En hvor mye høyere mann enn Per sover 1 128
+30 En mer storvokst mann enn Per sover 1 100
+31 En to centimeter høyere mann enn Per sover 1 156
+32 En mer enn to centimeter høyere mann enn Per sover 1 227
+33 En mye mer enn to centimeter høyere mann enn Per sover 1 299
+34 En hvor mye mer enn to centimeter høyere mann enn Per sover 1 428
+35 En mer enn to centimeter mer storvokst mann enn Per sover 2 295
+36 Ola er den høyeste av guttene 1 198
+37 Ola er den høyeste av alle guttene 1 261
+38 Ola er den høyeste gutten 1 141
+39 Den høyeste av guttene sover 1 101
+40 Den høyeste av alle guttene sover 1 139
+41 Den høyeste gutten sover 1 44
+42 Mye vin renner 1 53
+43 Svært mye vin renner 1 65
+44 Svært lite vin renner 1 71
+45 Hvor mye vin renner? 1 77
+46 Hvor lite vin renner? 1 80
+47 Mer vin enn vann renner 4 92
+48 Mindre vin enn vann renner 4 100
+49 Atskillig mer vin enn vann renner 2 107
+50 Atskillig mindre vin enn vann renner 2 115
+51 Hvor mye mer vin enn vann renner? 2 158
+52 Hvor lite mer vin enn vann renner? 0 137
+53 Hvor mye mindre vin enn vann renner? 2 166
+54 Hvor lite mindre vin enn vann renner? 0 145
+55 Mange gutter løper 1 102
+56 Svært mange gutter løper 1 122
+57 Svært få gutter løper 1 206
+58 Hvor mange gutter løper? 1 134
+59 Hvor få gutter løper? 1 230
+60 Flere gutter enn menn løper 2 127
+61 Færre gutter enn menn løper 2 127
+62 Atskillig flere gutter enn menn løper 1 144
+63 Atskillig færre gutter enn menn løper 1 144
+64 Hvor mange flere gutter enn menn løper 1 172
+65 Hvor mange færre gutter enn menn løper 1 172
+66 Hvor få flere gutter enn menn løper 0 278
+67 Hvor få færre gutter enn menn løper 0 278
+
+;;; Total CPU time: 27570 msecs
+
+;;; Mean edges: 175.30
+
+;;; Mean parses: 1.25

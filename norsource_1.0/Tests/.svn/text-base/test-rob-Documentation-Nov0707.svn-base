@@ -1,0 +1,357 @@
+1 gå fremover 1 64
+
+"fremover" 'ahead' is represented by
+[ \"_fremover_adv_rel\"<3:11>
+            LBL: h1
+            ARG0: u8
+            ARG1: x3 ]
+and "gå" by
+        [ \"_gå_v_rel\"<0:2>
+            LBL: h1
+            ARG0: e2
+            ARG1: x3 [ x GEND: M PERS: 2 ] ]
+encoding that who goes and who moved ahead are the same entity. This holds of all directional adverbials relative to the mover of the verb.
+
+
+2 gå til høyre 8 243
+
+Of the 8 parses, take the one where "til høyre" is a single item. Otherwise, same EP constellation as for (1).
+
+
+3 gå to meter 1 127
+
+Two comments on EPs:
+
+a.         [ \"measure-out-path-of_rel\"<0:11>
+            LBL: h1
+            ARG0: u21
+            ARG1: x12
+            ARG2: x3 ] >
+
+says that x12, which represents 'two meters', measures out the path of the mover.
+b. In the sequence
+ 	  [ \"card_rel\"<3:5>
+            LBL: h9
+            ARG0: x10 [ x NUM: PL GEND: M PERS: 3 ]
+            CARG: \"2-rel\" ]
+          [ \"_meter_n_rel\"<6:11>
+            LBL: h11
+            ARG0: x12 [ x NUM: PL GEND: M PERS: 3 ] ]
+          [ \"_plurindef_q_rel\"<6:11>
+            LBL: h13
+            ARG0: x12
+            RSTR: h14
+            BODY: h15 ]
+          [ \"_measure_out_rel\"<3:11>
+            LBL: h16
+            ARG0: u17
+            ARG1: x10
+            ARG2: x12 ]
+          [ \"udef_q_rel\"<3:11>
+            LBL: h18
+            ARG0: x10
+            RSTR: h19
+            BODY: h20 ]
+we can hopefully ignore the quantifications (which is there for 'scoped mrs'), so we have instead
+ 	  [ \"card_rel\"<3:5>
+            LBL: h9
+            ARG0: x10 [ x NUM: PL GEND: M PERS: 3 ]
+            CARG: \"2-rel\" ]
+          [ \"_meter_n_rel\"<6:11>
+            LBL: h11
+            ARG0: x12 [ x NUM: PL GEND: M PERS: 3 ] ]         
+          [ \"_measure_out_rel\"<3:11>
+            LBL: h16
+            ARG0: u17
+            ARG1: x10
+            ARG2: x12 ]
+         
+where x10 is '2', and x12 is 'meter', and the measure_out_rel says that the meters come as 'two' - that is, there are two meters. In pred logic notation, this presumably corresponds to 'cardinality of x12 is 2'. This style is consistently how cardinality specification is encoded.
+
+
+4 gå to meter fremover 3 144
+
+Select out the one not using IMPERATIVE-RULE. Both remaining ones are valid - the first says that '"two meters" measures out "forwards"', and the second has 'two metres' and 'forwards' as separate specifications, but of the same mover x3. In detail, respectively:
+a.
+          [ \"_fremover_adv_rel\"<12:20>
+            LBL: h1
+            ARG0: u20
+            ARG1: x3 ]
+marks x3's forward move as u20,  
+         [ \"_meter_n_rel\"<6:11>
+            LBL: h10
+            ARG0: x11 [ x NUM: PL GEND: M PERS: 3 ] ]
+identifies meters as x11, and 
+         [ \"_measure_out_rel\"<3:20>
+            LBL: h21
+            ARG0: u22
+            ARG1: x11
+            ARG2: u20 ]
+lets the meters measure out u20, the forward-move.
+(Qualification of meters as '2' and 'go' as having x3 as ARG1 is as before.)
+
+b. In
+         [ \"measure-out-path-of_rel\"<0:11>
+            LBL: h1
+            ARG0: u20
+            ARG1: x11
+            ARG2: x3 ]
+          [ \"_fremover_adv_rel\"<12:20>
+            LBL: h1
+            ARG0: u21
+            ARG1: x3 ]
+x11 (representing 2 meters) measures out x3's path, as in the case of (3), and 'fremover' has x3 as ARG1, as always.
+
+Both a. and b. seem sound ways of construing the situation, and presumably are equivalent ("in the model").
+(The parse clicked away is equivalent to b., only induces the 'command' factor at a different point - presumably a redundant factor to be eliminated, even if not eliminating messages altogether.)
+
+
+5 gå fremover to meter 1 137
+
+This one is equivalent to the b. construal of (4).
+
+6 (gå til rute fem 2 161)("rute fem" not yet encoded, I see)
+
+gå til rute - 1 parse
+
+ 
+Main point here, using "gå til rute", is that ARG1 is the same for both "gå" and "til". (And if we open for the richer specifications, we will see "til" is marking its ARG2 as endpnt-of-path.)
+
+7 (gå fremover til rute fem 2 167)
+
+gå fremover til rute - 1 parse
+
+Observe identity of ARG3 throughout:
+          [ \"_gå_v_rel\"<0:2>
+            LBL: h1
+            ARG0: e2
+            ARG1: x3 [ x GEND: M PERS: 2 ] ]
+          ...
+          [ \"_fremover_adv_rel\"<3:11>
+            LBL: h1
+            ARG0: u8
+            ARG1: x3 ]
+          [ \"_til_p_rel\"<12:15>
+            LBL: h1
+            ARG0: u10
+            ARG1: x3
+            ARG2: x11 [ x NUM: SG PERS: 3 ]
+            IARG: s9 ]
+
+
+8 gå to meter rett fremover 10 376
+(missing correct use of "rett")
+
+9 gå litt til høyre 24 587
+10 gå nitti grader til høyre 7 371
+
+Like (4), with two valid readings (choose "til høyre" as one item).
+
+
+11 gå fire meter nitti grader til høyre 146 1761
+
+Choose "til høyre" as one item, reduces to 10 parses.
+Then fire meter||nitti grader - reduces to 2, and then yes to IMPERATIVE RULE
+
+Nothing new in this parse - note that x3 is ARG1 for "gå", and for "til høyre", and ARG2 for 'measure-out-path-of_rel', as desired, and that 'nitti grader' measures out 'til høyre'; I show the whole thing, for once:
+"
+ [ LTOP: h1
+   INDEX: e2 [ e TENSE: TENSE MOOD: INDICATIVE PROG: - ]
+   RELS: <
+          [ \"_gå_v_rel\"<0:2>
+            LBL: h1
+            ARG0: e2
+            ARG1: x3 [ x GEND: M PERS: 2 ] ]
+          [ predsort<0:2>
+            LBL: h4
+            ARG0: x3 ]
+          [ \"_pronoun_q_rel\"<0:2>
+            LBL: h5
+            ARG0: x3
+            RSTR: h6
+            BODY: h7 ]
+          [ \"card_rel\"<3:7>
+            LBL: h8
+            ARG0: x9 [ x NUM: PL GEND: M PERS: 3 ]
+            CARG: \"4-rel\" ]
+          [ \"_meter_n_rel\"<8:13>
+            LBL: h10
+            ARG0: x11 [ x NUM: PL GEND: M PERS: 3 ] ]
+          [ \"_plurindef_q_rel\"<8:13>
+            LBL: h12
+            ARG0: x11
+            RSTR: h13
+            BODY: h14 ]
+          [ \"_measure_out_rel\"<3:13>
+            LBL: h15
+            ARG0: u16
+            ARG1: x9
+            ARG2: x11 ]
+          [ \"udef_q_rel\"<3:13>
+            LBL: h17
+            ARG0: x9
+            RSTR: h18
+            BODY: h19 ]
+          [ \"card_rel\"<14:19>
+            LBL: h20
+            ARG0: x21 [ x NUM: PL ]
+            CARG: \"90-rel\" ]
+          [ \"_accumulate-unit-subunit_rel\"<3:19>
+            LBL: h22
+            ARG0: x23
+            ARG1: h10
+            ARG2: h20 ]
+          [ \"_grad_n_rel\"<20:26>
+            LBL: h24
+            ARG0: x25 [ x NUM: PL GEND: M PERS: 3 ] ]
+          [ \"_measure_out_rel\"<3:26>
+            LBL: h26
+            ARG0: u27
+            ARG1: x23
+            ARG2: x25 ]
+          [ \"measure-out-path-of_rel\"<0:26>
+            LBL: h1
+            ARG0: u28
+            ARG1: x25
+            ARG2: x3 ]
+          [ \"_til_p_rel\"<27:30>
+            LBL: h1
+            ARG0: u30
+            ARG1: x3
+            ARG2: x31 [ x NUM: SG GEND: N PERS: 3 ]
+            IARG: s29 ]
+          [ \"_høyre_n_rel\"<31:36>
+            LBL: h32
+            ARG0: x31 ]
+          [ \"_indef_q_rel\"<31:36>
+            LBL: h33
+            ARG0: x31
+            RSTR: h34
+            BODY: h35 ]
+          [ command_m_rel<0:36>
+            LBL: h1
+            MARG: h36 ] >
+   HCONS: < h6 qeq h4 h13 qeq h10 h18 qeq h8 h34 qeq h32 h36 qeq h1 > ]
+
+"
+
+12 gå to meter fremover, deretter nitti grader til høyre 3 458
+
+Nothing new here, but notice that x3 is preserved as ARG1 also across the enumerating comma.
+
+13 gå to meter fremover, og deretter nitti grader til høyre 3 430
+
+Same here.
+
+14 gå to meter fremover, deretter tre meter nitti grader til høyre 0 6105
+15 gå to meter fremover, så nitti grader til høyre 402 2821
+
+Exactly same meaning as in (12), but "så" is catastrophically ambiguous.
+
+16 drei rundt 2 94
+17 drei nitti grader til høyre 7 341
+
+"til høyre" as one item, yes to IMPERATIVE RULE, and then eaxactly analogous to (4). Except that now, we need the (a) option ("nitti grader til høyre"), since "nitti grader" as an independent adjunct makes little sense.
+
+18 drei til høyre nitti grader 3 418
+
+Like above, but alas, here we get the (b), with 90 degrees as independent. Maybe we need to write a head-initial head-specifier rule to get the (a) option also here.
+
+19 drei ett hundre og tyve grader til venstre 98 992
+
+This is just like (17), but complex expressions like "ett hundre og tyve" require much bandwidth. Choose "hundre og" as one item, "til venstre" as one item, and the combinatory rule 'numbernoun-plus-card-rule'. The latter imposes, in the MRS, the EP
+  [ \"_accumulate-unit-subunit_rel\"<5:23>
+            LBL: h20
+            ARG0: x21 [ x GEND: M PERS: 2 ]
+            ARG1: h11
+            ARG2: h18 ]
+which brings 'ett hundre' and 'tyve' together, hopefully interpretable as addition. (The normal 'and' I believe is set union, which is not the same as addition.)
+
+
+20 gå fremover til rute fem  2 167
+21 gå fremover via rute tre til rute fem  14 415
+22 gå fremover gjennom rute tre til rute fem  14 418
+23 gå fremover til rute fem via rute tre 12 351
+24 gå fremover i fem sekunder 1 202
+
+"i" is represented by
+        [ \"_i_p_rel\"<12:13>
+            LBL: h1
+            ARG0: u10
+            ARG1: e2
+            ARG2: x11 [ x NUM: PL GEND: N PERS: 3 ]
+            IARG: s9 ]
+which has the event as ARG1. More annotation, to mark this as time durational "i", would come if we allow the richer MRS. Looks like this:
+
+          [ \"_i_p_rel\"<12:13>
+            LBL: h1
+            ARG0: u10 [ u SORT: DURATION-TIME ROLE.CO-EXTENSIVE-WITH: BOOL WH: BOOL ]
+            ARG1: e2
+            ARG2: x11 [ x SORT: TIME-ITEM ROLE: TIMESPAN WH: - PNG.NG.NUM: PLUR PNG.NG.GEN: N PNG.PERS: THIRDPERS BOUNDED: + ]
+            IARG: s9 [ s CLASS.CO-EXTENSIVE-WITH: + ] ]
+
+(The full mrs for this sentence, the only parse, is as follows - it remains quite open how much of the annotation we might use for now - and whatever that is can be specified in the 'sem-i'; so for now, we probably want to stay with the lean variant... :
+
+"
+ [ LTOP: h1
+   INDEX: e2 [ e E.MOOD: IMPERATIVE E.TENSE: TENSE E.ASPECT.COMPLETED: - E.ASPECT.DYNAMIC: BOOL E.ASPECT.PROTRACTED: BOOL E.DELIMITED: BOOL PATH-TELIC: - INCR-ASPECT.DYNAMIC: + INCR-ASPECT.PROTRACTED: + INCR-ASPECT.COMPLETED: - DISC-MOVE: DISCMODE SORT: VERB-ACT-SPECIFICATION ROLE: TIMESPAN WH: BOOL ]
+   RELS: <
+          [ \"_gå_v_rel\"<0:2>
+            LBL: h1
+            ARG0: e2
+            ARG1: x3 [ x SORT: SEMSORT ROLE: ROLE WH: BOOL PNG.NG.GEN: M PNG.NG.NUM: NUM PNG.PERS: SECPERS ] ]
+          [ predsort<0:2>
+            LBL: h4
+            ARG0: x3 ]
+          [ \"_pronoun_q_rel\"<0:2>
+            LBL: h5
+            ARG0: x3
+            RSTR: h6
+            BODY: h7 ]
+          [ \"_fremover_adv_rel\"<3:11>
+            LBL: h1
+            ARG0: u8 [ u SORT: NON-FIX-POINT ROLE: ROLE WH: - ORIENT: TO-AHEAD ]
+            ARG1: x3 ]
+          [ \"_i_p_rel\"<12:13>
+            LBL: h1
+            ARG0: u10 [ u SORT: DURATION-TIME ROLE.CO-EXTENSIVE-WITH: BOOL WH: BOOL ]
+            ARG1: e2
+            ARG2: x11 [ x SORT: TIME-ITEM ROLE: TIMESPAN WH: - PNG.NG.NUM: PLUR PNG.NG.GEN: N PNG.PERS: THIRDPERS BOUNDED: + ]
+            IARG: s9 [ s CLASS.CO-EXTENSIVE-WITH: + ] ]
+          [ \"card_rel\"<14:17>
+            LBL: h12
+            ARG0: x13 [ x PNG.NG.NUM: PLUR PNG.NG.GEN: N PNG.PERS: THIRDPERS SORT: CARD-UNIT ROLE: ROLE WH: BOOL ]
+            CARG: \"5-rel\" ]
+          [ \"_sekund_n_rel\"<18:26>
+            LBL: h14
+            ARG0: x11 ]
+          [ \"_plurindef_q_rel\"<18:26>
+            LBL: h15
+            ARG0: x11
+            RSTR: h16
+            BODY: h17 ]
+          [ \"_measure_out_rel\"<14:26>
+            LBL: h18
+            ARG0: u19
+            ARG1: x13
+            ARG2: x11 ]
+          [ \"udef_q_rel\"<14:26>
+            LBL: h20
+            ARG0: x13
+            RSTR: h21
+            BODY: h22 ]
+          [ command_m_rel<0:26>
+            LBL: h1
+            MARG: h23 ] >
+   HCONS: < h6 qeq h4 h16 qeq h14 h21 qeq h12 h23 qeq h1 > ]
+)
+
+25 gå fremover i fem sekunder, så drei nitti grader til høyre og gå i fire sekunder 0 8183
+
+;;; Total CPU time: 24390 msecs
+
+;;; Mean edges: 1021.32
+
+;;; Mean parses: 30.64
+
+

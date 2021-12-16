@@ -1,0 +1,666 @@
+
+a-s_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "a-s" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_a-s_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ab_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "ab" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ab_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ac_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "ac" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ac_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ad_reg_p1 := prep-word-reg &
+ [ STEM < "ad" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ad_p_rel" ] ].
+
+adb_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "adb" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_adb_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ag_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "ag" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ag_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+am_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "am" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_am_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ard_pn := neutsg-anim-proper-name-word &
+ [ INFLECTION subst_fork,
+   STEM < "ard" >,
+   SYNSEM.LKEYS.KEYREL.CARG "ARD" ].
+
+art§_n := klokka-word &
+ [ INFLECTION subst_fork,
+   STEM < "art", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_art§_n_rel" ] ].
+
+;at_n := mascorfem-re-noun-lxm &
+; [ INFLECTION subst_fork,
+;   STEM < "at" >,
+;   SYNSEM.LKEYS.KEYREL.PRED "__at_rel" ].
+
+a§d§_reg_adv := adv-word-reg &
+ [ STEM < "a", ".", "d", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_a§d§_adv_rel" ] ].
+
+;ba_n := mascorfem-re-noun-lxm &
+; [ INFLECTION subst_fork,
+;   STEM < "ba" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_ba_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;be_n := mascorfem-re-noun-lxm &
+; [ INFLECTION subst_fork,
+;   STEM < "be" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_be_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bbc_pn := neutsg-anim-proper-name-word &
+ [ INFLECTION subst_fork,
+   STEM < "bbc" >,
+   SYNSEM.LKEYS.KEYREL.CARG "BBC" ].
+
+bfr_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "bfr" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bfr_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+
+;bk_n := mascorfem-re-noun-lxm &
+; [ INFLECTION subst_fork,
+;   STEM < "bk" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_bk_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+bnr§_n := klokka-word &
+ [ INFLECTION subst_fork,
+   STEM < "bnr","." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bnr§_n_rel" ] ].
+
+#|
+bq_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "bq" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_bq_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+|#
+
+br_n := klokka-word &
+ [ INFLECTION subst_fork,
+   STEM < "br" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_br_n_rel" ] ].
+
+
+cal_neut-meas := neut-measure-amount-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "cal" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_cal_n_rel" ] ].
+
+cand§_n := title-word &
+ [ INFLECTION subst_fork,
+   STEM < "cand", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_cand§_n_rel" ] ].
+
+cd_n := masc-reginan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "cd" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_cd_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;ce_n := mascorfem-re-noun-lxm &
+; [ INFLECTION subst_fork,
+;   STEM < "ce" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_ce_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+cf_n := prep-word &
+ [ STEM < "cf" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_cf_p_rel" ] ].
+
+cg_neut-meas := neut-measure-amount-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "cg" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_centigram_n_rel" ] ].
+
+;ci_n := mascorfem-re-noun-lxm &
+; [ INFLECTION subst_fork,
+;   STEM < "ci" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_ci_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+cl_masc-meas := masc-measure-amount-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "cl" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_centiliter_n_rel" ] ].
+
+cm__masc-meas := masc-measure-length-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "cm" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_centimeter_n_rel" ] ].
+
+co_n := neut-reginan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "co" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_co_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+cos_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "cos" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_cosinus_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;cot_n := mascorfem-re-noun-lxm &
+; [ INFLECTION subst_fork,
+;   STEM < "cot" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_cot_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+co§_n := neut-reginan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "co", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_co§_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+#|
+cp_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "cp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_cp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+cr_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "cr" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_cr_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+cs_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "cs" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_cs_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+cu_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "cu" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_cu_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+c§_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "c§" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_c§_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+d-s_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "d-s" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_d-s_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+da_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "da" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_da_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+daa_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "daa" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_daa_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+|#
+
+dat§_n := prep-word &
+ [ STEM < "dat", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_dat§_n_rel" ] ].
+
+db_meas_n_masc := masc-measure-vol-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "db" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_db_n_rel" ] ].
+
+dept§_n := neut-relinan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "dept", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_dept§_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;dg_n := mascorfem-re-noun-lxm &
+; [ INFLECTION subst_fork,
+;   STEM < "dg" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_dg_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+;dk_n := mascorfem-re-noun-lxm &
+; [ INFLECTION subst_fork,
+;   STEM < "dk" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_dk_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+dl_masc-meas := masc-measure-amount-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "dl" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_deciliter_n_rel"] ].
+
+dm_masc-meas := masc-measure-amount-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "dm" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_dm_n_rel" ] ].
+
+dr§_n := title-word &
+ [ INFLECTION subst_fork,
+   STEM < "dr", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_doktor_n_rel" ] ].
+
+ds_n := mascorfem-relanim-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "ds" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_den-samme_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+dv§_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "dv§" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_dv§_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+dy_n := title-word &
+ [ INFLECTION subst_fork,
+   STEM < "dy" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_den-yngre_n_rel" ] ].
+
+edb_n := masc-reginan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "edb" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_edb_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ef_n := neut-reginan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "ef" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ef_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+eflg§_n := title-word &
+ [ INFLECTION subst_fork,
+   STEM < "eflg", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_eflg§_n_rel" ] ].
+
+ekg_masc-meas := masc-measure-vol-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "ekg" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ekg_n_rel" ] ].
+
+;es_n := mascorfem-re-noun-lxm &
+; [ INFLECTION subst_fork,
+;   STEM < "es" >,
+;   SYNSEM [ LKEYS.KEYREL.PRED "_es_n_rel",
+;            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+et§_n := n-connect-word &
+ [ STEM < "et", "." > ].
+
+eu_pn := neutsg-anim-proper-name-word &
+ [ INFLECTION subst_fork,
+   STEM < "eu" >,
+   SYNSEM.LKEYS.KEYREL.CARG "BBC" ].
+
+ev_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "ev" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ev_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+eøs_pn := neutsg-anim-proper-name-word &
+ [ INFLECTION subst_fork,
+   STEM < "eøs" >,
+   SYNSEM [ LKEYS.KEYREL.CARG "eøs" ] ].
+
+
+fl_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "fl" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fl_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+flt§_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "flt§" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_flt§_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fl§_n := masc-reganim-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "fl","." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fl§_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fm_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "fm" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fm_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+fn_n := klokka-word &
+ [ INFLECTION subst_fork,
+   STEM < "fn" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fotnote_n_rel" ] ].
+
+fol§_n := klokka-word &
+ [ INFLECTION subst_fork,
+   STEM < "fol§" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fol§_n_rel" ] ].
+
+fr_n := title-word &
+ [ INFLECTION subst_fork,
+   STEM < "fr" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_fr_n_rel" ] ].
+
+frk§_n := title-word &
+ [ INFLECTION subst_fork,
+   STEM < "frk", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_frøken_n_rel" ] ].
+
+fut§_n := masc-reginan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "fut", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_futurum_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gal_masc-meas := masc-measure-vol-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "gal" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gallon_n_rel" ] ].
+
+gb_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "gb" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gb_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gen§_n := masc-reginan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "gen", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_genitiv_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gg_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "gg" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gg_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ghz_n := masc-reginan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "ghz" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ghz_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gnr§_n := klokka-word &
+ [ INFLECTION subst_fork,
+   STEM < "gnr", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gnr§_n_rel" ] ].
+
+gt_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "gt" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gt_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gw_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "gw" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gw_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+gy_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "gy" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_gy_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+g§_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "g", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_g§_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hf_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "hf" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hf_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hg_neut-meas := mascorneut-measure-weight-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "hg" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hg_n_rel" ] ].
+
+hk_n := masc-reginan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "hk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hl_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "hl" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hl_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+hz_n := masc-reginan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "hz" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_hz_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+h§k§h§_n := title-word &
+ [ INFLECTION subst_fork,
+   STEM < "h", ".", "k", ".", "h", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_h§k§h§_n_rel"] ].
+
+h§m§_n := title-word &
+ [ INFLECTION subst_fork,
+   STEM < "h", ".", "m", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_h§m§_n_rel" ] ].
+
+in_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "in" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_in_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+iq_n := masc-reginan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "iq" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_iq_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+iq_klokke := klokka-word &
+ [ INFLECTION subst_fork,
+   STEM < "iq" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_iq_n_rel" ] ].
+
+jr§_n := title-word &
+ [ INFLECTION subst_fork,
+   STEM < "jr", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_junior_n_rel" ] ].
+
+jun§_n := title-word &
+ [ INFLECTION subst_fork,
+   STEM < "jun", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_junior_n_rel" ] ].
+
+k-s_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "k-s" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_k-s_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kb_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "kb" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kb_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kcal_n := masc-reginan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "kcal" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kcal_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kgl§res§_n := masc-reginan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "kgl", ".", "res", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kgl§res§_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+khz_n := masc-reginan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "khz" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_khz_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kj_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "kj" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kj_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kp_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "kp" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kp_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kpm_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "kpm" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kpm_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kr_n := masc-reginan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "kr" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_krone_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ks_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "ks" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ks_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kt_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "kt" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kt_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kv_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "kv" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kv_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kw_n := masc-reginan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "kw" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kw_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+kwh_n := masc-reginan-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "kwh" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_kwh_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lab§_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "lab", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lab§_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lat§_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "lat", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lat§_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lg_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "lg" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lg_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lic§_n := title-word &
+ [ INFLECTION subst_fork,
+   STEM < "lic", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lic§_n_rel" ] ].
+
+lk_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "lk" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lk_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+lm_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "lm" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_lm_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+ln_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "ln" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_ln_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+nrk_pn := neutsg-anim-proper-name-word &
+ [ INFLECTION subst_fork,
+   STEM < "nrk" >,
+   SYNSEM [ LKEYS.KEYREL.CARG "nrk" ] ].
+
+po_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "po" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_po_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+st§prp§_n := klokka-word &
+ [ INFLECTION subst_fork,
+   STEM < "st", ".", "prp", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_st§prp§_n_rel" ] ].
+
+vcm_n := mascorfem-re-noun-lxm &
+ [ INFLECTION subst_fork,
+   STEM < "vcm" >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_vcm_n_rel",
+            LOCAL.CAT.HEAD.KEYS.KEY anonym-k ] ].
+
+v§_n := prep-word &
+ [ STEM < "v", "." >,
+   SYNSEM [ LKEYS.KEYREL.PRED "_v§_n_rel" ] ].
+
+zdf_pn := neutsg-anim-proper-name-word &
+ [ INFLECTION subst_fork,
+   STEM < "zdf" >,
+   SYNSEM [ LKEYS.KEYREL.CARG "zdf" ] ].
+

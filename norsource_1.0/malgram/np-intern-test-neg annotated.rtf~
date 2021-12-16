@@ -1,0 +1,441 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033\deflangfe1033{\fonttbl{\f0\fmodern\fprq1\fcharset0 Courier New;}}
+{\*\generator Riched20 6.2.9200}{\*\mmathPr\mnaryLim0\mdispDef1\mwrapIndent1440 }\viewkind4\uc1 
+\pard\nowidctlpar\f0\fs22\par
+\par
+Let abcd be such a, b, and c are each either 0, 1, 2 or 3. Then such a string is assigned to each sentence by the following rule: a is 1 if the system correctly classifies the sentence according to grammaticality (i.e. if a bon analysis is preferred for a grammatical sentence etc.), 0 otherwise; b is 3 if the system gives entirely correct feedback, is 2 if the system gives reasonably correct feedback, is 1 if the system only gives the feedback that it is "Ungrammatical in Norwegian", and 0 otherwise; c is 1 if the system generates a corrected sentence, 0 otherwise.\par
+\par
+The suffix ' is to be used in the case when the sentence prompted incorrect feedback, and it is to be taken as indicating that the grammar is in principle lacking in appropriate mal rule coverage for this sentence (i.e. there is no rule intended to cover the phenomena exhibited in the sentence).  The suffix ? is to be taken to mean curious analysis or generation. They are ordered ' before ?, wherever applicable.\par
+\par
+- before a sentence indicated that the sentence is excluded for some reason. Possible reasons include the system not accepting the sentence such as when a sentence contains more than 10 words.\par
+\par
+\lang1044 en snill barn sover 121\par
+en snill gutten sover 121 \par
+en snill jenta sover 121\par
+en snill barnet sover 120 ;; MHS This is due to issues with the mal_en_for_den_dem lexical item. The coverage isn't sufficient. ;; need to check this again\tab\par
+en snill gutter sover 120\par
+en snill guttene sover 120\par
+en snill jenter sover 120\par
+en snill jentene sover 120\par
+en snill barnene sover 120\par
+en snilt gutt sover 131\par
+en snilt jente sover 131\par
+\lang1033 en snilt barn sover 131\par
+en snilt gutten sover 121 ;; MHS The faulty feedback could be fixed by reformulating the feedback message. "The adjective "snilt" is conjugated as an indefinite, but stands with a definite determiner." altered to "The adjective "snilt" is conjugated as an indefinite, but stands with a definite determiner or noun.", for instance.\par
+\lang1044 en snilt jenta sover 121\par
+en snilt barnet sover 120\par
+en snilt gutter sover 120\par
+en snilt guttene sover 120\par
+en snilt jenter sover 120\par
+en snilt jentene sover 120\par
+\lang1033 en snilt barnene sover 120\par
+en snilt sover 121 ;; MHS "The adjective "snilt" is conjugated as neuter gender, but modifies a masculine or feminine noun.", but the adjective doesn't modify a noun...\par
+en snille gutt sover 121 ;; MHS This can be fixed by amending the mal rule feedback for mal_en_for_den_dem. By the by, I made the decision to judge feedback such as this as a 2 and not a 3 at this point. Might need to check the preceding sentences again.\par
+en snille jente sover 121\par
+\lang1044 en snille barn sover 131\par
+en snille gutten sover 121\par
+en snille jenta sover 121\par
+en snille barnet sover 120\par
+en snille gutter sover 120\par
+en snille guttene sover 120\par
+en snille jenter sover 120\par
+en snille jentene sover 120\par
+en snille barnene sover 120\par
+en snille sover 121 \par
+en barn sover 131\par
+en gutten sover 121\par
+en jenta sover 121\par
+en barnet sover 120\par
+en gutter sover 120\par
+en guttene sover 120\par
+en jenter sover 120\par
+en jentene sover 120\par
+en barnene sover 120\par
+ei snill gutt sover 131\par
+ei snill barn sover 131\par
+ei snill gutten sover 120 ;; MHS mal_f_spec_m_noun_head_spec_det_rule lacks feedback too.\par
+\lang2068 ei snill jenta sover 121\par
+ei snill barnet sover 120\par
+ei snill gutter sover 130 ;; MHS socket timeout\par
+ei snill guttene sover 120\par
+ei snill jenter sover 130 ;; MHS socket timeout ;; #50\par
+ei snill jentene sover 120\par
+ei snill barnene sover 120\par
+ei snill sover 131 ;; MHS Not an ungrammatical sentence.\par
+ei snilt gutt sover 131\par
+ei snilt jente sover 131\par
+\lang1033 ei snilt barn sover 131\par
+ei snilt gutten sover 120 ;; MHS This and the next few are borderline\par
+\lang2068 ei snilt jenta sover 120\par
+ei snilt barnet sover 120\par
+ei snilt gutter sover 130 ;; MHS socket timeout\par
+ei snilt guttene sover 120\par
+ei snilt jenter sover 130 ;; MHS socket timeout\par
+ei snilt jentene sover 120\par
+ei snilt barnene sover 120\par
+ei snilt sover 121\par
+ei snille gutt sover 131\par
+ei snille jente sover 131\par
+ei snille barn sover 131\par
+ei snille gutten sover 120 ;; MHS mal_f_spec_m_noun_head_spec_det_rule mal_ei_for_den_dem \par
+ei snille jenta sover 121\par
+ei snille barnet sover 120\par
+ei snille gutter sover 130 ;; MHS socket timeout\par
+ei snille guttene sover 120\par
+ei snille jenter sover 130 ;; MHS socket timeout\par
+ei snille jentene sover 120 \par
+ei snille barnene sover 120\par
+ei snille sover 121\par
+ei gutt sover 131\par
+ei barn sover 131\par
+ei gutten sover 120 ;; MHS \par
+mal_f_spec_m_noun_head_spec_det_rule\par
+mal_ei_for_den_dem \par
+ei jenta sover 121\par
+ei barnet sover 120\par
+ei gutter sover 130 ;; MHS socket timeout\par
+ei guttene sover 120\par
+ei jenter sover 130 ;; MHS socket timeout\par
+ei jentene sover 120\par
+\lang1044 ei barnene sover 120\par
+et snill gutt sover 131\par
+et snill jente sover 131\par
+et snill barn sover 131\par
+et snill gutten sover 120\par
+et snill jenta sover 120\par
+et snill barnet sover 121\par
+et snill gutter sover 130 ;; MHS socket timeout\par
+et snill guttene sover 120\par
+et snill jenter sover 130 ;; MHS socket timeout\par
+et snill jentene sover 120\par
+et snill barnene sover 120\par
+et snill sover 131 ;; \par
+et snilt gutt sover 131 \par
+et snilt jente sover 131\par
+et snilt gutten sover 120\par
+et snilt jenta sover 120\par
+et snilt barnet sover 121\par
+et snilt gutter sover 130 ;; MHS socket timeout\par
+et snilt guttene sover 120\par
+et snilt jenter sover 130 ;; MHS socket timeout\par
+et snilt jentene sover 120\par
+et snilt barnene sover 120\par
+et snille gutt sover 131\par
+et snille jente sover 131\par
+et snille barn sover 131\par
+et snille gutten sover 120\par
+et snille jenta sover 120\par
+et snille barnet sover 121\par
+et snille gutter sover 120 ;; MHS socket timeout\par
+et snille guttene sover 120\par
+et snille jenter sover 120 ;; MHS socket timeout\par
+et snille jentene sover 120\par
+et snille barnene sover 120\par
+et snille sover 121\par
+et gutt sover 131\par
+et jente sover 131\par
+et gutten sover 120\par
+et jenta sover 120\par
+et barnet sover 121\par
+et gutter sover 130 ;; MHS socket timeout\par
+et guttene sover 120 \par
+et jenter sover 120 ;; MHS socket timeout\par
+et jentene sover 120\par
+et barnene sover 120\par
+\lang1033 et sover 110\par
+den snill gutt sover 131 ;; MHS Although there are good or decent results in the following section, we should look at the rule involved in these cases nevertheless. Generation should be achievable for these.\par
+den snill jente sover 131\par
+\lang1044 den snill barn sover 130\par
+den snill gutten sover 131\par
+den snill jenta sover 131\par
+den snill barnet sover 130\par
+den snill gutter sover 130\par
+den snill guttene sover 130\par
+den snill jenter sover 130\par
+den snill jentene sover 130\par
+den snill barnene sover 130\par
+den snill sover 131\par
+den snilt gutt sover 131\par
+den snilt jente sover 131\par
+den snilt barn sover 130\par
+den snilt gutten sover 131 \par
+den snilt jenta sover 131\par
+den snilt barnet sover 130 ;; #150\par
+den snilt gutter sover 130\par
+den snilt guttene sover 130\par
+den snilt jenter sover 120\par
+den snilt jentene sover 130\par
+den snilt barnene sover 130\par
+den snilt sover 131\par
+den snille barn sover 130\par
+den snille barnet sover 130\par
+den snille gutter sover 130\par
+den snille guttene sover 130\par
+den snille jenter sover 130\par
+den snille jentene sover 130\par
+den snille barnene sover 130\par
+den gutt sover \par
+den jente sover\par
+den barn sover 130\par
+den barnet sover 130\par
+den gutter sover 130\par
+den guttene sover 130\par
+den jenter sover 130\par
+den jentene sover 130\par
+den barnene sover 130\par
+det snill gutt sover 130\par
+det snill jente sover 130\par
+det snill barn sover 131\par
+det snill gutten sover 130\par
+det snill jenta sover 130\par
+det snill barnet sover 131\par
+det snill gutter sover 130\par
+det snill guttene sover 130\par
+det snill jenter sover 120\par
+det snill jentene sover 130\par
+det snill barnene sover 130\par
+det snill sover 131\par
+det snilt gutt sover 130\par
+det snilt jente sover 130\par
+det snilt barn sover 131\par
+det snilt gutten sover 130 \par
+det snilt jenta sover 130\par
+det snilt barnet sover 131\par
+det snilt gutter sover 130\par
+det snilt guttene sover 130\par
+det snilt jenter sover 130\par
+det snilt jentene sover 130\par
+det snilt barnene sover 130\par
+det snilt sover 131\par
+det snille gutt sover 130\par
+det snille jente sover 130\par
+det snille gutten sover 130\par
+det snille jenta sover 130 ;; #200\par
+det snille gutter sover 130\par
+det snille guttene sover 130\par
+det snille jenter sover 130\par
+det snille jentene sover 130\par
+det snille barnene sover 130\par
+det gutt sover 130\par
+det jente sover 130\par
+det barn sover\par
+det gutten sover 130\par
+det jenta sover 130\par
+det gutter sover 130\par
+det guttene sover 130\par
+det jenter sover 130\par
+det jentene sover 130\par
+det barnene sover 130\par
+de snill gutt sover 130\par
+de snill jente sover 130\par
+de snill barn sover 130\par
+de snill gutten sover 130\par
+de snill jenta sover 130\par
+de snill barnet sover 130\par
+de snill gutter sover 100\par
+de snill guttene sover 131\par
+de snill jenter sover 100\par
+de snill jentene sover 131\par
+de snill barnene sover 131\par
+de snill sover 131\par
+de snilt gutt sover 130\par
+de snilt jente sover 130\par
+de snilt barn sover 130\par
+de snilt gutten sover 130\par
+de snilt jenta sover 130\par
+de snilt barnet sover 130\par
+de snilt gutter sover 100\par
+de snilt guttene sover 131\par
+de snilt jenter sover 100\par
+de snilt jentene sover 131\par
+de snilt barnene sover 131\par
+de snilt sover 131\par
+de snille gutt sover 100\par
+de snille jente sover 130\par
+de snille gutten sover 100\par
+de snille jenta sover 100\par
+de snille barnet sover 100\par
+de gutt sover 130\par
+de jente sover 130\par
+de barn sover 130\par
+de gutten sover 130\par
+de jenta sover 130\par
+de barnet sover 130 ;; #250\par
+de barnene sover\par
+flere snill gutt sover 120 ;; MHS socket timeout\par
+flere snill jente sover 120 ;; MHS socket timeout\par
+flere snill barn sover 131\par
+flere snill gutten sover 110\par
+flere snill jenta sover 110\par
+flere snill barnet sover 110\par
+flere snill gutter sover 131\par
+flere snill guttene sover 110\par
+flere snill jenter sover 131\par
+flere snill jentene sover 110\par
+flere snill barnene sover 110\par
+flere snill sover 121\par
+flere snilt gutt sover 130 ;; MHS socket timeout\par
+flere snilt jente sover 130 ;; MHS socket timeout\par
+flere snilt barn sover 131\par
+flere snilt gutten sover 110\par
+flere snilt jenta sover 110\par
+flere snilt barnet sover 110\par
+flere snilt gutter sover 131\par
+flere snilt guttene sover 110\par
+flere snilt jenter sover 131\par
+flere snilt jentene sover 110\par
+flere snilt barnene sover 110\par
+flere snilt sover 131\par
+flere snille gutt sover 120 ;; MHS socket timeout\par
+flere snille jente sover 120 ;; MHS socket timeout\par
+flere snille gutten sover 110\par
+flere snille jenta sover 110\par
+flere snille barnet sover 110\par
+flere snille guttene sover 110\par
+flere snille jentene sover 110\par
+flere snille barnene sover 110\par
+flere gutt sover 130 ;; MHS socket timeout\par
+flere jente sover 130 ;; MHS socket timeout\par
+flere gutten sover 110\par
+flere jenta sover 110\par
+flere barnet sover 110\par
+flere guttene sover 110\par
+flere jentene sover 110\par
+flere barnene sover 110\par
+snill barn sover 131\par
+snill gutten sover 130 ;; MHS socket timeout\par
+snill jenta sover 130 ;; MHS socket timeout\par
+snill barnet sover 130 ;; MHS socket timeout\par
+snill gutter sover 131\par
+snill guttene sover 130 ;; MHS socket timeout\par
+snill jenter sover 131\par
+snill jentene sover 130 ;; MHS socket timeout\par
+snill barnene sover 130 ;; MHS socket timeout\par
+\lang1033 snill sover 100 ;; MHS Needs further investigation... \lang1044 #300\par
+snilt gutt sover 131 ;; \par
+snilt jente sover 131\par
+snilt gutten sover 130\par
+snilt jenta sover 130 ;; MHS socket timeout\par
+\lang1033 snilt barnet sover 120 ;; MHS socket timeout ; gives feedback: The adjective "snilt" is conjugated as an indefinite, but stands with a definite determiner. More description\par
+snilt gutter sover 131\par
+snilt guttene sover 120 ;; MHS socket timeout ; gives feedback: The adjective "snilt" is conjugated as an indefinite, but stands with a definite determiner. More description\par
+snilt jenter sover 131\par
+snilt jentene sover 120 ;; MHS socket timeout ; gives feedback: The adjective "snilt" is conjugated as an indefinite, but stands with a definite determiner. More description\par
+snilt barnene sover 120 ;; MHS socket timeout ; gives feedback: The adjective "snilt" is conjugated as an indefinite, but stands with a definite determiner. \lang1044 More description\par
+snilt sover 100\par
+snille gutt sover 131\par
+snille jente sover 131\par
+snille gutten sover 130 ;; MHS socket timeout\par
+snille jenta sover 130 ;; MHS socket timeout\par
+snille barnet sover 130 ;; MHS socket timeout\par
+snille guttene sover 130 ;; MHS socket timeout\par
+snille jentene sover 130 ;; MHS socket timeout\par
+snille barnene sover 130 ;; MHS socket timeout\par
+barnene sover\par
+sover 130 ;; MHS socket timeout #320\par
+;290  till here\par
+;\par
+\par
+noen tre glade gutter smiler\par
+\lang1033 ; some three happy boys smile\par
+;ok by grammar, as in 'm\'c3\'a5le en \'c3\'a5tti'\par
+\lang1044 ;fire tre glade gutter smiler\par
+; four three happy boys smile\par
+tre glade gutt smiler\par
+\lang1033 ; three happy-PL boy.SG smile\par
+\lang1044 tre glad gutter smiler\par
+; three happy.SG boy-PL smile\par
+den glad gutten smiler\par
+\lang1033 ; the.DEF happy-STR boy-DEF.SG smiles\par
+\lang1044 glade gutten smiler\par
+; happy-WEAK boy-DEF.SG smiles\par
+den glade gutt smiler\par
+\lang1033 ; the.DEF happy-WEAK boy smiles\par
+de tre gode vin renner\par
+; the.DEF three good-WEAK.PL wine run\par
+\lang1044 ;ok in Norsource\par
+;de glade gutter smiler\par
+\lang1033 ; the.DEF happy-WEAK.PL boy-PL smile\par
+\lang1044 glade guttene smiler\par
+; happy-WEAK.PL boy-DEF.PL smile\par
+alle gutt sover\par
+; all-PL boy.SG sleep\par
+alle gutten sover\par
+; all-PL boy-DEF.SG sleep\par
+min glad gutt smiler\par
+; my.SG glad.STR boy smiles\par
+glade gutten min smiler\par
+; the.DEF happy-WEAK boy-DEF.MASCSG my.MASCSG smiles\par
+gutten sitt bru sover\par
+\lang1033 ; boy-DEF POSS.NEUTSG bridge.FEMSG sleeps\par
+; 'the boy's bridge sleeps'\par
+Ola sin glade gutten min smiler\par
+; Ola POSS.MASCSG happy-WEAK.SG boy-DEF.MASCSG my.MASCSG smiles\par
+; 'Ola's my happy boy smiles'\par
+Olas glade gutten smiler\par
+; Ola's happy-WEAK boy-DEF.SG smiles\par
+\lang1044 et dusin ballene ligger\par
+; a dozen.SG ball-DEF.PL lie\par
+et hav av kattene l\'c3\'b8per\par
+\lang1033 ; an ocean of cat-DEF.PL run\par
+\lang1044 den gul sover\par
+; the.DEF.SG yellow.STR sleeps\par
+alle gul sover\par
+; all-PL yellow.SG sleep\par
+hver gule sover\par
+\lang1033 ; each yellow.WEAK sleeps\par
+hvert gul sover\par
+; each-NEUTSG yellow-COMMSG.STR sleeps\par
+hver fire sover\par
+; each four sleeps\par
+hver dine sover\par
+; each-SG my-PL sleep\par
+alt dine sover\par
+; all-NEUTSG my-PL sleeps\par
+den dine sover\par
+; that.SG my-PL sleeps\par
+; 357 by now\par
+\lang1044 glade guttene smiler\par
+;\par
+glade guttene smiler\par
+hver gutten smiler\par
+hver guttene smiler\par
+hvert gutt smiler\par
+hvert jente smiler\par
+hvert av guttene smiler\par
+hvert barna smiler\par
+noen gutt smiler\par
+;ok in Norsource\par
+;noe gutt smiler\par
+;ok in Norsource\par
+;noe av guttene smiler\par
+;ok in Norsource\par
+;noe jente smiler\par
+hver snille gutt smiler\par
+hvert snill barn smiler\par
+;ok more or less\par
+;Hvor lite mer vin enn vann renner?\par
+\lang1033 ; how little more wine than water runs\par
+\lang1044 ;ok more or less\par
+;Hvor lite mindre vin enn vann renner?\par
+\lang1033 ; how little less wine than water runs\par
+\lang1044 ;ok more or less\par
+;Hvor f\'c3\'a5 flere gutter enn menn l\'c3\'b8per\par
+\lang1033 ; how few more boys than men run\par
+\lang1044 ;ok more or less\par
+;Hvor f\'c3\'a5 f\'c3\'a6rre gutter enn menn l\'c3\'b8per\par
+\lang1033 ; how few fewer boys than men run\par
+\lang1044 ;\par
+han er mange st\'c3\'b8rre\par
+Ola er mer lang\par
+Ola er en h\'c3\'b8yeste gutt\par
+en h\'c3\'b8yeste gutten sover\par
+en h\'c3\'b8yeste gutt sover\par
+alle gutt sover\par
+alle store guttene sover\par
+noen store guttene sover\par
+hver snille gutten sover\par
+;ok in Norsource\par
+\lang1033 all gutt sover\par
+\par
+}
+ 

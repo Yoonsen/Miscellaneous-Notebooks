@@ -1,0 +1,229 @@
+10 non-parse
+
+
+1 en snill gutt sover 1 99
+2 en snill jente sover 1 102
+3 en snill sover 1 48
+4 en gutt sover 1 72
+5 en jente sover 1 75
+6 en sover 2 36
+7 ei snill jente sover 2 114
+8 ei jente sover 2 86
+9 et snilt barn sover 1 112
+10 et snilt sover 1 56
+11 et barn sover 1 79
+12 den snille gutt sover 0 90
+13 den snille jente sover 0 93
+14 den snille gutten sover 1 61
+15 den snille jenta sover 1 65
+16 den snille sover 1 52
+17 den gutten sover 1 41
+18 den jenta sover 1 45
+19 den sover 1 32
+20 det snille barnet sover 1 108
+21 det snille sover 1 96
+22 det barnet sover 1 88
+23 det sover 1 76
+24 de snille barn sover 1 127
+25 de snille gutter sover 1 114
+26 de snille guttene sover 1 82
+27 de snille jenter sover 1 116
+28 de snille jentene sover 1 79
+29 de snille barnene sover 1 82
+30 de snille sover 1 67
+31 de guttene sover 1 62
+32 de jentene sover 1 59
+33 de barnene sover 1 62
+34 de sover 1 47
+35 flere snille barn sover 3 140
+36 flere snille gutter sover 3 126
+37 flere snille jenter sover 3 128
+38 flere snille sover 3 77
+39 flere barn sover 3 97
+40 flere gutter sover 3 90
+41 flere jenter sover 3 92
+42 flere sover 2 54
+43 snille barn sover 1 100
+44 snille gutter sover 1 87
+45 snille jenter sover 1 89
+46 barn sover 3 61
+47 gutten sover 1 30
+48 jenta sover 1 34
+49 barnet sover 1 33
+50 gutter sover 1 54
+51 guttene sover 1 36
+52 jenter sover 1 56
+53 jentene sover 1 33
+54 barnene sover 1 36
+55 snille sover 1 41
+56 gutt sover 2 60
+57 jente sover 2 63
+58 ei sover 1 40
+59 ett sover 1 50
+60 et sover 0 36
+61 ei snill sover 2 59
+62 vin renner 2 71
+63 en vin renner 1 92
+64 fjellet ligger 1 37
+65 vinen renner 1 48
+66 et fjell ligger 1 88
+67 tre gutter sover 1 141
+68 tre fjell ligger 1 152
+69 hver gutt sover 1 69
+70 hver vin renner 1 86
+71 hvert fjell ligger 1 103
+72 ingen gutt sover 1 72
+73 noen gutter sover 1 67
+74 noen viner renner 1 91
+75 noe vin renner 1 114
+76 en glad gutt smiler 1 120
+77 en god vin renner 1 128
+78 mye god vin renner 1 162
+79 tre glade gutter smiler 1 174
+80 tre glade hyggelige gutter smiler 1 299
+81 den glade gutten smiler 1 58
+82 den glade gutt smiler 0 87
+83 de tre glade guttene smiler 1 156
+84 de tre gode vinene renner 1 183
+85 de glade guttene smiler 1 79
+86 glade gutter smiler 1 84
+87 de glade gutter smiler 1 111
+88 hver av de glade guttene smiler 2 153
+89 hver av de tre glade guttene smiler 2 226
+90 hver av de tre gode vinene renner 2 274
+91 noen av de ni guttene smiler 2 140
+92 noe av den gode vinen renner 4 275
+93 ingen av de ni guttene smiler 3 149
+94 få av de ni guttene smiler 2 289
+95 ni av guttene smiler 2 107
+96 alle gutter sover 1 106
+97 begge guttene sover 1 71
+98 alle de tre guttene sover 1 196
+99 all den gode vinen renner 1 105
+100 mine tre gutter sover 1 183
+101 mine glade gutter smiler 1 128
+102 min glade gutt smiler 1 94
+103 all min gode vin renner 1 138
+104 alle mine gode viner renner 1 221
+105 alle mine gutter smiler 1 139
+106 gutten min smiler 1 35
+107 vinen min renner 1 69
+108 den glade gutten min smiler 1 75
+109 gutten til Ola smiler 1 84
+110 vinen til Ola renner 1 121
+111 Ola sin gutt smiler 1 82
+112 gutten si bygd sover 1 155
+113 gutten sin ball ruller 1 92
+114 en gutt sin ball ruller 1 136
+115 hver gutt sin ball ruller 1 133
+116 Ola sin glade gutt smiler 1 111
+117 Olas gutt smiler 1 94
+118 guttens ball ruller 1 101
+119 en gutts ball ruller 1 150
+120 hver gutts ball ruller 1 147
+121 Olas glade gutt smiler 1 122
+122 Ola sin gutt sin katt løper 1 144
+123 Olas gutts katt løper 1 169
+124 Ola sin gutts katt løper 1 158
+125 Olas gutt sin katt løper 1 155
+126 en sekk poteter ligger 1 108
+127 en sekk med poteter ligger 0 172
+128 et par dusin esker baller ligger 1 200
+129 et hav av katter løper 0 150
+130 Jon hopper to nitten 9 116
+131 Ola løper på tre trettifem 44 566
+132 Ola løper tre trettifem 9 225
+133 Ola løper torsdag tre trettifem 43 577
+134 Ola løper torsdag ettermiddag tre trettifem 0 241
+135 Ola løper klokka tre trettifem 6 342
+136 Ola løper torsdag klokka tre trettifem 35 821
+137 Ola løper torsdag ettermiddag klokka tre trettifem 0 1055
+138 Ola løper femten hundre 0 118
+139 Ola finner to tjue 6 314
+140 tre tusen fire hundre ligger 4 336
+141 tre tusen fire hundre og femti ligger 5 393
+142 gul sover 0 38
+143 gule sover 1 57
+144 de gule sover 1 83
+145 den gule sover 1 68
+146 alle gule sover 1 108
+147 hver gul sover 1 47
+148 hvert gult sover 1 87
+149 fire sover 1 84
+150 de fire sover 1 114
+151 alle fire sover 1 139
+152 dine sover 1 61
+153 min sover 1 34
+154 alle dine sover 1 112
+155 alt mitt sover 1 125
+156 de fleste sover 1 80
+157 hele landet løper 1 110
+158 Ola er svært lang 1 193
+159 Ola er hvor lang 1 341
+160 Ola er lang nok 4 191
+161 Ola er nok lang 4 465
+162 Ola er tilstrekkelig lang 1 190
+163 Ola er to meter lang 1 303
+164 En svært lang mann sover 1 158
+165 En hvor lang mann sover 5 173
+166 En to meter lang mann sover 5 227
+167 En lang nok mann sover 1 130
+168 Ola er lengre enn Per 1 182
+169 Ola er mer storvokst enn Per 1 248
+170 Ola er atskillig mer storvokst enn Per 1 203
+171 Ola er en lengre mann enn Per 3 594
+172 Ola er en atskillig lengre mann enn Per 3 566
+173 Ola er en mer storvokst mann enn Per 3 615
+174 Ola er to centimeter lengre enn Per 3 327
+175 Ola er en to centimeter lengre mann enn Per 30 2157
+176 Ola er mer enn to centimeter lengre enn Per 3 642
+177 Ola er atskillig mer enn to centimeter lengre enn Per 1 471
+178 Ola er mer enn to centimeter mer storvokst enn Per 5 721
+179 Ola er atskillig mer enn to centimeter mer storvokst enn Per 1 565
+180 Ola er en mer enn to centimeter lengre mann enn Per 3 934
+181 Ola er en mer enn to centimeter mer storvokst mann enn Per 3 1048
+182 Ola er en atskillig mer enn to centimeter mer storvokst mann enn Per 3 1074
+183 En lengre mann enn Per sover 4 127
+184 En atskillig lengre mann enn Per sover 4 146
+185 En mye lengre mann enn Per sover 9 248
+186 En hvor mye lengre mann enn Per sover 12 339
+187 En mer storvokst mann enn Per sover 4 162
+188 En to centimeter lengre mann enn Per sover 8 280
+189 En mer enn to centimeter lengre mann enn Per sover 4 310
+190 En mye mer enn to centimeter lengre mann enn Per sover 11 490
+191 En hvor mye mer enn to centimeter lengre mann enn Per sover 14 621
+192 En mer enn to centimeter mer storvokst mann enn Per sover 4 388
+193 Ola er den høyeste av guttene 1 489
+194 Ola er den høyeste av alle guttene 1 616
+195 Ola er den høyeste gutten 1 295
+196 Den høyeste av guttene sover 3 129
+197 Den høyeste av alle guttene sover 3 191
+198 Den høyeste gutten sover 1 54
+199 Mye vin renner 1 128
+200 Svært mye vin renner 1 188
+201 Svært lite vin renner 1 193
+202 Hvor mye vin renner? 5 220
+203 Hvor lite vin renner? 3 202
+204 Mer vin enn vann renner 4 164
+205 Mindre vin enn vann renner 8 241
+206 Atskillig mer vin enn vann renner 2 197
+207 Atskillig mindre vin enn vann renner 6 314
+208 Hvor mye mer vin enn vann renner? 6 375
+209 Hvor mye mindre vin enn vann renner? 32 882
+210 Mange gutter løper 2 96
+211 Svært mange gutter løper 1 139
+212 Svært få gutter løper 1 222
+213 Hvor mange gutter løper? 6 150
+214 Hvor få gutter løper? 6 256
+215 Flere gutter enn menn løper 3 114
+216 Færre gutter enn menn løper 2 102
+217 Atskillig flere gutter enn menn løper 2 135
+218 Atskillig færre gutter enn menn løper 1 117
+219 Hvor mange flere gutter enn menn løper 3 194
+220 Hvor mange færre gutter enn menn løper 2 168
+
+;;; Total CPU time: 60030 msecs
+
+;;; Mean edges: 191.39
+
+;;; Mean parses: 2.75

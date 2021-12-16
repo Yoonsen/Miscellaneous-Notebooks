@@ -1,0 +1,286 @@
+>What I need is a list of paths into the feature structures. I tried
+>extracting such paths from your file. The results for the first third of
+>the file are listed below. I see two problems with the paths I was
+>extracting: there are very many paths (not all are needed, eg.
+>coreferences), and some of the individual paths are very complex.
+>
+>Would you be able to take the paths listed below as a starting point and
+>create a list of paths in the same format? I can then send them and, for
+>each verb, pair each path with an atomic value (eg. type name) extracted
+>from the feature structure.
+>
+>Thanks,
+>- Ben
+>
+
+
+SYNSEM.LKEYS.KEYREL.ARG1
+SYNSEM.LKEYS.KEYREL.ARG2
+SYNSEM.LKEYS.KEYREL.ARGX
+SYNSEM.LOCAL.CONT.HOOK.INDEX
+SYNSEM.LOCAL.CONT.HOOK.INDEX.INCR-ASPECT
+SYNSEM.LOCAL.KEY-SPEC
+SYNSEM.LOCAL.CAT.HEAD
+SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX
+SYNSEM.LOCAL.CAT.VAL.COMPS
+SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST
+SYNSEM.LOCAL.CAT.VAL.COMPS.REST
+SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD
+SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.TRANSPAR
+SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.DECL
+SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.KEYS.KEY
+SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX
+SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CONT.HOOK.XARG
+SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CONT.HOOK.LTOP
+SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CONT.HOOK.INDEX
+SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CONT.HOOK.INDEX.E.TENSE
+SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.BINDING
+SYNSEM.LOCAL.CAT.VAL.COMPS.REST.FIRST.LOCAL.CAT.HEAD
+SYNSEM.LOCAL.CAT.VAL.COMPS.REST.FIRST.LOCAL.CAT.HEAD.TRANSPAR
+SYNSEM.LOCAL.CAT.VAL.COMPS.REST.FIRST.LOCAL.CAT.HEAD.DECL
+SYNSEM.LOCAL.CAT.VAL.COMPS.REST.FIRST.LOCAL.CONT.HOOK.INDEX
+SYNSEM.LOCAL.CAT.VAL.COMPS.REST.FIRST.LOCAL.CONT.HOOK.INDEX.E.TENSE
+SYNSEM.LOCAL.CAT.VAL.COMPS.REST.FIRST.LOCAL.CONT.HOOK.XARG
+
+SYNSEM.LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD
+SYNSEM.LOCAL.CAT.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX
+SYNSEM.LOCAL.CAT.QVAL.OBL1.LOCAL.CAT.HEAD
+SYNSEM.LOCAL.CAT.QVAL.OBL1.LOCAL.CAT.KEYS.KEY
+SYNSEM.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD
+SYNSEM.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD.DECL
+SYNSEM.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD.DEF
+SYNSEM.LOCAL.CAT.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX
+SYNSEM.LOCAL.CAT.QVAL.IOBJECT.LOCAL.CONT.HOOK.INDEX
+SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CAT.HEAD
+SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CONT.HOOK.LTOP
+SYNSEM.LOCAL.CAT.QVAL.PREDIC.LOCAL.CONT.HOOK.XARG
+SYNSEM.LOCAL.CAT.QVAL.PREDIC2.LOCAL.CAT.HEAD
+SYNSEM.LOCAL.CAT.QVAL.PREDIC2.LOCAL.CAT.HEAD.KEYS.KEY
+SYNSEM.LOCAL.CAT.QVAL.PREDIC2.LOCAL.CONT.HOOK.XARG
+...
+
+
+;; intrans-arg1-verb-lexeme
+SYNSEM.LOCAL.CAT.VAL [COMPS <>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+
+
+;; intrans-obl-verb-lexeme 
+SYNSEM.LOCAL.KEY-SPEC #1,
+SYNSEM.LOCAL.CAT.QVAL [SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+                       OBL1.LOCAL.CAT [HEAD prep & [KEYS.KEY #1],
+                                      QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind]]
+
+
+;; intrans-obl-decl-verb-lexeme
+SYNSEM.LOCAL.KEY-SPEC #1,
+SYNSEM.LOCAL.CAT.QVAL [SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+                       OBL1.LOCAL.CAT [HEAD prep & [KEYS.KEY #1],
+                                      QVAL.DOBJECT.LOCAL [CONT.HOOK.INDEX event,
+                                                         CAT.HEAD.DECL +]]]
+
+
+;; intrans-obl-interr-verb-lexeme
+SYNSEM.LOCAL.KEY-SPEC #1,
+SYNSEM.LOCAL.CAT.QVAL [SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+                       OBL1.LOCAL.CAT [HEAD prep & [KEYS.KEY #1],
+                                      QVAL.DOBJECT.LOCAL [CONT.HOOK.INDEX event,
+                                                         CAT.HEAD.DECL -]]]
+
+
+;; subj-equi-pp-verb-lexeme
+SYNSEM.LOCAL.KEY-SPEC #1,
+SYNSEM.LOCAL.CAT.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX #2 & ref-ind,
+SYNSEM.LOCAL.CAT.VAL.COMPS <[LOCAL.CAT.HEAD prep-comp & [KEYS.KEY #1],
+                             LOCAL.CONT.HOOK [XARG #2,
+                                              LTOP #3]]>,
+SYNSEM.LKEYS.KEYREL [ARG1 #2,
+                     ARG2 #3]
+
+     
+;; intrans-atel-obl-verb-lexeme 
+SYNSEM.LOCAL.KEY-SPEC #1,
+SYNSEM.LOCAL.CONT.HOOK.INDEX.INCR-ASPECT atelic,
+SYNSEM.LOCAL.CAT.QVAL [SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+                       OBL1.LOCAL.CAT [HEAD prep & [KEYS.KEY #1],
+                                      QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind]]
+
+
+;; intrans-secpred-argx-verb-lexeme
+SYNSEM.LOCAL.CAT.QVAL.SUBJECT [LOCAL.CONT.HOOK.INDEX #5], 
+SYNSEM.LOCAL.CAT.QVAL.PREDIC [LOCAL.CONT.HOOK.LTOP #2,
+                             LOCAL.CONT.HOOK.XARG #5,
+                             LOCAL.CAT.HEAD adj],
+SYNSEM.LKEYS.KEYREL.ARGX #2
+
+
+;; intrans-telicparticle-arg1-verb-lexeme
+SYNSEM.LOCAL.KEY-SPEC #1,
+SYNSEM.LOCAL.CAT.QVAL.SUBJECT [LOCAL.CONT.HOOK.INDEX #5], 
+SYNSEM.LOCAL.CAT.QVAL.PREDIC [LOCAL.CONT.HOOK.LTOP #2,
+                             LOCAL.CONT.HOOK.XARG #5,
+                             LOCAL.CAT.HEAD adv-reg & [KEYS.KEY #1 ]],
+SYNSEM.LKEYS.KEYREL [ARG1 #5,
+                    ARGX #2]
+
+
+;; intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme
+SYNSEM [LKEYS.KEYREL.ARG1 #1,
+        LOCAL.KEY-SPEC #4,
+        LOCAL.CAT.QVAL [SUBJECT [LOCAL.CONT.HOOK.INDEX #5]>, 
+                      PREDIC [LOCAL.CONT.HOOK [XARG #5
+                                              LTOP #1],
+                             LOCAL.CAT.HEAD prep-or-adj-or-adv & [KEYS.KEY #4 ]]]].
+
+
+;; intrans-secpred-prtcl1-rais-from-nonverbal-arg1-verb-lexeme
+SYNSEM [LOCAL.CONT.HOOK.INDEX #2,
+        LOCAL.KEY-SPEC #4,
+        LOCAL.CAT.QVAL [SUBJECT.LOCAL.CONT.HOOK.INDEX #5], 
+                        PREDIC [ LOCAL.CONT.HOOK.XARG #5,
+                                 LOCAL.CAT.HEAD adj-reg],
+                        PREDIC2 [ LOCAL.CONT.HOOK.XARG #2,
+                                  LOCAL.CAT.HEAD adv-reg,
+                                  LOCAL.CAT.HEAD [KEYS.KEY #4 & pcl ]] >]]
+
+
+
+;; epistemic-modal-verb-lexeme
+SYNSEM.LOCAL.CAT.HEAD verb-aux,
+SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CONT.HOOK.INDEX #5 ]>, 
+                      COMPS < [ LOCAL.CAT.HEAD verb-all,
+                              LOCAL.CAT.VAL.SUBJ < [LOCAL.CONT.HOOK.INDEX #5] >,    
+                              LOCAL.CONT.HOOK.INDEX.E.TENSE infin ]>]
+
+
+;; subj-equi-verb-lexeme
+SYNSEM [LOCAL.CAT.VAL.SUBJ < [LOCAL.CONT.HOOK.INDEX #1 ] >,
+       LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD infin-comp & [TRANSPAR +],
+                              LOCAL.CONT.HOOK.XARG #1]>]
+
+
+;; trans-arg1-2-verb-lexeme 
+SYNSEM.LOCAL.CAT.VAL [COMPS <[]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+
+
+;; trans-arg1-2refl-verb-lexeme
+han vasker seg
+SYNSEM.LOCAL.CAT.VAL [COMPS <[LOCAL.BINDING seg-bare,
+                              LOCAL.CONT.HOOK.INDEX #1]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX #1 & ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+
+
+;; subj-equi-doublobj-verb-lexeme
+SYNSEM [LOCAL.CAT.VAL.SUBJ < [LOCAL.CONT.HOOK.INDEX #1 ] >,
+       LOCAL.CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX ref-ind ],
+                              [LOCAL.CAT.HEAD infin-comp & [TRANSPAR +],
+                              LOCAL.CONT.HOOK.XARG #1]>]
+
+
+;; obj-equi-verb-lexeme
+SYNSEM [LOCAL.CAT.VAL.SUBJ < [LOCAL.CONT.HOOK.INDEX ref-ind ] >,
+       LOCAL.CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX #1 ],
+                              [LOCAL.CAT.HEAD infin-comp & [TRANSPAR +],
+                              LOCAL.CONT.HOOK.XARG #1]>]
+
+
+;; obj-equi-bare-verb-lexeme
+SYNSEM [LOCAL.CAT.VAL.SUBJ < [LOCAL.CONT.HOOK.INDEX ref-ind ] >,
+       LOCAL.CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX #1 ],
+                              [LOCAL.CAT.HEAD verb-all,
+                              LOCAL.CONT.HOOK.INDEX.E.TENSE infin,
+                              LOCAL.CONT.HOOK.XARG #1]>]
+
+
+;; trans-indirwhquest-verb-lexeme
+SYNSEM.LOCAL.CAT.VAL [COMPS <[LOCAL.CAT.HEAD.DECL -,
+                              LOCAL.CONT.HOOK.INDEX.E.TENSE finite]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+
+
+;; trans-subord-verb-lexeme
+SYNSEM.LOCAL.CAT.VAL [COMPS <[LOCAL.CAT.HEAD.DECL +,
+                              LOCAL.CONT.HOOK.INDEX.E.TENSE finite]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+
+
+;; ditrans-arg1-2-3-verb-lexeme
+SYNSEM.LOCAL.CAT.VAL [COMPS <[],[]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.IOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+
+
+;; ditrans-arg1-2-3refl-verb-lexeme
+SYNSEM.LOCAL.CAT.VAL [COMPS <[LOCAL.BINDING [ BOUND +,
+                                            REFL-I +,
+                                            REFL-II -,
+                                            LEX-TAME + ],
+                              LOCAL.CONT.HOOK.INDEX #1],[]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.IOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+
+
+;; ditrans-subord-verb-lexeme
+SYNSEM.LOCAL.CAT.VAL [COMPS <[],[LOCAL.CAT.HEAD.DECL +,
+                                 LOCAL.CONT.HOOK.INDEX.E.TENSE finite]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX event,
+SYNSEM.LOCAL.QVAL.IOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+
+
+;; ditrans-indirwhquest-verb-lexeme
+SYNSEM.LOCAL.CAT.VAL [COMPS <[],[LOCAL.CAT.HEAD.DECL -,
+                                 LOCAL.CONT.HOOK.INDEX.E.TENSE finite]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX event,
+SYNSEM.LOCAL.QVAL.IOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+
+
+;; ditrans-refl-subord-verb-lexeme
+SYNSEM.LOCAL.CAT.VAL [COMPS <[LOCAL.BINDING seg-bare,
+                              LOCAL.CONT.HOOK.INDEX #1],[LOCAL.CAT.HEAD.DECL +,
+                                                         LOCAL.CONT.HOOK.INDEX.E.TENSE finite]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX event,
+SYNSEM.LOCAL.QVAL.IOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+
+
+;; impersonal-presentational-verb-lexeme
+SYNSEM [LOCAL.CAT lex-cat & [QVAL.SUBJECT [ LOCAL [ CAT.HEAD expl-pron ] ]],
+        LOCAL.CAT.VAL.COMPS <>]
+
+
+;; impersonal-presentational-telicparticle-verb-lexeme
+SYNSEM [LOCAL.CAT lex-cat & [QVAL.SUBJECT [ LOCAL [ CAT.HEAD expl-pron ] ]],
+        LOCAL.CAT.VAL.COMPS <[ LOCAL.CAT.HEAD adv-reg ]>]
+
+
+;; subject-presentational-verb-lexeme
+SYNSEM [LOCAL.CAT lex-cat & [QVAL.SUBJECT [ LOCAL [ CAT.HEAD expl-pron ]],
+                             QVAL.DOBJECT.LOCAL [CAT.HEAD.DEF -,
+                                                CONT.HOOK.INDEX #2],
+                            VAL.COMPS < [] >],
+        LKEYS.KEYREL.ARG1 #2]
+
+
+;; subject-presentational-refl-verb-lexeme
+SYNSEM [LOCAL.CAT lex-cat & [QVAL.SUBJECT [ LOCAL [ CAT.HEAD expl-pron ]],
+                             QVAL.DOBJECT.LOCAL [CAT.HEAD.DEF -,
+                                                CONT.HOOK.INDEX #2],
+                             QVAL.IOBJECT.LOCAL.BINDING seg-bare,
+                            VAL.COMPS < [],[] >],
+        LKEYS.KEYREL.ARG1 #2]
+
+
+;; epon-verb-lexeme
+SYNSEM [LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD expl-pron,
+        LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD fin-comp]
+
+

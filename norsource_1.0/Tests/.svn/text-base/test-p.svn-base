@@ -1,0 +1,286 @@
+;;; -*- Coding: utf-8; -*-
+
+;;;;; Test of P and Adv, from lex3.p-adv-full.tdl, but not reflecting predsort.tdl ;;;;;
+
+; Here we systematically list uses of prepositions and adverbs,
+; according to the following (probably growing in number) parameters:
+; - prep or adv
+; - cooccurrence with a
+; - - V-projection (typically a VP)
+; - - - at a later stage, we here also include verb classes
+; - - Adv-projection (typically a single Adv)
+; - - - Adv combined with V
+; - - - - directional or non-directional V
+; - - - Adv combined with N
+; - - - - directional or non-directional N
+; - - N-projection
+
+;   we list, with each example, the word type and the
+;   relations type employed, and, in the lines underneath, info
+;   from INDEX: index-type, SORT and, when defined, ORIENT, then
+;   info about phrasal rules involved, and last the type of the
+;   item combined with
+
+; *TYPE means: not utilized, for reasons stated at TYPE  
+
+;   PREP                        WORD TYPE          RELATION TYPE
+
+;   with Verb:
+;   A. directional atelic:
+;;                        dir-nonfixpoint-prep-word       along-path-rel
+;                               ad-event SORT: along-path-motion
+;                                           atelic-pp-mod-vp-rule
+;                                           intrans-arg1dir-verb-lexeme
+veien går langs elven
+; 'the road goes along the river'
+
+;   B. non-directional (atelic)
+;;                        prep-word-reg            arg12-relation
+;                               individual SORT: non-fix-point
+;                                           atelic-pp-mod-vp-rule
+;                                           intrans-arg1-verb-lexeme
+myra ligger bak fjellet
+; 'the marsh lies behind the mountain'
+
+;   C. directional telic:
+;;                       dir-fixpoint-prep-word       via-path-rel
+;                               ad-event SORT: fix-point-motion
+;                                           telic-pp-mod-vp-rule
+;                                           intrans-arg1dir-verb-lexeme
+veien går gjennom skogen
+; 'the road goes through the wood'
+
+;;                       dir-fixpoint-prep-word       end-of-path-rel
+;                               ad-event SORT: end-of-path-motion
+;                                           telic-pp-mod-vp-rule
+;                                           intrans-arg1dir-verb-lexeme
+veien går til fjellet
+; 'the road goes to the mountain'
+
+
+;   with Adverb:
+;;  Adv combined with V
+
+;   A. directional atelic:
+;;                      dir-nonfixpoint-prep-2-word     along-path-rel
+;                               ad-event SORT: along-path-motion
+;                                           pp-mod-adv-orient-rule
+;                                           orient-to-down-adv-word
+veien går nedover langs elven
+; 'the road goes down along the river'
+
+;   B. non-directional (atelic)
+;;                      prep-modadvreg-word          prep-mod-relation
+;                               individual SORT: at-down
+;                                           pp-mod-adv-reg-rule
+;                                           adv-word at-down-reg
+myra ligger nede ved elven
+; 'the marsh lies down by the river'
+
+;   C. directional telic:
+;;                      dir-fixpoint-prep-2-word       via-path-rel
+;                               ad-event SORT: fix-point-motion
+;                                           pp-mod-adv-orient-rule
+;                                           dirarg-telic-to-in-adv-word
+veien går inn gjennom skogen
+; 'the road goes in through the wood'
+
+;;                      dir-fixpoint-prep-2-word       end-of-path-rel
+;                               ad-event SORT: end-of-path-motion
+;                                           pp-mod-adv-fixpt-rule
+;                                           dirarg-telic-to-in-adv-word
+veien går inn til fjellet
+; 'the road goes in to the mountain'
+
+;;  Adv combined with N
+
+;   A. directional atelic:
+;;                      dir-nonfixpoint-prep-2-word     along-path-rel
+;                               ad-event SORT: along-path-motion
+;                                           pp-mod-adv-orient-rule
+;                                           nom-orient-to-down-adv-word
+veien nedover langs elven går her
+; 'the road down along the river goes here'
+
+;   B. non-directional (atelic)
+;;                      prep-modadvreg-word          prep-mod-relation
+;                               individual SORT: at-down
+;                                           pp-mod-adv-reg-rule
+;                                           adv-word-at-down-reg
+myra nede ved elven råtner
+; 'the marsh down by the river rottens'
+
+;   C. directional telic:
+;;                      dir-fixpoint-prep-2-word       via-path-rel
+;                               ad-event SORT: fix-point-motion
+;                                           pp-mod-adv-fixpt-rule
+;                                           dirarg-telic-to-in-adv-word
+veien inn gjennom skogen starter her
+; 'the road in through the wood starts here'
+
+;;                      dir-fixpoint-prep-2-word       end-of-path-rel
+;                               ad-event SORT: end-of-path-motion
+;                                           pp-mod-adv-fixpt-rule
+;                                           dirarg-telic-to-in-adv-word
+veien inn til fjellet starter her
+; 'the road in to the mountain starts here'
+
+
+;   with Noun:
+
+;   A. directional atelic:
+;;                      nom-dir-prep-word       along-path-rel
+;                               ad-event SORT: along-path-motion
+;                                           pp-mod-defbare-n-rule
+;                                           masc-dir-noun-lxm
+veien langs elven starter ved broen
+; 'the road along the river starts at the bridge'
+
+;   B. non-directional (atelic)
+;;                      prep-word-reg           arg12-relation
+;                               individual SORT: non-fix-point
+;                                           pp-mod-defbare-n-rule
+;                                           neut-reg-noun-lxm
+myra bak skogen råtner       
+; 'the marsh behind the mountain rottens'
+
+;   C. directional telic:
+;;                     nom-dir-prep-word       via-path-rel
+;                               ad-event SORT: fix-point-motion
+;                                           pp-mod-defbare-n-rule
+;                                           masc-dir-noun-lxm
+veien gjennom skogen starter ved broen
+; 'the road through the wood starts at the bridge'
+
+;;                     nom-dir-prep-word       end-of-path-rel
+;                               ad-event SORT: end-of-path-motion
+;                                           pp-mod-defbare-n-rule
+;                                           masc-dir-noun-lxm
+veien til fjellet starter ved broen
+; 'the road to the mountain starts at the bridge'
+
+;   with Prep
+;;       combining with either V or N or Adv or Prep
+
+;;                       prep-modadvreg-word
+;;                                              pp-mod-pp-reg-rule
+;                                               prep-word-reg
+
+myra ved elven bak skogen råtner
+; 'the marsh by the river behind the forest is rottening'
+myra ved elven, bak skogen råtner
+jeg ligger ved elven bak skogen
+; 'I lie at the river behind the forest'
+jeg ligger ved elven, bak skogen
+
+;;                        dir-fixpoint-prep-2-word
+;;                                              pp-mod-pp-fixpt-rule
+;;                                              dir-fixpoint-prep-word or
+;;                                              dir-fixpoint-prep-2-word
+jeg går til fjellet fra elven
+; 'I go to the mountain from the river'
+;;                                              comma-mod-for-v-rule
+;;                                              telic-pp-mod-vp-comma-rule
+jeg går til fjellet, fra elven
+jeg går gjennom skogen til fjellet fra elven
+; 'I go through the wood to the mountain from the river'
+jeg går gjennom skogen, til fjellet, fra elven
+jeg går opp til fjellet fra elven
+; 'I go up to the mountain from the river'
+
+jeg går hit opp til fjellet fra elven
+; 'I go to-here up to the mountain from the river'
+jeg går opp hit gjennom skogen til fjellet fra elven
+; 'I go up to-here through the forest to the mountain from the river'
+
+;;                        dir-nonfixpoint-prep-2-word
+;;                                              pp-mod-pp-orient-rule
+;;                                              dir-nonfixpoint-prep-word or
+;;                                              dir-nonfixpoint-prep-2-word
+jeg går mot fjellet langs elven
+; 'I go towards the mountain along the river'
+;;                                              comma-mod-for-v-rule
+;;                                              atelic-pp-mod-vp-comma-rule
+jeg går mot fjellet, langs elven
+jeg går bortover mot fjellet langs elven
+
+
+;   ADV                            WORD TYPE          RELATION TYPE
+
+;   with Verb:
+
+;   A. directional atelic:
+;;                     orient-to-down-adv-word        orient-adv-rel
+;                orient-event SORT: non-fix-point ORIENT: to-down
+;                                           atelic-adv-mod-vp-rule
+;                                           intrans-arg1dir-verb-lexeme
+veien går nedover
+; 'the road goes down'
+
+;   B. non-directional (atelic)
+;;                     adv-word-at-salientpoint-reg     arg1-relation
+;               individual SORT: at-salientpoint
+;                                           atelic-adv-mod-vp-rule
+;                                           intrans-arg1-verb-lexeme
+myra ligger her
+; 'the marsh lies here'
+
+;   C. directional telic:
+;;                     dirarg-telic-adv-word   arg1-relation
+;        orient-event SORT: fix-point-motion ORIENT: to-awayfrom-salientpoint
+;                                           telic-adv-mod-vp-rule
+;                                           intrans-arg1dir-verb-lexeme
+veien går dit
+; 'the road goes to-there'
+
+
+;   with Adverb:
+;   A. directional atelic:
+;;                    orient-adv-2-word
+;;                                         adv-mod-adv-orient-rule
+;;                                         orient-to-down-adv-word
+veien går nedover hitover
+; 'the road goes down-wards toward-here'
+
+;   B. non-directional (atelic)
+;;                    adv-word-2placepar-reg            adv-mod-relation
+;                      ad-event  SORT: place-param
+;                                           adv-mod-adv-reg-rule
+;                                           adv-word-at-salientpoint-reg
+myra ligger her nede
+; 'the marsh lies here down'
+
+;   C. directional telic:
+;;                   dirarg-telic-adv-2-word
+;                                           adv-mod-adv-fixpt-rule
+;                                           dirarg-telic-to-in-adv-word
+
+veien går inn hit
+; 'the road goes in to-here'
+
+
+;   with Noun:
+
+;   A. directional atelic:
+;;                   nom-orient-to-down-adv-word     orient-adv-rel
+;               orient-event SORT: verb-act-specification ORIENT: to-down
+;                                           advdir-mod-n-rule
+;                                           masc-dir-noun-lxm
+veien nedover starter ved broen
+; 'the road downwards starts at the bridge'
+
+;   B. non-directional (atelic)
+;;                   adv-word-at-down-reg    arg1-relation
+;                          individual SORT: at-down
+;                                           advreg-mod-n-rule
+;                                           masc-reg-noun-lxm
+myra nede råtner              
+; 'the marsh down rottens'
+
+;   C. directional telic:
+;;            dirarg-telic-to-awayfrom-salientpoint-adv-word   arg1-relation
+;       orient-event SORT: fix-point-motion ORIENT: to-awayfrom-salientpoint   
+;                                           advdir-mod-n-rule
+;                                           masc-dir-noun-lxm
+veien dit starter ved broen
+; 'the road to-there starts at the bridge'

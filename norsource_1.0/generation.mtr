@@ -1,0 +1,3 @@
+delete_spurious_sel_rel_grp := monotonic_mtr &
+[INPUT.RELS <! [ PRED "selected_prep_rel" ] !>,
+ OUTPUT.RELS <! !> ].

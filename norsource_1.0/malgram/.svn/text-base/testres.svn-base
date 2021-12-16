@@ -1,0 +1,29 @@
+1 Jeg liker å spiser mat 1 303
+2 Jeg liker ikke å ventet på henne. 0 1671
+3 Jeg kan venter 2 142
+4 Jeg vil spiste middag 4 423
+5 Jeg vente her 1 276
+6 Jeg vente ikke på henne 8 2452
+7 Jeg like å vente 1 351
+8 Jeg kan å vente 2 251
+9 Jeg vil å spise middag 5 446
+10 Jeg liker ikke vente 7 577
+11 Jeg like spiser mat 1 518
+12 Jeg vil å like kommer 4 563
+13 Jeg tenke at han skal å kommer 2 412
+14 Jeg tenke at han skal kommer 2 378
+15 Jeg tenke at han like kommer 16 1004
+16 Han snill 1 30
+17 Han ikke snill 3 83
+18 Han snill ikke 0 62
+19 Han er snill 1 103
+20 Han var snill 1 198
+21 Han ikke veldig snill 3 187
+22 Han ikke akkurat veldig snill 0 171
+23 Han ikke veldig snill akkurat 3 334
+
+;;; Total CPU time: 17910 msecs
+
+;;; Mean edges: 475.43
+
+;;; Mean parses: 2.96

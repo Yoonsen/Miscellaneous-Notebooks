@@ -1,0 +1,43 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource -
+;;; 
+;;;    Copyright (c)  NorSource version 0.3
+;;;                       2004-2006 
+;;;
+;;;    Lars Hellan, Dorothee Beermann, Ben Waldron
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    <norsource@hf.ntnu.no>
+;;;
+
+; LKB(1): (batch-check-morphology t)
+; NB: don't erase!
+
+;%(letter-set (!a abcdefghijklmnopqrstuvwxyzæøå))
+;%(letter-set (!b rnlt))
+
+;;;;;;;;;;;;;; DERIVED ADJECTIVES ;;;;;;;;;;;;;;
+
+
+;; rule: verbs that end with a stressed vowel in infinitive, get -ende, verbs
+;; that end with an unstressed vowel get -nde: "se-ende" vs "sove-nde".
+;; A rather clear case where simple phonological info is better than an
+;; arbitrary a1 - a2 distinction...  (LH Febr08-06)
+
+; ltol
+prespcpl-adj_ende_lrule :=
+%suffix (* ende)
+presparticpl-adj-lxm & 
+  [ ARGS.FIRST.INFLECTION finstr ].
+;ltol
+prespcpl-adj_nde_lrule :=
+%suffix (* nde)
+presparticpl-adj-lxm & 
+  [ ARGS.FIRST.INFLECTION nonfstr ]. 
+
+
+
+
+
+

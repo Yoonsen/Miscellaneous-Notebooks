@@ -1,0 +1,46 @@
+
+prof_brochs_gate_pn := proper-name-word &
+  [ STEM < "prof","brochs","gate" >,
+    SYNSEM.LKEYS.KEYREL.CARG "prof brochs gate" ].
+
+sentrum_pn := proper-name-word &
+  [ STEM < "sentrum" >,
+    SYNSEM.LKEYS.KEYREL.CARG "sentrum" ].
+
+spongdal_pn := proper-name-word &
+  [ STEM < "spongdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "spongdal" ].
+
+nygård_pn := proper-name-word &
+  [ STEM < "nygård" >,
+    SYNSEM.LKEYS.KEYREL.CARG "nygård" ].
+
+strindheim_pn := proper-name-word &
+  [ STEM < "strindheim" >,
+    SYNSEM.LKEYS.KEYREL.CARG "strindheim" ].
+
+rosendal_pn := proper-name-word &
+  [ STEM < "rosendal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "rosendal" ].
+
+prinsen_kinosenter_pn := proper-name-word &
+  [ STEM < "prinsen","kinosenter" >,
+    SYNSEM.LKEYS.KEYREL.CARG "prinsen kinosenter" ].
+
+nordslettveien_snuplass_pn := proper-name-word &
+  [ STEM < "nordslettveien","snuplass" >,
+    SYNSEM.LKEYS.KEYREL.CARG "nordslettveien snuplass" ].
+
+uglaveien-pn := proper-name-word & 
+  [ STEM < "Uglaveien" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Uglaveien" ].
+
+#|
+hund1_masc := masc-reganim-noun-lxm &
+ [ STEM < "hund" >,
+   INFLECTION final-full,
+   SYNSEM.LKEYS.KEYREL.PRED "_hund_n_1_rel",
+   SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY nom-k ].
+|#
+
+

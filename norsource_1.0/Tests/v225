@@ -1,0 +1,963 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;; based on test suite matching the types defined in lex.constr.no.tdl - - 
+;;; The examples are defined in lex.constr.no.tdl
+;;; But now with the Standard Labelling Code (SLC - first for each ex)
+;SLC v-intrImpers-subjExpl-PHENOM
+;impers-zero (zero-sit)
+det regner
+;'it rains'
+;SLC v-intrImpersTelicprtcl-subjExpl-PHENOM_TELIC
+;impers-completed (zero-sit-completed)
+det klarner opp
+;'it clears up'
+; NB: loc -> locobl
+;SLC v-intrImpersObl-subjExpl-loc-PHENOM
+;impers-noncompl (noncompl-subj-measure-out)
+det kvekker i Ola
+; 'it startles in Ola'
+det sprekker i glasset
+; 'it cracks in the glass'
+;impers-loc (zero-loc)
+det synger i fjellene
+; 'it sings in the mountains'
+; NB: agmover -> agmoverPres
+;SLC v-intrPresentational-subjExpl-agmover-MOTION
+; presentational-init-move (init-move)
+det springer en mann
+; 'there runs a man'
+;NEW
+; NB: agmover -> agmoverPres
+;SLC v-intrPresentational-subjExpl-agmover_endpnt-ENDPNTMOTION
+; presentational-init-move (init-move)
+det springer en mann hit
+; 'there runs a man to here'
+; NB: thmover -> thmoverPres
+;SLC v-intrPresentational-subjExpl-thmover-MOTION
+; presentational-theme-move (theme-move)
+det ruller en ball
+; 'there rolls a ball'
+;NEW
+; NB: thmover -> thmoverPres
+;SLC v-intrPresentational-subjExpl-thmover_endpnt-ENDPNTMOTION
+det ruller en ball hit
+; 'there rolls a ball to here'
+; NB: th_loc -> th_locobl
+;SLC v-intrPresentationalLoc-subjExpl-th_loc-POSTURE_LOC
+;presentational-loc (unary-loc)
+det sitter en mann i stolen
+;'there sits a man in the chair'
+det sitter en mann her
+;'there sits a man here'
+;SLC v-trPresentational-subjExpl-ben_th-PENDINGSTATE
+;presentational-ben (binary-benef-sit)
+det venter ham en ulykke
+;'there awaits him an accident'
+;SLC v-trPresentational-subjExpl-rec_th-PENDINGSTATE
+;presentational-recip (binary-recip-sit)
+det tilkommer ham hundre kroner
+;'there "to-come" him a hundred kroner' - "he gets 100 kroner"
+;presentational-exp (binary-exper-sit)
+;
+;SLC v-intr-ag-ACTIVITY
+;ag-intr (init-unary-sit)
+gutten hopper
+;'the boy jumps'
+;SLC v-intrAdv-ag-SUSTAINEDACTIVITY
+; ag-noncompl-intr (init-unary-noncompl-sit)
+Ola driver på
+; 'Ola keeps on'
+;SLC v-intrAdv-ag-COMPLETEDACTIVITY
+;ag-completed-intr (init-unary-completed-sit)
+Ola stopper opp
+; 'Ola stops up' - "Ola comes to a halt"
+;SLC v-intr-sens-SENS
+;senser-intr (init-unary-sit) (ROLE senser)
+gutten lytter 
+;'the boy listens'
+;SLC v-intr-agmover-MOTION
+; moverag-intr (agent-move)
+gutten løper
+; 'the boy runs'
+;SLC v-intr-thmover-MOTION
+; moverth-intr (theme-move)
+ballen ruller
+; NB out. Reappears with transitives
+;SLC v-intrMeasn-agmover_measunit-EXTENDING
+;;distance-dyn-tr (distance-dyn-sit)
+;gutten går to kilometer
+;; the boy walks two kilometers
+;SLC v-intr-th-PROCESS
+;th-intr (noninit-unary-sit)
+isen smelter
+;'the ice melts'
+;SLC v-intrAdv-th-SUSTAINEDACTIVITY
+; th-noncompl-intr (noninit-unary-noncompl-sit)
+regnet varer ved
+; 'the rain lasts by'
+;SLC v-intrAdv-th-COMPLETEDACTIVITY
+; th-completed-intr (noninit-unary-completed-sit)
+regnet holder opp
+; 'the rain holds up' - "the rain comes to a halt"
+;SLC v-intr-exp-EXPER
+;exper-intr (noninit-unary-sit)(ROLE experiencer)
+gutten fryser
+;'the boy freezes'
+;SLC v-intr-subjYN-thsit-ASSESS
+;proptascr-yninterr (unary-proptascr)
+hvorvidt han kommer beror
+;'whether he comes depends'
+;SLC v-intr-subjWH-thsit-ASSESS
+;proptascr-whinterr (unary-proptascr)
+hvem som kommer beror
+;'who comes depends'
+; NB changed from ABSTRPROPTY to ASSESS
+;SLC v-intr-subjAbsInf-thsit-ASSESS
+;proptascr-absinf (unary-proptascr)
+å motta penger for politiske verv stinker
+;'to receive money for political duties stinks'
+;NB th-> thObl
+;SLC v-intrObl-ag_th-REPRESENT
+;oblintr-reg (unary-obl-sit)
+jeg snakker om Ola
+;'I talk about Ola'
+;NB th-> thObl
+;SLC v-intrObl-oblRefl-ag_th-EVENT
+;oblintr-refl (unary-obl-sit) 
+han sølte på seg
+;'he spilled on himself'
+;NB th-> thObl
+;SLC v-intrObl-ag_loc-LOCATION
+;oblintr-loc (unary-loc)
+hun bor i Finnmark
+;'she lives in Finnmark'
+;NB affincrem-> affincremObl
+;SLC v-intrObl-ag_affincrem-NONCOMPLETED_MONODEVMNT
+;oblintr-noncompl-aff-measureout (noncompl-aff-obj-measure-out)
+hun spiser av eplet
+; 'she eats of the apple'
+;NB th-> thincremObl
+;SLC v-intrObl-ag_th-NONCOMPLETED_MONODEVMNT_MEDIUM
+;oblintr-noncompl-th-measureout (noncompl-th-obj-measure-out)
+hun leser i boken
+; 'she reads in the book'
+;NB aff-> affObl
+;SLC v-intrObl-ag_aff-NONCOMPLETED_INST
+;partial-instant-affect (noncompl-obj-instantaffect)
+Ola rører på statuen 
+; Ola moves at the statue
+; 'Ola makes a small movement of the statue'
+;NB aff-> affObl
+;SLC v-intrObl-oblRefl-ag_aff-NONCOMPLETED_INST
+;partial-refl-instant-affect (noncompl-obj-instantaffect)
+Ola leer på seg
+; Ola moves on REFL
+; 'Ola moves [a little]'
+;NB thSit-> thSitObl
+;SLC v-intrObl-oblDECL-ag_thSit-REPRESENT
+;oblintr-decl (oblintr-sit.)
+de snakker om at det er for sent
+;'they talk about that it is too late'
+;NB thSit-> thSitObl
+;SLC v-intrObl-oblYN-ag_thSit-OPINION
+;oblintr-yninterr (oblintr-sit.) 
+de lurer på hvorvidt det er for sent
+;'they wonder about whether it is too late'
+;NB thSit-> thSitObl
+;SLC v-intrObl-oblWH-ag_thSit-OPINION
+;oblintr-whinterr (oblintr-sit.) 
+de lurer på hvem som kommer
+;'they wonder about who that comes'
+;NB thSit-> thSitObl
+;NB oblEquiInf-> oblSubjequiInf
+;SLC v-intrObl-oblEquiInf-ag_thSit-OPINION
+;oblintr-equi (oblintr-sit.)
+han håper på å komme 
+;'he hopes [on] to come'
+;SLC v-intrAdvObl-oblEquiInf-ag_thSit-SUSTAINEDACTIVITY
+;oblintr-equi-noncompl (oblintr-sit & init-unary-obl-noncompl-sit)
+Ola driver på med å skrive
+;'Ola keeps on with to write'
+;NB thSit-> thSitObl
+;SLC v-intrObl-oblAbsInf-ag_thSit-REPRESENT
+;oblintr-absinf (oblintr-sit)
+de snakker om å reise til Mars
+;'they talk about to travel to Mars'
+;NB thSit-> thSitObl
+;SLC v-intrObl-subjNonarg_oblRaisInf-thSit-EXHIBACT
+;oblintr-rais (zero-obl-sit)
+han later til å komme
+;'he appears [to] to come' - "he appears to come"
+;SLC v-intrAdvObl-subjNonarg_oblRaisInf-thSit-EXHIBACT
+;oblintr-rais-partcl (zero-obl-sit)
+han ser ut til å komme 
+;'he looks out [to] to come' - "he appears to come"
+;SLC v-intrObl-oblPRTOFsubj-exp_locth-EXPER
+;oblintr-part-whole (unary-part-whole)
+jeg fryser i magen
+;'I freeze in the stomach' - "I'm cold in my stomach"
+;SLC v-intrAdv-th-PROPTY
+;intr-obligadv
+han fungerer godt
+; 'he functions well'
+; NB intrSecprAdj->intrResultSecprAdj
+;SLC v-intrSecprAdj-subjNonarg-csd-ZEROCAUSE_RESULT
+;nonargsubj-intr-result-secpr-adj (zerocause-event-causation)
+koppen renner full
+; 'the cup runs full' - "the cup fills up"
+firmaet går fallitt 
+;'the company goes broke'
+; NB intrSecprPP->intrResultSecprPP
+;SLC v-intrSecprPP-subjNonarg-csd-ZEROCAUSE_RESULT
+;nonargsubj-intr-result-secpr-prep (zerocause-event-causation)
+kjelen koker i stykker
+; 'the kettle boils to pieces' 
+; NB intrSecprAdj->intrConcurrSecprAdj
+;SLC v-intrSecprAdj-th_quality-CONCURRSTATE
+;concurrence-intr-secpr-adj (concurrence & arg2-secpred-sit)
+huset står tomt
+;'the house stands empty'
+eiendommen ligger brakk
+; 'the property lies nonattended'
+; NB intrSecprPredprtcl->intrConcurrSecprPredprtcl, quality->th_quality
+;SLC v-intrSecprPredprtcl-quality-EXHIBPROPTY
+;concurrence-intr-secpr-predpcl (concurrence & arg2-secpred-sit)
+gutten fremstår som syk
+;'the boy appears as sick'
+; NB intrSecprAdj->intrConcurrSecprAdj,quality->ag_quality
+
+;SLC v-intrSecprPredprtcl-quality-PERFORMFUNCTION
+Ola stiller som forsvarer
+;'Ola steps up as defender'
+; NB intrSecprAdj->intrCseResultSecprAdj, csd->th_csd
+;SLC v-intrSecprAdj-csd-CAUSE_RESULT
+;argsubj-intr-result-secpr-adj (unarycause-event-causation & arg2-secpred-sit)
+skinken henger mør
+;'the ham hangs tender' - "the ham hangs so as to get tender" (also with a reading as SLC v-intrSecprAdj-quality-CONCURRSTATE)
+; NB intrSecprAdv->intrCseResultSecprAdv, csd->th_csd
+;SLC v-intrSecprAdv-csd-CAUSE_RESULT
+;argsubj-intr-result-secpr-adv (unarycause-event-causation & arg2-secpred-sit)
+kaffen koker bort
+;'the coffee boils away'
+;SLC v-intrSecprAdj-subjNonarg-thSit-EXHIBPROPTY
+;raistosubj-intr-ascrpt-secpr-adj (unary-sit-ascription)
+gutten virker syk
+;'the boy seems sick'
+;SLC v-intrSecprN-subjNonarg-thSit-EXHIBPROPTY
+;raistosubj-intr-ascrpt-secpr-n (unary-sit-ascription)
+gutten synes en leder
+;'the boy seems a leader'
+;SLC v-intrSecprPP-subjNonarg-thSit-EXHIBPROPTY
+;raistosubj-intr-ascrpt-secpr-prep (unary-sit-ascription)
+gutten virker i orden
+;'the boy seems in good shape'
+;SLC v-intrSecprPredprtcl-subjNonarg-thSit-EXHIBPROPTY
+;intr-nonargsubj-secpr-predpcl (unary-sit-ascription) 
+gutten virker som en feiging
+;'the boy seems as a coward'
+;SLC v-intrSecprInf-subjNonarg_subordRaisInf-thSit-EXHIBACT
+;raistosubj-intr-ascrpt-secpr-inf  (sit-ascription)
+han synes å komme
+;'he seems to come'
+;SLC v-intrSecprBareinf-subjNonarg_subordRaisBareinf-thSit-EXHIBACT
+;raistosubj-intr-ascrpt-secpr-bareinf  (sit-ascription)
+han synes komme
+;'he seems come'
+;SLC v-intrSecprBareinf-subjNonarg_subordRaisBareinf-thSit-EPISTMODAL
+;modal-epist (sit-ascription)
+han kan komme
+;'he can come'
+;SLC v-intrSecprPerf-subjNonarg_subordRaisPerf-thSit-PERFECTIVEACT
+;pres-perf (sit-ascription)
+han har kommet
+;'he has come'
+;SLC v-intrSecprAdjPrtcl-subjNonarg-quality-EXHIBPROPTY
+;raistosubj-intr-prtcl-ascrpt-secpr-adj (unary-sit-ascription)
+gutten høres syk ut
+;'the boy sounds sick out'
+;SLC v-intrSecprPrtclPredprtcl-subjNonarg-quality-EXHIBPROPTY
+;raistosubj-intr-prtcl-ascrpt-secpr-predpcl (unary-sit-ascription)
+gutten høres ut som en papegøye
+;'the boy sounds out as a parrot'
+;SLC v-intrEpon-subjExpl_eponDECL-thSit-EXHIBACT
+;intr-epon-ascrpt-decl (sit-ascription)
+det vises at han kommer
+;'it shows that he comes'
+;SLC v-intrPrtclEpon-subjExpl_eponDECL-thSit-ASSESS
+;intr-epon-ascrpt-decl-partcl (sit-ascription)
+det hører med at han kommer
+; 'it hears along that he comes' - "it goes with it that he comes"
+;SLC v-intrEpon-subjExpl_eponYN-thSit-ASSESS
+;intr-epon-ascrpt-yninterr (sit-ascription)
+det spørs hvorvidt han kommer
+;'it depends whether he comes'
+;SLC v-intrEpon-subjExpl_eponWH-thSit-ASSESS
+;intr-epon-ascrpt-whinterr (sit-ascription)
+det spørs hvem som kommer
+;'it depends who that comes'
+;SLC v-intrEpon-subjExpl_eponAbsinf-thSit-ASSESS
+;intr-epon-ascrpt-inf (sit-ascription)
+det haster å komme
+;'it urges to come'
+;NEW
+;SLC v-intrOblEpon-subjExpl_oblEponAbsinf-thSit-ASSESS
+;intr-epon-ascrpt-inf (sit-ascription)
+det haster med å komme
+;'it urges to come'
+;SLC v-intrOblEpon-subjExpl_oblEponDECL-thSit-EXHIBACT
+;intr-epon-ascrpt-obl (sit-obl-ascription)
+det later til at han kommer 
+;'it appears [to] that he comes'
+;SLC v-intrPrtclOblEpon-subjExpl_oblEponDECL-thSit-EXHIBACT
+;intr-epon-ascrpt-obl-partcl (sit-obl-ascription)
+det ser ut til at han kommer 
+;'it looks out to that he comes'
+;
+;SLC v-tr-ag_ejct-EJECTION
+;eject-tr (ejection)
+Kari kaster ballen
+;'Kari throws the ball'
+;SLC v-tr-ag_mover-CAUSEMOTION
+;release-tr (release)
+Kari sender pakken
+;'Kari sends the parcel'
+;SLC v-tr-ag_aff-AFFECTING
+;affect-tr (affecting)
+Kari slår Ola
+;'Kari beats Ola'
+;SLC v-tr-ag_th-REPRESENT
+;undergo-tr (undergoing)
+Kari nevner Ola
+;'Kari mentions Ola'
+;SLC v-tr-ag_affincrem-COMPLETED_MONODEVMNT
+;measout-tr-aff-compl (compl-aff-obj-measure-out)
+Kari spiser kaken
+;'Kari eats the cake'
+;SLC v-tr-ag_thincrem-COMPLETED_MONODEVMNT
+;measout-tr-th-compl (compl-th-obj-measure-out)
+Kari leser boken
+;'Kari reads the book'
+;SLC v-tr-sens_th-SENS
+;sensing-ind-tr (sensing-ind)
+Kari ser Ola
+;'Kari sees Ola'
+;SLC v-tr-ag_exp-CAUSEEMOTION
+;ag-exper-tr (ag-exper-sit)
+Kari skremmer Ola
+;'Kari frightens Ola'
+;SLC v-tr-th_rec-POSSESS
+;recip-tr (binary-recip-sit)
+boken tilhører Ola
+;'the book belongs-to Ola'
+;SLC v-tr-th_ben-MALEFACTION
+;benef-tr (binary-benef-sit)
+boken skader Ola
+;'the book hurts Ola'
+;SLC v-tr-th_exp-CAUSEEMOTION
+;th-exper-tr (th-exper-sit)
+ boken deprimerer Ola
+;'the book depresses Ola'
+;SLC v-tr-objRefl-ag_aff-AFFECTING
+;tr-n-refl
+Kari vasker seg
+;'Kari washes herself'
+;SLC v-trPrtcl-objReflExpl-ag-COMPLETEDACTIVITY
+;reflargobj-partcl
+Kari dummet seg ut
+;'Kari fooled herself out'
+;SLC v-trPrtcl-objRefl-ag-COMPLETEDACTIVITY
+Ola fiffer seg opp
+;'Ola shines himself up'
+;SLC v-tr-objReflExpl-exp-EXPER
+;explobj-refl
+Kari skammer seg
+;'Kari shames herself' - "Kari is ashamed"
+;SLC v-tr-ag_endpnt-ENDPNTMOTION
+;move-endpnt-tr (move-endpnt)
+Kari når toppen
+;'Kari reaches the top'
+;SLC v-tr-ag_viapnt-VIAPNTMOTION
+;move-viapnt-tr (move-viapnt)
+Kari passerer kirken
+;'Kari passes the church'
+;SLC v-tr-ag_alongline-ALONGLINEMOTION
+;move-along-tr (move-along)
+Kari følger stien
+;'Kari follows the path'
+;SLC v-tr-th_endpnt-ENDPNTEXTENSION
+;path-endpnt-tr (path-endpnt)
+stien når toppen
+;'the path reaches the top'
+;SLC v-tr-th_viapnt-VIAPNTEXTENSION
+;path-viapnt-tr (path-viapnt)
+stien passerer kirken
+;'the path passes the church'
+;SLC v-tr-th_alongline-ALONGLINEEXTENSION
+;path-along-tr (path-along)
+stien følger elven
+;'the path follows the river'
+;SLC v-tr-th_measunit-WEIGHING
+;weight-tr (weight-sit)
+stenen veier 5 kg
+;'the stone weighs 5 kg'
+;SLC v-tr-th_measunit-LASTING
+;time-tr (time-sit)
+filmen varer 5 timer
+;'the film lasts 5 hours'
+;SLC v-tr-th_measunit-EXTENDING
+;distance-stat-tr (distance-stat-sit)
+banen måler 400 meter
+;'the track measures 400 metres'
+;SLC v-tr-agmover_measunit-EXTENDING
+;distance-dyn-tr (distance-dyn-sit)
+gutten går to kilometer
+; the boy walks two kilometers
+;SLC v-tr-ag_eventunit-ACTIVITY
+;eventobj-tr (eventobj-sit)
+hun sover en dyp søvn
+;she sleeps a deep sleep
+;SLC v-tr-ag_ejctinhobj-EJECTION
+;inherobj-tr (inherobj-sit)
+hun skyter plastikkuler
+;she shoots plastic bullets
+;SLC v-tr-ag_path-USINGPATH
+;vehiclobj-tr (vehiclobj-sit)
+gutten vil ta stien mot fjellet
+; the boy will take the path towards the mountain
+;SLC v-tr-ag_vehcl-USINGVEHICLE
+;vehiclobj-tr (vehiclobj-sit)
+gutten vil ta bussen mot fjellet
+; the boy will take the bus towards the mountain
+;SLC v-tr-objDECL-sens_thSit-SENS
+;sensing-sit-tr-decl (sensing-sit)
+Kari ser at Ola sover
+;'Kari sees that Ola sleeps'
+;SLC v-tr-objDECL-cogn_thSit-COGN
+;cognizing-sit-tr-decl (cognizing-sit)
+Kari vet at jeg kommer
+;'Kari knows that I come'
+;NEW
+;SLC v-tr-cogn_th-COGN
+Kari vet svaret
+;'Kari knows the answer'
+;SLC v-trPrtcl-cogn_th-COGN
+;cognizing-ind-tr-prtcl (cognizing-ind)
+Kari fant ut svaret
+;'Kari found out the answer'
+;SLC v-trPrtcl-objDECL-cogn_th-COGN
+;cogniting-sit-tr-decl-prtcl (cogniting-sit)
+Kari fant ut at jeg kom
+;'Kari found out that I came'
+;SLC v-tr-objEquiInf-ag_thSit-ACT
+;tr-equi-infobj (binary-sit & tr-indiv-sit)
+Kari prøver å komme
+;'Kari tries to come'
+;SLC v-trPrtcl-objEquiInf-ag_thSit-ACT
+;tr-equi-infobj-partcl (binary-sit & tr-indiv-sit)
+Kari fant på å komme
+;'Kari found on to come' - "Kari hit upon coming"
+;SLC v-tr-objEquiBareinf-ag_thSit-ROOTMODAL
+;tr-equi-bareinfobj (binary-sit & tr-indiv-sit)
+Kari kan padle
+;'Kari can paddle'
+;SLC v-tr-objAbsInf-ag_thSit-ASSESS
+;tr-absinfobj(binary-sit & tr-indiv-sit)
+Kari vurderer å komme 
+;'Kari considers to come'
+;SLC v-tr-subjAbsInf-thSit_cog-ASSESS
+;tr-absinfsubj-n (binary-sit & tr-sit-indiv)
+Å bygge høyhus interesserer Kari
+;'To build highrises interests Kari'
+;SLC v-tr-subjDECL-thSit_cog-ASSESS
+;tr-declsubj-n (binary-sit & tr-sit-indiv)
+At jeg kommer forundrer Kari
+;'That I come astonishes Kari'
+;SLC v-tr-objYN-cog_thSit-ASSESS
+;cognizing-sit-tr-yninterr (cognizing-sit) 
+Kari undres hvorvidt jeg kommer
+;'Kari wonders whether I come'
+;SLC v-trPrtcl-objYN-cog_thSit-ASSESS
+;cognizing-sit-tr-yninterr-prtcl (cognizing-sit)
+Kari fant ut hvorvidt jeg kommer
+;'Kari found out whether I come'
+Ola regner ut hvorvidt du kommer
+;'Ola calculates out whether you come'
+;SLC v-tr-objWH-cog_thSit-ASSESS
+;cognizing-sit-tr-whinterr (cognizing-sit) 
+Kari undres hvem som kommer
+;'Kari wonders who comes'
+;SLC v-trPrtcl-objWH-cog_thSit-ASSESS
+;cognizing-sit-tr-whinterr-prtcl (cognizing-sit)
+Kari fant ut hvem som kommer
+;'Kari found out who that comes'
+Ola regner ut hva svaret blir
+;'Ola calculates out what the answer becomes'
+;SLC v-tr-subjYN-thSit_cog-ASSESS
+;tr-yninterrsubj (binary-sit & tr-sit-indiv) 
+hvorvidt jeg kommer undrer Kari
+;'Whether I come concerns Kari'
+;SLC v-tr-subjWH-thSit_cog-ASSESS
+;tr-whinterrrsubj-n (binary-sit & tr-sit-indiv)
+hvem som kommer plager Kari
+;'who that comes bothers Kari'
+;SLC v-trObl-ag_th_intrloc-REPRESENT
+;obltr ( binary-obl-sit) 
+han forteller nyheten til Ola
+;'he tells the news to Ola'
+;SLC v-trObl-objRefl-ag_th_com-ACHVMNT
+;obltr-refl (binary-obl-sit)
+han allierer seg med gutten
+;'he allies himself with the boy'
+;SLC v-trObl-oblPRTOFobj-ag_aff_locth-AFFECTING
+;obltr-part-whole (binary-part-whole)
+jeg sparker Ola i baken
+;'I kick Ola in the butt'
+;SLC v-trObl-oblRefl_oblPRTOFobj-ag_aff_locth-AFFECTING
+;obltr-part-whole-refl (binary-part-whole)
+Ola klør seg på ryggen
+;'Ola scrathes himself on the back'
+;SLC v-trObl-oblDECL-ag_intrloc_thSitObl-LOCUTACT
+;obltr-decl (binary-obl-sit)
+han forteller Ola om at han kommer
+;'he tells Ola about that he comes'
+;SLC v-trObl-oblYN-ag_intrloc_thSitObl-LOCUTACT
+;obltr-yninterr (binary-obl-sit) 
+han spør Ola om hvorvidt han kommer
+;'he asks Ola about whether he comes'
+;SLC v-trObl-oblWH-ag_intrloc_thSitObl-LOCUTACT
+;obltr-whinterr (binary-obl-sit) 
+han spør Ola om hvem som kommer
+;'he asks Ola about who that comes'
+;SLC v-trObl-oblEquisubjInf-ag_intrloc_thSitObl-LOCUTACT
+;obltr-subjequi (binary-obl-sit) 
+han bønnfalt meg om å få komme
+;'he begged me about to be-allowed come'
+;SLC v-trObl-objReflExpl_oblEquisubjInf-ag_thSitObl-ASSESS
+;obltr-refl-subjequi (binary-obl-sit) 
+Ola finner seg i å vente
+;'Ola finds himself in to wait' - "Ola accepts waiting"
+;SLC v-trObl-oblEquiobjInf-ag_intrloc_thSitObl-LOCUTACT
+;obltr-objequi (binary-obl-sit)
+han bønnfalt meg om å gå
+;'he begged me about to go'
+;SLC v-trObl-objRefl_oblEquiobjInf-ag_intrloc_thSitObl-ACHVMNT
+;obltr-refl-objequi (binary-obl-sit)
+han forplikter seg til å komme
+;'he commits himself to to come'
+;SLC v-trObl-oblAbsInf-ag_intrloc_thSitObl-LOCUTACT
+;obltr-absinf  (binary-obl-sit)
+vi forteller barna om å bygge høyhus
+;'we tell the children about to build highrises' 
+;SLC v-trObl-objNonarg_oblRaistoobjInf-ag_thSit-ASSESS
+;obltr-raistoobj (unary-obl-sit) 
+jeg anser Ola for å være syk
+;'I regard Ola for to be sick'
+jeg anser Ola for å løpe vekk
+;'I regard Ola for to run away'
+;SLC v-trObl-objNonargRefl_oblRaistoobjInf-ag_thSit-ASSESS
+;obltr-refl-raistoobj (unary-obl-sit)
+hun anser seg for å være syk
+;'she regards herself for to be sick'
+;SLC v-trSecprAdj-subjNonarg-thSit_cogScpr-ASSESS
+;tr-exp-nonargsubj-secpr-adj (sit-exper-sit)
+han synes meg syk
+;'he seems me sick'
+;SLC v-trSecprN-subjNonarg-thSit_cogScpr-ASSESS
+;tr-exp-nonargsubj-secpr-n (sit-exper-sit) 
+han synes meg en idiot
+;'he seems me an idiot'
+;SLC v-trSecprPP-subjNonarg-thSit_cogScpr-ASSESS
+;tr-exp-nonargsubj-secpr-prep (sit-exper-sit) 
+han synes meg i godt humør
+;'he seems me in good mood'
+;SLC v-trSecprPredprtcl-subjNonarg-thSit_cogScpr-ASSESS
+;tr-exp-nonargsubj-secpr-predpcl (sit-exper-sit)
+han synes meg som en idiot 
+;'he seems me as an idiot'
+;SLC v-trSecprInf-subjNonarg_predicRaistosubjInf-thSit_cogScpr-ASSESS
+;tr-exp-raistosubj-inf (sit-exper-sit) 
+han synes meg å komme
+;'he seems me to come'
+;SLC v-trSecprInf-subjNonarg_predicRaistosubjBareinf-thSit_cogScpr-ASSESS
+;tr-exp-raistosubj-bareinf (sit-exper-sit)
+han synes meg komme 
+;'he seems me come'
+;SLC v-trSecprAdj-predicofObj-ag_affincrem_quality-MONODEV_CONCURRSTATE
+;concurrence-obj-secpr-adj (concurrence & arg2-secpred-sit)
+han drakk kaffen varm 
+;'he drank the coffee warm'
+;SLC v-trSecprPP-predicofObj-ag_thvehcl_quality-USINGVEHICLE_CONCURRSTATE
+;concurrence-obj-secpr-prep(concurrence & arg2-secpred-sit)
+han kjørte bilen i god stand
+; 'he drove the car in good shape'
+;SLC v-trSecprPredprtcl-predicofObj-ag_thvehcl_quality-USINGVEHICLE_CONCURRSTATE
+;concurrence-obj-secpr-predpcl(concurrence & arg2-secpred-sit)
+han kjørte bilen som en firmabil
+;'he drove the car as a company car'
+;SLC v-trSecprN-predicofObj-ass_th_quality-ASSESS
+;YY tr-argobj-secpr-n 
+hun kaller Ola en venn
+;'she calls Ola a friend'
+;SLC v-trSecprN-objRefl_predicofObj-ass_th_quality-ASSESS
+;tr-reflargobj-secpr-n
+hun kaller seg en venn
+;'she calls herself a friend'
+;SLC v-trSecprAdj-objNonarg_predicofObj-ag_csd-CAUSE_RESULT
+;YYnonargobj-perscaus-secpr-adj (pers-causation & arg2-secpred-sit)
+hun gjør skoene flate
+; she makes the shoes flat
+;SLC v-trSecprPP-objNonarg_predicofObj-ag_csd-CAUSE_RESULT
+;YYnonargobj-perscaus-secpr-prep
+hun gjør meg i god form
+; she makes me in good shape
+;SLC v-trSecprPP-predicofObj-ag_thvehcl_csd-CAUSE_RESULT
+;argobj-result-secpr-prep
+han kjørte bilen i god stand
+;'he drove the car in good condition'
+;SLC v-trSecprPP-predicofObj-ag_th_endpnt-PLACEMENT_ENDPNTMOTION
+hun setter skoene bak bordet
+;'she puts the shoes behind the table'
+;SLC v-trSecprPPshift-predicofObj-ag_csd_aff-CAUSE_RESULT
+;argobj-result-secpr-ppshift 
+han sparket i stykker ballen
+;'he kicks to pieces the ball'
+;SLC v-trSecprAdv-predicofObj-ag_aff_endpnt-CAUSEENDPNTMOTION
+;argobj-endofpath-secpr-adv 
+han sparket ballen bort
+;'he kicked the ball away'
+;SLC v-trSecprAdvshift-predicofObj-ag_endpnt_aff-CAUSEENDPNTMOTION
+;argobj-result-secpr-ptclshift
+han sparket bort ballen
+;'he kicked away the ball'
+;SLC v-trSecprAdv-objNonargRefl_predicofObj-ag_csd-CAUSE_RESULT
+;reflargobj-result-secpr-adv 
+han karer seg bort
+;'he gets himself away'
+;SLC v-trSecprAdj-objNonarg_predicofObj-ag_csd-CAUSE_RESULT
+;nonargobj-result-secpr-adj
+han sang rommet tomt
+;'he sang the room empty'
+;SLC v-trSecprAdj-objNonargRefl_predicofObj-ag_csd-CAUSE_RESULT
+;nonargobj-refl-result-secpr-adj
+han løp seg sunn
+;'he ran himself healthy'
+;tr-nonargobj-secpr-n 
+;SLC v-trSecprPP-objNonargRefl_predicofObj-ag_csd-CAUSE_RESULT
+;nonargobj-result-secpr-prep
+han sang seg i god form 
+;'he sang himself in good shape'
+;SLC v-trSecprAdv-objNonargRefl_predicofObj-ag_csd-CAUSE_RESULT
+;nonargobj-result-secpr-adv
+han sang sorgene bort 
+;'he sang the sorrows away'
+;SLC v-trSecprAdvshift-objNonargRefl_predicofObj-ag_csd-CAUSE_RESULT
+;nonargobj-result-secpr-prtclshift
+han sang bort sorgene 
+;'he sang away the sorrows'
+;SLC v-trSecprInf-objNonarg_predicRaistoobjInf-cog_thSit-ASSESS
+;nonargobj-cognizing-raistoobj-inf
+jeg formoder ham å være kvalifisert 
+;'I assume him to be qualified'
+;SLC v-trSecprAdj-objNonarg_predicofObj-cog_thSit-ASSESS
+;nonargobj-cognizing-raistoobj-adj
+han anser Ola skikket 
+;'he regards Ola fit'
+;SLC v-trSecprAdj-objNonargRefl_predicofObj-cog_thSit-ASSESS
+;nonargobj-refl-cognizing-raistoobj-adj
+han anser seg skikket 
+;'he regards himself fit'
+;SLC v-trSecprPredprtcl-objNonarg_predicofObj-sens_thSit-SENS_ASSESS
+;nonargobj-sensing-raistoobj-predpcl 
+han oppfattet bilen som ny 
+;'he percieved the car as new'
+;SLC v-trSecprBareinf-objNonarg_predicRaistoobjBareinf-sens_thSit-SENS
+;nonargobj-sensing-raistoobj-bareinf
+jeg ser ham ligge
+;'I see him lie'
+;SLC v-trSecprBareinf-objNonargRefl_predicRaistoobjBareinf-sens_thSit-SENS
+;nonargobj-refl-sensing-raistoobj-bareinf
+han kjente seg sove
+;'he felt himself sleep'
+;SLC v-tr-objReflExpl-ag-PERFORMANCE
+;tr-refl-obligadv
+han oppfører seg pent
+;'he behaves himself nicely'
+;SLC v-trEpon-subjExpl_eponDECL-cog_thSit-ASSESS
+;tr-epon-exp-decl
+det bekymrer meg at han kommer
+;'it worries me that he comes'
+;SLC v-trEpon-subjExpl_eponYN-cog_thSit-ASSESS
+;tr-epon-exp-yninterr
+det plager meg hvorvidt han kommer
+;'it bothers me whether he comes'
+;SLC v-trEpon-subjExpl_eponWH-cog_thSit-ASSESS
+;tr-epon-exp-whinterr
+det plager meg hvem som kommer
+;'it bothers me who that comes'
+;SLC v-trEpon-subjExpl_eponCOND-cog_thSit-ASSESS
+;tr-epon-exp-cond
+det vil ikke forundre meg hvis han kommer
+;'it will not surprise me if he comes'
+;SLC v-trEpon-subjExpl_eponEquiInf-cog_thSit-ASSESS
+;tr-epon-exp-inf
+det behager meg å komme
+;'it pleases me to come'
+;SLC v-trEpon-objExpl_eponDECL-ag_thSit-ACHVMNT
+;tr-objepon-decl
+vi muliggjorde det at han fikk innreisetillatelse
+;'we possible-made it that he got entrance visa'
+;SLC v-trEpon-objExpl_eponCOND-ag_thSit-ASSESS
+;tr-objepon-cond
+jeg vil beklage det hvis du kommer
+;'I will regret it if you come'
+;tr-objepon-yninterr
+;tr-objepon-whinterr
+;SLC v-trEpon-objExpl_eponAbsInf-ag_thSit-ACHVMNT
+;tr-objepon-inf
+vi umuliggjør det å komme
+;'we impossible-make it to come'
+;
+;SLC v-ditr-ag_rec_th-TRANSFER
+;ditr-recip
+jeg gav ham boken
+;'I gave him the book'
+;SLC v-ditr-iobjRefl-ag_ben_th-AVAILING
+;ditr-recip-refl
+han gav seg tid
+;'he gave himself time'
+;SLC v-ditr-ag_ben_th-SUSTAINEDSTATE
+;ditr-benef
+han unner henne boken
+;'he [unner] her the book'
+;SLC v-ditr-iobjRefl-ag_ben_th-SUSTAINEDSTATE
+;ditr-benef-refl
+han unner seg boken
+;'he [unner] himself the book'
+;SLC v-ditr-iobjRefl_dobjDECL-ag_cog_thSit-ASSESS
+;ditr-refl-declobj
+han innbiller seg at du kommer
+;'he imagines himself that you come' = "he imagines that you come"
+;SLC v-ditr-iobjReflExpl_dobjYN-ag_thSit-ASSESS
+;ditr-refl-yninterrobj
+han undrer seg hvorvidt du kommer
+;'he wonders [himself] whether you come'
+;SLC v-ditr-iobjReflExpl_dobjWH-ag_thSit-ASSESS
+;ditr-refl-whinterrobj
+han undrer seg hvem som kommer
+;'he wonders [himself] who that comes'
+;SLC v-ditr-iobjReflExpl_dobjEquiSubjInf-ag_thSit-ASSESS
+;ditr-refl-subjequi-infin
+han foresetter seg å komme
+;'he [foresetter] himself to come'
+;SLC v-ditr-dobjDECL-ag_interlctr_thSit-REPRESENT
+;ditr-declobj
+Kari forteller meg at han kommer
+;'Kari tells me that he comes'
+;SLC v-ditr-dobjYN-ag_interlctr_thSit-REPRESENT
+;ditr-yninterrobj
+han forteller meg hvorvidt Kari kommer
+;'he tells me whether Kari comes'
+;SLC v-ditr-subjDECL-thSit_ben_eventunit-CAUSE_RESULT
+;ditr-declsubj
+at han synger gir Kari hodepine
+;'that he sings gives Kari headache'
+;SLC v-ditr-subjYN-thSit_cog_th-REPRESENT
+;ditr-yninterrsubj
+hvorvidt han kommer først viser oss angrepsplanen
+;'whether he comes first shows us the attack plan'
+;SLC v-ditr-subjYN_dobjYN-thSit_cog_thSit-REPRESENT
+;ditr-yninterrsubj-yninterrobj
+hvorvidt han kommer først viser oss hvorvidt de har en plan
+;'whether he comes first shows us whether they have a plan'
+;SLC v-ditr-dobjWH-ag_interlctr_thSit-REPRESENT
+;ditr-yninterrobj
+han forteller meg hvem som kommer
+;'he tells me who that comes'
+;SLC v-ditr-subjWH-thSit_interlctr_th-REPRESENT
+;ditr-whinterrsubj
+hvem som kommer sist viser oss angrepsplanen
+;'who that comes first shows us the attack plan'
+;SLC v-ditr-subjWH_dobjWH-thSit_cog_thSit-REPRESENT
+;ditr-whinterr-whinterr
+hvem som kommer først viser oss hvem som kommer sist
+;'who that comes first shows us who that comes last'
+;SLC v-ditr-dobjEquiSubjInf-ag_cog_thSit-PERFORM
+;ditr-subjequi-infin
+Kari lover ham å komme
+;'Kari promises him to come'
+;ditr-subjequi-bareinf
+;SLC v-ditr-dobjEquiIobjInf-ag_cog_thSit-PERFORM
+;ditr-objequi-infin
+Kari tillater ham å komme
+;'Kari permits him to come'
+;SLC v-ditr-iobjRefl_dobjEquiIobjInf-ag_cog_thSit-PERFORM
+;ditr-refl-objequi-infin
+hun tillater seg å komme
+;'she permits herself to come'
+;SLC v-ditr-dobjEquiIobjBareinf-ag_cog_thSit-PERFORM
+;ditr-objequi-bareinfin
+Kari ber ham komme
+;'Kari asks him come'
+;SLC v-ditr-subjAbsInf-thSit_ben_th-DEFER
+;ditr-absinfin
+å bombe først frarøver fienden moralen
+;'to bomb first deprives the enemy the moral'
+;SLC v-ditr-subjEquiIobjInf-thSit_ben_th-AVAILING
+;ditr-equi-inverse
+å gå tur gir ham styrke
+;'to walk walks gives him strength'
+;SLC v-ditrObl-oblPRTOFiobj-ag_aff_th_locth-PERFORM
+;oblditr-part-whole
+jeg kaster Ola kakestykker i ansiktet
+;'I throw Ola cakes in the face' - "I throw cakes in the face of Ola"
+;
+;SLC vcop-predAdj-PROPTY
+;cop-n-proptascr-adj
+han er snill
+;'he is kind'
+;SLC vcop-subjDECL_predadj-ASSESS
+;cop-decl-proptascr-adj
+at han kommer er overraskende
+;'that he comes is surprising'
+;SLC vcop-subjAbsInf_predadj-ASSESS
+;cop-inf-proptascr-adj
+å løpe er sunt
+;'to run is healthy'
+;SLC vcop-subjYN_predadj-ASSESS
+;cop-yninterr-proptascr-adj
+hvorvidt han kommer er uvisst
+;'whether he comes is uncertain'
+;SLC vcop-subjWH_predadj-ASSESS
+;cop-whinterr-proptascr-adj
+hvem som kommer er uvisst
+;'who that comes is uncertain'
+;SLC vcop-predN-PROPTY
+;cop-n-proptascr-n 
+han er bonde
+;'he is peasant'
+;SLC vcop-subjDECL_predN-ASSESS
+;cop-decl-proptascr-n
+at han kom var et sjokk
+;'at he came was a chock'
+;SLC vcop-subjAbsInf_predN-ASSESS
+;cop-inf-proptascr-n
+å komme var en fornøyelse
+;'to come was a pleasure'
+;SLC vcop-subjYN_predN-ASSESS
+;cop-yninterr-proptascr-n
+hvorvidt han kommer er et spørsmål
+;'whether he comes is a question'
+;SLC vcop-subjWH_predN-ASSESS
+;cop-whinterr-proptascr-n
+hvem som kommer er et spørsmål
+;'who that comes is a question'
+;SLC vcop-predPP-ASSESS
+;cop-n-proptascr-prep 
+forestillingen var under enhver kritikk
+;'the performance was below any critique'
+;SLC vcop-subjDECL_predPP-ASSESS
+;cop-decl-proptascr-prep
+at han kom var over forventning
+;'that he came was above expectation'
+;SLC vcop-subjAbsInf_predPP-ASSESS
+;cop-inf-proptascr-prep
+å synge er under vurdering
+;'to sing is under consideration'
+;SLC vcop-subjYN_predPP-ASSESS
+;cop-yninterr-proptascr-prep
+hvorvidt han får synge er under vurdering
+;'whether he may sing is under consideration'
+;SLC vcop-subjWH_predPP-ASSESS
+;cop-whinterr-proptascr-prep
+hvem som får synge er under vurdering
+;'who that may sing is under consideration'
+;SLC vcop-predPredprtcl-PROPTY
+;cop-n-proptascr-predpcl
+Ola er som en gud
+;'Ola is like a god'
+;SLC vcop-subjDECL_predPredprtcl-ASSESS
+;cop-decl-proptascr-predpcl
+at han kom var som bønnhørt
+;'that he came was like [prayer-heard]'
+;SLC vcop-subjAbsInf_predPredprtcl-ASSESS
+;cop-inf-proptascr-predpcl
+å danse var som en drøm
+;'to dance was like a dream'
+;SLC vcop-subjYN_predPredprtcl-ASSESS
+;cop-yninterr-proptascr-predpcl
+hvorvidt soldatene lystrer er som et lottospill
+;'whether the soldiers obey is like a lotto-play'
+;SLC vcop-subjWH_predPredprtcl-ASSESS
+;cop-whinterr-proptascr-predpcl
+hvem som lystrer er som et lottospill
+;'who that obey is like a lotto-play'
+;SLC vcop-predN-IDENT
+;cop-n-ident-n
+dette er mannen
+;'this is the man'
+;SLC vcop-predAbsInf-IDENT
+;cop-n-ident-inf
+oppgaven er å spise silden
+;'the task is to eat the herring'
+;SLC vcop-predDECL-IDENT
+;cop-n-ident-decl
+problemet er at han spiser silden
+;'the problem is that he eats the herring'
+;SLC vcop-predYN-IDENT
+;cop-n-ident-yninterr
+problemet er om han spiser silden
+;'the problem is whether he eats the herring'
+;SLC vcop-predWH-IDENT
+;cop-n-ident-whinterr
+problemet er hvem som spiser silden
+;'the problem is who that eats the herring'
+;SLC vcop-epon-subjExpl_predAdj_eponDECL-ASSESS
+;cop-epon-adj-proptascr-decl
+det er trist at han kommer
+;'it is sad that he comes'
+;SLC vcop-epon-subjExpl_predAdj_eponAbsInf-ASSESS
+;cop-epon-adj-proptascr-inf
+det er fint å være frisk
+;'it is nice to be healthy'
+;SLC vcop-epon-subjExpl_predAdj_eponPP-ASSESS
+;cop-epon-adj-proptascr-prep
+det er fint i Finnmark
+;'it is nice in Finnmark'
+;SLC vcop-epon-subjExpl_predAdj_eponAdv-ASSESS
+;cop-epon-adj-proptascr-adv
+det er fint her
+;'it is nice here'
+;SLC vcop-epon-subjExpl_predAdj_eponYN-ASSESS
+;cop-epon-adj-proptascr-yninterr
+det er uvisst om han kommer
+;'it is uncertain whether he comes'
+;SLC vcop-epon-subjExpl_predAdj_eponWH-ASSESS
+;cop-epon-adj-proptascr-whinterr
+det er uvisst hvem som kommer
+;'it is uncertain who that comes'
+;SLC vcop-epon-subjExpl_predN_eponDECL-ASSESS
+;cop-epon-n-proptascr-decl
+det er en skuffelse at han kommer
+;'it is a disappointment that he comes'
+;SLC vcop-epon-subjExpl_predN_eponAbsInf-ASSESS
+;cop-epon-n-proptascr-inf
+det er en kunst å spise torsk
+;'it is an art to eat cod'
+;SLC vcop-epon-subjExpl_predN_eponYN-ASSESS
+;cop-epon-n-proptascr-yninterr
+det er et spørsmål hvorvidt han kommer
+;'it is a question whether he comes'
+;SLC vcop-epon-subjExpl_predN_eponWH-ASSESS
+;cop-epon-n-proptascr-whinterr
+det er et spørsmål hvem som kommer
+;'it is a question who that comes'
+;SLC vcop-epon-subjExpl_predPP_eponYN-ASSESS
+;cop-epon-prep-proptascr-decl
+det er hinsides diskusjon at han kommer
+;'it is beyond discussion that he comes'
+;SLC vcop-epon-subjExpl_predPredprtcl_eponYN-ASSESS
+;cop-epon-predpcl-proptascr-decl 
+det er som en forbannelse at han kommer
+;'it is like a curse that he comes'
+
+

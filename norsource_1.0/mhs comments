@@ -1,0 +1,30 @@
+310311 MHS
+
+Added SYNSEM.LOCAL.COMPS-BEGUN + to head-verb-inf-or-s-comp-phrase. The grammar had a problem with inverted subjects combining with such phrases (when, if the subject was to combine, it should have done so before complements begun combining).
+
+270311 MHS
+
+I've added in only those few features of my grammar that were feasible. This is mostly the alterations to extraction and topicalization of main clause np arguments. This has reduced some spurious ambiguity. 
+
+Moreover, I've found that many of the new mal-rules that deal with missing elements cause the grammar to choke on even simple sentences. These mal-rules include the following:
+
+
+mal-np-obj-drop-rule := mal-np-obj-drop-phrase.
+mal-3rd-refl-np-obj-drop-rule := mal-3rd-refl-np-obj-drop-phrase.
+mal-2nd-sg-refl-np-obj-drop-rule := mal-2nd-pl-refl-np-obj-drop-phrase.
+mal-2nd-pl-refl-np-obj-drop-rule := mal-2nd-sg-refl-np-obj-drop-phrase.
+mal-1st-pl-refl-np-obj-drop-rule := mal-1st-pl-refl-np-obj-drop-phrase.
+mal-1st-sg-refl-np-obj-drop-rule := mal-1st-sg-refl-np-obj-drop-phrase.
+mal-redundant-med-with-sammen-rule := mal-redundant-med-with-sammen-phrase.
+mal-np-in-sel-pp-drop-rule := mal-np-in-sel-pp-drop-phrase.
+mal-vp-subcat-pp-for-np-rule := mal-vp-subcat-pp-for-np-phrase.
+mal-refl-pron-with-self-rule := mal-refl-pron-with-self-phrase.
+
+For this reason they're currently commented out of the grammar. 
+
+
+At the moment, the following ordinary rules have been commented out as well:
+
+App, imp, correl, and  rel rules. Free pred rules.
+
+The big lexicons have been commented out as well. The loss in coverage is large, but hopefully maneagable. 

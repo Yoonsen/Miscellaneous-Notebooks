@@ -1,0 +1,134 @@
+1 gutten sover 1 33
+2 gutt sover 1 59
+3 vin renner 1 99
+4 den gutt sover 1 73
+5 en gutt sover 1 73
+6 en vin renner 1 113
+7 fjellet ligger 1 52
+8 vinen renner 1 87
+9 et fjell ligger 1 109
+10 et gutt sover 1 94
+11 en fjell ligger 1 88
+12 tre gutter sover 1 171
+13 tre fjell ligger 4 257 * - problem med app-regel + infl-regel. Skylda ligg på app-regel
+14 hver gutt sover 1 67
+15 hver vin renner 1 107
+16 hvert fjell ligger 1 110
+17 ingen gutt sover 1 70
+18 noen gutter sover 1 67
+19 noen viner renner 1 121
+20 noe vin renner 1 119
+21 en glad gutt smiler 2 179 * - problem med mal-bøying av adj. Sia glad er lik i comm og neut blir den parsa med comm (genre) og neut (mal).
+22 en god vin renner 1 145
+23 mye god vin renner 5 220 * - tvetydig mellom mye - quant, og mye - s-adv, kombinert med mal-head-subj-rule (Forutsett at "-mye- renner god vin" er ei setning, da)
+24 tre glade gutter smiler 1 247
+25 noen tre glade gutter smiler 3 270	* - bonanza. finn to setningar, ser på dei som mal-inverterte, og køyrer inv-coord-regel.
+26 fire tre glade gutter smiler 7 579 * - her køyrest (genre) fire tre saman som ein CARD. tre og fire mal-ast til å bli bøygde verb. + mal-inv & inv-coord
+27 tre glade hyggelige gutter smiler 1 404
+28 tre glade gutt smiler 0 197		* - her manglar mal-maskineriet kompetanse til å takle num-feil ved CARD. 
+29 tre glad gutter smiler 0 328		* - her er berre adjektivet feil. Dette skulle jo systemet takle? (Eller er mal for adj berre formulert for gen?)
+30 den glade gutten smiler 1 93
+31 den glad gutten smiler 0 133		* - nok ein mangel
+32 glade gutten smiler 1 76
+33 den glade gutt smiler 1 116
+34 de tre glade guttene smiler 4 262	* - x-plosjon. mal-infl + mal-inv + inv-coord
+35 de tre gode vinene renner 4 379	* - same problem
+36 de tre gode vin renner 3 370
+***************************************************************************************************************************************************************************
+37 de glade guttene smiler 1 125
+38 glade gutter smiler 1 110
+39 de glade gutter smiler 1 156
+40 glade guttene smiler 1 79
+41 hver av de glade guttene smiler 1 209
+42 hver av de tre glade guttene smiler 2 354
+43 hver av de tre gode vinene renner 2 483
+44 noen av de ni guttene smiler 1 164
+45 noe av den gode vinen renner 1 263
+46 ingen av de ni guttene smiler 1 167
+47 få av de ni guttene smiler 5 478
+48 ni av guttene smiler 1 107
+49 alle gutter sover 1 107
+50 alle gutt sover 0 106
+51 alle gutten sover 0 80
+52 begge guttene sover 1 70
+53 alle de tre guttene sover 1 242
+54 all den gode vinen renner 1 175
+55 mine tre gutter sover 3 245
+56 mine glade gutter smiler 1 178
+57 min glade gutt smiler 1 113
+58 all min gode vin renner 1 182
+59 alle mine gode viner renner 1 295
+60 min glad gutt smiler 0 166
+61 alle mine gutter smiler 1 184
+62 gutten min smiler 1 59
+63 vinen min renner 1 100
+64 glade gutten min smiler 1 91
+65 den glade gutten min smiler 1 109
+66 gutten til Ola smiler 1 106
+67 vinen til Ola renner 1 145
+68 Ola sin gutt smiler 1 118
+69 gutten si bygd sover 2 563
+70 gutten sitt bru sover 0 167
+71 gutten sin ball ruller 4 223
+72 en gutt sin ball ruller 2 253
+73 hver gutt sin ball ruller 2 247
+74 Ola sin glade gutt smiler 1 143
+75 Ola sin glade gutten min smiler 0 129
+76 Olas gutt smiler 1 141
+77 guttens ball ruller 3 229
+78 en gutts ball ruller 6 291
+79 hver gutts ball ruller 6 285
+80 Olas glade gutt smiler 1 168
+81 Olas glade gutten smiler 0 142
+82 Ola sin gutt sin katt løper 1 230
+83 Olas gutts katt løper 1 268
+84 Ola sin gutts katt løper 1 257
+85 Olas gutt sin katt løper 1 241
+86 en sekk poteter ligger 1 112
+87 en sekk med poteter ligger 0 141
+88 et par dusin esker baller ligger 1 284
+89 et dusin ballene ligger 0 120
+90 et hav av katter løper 3 252
+91 et hav av kattene løper 0 196
+92 Jon hopper to nitten 2 188
+93 Ola løper på tre trettifem 43 2275
+94 Ola løper tre trettifem 8 432
+95 Ola løper torsdag tre trettifem 45 1417
+96 Ola løper torsdag ettermiddag tre trettifem 164 4684
+97 Ola løper klokka tre trettifem 40 1301
+98 Ola løper torsdag klokka tre trettifem 128 3826
+99 Ola løper torsdag ettermiddag klokka tre trettifem 0 1566
+100 Ola løper femten hundre 1 238
+101 Ola finner to tjue 3 274
+102 tre tusen fire hundre ligger 54 1654
+103 tre tusen fire hundre og femti ligger 0 1732
+104 gul sover 2 53
+105 gule sover 2 88
+106 de gule sover 4 140
+107 den gule sover 4 113
+108 den gul sover 0 66
+109 alle gule sover 2 145
+110 alle gul sover 0 100
+111 hver gul sover 1 63
+112 hver gule sover 2 101
+113 hvert gult sover 1 126
+114 hvert gul sover 1 91
+115 fire sover 1 99
+116 de fire sover 1 145
+117 alle fire sover 1 156
+118 hver fire sover 0 111
+119 dine sover 1 64
+120 min sover 1 38
+121 alle dine sover 1 114
+122 hver dine sover 0 69
+123 alt mitt sover 1 186
+124 alt dine sover 0 178
+125 den dine sover 1 78
+126 de fleste sover 1 98
+127 hele landet løper 7 256
+
+;;; Total CPU time: 59920 msecs
+
+;;; Mean edges: 306.14
+
+;;; Mean parses: 5.15

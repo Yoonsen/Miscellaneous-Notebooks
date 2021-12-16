@@ -1,0 +1,36 @@
+;1.   
+Bussen kjører til Dragvoll.
+;//  basis setning
+;2.   
+Kjører bussen om Dragvoll om tre timer?
+;// brukt i prosjektsøknad
+;3.   
+Går bussen fra risvollan til gløshaugen fra nardo?
+;// disambiguering
+;4.   
+Kjører buss fem langs Elgeseter bro forbi Nidarosdomen mot Sentrum?
+;// diverse bevegelsespreposisjoner
+;5.   
+Kan du si meg om det er mulig å få hjelp til å komme til Skistua?
+;// dialogue acts
+;6.   
+Flybuss fra Lerkendal til flyplassen om 3 dager etter kl 10:00 .
+Flybuss fra Lerkendal til flyplassen om tre dager etter kl ti.
+;// ikke fullstndig setning
+;7. 
+Går alle busser fra holdeplasser i sentrum alle dager i påsken i alle år?
+Går alle busser fra sentrum alle dager i påsken i alle år?
+;// test skoping
+;8.   
+;Er det ingen avgang mellom kl 0914 og 0936 for nr. 3 i retning Lade?
+Er det ingen avgang mellom kl ni og kl ti for nummer tre i retning Lade?
+;// Authentic, Rhetorics
+;9. 
+Hvilken holdeplass stopper bussen som jeg venter på på på lørdag.
+;// :-)
+;10.  
+Går bussen oftere enn tidligere mer enn 10 minutter for sent ?
+Går bussen oftere enn tidligere mer enn ti minutter for sent?
+Går bussen oftere mer enn ti minutter for sent?
+;//adverbuale utfordringer.  Kan utvikles til et konkret databasequery hvis data finnes
+

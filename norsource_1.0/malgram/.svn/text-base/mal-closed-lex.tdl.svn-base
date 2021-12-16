@@ -1,0 +1,271 @@
+;;;              - No2 -
+;;; 
+;;;    Copyright (c)  No2 
+;;;                       2004-2010
+;;;
+;;;   
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    <norsource@hf.ntnu.no>
+;;;
+
+
+;; Types that only should be used for generation, not parsing
+
+lost_object := noun-lexeme &
+[ INFLECTION final-full,
+  STEM < "object" >,
+  SYNSEM.LKEYS.KEYREL.PRED "_lost_object_rel",
+  SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY anonym-k ].
+
+lost_subject := noun-lexeme &
+[ INFLECTION final-full,
+  STEM < "subject" >,
+  SYNSEM.LKEYS.KEYREL.PRED "_lost_subject_rel",
+  SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY anonym-k ].
+
+lost_preposition := prep-word-sel &
+[ STEM < "preposition" >,
+  SYNSEM.LKEYS.KEYREL.PRED "selected_prep_rel",
+  SYNSEM.LOCAL.CAT.HEAD.KEYS keys_min ].
+
+;; EAA: Single def. is again accepted by the general grammar.
+;; Pronouns for single definiteness "den snille gutt"
+
+;;LH100214: kommented away - these three seem to contribute nothing
+;mal-en_for_den-dem := mal-art_for_dem-masc-or-fem-sg-word &
+;  [ STEM < "en" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_commsg_deict_rel" ].
+
+;mal-ei_for_den-dem := mal-art_for_dem-fem-sg-word &
+; [ STEM < "ei" >,
+;   SYNSEM.LKEYS.KEYREL.PRED "_commsg_deict_rel" ].
+
+
+;mal-et_for_det-dem := mal-art_for_dem-neutsg-word &
+;  [ STEM < "et" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_neutsg_deict_rel" ].
+
+#|
+mal_den_for_en-art := mal-dem_for_art-masc-sg-word & 
+  [ STEM < "den" > ].
+
+mal_det_for_et-art := mal-dem_for_art-neutsg-word &
+  [ STEM < "det" > ].
+
+
+mal_de_dem := mal-dem-pl-word &
+  [ STEM < "de" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pl_deict_rel"].
+
+mal_denne_dem := mal-dem-masc-or-fem-sg-word &
+  [ STEM < "denne" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_proxim_deict_rel"].
+
+mal_dette_dem := mal-dem-neutsg-word &
+  [ STEM < "dette" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_proxim_deict_rel"].
+
+mal_disse_dem := mal-dem-pl-word &
+  [ STEM < "disse" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_proxim_deict_rel"].
+|#
+
+;; Pronouns for wrong case
+
+mal_jeg_perspron := 1st-sg-acc-pers-pron &
+  [ STEM < "jeg" >,
+    SYNSEM.LOCAL.CAT.HEAD.MAL.MALCASE +,
+	GENRE robust ].
+mal_meg_perspron := 1st-sg-nom-pers-pron &
+  [ STEM < "meg" >,
+    SYNSEM.LOCAL.CAT.HEAD.MAL.MALCASE +,
+	GENRE robust ].
+mal_vi_perspron := 1st-pl-acc-pers-pron &
+  [ STEM < "vi" >,
+    SYNSEM.LOCAL.CAT.HEAD.MAL.MALCASE +,
+	GENRE robust ].
+mal_oss_perspron := 1st-pl-nom-pers-pron &
+  [ STEM < "oss" >,
+    SYNSEM.LOCAL.CAT.HEAD.MAL.MALCASE +,
+	GENRE robust ].
+mal_du_perspron := 2nd-sg-acc-pers-pron &
+  [ STEM < "du" >,
+    SYNSEM.LOCAL.CAT.HEAD.MAL.MALCASE +,
+	GENRE robust ].
+mal_deg_perspron := 2nd-sg-nom-pers-pron &
+  [ STEM < "deg" >,
+    SYNSEM.LOCAL.CAT.HEAD.MAL.MALCASE +,
+	GENRE robust ].
+mal_de_perspron := 3rd-pl-acc-pers-pron &
+  [ STEM < "de" >,
+    SYNSEM.LOCAL.CAT.HEAD.MAL.MALCASE +,
+	GENRE robust ].
+mal_dem_perspron := 3rd-pl-nom-pers-pron &
+  [ STEM < "dem" >,
+    SYNSEM.LOCAL.CAT.HEAD.MAL.MALCASE +,
+	GENRE robust ].
+mal_ham_perspron := 3rd-sg-masc-nom-pers-pron &
+  [ STEM < "ham" >,
+    SYNSEM.LOCAL.CAT.HEAD.MAL.MALCASE +,
+	GENRE robust ].
+mal_hun_perspron := 3rd-sg-fem-acc-pers-pron &
+  [ STEM < "hun" >,
+    SYNSEM.LOCAL.CAT.HEAD.MAL.MALCASE +,
+	GENRE robust ].
+mal_henne_perspron := 3rd-sg-fem-nom-pers-pron &
+  [ STEM < "henne" >,
+    SYNSEM.LOCAL.CAT.HEAD.MAL.MALCASE +,
+	GENRE robust ].
+
+; LH
+; test these
+
+mal-sin_refl-pre-poss := poss-pron-word &
+  [ STEM < "sin" >,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc-sg,
+    SYNSEM.LKEYS.KEYREL 3rd-pers-pron-rel,
+	GENRE robust ].
+
+mal-sin_refl_post-poss := poss-pron-post-word &
+  [ STEM < "sin" >,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG masc-sg,
+    SYNSEM.LKEYS.KEYREL 3rd-pers-pron-rel,
+	GENRE robust ].
+
+mal-si_refl_pre-poss := poss-pron-word &
+  [ STEM < "si" >,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG fem-sg,
+    SYNSEM.LKEYS.KEYREL 3rd-pers-pron-rel,
+	GENRE robust ].
+
+mal-si_refl_post-poss := poss-pron-post-word &
+  [ STEM < "si" >,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG fem-sg,
+    SYNSEM.LKEYS.KEYREL 3rd-pers-pron-rel,
+	GENRE robust ].
+
+mal-sitt_refl_pre-poss := poss-pron-word &
+  [ STEM < "sitt" >,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG neutsg,
+    SYNSEM.LKEYS.KEYREL 3rd-pers-pron-rel,
+	GENRE robust ].
+
+mal-sitt_refl_post-poss := poss-pron-post-word &
+  [ STEM < "sitt" >,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG neutsg,
+    SYNSEM.LKEYS.KEYREL 3rd-pers-pron-rel,
+	GENRE robust ].
+
+mal-sine_refl_pre-poss := poss-pron-word &
+  [ STEM < "sine" >,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG pl,
+    SYNSEM.LKEYS.KEYREL 3rd-pers-pron-rel,
+	GENRE robust ].
+
+mal-sine_refl_post-poss := poss-pron-post-word &
+  [ STEM < "sine" >,
+    SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG pl,
+    SYNSEM.LKEYS.KEYREL 3rd-pers-pron-rel,
+	GENRE robust ].
+
+;; "Normal" mal-entries, i.e. entries that are wrong, but people may use
+
+;; Å / og
+
+mal_og_inf_comp := inf-comp &
+[ STEM <"og">,
+  GENRE.MALDROP no-drop ].
+
+;mal_å_connect := p-adv-connect-coord-word &
+; [ STEM < "å" >,
+;    SYNSEM.LKEYS.KEYREL [PRED "and-then_conn_rel"],
+;    SYNSEM.LOCAL.CAT.HEAD [KEYS.KEY og-conn ],
+;    GENRE.MALDROP no-drop].
+
+;mal_å__n-coord := coordinating-pos-n-word &
+;  [ STEM < "å" >,
+;    GENRE.MALDROP no-drop ].
+
+;mal_å_adv-p-coord := coordinating-pos-adv-pp-word &
+;  [ STEM < "å" >,
+;    GENRE.MALDROP no-drop ].
+
+;mal_å_v-coord := coordinating-pos-v-word &
+;  [ STEM < "å" >,
+;    GENRE.MALDROP no-drop ].
+
+;mal_å_v-dir-coord := coordinating-pos-v-dir-word &
+;  [ STEM < "å" >,
+;    GENRE.MALDROP no-drop ].
+
+;mal_å_relclause-coord := coordinating-relcl-word &
+;  [ STEM < "å" > ].
+;mal_å_adj-coord := coordinating-pos-adj-word &
+;  [ STEM < "å" >,
+;    GENRE.MALDROP no-drop ].
+
+#| Incomplete and problematic
+
+;; MAL DET "sin"
+
+
+mal_sin_refl-preposs := 3rd-sg-fem-poss-refl-pron-pre &
+  [ STEM < "sin" >,
+    GENRE robust].
+
+mal_sin_refl-postposs := 3rd-sg-neut-poss-refl-pron-post &
+  [ STEM < "sin" >,
+    GENRE robust ].
+
+
+;; MAL DET "si"
+
+mal_si_refl-masc-preposs := 3rd-mascsg-poss-refl-pron-pre &
+  [ STEM < "si" >,
+    GENRE robust].
+
+mal_si_refl-neut-postposs := 3rd-sg-neut-poss-refl-pron-post &
+  [ STEM < "si" >,
+    GENRE robust ].
+
+;; MAL DET "sitt"
+
+mal_sitt_refl-masc-preposs := 3rd-mascsg-poss-refl-pron-pre &
+  [ STEM < "sitt" >,
+    GENRE robust ].
+
+mal_sitt_refl-fem-preposs := 3rd-sg-fem-poss-refl-pron-pre &
+  [ STEM < "sitt" >,
+    GENRE robust ].
+
+
+mal_sitt_refl-masc-postposs := 3rd-mascsg-poss-refl-pron-post &
+  [ STEM < "sitt" >,
+    GENRE robust ].
+
+mal_sitt_refl-fem-postposs := 3rd-sg-fem-poss-refl-pron-post &
+  [ STEM < "sitt" >,
+    GENRE robust ].
+
+mal_sine_refl-preposs := 3rd-plur-poss-refl-pron-pre &
+  [ STEM < "sine" >].
+
+mal_sine_refl-postposs := 3rd-plur-poss-refl-pron-post &
+  [ STEM < "sine" >].
+
+|#
+
+;; "seg" reflexive with incorrect specification on PNG
+mal_seg_for_meg_refl := 1st-sg-seg-pron &
+  [ STEM < "seg" >,
+    GENRE robust ].
+mal_seg_for_deg_refl := 2nd-sg-seg-pron &
+  [ STEM < "seg" >,
+    GENRE robust ].
+mal_seg_for_oss_refl := 1st-pl-seg-pron &
+  [ STEM < "seg" >,
+    GENRE robust ].
+mal_seg_for_dere_refl := 2nd-pl-seg-pron &
+  [ STEM < "seg" >,
+    GENRE robust ].

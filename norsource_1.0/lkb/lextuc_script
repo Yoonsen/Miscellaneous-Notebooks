@@ -1,0 +1,199 @@
+;; set character encoding-*- Mode: TDL; Coding: utf-8; -*- 
+(if (lkb-version-after-p "2005/10/28 00:00:00")
+    (set-coding-system utf-8)
+  #+:allegro
+  (setf excl:*locale* (excl::find-locale ".utf8")))
+
+  
+;;;
+;;; First, load a number of LKB-specific settings; typically no need to look
+;;; too closely here
+;;;
+(lkb-load-lisp (parent-directory) "Version.lsp" t)
+(setf *grammar-directory* (parent-directory))
+;(lkb-load-lisp (this-directory) "globals.lsp")
+(lkb-load-lisp (this-directory) "globals_lextuc.lsp")
+(lkb-load-lisp (this-directory) "user-fns.lsp")
+  (lkb-load-lisp (this-directory) "checkpaths.lsp" t)
+(load-lkb-preferences (this-directory) "user-prefs.lsp")
+
+;;; load some patches (;o;)
+(lkb-load-lisp (this-directory) "export-html.lsp" t)
+
+
+;;;
+;;; Load a set of irregular morphological patterns
+;;;
+(load-irregular-spellings
+ (list
+  (lkb-pathname (parent-directory) "irregs.tab")
+  (lkb-pathname (parent-directory) "sg_def_m_subst.irreg") 
+  (lkb-pathname (parent-directory) "pl_ind_m_subst.irreg")
+  (lkb-pathname (parent-directory) "pl_def_m_subst.irreg")
+  (lkb-pathname (parent-directory) "sg_def_f_subst.irreg") ;; f
+  (lkb-pathname (parent-directory) "pl_ind_f_subst.irreg")
+  (lkb-pathname (parent-directory) "pl_def_f_subst.irreg")
+  (lkb-pathname (parent-directory) "sg_def_n_subst.irreg") ;; n  
+  (lkb-pathname (parent-directory) "pl_ind_n_subst.irreg")
+  (lkb-pathname (parent-directory) "pl_def_n_subst.irreg")
+  ))
+
+;;;
+;;; Now the core grammar
+;;;
+(read-tdl-type-files-aux
+ (list 
+  (lkb-pathname (parent-directory) "matrix.tdl")  
+  (lkb-pathname (parent-directory) "tmt.tdl")
+;;  (lkb-pathname (parent-directory) "tmr.tdl")
+  ;;(lkb-pathname (parent-directory) "transfer.tdl")
+  (lkb-pathname (parent-directory) "norsk.tdl")
+  (lkb-pathname (parent-directory) "exp-types.tdl")
+  (lkb-pathname (parent-directory) "lex-types-v.tdl")
+  (lkb-pathname (parent-directory) "v-types-add-SLASH.tdl")
+  (lkb-pathname (parent-directory) "predsort.tdl")
+;;  (lkb-pathname (parent-directory) "malgram/mal-types.tdl")
+;;  (lkb-pathname (parent-directory) "malgram/support-types.tdl")
+;;  (lkb-pathname (parent-directory) "malgram/mal-addenda.tdl")
+;;(lkb-pathname (parent-directory) "norskpredsort.tdl")
+  ;;(lkb-pathname (parent-directory) "out.txt.new")
+  (lkb-pathname (parent-directory) "mtr.tdl")
+
+ ))
+
+
+
+;;;
+;;; Next, the lexicon itself, instantiating (lexical) types of the grammar
+
+;; first, deal with the large lexicons (optionally in LexDB)
+;;(cond
+;; (*lexdb-params*
+;;  (load-lexdb-from-script))
+;; (t
+  (read-cached-lex-if-available (list (lkb-pathname (parent-directory) "dummy-lex.tdl")))
+;;  (read-cached-sublex-if-available "lex4.abbrev-lrg" (list (lkb-pathname (parent-directory) "BigLex/LexDB:nor.NorSource.lex4.abbrev-lrg.tdl")))
+ ;; (read-cached-sublex-if-available "lex4.a-lrg" (list (lkb-pathname (parent-directory) "BigLex/LexDB:nor.NorSource.lex4.a-lrg.tdl")))
+;;  (read-cached-sublex-if-available "lex4.interj-lrg" (list (lkb-pathname (parent-directory) "BigLex/LexDB:nor.NorSource.lex4.interj-lrg.tdl")))
+;;  (read-cached-sublex-if-available "lex4.pre-lrg" (list (lkb-pathname (parent-directory) "BigLex/LexDB:nor.NorSource.lex4.pre-lrg.tdl")))
+;;  (read-cached-sublex-if-available "Statistisk sentralbyrå" (list (lkb-pathname (parent-directory) "BigLex/LexDB:nor.Statistisk sentralbyrå.tdl")))
+  
+;;  (read-cached-sublex-if-available "lex4.v-lrg.tdl" (list (lkb-pathname (parent-directory) "BigLex/LexDB:nor.NorSource.lex4.v-lrg.tdl")))
+
+;;(read-cached-sublex-if-available "lex3.v-troll.tdl" (list (lkb-pathname (parent-directory) "BigLex/lex3.v-troll.tdl")))
+;;(read-cached-sublex-if-available "troll-verbs.tdl" (list (lkb-pathname (parent-directory) "BigLex/troll-verbs.tdl")))
+;; (read-cached-sublex-if-available "troll-adj.tdl" (list (lkb-pathname (parent-directory) "BigLex/troll-adj.tdl")))
+;; (read-cached-sublex-if-available "troll-nom.tdl" (list (lkb-pathname (parent-directory) "BigLex/troll-nom.tdl")))
+
+;;
+;; BussTuc lexicon
+;; 
+(read-cached-sublex-if-available "lex.bussTuc.tdl" 
+   (list (lkb-pathname (parent-directory) "lex4.lextuc.tdl")))
+
+;; next, load the small lexicons
+  (read-cached-sublex-if-available "lex1.close.tdl" (list (lkb-pathname (parent-directory) "lex1.close.tdl")))	
+  (read-cached-sublex-if-available "lex2.open.tdl" (list (lkb-pathname (parent-directory) "lex2.open.tdl")))
+;;  (read-cached-sublex-if-available "lex2.semlab.tdl" (list (lkb-pathname (parent-directory) "lex2.semlab.tdl")))
+;;(read-cached-sublex-if-available "lex3.p-adv-lean.tdl" (list (lkb-pathname (parent-directory) "lex3.p-adv-lean.tdl")))
+;;(read-cached-sublex-if-available "lex3.p-adv-prepsort.tdl" (list (lkb-pathname (parent-directory) "lex3.p-adv-prepsort.tdl")))
+;;(read-cached-sublex-if-available "lex3.p-adv-trail.tdl" (list (lkb-pathname (parent-directory) "lex3.p-adv-trail.tdl")))
+;;(read-cached-sublex-if-available "lex3.p-adv-decmp.tdl" (list (lkb-pathname (parent-directory) "lex3.p-adv-decmp.tdl")))
+  (read-cached-sublex-if-available "lex3.p-adv-full.tdl" 
+   (list (lkb-pathname (parent-directory) "lex3.p-adv-full.tdl")))
+  (read-cached-sublex-if-available "lex4.propn1.tdl"
+   (list (lkb-pathname (parent-directory) "lex4.propn1.tdl")))
+  (read-cached-sublex-if-available "lex4.propn2.tdl" 
+   (list (lkb-pathname (parent-directory) "lex4.propn2.tdl")))
+ (read-cached-sublex-if-available "lex4.a-lrg.tdl" (list (lkb-pathname (parent-directory) "lex4.a-lrg.tdl")))
+  (read-cached-sublex-if-available "lex4.n-lrg.tdl" (list (lkb-pathname (parent-directory) "lex4.n-lrg.tdl")))
+ (read-cached-sublex-if-available "lex4.v-lrg.tdl" (list (lkb-pathname (parent-directory) "lex4.v-lrg.tdl")))
+;  (read-cached-sublex-if-available "lex4.abbrev-lrg.tdl" (list (lkb-pathname (parent-directory) "lex4.abbrev-lrg.tdl")))
+ ; (read-cached-sublex-if-available "lex4.interj-lrg.tdl" (list (lkb-pathname (parent-directory) "lex4.interj-lrg.tdl")))
+  ;;(read-cached-sublex-if-available "mal-closed-lex.tdl" (list (lkb-pathname (parent-directory) "malgram/mal-closed-lex.tdl")))
+; (read-cached-sublex-if-available "now-lex.tdl" (list (lkb-pathname (parent-directory) "now-lex.tdl")))
+
+
+
+
+
+;;; UNCOMMENT LINE BELOW TO activate compounder
+;(setf *lexicon* (make-instance 'compound-lex-database :lex *lexicon*))
+
+;;;
+;;; Finally, the grammar rules, lexical rules (given special treatment in the
+;;; parser in that they can apply _prior_ to `inflectional' rules), and the
+;;; `inflectional' rules themselves (rules with an associated orthographemic
+;;; alternation of the surface string).
+;;;
+(read-tdl-grammar-file-aux (lkb-pathname (parent-directory) "rules.tdl"))
+(read-tdl-lex-rule-file-aux (lkb-pathname (parent-directory) "lrules.tdl"))
+;;(read-tdl-lex-rule-file-aux (lkb-pathname (parent-directory) "lrules-syntax.tdl"))
+(read-morph-file-aux (lkb-pathname (parent-directory) "irules-v.tdl"))
+(read-morph-file-aux (lkb-pathname (parent-directory) "irules-n.tdl"))
+(read-morph-file-aux (lkb-pathname (parent-directory) "irules-a.tdl"))
+(read-morph-file-aux (lkb-pathname (parent-directory) "irules-deriv.tdl"))
+;;(read-morph-file-aux  (lkb-pathname (parent-directory) "malgram/lrules-mal.tdl"))
+ ;;(read-morph-file-aux (lkb-pathname (parent-directory) "malgram/irules-mal.tdl"))
+ ;;(read-morph-file-aux (lkb-pathname (parent-directory) "malgram/rules-mal.tdl"))
+
+
+;;;
+;;; The `start symbol(s)' of the grammar.
+;;;
+(read-tdl-psort-file-aux (lkb-pathname (parent-directory) "roots.tdl"))
+
+;;;
+
+;;; Types providing labels for nodes in parse trees
+;;;
+(read-tdl-parse-node-file-aux (lkb-pathname (parent-directory) "labels.tdl"))
+
+;;; bruland, copied from Erg
+;;; the Regular Expression Pre-Processor (REPP) is now broken up into quite a
+;;; number of files.  to ease re-use across the LKB and PET, keep the REPP 
+;;; configuration in a separate file.
+;;;
+;;(lkb-load-lisp (parent-directory "rpp") "setup.lsp" t nil)
+
+;;; preprocessor (fspp) rules
+;;(read-preprocessor (lkb-pathname (parent-directory) "preprocessor.no.fsr"))
+(read-preprocessor (lkb-pathname (parent-directory) "simple_tokenizer.fsr"))
+
+;;; transfer rules for paraphrasing
+#+:mt
+(mt:read-transfer-rules 
+ (list
+  (lkb-pathname (parent-directory) "paraphraser.mtr"))
+  "Paraphrasing Rules"
+ :filter nil :task :paraphrase)
+
+(mt:read-transfer-rules
+ (list
+  (lkb-pathname (parent-directory) "trigger.mtr"))
+ "Generation Trigger Rules"
+ :filter nil :task :trigger :recurse nil :edges 200 :subsume nil) 
+
+(mt:read-transfer-rules
+ (list
+  (lkb-pathname (parent-directory) "generation.mtr"))
+ "Generation Trigger Rules"
+ :filter nil :task :fixup :edges 200) 
+
+;;; semi mapping
+;(mt:read-vpm (lkb-pathname (parent-directory) "semi.vpm") :semi)
+
+;;;
+;;; A few more LKB-specific settings, this time for MRS post-processing and
+;;; generation;
+;;;
+(lkb-load-lisp (this-directory) "mrsglobals.lisp" t)
+
+;(load "/home/hellan/.tsdbrc")
+
+;;;
+;;; scoring
+;;;
+#+:tsdb
+(tsdb::read-model (lkb-pathname (parent-directory) "suite_1.mem"))
+

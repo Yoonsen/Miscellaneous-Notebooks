@@ -1,0 +1,180 @@
+
+if (pos.equals("univquant1-part-word")) pos = "QUANT";
+if (pos.equals("univquant2-part-word")) pos = "QUANT";
+if (pos.equals("klokka-word")) pos = "N";
+if (pos.equals("measure-out-prep-word")) pos = "P";
+if (pos.equals("part-adj-prep-word")) pos = "P";
+if (pos.equals("part-adj-prep2-word")) pos = "P";
+if (pos.equals("part-adj-prep-word")) pos = "P";
+if (pos.equals("part-adj-prep2-word")) pos = "P";
+if (pos.equals("part-card-prep-word")) pos = "P";
+if (pos.equals("part-measurenp-prep-word")) pos = "P";
+if (pos.equals("prep-detachposs-word")) pos = "P";
+if (pos.equals("part-card-prep-word")) pos = "P";
+if (pos.equals("prep-arg1prop-epon-lxm")) pos = "P";
+if (pos.equals("part-q-mass-prep-word")) pos = "P";
+if (pos.equals("part-q-prep-word")) pos = "P";
+if (pos.equals("quantspec-word")) pos = "ADV";
+if (pos.equals("qualadv-word")) pos = "ADV";
+if (pos.equals("p-adv-connect-adv-word")) pos = "CONJ";
+if (pos.equals("p-adv-dir-connect-word")) pos = "CONJ";
+if (pos.equals("cmpar-dep-close-word")) pos = "PRTcmpr";
+if (pos.equals("cmpar-dep-diff-for-noun-word")) pos = "PRTcmpr";
+if (pos.equals("cmpar-dep-equal-for-noun-word")) pos = "PRTcmpr";
+if (pos.equals("prep-rais-vp-mod-word")) pos = "P";
+if (pos.equals("end-punct")) pos = "EndPctuatn";
+if (pos.equals("superlat-quantity-word")) pos = "QUANT";
+if (pos.equals("prep-arg1prop-epon-lxm")) pos = "P";
+if (pos.equals("rel-comp")) pos = "PNrel";
+if (pos.equals("subj-relpron")) pos = "ADVcmpr";
+if (pos.equals("equalizer-word")) pos = "ADVcmpr";
+if (pos.equals("quant-indef-adjcard-sg-word")) pos = "QUANT";
+if (pos.equals("quant-indef-adjcard2-sg-word")) pos = "QUANT";
+if (pos.equals("prep-expl-dep-word")) pos = "P";
+if (pos.equals("prep-s-expl-dep-word")) pos = "P";
+if (pos.equals("comparative-closecomp-with-cmpar-word")) pos = "QUANT";
+if (pos.equals("cmpar-quantity-word")) pos = "QUANT";
+if (pos.equals("comparative-adv-vp-mod-word-sup")) pos = "ADV";
+if (pos.equals("comparative-adv-word-sup")) pos = "ADV";
+if (pos.equals("freestnding-weak-adj-word")) pos = "ADJ";
+if (pos.equals("def-q-word")) pos = "DEM";
+if (pos.equals("poss-particle-word")) pos = "PNposs";
+if (pos.equals("som-n-pred-comp")) pos = "PRTpred";
+if (pos.equals("som-resumpt-word")) pos = "PNrel";
+if (pos.equals("som-adj-pred-comp")) pos = "PRTpred";
+
+To justerte regler fra tidligere:
+
+if (pos.equals("comparative-adv-word-sup")) pos = "ADVcmpr";
+if (pos.equals("proper-name-word")) pos = "Np";
+
+
+Previous list:
+
+
+For hver type så lager jeg disse PoS:
+if (pos.equals("top-verb-lexeme")) pos = "V";
+if (pos.equals("ordinal-word")) pos = "ORD"; 
+if (pos.equals("adj-lxm")) pos = "ADJ";
+if (pos.equals("adv-word")) pos = "ADV";
+if (pos.equals("noun-lexeme")) pos = "N";
+if (pos.equals("prep-word")) pos = "P";
+if (pos.equals("prep-raise-word")) pos = "P";
+if (pos.equals("prep-clause-word")) pos = "P";
+if (pos.equals("prep-s-word")) pos = "P";
+if (pos.equals("cardinal-word")) pos = "CARD";
+;;if (pos.equals("proper-name-word")) pos = "NP";
+if (pos.equals("pers-pron-word")) pos = "PN";
+if (pos.equals("det_expl")) pos = "PN";
+if (pos.equals("basic-compl")) pos = "COMP";
+if (pos.equals("a-connector")) pos = "CONJ";
+if (pos.equals("s-operadv-word")) pos = "ADVs";
+if (pos.equals("adv-particle-word")) pos = "ADVprt";
+if (pos.equals("quantifier-word")) pos = "ADV";
+if (pos.equals("poss-word")) pos = "PNposs";
+if (pos.equals("poss-pron-word-sup")) pos = "PNposs";
+if (pos.equals("seg-word")) pos = "PNrefl";
+if (pos.equals("art-cardone-word")) pos = "ART";
+if (pos.equals("quant-indef-card-word")) pos = "QUANT";
+if (pos.equals("det-word")) pos = "DET";
+if (pos.equals("dem-word")) pos = "DEM";
+if (pos.equals("interrog-quantifier-word")) pos = "QUANTinterr";
+if (pos.equals("interjection-word")) pos = "INTRJCT";
+if (pos.equals("interrog-pron-word")) pos = "PNinterr";
+;;if (pos.equals("comparative-adv-word")) pos = "ADVcmpr";
+if (pos.equals("degreespec-word")) pos = "DEG";
+if (pos.equals("unknown")) {						
+	if (tab[2].equals("lex4.v-lrg")) {
+		pos = "V";
+	} else if (tab[2].equals("lex3.p-adv-full")) {
+		pos = "ADV";
+	} else if ( tab[1].endsWith("_end-punct")) {
+		pos = "ENDpctuatn";
+} else if ( tab[1].endsWith("-connect")) {
+	pos = "CONJ";
+} else if ( tab[1].endsWith("-comma")) {
+	pos = "COMMA";
+} else if ( tab[1].endsWith("-parenthesis")) {
+	pos = "Parenth";
+} else if ( tab[1].endsWith("-quotation")) {
+	pos = "QUOT";
+} else if ( tab[1].endsWith("_partcl")) {
+
+
+
+Remaining errors:
+
+;unknown, mer_cmpar-close, lex1.close
+;unknown, mere_cmpar-close, lex1.close
+;unknown, mindre_cmpar-close, lex1.close
+;unknown, enn_cmpardep-reg, lex1.close
+;unknown, som_cmpardep-reg, lex1.close
+;unknown, selv_refl, lex1.close
+;unknown, både_corrconnect, lex1.close
+;unknown, enten_corrconnect, lex1.close
+;unknown, hverken_corrconnect, lex1.close
+;unknown, mye_modble-abs, lex1.close
+;'qualifadv-word', nesten_qualifadv, lex1.close
+;unknown, regne_impers-pres, lex1.close
+;unknown, klarne_telicpart, lex1.close
+;unknown, være_copExpnNAbsinf, lex1.close
+;unknown, starte_intr-obl, lex1.close
+;unknown, tilkomme_io-pres, lex1.close
+;unknown, vente_io-pres, lex1.close
+;unknown, høre_expn-prtcl-fin, lex1.close
+;unknown, høre_expn-prtcl-infin, lex1.close
+;unknown, spise_atelobl-på, lex1.close
+;unknown, blåse_impers, lex2.open
+;unknown, klarne_impers, lex2.open
+;unknown, snø_impers, lex2.open
+;unknown, suse_impers-pres, lex2.open
+;unknown, tykne_impers, lex2.open
+
+
+New list (last)
+
+if (pos.equals("comparative-closecomp-adv-word")) pos = "ADVcmpr";
+if (pos.equals("comparative-closecomp-with-cmpar-word")) pos = "ADVcmpr";
+if (pos.equals("cmpar-dep-reg-word")) pos = "CONJ";
+if (pos.equals("refl-adv-word")) pos = "ADV";
+if (pos.equals("correl-pos-connect-word")) pos = "CONJ";
+if (pos.equals("quant-indef-adjcard-sg-abs-word")) pos = "DEG";
+if (pos.equals("qualifadv-word ")) pos = "ADV";
+if (pos.equals("v-intrImpers")) pos = "V";
+if (pos.equals("v-intrImpersPrtcl")) pos = "V";
+if (pos.equals("v-copExpnN-expnAbsinf")) pos = "V";
+if (pos.equals("v-intrObl-oblN-activity")) pos = "V";
+if (pos.equals("v-trPresnt")) pos = "V";
+if (pos.equals("v-intrPrtclExpn-expnDECL")) pos = "V";
+if (pos.equals("v-intrPrtclExpn-expnAbsinf")) pos = "V";
+if (pos.equals("v-intrImpers")) pos = "V";
+
+
+
+Comments:
+TC: 
+Ncomm should mean 'common noun'. 'noun with common gender' is info for the gloss line, and has no place in a universal POS list
+
+MOD	modifier	no match
+this is no POS
+
+Nbare	bare noun	Noun
+problematic - fails in search for N. 'bare' should be for the comment field
+
+NDV	deverbal noun	no match
+Confusing, and redundant - Gloss has already  'N>V	denominal verb'
+
+NFEM	feminine noun	Noun
+problematic - fails in search for N. is info for the gloss line
+
+NMASC	masculine noun	Noun
+problematic - fails in search for N. is info for the gloss line
+
+NNEUT	neuter noun	Noun
+problematic - fails in search for N. is info for the gloss line
+
+NNO	noun neutral for number (e.g. data, aircraft)	Noun
+problematic - fails in search for N. is info for the gloss line
+
+Np	Proper noun	ProperNoun
+Recommend:  Nprop   (otherwise one is clueless in guessing bwteen PN and Np - and note that case distinctions are often ignored, and 'NP' is a very different thing)

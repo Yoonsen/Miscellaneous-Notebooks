@@ -1,0 +1,38 @@
+;; Optionally split off final `s' for possessive
+
+;possessive_s_tmr := token_mapping_rule &
+;[ +CONTEXT < [ +FORM ^(.+)s$,             
+;             +TRAIT #trait, +CLASS non_ne,
+;             +PRED #pred, +CARG #carg, +TNT #tnt ] >,
+;  +OUTPUT < [ +FORM "${C1:+FORM:1}",
+;              +TRAIT #trait, +PRED #pred, +CARG #carg, +TNT #tnt ],
+;            [ +FORM "s",
+;              +TRAIT #trait, +PRED #pred, +CARG #carg, +TNT #tnt ] >,
+;  +POSITION "O1<O2, C1@O1, C1@O2" ].
+
+;; Digit numbers analyzed as `generic_card_ne' defined in lex1.close.tdl
+
+;card_ne_1_tmr := ne_tmt &
+;[ +INPUT < [ +FORM ^([0-9][0-9]*)$ ] >,
+;  +OUTPUT < [ +CLASS card_ne ] > ].
+
+;; possessive s
+;;suffix_straight_quote_tmr := suffix_straight_quote_tmt &
+possesive_norsk_tmr := suffix_straight_quote_tmt &
+[ +CONTEXT < [ +FORM ^(.*)$ ],
+             [ +FORM ^([s])$ ] >,
+  +OUTPUT < [ +FORM "${C1:+FORM:1}${C2:+FORM:1}" ] > ].
+ 
+;; bruland preprosess
+;;card_con_eksakt_tmr := one_one_form_tmt &
+;;[ +INPUT < [ +FORM ^([0-9]*)$ ] >,
+;;  +OUTPUT < [ +FORM "number", +CARG "${I1:+FORM:1}" ] > ].
+
+;decade_ne_1_tmr := ne_tmt &
+;[ +INPUT < [ +FORM ^(?:1[0-9])?[0-9]0[sS]$ ] >,
+;  +OUTPUT < [ +CLASS plur_ne ] > ].
+
+downcase_tmr := one_one_form_tmt &
+[ +INPUT < [ +FORM ^(.*[[:upper:]].*)$, 
+             +CLASS non_ne, +TNT null_tnt ] > ,
+  +OUTPUT < [ +FORM "${lc(I1:+FORM:1)}" ] > ].

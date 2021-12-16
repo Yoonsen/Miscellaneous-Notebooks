@@ -1,0 +1,359 @@
+;;; -*- Coding: utf-8; -*-
+
+;
+;; intrans-arg1-verb-lexeme
+SYNSEM.LOCAL.CAT.VAL [COMPS <>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+
+
+
+;; intrans-obl-verb-lexeme 
+SYNSEM.LOCAL.KEY-SPEC #1,
+SYNSEM.LOCAL.CAT.QVAL [SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+                       OBL1.LOCAL.CAT [HEAD prep & [KEYS.KEY #1],
+                                      QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind]]
+
+;; intrans-obl-decl-verb-lexeme
+SYNSEM.LOCAL.KEY-SPEC #1,
+SYNSEM.LOCAL.CAT.QVAL [SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+                       OBL1.LOCAL.CAT [HEAD prep & [KEYS.KEY #1],
+                                      QVAL.DOBJECT.LOCAL [CONT.HOOK.INDEX event,
+                                                         CAT.HEAD.DECL +]]]
+
+;; intrans-obl-interr-verb-lexeme
+SYNSEM.LOCAL.KEY-SPEC #1,
+SYNSEM.LOCAL.CAT.QVAL [SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+                       OBL1.LOCAL.CAT [HEAD prep & [KEYS.KEY #1],
+                                      QVAL.DOBJECT.LOCAL [CONT.HOOK.INDEX event,
+                                                         CAT.HEAD.DECL -]]]
+
+
+
+
+
+;; subj-equi-pp-verb-lexeme
+SYNSEM.LOCAL.KEY-SPEC #1,
+SYNSEM.LOCAL.CAT.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX #2 & ref-ind,
+SYNSEM.LOCAL.CAT.VAL.COMPS <[LOCAL.CAT.HEAD prep-comp & [KEYS.KEY #1],
+                             LOCAL.CONT.HOOK [XARG #2,
+                                              LTOP #3]]>,
+SYNSEM.LKEYS.KEYREL [ARG1 #2,
+                     ARG2 #3]
+
+
+
+Comment: 
+Ex:
+jeg ber om å komme
+; I ask about-PREP to-INF come
+; 'I request to come'
+
+Special preposition-types and rules are needed to secure identity:
+;;;; om: prep-rais-word; head-prep-rais-comp-rule
+;;;; head-verb-preprais-comp-rule
+
+The verb selects the P, and the P in turn imposes 'transmitted identity' on its
+governed infinitive. Notice that this PP is in the COMPS list, not in ICOMPS,
+as the identity suggests a closer connection than in the standard oblique
+constructions using ICOMPS.
+Perhaps there should rather be a direct securing down into
+the P's complement stated in the verb itself, like this
+(using VAL-lists, violating locality as imposed on such lists):
+
+SYNSEM.LOCAL.KEY-SPEC #1,
+SYNSEM.LOCAL.CAT.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX #2 & ref-ind,
+SYNSEM.LOCAL.CAT.VAL.COMPS <[LOCAL.CAT.HEAD prep-comp & [KEYS.KEY #1],
+                             LOCAL.CAT.VAL.COMPS <[LOCAL.CAT.HEAD infin-comp]>,
+                             LOCAL.CONT.HOOK [XARG #2,
+                                              LTOP #3]]>,
+SYNSEM.LKEYS.KEYREL [ARG1 #2,
+                     ARG2 #3]
+
+or this way (using QVAL, avoiding locality restrictions):
+
+SYNSEM.LOCAL.KEY-SPEC #1,
+SYNSEM.LOCAL.CAT.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX #2 & ref-ind,
+SYNSEM.LOCAL.CAT.QVAL.XOBJECT [LOCAL.CAT.HEAD prep-comp & [KEYS.KEY #1],
+                               LOCAL.CAT.QVAL.DOBJECT [LOCAL.CAT.HEAD infin-comp,],
+                                                       CONT.HOOK [XARG #2,
+                                                                  LTOP #3]]>,
+SYNSEM.LKEYS.KEYREL [ARG1 #2,
+                     ARG2 #3]
+
+Here XOBJECT is the 'oblique' PP in case - a notion not yet defined. (Note that
+in the working approach, the PP does not have a QVAL category - it just sits as
+first COMPS. It wasn't clear what QVAL category to assign (perhaps XOBJECT,
+modelled on 'XCOMP' or so, but that would take some consideration), and in such
+a case, having the VAL-lists for underspecification is convenient.)  If it
+were, we could use this approach.
+End of comment
+                             
+
+;; intrans-atel-obl-verb-lexeme 
+SYNSEM.LOCAL.KEY-SPEC #1,
+SYNSEM.LOCAL.CONT.HOOK.INDEX.INCR-ASPECT atelic,
+SYNSEM.LOCAL.CAT.QVAL [SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+                       OBL1.LOCAL.CAT [HEAD prep & [KEYS.KEY #1],
+                                      QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind]]
+
+;; intrans-secpred-argx-verb-lexeme
+SYNSEM.LOCAL.CAT.QVAL.SUBJECT [LOCAL.CONT.HOOK.INDEX #5], 
+SYNSEM.LOCAL.CAT.QVAL.PREDIC [LOCAL.CONT.HOOK.LTOP #2,
+                             LOCAL.CONT.HOOK.XARG #5,
+                             LOCAL.CAT.HEAD adj],
+SYNSEM.LKEYS.KEYREL.ARGX #2
+
+Ex:
+kjelen koker varm
+; 'the kettle boils warm'
+
+;; intrans-telicparticle-arg1-verb-lexeme
+SYNSEM.LOCAL.KEY-SPEC #1,
+SYNSEM.LOCAL.CAT.QVAL.SUBJECT [LOCAL.CONT.HOOK.INDEX #5], 
+SYNSEM.LOCAL.CAT.QVAL.PREDIC [LOCAL.CONT.HOOK.LTOP #2,
+                             LOCAL.CONT.HOOK.XARG #5,
+                             LOCAL.CAT.HEAD adv-reg & [KEYS.KEY #1 ]],
+SYNSEM.LKEYS.KEYREL [ARG1 #5,
+                    ARGX #2]
+
+Ex:
+kaffen koker opp
+; 'the koffee boils up'
+
+;; intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme
+SYNSEM [LKEYS.KEYREL.ARG1 #1,
+        LOCAL.KEY-SPEC #4,
+        LOCAL.CAT.QVAL [SUBJECT [LOCAL.CONT.HOOK.INDEX #5]>, 
+                      PREDIC [LOCAL.CONT.HOOK [XARG #5
+                                              LTOP #1],
+                             LOCAL.CAT.HEAD prep-or-adj-or-adv & [KEYS.KEY #4 ]]]].
+
+Comment:
+By the HEAD value 'prep-or-adj-or-adv' of PREDIC, this type comprises a lot, as
+exemplified by the constructions below: 
+
+an adjective:
+gutten virker syk
+; the boy seems sick
+
+a preposition, which 'raising'-transmits the XARG of a governed infinitive,
+through rather special rules as indicated:
+;;;; til: prep-rais-word; head-prep-rais-comp-rule
+;;;; head-verb-preprais-comp-rule
+Ola later til å komme
+;   Ola appears to-PREP to-INFMARK come-INF
+;  'Ola appears to be coming'
+
+the preposition even transmits expletive subjects of presentationals:
+det later til å komme to gutter
+; there appears to-PREP to-INFMARK come-INF two boys
+;  'there appear to be two boys coming'
+*det later til å komme gutten
+; there appears to-PREP to-INFMARK come-INF the boy
+;  'there appears to be the boy coming'
+
+another type of preposition, which correlates an expletive with an 'at'-clause:
+;;;; til: prep-expl-dep-word; head-prep-rais-comp-rule; head-verb-prep-comp-rule
+;;;; at: decl-subord-comp; head-complementizer-comp-rule
+det later til at gutten kommer
+; it appears to-PREP that comes the boy
+;  'it appears that the boy comes'
+End of comment
+
+
+
+;; intrans-secpred-prtcl1-rais-from-nonverbal-arg1-verb-lexeme
+SYNSEM [LOCAL.CONT.HOOK.INDEX #2,
+        LOCAL.KEY-SPEC #4,
+        LOCAL.CAT.QVAL [SUBJECT.LOCAL.CONT.HOOK.INDEX #5], 
+                        PREDIC [ LOCAL.CONT.HOOK.XARG #5,
+                                 LOCAL.CAT.HEAD adj-reg],
+                        PREDIC2 [ LOCAL.CONT.HOOK.XARG #2,
+                                  LOCAL.CAT.HEAD adv-reg,
+                                  LOCAL.CAT.HEAD [KEYS.KEY #4 & pcl ]] >]]
+
+Ex:
+han høres syk ut
+; he sounds sick out
+; 'he sounds sick'
+using:
+adv-particle-word; head-verb-advparticle-comp-rule; head-verb-adj-comp-rule
+End of ex.
+
+
+
+;; epistemic-modal-verb-lexeme
+SYNSEM.LOCAL.CAT.HEAD verb-aux,
+SYNSEM.LOCAL.CAT.VAL [SUBJ < [LOCAL.CONT.HOOK.INDEX #5 ]>, 
+                      COMPS < [ LOCAL.CAT.HEAD verb-all,
+                              LOCAL.CAT.VAL.SUBJ < [LOCAL.CONT.HOOK.INDEX #5] >,    
+                              LOCAL.CONT.HOOK.INDEX.E.TENSE infin ]>]
+Ex:
+han kan komme
+; he can come
+
+
+
+;; subj-equi-verb-lexeme
+SYNSEM [LOCAL.CAT.VAL.SUBJ < [LOCAL.CONT.HOOK.INDEX #1 ] >,
+       LOCAL.CAT.VAL.COMPS < [LOCAL.CAT.HEAD infin-comp & [TRANSPAR +],
+                              LOCAL.CONT.HOOK.XARG #1]>]
+hun prøver å komme
+; she tries to come
+
+
+
+;; trans-arg1-2-verb-lexeme 
+SYNSEM.LOCAL.CAT.VAL [COMPS <[]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+hun fortærer maten
+; she devours the food
+
+;; trans-arg1-2refl-verb-lexeme
+han vasker seg
+SYNSEM.LOCAL.CAT.VAL [COMPS <[LOCAL.BINDING seg-bare,
+                              LOCAL.CONT.HOOK.INDEX #1]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX #1 & ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+Ex:
+han vasker seg
+; he washes REFL
+; 'he washes'
+
+;; subj-equi-doublobj-verb-lexeme
+SYNSEM [LOCAL.CAT.VAL.SUBJ < [LOCAL.CONT.HOOK.INDEX #1 ] >,
+       LOCAL.CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX ref-ind ],
+                              [LOCAL.CAT.HEAD infin-comp & [TRANSPAR +],
+                              LOCAL.CONT.HOOK.XARG #1]>]
+jeg lover Ola å komme
+; I promise Ola to-INF come
+
+;; obj-equi-verb-lexeme
+SYNSEM [LOCAL.CAT.VAL.SUBJ < [LOCAL.CONT.HOOK.INDEX ref-ind ] >,
+       LOCAL.CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX #1 ],
+                              [LOCAL.CAT.HEAD infin-comp & [TRANSPAR +],
+                              LOCAL.CONT.HOOK.XARG #1]>]
+jeg tillater Ola å komme
+; I allow Ola to-INF come
+
+
+
+;; obj-equi-bare-verb-lexeme
+SYNSEM [LOCAL.CAT.VAL.SUBJ < [LOCAL.CONT.HOOK.INDEX ref-ind ] >,
+       LOCAL.CAT.VAL.COMPS < [LOCAL.CONT.HOOK.INDEX #1 ],
+                              [LOCAL.CAT.HEAD verb-all,
+                              LOCAL.CONT.HOOK.INDEX.E.TENSE infin,
+                              LOCAL.CONT.HOOK.XARG #1]>]
+jeg ber Ola komme
+; I ask Ola come
+; 'I ask Ola to come'
+
+
+
+;; trans-indirwhquest-verb-lexeme
+SYNSEM.LOCAL.CAT.VAL [COMPS <[LOCAL.CAT.HEAD.DECL -,
+                              LOCAL.CONT.HOOK.INDEX.E.TENSE finite]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+jeg vet hvorvidt han kommer
+; I know whether he comes
+
+;; trans-subord-verb-lexeme
+SYNSEM.LOCAL.CAT.VAL [COMPS <[LOCAL.CAT.HEAD.DECL +,
+                              LOCAL.CONT.HOOK.INDEX.E.TENSE finite]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+jeg vet at han kommer
+; I know that he comes
+jeg håper at han kommer
+; I hope that he comes
+
+;; ditrans-arg1-2-3-verb-lexeme
+SYNSEM.LOCAL.CAT.VAL [COMPS <[],[]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.IOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+
+jeg overlater Ola litt vin
+; I "give" Ola some wine
+
+;; ditrans-arg1-2-3refl-verb-lexeme
+SYNSEM.LOCAL.CAT.VAL [COMPS <[LOCAL.BINDING seg-bare,
+                              LOCAL.CONT.HOOK.INDEX #1],[]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.IOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+hun unner seg litt vin
+; she "gives" herself some wine
+
+;; ditrans-subord-verb-lexeme
+SYNSEM.LOCAL.CAT.VAL [COMPS <[],[LOCAL.CAT.HEAD.DECL +,
+                                 LOCAL.CONT.HOOK.INDEX.E.TENSE finite]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.IOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+jeg viser Ola at du er syk
+; I show Ola that you are sick
+
+;; ditrans-indirwhquest-verb-lexeme
+SYNSEM.LOCAL.CAT.VAL [COMPS <[],[LOCAL.CAT.HEAD.DECL -,
+                                 LOCAL.CONT.HOOK.INDEX.E.TENSE finite]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.IOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+instrumentet viser Ola hvorvidt du er syk
+; the instrument shows Ola whether you are sick
+
+;; ditrans-refl-subord-verb-lexeme
+SYNSEM.LOCAL.CAT.VAL [COMPS <[LOCAL.BINDING seg-bare,
+                              LOCAL.CONT.HOOK.INDEX #1],[LOCAL.CAT.HEAD.DECL +,
+                                                         LOCAL.CONT.HOOK.INDEX.E.TENSE finite]>],
+SYNSEM.LOCAL.QVAL.SUBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.DOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind,
+SYNSEM.LOCAL.QVAL.IOBJECT.LOCAL.CONT.HOOK.INDEX ref-ind
+hun forestiller seg at du er syk
+; she imagines REFL that you are sick
+; 'she imagines that you are sick'
+
+;; impersonal-presentational-verb-lexeme
+SYNSEM [LOCAL.CAT lex-cat & [QVAL.SUBJECT [ LOCAL [ CAT.HEAD expl-pron ] ]],
+        LOCAL.CAT.VAL.COMPS <>]
+det regner
+; it rains
+
+;; impersonal-presentational-telicparticle-verb-lexeme
+SYNSEM [LOCAL.CAT lex-cat & [QVAL.SUBJECT [ LOCAL [ CAT.HEAD expl-pron ] ]],
+        LOCAL.CAT.VAL.COMPS <[ LOCAL.CAT.HEAD adv-reg ]>]
+det klarner opp
+; it clears up
+
+;; subject-presentational-verb-lexeme
+SYNSEM [LOCAL.CAT lex-cat & [QVAL.SUBJECT [ LOCAL [ CAT.HEAD expl-pron ]],
+                             QVAL.DOBJECT.LOCAL [CAT.HEAD.DEF -,
+                                                CONT.HOOK.INDEX #2],
+                            VAL.COMPS < [] >],
+        LKEYS.KEYREL.ARG1 #2]
+det sitter to gutter her
+; there sit two boys here
+
+
+
+;; subject-presentational-refl-verb-lexeme
+SYNSEM [LOCAL.CAT lex-cat & [QVAL.SUBJECT [ LOCAL [ CAT.HEAD expl-pron ]],
+                             QVAL.DOBJECT.LOCAL [CAT.HEAD.DEF -,
+                                                CONT.HOOK.INDEX #2],
+                             QVAL.IOBJECT.LOCAL.BINDING seg-bare,
+                            VAL.COMPS < [],[] >],
+        LKEYS.KEYREL.ARG1 #2]
+det setter seg to gutter
+; there set REFL two boys
+; 'there sit down two boys'
+
+
+
+;; epon-verb-lexeme
+SYNSEM [LOCAL.CAT.QVAL.SUBJECT.LOCAL.CAT.HEAD expl-pron,
+        LOCAL.CAT.QVAL.DOBJECT.LOCAL.CAT.HEAD fin-comp]
+
+

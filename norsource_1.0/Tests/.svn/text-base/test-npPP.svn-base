@@ -1,0 +1,134 @@
+;;; -*- Coding: utf-8; -*-
+
+;covered by Aug 1 04.
+
+;"gutten", "gutter" and "guttene" have an inbuilt quantifier, 
+;introduced by an ltol-rule, and so none of the preceding items can 
+;introduce a Q. Hence, only "hver", "ingen" and the three sg articles 
+;"en", "ei", "et" can embody a quantifier.
+;The type 'rule' is used to regulate that cardinals cannot get iterated, 
+;and items like "noen" therewith.
+;Nouns with definite form ("gutten", "guttene") have a feature DEFINITE+, 
+;whose presence requires a non-empty SPR in the resulting noun phrase. 
+;Also weak adjectives make such a requirement (but they don't require 
+;a definite noun, due to "min glade gutt").
+;The partitive "av" is a hybrid, taking the NP as a complement, 
+;but the left-hand combinant as a specifier. Its semantic contribution 
+;is to say "x instantiates y", where x is introduced by the left-hand 
+;combinant (eg "hver") and y by the governed NP.
+
+
+jeg snakker om gutten
+;*
+jeg snakker om gutt
+jeg snakker om vin
+;*
+jeg snakker om den gutt
+jeg snakker om en gutt
+jeg snakker om en vin
+jeg snakker om fjellet
+jeg snakker om vinen
+jeg snakker om et fjell
+;*
+jeg snakker om et gutt
+;*
+jeg snakker om en fjell
+jeg snakker om tre gutter
+jeg snakker om ti gutter
+jeg snakker om tre fjell
+jeg snakker om hver gutt
+jeg snakker om hver vin
+jeg snakker om hvert fjell
+jeg snakker om ingen gutt
+jeg snakker om noen gutter
+jeg snakker om noen viner
+jeg snakker om noe vin
+jeg snakker om en glad gutt
+jeg snakker om en god vin
+jeg snakker om mye god vin
+jeg snakker om tre glade gutter
+;*
+jeg snakker om noen tre glade gutter
+;*
+jeg snakker om fire tre glade gutter
+jeg snakker om tre glade hyggelige gutter
+;*
+jeg snakker om tre glade gutt
+;*
+jeg snakker om tre glad gutter
+jeg snakker om den glade gutten
+;*
+jeg snakker om den glad gutten
+;*
+jeg snakker om glade gutten
+;*
+jeg snakker om den glade gutt
+jeg snakker om de tre glade guttene
+jeg snakker om de tre gode vinene
+;*
+jeg snakker om de tre gode vin
+jeg snakker om de glade guttene
+jeg snakker om glade gutter
+;*
+jeg snakker om de glade gutter
+;*
+jeg snakker om glade guttene
+jeg snakker om hver av de glade guttene
+jeg snakker om hver av de tre glade guttene
+jeg snakker om hver av de tre gode vinene
+jeg snakker om noen av de ni guttene
+jeg snakker om noe av den gode vinen
+jeg snakker om ingen av de ni guttene
+jeg snakker om få av de ni guttene
+jeg snakker om ni av guttene
+jeg snakker om alle gutter
+;*
+jeg snakker om alle gutt
+;*
+jeg snakker om alle gutten
+jeg snakker om begge guttene
+jeg snakker om alle de tre guttene
+jeg snakker om all den gode vinen
+jeg snakker om mine tre gutter
+jeg snakker om mine glade gutter
+jeg snakker om min glade gutt
+jeg snakker om all min gode vin
+jeg snakker om alle mine gode viner
+;*
+jeg snakker om min glad gutt
+jeg snakker om alle mine gutter
+jeg snakker om gutten min
+jeg snakker om vinen min
+;*
+jeg snakker om glade gutten min
+jeg snakker om den glade gutten min
+jeg snakker om gutten til Ola
+jeg snakker om vinen til Ola
+jeg snakker om Ola sin gutt
+jeg snakker om gutten si bygd
+;*
+jeg snakker om gutten sitt bygd
+jeg snakker om gutten sin ball
+jeg snakker om en gutt sin ball
+jeg snakker om hver gutt sin ball
+jeg snakker om Ola sin glade gutt
+;*
+jeg snakker om Ola sin glade gutten min
+
+jeg snakker om Olas gutt
+jeg snakker om guttens ball
+jeg snakker om en gutts ball
+jeg snakker om hver gutts ball
+jeg snakker om Olas glade gutt
+;*
+jeg snakker om Olas glade gutten min
+jeg snakker om Ola sin gutt sin katt
+jeg snakker om en sekk poteter
+jeg snakker om en sekk med poteter
+jeg snakker om et par dusin esker baller
+;*
+jeg snakker om et dusin ballene
+jeg snakker om et hav av katter
+;*
+jeg snakker om et hav av kattene
+

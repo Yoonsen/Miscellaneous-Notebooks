@@ -1,0 +1,404 @@
+;;;              - No2 -
+;;; 
+;;;    Copyright (c)  No2 
+;;;                       2010-2011
+;;;
+;;;   
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    <norsource@hf.ntnu.no>
+;;;
+
+
+;%(letter-set (!h klnsfpdgrtu))
+;%(letter-set (!i kpgtnfdvsl))
+
+;%(letter-set (!a abcdefghijklmnopqrstuvwxyzæøå)) ; any letter
+;%(letter-set (!k bcdfghjklmnpqrstvwxz)) ; not vowel
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;			 				Wrongly definite noun rules
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; 
+;; MASC SING DEF conjugation for MASC SING INDEF synsem
+;;
+#|	Yield segmentation violation - why?
+mal_masc_sing_def_for_masc_sing_indef-full-mm_irule :=
+%suffix (am ammen)(em emmen)(om ommen)(um ummen)(øm ømmen)
+sg-noun-word &
+[ GENRE robust,
+  ARGS < sg-indef-noun-lxm & [ INFLECTION final-full-mm & [NUMB sing, DEFINITENESS ind, GEND m] ] > ].
+
+mal_masc_sing_def_for_masc_sing_indef-full-long-or-short_irule :=
+%suffix (* en)
+sg-noun-word &
+[ GENRE robust,
+  ARGS < sg-indef-noun-lxm & [ INFLECTION final-full-long-or-short & [NUMB sing, DEFINITENESS ind, GEND m] ] > ].
+
+mal_masc_sing_def_for_masc_sing_indef-light-e-sup_irule :=
+%suffix (e en)
+sg-noun-word &
+[ GENRE robust,
+  ARGS < sg-indef-noun-lxm & [ INFLECTION light-e-sup & [NUMB sing, DEFINITENESS ind, GEND m] ] > ].
+|#
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;			 				Wrongly gendered noun rules
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;
+;; EXPERIMENTAL 14.06.11 MHS
+;;
+
+
+#|
+mal_def_for_indef-sg_def_m_final-full-mm_irule :=
+%suffix (am ammen)(em emmen)(om ommen)(um ummen)(øm ømmen)
+sg-noun-word & 
+[ ARGS < sg-indef-noun-lxm & 
+         [ INFLECTION final-full-mm & [NUMB sing, DEFINITENESS ind, GEND m] ] > ].
+
+
+
+
+mal_def_for_indef-sg_def_m_final-full_irule :=
+%suffix (* en)
+sg-noun-word & 
+[ ARGS < sg-indef-noun-lxm & 
+         [ INFLECTION [NUMB sing, DEFINITENESS ind, GEND m] ] > ].
+
+
+
+mal_def_for_indef-sg_def_m_light-e_irule :=
+%suffix (e en)
+sg-noun-word & 
+[ ARGS < sg-indef-noun-lxm & 
+         [ INFLECTION light-e-sup & [NUMB sing, DEFINITENESS ind, GEND m] ] > ].
+|#
+
+
+
+
+;;
+;; MASC SING DEF conjugation for NEUT SING DEF synsem
+;;
+
+mal_masc_sing_def_for_neut_sing_def_final-full-mm_irule :=
+%suffix (am ammen)(em emmen)(om ommen)(um ummen)(øm ømmen)
+neutsg-def-noun-word &
+[ GENRE robust,
+  ARGS < sg-neut-def-noun-lexeme & 
+         [ INFLECTION final-full-mm & [NUMB sing, DEFINITENESS def, GEND n] ] > ].
+
+mal_masc_sing_def_for_neut_sing_def_final-full_irule :=
+%suffix (* en)
+neutsg-def-noun-word &
+[ GENRE robust,
+  ARGS < sg-neut-def-noun-lexeme & 
+         [ INFLECTION final-full-long-or-short & [NUMB sing, DEFINITENESS def, GEND n] ] > ].
+
+mal_masc_sing_def_for_neut_sing_def_light-e_irule :=
+%suffix (e en)
+neutsg-def-noun-word &
+[ GENRE robust,
+  ARGS < sg-neut-def-noun-lexeme & 
+         [ INFLECTION light-e-sup & [NUMB sing, DEFINITENESS def, GEND n] ] > ].
+
+;;
+;; COMM PL INDEF conjugation for NEUT PL INDEF synsem
+;;
+
+mal_comm_pl_indef_for_neut_pl_indef_final-full_irule :=
+%suffix (* er)(er ere)(el ler)(ddel dler)(lder ldre)(ffel fler)(kkel kler)(mmer mrer)(mmel mler)(ppel pler)(ssel sler)(ttel tler)(e ær)(and ender)(mann menn)(kraft krefter)(tang tenger)(tann tenner)(natt netter)(hånd hender)(bok bøker)
+neutpl-indef-noun-infl-word &
+[ GENRE robust,
+  ARGS < pl-indef-noun-lexeme  &
+         [ INFLECTION final-full & [NUMB plur, DEFINITENESS ind, GEND n] ] > ].
+
+mal_comm_pl_indef_for_neut_pl_indef_final-full-mm_irule :=
+%suffix (am ammer)(em emmer)(om ommer)(um ummer)(øm ømmer)
+neutpl-indef-noun-infl-word &
+[ GENRE robust,
+  ARGS < pl-indef-noun-lexeme  &
+         [ INFLECTION final-full-mm & [NUMB plur, DEFINITENESS ind, GEND n] ] > ].
+
+mal_comm_pl_indef_for_neut_pl_indef_light-e_irule :=
+%suffix (e er)
+neutpl-indef-noun-infl-word &
+[ GENRE robust,
+  ARGS < pl-indef-noun-lexeme  &
+         [ INFLECTION light-e & [NUMB plur, DEFINITENESS ind, GEND n] ] > ].
+
+;;
+;; FEM SG DEF conjugation for MASC SG DEF synsem
+;;
+
+mal_fem_sg_def_for_masc_sg_def_final-full-mm_irule :=
+%suffix (rem remma)(vom vomma)(skam skamma)
+mascsg-def-noun-word &
+[ GENRE robust,
+  ARGS < sg-masc-def-noun-lexeme &
+         [ INFLECTION final-full-mm & [NUMB sing, DEFINITENESS def, GEND m],
+	   SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG.--MANDATORY-MASC + ] > ].
+
+mal_fem_sg_def_for_masc_sg_def_final-full_irule :=
+%suffix (* a)(el la)(en na)(er ra)
+mascsg-def-noun-word &
+[ GENRE robust,
+  ARGS < sg-masc-def-noun-lexeme &
+         [ INFLECTION final-full-long-or-short & [NUMB sing, DEFINITENESS def, GEND m],
+	   SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG.--MANDATORY-MASC + ] > ].
+
+mal_fem_sg_def_for_masc_sg_def_light-e_irule :=
+%suffix (e a)
+mascsg-def-noun-word &
+[ GENRE robust,
+  ARGS < sg-masc-def-noun-lexeme &
+         [ INFLECTION light-e & [NUMB sing, DEFINITENESS def, GEND m],
+	   SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG.--MANDATORY-MASC + ] > ].
+
+;;
+;; NEUT SG DEF conjugation for MASC SG DEF synsem
+;;
+
+mal_neut_sg_def_for_masc_sg_def_final-full-mm_irule :=
+%suffix (lem lemmet)(ram rammet)(jem jemmet)(lam lammet)(rom rommet)
+mascsg-def-noun-word &
+[ GENRE robust,
+  ARGS < sg-masc-def-noun-lexeme &
+         [ INFLECTION  final-full-mm & [NUMB sing, DEFINITENESS def, GEND m],
+	   SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG.--MANDATORY-MASC + ] > ].
+
+mal_neut_sg_def_for_masc_sg_def_final-full_irule :=
+%suffix (* et)
+mascsg-def-noun-word &
+[ GENRE robust,
+  ARGS < sg-masc-def-noun-lexeme &
+         [ INFLECTION  final-full & [NUMB sing, DEFINITENESS def, GEND m],
+	   SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG.--MANDATORY-MASC + ] > ].
+
+mal_neut_sg_def_for_masc_sg_def_light-e_irule :=
+%suffix (e et)
+mascsg-def-noun-word &
+[ GENRE robust,
+  ARGS < sg-masc-def-noun-lexeme &
+         [ INFLECTION  light-e-sup & [NUMB sing, DEFINITENESS def, GEND m],
+	   SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG.--MANDATORY-MASC + ] > ].
+
+;;
+;; NEUT SG DEF conjugation for FEM SG DEF synsem
+;;
+
+mal_neut_sg_def_for_fem_sg_def_final-full-mm_irule :=
+%suffix (lem lemmet)(ram rammet)(jem jemmet)(lam lammet)(rom rommet)
+femsg-def-noun-word &
+[ GENRE robust,
+  ARGS < sg-fem-def-noun-lexeme &
+         [ INFLECTION  final-full-mm & [NUMB sing, DEFINITENESS def, GEND f] ] > ].
+
+mal_neut_sg_def_for_fem_sg_def_final-full_irule :=
+%suffix (* et)
+femsg-def-noun-word &
+[ GENRE robust,
+  ARGS < sg-fem-def-noun-lexeme &
+         [ INFLECTION  final-full & [NUMB sing, DEFINITENESS def, GEND f] ] > ].
+
+mal_neut_sg_def_for_fem_sg_def_light-e_irule :=
+%suffix (e et)
+femsg-def-noun-word &
+[ GENRE robust,
+  ARGS < sg-fem-def-noun-lexeme &
+         [ INFLECTION  light-e-sup & [NUMB sing, DEFINITENESS def, GEND f] ] > ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;			 				Adjective rules
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;
+;;  N SG strong conjugation to a C SG strong synsem
+;;
+
+mal-n_sg_strong-for-c_sg_strong-finstr_infl_rule := 
+%suffix (t t)(e ett)(a a)(o o)(ø øtt)(å ått)(u u)(i idt)(i itt)(æ ætt)(y ytt)(d dt)(dd dd)(ad ad)(id id)(øyd øyd)(øy øyt)(g gt)(gg gt)(k kt)(kk kt)(l lt)(ll lt)(n nt)(nn nt)(p pt)(pp pt)(m mt)(r rt)(rr rt)(s st)(gs gs)(v vt)(øt øtt)(et ett)(at att)(gt gt)(dsk dsk)(nsk nsk)(gsk gsk)(lsk lsk)(norsk norsk)(kt kt)
+orth-alter-masc-or-fem-sg-adj-word &
+[GENRE robust & [MALFLECT mal-flect],
+ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION + ].
+
+mal-n_sg_strong-for-c_sg_strong-nonfstr_infl_rule := 
+%suffix (t t)(es es)(ig ig)(d dt)(g gt)(k kt)(l lt)(n nt)(p pt)(r rt)(s st)(v vt)(sk sk)(e et)(nde nde)(rne rne)(a at)(o ot)(ø øt)(å åt)(u ut)(i it)(æ æt)(y yt)(ille ille)
+orth-alter-masc-or-fem-sg-adj-word &
+[GENRE robust & [MALFLECT mal-flect],
+ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION + ].
+
+;;
+;; C SG strong conjugation for N SG strong synsem
+;; 
+
+mal-c_sg_strong-for-n_sg_strong-infl_rule :=
+neutsg-infl-adj-word-const &
+[GENRE robust & [MALFLECT mal-flect],
+ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION + ].
+
+;;
+;; C SG strong conjugation for plural/weak synsem
+;;
+
+mal-c_sg_strong-for-pl_strong-infl_rule := strongpl-adj-word-const & 
+[ GENRE robust & [MALFLECT mal-flect],
+ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION + ].
+
+mal-c_sg_strong-for-weak-infl_rule := weak-adj-word-const & 
+[ GENRE robust & [MALFLECT mal-flect],
+ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION + ].
+
+;;
+;; N SG strong conjugation for plural/weak synsem
+;;
+
+mal-n_sg_strong-for-pl_strong-nonfstr_infl_rule := 
+%suffix (t t)(es es)(ig ig)(d dt)(g gt)(k kt)(l lt)(n nt)(p pt)(r rt)(s st)(v vt)(sk sk)(e et)(nde nde)(rne rne)(a at)(o ot)(ø øt)(å åt)(u ut)(i it)(æ æt)(y yt)(ille ille)
+strongpl-adj-word & 
+[ GENRE robust & [MALFLECT mal-flect],
+ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION + ].
+
+mal-n_sg_strong-for-pl_strong-finstr_infl_rule := 
+%suffix (t t)(e ett)(a a)(o o)(ø øtt)(å ått)(u u)(i idt)(i itt)(æ ætt)(y ytt)(d dt)(dd dd)(ad ad)(id id)(øyd øyd)(øy øyt)(g gt)(gg gt)(k kt)(kk kt)(l lt)(ll lt)(n nt)(nn nt)(p pt)(pp pt)(m mt)(r rt)(rr rt)(s st)(gs gs)(v vt)(øt øtt)(et ett)(at att)(gt gt)(dsk dsk)(nsk nsk)(gsk gsk)(lsk lsk)(norsk norsk)(kt kt)
+strongpl-adj-word & 
+[ GENRE robust & [MALFLECT mal-flect],
+ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION + ].
+
+mal-n_sg_strong-for-weak-nonfstr_infl_rule := 
+%suffix (t t)(es es)(ig ig)(d dt)(g gt)(k kt)(l lt)(n nt)(p pt)(r rt)(s st)(v vt)(sk sk)(e et)(nde nde)(rne rne)(a at)(o ot)(ø øt)(å åt)(u ut)(i it)(æ æt)(y yt)(ille ille)
+weak-adj-word & 
+[ GENRE robust & [MALFLECT mal-flect],
+ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION + ].
+
+mal-n_sg_strong-for-weak-finstr_infl_rule := 
+%suffix (t t)(e ett)(a a)(o o)(ø øtt)(å ått)(u u)(i idt)(i itt)(æ ætt)(y ytt)(d dt)(dd dd)(ad ad)(id id)(øyd øyd)(øy øyt)(g gt)(gg gt)(k kt)(kk kt)(l lt)(ll lt)(n nt)(nn nt)(p pt)(pp pt)(m mt)(r rt)(rr rt)(s st)(gs gs)(v vt)(øt øtt)(et ett)(at att)(gt gt)(dsk dsk)(nsk nsk)(gsk gsk)(lsk lsk)(norsk norsk)(kt kt)
+weak-adj-word & 
+[ GENRE robust & [MALFLECT mal-flect],
+ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION + ].
+
+;;
+;; Plural/weak conjugation for C SG strong synsem
+;;
+
+mal-plural_or_weak-for-c_sg_strong-finstr_infl_rule := 
+%suffix (e e)(a a)(o o)(ø ø)(å å)(u u)(i i)(æ æ)(y y)(r re)(l le)(n ne)(d de)(g ge)(k ke)(p pe)(t te)(s se)(v ve)(e ee)(a ae)(o oe)(ø øe)(å åe)(u ue)(i ie)(æ æe)(y ye)(m me)(am amme)(em emme)(im imme)(om omme)(um umme)(øm ømme)(ym ymme)
+orth-alter-masc-or-fem-sg-adj-word &
+[GENRE robust & [MALFLECT mal-flect]].
+
+mal-plural_or_weak-for-c_sg_strong-nonfstr_infl_rule := 
+%suffix (e e)(g ge)(k ke)(et ete)(et ede)(mal mle)(mel mle)(bel ble)(den dne)(fen fne)(gen gne)(ken kne)(ren rne)(ker kre)(len lne)(men mne)(pel ple)(pen pne)(sen sne)(ten tne)(ben bne)(kel kle)(mer mre)(per pre)(mmal mle)(mmel mle)(bbel ble)(dden dne)(ffen fne)(ggen gne)(kken kne)(kker kre)(llen lne)(mmen mne)(ppel ple)(ppen pne)(ssen sne)(tten tne)(bben bne)(kkel kle)(mmer mre)(pper pre)
+orth-alter-masc-or-fem-sg-adj-word &
+[GENRE robust & [MALFLECT mal-flect]].
+
+;;
+;; Plural/weak conjugation for N SG strong synsem
+;;
+
+mal-plural_or_weak-for-n_sg_strong-finstr_infl_rule := 
+%suffix (e e)(a a)(o o)(ø ø)(å å)(u u)(i i)(æ æ)(y y)(r re)(l le)(n ne)(d de)(g ge)(k ke)(p pe)(t te)(s se)(v ve)(e ee)(a ae)(o oe)(ø øe)(å åe)(u ue)(i ie)(æ æe)(y ye)(m me)(am amme)(em emme)(im imme)(om omme)(um umme)(øm ømme)(ym ymme)
+neutsg-infl-adj-word &
+[GENRE robust & [MALFLECT mal-flect]].
+
+mal-plural_or_weak-for-n_sg_strong-nonfstr_infl_rule := 
+%suffix (e e)(g ge)(k ke)(et ete)(et ede)(mal mle)(mel mle)(bel ble)(den dne)(fen fne)(gen gne)(ken kne)(ren rne)(ker kre)(len lne)(men mne)(pel ple)(pen pne)(sen sne)(ten tne)(ben bne)(kel kle)(mer mre)(per pre)(mmal mle)(mmel mle)(bbel ble)(dden dne)(ffen fne)(ggen gne)(kken kne)(kker kre)(llen lne)(mmen mne)(ppel ple)(ppen pne)(ssen sne)(tten tne)(bben bne)(kkel kle)(mmer mre)(pper pre)
+neutsg-infl-adj-word &
+[GENRE robust & [MALFLECT mal-flect]].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;			 				Verb rules
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; Makes verbs in the present look like infinitivals.
+;LH291013: this rule fires for "bli" in "gutten har bli skutt". No rule defined to simulate an expected perfect tense here. However, in malgram-web, it generates correct result. But, this rule is not in the xml-sheet!therefore no response in mal-webdemo. TODO
+
+mal-pres_to_inf-infl_rule :=
+const-pres-verb-word &
+[ GENRE robust,
+  --MALCONJ -,
+  ARGS <[--MALCONJ -]> ].
+
+;; Makes infinitives look like past participles
+
+;LH291013: not in xml-sheet. TODO
+mal-pres_to_perf-infl_rule :=
+infl-perf-part-verb-word &
+[ GENRE robust,
+  --MALCONJ -,
+  ARGS <[--MALCONJ -]> ].
+
+;; Makes infintivals look like tensed verbs. 
+
+
+mal-present-inf-like_infl_rule :=
+%suffix (* r)(s s)
+mal-inf-verb-word &
+[ SYNSEM.LOCAL.CAT.HEAD.MAL.MALFLECTY yes-flecty,
+  GENRE robust,
+  --MALCONJ -,
+  ARGS <[--MALCONJ -]> ].
+
+
+mal-past-inf-like-1_infl_rule :=
+%suffix (e edde)(a adde)(o odde)(ø ødde)(å ådde)(u udde)(i idde)(æ ædde)(y ydde)
+mal-inf-verb-word &
+[ SYNSEM.LOCAL.CAT.HEAD verb,
+  SYNSEM.LOCAL.CAT.HEAD.MAL.MALFLECTY yes-flecty,
+  GENRE robust,
+  ARGS < [ INFLECTION finstr ] > ].
+
+mal-past-inf-like-2_infl_rule :=
+%suffix (ge get)(ge gte)(de det)(ve vet)(ke ket)(le let)(me met)(ne net)(pe pet)(re ret)(se set)(te tet)(ge gde)(ve vde)(ke kte)(le lte)(me mte)(ne nte)(pe pte)(re rte)(se ste)(dde ddet)(gge gget)(ffe ffet)(kke kket)(lle llet)(mme mte)(nne nnet)(nne nte)(ppe ppet)(rre rret)(sse sset)(eie eiet)(øye øyet)(aie aiet)(eie eide)(øye øyde)(aie aide)(kes ktes)(les ltes)(mes mtes)(nes ntes)(pes ptes)(res redes)(tes tedes)(des dedes)(ves vdes)(kkes ktes)(lles ltes)(mmes mtes)(nnes ntes)(ppes ptes)
+mal-inf-verb-word &
+[ SYNSEM.LOCAL.CAT.HEAD verb,
+  SYNSEM.LOCAL.CAT.HEAD.MAL.MALFLECTY yes-flecty,
+  GENRE robust,
+  ARGS < [ INFLECTION nonfstr ] > ].
+
+;; Makes perfect tense verbs look tensed
+
+;LH291013: not in xml-sheet. TODO
+mal-perfect_present-like_infl_rule :=
+%suffix (* r)(s s)
+infl-perf-part-verb-word &
+[ SYNSEM.LOCAL.CAT.HEAD.MAL.MALFLECTY perf-flecty,
+  SYNSEM.LOCAL.CAT.HEAD.MAL.MALDROPPY no-cop-droppy,
+  GENRE robust,
+  --MALCONJ -,
+  ARGS <[--MALCONJ -]> ].
+
+mal-perfect_past-like-1_infl_rule :=
+%suffix (e edde)(a adde)(o odde)(ø ødde)(å ådde)(u udde)(i idde)(æ ædde)(y ydde)
+infl-perf-part-verb-word &
+[ SYNSEM.LOCAL.CAT.HEAD verb,
+  SYNSEM.LOCAL.CAT.HEAD.MAL.MALFLECTY perf-flecty,
+  SYNSEM.LOCAL.CAT.HEAD.MAL.MALDROPPY no-cop-droppy,
+  GENRE robust,
+  ARGS < [ INFLECTION finstr ] > ].
+
+mal-perfect_past-like-2_infl_rule :=
+%suffix (ge get)(ge gte)(de det)(ve vet)(ke ket)(le let)(me met)(ne net)(pe pet)(re ret)(se set)(te tet)(ge gde)(ve vde)(ke kte)(le lte)(me mte)(ne nte)(pe pte)(re rte)(se ste)(dde ddet)(gge gget)(ffe ffet)(kke kket)(lle llet)(mme mte)(nne nnet)(nne nte)(ppe ppet)(rre rret)(sse sset)(eie eiet)(øye øyet)(aie aiet)(eie eide)(øye øyde)(aie aide)(kes ktes)(les ltes)(mes mtes)(nes ntes)(pes ptes)(res redes)(tes tedes)(des dedes)(ves vdes)(kkes ktes)(lles ltes)(mmes mtes)(nnes ntes)(ppes ptes)
+infl-perf-part-verb-word &
+[ SYNSEM.LOCAL.CAT.HEAD verb,
+  SYNSEM.LOCAL.CAT.HEAD.MAL.MALFLECTY perf-flecty,
+  SYNSEM.LOCAL.CAT.HEAD.MAL.MALDROPPY no-cop-droppy,
+  GENRE robust,
+  ARGS < [ INFLECTION nonfstr ] > ].
+
+
+;; Makes infinitival deep form look perfect
+;mal-surface-perfect-te_deep-inf-infl-rule :=
+;%suffix (e t) (ffe ft) (kke kt) (nne nt) (lle lt) (ppe pt) (mme mt) (es tes) (ffes ftes)
+;inf-verb-word &
+;[ ARGS < [ INFLECTION nonfstr-te ] > ].
+
+;mal-surface-perfect-et_deep-inf-infl-rule :=
+;%suffix (e et) (e a) (es es)
+;inf-verb-word &
+;[ ARGS < [ INFLECTION nonfstr-et ] > ].
+
+;mal-surface-perfect-de_deep-inf-infl-rule :=
+;%suffix (e d) (gge gd) (es des)
+;inf-verb-word &
+;[ ARGS < [ INFLECTION nonfstr-de ] > ].

@@ -1,0 +1,134 @@
+;;; -*- Coding: utf-8; -*-
+
+;covered by Aug 1 04.
+
+;"gutten", "gutter" and "guttene" have an inbuilt quantifier, 
+;introduced by an ltol-rule, and so none of the preceding items can 
+;introduce a Q. Hence, only "hver", "ingen" and the three sg articles 
+;"en", "ei", "et" can embody a quantifier.
+;The type 'rule' is used to regulate that cardinals cannot get iterated, 
+;and items like "noen" therewith.
+;Nouns with definite form ("gutten", "guttene") have a feature DEFINITE+, 
+;whose presence requires a non-empty SPR in the resulting noun phrase. 
+;Also weak adjectives make such a requirement (but they don't require 
+;a definite noun, due to "min glade gutt").
+;The partitive "av" is a hybrid, taking the NP as a complement, 
+;but the left-hand combinant as a specifier. Its semantic contribution 
+;is to say "x instantiates y", where x is introduced by the left-hand 
+;combinant (eg "hver") and y by the governed NP.
+
+
+jeg ser gutten
+;*
+jeg ser gutt
+jeg ser vin
+;*
+jeg ser den gutt
+jeg ser en gutt
+jeg ser en vin
+jeg ser fjellet
+jeg ser vinen
+jeg ser et fjell
+;*
+jeg ser et gutt
+;*
+jeg ser en fjell
+jeg ser tre gutter
+jeg ser ti gutter
+jeg ser tre fjell
+jeg ser hver gutt
+jeg ser hver vin
+jeg ser hvert fjell
+jeg ser ingen gutt
+jeg ser noen gutter
+jeg ser noen viner
+jeg ser noe vin
+jeg ser en glad gutt
+jeg ser en god vin
+jeg ser mye god vin
+jeg ser tre glade gutter
+;*
+jeg ser noen tre glade gutter
+;*
+jeg ser fire tre glade gutter
+jeg ser tre glade hyggelige gutter
+;*
+jeg ser tre glade gutt
+;*
+jeg ser tre glad gutter
+jeg ser den glade gutten
+;*
+jeg ser den glad gutten
+;*
+jeg ser glade gutten
+;*
+jeg ser den glade gutt
+jeg ser de tre glade guttene
+jeg ser de tre gode vinene
+;*
+jeg ser de tre gode vin
+jeg ser de glade guttene
+jeg ser glade gutter
+;*
+jeg ser de glade gutter
+;*
+jeg ser glade guttene
+jeg ser hver av de glade guttene
+jeg ser hver av de tre glade guttene
+jeg ser hver av de tre gode vinene
+jeg ser noen av de ni guttene
+jeg ser noe av den gode vinen
+jeg ser ingen av de ni guttene
+jeg ser få av de ni guttene
+jeg ser ni av guttene
+jeg ser alle gutter
+;*
+jeg ser alle gutt
+;*
+jeg ser alle gutten
+jeg ser begge guttene
+jeg ser alle de tre guttene
+jeg ser all den gode vinen
+jeg ser mine tre gutter
+jeg ser mine glade gutter
+jeg ser min glade gutt
+jeg ser all min gode vin
+jeg ser alle mine gode viner
+;*
+jeg ser min glad gutt
+jeg ser alle mine gutter
+jeg ser gutten min
+jeg ser vinen min
+;*
+jeg ser glade gutten min
+jeg ser den glade gutten min
+jeg ser gutten til Ola
+jeg ser vinen til Ola
+jeg ser Ola sin gutt
+jeg ser gutten si bygd
+;*
+jeg ser gutten sitt bygd
+jeg ser gutten sin ball
+jeg ser en gutt sin ball
+jeg ser hver gutt sin ball
+jeg ser Ola sin glade gutt
+;*
+jeg ser Ola sin glade gutten min
+
+jeg ser Olas gutt
+jeg ser guttens ball
+jeg ser en gutts ball
+jeg ser hver gutts ball
+jeg ser Olas glade gutt
+;*
+jeg ser Olas glade gutten min
+jeg ser Ola sin gutt sin katt
+jeg ser en sekk poteter
+jeg ser en sekk med poteter
+jeg ser et par dusin esker baller
+;*
+jeg ser et dusin ballene
+jeg ser et hav av katter
+;*
+jeg ser et hav av kattene
+

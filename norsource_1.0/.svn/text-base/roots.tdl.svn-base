@@ -1,0 +1,149 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource -
+;;; 
+;;;    Copyright (c)  NorSource version 0.3
+;;;                       2004-2006 
+;;;
+;;;    Lars Hellan, Dorothee Beermann, Ben Waldron
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    <norsource@hf.ntnu.no>
+;;;
+
+
+root := phrase &
+[ SYNSEM.LOCAL.CAT [ HEAD verb-all & [ MAIN-CL + ],
+                     VAL [ SUBJ < anti-synsem >,
+                           SPR null,
+                           SPEC null,
+                           COMPS null,
+                           ICOMPS null] ],
+  SYNSEM.LOCAL.NEED-IMP-UNARY -,
+  SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
+  SYNSEM.LOCAL.BND-RESP <>,
+  SYNSEM.LOCAL.WAIT-BND-RESP <>,
+  SYNSEM.LOCAL.MUST-COORD-PROJECT -,
+  SYNSEM.LOCAL.NEED-Q-MARK -, ;; MHS 120713 This line only has effect in the mal-grammar.
+;  SYNSEM.LOCAL.IS-A-COMPLEMENT -, ;; MHS 120713 Experimenting with using this type to reduce spurious parses that arise in main clause extraction.
+  SYNSEM.NON-LOCAL [ SLASH 0-dlist & [ LIST < >],
+		     REL 0-dlist & [ LIST < >],
+		     QUE 0-dlist & [ LIST < >] ],
+  INFLECTED +,
+  FRONT-TO-FILL -,
+  EXTRACTED-FROM -].
+
+
+
+root-n := sign &
+[ SYNSEM.LOCAL.CAT [ HEAD np-head,
+                     VAL [ SUBJ ocons,
+                           SPR null,
+                           COMPS null,
+                           SPEC null,
+                           ICOMPS null] ],
+  SYNSEM.LOCAL.NEED-IMP-UNARY -,
+  SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
+  SYNSEM.LOCAL.BND-RESP <>,
+  SYNSEM.LOCAL.WAIT-BND-RESP <>,
+  SYNSEM.NON-LOCAL [ SLASH 0-dlist & [ LIST < >],
+		     REL 0-dlist & [ LIST < >],
+		     QUE 0-dlist & [ LIST < >] ],
+  INFLECTED +,
+  FRONT-TO-FILL -,
+  EXTRACTED-FROM -].
+
+root-adj := sign &
+[ SYNSEM.LOCAL.CAT [ HEAD adj-reg,
+                     VAL [ SUBJ olist,
+                           SPR null,
+                           COMPS null,
+                           SPEC null,
+                           ICOMPS null] ],
+  SYNSEM.LOCAL.NEED-IMP-UNARY -,
+  SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
+  SYNSEM.LOCAL.BND-RESP <>,
+  SYNSEM.LOCAL.WAIT-BND-RESP <>,
+  SYNSEM.NON-LOCAL [ SLASH 0-dlist & [ LIST < >],
+		     REL 0-dlist & [ LIST < >],
+		     QUE 0-dlist & [ LIST < >] ],
+  INFLECTED +,
+  FRONT-TO-FILL -,
+  EXTRACTED-FROM -].
+
+root-adv := sign &
+[ SYNSEM.LOCAL.CAT [ HEAD adv-reg,
+                     VAL [ SUBJ null,
+                           SPR null,
+                           COMPS null,
+                           SPEC null,
+                           ICOMPS null] ],
+  SYNSEM.LOCAL.NEED-IMP-UNARY -,
+  SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
+  SYNSEM.LOCAL.BND-RESP <>,
+  SYNSEM.LOCAL.WAIT-BND-RESP <>,
+  SYNSEM.NON-LOCAL [ SLASH 0-dlist & [ LIST < >],
+		     REL 0-dlist & [ LIST < >],
+		     QUE 0-dlist & [ LIST < >] ],
+  INFLECTED +,
+  FRONT-TO-FILL -,
+  EXTRACTED-FROM -].
+
+root-p := sign &
+[ SYNSEM.LOCAL.CAT [ HEAD prep-ultra,
+                     VAL [ SUBJ null,
+                           SPR null,
+                           COMPS null,
+                           SPEC null,
+                           ICOMPS null] ],
+  SYNSEM.LOCAL.NEED-IMP-UNARY -,
+  SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
+  SYNSEM.LOCAL.BND-RESP <>,
+  SYNSEM.LOCAL.WAIT-BND-RESP <>,
+  SYNSEM.NON-LOCAL [ SLASH 0-dlist & [ LIST < >],
+		     REL 0-dlist & [ LIST < >],
+		     QUE 0-dlist & [ LIST < >] ],
+  INFLECTED +,
+  FRONT-TO-FILL -,
+  EXTRACTED-FROM -].
+
+root-interjct := sign &
+[ SYNSEM.LOCAL.CAT [ HEAD interjection,
+                     VAL [ SUBJ null,
+                           SPR null,
+                           SPEC null,
+                           COMPS null,
+                           ICOMPS null] ],
+  SYNSEM.LOCAL.NEED-IMP-UNARY -,
+  SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
+  SYNSEM.LOCAL.BND-RESP <>,
+  SYNSEM.LOCAL.WAIT-BND-RESP <>,
+  SYNSEM.NON-LOCAL [ SLASH 0-dlist & [ LIST < >],
+		     REL 0-dlist & [ LIST < >],
+		     QUE 0-dlist & [ LIST < >] ],
+  INFLECTED +,
+  FRONT-TO-FILL -,
+  EXTRACTED-FROM -].
+
+
+
+#|
+subj_drop_root := sign &
+[ SYNSEM.LOCAL.CAT [ HEAD verb-all & [ MAIN-CL + ],
+                     VAL [ SUBJ < synsem >,
+                           COMPS null,
+                           ICOMPS null] ],
+  SYNSEM.LOCAL.NEED-IMP-UNARY -,
+  SYNSEM.LOCAL.CLIT-PRON-CONFIRMED +,
+  SYNSEM.LOCAL.BND-RESP <>,
+  SYNSEM.LOCAL.WAIT-BND-RESP <>,
+  SYNSEM.NON-LOCAL [ SLASH 0-dlist & [ LIST < >],
+		     REL 0-dlist & [ LIST < >],
+		     QUE 0-dlist & [ LIST < >] ],
+  INFLECTED +,
+  FRONT-TO-FILL -,
+  EXTRACTED-FROM -,
+  GENRE robust ].
+|#
+
+

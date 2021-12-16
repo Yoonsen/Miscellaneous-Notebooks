@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mal-errors>
+	<!-- Errors related to wrong case use in pronouns -->
+
+	<feedback>
+		<name>mal_jeg_perspron</name>
+
+		<message>
+			The word "jeg" is marked with the wrong case, try using "meg" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_meg_perspron</name>
+
+		<message>
+			The word "meg" is marked with the wrong case, try using "jeg" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_vi_perspron</name>
+
+		<message>
+			The word "vi" is marked with the wrong case, try using "oss" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_oss_perspron</name>
+
+		<message>
+			The word "oss" is marked with the wrong case, try using "vi" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_du_perspron</name>
+
+		<message>
+			The word "du" is marked with the wrong case, try using "deg" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_deg_perspron</name>
+
+		<message>
+			The word "deg" is marked with the wrong case, try using "du" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_de_perspron</name>
+
+		<message>
+			The word "de" is marked with the wrong case, try using "dem" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_dem_perspron</name>
+
+		<message>
+			The word "dem" is marked with the wrong case, try using "de" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_han_perspron</name>
+
+		<message>
+			The word "han" is marked with the wrong case, try using "ham" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_ham_perspron</name>
+
+		<message>
+			The word "ham" is marked with the wrong case, try using "han" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_hun_perspron</name>
+
+		<message>
+			The word "hun" is marked with the wrong case, try using "henne" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_henn_persprone</name>
+
+		<message>
+			The word "henne" is marked with the wrong case, try using "hun" instead.
+		</message>
+	</feedback>
+
+	<!-- Errors relating to wrong use of og/å -->
+
+	<feedback>
+		<name>mal_og_inf_comp</name>
+
+		<message>
+			The word "og" is not the infinitival marker, try using "å" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_å_connect</name>
+
+		<message>
+			The word "å" is not a conjunction, try using "og" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_å__n-coord</name>
+
+		<message>
+			The word "å" is not a conjunction, try using "og" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_å_adv-p-coord</name>
+
+		<message>
+			The word "å" is not a conjunction, try using "og" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_å_v-coord</name>
+
+		<message>
+			The word "å" is not a conjunction, try using "og" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_å_v-dir-coord</name>
+
+		<message>
+			The word "å" is not a conjunction, try using "og" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_å_relclause-coord</name>
+
+		<message>
+			The word "å" is not a conjunction, try using "og" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_å_adj-coord</name>
+
+		<message>
+			The word "å" is not a conjunction, try using "og" instead.
+		</message>
+	</feedback>
+
+	<!-- Errors of PN-mismatch between reflexive and antecedent -->
+
+	<feedback>
+		<name>mal_seg_for_meg_refl</name>
+	
+		<message>
+			The reflexive pronoun "seg" does not match the number and gender of the word it refers back to. Try using "meg" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_seg_for_deg_refl</name>
+	
+		<message>
+			The reflexive pronoun "seg" does not match the number and gender of the word it refers back to. Try using "deg" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_seg_for_oss_refl</name>
+	
+		<message>
+			The reflexive pronoun "seg" does not match the number and gender of the word it refers back to. Try using "oss" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_seg_for_dere_refl</name>
+	
+		<message>
+			The reflexive pronoun "seg" does not match the number and gender of the word it refers back to. Try using "dere" instead.
+		</message>
+	</feedback>
+
+	<!-- Errors related to wrong use of inversion -->
+
+	<feedback>
+		<name>mal-head-subject-rule</name>
+	
+		<message>
+			The sentence lacks subject-verb inversion.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-head-invertsubject-decl-rule</name>
+	
+		<message>
+			The sentence contains an incorrect subject-verb inversion.
+		</message>
+	</feedback>
+
+	<!-- Errors related to wrong use of finite/infinite mode -->
+
+	<feedback>
+		<name>mal-pres-infl_rule</name>
+	
+		<message>
+			The word "GET-WORD-RIGHT" is an infinitive, but should be put in past or present tense.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-present-inf-like_infl_rule</name>
+	
+		<message>
+			The word "GET-WORD-RIGHT" is in the present tense, but should be in infinitive.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-past-inf-like-1_infl_rule</name>
+	
+		<message>
+			The word "GET-WORD-RIGHT" is in the past tense, but should be in infinitive.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-past-inf-like-2_infl_rule</name>
+	
+		<message>
+			The word "GET-WORD-RIGHT" is in the past tense, but should be in infinitive.
+		</message>
+	</feedback>
+
+	<!-- Errors related to wrong gender in nouns -->
+
+	<feedback>
+		<name>mal_masc_sing_def_for_neut_sing_def_final-full-mm_irule</name>
+	
+		<message>
+			The word "GET-PHRASE" is of neuter gender, not masculine.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_masc_sing_def_for_neut_sing_def_final-full_irule</name>
+	
+		<message>
+			The word "GET-PHRASE" is of neuter gender, not masculine.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_masc_sing_def_for_neut_sing_def_light-e_irule</name>
+	
+		<message>
+			The word "GET-PHRASE" is of neuter gender, not masculine.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_comm_pl_indef_for_neut_pl_indef_final-full_irule</name>
+	
+		<message>
+			The word "GET-PHRASE" is of neuter gender, not masculine.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_comm_pl_indef_for_neut_pl_indef_final-full-mm_irule</name>
+	
+		<message>
+			The word "GET-PHRASE" is of neuter gender, not masculine.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_comm_pl_indef_for_neut_pl_indef_light-e_irule</name>
+	
+		<message>
+			The word "GET-PHRASE" is of neuter gender, not masculine.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_fem_sg_def_for_masc_sg_def_final-full-mm_irule</name>
+	
+		<message>
+			The word "GET-PHRASE" is of masculine gender, not feminine.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_fem_sg_def_for_masc_sg_def_final-full_irule</name>
+	
+		<message>
+			The word "GET-PHRASE" is of masculine gender, not feminine.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_fem_sg_def_for_masc_sg_def_light-e_irule</name>
+	
+		<message>
+			The word "GET-PHRASE" is of masculine gender, not feminine.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_neut_sg_def_for_masc_sg_def_final-full-mm_irule</name>
+	
+		<message>
+			The word "GET-PHRASE" is of masculine gender, not neuter.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_neut_sg_def_for_masc_sg_def_final-full_irule</name>
+	
+		<message>
+			The word "GET-PHRASE" is of masculine gender, not neuter.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_neut_sg_def_for_masc_sg_def_light-e_irule</name>
+	
+		<message>
+			The word "GET-PHRASE" is of masculine gender, not neuter.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_neut_sg_def_for_fem_sg_def_final-full-mm_irule</name>
+	
+		<message>
+			The word "GET-PHRASE" is of feminine gender, not neuter.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_neut_sg_def_for_fem_sg_def_final-full_irule</name>
+	
+		<message>
+			The word "GET-PHRASE" is of feminine gender, not neuter.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal_neut_sg_def_for_fem_sg_def_light-e_irule</name>
+	
+		<message>
+			The word "GET-PHRASE" is of feminine gender, not neuter.
+		</message>
+	</feedback>
+
+	<!-- Errors related to wrong concord: noun - adjective -->
+
+	<feedback>
+		<name>mal-n_sg_strong-for-c_sg_strong-finstr_infl_rule</name>
+	
+		<message>
+			The adjective "GET-PHRASE" is conjugated as neuter gender, but modifies a masculine or feminine noun.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-n_sg_strong-for-c_sg_strong-nonfstr_infl_rule</name>
+	
+		<message>
+			The adjective "GET-PHRASE" is conjugated as neuter gender, but modifies a masculine or feminine noun.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-c_sg_strong-for-n_sg_strong-infl_rule</name>
+	
+		<message>
+			The adjective "GET-PHRASE" is conjugated as masculine or feminine, but modifies a neuter gender noun.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-c_sg_strong-for-pl_strong-infl_rule</name>
+	
+		<message>
+			The adjective "GET-PHRASE" is conjugated as singular, but modifies a plural noun.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-n_sg_strong-for-pl_strong-nonfstr_infl_rule</name>
+	
+		<message>
+			The adjective "GET-PHRASE" is conjugated as singular, but modifies a plural noun.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-n_sg_strong-for-pl_strong-finstr_infl_rule</name>
+	
+		<message>
+			The adjective "GET-PHRASE" is conjugated as singular, but modifies a plural noun.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-c_sg_strong-for-weak-infl_rule</name>
+	
+		<message>
+			The adjective "GET-PHRASE" is conjugated as an indefinite, but modifies a definite noun.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-n_sg_strong-for-weak-nonfstr_infl_rule</name>
+	
+		<message>
+			The adjective "GET-PHRASE" is conjugated as an indefinite, but modifies a definite noun.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-n_sg_strong-for-weak-finstr_infl_rule</name>
+	
+		<message>
+			The adjective "GET-PHRASE" is conjugated as an indefinite, but modifies a definite noun.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-plural_or_weak-for-c_sg_strong-finstr_infl_rule</name>
+	
+		<message>
+			The adjective "GET-PHRASE" should agree with the masculine or feminine noun it modifies.
+		</message>
+	</feedback>
+
+
+	<feedback>
+		<name>mal-plural_or_weak-for-c_sg_strong-nonfstr_infl_rule</name>
+	
+		<message>
+			The adjective "GET-PHRASE" should agree with the masculine or feminine noun it modifies.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-plural_or_weak-for-n_sg_strong-finstr_infl_rule</name>
+	
+		<message>
+			The adjective "GET-PHRASE" should agree with the neuter gender noun it modifies.
+		</message>
+	</feedback>
+
+
+	<feedback>
+		<name>mal-plural_or_weak-for-n_sg_strong-nonfstr_infl_rule</name>
+	
+		<message>
+			The adjective "GET-PHRASE" should agree with the neuter gender noun it modifies.
+		</message>
+	</feedback>
+
+	<!-- Errors relating to wrong use of infinitive markers -->
+
+	<feedback>
+		<name>mal-vp-to-inf-cp-rule</name>
+	
+		<message>
+			The verb "GET-WORD-LEFT" must be followed by the infinitive marker "å". 
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-inf-cp-to-vp-rule</name>
+	
+		<message>
+			The verb "GET-WORD-LEFT" should not be followed by the infinitive marker "å". 
+		</message>
+	</feedback>
+
+	<!-- Errors relating to copula drop -->
+
+	<feedback>			A singular noun which is modified by an adjective
+		<name>mal-pred-ap-to-copula-rule</name>
+	
+		<message>
+			There should always be a verb in the sentence. Try using "er" or "var" before the phrase "GET-PHRASE".
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-np-to-copula-rule</name>
+	
+		<message>
+			There should always be a verb in the sentence. Try using "er" or "var" before the phrase "GET-PHRASE".
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-pp-to-copula-rule</name>
+	
+		<message>
+			There should always be a verb in the sentence. Try using "er" or "var" before the phrase "GET-PHRASE".
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-adv-to-copula-rule</name>
+	
+		<message>
+			There should always be a verb in the sentence. Try using "er" or "var" before the phrase "GET-PHRASE".
+		</message>
+	</feedback>
+
+	<!-- Errors relating to drop of perfective or passive auxiliaries -->
+
+	<feedback>
+		<name>mal-perf-marker-drop-rule</name>
+	
+		<message>
+			Past perfective tense requires an auxiliary verb "å ha" in addition to the past participle "GET-WORD-RIGHT". 
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-passive-form-to-passive-vp-rule</name>
+	
+		<message>
+			Passive mode requires an auxiliary verb "å bli" in addition to the past participle "GET-WORD-RIGHT".
+		</message>
+	</feedback>
+
+	<!-- Errors relating to wrong placement of adverbials -->
+
+	<feedback>
+		<name>mal-s-adv-sentence-final-rule</name>
+	
+		<message>
+			In main clauses, sentential adverbs, such as for instance "ikke", must be placed directly after the verb, before any objects.
+		</message>
+	</feedback>
+
+	<!-- Drop-error rules -->
+
+	<feedback>
+		<name>mal-np-obj-drop-rule</name>
+	
+		<message>
+			The verb "GET-WORD-RIGHT" requires an object.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-subj-drop-rule</name>
+
+		<message>
+			The verb "GET-WORD-RIGHT" requires a subject, like all finite verbs in Norwegian.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-3rd-refl-np-obj-drop-rule</name>
+
+		<message>
+			The verb "GET-WORD-RIGHT" requires a reflexive object.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-2nd-sg-refl-np-obj-drop-rule</name>
+
+		<message>
+			The verb "GET-WORD-RIGHT" requires a reflexive object.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-2nd-pl-refl-np-obj-drop-rule</name>
+
+		<message>
+			The verb "GET-WORD-RIGHT" requires a reflexive object.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-1st-sg-refl-np-obj-drop-rule</name>
+
+		<message>
+			The verb "GET-WORD-RIGHT" requires a reflexive object.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-1st-pl-refl-np-obj-drop-rule</name>
+
+		<message>
+			The verb "GET-WORD-RIGHT" requires a reflexive object.
+		</message>
+	</feedback>
+
+	<!-- Possessive marker -->
+	
+	<feedback>
+		<name>mal-possparticle-drop-rule</name>
+
+		<message>
+			A possessive "s" (without an apostrophe) is required after "GET-PHRASE" to specifiy a possessive relation.
+		</message>
+	</feedback>
+
+	<!-- subcat PP for NP / NP for PP -->
+
+	<feedback>
+		<name>mal-vp-subcat-pp-for-np-rule</name>
+
+		<message>
+			The noun following the verb "GET-WORD-RIGHT" should not be introduced by a preposition.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-vp-subcat-np-for-pp-rule</name>
+
+		<message>
+			The noun following the verb "GET-WORD-RIGHT" should always be introduced by a preposition.
+		</message>
+	</feedback>
+
+	<!-- Misc -->
+
+	<feedback>
+		<name>mal-redundant-med-with-sammen-rule</name>
+
+		<message>
+			The word "sammen" should not be followed by "med" in this context.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-refl-pron-with-self-rule</name>
+
+		<message>
+			The verb "GET-WORD-LEFT" requires that the object is not followed by "selv".
+		</message>
+	</feedback>
+
+	<!-- Bare singulars and lack of determiner in NPs -->
+
+	<feedback>
+		<name>mal-bare-sg-noun-lxm-lrule</name>
+
+		<message>
+			Countable indefinite nouns, such as "GET-WORD-RIGHT", are normally preceded by a determiner.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-adjective-mod-def-neut-sg-rule</name>
+
+		<message>
+			A singular noun which is modified by an adjective, such as "GET-PHRASE", should have a determiner preceding the adjective.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-adjective-mod-def-m-or-f-sg-rule</name>
+
+		<message>
+			A singular noun which is modified by an adjective, such as "GET-PHRASE", should have a determiner preceding the adjective.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-adjective-mod-def-plur-rule</name>
+
+		<message>
+			A definite noun which is modified by an adjective, such as "GET-PHRASE", should have a determiner preceding the adjective.
+		</message>
+	</feedback>
+
+	<!-- Mismatch determiner-noun -->
+
+	<feedback>
+		<name>mal-n_spec-m_or_f_noun-head-spec-det-rule</name>
+
+		<message>
+			The determiner "GET-WORD-LEFT" must have the same gender, number and definiteness as the noun it modifies.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-m_or_f_spec-n_noun-head-spec-det-rule</name>
+
+		<message>
+			The determiner "GET-WORD-LEFT" must have the same gender, number and definiteness as the noun it modifies.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-pl_spec-sg_noun-head-spec-det-rule</name>
+
+		<message>
+			The determiner "GET-WORD-LEFT" must have the same gender, number and definiteness as the noun it modifies.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-sg_spec-pl_noun-head-spec-det-rule</name>
+
+		<message>
+			The determiner "GET-WORD-LEFT" must have the same gender, number and definiteness as the noun it modifies.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-n_spec-m_noun-head-spec-art-rule</name>
+
+		<message>
+			The determiner "GET-WORD-LEFT" must have the same gender, number and definiteness as the noun it modifies.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-fem_spec-m_noun-head-spec-art-rule</name>
+
+		<message>
+			The determiner "GET-WORD-LEFT" must have the same gender, number and definiteness as the noun it modifies.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-n_spec-f_noun-head-spec-art-rule</name>
+
+		<message>
+			The determiner "GET-WORD-LEFT" must have the same gender, number and definiteness as the noun it modifies.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-m_or_f_spec-n_noun-head-spec-art-rule</name>
+
+		<message>
+			The determiner "GET-WORD-LEFT" must have the same gender, number and definiteness as the noun it modifies.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-n_spec-m_or_f_noun-head-spec-quantor-rule</name>
+
+		<message>
+			The determiner "GET-WORD-LEFT" must have the same gender, number and definiteness as the noun it modifies.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-m_or_f_spec-n_noun-head-spec-quantor-rule</name>
+
+		<message>
+			The determiner "GET-WORD-LEFT" must have the same gender, number and definiteness as the noun it modifies.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-pl_spec-sg_noun-head-spec-quantor-rule</name>
+
+		<message>
+			The determiner "GET-WORD-LEFT" must have the same gender, number and definiteness as the noun it modifies.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-sg_spec-pl_noun-head-spec-quantor-rule</name>
+
+		<message>
+			The determiner "GET-WORD-LEFT" must have the same gender, number and definiteness as the noun it modifies.
+		</message>
+	</feedback>
+
+	<!-- Conjugation errors -->
+
+	<feedback>
+		<name>mal-et_infl-for-strong-lrule</name>
+
+		<message>
+			The verb "GET-WORD-RIGHT" is a strong verb. Refer to a dictionary for the appropriate conjugation.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-te_infl-for-strong-lrule</name>
+
+		<message>
+			The verb "GET-WORD-RIGHT" is a strong verb. Refer to a dictionary for the appropriate conjugation.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-de_infl-for-strong-lrule</name>
+
+		<message>
+			The verb "GET-WORD-RIGHT" is a strong verb. Refer to a dictionary for the appropriate conjugation.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-de_infl-for-te-lrule</name>
+
+		<message>
+			The verb "GET-WORD-RIGHT" is a "de"-verb, following the same pattern as "prøve".
+		</message>
+	</feedback>
+
+
+	<feedback>
+		<name>mal-de_infl-for-et-lrule</name>
+
+		<message>
+			The verb "GET-WORD-RIGHT" is a "de"-verb, following the same pattern as "prøve".
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-te_infl-for-de-lrule</name>
+
+		<message>
+			The verb "GET-WORD-RIGHT" is a "te"-verb, following the same pattern as "spise".
+		</message>
+	</feedback>
+
+
+	<feedback>
+		<name>mal-de_infl-for-et-lrule</name>
+
+		<message>
+			The verb "GET-WORD-RIGHT" is a "te"-verb, following the same pattern as "spise".
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-et_infl-for-de-lrule</name>
+
+		<message>
+			The verb "GET-WORD-RIGHT" is an "et"-verb, following the same pattern as "kaste".
+		</message>
+	</feedback>
+
+
+	<feedback>
+		<name>mal-et_infl-for-te-lrule</name>
+
+		<message>
+			The verb "GET-WORD-RIGHT" is an "et"-verb, following the same pattern as "kaste".
+		</message>
+	</feedback>
+
+	<!-- Possessive pronoun errors -->
+
+	<feedback>
+		<name>mal-sin_refl-pre-poss</name>
+
+		<message>
+			The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-sin_refl-post-poss</name>
+
+		<message>
+			The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-si_refl_pre-poss</name>
+
+		<message>
+			The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-si_refl-post-poss</name>
+
+		<message>
+			The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-sitt_refl-pre-poss</name>
+
+		<message>
+			The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-sitt_refl-post-poss</name>
+
+		<message>
+			The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-sine_refl_pre-poss</name>
+
+		<message>
+			The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.
+		</message>
+	</feedback>
+
+	<feedback>
+		<name>mal-sine_refl-post-poss</name>
+
+		<message>
+			The form "GET-WORD-RIGHT" is a reflexive pronoun, and can only be used with an antecedent. Try using "hans", "hennes" or "dens" instead.
+		</message>
+	</feedback>
+
+</mal-errors>

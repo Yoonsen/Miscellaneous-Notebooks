@@ -1,0 +1,141 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource -
+;;; 
+;;;    Copyright (c)  NorSource version 1.0
+;;;                        
+;;;
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;
+
+;;;         lrules.tdl
+;;;
+;;;   (Types for lexeme-to-lexeme rules, all const-ltol-rule; infl-ltol-rules
+;;;    are given in deriv-lrules.tdl.
+;;;    Also (at the end) types for word-to-word rules.)
+
+; File for spelling preserving lexical rules, i.e., instances
+; of (subtypes of) const-ltol-rule or const-ltow-rule.
+
+; %suffix should not appear in this file (see irules.tdl).
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; This rule is too liberal. This is extremely problematic for error detection of NorMal,
+; and could probably also be improved for NorSource. EAA. 020411.
+;bare-sg-noun-lxm-lrule := bare-sg-noun-lexeme.
+; now two rules for indef sg, to get binding of variable also with bare sg. LH 240611.
+sg-indef-bare-noun-lxm-lrule := sg-indef-bare-noun-lxm & 
+[ --A - ]. ;; MHS 120713 The addition of this constraint is necessary for blocking applications of this rule in the mal-grammar.
+sg-indef-cum-det-noun-lxm-lrule := sg-indef-cum-det-noun-lxm.
+sg-indef-cum-quant-noun-lxm-lrule := sg-indef-cum-quant-noun-lxm.
+sg-indef-cum-poss-noun-lxm-lrule := sg-indef-cum-poss-noun-lxm.
+sg-indef-cum-poss-and-enumerator-noun-lrule := sg-indef-cum-poss-and-enumerator-noun-lxm.
+sg-indef-cum-nounspec-noun-lxm-lrule := sg-indef-cum-nounspec-noun-lxm.
+sg-indef-cum-card-noun-lxm-lrule := sg-indef-cum-card-noun-lxm.
+plur-def-noun-lxm-lrule := plur-def-noun-lexeme.
+sg-masc-def-noun-lxm-lrule := sg-masc-def-noun-lexeme.
+sg-fem-def-noun-lxm-lrule := sg-fem-def-noun-lexeme.
+sg-neut-def-noun-lxm-lrule := sg-neut-def-noun-lexeme.
+
+leak-pl-indef-noun-lxm-lrule := leak-pl-indef-noun-lexeme.
+cum-card-pl-indef-noun-lxm-lrule := cum-card-pl-indef-noun-lexeme.
+cum-q-pl-indef-noun-lxm-lrule := cum-q-pl-indef-noun-lexeme.
+cum-posspron-pl-indef-noun-lxm-lrule := cum-posspron-pl-indef-noun-lexeme.
+cum-det-pl-indef-noun-lxm-lrule := cum-det-pl-indef-noun-lexeme.
+cum-posspron-and-card-pl-indef-noun-lxm-lrule := cum-posspron-and-card-pl-indef-noun-lexeme.
+cum-det-and-card-pl-indef-noun-lxm-lrule := cum-det-and-card-pl-indef-noun-lexeme.
+cum-measure-pl-indef-noun-lxm-lrule := cum-measure-pl-indef-noun-lexeme.
+
+imperative-verb-lrule := imperative-verb-lexeme. 
+
+weak-adj-lxm-lrule := weak-adj-lxm.
+strong-adj-lxm-lrule := strong-adj-lxm.
+
+comparative-adj-lxm-lrule := comparative-adj-lxm.
+sup-adj-standalone-lxm-lrule := sup-adj-standalone-lxm.
+sup-adj-cum-part-lxm-lrule := sup-adj-cum-part-lxm.
+;comparative-abs-adj-rule := comparative-abs-adj-lxm.
+; counterpart in irules-v.tdl
+;inf-verb-rule := inf-verb-word.
+
+;imp-0-rule := const-imp-verb-word.
+
+;obj-del-cum-dir-verb-rule := obj-del-cum-dir-verb-lxm.
+;obj-del-stnd-verb-rule := obj-del-stnd-verb-lxm.
+;obj-del-ditr-verb-rule := obj-del-ditr-verb-lxm.
+
+pass-ncomps1-lrule := passive-ncomps1.
+pass-dir-ncomps1-lrule := passive-dir-ncomps1.
+pass-ncomps2-lrule := passive-ncomps2.
+pass-presentational-lrule := subject-presentational-passive.
+pass-dir-presentational-lrule := subject-dir-presentational-passive.
+pass-io-presentational-lrule := io-presentational-passive.
+pass-impersonal-presentational-lrule := impersonal-presentational-passive.
+passive-obl-lrule := passive-obl.
+prep-sel-red-lrule := prep-word-sel-red.
+presentational-obl-passive-lrule := presentational-obl-passive.
+;prep-sel-cmp-rule := prep-word-sel-cmp.
+
+adv-from-adj-pos-lrule := adv-from-adj-pos-lxm.
+adv-from-adj-cmpar-lrule := adv-from-adj-cmpar-lxm.
+degadv-from-adj_nde-pos-lrule := degadv-from-adj_nde-pos-lxm.
+degadv-from-adj_t-pos-lrule := degadv-from-adj_t-pos-lxm.
+adv-from-adj-superlat-lrule := adv-from-adj-superlat-lxm.
+
+; these two are such a nuisance
+adj-to-bare-n-lrule := adj-to-bare-n-rule.; but now very restricted 210713
+;adj-to-nonbare-n-lrule := adj-to-nonbare-n-rule.
+adj-to-n-cum-quantifier-lrule := adj-to-n-cum-quantifier-rule.
+adj-to-n-cum-indefarticle-lrule := adj-to-n-cum-indefarticle-rule.
+adj-to-n-cum-defdem-lrule := adj-to-n-cum-defdem-rule.
+adj-to-n-cum-card-lrule := adj-to-n-cum-card-rule.
+;this is a hopeless parse-multiplier, for NoW purposes tempting to comment out. Tentatively
+card-to-bare-n-lrule := card-to-bare-n-rule.
+card-to-n-cum-defdem-lrule := card-to-n-cum-defdem-rule.
+;card-to-nonbare-n-lrule := card-to-nonbare-n-rule.
+ord-to-bare-n-lrule := ord-to-bare-n-rule.
+ord-to-nonbare-n-lrule := ord-to-nonbare-n-rule.
+indefquant-to-bare-n-lrule := indefquant-to-bare-n-rule.
+indefquant-to-nonbare-n-lrule := indefquant-to-nonbare-n-rule.
+posspron-to-bare-n-lrule := posspron-to-bare-n-rule.
+posspron-to-nonbare-n-lrule := posspron-to-nonbare-n-rule.
+card-to-name-of-card-lrule := card-to-name-of-card-rule.
+
+strsg-pastpt-adj_0_lrule := strsg-pastpt-adj-word.
+
+; some in practice constant irules, for PET purposes
+; guessing along the line tried by Ben this evening (Sept 19)
+; perhaps define them as const-ltow-rules, but then lkb doesn't like the spelling instruction
+
+;neutsg-adj_0_irule := 
+;%suffix (t t)(es es)(ig ig)(nde nde)
+;neutsg-infl-adj-word.
+
+;lh
+;neutsg-adj_0_irule := 
+;neutsg-infl-adj-word-const.
+
+;strongpl-adj_0_irule :=
+;%suffix (e e)(a a)(o o)(ø ø)(å å)(u u)(i i)(æ æ)(y y)
+;strongpl-adj-word.
+
+;lh
+;strongpl-adj_0_irule :=
+;strongpl-adj-word-const.
+
+;weak-adj_0_irule :=
+;%suffix (e e)(a a)(o o)(ø ø)(å å)(u u)(i i)(æ æ)(y y)
+;weak-adj-word.
+
+; lh
+;weak-adj_0_irule :=
+;weak-adj-word-const.
+
+;adv-a_0_irule :=
+;%suffix (t t)(es es)(ig ig)(nde nde)
+;adv-from-adj-ø-pos-word.
+
+;lh
+;adv-a_0_irule :=
+;adv-from-adj-ø-pos-word-const.

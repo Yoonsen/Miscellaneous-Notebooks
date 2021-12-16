@@ -1,0 +1,411 @@
+alta_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Alta" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Alta" ].
+
+arendal_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Arendal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Arendal" ].
+
+askim_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Askim" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Askim" ].
+
+;; found in lexicon  lex4.propn2
+;;bergen_propername := mascsg-inan-proper-name-word &
+;;  [ STEM < "Bergen" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Bergen" ].
+
+bodø_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Bodø" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bodø" ].
+
+brekstad_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Brekstad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Brekstad" ].
+
+brevik_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Brevik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Brevik" ].
+
+brumunddal_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Brumunddal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Brumunddal" ].
+
+bryne_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Bryne" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Bryne" ].
+
+brønnøysund_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Brønnøysund" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Brønnøysund" ].
+
+;; found in lexicon  lex4.propn2
+;;drammen_propername := mascsg-inan-proper-name-word &
+;;  [ STEM < "Drammen" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Drammen" ].
+
+drøbak_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Drøbak" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Drøbak" ].
+
+egersund_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Egersund" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Egersund" ].
+
+elverum_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Elverum" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Elverum" ].
+
+fagernes_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Fagernes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fagernes" ].
+
+farsund_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Farsund" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Farsund" ].
+
+fauske_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Fauske" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fauske" ].
+
+finnsnes_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Finnsnes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Finnsnes" ].
+
+flekkefjord_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Flekkefjord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Flekkefjord" ].
+
+florø_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Florø" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Florø" ].
+
+fosnavåg_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Fosnavåg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fosnavåg" ].
+
+fredrikstad_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Fredrikstad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Fredrikstad" ].
+
+førde_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Førde" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Førde" ].
+
+gjøvik_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Gjøvik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Gjøvik" ].
+
+grimstad_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Grimstad" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Grimstad" ].
+
+halden_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Halden" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Halden" ].
+
+hamar_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Hamar" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hamar" ].
+
+hammerfest_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Hammerfest" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hammerfest" ].
+
+;; found in lexicon  lex4.propn2
+;;harstad_propername := mascsg-inan-proper-name-word &
+;;  [ STEM < "Harstad" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Harstad" ].
+
+haugesund_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Haugesund" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Haugesund" ].
+
+hokksund_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Hokksund" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hokksund" ].
+
+holmestrand_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Holmestrand" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Holmestrand" ].
+
+honningsvåg_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Honningsvåg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Honningsvåg" ].
+
+horten_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Horten" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Horten" ].
+
+hønefoss_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Hønefoss" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hønefoss" ].
+
+jessheim_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Jessheim" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Jessheim" ].
+
+jørpeland_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Jørpeland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Jørpeland" ].
+
+kirkenes_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Kirkenes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kirkenes" ].
+
+kolvereid_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Kolvereid" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kolvereid" ].
+
+kongsberg_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Kongsberg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kongsberg" ].
+
+kongsvinger_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Kongsvinger" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kongsvinger" ].
+
+kopervik_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Kopervik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kopervik" ].
+
+kragerø_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Kragerø" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kragerø" ].
+
+kristiansand_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Kristiansand" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kristiansand" ].
+
+kristiansund_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Kristiansund" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Kristiansund" ].
+
+langesund_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Langesund" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Langesund" ].
+
+larvik_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Larvik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Larvik" ].
+
+leknes_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Leknes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Leknes" ].
+
+levanger_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Levanger" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Levanger" ].
+
+lillehammer_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Lillehammer" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lillehammer" ].
+
+lillesand_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Lillesand" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lillesand" ].
+
+lillestrøm_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Lillestrøm" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lillestrøm" ].
+
+lyngdal_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Lyngdal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Lyngdal" ].
+
+mandal_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Mandal" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mandal" ].
+
+mo_i_rana_propername := mascsg-inan-proper-name-word &
+  [ STEM <"Mo", "i", "Rana">,
+    SYNSEM.LKEYS.KEYREL.CARG "Mo_i_Rana" ].
+
+moelv_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Moelv" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Moelv" ].
+
+;; found in lexicon  lex4.propn2
+;;molde_propername := mascsg-inan-proper-name-word &
+;;  [ STEM < "Molde" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Molde" ].
+
+mosjøen_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Mosjøen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mosjøen" ].
+
+moss_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Moss" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Moss" ].
+
+mysen_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Mysen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Mysen" ].
+
+måløy_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Måløy" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Måløy" ].
+
+namsos_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Namsos" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Namsos" ].
+
+narvik_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Narvik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Narvik" ].
+
+notodden_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Notodden" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Notodden" ].
+
+odda_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Odda" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Odda" ].
+
+;; found in lexicon  lex4.propn2
+;;oslo_propername := mascsg-inan-proper-name-word &
+;;  [ STEM < "Oslo" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Oslo" ].
+
+otta_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Otta" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Otta" ].
+
+porsgrunn_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Porsgrunn" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Porsgrunn" ].
+
+risør_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Risør" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Risør" ].
+
+rjukan_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Rjukan" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rjukan" ].
+
+sandefjord_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Sandefjord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sandefjord" ].
+
+sandnes_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Sandnes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sandnes" ].
+
+sandnessjøen_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Sandnessjøen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sandnessjøen" ].
+
+sandvika_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Sandvika" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sandvika" ].
+
+sarpsborg_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Sarpsborg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sarpsborg" ].
+
+sauda_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Sauda" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sauda" ].
+
+ski_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Ski" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ski" ].
+
+skien_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Skien" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Skien" ].
+
+skudeneshavn_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Skudeneshavn" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Skudeneshavn" ].
+
+sortland_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Sortland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sortland" ].
+
+stathelle_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Stathelle" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stathelle" ].
+
+stavanger_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Stavanger" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stavanger" ].
+
+stavern_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Stavern" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stavern" ].
+
+steinkjer_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Steinkjer" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Steinkjer" ].
+
+stjørdalshalsen_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Stjørdalshalsen" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stjørdalshalsen" ].
+
+stokmarknes_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Stokmarknes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stokmarknes" ].
+
+stord_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Stord" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Stord" ].
+
+svelvik_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Svelvik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Svelvik" ].
+
+svolvær_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Svolvær" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Svolvær" ].
+
+tromsø_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Tromsø" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tromsø" ].
+
+;; found in lexicon  lex4.propn1
+;;trondheim_propername := mascsg-inan-proper-name-word &
+;;  [ STEM < "Trondheim" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Trondheim" ].
+
+tvedestrand_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Tvedestrand" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tvedestrand" ].
+
+tønsberg_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Tønsberg" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Tønsberg" ].
+
+ulsteinvik_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Ulsteinvik" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Ulsteinvik" ].
+
+vadsø_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Vadsø" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vadsø" ].
+
+vardø_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Vardø" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vardø" ].
+
+verdalsøra_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Verdalsøra" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Verdalsøra" ].
+
+åkrehamn_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Åkrehamn" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Åkrehamn" ].
+
+;; found in lexicon  lex4.propn2
+;;ålesund_propername := mascsg-inan-proper-name-word &
+;;  [ STEM < "Ålesund" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Ålesund" ].
+
+åndalsnes_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Åndalsnes" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Åndalsnes" ].
+
+åsgårdstrand_propername := mascsg-inan-proper-name-word &
+  [ STEM < "Åsgårdstrand" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Åsgårdstrand" ].
+

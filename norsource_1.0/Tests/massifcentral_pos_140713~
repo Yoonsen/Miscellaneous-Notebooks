@@ -1,0 +1,1145 @@
+1 det regner 2 117
+2 det klarner opp 2 95
+3 det kvekker i Ola 2 202
+4 det sprekker i glasset 2 181
+5 det synger i fjellene 4 489
+6 det løper en mann 2 175
+7 det ruller en ball 8 284
+8 det løper en mann hit 4 213
+9 det kommer en mann hit 2 279
+10 det løper to gutter mot skogen 4 323
+11 det ruller en ball hit 8 340
+12 det smyger seg en mann 2 174
+13 det smyger seg en mann hit 2 206
+14 det smetter en katt ut 2 148
+15 det smetter ut en katt 2 154
+16 det kommer hit en mann 2 182
+17 det sniker seg en mann ut 2 249
+18 det sniker seg ut en mann 2 221
+19 det sniker seg en mann hit 2 230
+20 det sniker seg ut en mann 2 221
+21 det sitter en mann i stolen 14 453
+22 det sitter en mann her 4 301
+23 det oppholder seg en gutt i hagen 4 357
+24 det setter seg en gutt her 4 304
+25 det setter seg en gutt 2 262
+26 det venter ham en ulykke 4 180
+27 det tilkommer ham hundre kroner 2 166
+28 gutten hopper 1 25
+29 gutten sover 1 25
+30 regnværet varer ved 2 48
+31 Ola stopper opp 1 53
+32 regnværet holder opp 1 88
+33 gutten lytter 1 22
+34 isen smelter 1 32
+35 gutten fryser 1 42
+36 gutten løper 1 34
+37 ballen ruller 1 50
+38 pilen peker mot nord 1 206
+39 veien går mot nord 1 245
+40 turen går mot nord 1 244
+41 gutten rusler mot skogen 1 155
+42 gutten lister seg 1 72
+43 gutten lister seg ut 1 108
+44 at han sover hender 1 58
+45 hvorvidt han kommer spørs 1 153
+46 hvem som kommer spørs 1 168
+47 å motta penger for politiske verv stinker 2 389
+48 jeg snakker om fjellet 1 177
+49 jeg stoler på gutten 1 172
+50 jeg snakker om Ola 1 185
+51 hun bor i Finnmark 1 149
+52 Hamningberg ligger i Finnmark 1 113
+53 Ola tygger på eplet 2 185
+54 hun spiser av eplet 1 160
+55 hun leser i boken 2 198
+56 Ola rører på statuen 1 228
+57 Ola leer på seg 1 153
+58 jeg fryser på ryggen 3 261
+59 han sølte på duken 1 189
+60 han kledde på gutten 3 430
+61 han sølte på seg 1 186
+62 han kledde på seg 6 428
+63 jeg snakker om at du kommer 1 256
+64 jeg stoler på at du kommer 1 225
+65 dette beror på at du kommer 1 370
+66 dette avhenger av at du kommer 1 359
+67 Jon lurer på hvorvidt du kommer 1 229
+68 jeg snakker om hvorvidt du kommer 1 256
+69 Jon lurer på hva som skjer 3 376
+70 de lurer på hvem som kommer 5 506
+71 jeg ber om å komme 1 310
+72 han håper på å komme 1 277
+73 katten driver med å fortære maten 4 210
+74 Ola driver med å skrive 4 480
+75 ulven driver på med å fortære maten 1 427
+76 Ola driver på med å skrive 6 696
+77 de snakker om å reise til Trondheim 4 599
+78 han later til å komme 1 265
+79 han kommer til å sove 1 197
+80 det later til å komme to gutter 1 409
+81 at han kom beror på Ola 2 372
+82 om han kommer avhenger av Ola 1 277
+83 hvem som kommer avhenger av Ola 1 270
+84 at han kom beror på at Ola vant 1 397
+85 om han kommer beror på om Ola vinner 2 531
+86 hvem som kommer beror på om Ola vinner 2 428
+87 om han kommer beror på hvem som vinner 2 1045
+88 hvem som kommer beror på hvem som vinner 2 806
+89 han ser ut til å komme 3 401
+90 gutten ser ut til å komme 3 402
+91 det ser ut til å komme en gutt 2 542
+92 det ser ut som om gutten kommer 7 1122
+93 det ser ut som gutten kommer 7 822
+94 det ser ut som at gutten kommer 7 624
+95 han ser ut som han kommer 7 481
+96 han ser ut som om han kommer 7 857
+97 han ser ut som Ola 3 455
+98 han fungerer godt 1 74
+99 han kan komme 1 142
+100 jeg vil komme 1 141
+101 han må ut 1 44
+102 han har kommet 1 160
+103 han ble skutt 2 100
+104 huset står tomt 4 130
+105 eiendommen ligger brakk 2 74
+106 gutten virker syk 2 84
+107 gutten synes et talent 2 406
+108 gutten virker i orden 1 240
+109 gutten virker som en feiging 6 305
+110 han synes å komme 2 665
+111 Ola viser seg å være syk 10 647
+112 han viser seg å komme 2 369
+113 stjernen lot seg se 4 332
+114 de lot sangen synge 3 286
+115 han fortoner seg syk 2 84
+116 han forefaller komme 1 146
+117 gutten høres syk ut 2 376
+118 gutten høres ut som en papegøye 2 742
+119 koppen renner full 2 84
+120 kjelen koker tørr 4 105
+121 firmaet går fallitt 5 125
+122 Ola stiller som forsvarer 1 159
+123 gutten fremstår som mistenkt 1 89
+124 landsbyen snør ned 1 43
+125 kampen regnet bort 2 192
+126 kjelen koker i stykker 4 257
+127 skinken henger mør 3 96
+128 kaffen koker bort 2 103
+129 kaffen koker opp 5 106
+130 det hender at han kommer 2 191
+131 det viser seg at han kommer 4 438
+132 det tar to timer å gå dit 6 645
+133 det tar meg to timer å gå dit 4 614
+134 det virker som om han kommer 5 728
+135 det virker som han kommer 3 390
+136 han virker som om han kommer 2 520
+137 han synes som om han kommer 2 1058
+138 han virker som han kommer 1 274
+139 det spørs om han kommer 2 645
+140 det spørs hvorvidt han kommer 2 264
+141 det spørs hvem som kommer 1 225
+142 det hjelper å sette seg 2 738
+143 det hører med at han kommer 4 499
+144 det hører med å komme 4 700
+145 det later til at han kommer 2 291
+146 det haster med at han kommer 3 307
+147 det haster med å rydde 3 367
+148 det ser ut til at han kommer 7 527
+149 det beror på deg at han vant 6 610
+150 det avhenger av deg om han vil vinne 7 546
+151 det beror på deg hvorvidt Ola vinner 5 566
+152 det avhenger av deg hvem som vinner 1 354
+153 det avhenger av hvem som sover hvem som smiler 13 925
+154 det avhenger av hvorvidt Ola sover hvorvidt Kari smiler 3 353
+155 det avhenger av hvorvidt Ola sover hvem som smiler 11 582
+156 det avhenger av hvem som sover hvorvidt Kari smiler 3 552
+157 Kari slår Ola 4 120
+158 Kari nevner Ola 2 59
+159 hun fortærer maten 1 30
+160 Kari spiser kaken 2 103
+161 Kari leser boken 2 90
+162 Kari ser Ola 2 182
+163 Kari skremmer Ola 2 51
+164 boken tilhører Ola 2 37
+165 boken skader Ola 2 43
+166 boken deprimerer Ola 2 37
+167 stenen veier 5 kg 4 211
+168 filmen varer 5 timer 1 116
+169 banen måler en kilometer 4 240
+170 gutten går to kilometer 6 254
+171 hun sover en dyp søvn 0 170
+172 hun skyter plastikkuler 1 100
+173 Kari vet svaret 2 147
+174 Kari vasker seg 1 80
+175 Kari skammer seg 1 58
+176 han kaster ballen 2 89
+177 Kari sender pakken 2 49
+178 Han famler seg frem 1 52
+179 han retter pilen mot nord 8 345
+180 han tegner linjen mot venstre 22 490
+181 Kari når toppen 2 68
+182 Kari passerer kirken 2 40
+183 stien når toppen 2 66
+184 stien passerer kirken 2 38
+185 Kari følger stien 2 47
+186 gutten ledsager presidenten 2 29
+187 gutten krysser demonstrasjonstoget 2 48
+188 streken skjærer linjen. 2 99
+189 streken følger linjen 2 48
+190 stien følger elven 2 45
+191 de legger turen mot nord 0 441
+192 gutten tar stien mot fjellet 5 407
+193 gutten tar bussen mot fjellet 5 407
+194 Å bygge høyhus interesserer Kari 2 271
+195 At jeg kommer forundrer Kari 1 124
+196 hvorvidt jeg kommer interesserer Kari 1 143
+197 hvem som kommer interesserer Kari 1 159
+198 Kari ser at Ola sover 2 173
+199 Kari vet at jeg kommer 2 125
+200 jeg vet hvorvidt han kommer 2 118
+201 jeg vet hvem som kommer 4 271
+202 jeg vet hvem han liker 0 151
+203 Kari undres hvorvidt jeg kommer 2 372
+204 Kari undres hvem som kommer 1 402
+205 Kari prøver å komme 2 264
+206 Kari kan padle 1 76
+207 Kari vurderer å komme 4 206
+208 At han kommer antyder at hun kommer 4 226
+209 At han kommer indikerer hvorvidt hun kommer 2 190
+210 At han kommer indikerer hvem som sover 1 170
+211 om han kommer indikerer hvorvidt hun kommer 2 208
+212 om han kommer indikerer hvem som sover 1 196
+213 hvem som sover indikerer hvorvidt hun kommer 2 167
+214 hvem som sover indikerer hvem som kommer 1 197
+215 Kari dummet seg ut 1 85
+216 Ola fiffer seg opp 1 61
+217 Kari fant ut hemmeligheten 2 100
+218 Kari fant ut hvorvidt jeg kommer 4 175
+219 Ola regner ut hvorvidt du kommer 4 231
+220 Kari fant ut hvem som kommer 7 272
+221 Kari fant ut om Ola kommer 8 281
+222 Kari fant ut at Ola kommer 4 189
+223 Ola regner ut hvem som kommer 4 268
+224 Kari fant på å komme 4 375
+225 han forteller nyheten til Ola 6 328
+226 jeg sammenligner Ola med gutten 2 146
+227 han allierer seg med gutten 2 153
+228 jeg skrubber Ola på ryggen 2 299
+229 jeg sparker Ola i baken 4 423
+230 Ola klør seg på ryggen 3 321
+231 han forteller Ola om at han kommer 2 403
+232 han forteller Ola om hvorvidt han kommer 2 403
+233 han forteller Ola om hvem som kommer 12 548
+234 han ber meg om å få komme 6 770
+235 jeg anmoder Ola om å komme 1 252
+236 han forplikter seg til å komme 1 268
+237 vi forteller barna om å bygge høyhus 2 435
+238 han forekommer meg syk 6 149
+239 han synes meg syk 8 441
+240 han synes ham syk 6 406
+241 han synes meg en idiot 12 501
+242 han synes meg i godt humør 2 784
+243 han foresvever meg som syk 2 257
+244 han synes meg som en idiot 4 968
+245 Ola viser seg som venn 4 650
+246 jeg forekommer Ola å være syk 10 698
+247 han synes meg å komme 7 603
+248 han forekommer meg å komme 7 311
+249 det forekommer Ola å rusle to gutter 2 308
+250 jeg formoder ham å være dyktig 36 617
+251 jeg ser ham løpe 2 185
+252 jeg ser det komme to gutter 1 553
+253 han følte seg sove 1 229
+254 han kjente seg sove 1 303
+255 han anser Ola kvalifisert 2 283
+256 han anser seg skikket 1 150
+257 jeg anser Ola for å være syk 5 1331
+258 jeg anser Ola for å løpe vekk 1 620
+259 jeg anser det for å komme mange gutter 2 5703
+260 jeg anser Ola som syk 1 196
+261 han oppfattet bilen som ny 8 323
+262 jeg anser Ola som min venn 1 231
+263 hun viser seg som Olas venn 4 892
+264 han oppfattet seg som syk 1 251
+265 hun anser seg for å være syk 5 949
+266 han anser seg syk 1 85
+267 hun kaller Ola en venn 6 400
+268 hun kaller seg en venn 2 166
+269 han drakk kaffen varm 2 84
+270 han kjørte bilen i god stand 17 619
+271 han kjørte bilen som firmabil 7 346
+272 hun gjør skoene flate 1 213
+273 hun gjør meg i god form 6 627
+274 hun gjorde det mulig at Ola fikk komme 3 834
+275 hun setter skoene bak bordet 1 447
+276 hun plasserer skoene bak bordet 1 215
+277 hun bredde på Ola dynen 2 375
+278 Ola jafser i seg maten 1 134
+279 han sparket ballen bort 5 260
+280 han sparket bort ballen 1 204
+281 jeg sparker ballen flat 1 176
+282 han sparket i stykker ballen 1 587
+283 han sang rommet tomt 4 198
+284 han sang det hyggelig 15 588
+285 hun spylte det rent i rommet 11 534
+286 han sang det mulig at Ola kommer 12 664
+287 han spiser kjøleskapet tomt 6 183
+288 han løp seg sunn 1 77
+289 han sang seg i god form 5 372
+290 han karer seg bort 1 85
+291 han sang sorgene bort 3 166
+292 han sang bort sorgene 1 133
+293 han oppfører seg pent 1 89
+294 det foresvever Ola at du er frisk 2 287
+295 det undrer meg at han kommer 5 264
+296 det interesserer meg hvorvidt han kommer 6 277
+297 det overrasker meg hvem som kommer 3 227
+298 det viser seg at han kommer 4 438
+299 det viser seg om han kommer 10 551
+300 det viser seg hvem som kommer 11 495
+301 det vil ikke forundre meg hvis han kommer 6 822
+302 det behager meg å komme 5 296
+303 det synes fint at han kommer 3 726
+304 det synes fint å komme 5 833
+305 det synes uvisst om han kommer 3 1305
+306 det synes uvisst hvem som kommer 6 705
+307 vi muliggjorde det at han fikk innreisetillatelse 2 334
+308 jeg vil beklage det om du kommer 2 389
+309 vi muliggjør det å komme 2 315
+310 jeg gav ham boken 2 136
+311 han unner henne boken 2 85
+312 han gav seg tid 4 272
+313 hun unner seg litt vin 4 238
+314 at han synger gir Kari hodepine 1 321
+315 at han kom påførte meg et sjokk 4 236
+316 hvorvidt han kommer vil vise oss angrepsplanen 4 723
+317 hvem som kommer vil vise oss angrepsplanen 4 738
+318 å angripe først frarøver fienden moralen 1 129
+319 å gå tur gir ham styrke 2 369
+320 Kari forteller meg at han kommer 5 369
+321 hun forestiller seg at du er syk 2 201
+322 instrumentet viser Ola hvorvidt du er syk 3 432
+323 han forteller meg hvorvidt Kari kommer 6 397
+324 han forteller meg hvem som kommer 12 461
+325 jeg lover Ola å komme 2 268
+326 Kari lover ham å komme 4 237
+327 jeg tillater Ola å komme 2 265
+328 Kari tillater ham å komme 4 243
+329 hun tillater seg å komme 3 365
+330 jeg ber Ola komme 1 268
+331 Kari ber ham komme 2 228
+332 han innbiller seg at du kommer 3 272
+333 han undrer seg hvorvidt du kommer 2 178
+334 han undrer seg hvem som kommer 1 174
+335 han forespeiler Kari at det blir storm 6 243
+336 han forespeiler Kari å få komme 9 565
+337 han foresetter seg at han skal komme 2 410
+338 han foresetter seg å komme 2 326
+339 hvorvidt han kommer først vil fortelle oss hvorvidt de har en plan 24 1972
+340 hvem som kommer først forteller oss ikke hvem som kommer sist 18 1729
+341 hvorvidt han kommer først forteller oss ikke hvem som kommer sist 18 1698
+342 hvem som kommer først forteller oss ikke hvorvidt han kommer sist 30 1545
+343 at han kommer viser oss at han er skyldig 7 612
+344 at han kommer viser oss hvorvidt han er skyldig 8 616
+345 at han kommer viser oss hvem som er skyldig 8 2215
+346 jeg kyler Ola ballen i ryggen 4 316
+347 jeg kaster Ola kakestykker i ansiktet 1 261
+348 han er snill 1 128
+349 at du kommer er fint 2 317
+350 at han kommer er overraskende 5 317
+351 å løpe er sunt 2 227
+352 hvorvidt han kommer er uvisst 2 255
+353 hvem som kommer er uvisst 2 270
+354 han er bonde 1 211
+355 at han kom var et sjokk 1 340
+356 å komme var en fornøyelse 2 593
+357 hvorvidt han kommer er et spørsmål 1 262
+358 hvem som kommer er et spørsmål 1 277
+359 hun er her 1 193
+360 hun er i Finnmark 1 327
+361 hun er i Finnmark 1 327
+362 forestillingen var under enhver kritikk 2 523
+363 at han kom var over forventning 1 593
+364 å synge er under vurdering 2 602
+365 hvorvidt han får synge er under vurdering 2 665
+366 hvem som får synge er under vurdering 2 683
+367 Ola er som en gud 2 374
+368 at han kom var som bønnhørt 0 424
+369 å danse var som en drøm 2 535
+370 hvorvidt soldatene lystrer er som et lottospill 1 279
+371 hvem som lystrer er som et lottospill 1 281
+372 dette er mannen 1 205
+373 oppgaven er å spise silden 3 466
+374 problemet er at han spiser silden 3 313
+375 spørsmålet er hvorvidt han kommer 3 236
+376 problemet er om han spiser silden 3 440
+377 spørsmålet er hva han spiser 0 269
+378 problemet er hvem som spiser silden 3 491
+379 å leve er å streve 8 355
+380 det er fint at han kommer 1 393
+381 det er fint å være frisk 5 739
+382 det er uvisst om han kommer 1 526
+383 det er uvisst hvem som kommer 2 354
+384 det er en skuffelse at han kommer 4 582
+385 det er en kunst å spise torsk 4 729
+386 det er et spørsmål hvorvidt han kommer 2 341
+387 det er et spørsmål hvem som kommer 1 344
+388 det er for andre gang at han taper 20 1590
+389 det er hinsides diskusjon hvorvidt han kommer 11 703
+390 det er som en forbannelse at han kommer 6 960
+391 det var som bestilt at han tapte igjen 0 501
+392 det er fint i Finnmark 4 575
+393 det er fint her 4 382
+394 det er langt til Finnmark 0 410
+395 veien går langs elven 1 182
+396 myra ligger bak fjellet 1 143
+397 veien går gjennom skogen 1 67
+398 veien går til fjellet 1 120
+399 veien går nedover langs elven 1 207
+400 myra ligger nede ved elven 2 157
+401 veien går inn gjennom skogen 2 100
+402 veien går inn til fjellet 2 134
+403 veien nedover langs elven går her 2 218
+404 myra nede ved elven råtner 2 108
+405 veien inn gjennom skogen starter her 2 119
+406 veien inn til fjellet starter her 2 160
+407 veien langs elven starter ved broen 1 262
+408 myra bak skogen råtner 1 101
+409 veien gjennom skogen starter ved broen 1 172
+410 veien til fjellet starter ved broen 1 233
+411 myra ved elven bak skogen råtner 3 165
+412 myra ved elven, bak skogen råtner 3 249
+413 jeg ligger ved elven bak skogen 3 255
+414 jeg ligger ved elven, bak skogen 5 522
+415 jeg går til fjellet fra elven 4 225
+416 jeg går til fjellet, fra elven 4 246
+417 jeg går gjennom skogen til fjellet fra elven 8 277
+418 jeg går gjennom skogen, til fjellet, fra elven 4 274
+419 jeg går opp til fjellet fra elven 8 316
+420 jeg går hit opp til fjellet fra elven 16 438
+421 jeg går opp hit gjennom skogen til fjellet fra elven 32 691
+422 jeg går mot fjellet langs elven 1 366
+423 jeg går mot fjellet, langs elven 1 607
+424 jeg går bortover mot fjellet langs elven 1 313
+425 veien går nedover 1 56
+426 myra ligger her 1 54
+427 veien går dit 1 79
+428 veien går nedover hitover 1 68
+429 myra ligger her nede 2 126
+430 veien går inn hit 2 91
+431 veien nedover starter ved broen 1 127
+432 myra nede råtner 1 73
+433 veien dit starter ved broen 1 162
+434 de spiller fra fem til syv 10 875
+435 de spiller om ettermiddagen 2 271
+436 de spiller til midnatt 2 312
+437 de snakker om Ola til midnatt 2 313
+438 gutten her bak hytta sover 2 122
+439 en gutt her bak hytta sover 12 199
+440 gutt her bak hytta sover 2 153
+441 gutter her bak hytta sover 2 146
+442 noen gutter her bak hytta sover 1 170
+443 gutten her nede sover 2 88
+444 en gutt her nede sover 14 167
+445 gutt her nede sover 2 119
+446 gutter her nede sover 2 112
+447 noen gutter her nede sover 2 137
+448 veien bortover langs elven går her 2 210
+449 en vei bortover langs elven går her 10 303
+450 vei bortover langs elven går her 2 247
+451 veier bortover langs elven går her 2 251
+452 noen veier bortover langs elven går her 1 286
+453 veien opp til fjellet går her 2 169
+454 en vei opp til fjellet går her 10 262
+455 vei opp til fjellet går her 2 206
+456 veier opp til fjellet går her 2 210
+457 noen veier opp til fjellet går her 1 245
+458 veien opp hit går her 2 124
+459 en vei opp hit går her 12 243
+460 vei opp hit går her 2 161
+461 veier opp hit går her 2 165
+462 noen veier opp hit går her 2 213
+463 jeg går opp til fjellet 2 146
+464 jeg går opp hit 2 100
+465 jeg går nedover langs elven 1 196
+466 jeg sover her nede 2 109
+467 jeg går opp, til fjellet 2 146
+468 jeg går opp, hit 2 129
+469 jeg går nedover, langs elven 2 199
+470 jeg sover her, nede 2 128
+471 opp til fjellet går jeg ikke 6 274
+472 opp hit går jeg ikke 6 249
+473 nedover langs elven går jeg ikke 6 329
+474 her nede sover jeg ikke 6 137
+475 her i skogen sover jeg ikke 6 153
+476 jeg har her nede sovet i tre timer 8 1782
+477 jeg har her i skogen sovet i tre timer 8 1992
+478 på tur har jeg her nede sovet i tre timer 8 1814
+479 på tur har jeg her i skogen sovet i tre timer 8 2032
+480 hun vet at jeg her nede har sovet i tre timer 40 1103
+481 hun vet at jeg her i skogen har sovet i tre timer 40 1279
+482 gutten rusler mot fjellet langs elva 1 284
+483 gutter rusler mot fjellet, langs elva 1 386
+484 gutten rusler til fjellet langs elva 1 202
+485 gutten rusler til fjellet, langs elva 1 278
+486 gutten rusler langs elva mot fjellet 1 279
+487 gutten rusler langs elva, mot fjellet 2 463
+488 gutten rusler oppover langs elva 1 177
+489 gutten rusler oppover langs elva til fjellet på to timer 5 461
+490 gutten rusler ned langs elva 1 182
+491 gutten rusler nedover langs elva i tre timer 10 557
+492 gutten løper hit 1 65
+493 gutten løper dit 1 76
+494 gutten løper hit ned 2 95
+495 gutten løper hit ned til skogen 4 216
+496 gutten løper hit på to timer 6 342
+497 gutten løper her 1 55
+498 gutten løper der 1 69
+499 gutten løper her nede 2 135
+500 gutten løper her nede i skogen 6 352
+501 gutten løper her i to timer 7 382
+502 gutten spiser koteletten på to timer 12 476
+503 jeg spiser koteletter på to minutter 13 539
+504 jeg spiser koteletter i to timer 14 515
+505 jeg spiser koteletter på to minutter i to dager 65 1147
+506 gutten går når hunden løper 1 206
+507 gutten går før hunden løper 1 243
+508 gutten går inntil hunden løper 1 97
+509 mannen går langs elven før gutten kommer til skogen 3 571
+510 veien begynner der stien slutter 1 235
+511 veien begynner når stien slutter 1 290
+512 mannen går langs elven til skogen på to timer 5 472
+513 mannen går langs elven, over brua og til skogen på to timer 20 1027
+514 gutten løper nedover forbi brua, langs elven, og videre gjennom skogen til fjellet 26 1727
+515 turen går over fjellet 2 155
+516 turen går på bro over elva 4 516
+517 turen går på bro over elva og på bro over elva 58 3884
+518 turen går på bro over en bekk og på bro over en elv 0 8536
+519 turen går videre i myret terreng 18 1703
+520 turen går opp gjennom lia til fjellet 4 219
+521 turen går videre i myret terreng opp gjennom lia 42 3067
+522 turen går over myrer 2 179
+523 turen går inn gjennom skaret 2 140
+524 turen går inn gjennom skaret mellom elva og fjellet 7 337
+525 turen går over myrer og inn gjennom skaret mellom elva og fjellet 14 677
+526 ruta til Gjevilvasshytta går opp til skogen ved foten av fjellet 12 920
+527 gutten sover 1 25
+528 gutt sover 1 56
+529 vin renner 1 65
+530 en gutt sover 4 74
+531 en vin renner 4 87
+532 fjellet ligger 1 31
+533 vinen renner 1 42
+534 et fjell ligger 1 81
+535 tre gutter sover 3 148
+536 tre fjell ligger 6 174
+537 hver gutt sover 1 64
+538 hver vin renner 1 75
+539 hvert fjell ligger 1 96
+540 ingen gutt sover 1 67
+541 noen gutter sover 1 63
+542 noen viner renner 1 82
+543 noe vin renner 1 104
+544 en glad gutt smiler 8 143
+545 en god vin renner 4 139
+546 mye god vin renner 1 174
+547 tre glade gutter smiler 3 213
+548 tre glade hyggelige gutter smiler 3 354
+549 den glade gutten smiler 1 63
+550 de glade gutter smiler 2 128
+551 de tre glade guttene smiler 2 190
+552 de tre gode vinene renner 2 218
+553 de glade guttene smiler 2 89
+554 glade gutter smiler 1 93
+555 hver av de glade guttene smiler 4 189
+556 hver av de tre glade guttene smiler 4 290
+557 hver av de tre gode vinene renner 4 314
+558 noen av de ni guttene smiler 2 148
+559 noe av den gode vinen renner 3 206
+560 ingen av de ni guttene smiler 3 154
+561 få av de ni guttene smiler 3 499
+562 ni av guttene smiler 6 97
+563 alle gutter sover 1 102
+564 begge guttene sover 1 65
+565 alle de tre guttene sover 1 201
+566 all den gode vinen renner 1 109
+567 mine tre gutter sover 2 197
+568 mine glade gutter smiler 2 142
+569 min glade gutt smiler 1 102
+570 all min gode vin renner 1 140
+571 alle mine gode viner renner 2 231
+572 alle mine gutter smiler 1 141
+573 gutten min smiler 1 36
+574 vinen min renner 1 57
+575 den glade gutten min smiler 1 79
+576 gutten til Ola smiler 1 73
+577 vinen til Ola renner 1 89
+578 Ola sin gutt smiler 1 88
+579 gutten si bygd sover 1 186
+580 gutten sin ball ruller 1 101
+581 en gutt sin ball ruller 4 160
+582 hver gutt sin ball ruller 1 145
+583 Ola sin glade gutt smiler 1 121
+584 Olas gutt smiler 1 113
+585 guttens ball ruller 1 124
+586 en gutts ball ruller 4 185
+587 hver gutts ball ruller 1 170
+588 Olas glade gutt smiler 1 147
+589 Ola sin gutt sin katt løper 2 183
+590 Olas gutts katt løper 2 218
+591 Ola sin gutts katt løper 2 206
+592 Olas gutt sin katt løper 2 194
+593 en sekk poteter ligger 8 143
+594 en sekk med poteter ligger 24 217
+595 et par dusin esker baller ligger 8 286
+596 et hav av katter løper 1 210
+597 Jon hopper to nitten 3 108
+598 Ola løper på tre trettifem 12 792
+599 Ola løper tre trettifem 3 239
+600 Ola løper torsdag tre trettifem 3 326
+601 Ola løper torsdag ettermiddag tre trettifem 6 395
+602 Ola løper klokka tre trettifem 2 266
+603 Ola løper torsdag klokka tre trettifem 5 740
+604 Ola løper torsdag ettermiddag klokka tre trettifem 7 7112
+605 Ola løper femten hundre 0 130
+606 Ola finner to tjue 4 335
+607 tre tusen fire hundre ligger 292 2117
+608 tre tusen fire hundre og femti ligger 1024 6717
+609 gul sover 1 38
+610 gule sover 1 57
+611 de gule sover 1 82
+612 den gule sover 1 67
+613 alle gule sover 1 109
+614 hver gul sover 1 46
+615 hvert gult sover 1 81
+616 fire sover 4 91
+617 de fire sover 1 116
+618 alle fire sover 0 142
+619 dine sover 1 57
+620 min sover 1 30
+621 alle dine sover 1 107
+622 alt mitt sover 1 116
+623 de fleste sover 1 74
+624 hele landet løper 1 124
+625 jeg ser gutten 1 165
+626 jeg ser vin 1 188
+627 jeg ser en gutt 2 470
+628 jeg ser en vin 2 462
+629 jeg ser fjellet 1 165
+630 jeg ser vinen 1 165
+631 jeg ser et fjell 1 199
+632 jeg ser tre gutter 1 490
+633 jeg ser ti gutter 1 343
+634 jeg ser tre fjell 2 552
+635 jeg ser hver gutt 1 266
+636 jeg ser hver vin 1 258
+637 jeg ser hvert fjell 1 294
+638 jeg ser ingen gutt 1 343
+639 jeg ser noen gutter 1 265
+640 jeg ser noen viner 1 265
+641 jeg ser noe vin 2 367
+642 jeg ser en glad gutt 2 925
+643 jeg ser en god vin 2 708
+644 jeg ser mye god vin 2 747
+645 jeg ser tre glade gutter 1 727
+646 jeg ser tre glade hyggelige gutter 1 1153
+647 jeg ser den glade gutten 1 431
+648 jeg ser de tre glade guttene 2 679
+649 jeg ser de tre gode vinene 2 687
+650 jeg ser de glade guttene 2 516
+651 jeg ser glade gutter 1 251
+652 jeg ser hver av de glade guttene 4 1019
+653 jeg ser hver av de tre glade guttene 4 1180
+654 jeg ser hver av de tre gode vinene 4 1174
+655 jeg ser noen av de ni guttene 2 803
+656 jeg ser noe av den gode vinen 4 1629
+657 jeg ser ingen av de ni guttene 3 1207
+658 jeg ser få av de ni guttene 3 1486
+659 jeg ser ni av guttene 2 679
+660 jeg ser alle gutter 3 370
+661 jeg ser begge guttene 2 273
+662 jeg ser alle de tre guttene 2 477
+663 jeg ser all den gode vinen 2 402
+664 jeg ser mine tre gutter 2 540
+665 jeg ser mine glade gutter 2 438
+666 jeg ser min glade gutt 1 322
+667 jeg ser all min gode vin 2 451
+668 jeg ser alle mine gode viner 4 630
+669 jeg ser alle mine gutter 2 444
+670 jeg ser gutten min 1 240
+671 jeg ser vinen min 1 240
+672 jeg ser den glade gutten min 1 514
+673 jeg ser gutten til Ola 2 382
+674 jeg ser vinen til Ola 2 382
+675 jeg ser Ola sin gutt 3 322
+676 jeg ser gutten si bygd 3 424
+677 jeg ser gutten sin ball 3 290
+678 jeg ser en gutt sin ball 2 697
+679 jeg ser hver gutt sin ball 1 394
+680 jeg ser Ola sin glade gutt 2 353
+681 jeg ser Olas gutt 1 311
+682 jeg ser guttens ball 1 289
+683 jeg ser en gutts ball 2 674
+684 jeg ser hver gutts ball 1 401
+685 jeg ser Olas glade gutt 1 345
+686 jeg ser Ola sin gutt sin katt 8 582
+687 jeg ser en sekk poteter 2 782
+688 jeg ser en sekk med poteter 8 1471
+689 jeg ser et par dusin esker baller 2 865
+690 jeg ser et hav av katter 1 715
+691 jeg unner Ola gutten 1 113
+692 jeg unner Ola vin 1 134
+693 jeg unner Ola en gutt 4 295
+694 jeg unner Ola en vin 4 281
+695 jeg unner Ola fjellet 1 111
+696 jeg unner Ola vinen 1 111
+697 jeg unner Ola et fjell 1 155
+698 jeg unner Ola tre gutter 4 336
+699 jeg unner Ola ti gutter 3 220
+700 jeg unner Ola tre fjell 8 375
+701 jeg unner Ola hver gutt 1 162
+702 jeg unner Ola hver vin 1 152
+703 jeg unner Ola hvert fjell 1 182
+704 jeg unner Ola ingen gutt 1 177
+705 jeg unner Ola noen gutter 1 138
+706 jeg unner Ola noen viner 1 136
+707 jeg unner Ola noe vin 2 226
+708 jeg unner Ola en glad gutt 5 627
+709 jeg unner Ola en god vin 5 465
+710 jeg unner Ola mye god vin 2 393
+711 jeg unner Ola tre glade gutter 4 518
+712 jeg unner Ola tre glade hyggelige gutter 4 821
+713 jeg unner Ola den glade gutten 2 232
+714 jeg unner Ola de tre glade guttene 2 280
+715 jeg unner Ola de tre gode vinene 2 280
+716 jeg unner Ola de glade guttene 2 175
+717 jeg unner Ola glade gutter 1 192
+718 jeg unner Ola hver av de glade guttene 6 429
+719 jeg unner Ola hver av de tre glade guttene 6 543
+720 jeg unner Ola hver av de tre gode vinene 6 531
+721 jeg unner Ola noen av de ni guttene 3 352
+722 jeg unner Ola noe av den gode vinen 6 608
+723 jeg unner Ola ingen av de ni guttene 5 464
+724 jeg unner Ola få av de ni guttene 4 882
+725 jeg unner Ola ni av guttene 3 339
+726 jeg unner Ola alle gutter 3 207
+727 jeg unner Ola begge guttene 2 152
+728 jeg unner Ola alle de tre guttene 2 314
+729 jeg unner Ola all den gode vinen 2 199
+730 jeg unner Ola mine tre gutter 2 291
+731 jeg unner Ola mine glade gutter 2 231
+732 jeg unner Ola min glade gutt 1 274
+733 jeg unner Ola all min gode vin 2 252
+734 jeg unner Ola alle mine gode viner 4 361
+735 jeg unner Ola alle mine gutter 2 275
+736 jeg unner Ola gutten min 2 169
+737 jeg unner Ola vinen min 2 163
+738 jeg unner Ola den glade gutten min 3 299
+739 jeg unner Ola gutten til Ola 1 234
+740 jeg unner Ola vinen til Ola 1 230
+741 jeg unner Ola Ola sin gutt 5 323
+742 jeg unner Ola gutten si bygd 3 359
+743 jeg unner Ola gutten sin ball 5 287
+744 jeg unner Ola en gutt sin ball 10 548
+745 jeg unner Ola hver gutt sin ball 2 282
+746 jeg unner Ola Ola sin glade gutt 3 360
+747 jeg unner Ola Olas gutt 1 269
+748 jeg unner Ola guttens ball 1 244
+749 jeg unner Ola en gutts ball 4 513
+750 jeg unner Ola hver gutts ball 1 298
+751 jeg unner Ola Olas glade gutt 1 303
+752 jeg unner Ola Ola sin gutt sin katt 16 758
+753 jeg unner Ola en sekk poteter 6 415
+754 jeg unner Ola en sekk med poteter 14 696
+755 jeg unner Ola et par dusin esker baller 2 380
+756 jeg unner Ola et hav av katter 2 432
+757 jeg snakker om gutten 1 177
+758 jeg snakker om vin 1 200
+759 jeg snakker om en gutt 3 350
+760 jeg snakker om en vin 3 342
+761 jeg snakker om fjellet 1 177
+762 jeg snakker om vinen 1 177
+763 jeg snakker om et fjell 1 221
+764 jeg snakker om tre gutter 2 447
+765 jeg snakker om ti gutter 2 344
+766 jeg snakker om tre fjell 4 497
+767 jeg snakker om hver gutt 1 225
+768 jeg snakker om hver vin 1 217
+769 jeg snakker om hvert fjell 1 247
+770 jeg snakker om ingen gutt 1 239
+771 jeg snakker om noen gutter 1 224
+772 jeg snakker om noen viner 1 224
+773 jeg snakker om noe vin 2 269
+774 jeg snakker om en glad gutt 3 762
+775 jeg snakker om en god vin 3 519
+776 jeg snakker om mye god vin 1 592
+777 jeg snakker om tre glade gutter 2 719
+778 jeg snakker om tre glade hyggelige gutter 2 1192
+779 jeg snakker om den glade gutten 1 251
+780 jeg snakker om de tre glade guttene 2 375
+781 jeg snakker om de tre gode vinene 2 377
+782 jeg snakker om de glade guttene 2 262
+783 jeg snakker om glade gutter 1 359
+784 jeg snakker om hver av de glade guttene 6 454
+785 jeg snakker om hver av de tre glade guttene 6 589
+786 jeg snakker om hver av de tre gode vinene 6 583
+787 jeg snakker om noen av de ni guttene 3 386
+788 jeg snakker om noe av den gode vinen 6 565
+789 jeg snakker om ingen av de ni guttene 5 463
+790 jeg snakker om få av de ni guttene 29 1536
+791 jeg snakker om ni av guttene 4 365
+792 jeg snakker om alle gutter 2 270
+793 jeg snakker om begge guttene 1 224
+794 jeg snakker om alle de tre guttene 1 363
+795 jeg snakker om all den gode vinen 1 252
+796 jeg snakker om mine tre gutter 3 471
+797 jeg snakker om mine glade gutter 2 323
+798 jeg snakker om min glade gutt 1 277
+799 jeg snakker om all min gode vin 1 296
+800 jeg snakker om alle mine gode viner 2 386
+801 jeg snakker om alle mine gutter 1 311
+802 jeg snakker om gutten min 1 200
+803 jeg snakker om vinen min 1 200
+804 jeg snakker om den glade gutten min 1 276
+805 jeg snakker om gutten til Ola 2 247
+806 jeg snakker om vinen til Ola 2 247
+807 jeg snakker om Ola sin gutt 2 284
+808 jeg snakker om gutten si bygd 1 359
+809 jeg snakker om gutten sin ball 2 268
+810 jeg snakker om en gutt sin ball 5 466
+811 jeg snakker om hver gutt sin ball 1 287
+812 jeg snakker om Ola sin glade gutt 1 317
+813 jeg snakker om Olas gutt 1 277
+814 jeg snakker om guttens ball 1 259
+815 jeg snakker om en gutts ball 3 479
+816 jeg snakker om hver gutts ball 1 312
+817 jeg snakker om Olas glade gutt 1 311
+818 jeg snakker om Ola sin gutt sin katt 4 444
+819 jeg snakker om en sekk poteter 5 543
+820 jeg snakker om en sekk med poteter 9 708
+821 jeg snakker om et par dusin esker baller 5 760
+822 jeg snakker om et hav av katter 3 397
+823 Ola er svært lang 1 235
+824 Ola er hvor lang 1 302
+825 Ola er lang nok 4 275
+826 Ola er nok lang 3 536
+827 Ola er tilstrekkelig lang 1 300
+828 Ola er to meter lang 1 401
+829 En svært lang mann sover 6 180
+830 En hvor lang mann sover 10 158
+831 En to meter lang mann sover 30 324
+832 En lang nok mann sover 4 145
+833 Ola er lengre enn Per 2 189
+834 Ola er mer storvokst enn Per 2 406
+835 Ola er atskillig mer storvokst enn Per 2 323
+836 Ola er en lengre mann enn Per 2 688
+837 Ola er en atskillig lengre mann enn Per 2 652
+838 Ola er en mer storvokst mann enn Per 2 904
+839 Ola er to centimeter lengre enn Per 5 577
+840 Ola er en to centimeter lengre mann enn Per 6 1833
+841 Ola er mer enn to centimeter lengre enn Per 4 510
+842 Ola er atskillig mer enn to centimeter lengre enn Per 4 456
+843 Ola er mer enn to centimeter mer storvokst enn Per 6 1380
+844 Ola er atskillig mer enn to centimeter mer storvokst enn Per 6 1336
+845 Ola er en mer enn to centimeter lengre mann enn Per 4 1963
+846 Ola er en mer enn to centimeter mer storvokst mann enn Per 4 2589
+847 Ola er en atskillig mer enn to centimeter mer storvokst mann enn Per 4 1385
+848 En lengre mann enn Per sover 8 136
+849 En atskillig lengre mann enn Per sover 8 167
+850 En mye lengre mann enn Per sover 14 248
+851 En hvor mye lengre mann enn Per sover 52 399
+852 En mer storvokst mann enn Per sover 10 181
+853 En to centimeter lengre mann enn Per sover 48 345
+854 En mer enn to centimeter lengre mann enn Per sover 109 621
+855 En mye mer enn to centimeter lengre mann enn Per sover 108 1001
+856 En hvor mye mer enn to centimeter lengre mann enn Per sover 380 1894
+857 En mer enn to centimeter mer storvokst mann enn Per sover 195 954
+858 Ola er den høyeste av guttene 2 699
+859 Ola er den høyeste av alle guttene 0 666
+860 Ola er den høyeste gutten 1 416
+861 Den høyeste av guttene sover 2 151
+862 Den høyeste av alle guttene sover 0 226
+863 Den høyeste gutten sover 1 63
+864 Mye vin renner 1 122
+865 Svært mye vin renner 2 177
+866 Svært lite vin renner 1 179
+867 Hvor mye vin renner? 2 162
+868 Hvor lite vin renner? 1 161
+869 Mer vin enn vann renner 4 131
+870 Mindre vin enn vann renner 6 201
+871 Atskillig mer vin enn vann renner 4 158
+872 Atskillig mindre vin enn vann renner 6 247
+873 Hvor mye mer vin enn vann renner? 16 341
+874 Hvor mye mindre vin enn vann renner? 26 575
+875 Mange gutter løper 2 144
+876 Svært mange gutter løper 2 221
+877 Svært få gutter løper 2 324
+878 Hvor mange gutter løper? 1 205
+879 Hvor få gutter løper? 1 311
+880 Flere gutter enn menn løper 2 123
+881 Færre gutter enn menn løper 2 111
+882 Atskillig flere gutter enn menn løper 4 148
+883 Atskillig færre gutter enn menn løper 2 128
+884 Hvor mange flere gutter enn menn løper 2 245
+885 Hvor mange færre gutter enn menn løper 2 230
+886 gutten sover ikke 1 52
+887 gutten sover ved myra 1 75
+888 gutten har ikke sovet 1 122
+889 gutten har bak myra sovet 1 325
+890 ved myra har gutten sovet 1 146
+891 gutten har sovet ved myra 1 157
+892 jeg vet at gutten ikke sover 2 95
+893 jeg vet at gutten ved myra har sovet 4 171
+894 jeg vet at gutten har sovet ved myra 4 229
+895 har gutten sovet? 1 110
+896 har ikke gutten sovet? 1 147
+897 har gutten sovet ved myra? 1 179
+898 hva har gutten spist? 1 186
+899 eplet har gutten spist 1 178
+900 hvilket eple har gutten spist? 1 268
+901 jeg vet hvem som sover 2 187
+902 jeg vet hvem som har spist eplet 2 372
+903 jeg vet hvilket eple gutten spiser 0 239
+904 jeg vet hvem sitt eple gutten spiser 0 320
+905 jeg vet hva hvem har spist 0 230
+906 jeg vet hvem som har spist hva 2 419
+907 jeg ser gutten som spiser eplet 2 527
+908 jeg ser eplet gutten spiser 0 271
+909 jeg ser eplet som gutten spiser 1 421
+910 jeg ser eplet gutten ikke spiser 0 339
+911 jeg ser eplet som gutten ikke spiser 1 474
+912 gutten som ligger sover 1 73
+913 gutten som ligger, sover 2 127
+914 gutten, som ligger, sover 7 163
+915 jeg ser ham ikke 1 160
+916 jeg ser ikke ham 1 180
+917 han setter seg ikke 1 182
+918 han unner meg den ikke 2 155
+919 unner han meg den ikke? 10 252
+920 unner han meg ikke den? 4 321
+921 unner gutten henne den ikke? 3 137
+922 ballen kastes 1 176
+923 ballen kastes til Ola 3 331
+924 det kastes en ball 4 324
+925 det kastes en ball til Ola 8 613
+926 jeg overlates en ball 2 274
+927 en ball overlates meg ikke 8 311
+928 det overlates Ola en ball 16 416
+929 Ola stoles på 1 198
+930 det stoles på Ola 1 265
+931 ballen blir kastet 2 147
+932 ballen blir kastet til Ola 4 525
+933 det blir kastet en ball 4 499
+934 det blir kastet en ball til Ola 4 1222
+935 Ola blir overlatt en ball 2 245
+936 en ball blir overlatt Ola 5 171
+937 det blir overlatt Ola en ball 16 419
+938 Ola blir stolt på 1 228
+939 det blir stolt på Ola 1 327
+940 Ola fryktes drept 1 184
+941 Ola fryktes forsøkt drept 1 269
+942 Ola blir fryktet forsøkt drept 1 292
+943 Ola antas forutsatt forsøkt drept 1 323
+944 Ola fryktes ankommet 2 206
+945 Ola fryktes overlatt pistolen 1 217
+946 maten er hyggelig å spise 0 386
+947 guttene er hyggelige å se 0 446
+948 gutten Ola sover 1 41
+949 elven den gule elv renner 2 145
+950 elven en elv renner 2 105
+951 en gutt Ola sover 2 86
+952 gutten, Ola, sover 1 76
+953 elven, den gule elv, renner 2 178
+954 elven, en elv, renner 2 144
+955 en gutt, Ola, sover 4 131
+956 jeg rusler søndag 1 56
+957 Ola ligger for å sove 5 211
+958 Ola ligger uten å sove 5 193
+959 Ola løper glad 2 112
+960 Ola spiser fisken levende 6 217
+961 sover Ola kommer Per 1 117
+962 sover Ola, kommer Per 2 147
+963 hvis han sover kommer Per 1 151
+964 hvis han sover, kommer Per 1 196
+965 Ola Per og Kari kommer 1 94
+966 Ola og Per og Kari kommer 2 110
+967 Ola, og Per, og Kari kommer 2 147
+968 Ola, og Per, og Kari, kommer 0 149
+969 Ola, Per, Kari kommer 2 127
+970 Ola, Per, Kari, kommer 0 132
+971 Ola, Per og Kari kommer 2 118
+972 Ola, Per, og Kari kommer 2 137
+973 Ola, Per, og Kari, kommer 0 140
+974 en gul, gammel mann sover 13 188
+975 en gul og gammel mann sover 17 223
+976 en gul, og  gammel mann sover 26 284
+977 en gul, og  gammel, mann sover 48 297
+978 Ola ligger, går og rusler 6 213
+979 Ola ligger går og rusler 0 115
+980 Ola ligger og går og rusler 6 203
+981 Ola går hit og dit 1 119
+982 Ola går hit, og dit 1 139
+983 Ola går hit, dit, til fjellet 4 238
+984 Ola går hit, dit, og til fjellet 2 222
+985 går Ola hit? 1 95
+986 Ola går hit. 1 80
+987 Ola går hit? 1 79
+988 Ola går hit! 1 78
+989 gå. 1 78
+990 gå? 0 74
+991 gå! 1 76
+992 hvis han kommer, gå 2 206
+993 hvis han kommer, gå. 2 220
+994 hvis han kommer, gå! 2 218
+995 hvis han kommer gå! 2 189
+996 hvis han kommer gå 2 180
+997 hvis han kommer gå. 2 191
+998 Ola fortærer seg selv 2 68
+999 Ola fortærer seg selv selv 4 135
+1000 Ola vasker seg selv 4 142
+1001 Ola vasker seg 1 86
+1002 jeg vasker meg 3 84
+1003 Ola skammer seg 1 64
+1004 jeg skammer meg 1 49
+1005 jeg fortærer meg selv 5 64
+1006 Ola ber meg fortære seg 3 200
+1007 Ola ber meg fortære seg selv 12 279
+1008 Ola ser meg fortære seg 2 188
+1009 Ola fortærer maten sin 1 58
+1010 Ola gir gutten sin maten sin 2 277
+1011 Ola gir gutten sin maten sin i huset sitt 5 670
+1012 Ola kaster ballen sin mot huset sitt 1 364
+1013 Ola gir en bok om seg til naboen sin 24 1728
+1014 Ola gir seg selv ballen sin 7 535
+1015 Ola gir seg selv seg selv 5 463
+1016 Ola gir sin gutt sitt fjell og sitt hus 8 709
+1017 jeg ber Ola vaske seg 2 303
+1018 jeg ser Ola vaske seg 2 344
+1019 Ola løper femten hundre på tre trettifem 28 674
+1020 Ola løper femten hundre meter på tre trettifem 80 1457
+1021 Ola løp femten hundre meter på tre trettifem torsdag klokka tre førtifem 152 7285
+1022 ja jeg sover 1 39
+1023 ja, jeg sover 1 58
+1024 Det regner. 2 125
+1025 Ola bjeffet. 1 39
+1026 Grenen brakk. 1 53
+1027 Ola jaget Embla. 2 111
+1028 Ola rakte Embla sigaretten. 3 188
+1029 Ola rakte sigaretten til Embla. 6 247
+1030 Ola veddet en sigarett med Embla på at Ask sov. 8 2325
+1031 Ola visste at det regnet. 4 367
+1032 Ola mente å bjeffe. 2 119
+1033 Ola hørte Embla bjeffe. 1 236
+1034 Hver katt bjeffet. 1 77
+1035 Hver katt jaget en hund. 4 297
+1036 Min katt bjeffet 1 75
+1037 Katten min bjeffet. 1 47
+1038 Den bjeffet. 1 33
+1039 Katten jaget den. 4 119
+1040 Katten jaget seg selv. 2 129
+1041 Katten jaget én. 4 125
+1042 Min bjeffet. 1 36
+1043 Den brakk. 1 53
+1044 Katter bjeffer. 1 55
+1045 Tobakk ankom. 1 56
+1046 Noen bjeffer. 1 29
+1047 Noen av kattene bjeffer. 2 97
+1048 Ingen katt bjeffet. 1 80
+1049 Bjeffet hunden? 1 31
+1050 Hvilken hund bjeffet? 1 64
+1051 Hvem sin hund bjeffet? 1 77
+1052 Hvis hund bjeffet? 2 118
+1053 Hvem sin hund så du? 2 313
+1054 Hvis hund så du? 4 359
+1055 Mannen hvis hund jeg ser sover 0 209
+1056 Mannen hvis hund bjeffer sover 1 136
+1057 Jag Embla! 1 35
+1058 Ola lurte på hvilken hund som bjeffet. 4 591
+1059 Ola lurte på hvorvidt Embla bjeffet. 1 295
+1060 Hunden som Embla jaget bjeffet. 0 127
+1061 En bok å lese ligger her. 0 201
+1062 Hunden ble jaget av Embla. 1 231
+1063 Dressen sydd av Armani lå i malingspannet. 0 296
+1064 Hunden driver og bjeffer. 2 93
+1065 Hunden har bjeffet. 1 59
+1066 Hunden har drevet og bjeffet. 2 150
+1067 Hunden hadde drevet og bjeffet. 3 205
+1068 Hunden vil bjeffe. 1 51
+1069 Hunden kommer til å bjeffe. 1 185
+1070 Hunden kunne bjeffe. 1 98
+1071 Hunden kunne ikke bjeffe. 1 153
+1072 Den gamle hunden bjeffet. 1 67
+1073 Hunden bjeffet svakt. 1 74
+1074 Hunden bjeffet sannsynligvis. 1 87
+1075 Hunden bjeffet i haven. 1 132
+1076 Hunden bjeffer nå. 1 89
+1077 Havehunden bjeffer. 1 23
+1078 Tobakkshavehunden bjeffet. 1 31
+1079 Katten er gammel. 1 142
+1080 Katten er i haven. 1 341
+1081 Den bjeffende hunden jaget Embla. 2 139
+1082 Jagete hunder bjeffer. 1 103
+1083 Å jage katten er kjedelig. 3 303
+1084 At katten jager Embla er nytt. 2 304
+1085 Hunder jager hva som helst som bjeffer. 4 228
+1086 Hunden bjeffet hver dag. 2 97
+1087 Når bjeffet hunden? 1 64
+1088 Tre av hundene bjeffer. 4 180
+1089 Tre bjeffer. 5 115
+1090 Emblas hund bjeffer. 1 108
+1091 Emblas bjeffer. 0 70
+1092 Tjuetre hunder bjeffer. 3 77
+1093 To hundre og tjue hunder bjeffer. 19 261
+1094 Embla ankommer med bil. 1 143
+1095 Embla drev på og bjeffet. 0 203
+1096 Embla presset katten inn. 5 335
+1097 Embla presset inn katten. 1 275
+1098 Bildet av Embla ankommer. 2 106
+1099 Embla tørket skoen ren. 3 285
+1100 Ola plasserte Embla i haven. 2 224
+1101 Hunden kommer til å bjeffe hvis Embla ankommer. 3 313
+1102 Ola og Embla ankommer. 1 66
+1103 Ola, Embla og hunden ankommer. 2 102
+1104 Hunden ankommer og bjeffer. 2 66
+1105 Hunden ankommer og Embla bjeffer. 1 74
+1106 Hunden bjeffet, gjorde den ikke? 12 418
+1107 Det er opplagt at hunden bjeffet. 1 241
+1108 Ola lovet Embla å bjeffe. 5 250
+1109 Ola synes å bjeffe. 2 481
+1110 Ola anser Embla for å bjeffe. 2 392
+1111 Det bekymret Ola at Embla bjeffet. 2 253
+1112 Det tok Ola ti minutter å ankomme. 6 579
+1113 Ola overlot det til Embla å bjeffe. 0 282
+1114 Ola foresvever Embla som gammel. 2 213
+1115 Embla anser Ola skikket. 1 265
+1116 Ola likte idéen at Embla kunne bjeffe. 1 246
+1117 Ola bjeffet fra ti til tre. 9 570
+1118 Ola var meget gammel. 1 189
+1119 Nesten hver hund bjeffet. 2 84
+1120 Ola bjeffet meget svakt. 1 106
+1121 Emblas jaging av hunder bekymret Ola. 0 329
+1122 Det plaget Embla at Ola jaget katter. 2 292
+1123 Tredje juni kom. 2 146
+1124 Ola ankom tre tjue. 11 341
+1125 Embla ankom torsdag morgen. 4 157
+1126 Kattene fant en måte å bjeffe på. 16 1160
+1127 Den lykkeligste hunden jaget Embla. 42 444
+1128 Det var katter i haven. 4 545
+1129 Den hunden jaget Embla. 2 120
+1130 Noen jaget Ola. 2 121
+1131 Hvor lykkelig var Ola? 1 318
+1132 Nummer fem plager Embla. 10 159
+1133 Tallet fem plager Embla. 4 154
+1134 De midt- til øvre nittiårene plager Embla. 0 195
+1135 Ola kunne. 0 78
+1136 Embla prøvde. 0 211
+1137 bjeff ikke! 0 25
+1138 Hunden ankom bjeffende. 2 73
+1139 Vinduet åpnet seg. 1 46
+
+;;; Total CPU time: 475830 msecs
+
+;;; Mean edges: 361.46
+
+;;; Mean parses: 5.58

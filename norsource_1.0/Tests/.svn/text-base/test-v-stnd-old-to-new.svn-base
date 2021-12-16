@@ -1,0 +1,1355 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource - test-v-stnd
+;;; 
+;;;    Copyright (c)  NorSource version 0.3
+;;;                       2004-2006 
+;;;
+;;;    Lars Hellan, Dorothee Beermann, Ben Waldron
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    <norsource@hf.ntnu.no>
+;;;
+
+; LKB(1): (batch-check-morphology t)
+; NB: don't erase!
+
+v-intrImpers
+;v-intrImpers-subjExpl
+ROLE:
+SIT-TYPE: PHENOM
+det regner 
+;'it rains'
+
+v-intrImpersPrtcl
+;v-intrImpersTelicprtcl-subjExpl
+ROLE:
+SIT-TYPE: PHENOM_TELIC
+det klarner opp 
+;'it clears up'
+
+v-intrImpersObl
+;v-intrImpersObl-subjExpl
+ROLE: locObl
+SIT-TYPE: SEMELFACTIVE
+det kvekker i Ola 
+;'it startles in Ola'
+det sprekker i glasset
+;'it cracks in the glass'
+ROLE: locObl
+SIT-TYPE: ACTIVITY
+det synger i fjellene
+; 'it sings in the mountains'
+;
+v-intrDirPresentational
+;v-intrDirPresentational-subjExpl
+ROLE: agmover
+SIT-TYPE: MOTION
+det springer en mann
+; 'there runs a man'
+;
+v-intrDirPresentational
+;v-intrDirPresentational-subjExpl
+ROLE: agmover
+SIT-TYPE: ENDPNTMOTION
+det springer en mann hit
+; 'there runs a man to here'
+;
+v-intrDirPresentational
+;v-intrDirPresentational-subjExpl
+ROLE: thmover
+SIT-TYPE: MOTION
+det ruller en ball
+; 'there rolls a ball'
+;
+v-intrDirPresentational
+;v-intrDirPresentational-subjExpl
+ROLE: thmover
+SIT-TYPE: ENDPNTMOTION
+det ruller en ball hit
+; 'there rolls a ball to here'
+;
+v-intrPresentationalLoc
+;v-intrPresentationalLoc-subjExpl
+ROLE: ag_locObl
+SIT-TYPE: POSTURE_LOC
+det sitter en mann i stolen
+;'there sits a man in the chair'
+det sitter en mann her
+;'there sits a man here'
+;
+v-trPresentational
+;v-trPresentational-subjExpl
+ROLE: ben_th
+SIT-TYPE: PENDINGSTATE
+det venter ham en ulykke
+;'there awaits him an accident'
+det tilkommer ham hundre kroner
+;'there "to-come" him a hundred kroner' - "he is supposed to get 100 kroner"
+;
+v-intr
+ROLE: ag
+SIT-TYPE: ACTIVITY / SEMELFACTIVE
+gutten hopper
+;'the boy jumps'
+;
+v-intrPrcl
+ROLE: ag
+SIT-TYPE: SUSTAINEDACTIVITY
+Ola driver på
+; 'Ola keeps on'
+ROLE: th
+SIT-TYPE: SUSTAINEDACTIVITY
+regnet varer ved
+; 'the rain lasts'
+
+;
+v-intrPrcl
+ROLE: ag
+SIT-TYPE: COMPLETEDACTIVITY
+Ola stopper opp
+; 'Ola stops up' - "Ola comes to a halt"
+ROLE: th
+SIT-TYPE: COMPLETEDACTIVITY
+regnet holder opp
+; 'the rain holds up' - "the rain comes to a halt"
+;
+v-intr
+ROLE: agsens
+SIT-TYPE: SENSING_PROTR
+gutten lytter
+;'the boy listens'
+;
+v-intrDir
+ROLE: agmover
+SIT-TYPE: MOTION
+gutten løper
+; 'the boy runs'
+;
+v-intrDir
+ROLE: thmover
+SIT-TYPE: MOTION
+ballen ruller
+; 'the ball rolls'
+
+v-intrDir
+;v-intrDir-pureorientation
+ROLE: oriented_obj
+SIT-TYPE: pureorientation
+pilen peker mot nord
+; 'the arrow points towards north'
+;
+v-intrDir
+;v-intrDir-pathconstellation
+ROLE: oriented_obj
+SIT-TYPE: pathconstellation
+veien går mot nord
+; 'the road goes towards north'
+;
+v-intrDir
+;v-intrDir-locomodevelopment
+ROLE: oriented_obj
+SIT-TYPE: locomodevelopment
+turen går mot nord
+; 'the tour goes towards north'
+;
+v-intr
+ROLE: th
+SIT-TYPE: PROCESS
+isen smelter
+;'the ice melts'
+;
+NB: these two have been moved ahead a bit
+;;;;;;;;;;
+;v-intrPrcl
+ROLE:
+SEM
+regnet varer ved
+; 'the rain lasts by'
+;;v-intrPrcl
+ROLE:
+SEM
+regnet holder opp
+; 'the rain holds up' - "the rain comes to a halt"
+;
+;;;;;;;;;;;;;;;;;;;
+v-intr
+ROLE: exp
+SIT-TYPE: EXPERIENCING_PROTR
+gutten fryser
+;'the boy freezes'
+;
+v-intr-suDECL
+;v-intr-subjDECL
+ROLE: thSit
+SEM
+at han sover hender
+;'that he sleeps occurs'
+;
+v-intr-suYN
+;v-intr-subjYN
+ROLE: thSit
+SEM
+hvorvidt han kommer beror
+;'whether he comes depends'
+;
+v-intr-suWH
+;v-intr-subjWH
+ROLE: thSit
+SEM
+??hvem som kommer beror
+;'who comes depends'
+;
+v-intr-suAbsinf
+;v-intr-subjAbsInf
+ROLE: thSit
+SEM
+å motta penger for politiske verv stinker
+;'to receive money for political duties sucks'
+;
+v-intrObl
+ROLE: ag_topicObl
+SIT-TYPE: ABOUTNESS_ACTIVITY
+jeg snakker om Ola
+;'I talk about Ola'
+;
+v-intrObl-oblDECL
+ROLE: ag_topicObl
+SIT-TYPE: ABOUTNESS_ACTIVITY
+de snakker om at det er for sent
+;'they talk about that it is too late'
+;
+v-intrObl-oblYN
+ROLE: ag_topicObl
+SIT-TYPE: PROPOSITIONALATTITUDE_ACTIVITY
+;de lurer på hvorvidt det er for sent
+;'they wonder about whether it is too late'
+;
+v-intrObl-oblWH
+;v-intrObl-oblWH
+ROLE: ag_topicObl
+SIT-TYPE: PROPOSITIONALATTITUDE_ACTIVITY
+;de lurer på hvem som kommer
+;'they wonder about who that comes'
+;
+v-intrObl-oblEquiSuInf
+;v-intrObl-oblEquiSubjInf
+ROLE: ag_topicObl
+SIT-TYPE: PROPOSITIONALATTITUDE_ACTIVITY
+han håper på å komme 
+;'he hopes [on] to come'
+;
+v-intrObl-oblEquiSuInf
+;v-intrObl-oblEquiSubjInf
+ROLE: ag_topicObl
+SIT-TYPE: 
+Ola driver med å skrive
+;'Ola keeps with to write'
+
+v-intrPrtclObl-oblEquiSuInf
+;v-intrPrclObl-oblEquiSubjInf
+ROLE: ag_topicObl
+SIT-TYPE: 
+Ola driver på med å skrive
+;'Ola keeps on with to write'
+;
+v-intrObl-oblAbsinf
+;v-intrObl-oblAbsInf
+ROLE: ag_topicObl
+SIT-TYPE: ABOUTNESS_ACTIVITY
+de snakker om å reise til Mars
+;'they talk about to travel to Mars'
+;
+v-intrObl-suNrg_oblRaisInf
+;v-intrOblRais-subjNonarg_oblRaisInf
+ROLE: thSitObl
+SIT-TYPE: EXHIBACT
+han later til å komme
+;'he appears [to] to come' - "he appears to come"
+;
+v-intrPrtclObl-suNrg_oblRaisInf
+ROLE: thSitObl
+SIT-TYPE: EXHIBACT
+;v-intrPrclOblRais-subjNonarg_oblRaisInf
+han ser ut til å komme
+;'he looks out [to] to come' - "he appears to come"
+;
+v-intrObl
+ROLE: ag_locObl
+SIT-TYPE: LOCATION
+hun bor i Finnmark
+;'she lives in Finnmark'
+ROLE: th_locObl
+SIT-TYPE: LOCATION
+Hamningberg ligger i Finnmark
+;'Hamningberg lies in Finnmark'
+;
+v-intrObl
+ROLE: ag_affincremObl
+SIT-TYPE: NONCOMPLETED_MONODEVMNT
+hun spiser av eplet
+; 'she eats of the apple'
+;
+v-intrObl
+ROLE: ag_thincremObl
+SIT-TYPE: NONCOMPLETED_MONODEVMNT
+hun leser i boken
+; 'she reads in the book'
+;
+v-intrObl
+ROLE: ag_activatedObl
+SIT-TYPE: ACTIVATION
+Ola rører på statuen 
+; Ola moves at the statue
+; 'Ola makes a small movement of the statue'
+;
+v-intrObl-oblRefl
+ROLE: activatedObl
+SIT-TYPE: ACTIVATION
+Ola leer på seg
+; Ola moves on REFL
+; 'Ola moves [a little]'
+;
+
+NB: new ex
+v-intrObl-oblPRTOFsubj
+SIT-TYPE: -EXPERIENCING
+jeg fryser på ryggen
+;'I freeze on the back' - "I'm cold on my back"
+;
+v-intrAdv
+;v-intrAdv-th-PROPTY
+han fungerer godt
+; 'he functions well'
+
+NB: new
+v-intrImplicobjObl
+han sølte på duken
+;'he spilled on the tablecloth'
+han kledde på gutten
+;'he dressed the boy'
+; 
+NB: new
+v-intrImplicobjObl-oblRefl
+han sølte på seg
+;'he spilled on himself'
+han kledde på seg
+;'he dressed himself'
+
+
+;
+v-intrScpr-scCse_suNrg_scAdj
+;v-intrResultSecprSubjraisAdj-subjNonarg
+koppen renner full
+; 'the cup runs full' - "the cup fills up"
+firmaet går fallitt 
+;'the company goes broke'
+;
+NB: new
+v-intrScpr-scCse_suNrg_scAdv
+;landsbyen snør ned
+;'the village snows down'
+;kampen regnet bort
+;'the match rained away'
+
+v-intrScpr-scCse_suNrg_scPP
+;v-intrResultSecprSubjraisPP-subjNonarg
+kjelen koker i stykker
+; 'the kettle boils to pieces' 
+;
+v-intrScpr-scLght-scAdj
+;v-intrConcurrSecprSubjbinAdj
+huset står tomt
+;'the house stands empty'
+eiendommen ligger brakk
+; 'the property lies nonattended'
+;
+v-intrScpr-scLght-scPredprtcl
+;v-intrConcurrSecprSubjbinPredprtcl
+gutten fremstår som syk
+;'the boy emerges as sick'
+Ola stiller som forsvarer
+;'Ola steps in as defender'
+;
+v-intrScpr-scCse_scAdj
+;v-intrCseSecprSubjbinAdj
+skinken henger mør
+;'the ham hangs tender' - "the ham hangs so as to get tender" 
+;
+v-intrScpr-scCse_scAdv
+;v-intrCseSecprSubjbinAdv
+kaffen koker bort
+;'the coffee boils away'
+;
+v-intrScpr-suNrg_scAdj
+;v-intrSecprSubjraisAdj-subjNonarg
+gutten virker syk
+;'the boy seems sick'
+;
+v-intrScpr-suNrg_scN
+;v-intrSecprSubjraisN-subjNonarg
+gutten synes en leder
+;'the boy seems a leader'
+;
+v-intrScpr-suNrg_scPP
+;v-intrSecprSubjraisPP-subjNonarg
+gutten virker i orden
+;'the boy seems in good shape'
+;
+v-intrScpr-suNrg_scPredprtcl
+;v-intrSecprSubjraisPredprtcl-subjNonarg
+gutten virker som en feiging
+;'the boy appears as a coward'
+;
+v-intrScpr-suNrg_scInf
+;v-intrSecprSubjraisInf-subjNonarg
+han synes å komme
+;'he seems to come'
+;
+v-intrScpr-suNrg_scBareinf
+;v-intrSecprSubjraisBareinf-subjNonarg
+han synes komme
+;'he seems come'
+;
+v-modal-epist
+;v-intrSecprSubjraisBareinf-subjNonarg
+han kan komme
+;'he can come'
+;
+v-perf
+;v-intrSecprSubjraisPerf-subjNonarg
+han har kommet
+;'he has come'
+;
+v-intrScprPrtcl-suNrg_scAdj
+;v-intrSecprSubjraisAdjPrtcl-subjNonarg
+gutten høres syk ut
+;'the boy sounds sick out'
+;
+v-intrScprPrtcl-suNrg_scPredprtcl
+;v-intrSecprSubjraisPrtclPredprtcl-subjNonarg
+gutten høres ut som en papegøye
+;'the boy sounds out as a parrot'
+;
+
+NB: modified example
+v-intrEpon-eponDECL
+;v-intrEpon-subjExpl_eponDECL
+det hender at han kommer
+;'it happens that he comes'
+det virker som om han kommer
+det virker som han kommer
+;
+v-intrEpon-eponYN
+;v-intrEpon-subjExpl_eponYN
+det spørs hvorvidt han kommer
+;'it depends whether he comes'
+;
+v-intrEpon-eponWH
+;v-intrEpon-subjExpl_eponWH
+det spørs hvem som kommer
+;'it depends who that comes'
+;
+NB: modified example
+v-intrEpon-eponAbsinf
+;v-intrEpon-subjExpl_eponAbsinf
+det hjelper å sette seg
+;'it helps to sit down'
+;
+v-intrPrtclEpon-eponDECL
+;v-intrPrtclEpon-subjExpl_eponDECL
+det hører med at han kommer
+; 'it hears along that he comes' - "it goes with it that he comes"
+;
+v-intrOblEpon-oblEponDECL
+;v-intrOblEpon-subjExpl_oblEponDECL
+;det later til at han kommer 
+;'it appears [to] that he comes'
+;det haster med at han kommerv-intrOblEpon-oblEponAbsinf
+;v-intrOblEpon-subjExpl_oblEponAbsinf
+det haster med å komme
+;'it urges to come'
+;
+;v-intrOblEpon-subjExpl_oblEponDECL
+det later til at han kommer 
+;'it appears [to] that he comes'
+;
+;v-intrPrtclOblEpon-subjExpl_oblEponDECL
+det ser ut til at han kommer 
+;'it looks out to that he comes'
+;
+NB: both this and the next may come in the obDir category
+v-tr
+;v-tr-objArg
+Kari kaster ballen
+;'Kari throws the ball'
+;
+v-tr
+;v-tr-objArg
+Kari sender pakken
+;'Kari sends the parcel'
+;
+v-tr
+;v-tr-objArg
+Kari slår Ola
+;'Kari beats Ola'
+;
+v-tr
+;v-tr-objArg
+Kari nevner Ola
+;'Kari mentions Ola'
+;
+v-tr
+;v-tr-objArg
+Kari spiser kaken
+;'Kari eats the cake'
+;
+v-tr
+;v-tr-objArg
+Kari leser boken
+;'Kari reads the book'
+;
+v-tr
+;v-tr-objArg
+Kari ser Ola
+;'Kari sees Ola'
+;
+v-tr
+;v-tr-objArg
+Kari skremmer Ola
+;'Kari frightens Ola'
+;
+v-tr
+;v-tr-objArg
+boken tilhører Ola
+;'the book belongs-to Ola'
+;
+v-tr
+;v-tr-objArg
+boken skader Ola
+;'the book hurts Ola'
+;
+v-tr
+;v-tr-objArg
+boken deprimerer Ola
+;'the book depresses Ola'
+;
+v-tr-obRefl
+;v-tr-objArgRefl
+Kari vasker seg
+;'Kari washes herself'
+;
+v-trPrtcl-obReflExpl
+;v-tr-objReflExpl
+Kari skammer seg
+;'Kari shames herself' - "Kari is ashamed"
+;
+;v-trPrtcl-objReflExpl
+Kari dummet seg ut
+;'Kari fooled herself out'
+;
+v-trPrtcl-obRefl
+;v-trPrtcl-objArgRefl
+Ola fiffer seg opp
+;'Ola shines himself up'
+;
+v-tr
+;v-tr-objArg
+Kari når toppen
+;'Kari reaches the top'
+;
+v-tr
+;v-tr-objArg
+Kari passerer kirken
+;'Kari passes the church'
+;
+v-tr
+;v-tr-objArg
+Kari følger stien
+;'Kari follows the path'
+;
+v-tr
+;v-tr-objArg
+stien når toppen
+;'the path reaches the top'
+;
+v-tr
+;v-tr-objArg
+stien passerer kirken
+;'the path passes the church'
+;
+NB: new ones
+;v-trObDir-accompanying
+gutten ledsager presidenten
+; 'the boy accompanies the president'
+;
+;v-trObDir-crossingmotionpaths
+gutten krysser demonstrasjonstoget
+; the boy crosses the demonstration parade'
+
+;v-trObDir-nonparallelpaths
+streken skjærer linjen.
+; 'the stroke crosses the line'
+
+;v-trObDir-parallelpaths
+streken følger linjen
+; 'the stroke follows the line'
+stien følger elven
+;'the path follows the river'
+
+;v-trObDir-nonparallelpaths
+streken skjærer linjen.
+; 'the stroke crosses the line'
+
+;v-trObDir-ejection
+han kaster ballen
+; 'he throws the ball'
+
+;v-trObDir-orienting
+han retter pilen mot nord
+; 'he erects the arrow towards north'
+
+;v-trObDir-linesituating
+han tegner linjen mot venstre
+; 'he draws the line to the left'
+
+;v-trObDir-locomoconduction
+de legger turen mot nord
+; 'they take the tour towards north'
+
+
+
+;
+NB. End of new ones
+;;; back to first list
+;
+v-tr
+;v-tr-objArg
+stenen veier 5 kg
+;'the stone weighs 5 kg'
+;
+v-tr
+;v-tr-objArg
+filmen varer 5 timer
+;'the film lasts 5 hours'
+;
+v-tr
+;v-tr-objArg
+banen måler 400 meter
+;'the track measures 400 metres'
+;
+v-tr
+;v-tr-objArg
+gutten går to kilometer
+; the boy walks two kilometers
+;
+v-tr
+;v-tr-objArg
+hun sover en dyp søvn
+;she sleeps a deep sleep
+;
+v-tr
+;v-tr-objArg
+hun skyter plastikkuler
+;she shoots plastic bullets
+;
+v-tr
+;v-tr-objArg
+gutten vil ta stien mot fjellet
+; the boy will take the path towards the mountain
+;
+v-tr
+;v-tr-objArg
+gutten vil ta bussen mot fjellet
+; the boy will take the bus towards the mountain
+;
+v-tr-obDECL
+;v-tr-objDECL
+Kari ser at Ola sover
+;'Kari sees that Ola sleeps'
+;
+v-tr-obDECL
+;v-tr-objDECL
+Kari vet at jeg kommer
+;'Kari knows that I come'
+;
+v-tr
+;v-tr-objArg
+Kari vet svaret
+;'Kari knows the answer'
+;
+v-trPrtcl
+;v-trPrtcl-objArg
+Kari fant ut svaret
+;'Kari found out the answer'
+;
+v-trPrtcl-obDECL
+;v-trPrtcl-objArg-objDECL
+Kari fant ut at jeg kom
+;'Kari found out that I came'
+;
+v-tr-obEquiInf
+;v-tr-objEquiInf
+Kari prøver å komme
+;'Kari tries to come'
+;
+v-trPrtcl-obEquiInf
+;v-trPrtcl-objEquiInf
+Kari fant på å komme
+;'Kari found on to come' - "Kari hit upon coming"
+;
+v-tr-obEquiBareinf
+[also:]v-rootmodal
+;v-tr-objEquiBareinf
+Kari kan padle
+;'Kari can paddle'
+;
+v-tr-obAbsinf
+;v-tr-objAbsInf
+Kari vurderer å komme
+;'Kari considers to come'
+;
+v-tr-suAbsinf
+;v-tr-subjAbsInf_objArg
+Å bygge høyhus interesserer Kari
+;'To build highrises interests Kari'
+;
+v-tr-suDECL
+;v-tr-subjDECL_objArg
+At jeg kommer forundrer Kari
+;'That I come astonishes Kari'
+;
+v-tr-suYN
+;v-tr-subjYN_objArg
+hvorvidt jeg kommer undrer Kari
+;'Whether I come concerns Kari'
+;
+v-tr-suWH
+;v-tr-subjWH_objArg
+hvem som kommer plager Kari
+;'who that comes bothers Kari'
+;
+v-tr-obYN
+;v-tr-objYN
+Kari undres hvorvidt jeg kommer
+;'Kari wonders whether I come'
+;
+v-trPrtcl-obYN
+;v-trPrtcl-objYN
+Kari fant ut hvorvidt jeg kommer
+;'Kari found out whether I come'
+Ola regner ut hvorvidt du kommer
+;'Ola calculates out whether you come'
+;
+v-tr-obWH
+;v-tr-objWH
+Kari undres hvem som kommer
+;'Kari wonders who comes'
+;
+v-trPrtcl-obWH
+;v-trPrtcl-objWH
+Kari fant ut hvem som kommer
+;'Kari found out who that comes'
+Ola regner ut hva svaret blir
+;'Ola calculates out what the answer becomes'
+;
+v-trObl
+;v-trObl-objArg
+han forteller nyheten til Ola
+;'he tells the news to Ola'
+;
+v-trObl-obRefl
+;v-trObl-objArgRefl
+han allierer seg med gutten
+;'he allies himself with the boy'
+;
+v-trObl-oblPRTOFobj
+;v-trObl-oblPRTOFobj
+jeg sparker Ola i baken
+;'I kick Ola in the butt'
+;
+v-trObl-oblRefl_oblPRTOFobj
+;v-trObl-oblRefl_oblPRTOFobj
+Ola klør seg på ryggen
+;'Ola scrathes himself on the back'
+;
+v-trObl-oblDECL
+;v-trObl-objArg_oblDECL
+han forteller Ola om at han kommer
+;'he tells Ola about that he comes'
+;
+v-trObl-oblYN
+;v-trObl-objArg_oblYN
+han spør Ola om hvorvidt han kommer
+;'he asks Ola about whether he comes'
+;
+v-trObl-oblWH
+;v-trObl-objArg_oblWH
+han spør Ola om hvem som kommer
+;'he asks Ola about who that comes'
+;
+v-trObl-oblEquisuInf
+;v-trObl-oblEquisubjInf
+han bønnfalt meg om å få komme
+;'he begged me about to be-allowed come'
+;
+v-trObl-obReflExpl_oblEquisuInf
+;v-trObl-objReflExpl_oblEquisubjInf
+Ola finner seg i å vente
+;'Ola finds himself in to wait' - "Ola accepts waiting"
+;
+v-trObl-oblEquiobInf
+;v-trObl-objArg_oblEquiobjInf
+han bønnfalt meg om å gå
+;'he begged me about to go'
+;
+v-trObl-obRefl_oblEquiobInf
+;v-trObl-objArgRefl_oblEquiobjInf
+han forplikter seg til å komme
+;'he commits himself to to come'
+;
+v-trObl-oblAbsinf
+;v-trObl-objArg_oblAbsInf
+vi forteller barna om å bygge høyhus
+;'we tell the children about to build highrises' 
+;
+NB: moved to another type, see below
+;v-trObl-objNonarg_oblRaistoobjInf
+;jeg anser Ola for å være syk
+;'I regard Ola for to be sick'
+;jeg anser Ola for å løpe vekk
+;'I regard Ola for to run away'
+;
+;v-trObl-objNonargRefl_oblRaistoobjInf
+;hun anser seg for å være syk
+;'she regards herself for to be sick'
+;
+v-trScpr-scSuNrg_scAdj
+;v-trSuSecprSubjraisAdj-subjNonarg
+han synes meg syk
+;'he seems me sick'
+;
+v-trScpr-scSuNrg_scN
+;v-trSuSecprSubjraisN-subjNonarg
+han synes meg en idiot
+;'he seems me an idiot'
+;
+v-trScpr-scSuNrg_scPP
+;v-trSuSecprSubjraisPP-subjNonarg
+han synes meg i godt humør
+;'he seems me in good mood'
+;
+v-trScpr-scSuNrg_scPredprtcl
+;v-trSuSecprSubjraisPredprtcl-subjNonarg
+han synes meg som en idiot 
+;'he seems me as an idiot'
+;
+v-trScpr-scSuNrg_scInf
+;v-trSuSecprSubjraisInf-subjNonarg
+han synes meg å komme
+;'he seems me to come'
+;
+v-trScpr-scSuNrg_scBareinf
+;v-trSuSecprSubjraisBareinf-subjNonarg
+han synes meg komme 
+;'he seems me come'
+;
+v-trScpr-scObArg_scAdj-scConcurr
+;v-trConcurrObSecprObjbinAdj
+han drakk kaffen varm 
+;'he drank the coffee warm'
+;
+v-trScpr-scObArg_scPP-scConcurr
+;v-trConcurrObSecprObjbinPP
+han kjørte bilen i god stand
+; 'he drove the car in good shape'
+;
+v-trScpr-scObArg_scPredprtcl-scConcurr
+;v-trConcurrObSecprObjbinPredprtcl
+han kjørte bilen som en firmabil
+;'he drove the car as a company car'
+;
+v-trScpr-scObNrg_scAdj-scResult
+;v-trResultObSecprObjraisAdj-objNonarg
+hun gjør skoene flate
+; she makes the shoes flat
+;
+v-trScpr-scObNrg_scPP-scResult
+;v-trResultObSecprObjraisPP-objNonarg
+hun gjør meg i god form
+; she makes me in good shape
+;
+v-trScpr-scObArg_scPP-scCse
+;v-trCsebinObSecprObjbinPP
+hun setter skoene bak bordet
+;'she puts the shoes behind the table'
+;
+v-trScpr-scObArg_scPP-scCse
+;NB not yet label-reflected ppshift
+;argobj-result-secpr-ppshift 
+han sparket i stykker ballen
+;'he kicks to pieces the ball'
+;
+v-trScpr-scObArg_scAdv-scCse
+;v-trCsebinObSecprObjbinAdv
+han sparket ballen bort
+;'he kicked the ball away'
+;
+v-trScpr-scObArg_scAdv-scCse
+;NB not yet label-reflected prtclshift
+;argobj-result-secpr-ptclshift
+han sparket bort ballen
+;'he kicked away the ball'
+;
+v-trScpr-scObArg_scAdj-scCse
+;v-trCsebinObSecprObjbinAdj
+han sparket ballen flat
+;'he kicked the ball flat'
+;
+NB: gotten a new type, see ex under v-trScpr-scObNrgCse_scAdv-scCse below
+;v-trCsebinObSecprObjbinAdv-objRefl
+han karer seg bort
+;'he gets himself away'
+;
+v-trScpr-scObNrgCse_scAdj-scCse
+;v-trCseunObSecprObjraisAdj-objNonarg
+han sang rommet tomt
+;'he sang the room empty'
+;
+v-trScpr-scObNrgCse_scAdj-scCseBinary
+;v-trCseunObSecprObjraisAdj-objNonarg
+han spiser kjøleskapet tomt
+;'he eats the refrigerator empty'
+
+v-trScpr-scObNrgCse_obRefl_scAdj-scCse
+;v-trCseunObSecprObjraisAdj-objNonargRefl
+han løp seg sunn
+;'he ran himself healthy'
+;
+v-trScpr-scObNrgCse_obRefl_scPP-scCse
+;v-trCseunObSecprObjraisPP-objNonargRefl
+han sang seg i god form 
+;'he sang himself in good shape'
+;
+v-trScpr-scObNrgCse_scAdv-scCse
+;v-trCseunObSecprObjraisAdv-objNonarg
+han sang sorgene bort 
+;'he sang the sorrows away'
+NB: from 4 ex up:
+han karer seg bort
+;'he gets himself away'
+;
+v-trScpr-scObNrgCse_scAdv-scCse
+;v-trSecprAdvshift-objNonargRefl_predicofObj
+han sang bort sorgene 
+;'he sang away the sorrows'
+;
+v-trScpr-scObNrg_scInf
+;v-trObSecprObjraisInf-objNonarg
+jeg formoder ham å være kvalifisert 
+;'I assume him to be qualified'
+;
+v-trScpr-scObNrg_scBareinf
+;v-trObSecprObjraisBareinf-objNonarg
+jeg ser ham ligge
+;'I see him lie'
+;
+v-trScpr-scObNrg_obRefl_scBareinf
+;v-trObSecprObjraisBareinf-objNonargRefl
+han kjente seg sove
+;'he felt himself sleep'
+;
+v-trScpr-scObNrg_scAdj
+;v-trObSecprObjraisAdj-objNonarg
+han anser Ola skikket 
+;'he regards Ola qualified'
+;
+v-trScpr-scObNrg_obRefl_scAdj
+;v-trObSecprObjraisAdj-objNonargRefl
+han anser seg skikket 
+;'he regards himself qualified'
+;
+v-trScpr-scObNrg_scPredprtcl
+;v-trObSecprObjraisPredprtcl-objNonarg
+han oppfattet bilen som ny 
+;'he percieved the car as new'
+jeg anser Ola for å være syk
+;'I regard Ola for to be sick'
+jeg anser Ola for å løpe vekk
+;'I regard Ola for to run away'
+;
+v-trScpr-scObNrg_obRefl_scPredprtcl
+;v-trObSecprObjraisPredprtcl-objNonargRefl
+han oppfattet seg som ny 
+;'he percieved himself as new'
+;hun anser seg for å være syk
+;'she regards herself for to be sick'
+;
+NB: these are moved from above somewhere:
+v-trScpr-scObNrg_scN
+;v-trObSecprObjraisN
+hun kaller Ola en venn
+;'she calls Ola a friend'
+;
+v-trScpr-scObNrg_obRefl_scN
+;v-trObSecprObjraisN-objRefl
+hun kaller seg en venn
+;'she calls herself a friend'
+
+v-trAdv-obReflExpl
+;v-tr-objReflExpl
+han oppfører seg pent
+;'he behaves himself nicely'
+;
+v-trEponSu-eponDECL
+;v-trSuEpon-subjExpl_eponDECL
+det bekymrer meg at han kommer
+;'it worries me that he comes'
+;
+v-trEponSu-eponYN
+;v-trSuEpon-subjExpl_eponYN
+det plager meg hvorvidt han kommer
+;'it bothers me whether he comes'
+;
+v-trEponSu-eponWH
+;v-trSuEpon-subjExpl_eponWH
+NB! det overrasker meg hvem som kommer
+;'it surprises me who that comes'
+;
+v-trEponSu-eponCOND
+;v-trSuEpon-subjExpl_eponCOND
+det vil ikke forundre meg hvis han kommer
+;'it will not surprise me if he comes'
+;
+v-trEponSu-eponEquiInf
+;v-trSuEpon-subjExpl_eponEquiInf
+det behager meg å komme
+;'it pleases me to come'
+;
+v-trEponOb-eponDECL
+;v-trObEpon-objExpl_eponDECL
+ vi muliggjorde det at han fikk innreisetillatelse
+;'we possible-made it that he got entrance visa'
+;
+v-trEponOb-eponCOND
+;v-trObEpon-objExpl_eponCOND
+jeg vil beklage det hvis du kommer
+;'I will regret it if you come'
+;
+;tr-objepon-yninterr
+;tr-objepon-whinterr
+;
+v-trEponOb-eponAbsinf
+;v-trObEpon-objExpl_eponAbsInf
+ vi umuliggjør det å komme
+;'we impossible-make it to come'
+;
+v-ditr
+;v-ditr-iobjArg
+jeg gav ham boken
+;'I gave him the book'
+;
+v-ditr-iobRefl
+;v-ditr-iobjArgRefl
+han gav seg tid
+;'he gave himself time'
+;
+v-ditr
+;v-ditr-iobjArg
+han unner henne boken
+;'he [unner] her the book'
+;
+v-ditr-iobRefl
+;v-ditr-iobjArgRefl
+han unner seg boken
+;'he [unner] himself the book'
+;
+v-ditr-iobRefl_obDECL
+;v-ditr-iobjArgRefl_objDECL
+han innbiller seg at du kommer
+;'he imagines himself that you come' = "he imagines that you come"
+;
+v-ditr-iobReflExpl_obYN
+;v-ditr-iobjReflExpl_objYN
+han undrer seg hvorvidt du kommer
+;'he wonders [himself] whether you come'
+;
+v-ditr-iobReflExpl_obWH
+;v-ditr-iobjReflExpl_objWH
+han undrer seg hvem som kommer
+;'he wonders [himself] who that comes'
+;
+v-ditr-iobReflExpl_obEquiInf
+;v-ditr-iobjReflExpl_objEquiInf
+han foresetter seg å komme
+;'he [foresetter] himself to come'
+;
+v-ditr-obDECL
+;v-ditr-iobjArg-objDECL
+Kari forteller meg at han kommer
+;'Kari tells me that he comes'
+;
+v-ditr-obYN
+;v-ditr-iobjArg-objYN
+han forteller meg hvorvidt Kari kommer
+;'he tells me whether Kari comes'
+;
+v-ditr-suDECL
+;v-ditr-subjDECL_iobjArg
+at han synger gir Kari hodepine
+;'that he sings gives Kari headache'
+;
+v-ditr-suYN
+;v-ditr-subjYN_iobjArg
+hvorvidt han kommer først viser oss angrepsplanen
+;'whether he comes first shows us the attack plan'
+;
+v-ditr-suYN_obYN
+;v-ditr-subjYN_iobjArg_objYN
+hvorvidt han kommer først viser oss hvorvidt de har en plan
+;'whether he comes first shows us whether they have a plan'
+;
+v-ditr-obWH
+;v-ditr-iobjArg_dobjWH
+han forteller meg hvem som kommer
+;'he tells me who that comes'
+;
+v-ditr-suWH
+;v-ditr-subjWH_iobjArg
+hvem som kommer sist viser oss angrepsplanen
+;'who that comes first shows us the attack plan'
+;
+v-ditr-suWH_obWH
+;v-ditr-subjWH_iobjArg_objWH
+NB! hvem som kommer først viser oss ikke hvem som kommer sist
+;'who that comes first does not show us who that comes last'
+;
+v-ditr-obEquiSuInf
+;v-ditr-iobjArg_objEquiInf
+Kari lover ham å komme
+;'Kari promises him to come'
+;
+v-ditr-obEquiobInf
+;v-ditr-iobjArg_objEquiobjInf
+Kari tillater ham å komme
+;'Kari permits him to come'
+;
+v-ditr-iobRefl_obEquiobInf
+;v-ditr-iobjArgRefl_objEquiobjInf
+hun tillater seg å komme
+;'she permits herself to come'
+;
+v-ditr-obEquiobBareinf
+;v-ditr-iobjArg_objEquiobjBareinf
+Kari ber ham komme
+;'Kari asks him come'
+;
+v-ditr-suAbsinf
+;v-ditr-subjAbsInf_iobjArg
+å bombe først frarøver fienden moralen
+;'to bomb first deprives the enemy the moral'
+;
+v-ditr-suAbsinf
+;v-ditr-subjAbsInf_iobjArg
+å gå tur gir ham styrke
+;'to walk walks gives him strength'
+;
+v-ditrObl-oblPRTOFiobj
+;v-ditrObl-oblPRTOFiobj
+jeg kaster Ola kakestykker i ansiktet
+;'I throw Ola cakes in the face' - "I throw cakes in the face of Ola"
+;
+v-copAdj
+;v-copAdj
+han er snill
+;'he is kind'
+;
+v-copAdj-suDECL
+;v-copAdj-subjDECL
+at han kommer er overraskende
+;'that he comes is surprising'
+;
+v-copAdj-suAbsinf
+;v-copAdj-subjAbsInf
+å løpe er sunt
+;'to run is healthy'
+;
+v-copAdj-suYN
+;v-copAdj-subjYN
+hvorvidt han kommer er uvisst
+;'whether he comes is uncertain'
+;
+vcopAdj-suWH
+;vcopAdj-subjWH
+hvem som kommer er uvisst
+;'who that comes is uncertain'
+;
+v-copN-PROPTY
+;v-copN-PROPTY
+han er bonde
+;'he is peasant'
+;
+v-copN-suDECL
+;v-copN-subjDECL
+at han kom var et sjokk
+;'at he came was a chock'
+;
+v-copN-suAbsinf
+;v-copN-subjAbsInf
+å komme var en fornøyelse
+;'to come was a pleasure'
+;
+vcopN-suYN
+;v-copN-subjYN
+hvorvidt han kommer er et spørsmål
+;'whether he comes is a question'
+;
+v-copN-suWH
+;v-copN-subjWH
+hvem som kommer er et spørsmål
+;'who that comes is a question'
+;
+v-copPP
+;v-copPP
+forestillingen var under enhver kritikk
+;'the performance was below any critique'
+;
+v-copPP-suDECL
+;v-copPP-subjDECL
+at han kom var over forventning
+;'that he came was above expectation'
+;
+v-copPP-suAbsinf
+;v-copPP-subjAbsInf
+å synge er under vurdering 
+;'to sing is under consideration'
+;
+v-copPP-suYN
+;v-copPP-subjYN
+hvorvidt han får synge er under vurdering 
+;'whether he may sing is under consideration'
+;
+vcopPP-suWH
+;vcopPP-subjWH
+hvem som får synge er under vurdering 
+;'who that may sing is under consideration'
+;
+v-copPredprtcl
+;v-copPredprtcl
+Ola er som en gud 
+;'Ola is like a god'
+;
+v-copPredprtcl-suDECL
+;v-copPredprtcl-subjDECL
+at han kom var som bønnhørt 
+;'that he came was like [prayer-heard]'
+;
+v-copPredprtcl-suAbsinf
+;v-copPredprtcl-subjAbsInf
+å danse var som en drøm 'to dance was like a dream'
+;
+v-copPredprtcl-suYN
+;v-copPredprtcl-subjYN
+hvorvidt soldatene lystrer er som et lottospill 
+;'whether the soldiers obey is like a lotto-play'
+;
+vcopPredprtcl-suWH
+;v-copPredprtcl-subjWH
+hvem som lystrer er som et lottospill 
+;'who that obey is like a lotto-play'
+;
+v-copIdN
+;v-copIdN
+dette er mannen 
+;'this is the man'
+;
+v-copIdAbsinf
+;v-copIdAbsInf
+oppgaven er å spise silden 
+;'the task is to eat the herring'
+;
+v-copIdDECL
+;v-copIdDECL
+problemet er at han spiser silden 
+;'the problem is that he eats the herring'
+;
+v-copIdYN
+;v-copIdYN
+problemet er om han spiser silden 
+;'the problem is whether he eats the herring'
+;
+v-copIdWH
+;v-copIdWH
+problemet er hvem som spiser silden 
+;'the problem is who that eats the herring'
+;
+v-copEponAdj-eponDECL
+;v-copAdjEpon-subjExpl_eponDECL
+det er trist at han kommer 
+;'it is sad that he comes'
+;
+v-copEponAdj-eponAbsinf
+;v-copAdjEpon-subjExpl_eponAbsInf
+det er fint å være frisk 
+;'it is nice to be healthy'
+;
+v-copEponAdj-eponYN
+;v-copAdjEpon-subjExpl_eponYN
+det er uvisst om han kommer 
+;'it is uncertain whether he comes'
+;
+v-copEponAdj-eponWH
+;v-copAdjEpon-subjExpl_eponWH
+det er uvisst hvem som kommer 
+;'it is uncertain who that comes'
+;
+v-copEponN-eponDECL
+;v-copNEpon-subjExpl_eponDECL
+det er en skuffelse at han kommer 
+;'it is a disappointment that he comes'
+;
+v-copEponN-eponAbsinf
+;v-copNEpon-subjExpl_eponAbsInf
+det er en kunst å spise torsk 
+;'it is an art to eat cod'
+;
+v-copEponN-eponYN
+;v-copNEpon-subjExpl_eponYN
+det er et spørsmål hvorvidt han kommer 
+;'it is a question whether he comes'
+;
+v-copEponN-eponWH
+;v-copNEpon-subjExpl_eponWH
+det er et spørsmål hvem som kommer 
+;'it is a question who that comes'
+;
+v-copEponPP-eponYN
+;v-copPPEpon-subjExpl_eponYN
+NB! det er hinsides diskusjon hvorvidt han kommer 
+;'it is beyond discussion whether he comes'
+;
+v-copEponPredprtcl-eponYN
+;v-copPredprtclEpon-eponYN
+det er som en forbannelse at han kommer 
+;'it is like a curse that he comes'
+;
+v-copEponPP-eponDECL
+;v-copPPEpon-subjExpl_eponDECL
+det er for andre gang at han taper 
+;'it is for the second time that he loses'
+;
+v-copEponPredprtcl-eponDECL
+;v-copPredprtclEpon-subjExpl_eponDECL
+det var som bestilt at han tapte igjen 
+;'it was like booked that he lost again'
+
+
+Changed:
+;v-copAdjEpon-subjExpl_eponPP
+det er fint i Finnmark 
+;'it is nice in Finnmark'
+;
+;vcopAdjEpon-subjExpl_eponAdv
+det er fint her 
+;'it is nice here'
+;

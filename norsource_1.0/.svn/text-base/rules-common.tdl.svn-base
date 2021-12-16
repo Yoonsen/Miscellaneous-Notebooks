@@ -1,0 +1,488 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource -
+;;; 
+;;;    Copyright (c)  NorSource 1.0
+;;;                     
+;;;
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;
+   
+;;;                   rules-common.tdl
+;;;
+;;;  Types for phrasal combination common to NorSource and NorMal
+;;;  (the ...-phrase supertypes are given in norsk.tdl)
+;;;
+
+;;;; 250311 MHS
+;; app, imp, correl all commented out.
+
+
+head-spec-quantor-rule := head-spec-quantor-phrase.
+;head-spec-partitive-quantor-rule := head-spec-partitive-quantor-phrase.
+head-spec-art-rule := head-spec-art-phrase.
+head-spec-art-cum-singspec-rule := head-spec-art-cum-singspec-phrase.
+head-spec-art-cum-plurspec-rule := head-spec-art-cum-plurspec-phrase.
+head-spec-det-rule := head-spec-det-phrase.
+head-spec-noun-rule := head-spec-noun-phrase.
+head-spec-cardderivnoun-rule := head-spec-cardderivnoun-phrase.
+head-spec-card-rule := head-spec-card-phrase.
+klokka-spec-rule := klokka-spec-phrase.
+head-spec-post-rule := head-spec-post-phrase.
+weekday-spec-rule := weekday-spec-phrase.
+head-cmplxspec-card-rule := head-cmplxspec-card-phrase.
+head-spec-adj-rule := head-spec-adj-phrase.
+complex-number-rule := complex-number-phrase.
+complex-card-rule := complex-card-phrase.
+numbernoun-plus-card-rule := numbernoun-plus-card-phrase.
+
+; unclear if needed - but used for the 'Speech' corpus
+;compound-noun-rule := compound-noun-phrase.
+;head-spec-det-adj-rule := head-spec-det-adj-phrase.
+measure-np-rule := measure-np-phrase.
+measure-np-a-rule := measure-np-a-phrase.
+measure-np-dir-rule := measure-np-dir-phrase.
+;measure-adv-a-rule := measure-adv-a-phrase.
+measure-quantword-a-rule := measure-quantword-a-phrase.
+measure-a-quantword-rule := measure-a-quantword-phrase.
+measure-quantword-sup-rule := measure-quantword-sup-phrase.
+;measure-q-a-rule := measure-q-a-phrase.
+;measure-np-adv-rule := measure-np-adv-phrase.
+measure-np-cmpar-rule := measure-np-cmpar-phrase.
+measure-adv-cmpar-rule := measure-adv-cmpar-phrase.
+;measure-q-cmpar-rule := measure-q-cmpar-phrase.
+comparative-spec-a-rule := comparative-spec-a-phrase.
+morethan2feet-spec-a-rule := morethan2feet-spec-a-phrase.
+morethan2feet-spec-a-cmpar-rule := morethan2feet-spec-a-cmpar-phrase.
+;genitive-np-rule := genitive-np-phrase.
+;genitive-posspron-rule := genitive-posspron-phrase.
+; a maniac alternative...(not really, but use only with lex2.semlab
+
+#|
+agentive-genitive-np-rule := agentive-genitive-np-phrase.
+agentive-genitive-posspron-rule := agentive-genitive-posspron-phrase.
+undergoer-genitive-np-rule := undergoer-genitive-np-phrase.
+undergoer-genitive-posspron-rule := undergoer-genitive-posspron-phrase.
+actor-genitive-np-rule := actor-genitive-np-phrase.
+actor-genitive-posspron-rule := actor-genitive-posspron-phrase.
+theme-genitive-np-rule := theme-genitive-np-phrase.
+theme-genitive-posspron-rule := theme-genitive-posspron-phrase.
+relational-genitive-np-rule := relational-genitive-np-phrase.
+relational-genitive-posspron-rule := relational-genitive-posspron-phrase.
+|#
+poss-genitive-np-rule := poss-genitive-np-phrase.
+poss-genitive-posspron-rule := poss-genitive-posspron-phrase.
+; this works, but maybe weekday-spec-rule is sufficient
+;weekday-genitive-np-rule := weekday-genitive-np-phrase.
+;apposition-rule := apposition-phrase.
+fact-that-rule := fact-that-phrase.
+
+;main-cl-first-verb-spec-rule := main-cl-first-verb-spec-phrase.
+
+;;; REFL-EX when activating, comment this one out
+head-subject-rule := head-subject-phrase.
+head-indirwhquest-subjwh-subject-rule := head-indirwhquest-subjwh-subject-phrase.
+head-indirwhquest-objwh-subject-rule := head-indirwhquest-objwh-subject-phrase.
+head-subject-interr-rule := head-subject-interr-phrase.
+;;; REFL-EX when activating REFL, comment this one out
+head-invertsubject-decl-rule := head-invertsubject-decl-phrase.
+head-clit-invertsubject-decl-rule := head-clit-invertsubject-decl-phrase.
+head-invertsubject-interr-rule := head-invertsubject-interr-phrase.
+head-clit-invertsubject-interr-rule := head-clit-invertsubject-interr-phrase.
+head-resumptsubject-interr-rule := head-resumptsubject-interr-phrase.
+;imperative-rule := imperative-phrase.
+interjection-rule := interjection-phrase.
+
+;correlative-interjct-rule := correlative-interjct-phrase.
+;correlative-interjct-comma-rule := correlative-interjct-comma-phrase.
+
+head-verb-comp-rule := head-verb-comp-phrase.
+;head-verb-princB-I-comp-rule := head-verb-princB-I-comp-phrase.
+;head-verb-princB-II-comp-rule := head-verb-princB-II-comp-phrase.
+head-verb-tame-comp-rule := head-verb-tame-comp-phrase.
+head-verb-pronclit-comp-rule := head-verb-pronclit-comp-phrase.
+head-verb-reflclit-comp-rule := head-verb-reflclit-comp-phrase.
+head-verb-meas-comp-rule := head-verb-meas-comp-phrase.
+
+head-verb-bareinfin-comp-rule := head-verb-bareinfin-comp-phrase.
+
+;head-verb-bareinfin seems to suffice
+;head-auxverb-bareinfin-comp-rule := head-auxverb-bareinfin-comp-phrase.
+head-verb-inf-or-s-comp-rule := head-verb-inf-or-s-comp-phrase.
+head-verb-interjct-comp-rule := head-verb-interjct-comp-phrase.
+head-verb-perf-comp-rule := head-verb-perf-comp-phrase.
+head-verb-indirwhquest-y-n-comp-rule := head-verb-indirwhquest-y-n-comp-phrase.
+head-verb-indirwhquest-subjwh-comp-rule := head-verb-indirwhquest-subjwh-comp-phrase.
+head-verb-indirwhquest-objwh-comp-rulee := head-verb-indirwhquest-objwh-comp-phrase.
+head-verb-indirwhquest-advwh-comp-rulee := head-verb-indirwhquest-advwh-comp-phrase.
+head-verb-adj-comp-rule := head-verb-adj-comp-phrase.
+head-verb-preprais-comp-rule := head-verb-preprais-comp-phrase.
+head-verb-prepsit-comp-rule := head-verb-prepsit-comp-phrase.
+;head-verb-prepindirwhquest-comp-rule := head-verb-prepindirwhquest-comp-phrase.
+head-verb-som-comp-rule := head-verb-som-comp-phrase.
+head-verb-advparticle-comp-rule := head-verb-advparticle-comp-phrase.
+head-verb-adverb-comp-rule := head-verb-adverb-comp-phrase.
+head-verb-mannadverb-comp-rule := head-verb-mannadverb-comp-phrase.
+head-verb-particleshift-comp-rule := head-verb-particleshift-comp-phrase.
+; its work seems to be done by head-verb-prep-comp-rule
+;head-verb-ppshift-comp-rule := head-verb-ppshift-comp-phrase.
+;head-verb-2comp-rule := head-verb-2comp-phrase.
+head-verb-expl-comp-rule := head-verb-expl-comp-phrase.
+head-cop-prepadv-comp-rule := head-cop-prepadv-comp-phrase.
+
+head-adjective-comp-rule := head-adjective-comp-phrase.
+; covered by head-verb-adj-comp-rule
+;head-cop-adj-comp-rule := head-cop-adj-comp-phrase.
+;head-cop-prep-adv-comp-rule := head-cop-prep-adv-comp-phrase.
+;to give "det virker som han kommer". but head-prep-rais-comp-rule
+; does it anyway
+;head-prep-s-rule := head-prep-s-phrase.
+head-prep-comp-rule := head-prep-comp-phrase.
+head-prep-rais-comp-rule := head-prep-rais-comp-phrase.
+; with the widened def of poss-subj-head, head-prep-comp-rule covers this:
+; (but it seemed too wide, so now it goes again...)
+head-prep-bareclause-comp-rule := head-prep-bareclause-comp-phrase.
+head-prep-compclause-comp-rule := head-prep-compclause-comp-phrase.
+head-prep-regclause-comp-rule := head-prep-regclause-comp-phrase.
+head-prep-prepadv-comp-rule := head-prep-prepadv-comp-phrase.
+;head-prep-infclause-comp-rule := head-prep-infclause-comp-phrase.
+;head-prep-indirwhquestclause-comp-rule := head-prep-indirwhquestclause-comp-phrase.
+head-possparticle-comp-rule := head-possparticle-comp-phrase.
+
+head-complementizer-comp-rule := head-complementizer-comp-phrase.
+head-complementizer-adj-or-prep-rule := head-complementizer-adj-or-prep-phrase.
+head-complementizer-noun-rule := head-complementizer-noun-phrase.
+
+head-wordcoord-comp-rule := head-wordcoord-comp-phrase.
+head-wordcoord-nonequal-comp-rule := head-wordcoord-nonequal-comp-phrase.
+head-commacoord-comp-rule := head-commacoord-comp-phrase.
+head-numbercoord-comp-rule := head-numbercoord-comp-phrase.
+
+head-quant-comp-rule := head-quant-comp-phrase.
+head-quant-gen-comp-rule := head-quant-gen-comp-phrase.
+head-part-prep-comp-rule := head-part-prep-comp-phrase.
+
+head-cmpardep-reg-comp-rule := head-cmpardep-reg-comp-phrase.
+head-cmpardep-close-comp-rule := head-cmpardep-close-comp-phrase.
+head-cmpadv-comp-rule := head-cmpadv-comp-phrase.
+;head-part-prep-comp2-rule := head-part-prep-comp-phrase2.
+
+; just for a while 07.05.05
+head-actv-verb-icomp-rule := head-actv-verb-icomp-phrase.
+head-pass-verb-icomp-rule := head-pass-verb-icomp-phrase.
+head-actv-verb-icomp-epon-rule := head-actv-verb-icomp-epon-phrase.
+head-actv-verb-loc-icomp-rule := head-actv-verb-loc-icomp-phrase.
+head-pass-verb-loc-icomp-rule := head-pass-verb-loc-icomp-phrase.
+;head-verb-detachposs-rule := head-verb-detachposs-phrase.
+;head-verb-icomp-obj-contr-rule := head-verb-icomp-obj-contr-phrase.
+;basic-head-opt-one-comp-rule := basic-head-opt-one-comp-phrase.
+
+; unary-vp-rule := unary-vp-phrase.
+
+head-adjective-icomp-rule := head-adjective-icomp-phrase.
+
+coordination-numsensitive-rule := coordination-numsensitive-phrase.
+coordination-adjct-rule := coordination-adjct-phrase.
+coordination-v-rule := coordination-v-phrase.
+coordination-finite-rule := coordination-finite-clause.
+;nice to have, but only when needed
+;coordination-with-corefobj-v-rule := coordination-with-corefobj-v-phrase.
+coordination-relcl-rule := coordination-relclause-phrase.
+coordination-modal-dir-rule := coordination-modal-dir-phrase.
+coordination-adjective-rule := coordination-adjective-phrase.
+;coordination-to-v-by-coord-rule := coordination-to-v-by-coord-phrase.
+coordination-np-comma-np-rule := coordination-np-comma-np-phrase.
+coordination-number-coord-rule := coordination-number-coord-phrase.
+correlcoord-mod-rule := correlcoord-mod-phrase.
+
+
+adjective-mod-def-rule := adjective-mod-def-phrase.
+adjective-mod-indef-rule := adjective-mod-indef-phrase.
+postnom-poss-rule := postnom-poss-phrase.
+
+card-mod-def-rule := card-mod-phrase-def.
+card-mod-indef-rule := card-mod-phrase-indef.
+card-cum-singspec-mod-rule := card-cum-singspec-mod-phrase.
+card-cum-plurspec-mod-rule := card-cum-plurspec-mod-phrase.
+card-cum-adj-mod-rule := card-cum-adj-mod-phrase.
+card-cum-prep-or-adv-mod-rule := card-cum-prep-or-adv-mod-phrase.
+interr-card-mod-rule := interr-card-mod-phrase.
+card-mod-indef-with-interr-rule := card-mod-phrase-indef-with-interr.
+
+; Feb6 05 - only to check the old rule types
+;vp-mod-rule := vp-mod-phrase.
+
+cmpar-mod-rule := cmpar-mod-phrase.
+
+;pp-mod-bare-n-rule := pp-mod-bare-n-phrase.
+pp-mod-bare-n-index-sit-rule := pp-mod-bare-n-index-sit-phrase.
+pp-mod-bare-n-nonfixpt-dir-rule := pp-mod-bare-n-nonfixpt-dir-phrase.
+pp-mod-bare-n-fixpt-rule := pp-mod-bare-n-fixpt-phrase.
+
+;pp-mod-defbare-n-rule := pp-mod-defbare-n-phrase.
+pp-mod-defbare-n-index-sit-rule := pp-mod-defbare-n-index-sit-phrase.
+pp-mod-defbare-n-nonfixpt-dir-rule := pp-mod-defbare-n-nonfixpt-dir-phrase.
+pp-mod-defbare-n-fixpt-rule := pp-mod-defbare-n-fixpt-phrase.
+
+;pp-mod-spr-n-rule := pp-mod-spr-n-phrase.
+pp-mod-spr-n-index-sit-rule := pp-mod-spr-n-index-sit-phrase.
+pp-mod-spr-n-nonfixpt-dir-rule := pp-mod-spr-n-nonfixpt-dir-phrase.
+pp-mod-spr-n-fixpt-rule := pp-mod-spr-n-fixpt-phrase.
+
+pp-mod-rel-n-rule := pp-mod-rel-n-phrase.
+
+; mixing in types from PREDSORTS
+;pp-mod-n-reg-rule := pp-mod-n-phrase-reg.
+;pp-mod-n-dirarg-rule := pp-mod-n-phrase-dirarg.
+
+;advdir-mod-n-rule := advdir-mod-n-phrase.
+advdir-fixpt-mod-n-rule := advdir-fixpt-mod-n-phrase.
+;advdir-fixpt-mod-bare-n-rule := advdir-fixpt-mod-bare-n-phrase.
+;advdir-fixpt-mod-spr-n-rule := advdir-fixpt-mod-spr-n-phrase.
+;advdir-fixpt-mod-defbare-n-rule := advdir-fixpt-mod-defbare-n-phrase.
+
+advdir-nonfixpt-mod-n-rule := advdir-nonfixpt-mod-n-phrase.
+;advdir-nonfixpt-mod-bare-n-rule := advdir-nonfixpt-mod-bare-n-phrase.
+;advdir-nonfixpt-mod-spr-n-rule := advdir-nonfixpt-mod-spr-n-phrase.
+;advdir-nonfixpt-mod-defbare-n-rule := advdir-nonfixpt-mod-defbare-n-phrase.
+
+advreg-mod-n-rule := advreg-mod-n-phrase.
+;advreg-mod-bare-n-rule := advreg-mod-bare-n-phrase.
+;advreg-mod-spr-n-rule := advreg-mod-spr-n-phrase.
+;advreg-mod-defbare-n-rule := advreg-mod-defbare-n-phrase.
+
+;pp-mod-q-rule := pp-mod-q-phrase.
+
+pp-mod-adv-orient-rule := pp-mod-adv-orient-phrase.
+pp-mod-adv-reg-rule := pp-mod-adv-reg-phrase.
+pp-mod-adv-fixpt-rule := pp-mod-adv-fixpt-phrase.
+adv-mod-adv-orient-rule := adv-mod-adv-orient-phrase.
+adv-mod-adv-fixpt-rule := adv-mod-adv-fixpt-phrase.
+;adv-mod-adv-fixpt-comma-rule := adv-mod-adv-fixpt-comma-phrase.
+adv-mod-adv-reg-rule := adv-mod-adv-reg-phrase.
+
+qualifadv-quant-rule := qualifadv-quant-phrase.
+qualifadv-allquant-rule := qualifadv-allquant-phrase.
+qualifadv-card-rule := qualifadv-card-phrase.
+focqualifadv-n-rule := focqualifadv-n-phrase.
+focqualifadv-padv-rule := focqualifadv-padv-phrase.
+s-adv-spec-v-rule := s-adv-spec-v-phrase.
+s-adv-spec-invert-v-rule := s-adv-spec-invert-v-phrase.
+s-adv-spec-v-subord-rule := s-adv-spec-v-subord-phrase.
+;s-adv-mod-v-rule := s-adv-mod-v-phrase.
+;s-adv-mod-invert-v-rule := s-adv-mod-invert-v-phrase.
+;s-adv-mod-v-subord-rule := s-adv-mod-v-subord-phrase.
+adverbial-stnd-first-verb-mod-rule := adverbial-stnd-first-verb-mod-phrase.
+adverbial-invert-first-verb-mod-rule := adverbial-invert-first-verb-mod-phrase.
+adverbial-subordcl-first-verb-mod-rule := adverbial-subordcl-first-verb-mod-phrase.
+
+pp-mod-pp-orient-rule := pp-mod-pp-orient-phrase.
+pp-mod-pp-fixpt-rule := pp-mod-pp-fixpt-phrase.
+pp-mod-pp-reg-rule := pp-mod-pp-reg-phrase.
+
+; the following comment-out is ONLY to reduce Trollheim parses
+
+;let only the simple pp-mod-rule apply -db jan05
+
+;pp-mod-vp-rule := pp-mod-vp-phrase.
+
+telic-pp-mod-vp-rule := telic-pp-mod-vp-phrase.
+telic-pp-mod-vp-comma-rule := telic-pp-mod-vp-comma-phrase.
+;atelic-pp-mod-vp-rule := atelic-pp-mod-vp-phrase.
+atelic-pp-mod-vp-nonfixptdir-rule := atelic-pp-mod-vp-nonfixptdir-phrase.
+atelic-pp-mod-vp-index-sit-rule := atelic-pp-mod-vp-index-sit-phrase.
+atelic-pp-mod-vp-comma-rule := atelic-pp-mod-vp-comma-phrase.
+
+pp-mod-derivadj-rule := pp-mod-derivadj-phrase.
+
+period-mod-for-v-rule := period-mod-for-v-phrase.
+
+;free-subjpred-rule := free-subjpred-phrase.
+;free-objpred-rule := free-objpred-phrase.
+#|
+; commented out just to reduce parses
+free-subjpred-som-rule := free-subjpred-som-phrase.
+free-objpred-som-rule := free-objpred-som-phrase.
+free-subjpred-front-rule := free-subjpred-front-phrase.
+;free-objpred-front-rule := free-objpred-front-phrase.
+free-subjpred-som-front-rule := free-subjpred-som-front-phrase.
+;free-objpred-som-front-rule := free-objpred-som-front-phrase.
+|#
+; seems equivalent to 'atelic-pp-mod-vp-index-sit-rule':
+;pp-freerel-mod-vp-rule := pp-freerel-mod-vp-phrase.
+
+; Dec 05: out, but not sure if perhaps needed
+;atelic-pp-mod-vp-2-rule := atelic-pp-mod-vp-2-phrase.
+;telic-pp-mod-vp-2-rule := telic-pp-mod-vp-2-phrase.
+
+;pp-mod-vp-unique-rule := pp-mod-vp-phrase-unique.
+;telic-pp-mod-vp2-rule := telic-pp-mod-vp-phrase2.
+;atelic-pp-mod-vp2-rule := atelic-pp-mod-vp-phrase2.
+
+telic-adv-mod-vp-rule := telic-adv-mod-vp-phrase.
+telic-adv-mod-vp-comma-rule := telic-adv-mod-vp-comma-phrase.
+;atelic-adv-mod-vp-rule := atelic-adv-mod-vp-phrase.
+atelic-adv-mod-vp-nonfixptdir-rule := atelic-adv-mod-vp-nonfixptdir-phrase.
+atelic-adv-mod-vp-comma-rule := atelic-adv-mod-vp-comma-phrase.
+atelic-adv-mod-vp-index-sit-rule := atelic-adv-mod-vp-index-sit-phrase.
+
+;atelic-front-adv-mod-vp-rule := atelic-front-adv-mod-vp-phrase.
+telic-front-adv-mod-vp-rule := telic-front-adv-mod-vp-phrase.
+atelic-front-adv-mod-vp-nonfixptdir-rule := atelic-front-adv-mod-vp-nonfixptdir-phrase.
+atelic-front-adv-mod-vp-index-sit-rule := atelic-front-adv-mod-vp-index-sit-phrase.
+np-front-mod-vp-rule := np-front-mod-vp-phrase.
+;atelic-interr-front-adv-mod-vp-rule := atelic-interr-front-adv-mod-vp-phrase.
+atelic-interr-front-adv-mod-vp-nonfixptdir-rule := atelic-interr-front-adv-mod-vp-nonfixptdir-phrase.
+atelic-interr-front-adv-mod-vp-index-sit-rule := atelic-interr-front-adv-mod-vp-index-sit-phrase.
+telic-interr-front-adv-mod-vp-rule := telic-interr-front-adv-mod-vp-phrase.
+
+atelic-front-pp-mod-vp-nonfixptdir-rule := atelic-front-pp-mod-vp-nonfixptdir-phrase.
+atelic-front-pp-mod-vp-index-sit-rule := atelic-front-pp-mod-vp-index-sit-phrase.
+telic-front-pp-mod-vp-rule := telic-front-pp-mod-vp-phrase.
+
+adv-interr-mod-front-subordcl-rule := adv-interr-mod-front-subordcl-phrase.
+
+; wait with these until mechanism for percol WH+ from NP up to PP
+#|
+atelic-interr-front-pp-mod-vp-nonfixptdir-rule := atelic-interr-front-pp-mod-vp-nonfixptdir-phrase.
+atelic-interr-front-pp-mod-vp-index-sit-rule := atelic-interr-front-pp-mod-vp-index-sit-phrase.
+telic-interr-front-pp-mod-vp-rule := telic-interr-front-pp-mod-vp-phrase.
+|#
+
+;adv-mod-vp-unique-rule := adv-mod-vp-phrase-unique.
+;telic-adv-mod-vp2-rule := telic-adv-mod-vp-phrase2.
+;atelic-adv-mod-vp2-rule := atelic-adv-mod-vp-phrase2.
+
+telfix-pathtelic-pp-mod-vp-rule := telfix-pathtelic-pp-mod-vp-phrase.
+telfix-path-atelic-pp-mod-vp-rule := telfix-path-atelic-pp-mod-vp-phrase.
+telfix-delim-pp-mod-vp-rule := telfix-delim-pp-mod-vp-phrase.
+telfix-nondelim-pp-mod-vp-rule := telfix-nondelim-pp-mod-vp-phrase.
+
+#|
+np-mod-vp-time-rule := np-mod-vp-time-phrase.
+quantnp-mod-vp-time-rule := quantnp-mod-vp-time-phrase.
+np-mod-vp-length-rule := np-mod-vp-length-phrase.
+|#
+
+;correlative-inv-rule := correlative-inv-phrase.
+;correlative-inv-comma-rule := correlative-inv-comma-phrase.
+
+comma-leftmod-for-v-rule := comma-leftmod-for-v-phrase.
+comma-leftmod-for-ndir-rule := comma-leftmod-for-ndir-phrase.
+comma-rightmod-for-v-rule := comma-rightmod-for-v-phrase.
+comma-rightmod-for-inv-v-rule := comma-rightmod-for-inv-v-phrase.
+comma-rightmod-for-interjct-v-rule := comma-rightmod-for-interjct-v-phrase.
+comma-rightmod-for-quotation-v-rule := comma-rightmod-for-quotation-v-phrase.
+;comma-rightmod-for-ndir-rule := comma-rightmod-for-ndir-phrase.
+
+#|
+; adding a comma to the right of a rel clause
+comma-rightmod-relsubj-som-rule := comma-rightmod-relsubj-som-phrase.
+comma-rightmod-relsubj-ø-rule := comma-rightmod-relsubj-ø-phrase.
+comma-rightmod-relcomp-som-rule := comma-rightmod-relcomp-som-phrase.
+; adding a comma to the left of a rel clause, making it nonrestr
+comma-leftmod-nonrestr-relcomp-phrase := comma-leftmod-nonrestr-relcomp-phrase.
+comma-leftmod-nonrestr-relsubj-phrase := comma-leftmod-nonrestr-relsubj-phrase.
+
+; adjoing a comma-surrounded relative clause to the noun
+comma-rightmod-relsubj-som-mod-rule := comma-rightmod-relsubj-som-mod-phrase.
+comma-rightmod-relsubj-ø-mod-rule := comma-rightmod-relsubj-ø-mod-phrase.
+comma-rightmod-relcomp-som-mod-rule := comma-rightmod-relcomp-som-mod-phrase.
+comma-rightmod-nonrestr-relcomp-mod-rule := comma-rightmod-nonrestr-relcomp-mod-phrase.
+comma-rightmod-nonrestr-relsubj-mod-rule := comma-rightmod-nonrestr-relsubj-mod-phrase.
+|#
+
+
+; adding a commas to the left and right of an apposition, making it nonrestr
+;comma-rightmod-apposition-rule := comma-rightmod-apposition-phrase.
+;comma-leftmod-nonrestr-apposition-rule := comma-leftmod-nonrestr-apposition-phrase.
+
+; adjoing a comma-surrounded apposition to the noun
+;rightmod-nonrestr-apposition-rule := rightmod-nonrestr-apposition-phrase.
+;rightmod-restr-apposition-rule := rightmod-restr-apposition-phrase.
+
+
+
+mcl-extracted-verbcomp-rule := mcl-extracted-verbcomp-phrase.
+
+non-mcl-extracted-verbcomp-rule := non-mcl-extracted-verbcomp-phrase.
+
+connect-mod-rule := connect-mod-phrase.
+; just for occasion
+;extracted-prepcomp-rule := extracted-prepcomp-phrase.
+;extracted-verbcomp-rule := extracted-verbcomp-phrase.
+extracted-event-prepcomp-rule := extracted-event-prepcomp-phrase.
+extracted-event-verbcomp-rule := extracted-event-verbcomp-phrase.
+extracted-prep-comp-rule := extracted-prep-comp-phrase.
+;extracted-verb-comp-rule := extracted-verb-comp-phrase.
+;extracted-subj-rule := extracted-subj-phrase.
+head-filler-n-topic-rule := head-filler-n-topic-phrase.
+head-filler-event-topic-rule := head-filler-event-topic-phrase.
+head-filler-wh-rule := head-filler-wh-phrase.
+head-filler-subord-wh-rule := head-filler-subord-wh-phrase.
+head-subjfiller-subord-wh-rule := head-subjfiller-subord-wh-phrase.
+;nom-of-head-subjfiller-subord-wh-rule := nom-of-head-subjfiller-subord-wh-phrase.
+
+#|
+comma-mod2-rule := comma-mod-phrase2.
+connect-mod2-rule := connect-mod-phrase2.
+comma-mod3-rule := comma-mod-phrase3.
+connect-mod3-rule := connect-mod-phrase3.
+comma-mod4-rule := comma-mod-phrase4.
+connect-mod4-rule := connect-mod-phrase4.
+|#
+
+#|
+;the rules are ok, but since the rel-clause part is not finished, the parse 
+;chart gets overpopulated
+;extracted-subj-rule := extracted-subj-phrase.
+|#
+
+
+rel-head-filler-rule := rel-head-filler-phrase.
+unary-fin-rel-head-filler-rule := unary-fin-rel-head-filler-phrase.
+unary-infin-rel-head-filler-rule := unary-infin-rel-head-filler-phrase.
+relative-extract-mod-rule := relative-extract-mod-phrase.
+bare-relative-extract-mod-rule := bare-relative-extract-mod-phrase.
+relative-subj-mod-rule := relative-subj-mod-phrase.
+head-relative-subject-rule := head-relative-subject-phrase.
+rel-vp-head-filler-rule := rel-vp-head-filler-phrase.
+vp-relative-subj-mod-rule := vp-relative-subj-mod-phrase.
+vp-relative-extract-mod-rule := vp-relative-extract-mod-phrase.
+
+
+selv-refl-rule := REAL-selv-refl-phrase.
+
+;non-headed-np-rule := non-headed-np-phrase.
+
+#|
+disc-firstsingdeveloper-rule := disc-firstsingdeveloper-phrase.
+disc-mediasresdeveloper-rule := disc-mediasresdeveloper-phrase.
+disc-presentdeveloper-rule := disc-presentdeveloper-phrase.
+disc-secondsingdeveloper-rule := disc-secondsingdeveloper-phrase.
+disc-secondpresdeveloper-rule := disc-secondpresdeveloper-phrase.
+disc-scenedeveloper-pres-rule := disc-scenedeveloper-pres-phrase.
+disc-scenedeveloper-reg-rule := disc-scenedeveloper-reg-phrase.
+disc-secondscenedeveloper-pron-rule := disc-secondscenedeveloper-pron-phrase.
+disc-secondscenedeveloper-reg-rule := disc-secondscenedeveloper-reg-phrase.
+disc-secondscenedeveloper-mix-rule := disc-secondscenedeveloper-mix-phrase.
+disc-shortphr-subj-response-rule := disc-shortphr-subj-response-phrase.
+disc-shortphr-obj-response-rule := disc-shortphr-obj-response-phrase.
+;disc-shortphr-obl-response-rule := disc-shortphr-obl-response-phrase.
+disc-shortphr-auxembobj-response-rule := disc-shortphr-auxembobj-response-phrase.
+;disc-shortphr-auxembobl-response-rule := disc-shortphr-auxembobl-response-phrase.
+disc-shortaddedinfo-subj-rule := disc-shortaddedinfo-subj-phrase.
+disc-shortaddedinfo-obj-rule := disc-shortaddedinfo-obj-phrase.
+disc-shortaddedinfo-obl-rule := disc-shortaddedinfo-obl-phrase.
+disc-shortaddedinfo-auxembobj-rule := disc-shortaddedinfo-auxembobj-phrase.
+disc-shortaddedinfo-auxembobl-rule := disc-shortaddedinfo-auxembobl-phrase.
+|#
+
+
+
+left-parenthesis-rule := left-parenthesis-phrase.
+right-parenthesis-rule := right-parenthesis-phrase.
+parenthesis-mod-vp-rule := parenthesis-mod-vp-phrase.
+left-quote-rule := left-quote-phrase.
+right-quote-rule := right-quote-phrase.

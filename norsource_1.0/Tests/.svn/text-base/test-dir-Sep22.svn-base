@@ -1,0 +1,101 @@
+1 gutten her bak huset sover 2 90
+2 en gutt her bak huset sover 1 123
+3 gutt her bak huset sover 2 106
+4 gutter her bak huset sover 2 124
+5 noen gutter her bak huset sover 1 143
+6 gutten her nede sover 2 57
+7 en gutt her nede sover 2 89
+8 gutt her nede sover 2 73
+9 gutter her nede sover 2 91
+10 noen gutter her nede sover 2 109
+11 veien bortover langs elven går her 1 151
+12 en vei bortover langs elven går her 2 206
+13 vei bortover langs elven går her 1 167
+14 veier bortover langs elven går her 1 220
+15 noen veier bortover langs elven går her 2 259
+16 veien opp til fjellet går her 1 121
+17 en vei opp til fjellet går her 2 177
+18 vei opp til fjellet går her 1 137
+19 veier opp til fjellet går her 1 196
+20 noen veier opp til fjellet går her 2 236
+21 veien opp hit går her 1 76
+22 en vei opp hit går her 2 127
+23 vei opp hit går her 1 92
+24 veier opp hit går her 1 131
+25 noen veier opp hit går her 2 166
+26 jeg går opp til fjellet 1 104
+27 jeg går opp hit 1 69
+28 jeg går nedover langs elven 1 160
+29 jeg sover her nede 2 61
+30 jeg går opp, til fjellet 1 141
+31 jeg går opp, hit 1 99
+32 jeg går nedover, langs elven 1 172
+33 jeg sover her, nede 1 77
+34 opp til fjellet går jeg ikke 2 111
+35 opp hit går jeg ikke 2 80
+36 nedover langs elven går jeg ikke 2 145
+37 her nede sover jeg ikke 2 78
+38 her i skogen sover jeg ikke 2 110
+39 jeg har her nede sovet i tre timer 2 471
+40 jeg har her i skogen sovet i tre timer 2 487
+41 på tur har jeg her nede sovet i tre timer 2 625
+42 på tur har jeg her i skogen sovet i tre timer 2 599
+43 hun vet at jeg her nede har sovet i tre timer 4 639
+44 hun vet at jeg her i skogen har sovet i tre timer 4 695
+45 gutten rusler mot fjellet langs elva 1 151
+46 gutter rusler mot fjellet, langs elva 1 207
+47 gutten rusler til fjellet langs elva 1 148
+48 gutten rusler til fjellet, langs elva 1 171
+49 gutten rusler langs elva mot fjellet 1 150
+50 gutten rusler langs elva, mot fjellet 2 186
+51 gutten rusler oppover langs elva 1 121
+52 gutten rusler oppover langs elva til fjellet på to timer 1 364
+53 gutten rusler ned langs elva 1 128
+54 gutten rusler nedover langs elva i tre timer 1 267
+55 gutten løper hit 1 62
+56 gutten løper dit 1 68
+57 gutten løper hit ned 1 81
+58 gutten løper hit ned til skogen 2 133
+59 gutten løper hit på to timer 1 257
+60 gutten løper hit i to timer 0 194
+61 gutten løper her 1 74
+62 gutten løper der 1 91
+63 gutten løper her nede 2 147
+64 gutten løper her nede i skogen 6 400
+65 gutten løper her på to timer 1 352
+66 gutten løper her i to timer 1 311
+67 gutten spiser koteletten på to timer 1 283
+68 jeg spiser koteletten i to timer 1 231
+69 jeg spiser koteletter på to minutter 1 322
+70 jeg spiser koteletter i to timer 1 277
+71 jeg spiser koteletter på to minutter i to dager 0 445
+72 gutten går når hunden løper 1 92
+73 gutten går før hunden løper 1 117
+74 gutten går inntil hunden løper 1 81
+75 mannen går langs elven før gutten kommer til skogen 2 298
+76 veien begynner der stien slutter 1 109
+77 veien begynner når stien slutter 1 92
+78 mannen går langs elven til skogen på to timer 1 387
+79 mannen går langs elven, over brua og til skogen på to timer 2 744
+80 gutten løper nedover forbi brua, langs elven, og videre gjennom skogen til fjellet 5 494
+81 turen går over fjellet 2 96
+82 turen går på bro over elva 4 318
+83 turen går på bro over bekken og på bro over elva 256 7335
+84 turen går videre i myret terreng 4 272
+85 turen går opp gjennom lia til fjellet 1 156
+86 turen går videre i myret terreng opp gjennom lia 3 356
+87 turen går over myrer 4 186
+88 turen går inn gjennom skaret 1 101
+89 turen går inn gjennom skaret mellom elva og fjellet 3 201
+90 turen går over myrer og inn gjennom skaret mellom elva og fjellet 48 695
+91 ruta til Gjevilvasshytta går opp til skogen ved foten av fjellet 4 674
+92 de spiller fra fem til syv 4 235
+93 de spiller om ettermiddagen 1 98
+94 de spiller til midnatt 1 113
+95 de snakker om Ola til midnatt 1 196
+
+;;; Total CPU time: 81930 msecs
+
+;;; Mean edges: 289.02
+
+;;; Mean parses: 4.83

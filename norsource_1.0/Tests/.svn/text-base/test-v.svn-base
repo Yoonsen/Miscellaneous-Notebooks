@@ -1,0 +1,603 @@
+;;; -*- Coding: utf-8; -*-
+
+;; Uses lex1.close.tdl and lex2.open.tdl
+;; from lex4 come in a wrong "peke" (109) and a wrong "sette" (70) - to be
+;; cleared away. also "hoppe" (52) to be constrained
+;
+;; v-intr := intrans-arg1-verb-lexeme
+gutten sover
+; 'the boy sleeps'
+;
+;; v-intrPath-suDir := intrans-arg1dir-verb-lexeme
+gutten rusler mot skogen
+; 'the boy strolls towards the forest'
+;
+;; v-intrObl := intrans-obl-verb-lexeme (cf. comments at 'prep-clause-word' in norsk.tdl)
+;;;; om, på: prep-word-sel
+jeg snakker om fjellet
+; 'I talk about the mountain'
+jeg stoler på gutten
+; 'I rely on the boy'
+;
+;;;; om: prep-clause-word
+;;;;; head-prep-compclause-comp-rule
+jeg snakker om at du kommer
+; I talk about that you come
+;
+jeg snakker om hvorvidt du kommer
+; I talk about whether you come
+;
+jeg snakker om hvem som kommer
+;     I talk about who that comes
+;    'I talk about who comes'
+;
+jeg stoler på at du kommer
+; I rely on that you come
+;*
+*jeg stoler på hvorvidt du kommer
+; I rely on whether you come
+;*
+*jeg stoler på hvem som kommer
+; I rely on who that comes
+;
+;; intrans-indirwhquest-pp-verb-lexeme
+;;;; på: prep-indirwhquest-word; head-prep-indirwhquestclause-comp-rule
+;;;; head-verb-prepindirwhquest-comp-rule
+Jon lurer på hva som skjer
+;  Jon wonders on what that happens
+;  'Jon wonders what happens'
+;
+Jon lurer på hvorvidt du kommer
+;  Jon wonders on whether you come
+; 'Jon wonders whether you come'
+;
+;*
+*Jon lurer på at du kommer
+;  Jon wonders on that you come
+;
+;; intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme
+gutten virker syk
+; the boy seems sick
+
+;; intrans-secpred-prtcl1-rais-from-nonverbal-arg1-verb-lexeme
+;;;; ut: adv-particle-word; head-verb-advparticle-comp-rule
+;;;; head-verb-adj-comp-rule
+han høres syk ut
+; he sounds sick out
+; 'he sounds sick'
+
+;; intrans-secpred-rais-from-nonverbal-arg1-verb-lexeme 
+;;;; til: prep-rais-word; head-prep-rais-comp-rule
+;;;; head-verb-preprais-comp-rule
+Ola later til å komme
+;   Ola appears to-PREP to-INFMARK come-INF
+;  'Ola appears to be coming'
+
+det later til å komme to gutter
+; there appears to-PREP to-INFMARK come-INF two boys
+;  'there appear to be two boys coming'
+
+;*
+*det later til å komme gutten
+; there appears to-PREP to-INFMARK come-INF the boy
+;  'there appears to be the boy coming'
+
+;;;; til: prep-expl-dep-word; head-prep-rais-comp-rule; head-verb-prep-comp-rule
+;;;; at: decl-subord-comp; head-complementizer-comp-rule
+det later til at gutten kommer
+; it appears to-PREP that comes the boy
+;  'it appears that the boy comes'
+
+;; intrans-secpred-prtcl2-rais-from-nonverbal-arg1-verb-lexeme
+;;;; til: prep-rais-word; head-prep-rais-comp-rule; head-verb-prep-comp-rule
+;;;; ut: adv-particle-word; head-verb-advparticle-comp-rule
+;;;; å: inf-comp; head-complementizer-comp-rule
+gutten ser ut til å komme
+;  boy-DEF look-PRES out to-PREP to-INFMARK come-INF
+;   'the boy looks as if he is coming'
+
+det ser ut til å komme to gutter
+; there  looks out to-PREP to-INFMARK come-INF two boys
+;   'there looks as if there are two boys coming'
+;*
+*det ser ut til å komme gutten
+
+;;;; til: prep-expl-dep-word; head-prep-rais-comp-rule; head-verb-prep-comp-rule
+;;;; ut: adv-particle-word; head-verb-advparticle-comp-rule
+;;;; at: decl-subord-comp; head-complementizer-comp-rule
+det ser ut til at gutten kommer
+;
+;;;; som: prep-expl-dep-word; head-prep-rais-comp-rule; head-verb-prep-comp-rule
+;;;; ut: adv-particle-word; head-verb-advparticle-comp-rule
+;;;; om: y-n-quest-subord-comp; head-complementizer-comp-rule
+det ser ut som om gutten kommer
+det ser ut som gutten kommer
+; there looks out as the boy comes
+; 'it looks as if the boy is coming'
+;
+;;;; som: prep-expl-dep-word; head-prep-rais-comp-rule; head-verb-prep-comp-rule
+;;;; ut: adv-particle-word; head-verb-advparticle-comp-rule
+;;;; at: decl-subord-comp; head-complementizer-comp-rule
+det ser ut som at gutten kommer 
+; it looks out as that the boy comes
+; 'it looks as the boy is coming'
+;
+;; intrans-secpred-argx-verb-lexeme
+kjelen koker varm
+; 'the kettle boils warm'
+
+;; intrans-telicparticle-arg1-verb-lexeme
+kaffen koker bort
+; 'the koffee boils away'
+
+;; intrans-telicparticle-arg1-verb-lexeme
+kaffen koker opp
+; 'the koffee boils away'
+
+;; intrans-secpred-rais-from-verbal-arg1-verb-lexeme (Swedish)
+han forefaller komme
+; he seems come
+
+;; intrans-secpred-rais-from-infinmarked-arg1-verb-lexeme
+han synes å komme
+; he seems to come
+
+;; trans-secpred-rais-from-adj-or-som-arg1-verb-lexeme
+han foresvever meg som syk
+; he occurs me as sick'
+
+han forekommer meg syk
+; he occurs me sick'
+
+;; epistemic-modal-verb-lexeme
+han kan komme
+; he can come
+
+;; root-modal-verb-lexeme
+jeg vil komme
+; I will come
+
+;; aux-perf-verb-lexeme
+hun har kommet
+; she has come
+
+;; subj-equi-verb-lexeme
+hun prøver å komme
+; she tries to come
+
+;; subj-equi-pp-verb-lexeme
+;;;; om: prep-rais-word; head-prep-rais-comp-rule
+;;;; head-verb-preprais-comp-rule
+jeg ber om å komme
+; I ask about-PREP to-INF come
+; 'I request to come'
+
+;; trans-arg1-2dir-verb-lexeme 
+hun kaster ballen ut
+; she throws the ball out
+
+;; trans-arg1-2-verb-lexeme 
+hun fortærer maten
+; she devours the food
+
+;; trans-arg1-2refl-verb-lexeme
+han vasker seg
+; he washes REFL
+; 'he washes'
+
+;; subj-equi-doublobj-verb-lexeme
+jeg lover Ola å komme
+; I promise Ola to-INF come
+
+;; obj-equi-verb-lexeme
+jeg tillater Ola å komme
+; I allow Ola to-INF come
+
+;; obj-equi-refl-verb-lexeme
+hun tillater seg å komme
+; she allows REFL to come
+
+;; obj-equi-bare-verb-lexeme
+jeg ber Ola komme
+; I ask Ola come
+; 'I ask Ola to come'
+
+;; obj-equi-pp-verb-lexeme
+jeg anmoder Ola om å komme
+; I request Ola about-PREP to-INF come
+; 'I request Ola to come'
+
+;; obj-equi-pp-refl-verb-lexeme
+han forplikter seg til å komme
+; he commits REFL to-PREP to-INF come
+; 'he commits himself to come'
+
+;; trans-secpred-rais-from-verbal-arg2-verb-lexeme
+jeg ser Ola komme
+; I see Ola come
+
+jeg ser det komme to gutter
+; I see there come two boys
+
+;; trans-secpred-rais-refl-from-verbal-arg2-verb-lexeme
+han følte seg sove
+; he felt REFL sleep
+; 'he felt himself sleeping'
+
+;; trans-secpred-rais-from-infinmarked-arg1-verb-lexeme
+jeg forekommer Ola å være syk
+; I appear Ola to-INF be sick
+; 'I appear to Ola to be sick'
+
+;; trans-secpred-rais-refl-tosubj-from-infinmarked-arg1-verb-lexeme
+Ola viser seg å være syk
+; 'Ola shows REFL to be sick'
+; 'Ola turns out to be sick'
+
+det forekommer Ola å rusle to gutter
+; there appear Ola to-INF stroll two boys
+; 'there appear to Ola to be two boys strolling'
+
+;; trans-secpred-rais-from-nonverbal-arg2-verb-lexeme
+;;;; for: som-or-for-comp; head-complementizer-comp-rule;
+;;;; head-verb-inf-or-s-comp-rule
+jeg anser Ola for å være syk
+; I regard Ola for-PREP to-INF be sick
+; 'I regard Ola as being sick'
+
+jeg anser det for å komme mange gutter
+; I regard there for-PREP to-INF come many boys
+; 'I regard there as coming many boys'
+
+;;;; som: som-adj-pred-comp; head-complementizer-adj-or-prep-rule;
+;;;; head-verb-som-comp-rule
+jeg anser Ola som syk
+; I regard Ola as sick
+
+;;;; som: som-n-pred-comp; head-complementizer-noun-rule;
+;;;; head-verb-som-comp-rule
+jeg anser Ola som min venn
+; I regard Ola as my friend
+
+;; trans-secpred-rais-refl-from-nonverbal-arg2-verb-lexeme
+han anser seg syk
+; she regards REFL sick
+; 'she regards herself as sick'
+
+hun anser seg som syk
+; she regards REFL as sick
+; 'she regards herself as sick'
+
+hun anser seg for å være syk
+; she regards REFL for-PREP to-PREP be sick
+; 'she regards herself as being sick'
+
+;;;; som: som-n-pred-comp; head-complementizer-noun-rule;
+;;;; head-verb-som-comp-rule
+hun anser seg som Olas venn
+; she regards REFL as Ola's friend
+; 'she regards herself as Ola's friend'
+
+
+;; trans-secpred-rais-from-nominal-arg2-verb-lexeme
+hun kaller Ola en venn
+; she calls Ola a friend
+
+;; trans-secpred-rais-refl-from-nominal-arg2-verb-lexeme
+hun kaller seg en venn
+; she calls REFL a friend
+
+;; trans-secpred-arg1-x-verb-lexeme
+hun hopper skoene flate
+; she jumps the shoes flat
+
+;; trans-secpred-arg1-x-refl-verb-lexeme
+hun løper seg lykkelig
+; she runs REFL happy
+; 'she runs herself happy'
+
+;; trans-secpred-arg1-2-x-verb-lexeme
+jeg sparker ballen flat
+; I kick the ball flat
+
+;; trans-secpred-arg1-2-x-refl-verb-lexeme
+han pisker seg syk
+; he whips REFL sick
+; 'he whips himself sick'
+
+;; trans-indirwhquest-verb-lexeme
+jeg vet hvorvidt han kommer
+; I know whether he comes
+
+;; trans-subord-verb-lexeme
+jeg vet at han kommer
+; I know that he comes
+jeg håper at han kommer
+; I hope that he comes
+
+;; ditrans-arg1-2-3-verb-lexeme
+jeg overlater Ola litt vin
+; I "give" Ola some wine
+
+;; ditrans-arg1-2-3refl-verb-lexeme
+hun unner seg litt vin
+; she "gives" herself some wine
+
+;; ditrans-subord-verb-lexeme
+jeg viser Ola at du er syk
+; I show Ola that you are sick
+
+;; ditrans-indirwhquest-verb-lexeme
+instrumentet viser Ola hvorvidt du er syk
+; the instrument shows Ola whether you are sick
+
+;; ditrans-refl-subord-verb-lexeme
+hun forestiller seg at du er syk
+; she imagines REFL that you are sick
+; 'she imagines that you are sick'
+
+;; impersonal-presentational-verb-lexeme
+det regner
+; it rains
+
+;; impersonal-presentational-telicparticle-verb-lexeme
+det klarner opp
+; it clears up
+
+;; subject-presentational-verb-lexeme
+det sitter to gutter her
+; there sit two boys here
+
+;; subject-dir-presentational-verb-lexeme
+det løper to gutter mot skogen
+; there run two boys towards the forest
+
+;; io-presentational-verb-lexeme
+det tilkommer Ola penger
+; there "to-comes" Ola money
+; 'there comes money to Ola'
+
+det venter Ola en ulykke
+; there awaits Ola an accident
+
+;; subject-presentational-refl-verb-lexeme
+det setter seg to gutter
+; there set REFL two boys
+; 'there sit down two boys'
+
+;; io-epon-verb-lexeme
+det foresvever Ola at du er frisk
+; it seems Ola that you are healthy
+
+;; io-refl-epon-verb-lexeme
+det viser seg at du er frisk
+; it shows REFL that you are healthy
+; 'it turns out that you are healthy'
+
+;; epon-verb-lexeme
+det hender at han kommer
+; it happens that he comes
+
+;; epon-indirwhquest-verb-lexeme
+;;;;;;; 'spørs' can be either pres or past, therefore two parses
+det spørs om han kommer
+; it "questions" if he comes
+; 'it is a question if he comes'
+
+;; copula-standard-verb-lexeme
+hun er frisk
+; she is healthy
+
+;; copula-loc-verb-lexeme
+;;;; head-cop-prepadv-comp-rule
+hun er i Finnmark
+; she is in Finnmark
+
+hun er her
+; she is here
+
+;; copula-standard-abs-verb-lexeme
+det er fint i Finnmark
+; it is nice in Finnmark
+
+;; copula-standard-abs-verb-lexeme
+;;;; fint: abs-adj-epon-decl-lxm
+det er fint at du kommer
+; it is nice that you come
+det er fint å være frisk
+; it is nice to be healthy
+;*
+det er fint hvorvidt du kommer
+; it is nice whether you come
+
+;;;; uvisst: abs-adj-epon-quest-lxm
+;*
+det er uvisst at du kommer
+; it is uncertain that you come
+
+;*
+det er uvisst å være frisk
+; it is uncertain to be healthy
+
+det er uvisst hvorvidt du kommer
+; it is uncertain whether you come
+
+;; copula-adj-abs-with-nonepon-decl-verb-lexeme
+;;;; fint: abs-adj-nonepon-decl-lxm
+at du kommer er fint
+; that you come is nice
+å være frisk er fint
+; to be healthy is nice
+;*
+hvorvidt du kommer er fint
+; whether you come is nice
+
+;; copula-adj-abs-with-nonepon-quest-verb-lexeme
+;;;; uvisst: abs-adj-nonepon-quest-lxm
+;*
+at du kommer er uvisst
+; that you come is uncertain
+
+;*
+å være frisk er uvisst
+; to be healthy is uncertain
+
+hvorvidt du kommer er uvisst
+; whether you come is uncertain
+
+;; copula-nom-verb-lexeme
+han er en gutt
+; he is a boy
+
+han er mannen
+; he is the man
+
+;; copula-clause-verb-lexeme
+årsaken er at han kommer
+; the reason is that he comes
+
+;; copula-indirwhquest-verb-lexeme
+spørsmålet er hvorvidt han kommer
+; the question is whether he comes
+
+spørsmålet er hva han spiser
+; the question is what he eats
+
+;; trans-pp-arg1-detached-poss-verb-lexeme
+jeg skrubber Ola på ryggen
+; I scrub Ola on the back
+; 'I scrub Ola on his the back'
+
+;; trans-pp-arg1-detached-poss-refl-verb-lexeme
+Ola klør seg på ryggen
+; Ola scratches REFL on the back
+
+;; ditrans-pp-arg1-2-detached-poss-verb-lexeme
+jeg kyler Ola to baller i ryggen
+; I throw Ola two balls in the back
+; 'I throw two balls in the back of Ola'
+
+;; intrans-obl-refl-verb-lexeme
+Ola leer på seg
+; Ola moves on REFL
+; 'Ola moves [a little]'
+
+;; trans-ppshift-verb-lexeme
+;;;; i: prep-word-reg
+;;;; jafser||i seg: head-verb-prepsit-comp-rule
+Ola jafser i seg maten
+; Ola gobbles in REFL the food
+; 'Ola gobbles the food into him'
+
+;; trans-particleshift-verb-lexeme
+jeg lemper ut Ola
+; I throw out Ola
+
+;; trans-refl-obl-verb-lexeme
+Ola allierer seg med gutten
+; Ola allies himself with the boy
+
+Ola velter seg i penger
+
+;; impersonal-presentational-obl-verb-lexeme
+det kvekker i Ola
+; it startles in Ola
+; 'Ola startles'
+
+;;trans-obl-verb-lexeme
+jeg sammenligner Ola med gutten
+; i compare Ola with the boy
+
+;; trans-refl-dir-verb-lexeme
+Ola karer seg bort
+; Ola gets REFL away
+
+;; trans-secpred-som-rais-refl-from-nonverbal-arg2-verb-lexeme
+;;;; som: som-n-pred-comp; head-complementizer-noun-rule; head-verb-som-comp-rule
+Ola viser seg som venn
+; Ola shows REFL as friend
+; 'Ola shows himself as a friend'
+
+;; intrans-secpred-som-arg1-x-verb-lexeme
+Ola stiller som forsvarer
+; Ola poses as defender
+
+;; trans-telicparticle-arg1-x-refl-verb-lexeme
+;;;; head-verb-advparticle-comp-rule
+Ola fiffer seg opp
+; Ola shines REFL up
+; 'Ola shines himself up'
+
+;; intrans-obladv-verb-lexeme
+Ola fungerer godt
+; Ola functions well
+
+;; trans-refl-obladv-verb-lexeme
+Ola oppfører seg pent
+; Ola behaves REFL nicely
+; 'Ola behaves nicely'
+
+;; intrans-atel-obl-verb-lexeme
+;;;; på: prep-atelic-word; head-verb-icomp-rule
+Ola spiser på maten
+; Ola eats on the food
+; 'Ola eats of the food'
+
+;; intrans-arg1-atelic-verb-lexeme
+Ola driver 
+Ola driver og spiser maten
+; Ola drives and eats the food
+; 'Ola keeps eating the food'
+
+;; intrans-atelicparticle-arg1-verb-lexeme
+;;;; på: adv-particle-word - KEYS.KEY på-pcl
+;;;;; driver|| på: head-verb-advpartivle-comp-rule
+Ola driver på 
+Ola driver på og spiser maten
+; Ola drives on-ADV and eats the food
+; 'Ola keeps on eating the food'
+
+;; subj-equi-pp-atelic-verb-lexeme
+;;;; med: prep-rais-word - KEYS.KEY med-rais
+;;;;; med|| å spise: head-prep-rais-comp-rule
+Ola driver med å spise maten
+; Ola drives with-PREP to-INF eat the food
+; 'Ola is engaged in eating the food'
+
+;; subj-prtcl-equi-pp-atelic-verb-lexeme
+;;;; på: adv-particle-word - KEYS.KEY på-pcl
+;;;; med: prep-rais-word - KEYS.KEY med-rais
+;;;;; driver|| på: head-verb-advpartivle-comp-rule
+;;;;; driver på|| med å spise: head-verb-preprais-comp-rule
+Ola driver på med å spise maten
+; Ola drives on-ADV with-PREP to-INF eat the food
+; 'Ola is engaged in eating the food'
+
+;; intrans-arg1orient-verb-lexeme
+pilen peker mot fjellet
+; the arrow points towards the mountain
+
+;; trans-arg1dir-2length-verb-lexeme
+gutten går to kilometer vestover
+; the boy walks two kilometers westwards
+
+;; trans-arg1dir-2-verb-lexeme
+gutten vil ta stien mot fjellet
+; the boy will take the path towards the mountain
+
+;Ola regner ut hva svaret blir
+; Ola calculates out-ADV what the answer becomes
+
+;; example of multi-entries for a verb - not ready
+;Ola finner ut hva svaret blir
+;Ola finner ut hvorvidt vi kommer
+;Ola finner på å komme
+;Ola finner på et svar
+;Ola finner opp et stoff
+;Ola vil finne svaret
+;Ola finner seg et hus
+;Ola vil finne bilen god
+;Ola finner seg i å stå
+;Ola finner seg i svaret
+;svaret finnes
+

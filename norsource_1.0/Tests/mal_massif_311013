@@ -1,0 +1,1971 @@
+1 det regner  5 431
+2 det klarner opp  2 229
+3 det kvekker i Ola  6 562
+4 det sprekker i glasset 104 855
+5 det synger i fjellene 12 1835
+6 det løper en mann 104 1052
+7 det ruller en ball 782 4494
+8 det løper en mann hit 10 1220
+9 det kommer en mann hit 2 769
+10 det løper to gutter mot skogen 43 1322
+11 det ruller en ball hit 840 8780
+12 det smyger seg en mann 2 722
+13 det smyger seg en mann hit 2 822
+14 det smetter en katt ut 70 1197
+15 det smetter ut en katt 242 1566
+16 det kommer hit en mann 2 546
+17 det sniker seg en mann ut 2 1592
+18 det sniker seg ut en mann 2 2228
+19 det sniker seg en mann hit 2 1540
+20 det sniker seg ut en mann 2 2228
+21 det sitter en mann i stolen 28 1535
+22 det sitter en mann her 10 904
+23 det oppholder seg en gutt i hagen 2 2668
+24 det setter seg en gutt her 4 2710
+25 det setter seg en gutt 2 2533
+26 det venter ham en ulykke 18 899
+27 det tilkommer ham hundre kroner 10 529
+28 gutten hopper 4 201
+29 gutten sover 1 130
+30 regnværet varer ved 3 196
+31 Ola stopper opp 6 278
+32 regnværet holder opp 6 490
+33 gutten lytter 2 94
+34 isen smelter 3 185
+35 gutten fryser 4 299
+36 gutten løper 3 182
+37 ballen ruller 8 338
+38 pilen peker mot nord 4 533
+39 veien går mot nord 3 639
+40 turen går mot nord 3 637
+41 gutten rusler mot skogen 1 294
+42 gutten lister seg 4 465
+43 gutten lister seg ut 7 861
+44 at han sover hender 6 357
+45 hvorvidt han kommer spørs 6 449
+46 hvem som kommer spørs 2 452
+47 å motta penger for politiske verv stinker 34 2359
+48 jeg snakker om fjellet 5 837
+49 jeg stoler på gutten 4 446
+50 jeg snakker om Ola 5 859
+51 hun bor i Finnmark 7 612
+52 Hamningberg ligger i Finnmark 4 347
+53 Ola tygger på eplet 10 651
+54 hun spiser av eplet 4 815
+55 hun leser i boken 9 856
+56 Ola rører på statuen  19 1182
+57 Ola leer på seg 12 891
+58 jeg fryser på ryggen 19 1176
+59 han sølte på duken 3 920
+60 han kledde på gutten 11 1102
+61 han sølte på seg 6 1586
+62 han kledde på seg 42 2400
+63 jeg snakker om at du kommer 4 1157
+64 jeg stoler på at du kommer 4 753
+65 dette beror på at du kommer 2 1230
+66 dette avhenger av at du kommer 6 1123
+67 Jon lurer på hvorvidt du kommer 8 1027
+68 jeg snakker om hvorvidt du kommer 8 1239
+69 Jon lurer på hva som skjer 11 1307
+70 de lurer på hvem som kommer 9 1628
+71 jeg ber om å komme 4 1415
+72 han håper på å komme  2 823
+73 katten driver med å fortære maten 8 897
+74 Ola driver med å skrive 27 1829
+75 ulven driver på med å fortære maten 5 1414
+76 Ola driver på med å skrive 16 2727
+77 de snakker om å reise til Trondheim 205 5504
+78 han later til å komme 1 1042
+79 han kommer til å sove 1 782
+80 det later til å komme to gutter 1 1494
+81 at han kom beror på Ola 28 3581
+82 om han kommer avhenger av Ola 26 1408
+83 hvem som kommer avhenger av Ola 2 1509
+84 at han kom beror på at Ola vant 30 6860
+85 om han kommer beror på om Ola vinner 334 12587
+86 hvem som kommer beror på om Ola vinner 14 13882
+87 om han kommer beror på hvem som vinner 526 12731
+88 hvem som kommer beror på hvem som vinner 10 11692
+89 han ser ut til å komme 1 1812
+90 gutten ser ut til å komme 1 1786
+91 det ser ut til å komme en gutt 8 2817
+92 det ser ut som om gutten kommer 44 6733
+93 det ser ut som gutten kommer 7 4182
+94 det ser ut som at gutten kommer  36 3951
+95 han ser ut som han kommer 4 2307
+96 han ser ut som om han kommer 40 6021
+97 han ser ut som Ola 24 3129
+98 han fungerer godt 3 269
+99 han kan komme 1 395
+100 jeg vil komme 1 388
+101 han må ut 1 88
+102 han har kommet 7 1329
+103 han ble skutt 2 284
+104 huset står tomt 4 817
+105 eiendommen ligger brakk 5 503
+106 gutten virker syk 2 555
+107 gutten synes et talent 198 12817
+108 gutten virker i orden 8 1046
+109 gutten virker som en feiging 23 2045
+110 han synes å komme 16 4570
+111 Ola viser seg å være syk 1 7054
+112 han viser seg å komme 1 3114
+113 stjernen lot seg se 56 3690
+114 de lot sangen synge 146 3985
+115 han fortoner seg syk 20 3122
+116 han forefaller komme 2 494
+117 han synes komme 16 5048
+118 gutten høres syk ut 12 1802
+119 gutten høres ut som en papegøye 105 7756
+120 koppen renner full 5 596
+121 kjelen koker tørr 20 917
+122 firmaet går fallitt  6 1301
+123 Ola stiller som forsvarer  26 1659
+124 gutten fremstår som mistenkt  1 192
+125 landsbyen snør ned 1 132
+126 kampen regnet bort 8 1011
+127 kjelen koker i stykker 58 1713
+128 skinken henger mør 9 769
+129 kaffen koker bort 18 757
+130 kaffen koker opp 13 512
+131 det hender at han kommer 2 949
+132 det viser seg at han kommer 10 4185
+133 det tar to timer å gå dit   61 5359
+134 det tar meg to timer å gå dit  43 4582
+135 det virker som om han kommer 258 5887
+136 det synes som om han kommer 0 7300
+137 det virker som han kommer 107 2223
+138 det synes som han kommer 12 9764
+139 han virker som om han kommer 12 2807
+140 han synes som om han kommer 0 6670
+141 han virker som han kommer 4 1200
+142 han synes som han kommer 18 7847
+143 det spørs om han kommer 8 4577
+144 det spørs hvorvidt han kommer 8 802
+145 det spørs hvem som kommer 4 890
+146 det hjelper å sette seg 2 8931
+147 det hører med at han kommer 22 2567
+148 det hører med å komme 14 2016
+149 det later til at han kommer  10 1617
+150 det haster med at han kommer 90 2798
+151 det haster med å rydde 75 2479
+152 det ser ut til at han kommer  36 3279
+153 det beror på deg at han vant  30 2455
+154 det avhenger av deg om han vil vinne  2 2622
+155 det beror på deg hvorvidt Ola vinner  7 1982
+156 det avhenger av deg hvem som vinner 6 2557
+157 det avhenger av hvem som sover hvem som smiler 37 4714
+158 det avhenger av hvorvidt Ola sover hvorvidt Kari smiler 16 1999
+159 det avhenger av hvorvidt Ola sover hvem som smiler 24 4248
+160 det avhenger av hvem som sover hvorvidt Kari smiler 6 2195
+161  Kari slår Ola 6 439
+162 Kari nevner Ola 3 251
+163 hun fortærer maten 1 103
+164 Kari spiser kaken 3 414
+165 Kari leser boken 3 371
+166 Kari ser Ola 4 649
+167 Kari skremmer Ola 3 201
+168 boken tilhører Ola 3 155
+169 boken skader Ola 3 187
+170 boken deprimerer Ola 3 117
+171 stenen veier 5 kg 6 466
+172 filmen varer 5 timer 3 340
+173 banen måler en kilometer 85 2333
+174 gutten går to kilometer 6 692
+175 hun sover en dyp søvn 4 1604
+176 hun skyter plastikkuler 1 528
+177 Kari vet svaret 26 964
+178 Kari vasker seg 3 545
+179 Kari skammer seg 1 402
+180 han kaster ballen 6 579
+181 Kari sender pakken 9 385
+182 Han famler seg frem 1 402
+183 han retter pilen mot nord 10 1546
+184 han tegner linjen mot venstre 61 1960
+185 Kari når toppen 3 243
+186 Kari passerer kirken 3 172
+187 stien når toppen 4 232
+188 stien passerer kirken 3 168
+189 Kari følger stien 3 213
+190 gutten ledsager presidenten 3 139
+191 gutten krysser demonstrasjonstoget 3 265
+192 streken skjærer linjen. 3 448
+193 streken følger linjen 3 215
+194 stien følger elven 3 209
+195 de legger turen mot nord 3 1964
+196 gutten tar stien mot fjellet 7 1758
+197 gutten tar bussen mot fjellet 7 1758
+198 Å bygge høyhus interesserer Kari 12 1219
+199 At jeg kommer forundrer Kari 4 546
+200 hvorvidt jeg kommer interesserer Kari 4 626
+201 hvem som kommer interesserer Kari 2 631
+202 Kari ser at Ola sover 1 752
+203 Kari vet at jeg kommer 1 384
+204 jeg vet hvorvidt han kommer 1 354
+205 jeg vet hvem som kommer 1 539
+206 jeg vet hvem han liker 1 475
+207 Kari undres hvorvidt jeg kommer 10 1270
+208 Kari undres hvem som kommer 10 1277
+209 Kari prøver å komme 1 1053
+210 Kari kan padle 1 223
+211 Kari vurderer å komme 1 579
+212 At han kommer antyder at hun kommer 8 993
+213 At han kommer indikerer hvorvidt hun kommer 4 867
+214 At han kommer indikerer hvem som sover 2 729
+215 om han kommer indikerer hvorvidt hun kommer 4 867
+216 om han kommer indikerer hvem som sover 6 849
+217 hvem som sover indikerer hvorvidt hun kommer 4 751
+218 hvem som sover indikerer hvem som kommer 2 738
+219 Kari dummet seg ut 14 1492
+220 Ola fiffer seg opp 11 536
+221 Kari fant ut hemmeligheten 3 700
+222 Kari fant ut hvorvidt jeg kommer 2 1049
+223 Ola regner ut hvorvidt du kommer 2 905
+224 Kari fant ut hvem som kommer 4 1246
+225 Kari fant ut om Ola kommer 25 2054
+226 Kari fant ut at Ola kommer 2 1093
+227 Ola regner ut hvem som kommer 3 962
+228 Kari fant på å komme 2 1386
+229 han forteller nyheten til Ola 11 1588
+230 jeg sammenligner Ola med gutten 3 562
+231 han allierer seg med gutten 1 904
+232 jeg skrubber Ola på ryggen 2 826
+233 jeg sparker Ola i baken 4 1540
+234 Ola klør seg på ryggen 18 1455
+235 han forteller Ola om at han kommer 6 2010
+236 han forteller Ola om hvorvidt han kommer 12 2156
+237 han forteller Ola om hvem som kommer 5 2360
+238 han ber meg om å få komme 35 5865
+239 jeg anmoder Ola om å komme 1 800
+240 han forplikter seg til å komme 5 2183
+241 vi forteller barna om å bygge høyhus 16 2582
+242 han forekommer meg syk 7 1365
+243 han synes meg syk 31 6120
+244 han synes ham syk 91 8026
+245 han synes meg en idiot 189 6629
+246 han synes meg i godt humør 0 8172
+247 han foresvever meg som syk 7 2783
+248 han synes meg som en idiot  0 7664
+249 Ola viser seg som venn 0 6642
+250 jeg forekommer Ola å være syk 1 3516
+251 han synes meg å komme 39 4932
+252 han forekommer meg å komme 6 1343
+253 det forekommer Ola å rusle to gutter 1 1006
+254 han synes meg komme  36 7017
+255 jeg formoder ham å være dyktig  34 7218
+256 jeg ser ham løpe 25 2328
+257 jeg ser det komme to gutter 4 3308
+258 han følte seg sove 5 2608
+259 han kjente seg sove 3 2369
+260 han anser Ola kvalifisert  12 1008
+261 han anser seg skikket  3 2103
+262 jeg anser Ola for å være syk 1 2669
+263 jeg anser Ola for å løpe vekk 1 1284
+264 jeg anser det for å komme mange gutter 0 7718
+265 jeg anser Ola som syk 1 912
+266 han oppfattet bilen som ny  144 3399
+267 jeg anser Ola som min venn 3 763
+268 hun viser seg som Olas venn 0 6625
+269 han oppfattet seg som syk  65 2752
+270 hun anser seg for å være syk 1 10488
+271 han anser seg syk 1 913
+272 hun kaller Ola en venn 12 1720
+273 hun kaller seg en venn 3 975
+274 han drakk kaffen varm  3 304
+275 han kjørte bilen i god stand 92 3533
+276 han kjørte bilen som firmabil 32 1991
+277 hun gjør skoene flate 3 872
+278 hun gjør meg i god form 8 2444
+279 hun gjorde det mulig at Ola fikk komme 0 8837
+280 hun setter skoene bak bordet 4 3385
+281 hun plasserer skoene bak bordet 4 1012
+282 hun bredde på Ola dynen 12 1176
+283 Ola jafser i seg maten 1 1304
+284 han sparket ballen bort 32 3462
+285 han sparket bort ballen 4 2574
+286 jeg sparker ballen flat 6 2151
+287 han sparket i stykker ballen 22 5472
+288 han sang rommet tomt 10 1712
+289 han sang det hyggelig 23 2692
+290 hun spylte det rent i rommet 0 8083
+291 han sang det mulig at Ola kommer 21 10426
+292 han spiser kjøleskapet tomt 12 843
+293 han løp seg sunn 7 1731
+294 han sang seg i god form  0 9122
+295 han karer seg bort 1 1008
+296 han sang sorgene bort  9 924
+297 han sang bort sorgene  1 967
+298 han oppfører seg pent 2 1431
+299 det foresvever Ola at du er frisk 7 2845
+300 det undrer meg at han kommer 4 909
+301 det interesserer meg hvorvidt han kommer 4 972
+302 det overrasker meg hvem som kommer 13 1001
+303 det viser seg at han kommer 10 4185
+304 det viser seg om han kommer 0 8397
+305 det viser seg hvem som kommer 16 4495
+306 det vil ikke forundre meg hvis han kommer 10 3569
+307 det behager meg å komme 2 787
+308 det synes fint at han kommer 0 7632
+309 det synes fint å komme 0 7622
+310 det synes uvisst om han kommer 0 7565
+311 det synes uvisst hvem som kommer 0 7564
+312 vi muliggjorde det at han fikk innreisetillatelse 2 1656
+313 jeg vil beklage det om du kommer 2 1643
+314 vi muliggjør det å komme 1 809
+315 jeg gav ham boken 5 1063
+316 han unner henne boken 5 585
+317 han gav seg tid 19 2308
+318 hun unner seg litt vin 3 3410
+319 at han synger gir Kari hodepine 2 2775
+320 at han kom påførte meg et sjokk 60 3499
+321 hvorvidt han kommer vil vise oss angrepsplanen 6 4223
+322 hvem som kommer vil vise oss angrepsplanen 3 4230
+323 å angripe først frarøver fienden moralen 1 454
+324 å gå tur gir ham styrke   252 4433
+325 Kari forteller meg at han kommer 10 1992
+326 hun forestiller seg at du er syk 3 16638
+327 instrumentet viser Ola hvorvidt du er syk 8 3672
+328 han forteller meg hvorvidt Kari kommer 4 2085
+329 han forteller meg hvem som kommer 11 2276
+330 jeg lover Ola å komme 2 1289
+331 Kari lover ham å komme 12 1736
+332 jeg tillater Ola å komme 1 1009
+333 Kari tillater ham å komme 8 1380
+334 hun tillater seg å komme 11 3166
+335 jeg ber Ola komme 2 1137
+336 Kari ber ham komme 5 1808
+337 han innbiller seg at du kommer 2 3237
+338 han undrer seg hvorvidt du kommer 2 1409
+339 han undrer seg hvem som kommer 1 1110
+340 han forespeiler Kari at det blir storm 14 1452
+341 han forespeiler Kari å få komme 18 3951
+342 han foresetter seg at han skal komme 2 5523
+343 han foresetter seg å komme 1 2579
+344 hvorvidt han kommer først vil fortelle oss hvorvidt de har en plan 0 36730
+345 hvem som kommer først forteller oss ikke hvem som kommer sist 4 5224
+346 hvorvidt han kommer først forteller oss ikke hvem som kommer sist 0 2128
+347 hvem som kommer først forteller oss ikke hvorvidt han kommer sist 10 4906
+348 at han kommer viser oss at han er skyldig 0 6423
+349 at han kommer viser oss hvorvidt han er skyldig 0 9671
+350 at han kommer viser oss hvem som er skyldig 0 8185
+351 jeg kyler Ola ballen i ryggen 10 1490
+352 jeg kaster Ola kakestykker i ansiktet 5 1482
+353 han er snill 1 261
+354 at du kommer er fint 2 1176
+355 at han kommer er overraskende 7 600
+356 å løpe er sunt 1 581
+357 hvorvidt han kommer er uvisst 2 804
+358 hvem som kommer er uvisst 1 825
+359 han er bonde 1 430
+360 at han kom var et sjokk 122 3048
+361 å komme var en fornøyelse 9 1853
+362 hvorvidt han kommer er et spørsmål 0 1838
+363 hvem som kommer er et spørsmål 28 2032
+364 hun er her 4 438
+365 hun er i Finnmark 5 693
+366 hun er i Finnmark 5 693
+367 forestillingen var under enhver kritikk 19 1312
+368 at han kom var over forventning 13 4025
+369 å synge er under vurdering  3 2955
+370 hvorvidt han får synge er under vurdering  0 1835
+371 hvem som får synge er under vurdering  0 9393
+372 Ola er som en gud  36 1832
+373 at han kom var som bønnhørt  2 2734
+374 å danse var som en drøm  30 5322
+375 hvorvidt soldatene lystrer er som et lottospill  0 1860
+376 hvem som lystrer er som et lottospill  30 2663
+377 dette er mannen  1 407
+378 oppgaven er å spise silden  4 1008
+379 problemet er at han spiser silden  7 1025
+380 spørsmålet er hvorvidt han kommer 7 601
+381 problemet er om han spiser silden  7 1521
+382 spørsmålet er hva han spiser 3 740
+383 problemet er hvem som spiser silden  9 1257
+384 å leve er å streve 2 544
+385 det er fint at han kommer 1 1477
+386 det er fint å være frisk 5 3233
+387 det er uvisst om han kommer 3 1819
+388 det er uvisst hvem som kommer 0 514
+389 det er en skuffelse at han kommer  15 1747
+390 det er en kunst å spise torsk  3 1968
+391 det er et spørsmål hvorvidt han kommer  20 3208
+392 det er et spørsmål hvem som kommer  44 2788
+393 det er for andre gang at han taper  0 4620
+394 det er hinsides diskusjon hvorvidt han kommer  32 2221
+395 det er som en forbannelse at han kommer  61 5526
+396 det var som bestilt at han tapte igjen  164 3400
+397 det er fint i Finnmark  0 2139
+398 det er fint her  11 1655
+399 det er langt til Finnmark 7 1372
+400 veien går langs elven 3 813
+401 myra ligger bak fjellet 5 494
+402 veien går gjennom skogen 3 327
+403 veien går til fjellet 3 509
+404 veien går nedover langs elven 4 989
+405 myra ligger nede ved elven 9 674
+406 veien går inn gjennom skogen 7 597
+407 veien går inn til fjellet 7 725
+408 veien nedover langs elven går her 9 744
+409 myra nede ved elven råtner 2 261
+410 veien inn gjennom skogen starter her 15 611
+411 veien inn til fjellet starter her 15 722
+412 veien langs elven starter ved broen 6 921
+413 myra bak skogen råtner        1 219
+414 veien gjennom skogen starter ved broen 6 775
+415 veien til fjellet starter ved broen 6 985
+416 myra ved elven bak skogen råtner 3 448
+417 myra ved elven, bak skogen råtner 13 600
+418 jeg ligger ved elven bak skogen 13 1035
+419 jeg ligger ved elven, bak skogen 0 1252
+420 jeg går til fjellet fra elven 15 1073
+421 jeg går til fjellet, fra elven 12 966
+422 jeg går gjennom skogen til fjellet fra elven 34 1682
+423 jeg går gjennom skogen, til fjellet, fra elven 15 1052
+424 jeg går opp til fjellet fra elven 34 1955
+425 jeg går hit opp til fjellet fra elven 76 3435
+426 jeg går opp hit gjennom skogen til fjellet fra elven 0 4374
+427 jeg går mot fjellet langs elven 4 1175
+428 jeg går mot fjellet, langs elven 4 1372
+429 jeg går bortover mot fjellet langs elven 5 1318
+430 veien går nedover 3 309
+431 myra ligger her 3 186
+432 veien går dit 4 391
+433 veien går nedover hitover 4 403
+434 myra ligger her nede 7 406
+435 veien går inn hit 7 512
+436 veien nedover starter ved broen 11 629
+437 myra nede råtner               1 135
+438 veien dit starter ved broen 17 922
+439 de spiller fra fem til syv 0 4692
+440 de spiller om ettermiddagen 120 2045
+441 de spiller til midnatt 166 2300
+442 de snakker om Ola til midnatt 73 2389
+443 gutten her bak hytta sover 4 646
+444 en gutt her bak hytta sover 10 1525
+445 gutt her bak hytta sover 14 749
+446 gutter her bak hytta sover 4 666
+447 noen gutter her bak hytta sover 2 999
+448 gutten her nede sover 2 272
+449 en gutt her nede sover 6 531
+450 gutt her nede sover 8 329
+451 gutter her nede sover 2 300
+452 noen gutter her nede sover 2 397
+453 veien bortover langs elven går her 9 741
+454 en vei bortover langs elven går her 0 701
+455 vei bortover langs elven går her 21 885
+456 veier bortover langs elven går her 11 975
+457 noen veier bortover langs elven går her 10 1238
+458 veien opp til fjellet går her 9 734
+459 en vei opp til fjellet går her 29 1525
+460 vei opp til fjellet går her 21 898
+461 veier opp til fjellet går her 11 970
+462 noen veier opp til fjellet går her 10 1322
+463 veien opp hit går her 8 575
+464 en vei opp hit går her 32 1226
+465 vei opp hit går her 22 717
+466 veier opp hit går her 10 775
+467 noen veier opp hit går her 12 1060
+468 jeg går opp til fjellet 7 780
+469 jeg går opp hit 7 556
+470 jeg går nedover langs elven 4 965
+471 jeg sover her nede 2 367
+472 jeg går opp, til fjellet 7 619
+473 jeg går opp, hit 7 602
+474 jeg går nedover, langs elven 0 84
+475 jeg sover her, nede 1 334
+476 opp til fjellet går jeg ikke 8 612
+477 opp hit går jeg ikke 4 549
+478 nedover langs elven går jeg ikke 8 691
+479 her nede sover jeg ikke 4 363
+480 her i skogen sover jeg ikke 4 427
+481 jeg har her nede sovet i tre timer 0 6086
+482 jeg har her i skogen sovet i tre timer 0 1184
+483 på tur har jeg her nede sovet i tre timer 0 7478
+484 på tur har jeg her i skogen sovet i tre timer 0 181
+485 hun vet at jeg her nede har sovet i tre timer 0 6840
+486 hun vet at jeg her i skogen har sovet i tre timer 0 1259
+487 gutten rusler mot fjellet langs elva 1 619
+488 gutter rusler mot fjellet, langs elva 4 706
+489 gutten rusler til fjellet langs elva 1 497
+490 gutten rusler til fjellet, langs elva 1 439
+491 gutten rusler langs elva mot fjellet 1 652
+492 gutten rusler langs elva, mot fjellet 3 673
+493 gutten rusler oppover langs elva 1 453
+494 gutten rusler oppover langs elva til fjellet på to timer 5 1402
+495 gutten rusler ned langs elva 1 452
+496 gutten rusler nedover langs elva i tre timer 10 1674
+497 gutten løper hit 4 301
+498 gutten løper dit 11 450
+499 gutten løper hit ned 8 466
+500 gutten løper hit ned til skogen 38 1351
+501 gutten løper hit på to timer 46 1808
+502 gutten løper hit i to timer 44 1876
+503 gutten løper her 6 268
+504 gutten løper der 6 297
+505 gutten løper her nede 16 551
+506 gutten løper her nede i skogen 0 2076
+507 gutten løper her på to timer 61 2194
+508 gutten løper her i to timer 66 2279
+509 gutten spiser koteletten på to timer 20 1439
+510 jeg spiser koteletten i to timer 12 1325
+511 jeg spiser koteletter på to minutter 32 2246
+512 jeg spiser koteletter i to timer 12 1527
+513 jeg spiser koteletter på to minutter i to dager 0 2146
+514 gutten går når hunden løper 3 1262
+515 gutten går før hunden løper 9 1943
+516 gutten går inntil hunden løper 3 755
+517 mannen går langs elven før gutten kommer til skogen 6 3362
+518 veien begynner der stien slutter 28 1544
+519 veien begynner når stien slutter 26 1858
+520 mannen går langs elven til skogen på to timer 5 2032
+521 mannen går langs elven, over brua og til skogen på to timer 0 348
+522 gutten løper nedover forbi brua, langs elven, og videre gjennom skogen til fjellet 201 5183
+523 turen går over fjellet 7 759
+524 turen går på bro over elva 21 2394
+525 turen går på bro over elva og på bro over elva 0 3916
+526 turen går på bro over en bekk og på bro over en elv 0 6485
+527 turen går videre i myret terreng 0 1293
+528 turen går opp gjennom lia til fjellet 16 1185
+529 turen går videre i myret terreng opp gjennom lia 0 6132
+530 turen går over myrer 7 788
+531 turen går inn gjennom skaret 22 1339
+532 turen går inn gjennom skaret mellom elva og fjellet 0 694
+533 turen går over myrer og inn gjennom skaret mellom elva og fjellet 0 7325
+534 ruta til Gjevilvasshytta går opp til skogen ved foten av fjellet 0 1673
+535 gutten sover 1 130
+536 gutt sover 3 174
+537 vin renner 7 320
+538 den gutt sover 1 200
+539 en gutt sover 3 221
+540 en vin renner 9 461
+541 fjellet ligger 2 118
+542 vinen renner 3 286
+543 et fjell ligger 61 390
+544 et gutt sover 25 325
+545 en fjell ligger 113 525
+546 tre gutter sover 1 368
+547 tre fjell ligger 5 443
+548 hver gutt sover 1 192
+549 hver vin renner 3 373
+550 hvert fjell ligger 6 260
+551 ingen gutt sover 2 208
+552 noen gutter sover 1 189
+553 noen viner renner 3 387
+554 noe vin renner 6 521
+555 en glad gutt smiler 4 304
+556 en god vin renner 13 778
+557 mye god vin renner 26 915
+558 tre glade gutter smiler 2 481
+559 noen tre glade gutter smiler 0 613
+560 fire tre glade gutter smiler 8 1474
+561 tre glade hyggelige gutter smiler 3 860
+562 tre glade gutt smiler 0 482
+563 tre glad gutter smiler 0 415
+564 den glade gutten smiler 12 317
+565 den glad gutten smiler 2 231
+566 glade gutten smiler 6 184
+567 den glade gutt smiler 12 348
+568 de tre glade guttene smiler 4 897
+569 de tre gode vinene renner 33 1971
+570 de tre gode vin renner 58 1890
+571 de glade guttene smiler 6 312
+572 glade gutter smiler 4 205
+573 de glade gutter smiler 6 321
+574 glade guttene smiler 6 188
+575 hver av de glade guttene smiler 0 1330
+576 hver av de tre glade guttene smiler 10 5009
+577 hver av de tre gode vinene renner 0 5934
+578 noen av de ni guttene smiler 15 960
+579 noe av den gode vinen renner 96 6875
+580 ingen av de ni guttene smiler 24 1325
+581 få av de ni guttene smiler 0 1150
+582 ni av guttene smiler 19 346
+583 alle gutter sover 3 268
+584 alle gutt sover 3 276
+585 alle gutten sover 0 207
+586 begge guttene sover 1 196
+587 alle de tre guttene sover 2 794
+588 all den gode vinen renner 7 1483
+589 mine tre gutter sover 2 537
+590 mine glade gutter smiler 2 320
+591 min glade gutt smiler 2 248
+592 all min gode vin renner 8 785
+593 alle mine gode viner renner 6 957
+594 min glad gutt smiler 0 254
+595 alle mine gutter smiler 5 364
+596 gutten min smiler 2 126
+597 vinen min renner 3 313
+598 glade gutten min smiler 6 212
+599 den glade gutten min smiler 12 400
+600 gutten til Ola smiler 2 212
+601 vinen til Ola renner 3 438
+602 Ola sin gutt smiler 6 252
+603 gutten si bygd sover 22 1221
+604 gutten sitt bru sover 0 424
+605 gutten sin ball ruller 17 793
+606 en gutt sin ball ruller 34 1025
+607 hver gutt sin ball ruller 7 712
+608 Ola sin glade gutt smiler 6 332
+609 Ola sin glade gutten min smiler 0 286
+610 Olas gutt smiler 2 229
+611 guttens ball ruller 12 602
+612 en gutts ball ruller 87 1232
+613 hver gutts ball ruller 15 798
+614 Olas glade gutt smiler 2 306
+615 Olas glade gutten smiler 0 259
+616 Ola sin gutt sin katt løper 14 621
+617 Olas gutts katt løper 6 472
+618 Ola sin gutts katt løper 14 603
+619 Olas gutt sin katt løper 6 485
+620 en sekk poteter ligger 18 374
+621 en sekk med poteter ligger 66 947
+622 et par dusin esker baller ligger 322 2609
+623 et dusin ballene ligger 0 49
+624 et hav av katter løper 978 5060
+625 et hav av kattene løper 458 3074
+626 Jon hopper to nitten 4 385
+627 Ola løper på tre trettifem 81 3105
+628 Ola løper tre trettifem 3 709
+629 Ola løper torsdag tre trettifem 3 766
+630 Ola løper torsdag ettermiddag tre trettifem 6 1043
+631 Ola løper klokka tre trettifem 12 1001
+632 Ola løper torsdag klokka tre trettifem 0 1479
+633 Ola løper torsdag ettermiddag klokka tre trettifem 0 8128
+634 Ola løper femten hundre 3 487
+635 Ola finner to tjue 0 948
+636 tre tusen fire hundre ligger 335 8509
+637 tre tusen fire hundre og femti ligger 0 2799
+638 gul sover 8 161
+639 gule sover 11 243
+640 de gule sover 52 530
+641 den gule sover 41 458
+642 den gul sover 37 342
+643 alle gule sover 6 389
+644 alle gul sover 3 271
+645 hver gul sover 3 203
+646 hver gule sover 4 305
+647 hvert gult sover 5 348
+648 hvert gul sover 3 249
+649 fire sover 7 390
+650 de fire sover 22 601
+651 alle fire sover 6 571
+652 hver fire sover 6 507
+653 dine sover 1 176
+654 min sover 1 132
+655 alle dine sover 1 259
+656 hver dine sover 0 182
+657 alt mitt sover 1 312
+658 alt dine sover 0 300
+659 den dine sover 6 216
+660 de fleste sover 2 231
+661 hele landet løper 27 702
+662 jeg ser gutten 2 567
+663 jeg ser gutt 2 613
+664 jeg ser vin 2 593
+665 jeg ser den gutt 3 1049
+666 jeg ser en gutt 8 1663
+667 jeg ser en vin 8 1643
+668 jeg ser fjellet 2 569
+669 jeg ser vinen 2 567
+670 jeg ser et fjell 20 2763
+671 jeg ser et gutt 0 1401
+672 jeg ser en fjell 38 5127
+673 jeg ser tre gutter 6 1844
+674 jeg ser ti gutter 4 1066
+675 jeg ser tre fjell 12 2081
+676 jeg ser hver gutt 4 910
+677 jeg ser hver vin 4 890
+678 jeg ser hvert fjell 8 1180
+679 jeg ser ingen gutt 8 1392
+680 jeg ser noen gutter 4 911
+681 jeg ser noen viner 0 406
+682 jeg ser noe vin 12 1493
+683 jeg ser en glad gutt 10 4176
+684 jeg ser en god vin 0 5827
+685 jeg ser mye god vin 0 8549
+686 jeg ser tre glade gutter 7 5798
+687 jeg ser noen tre glade gutter 0 2114
+688 jeg ser fire tre glade gutter 0 8641
+689 jeg ser tre glade hyggelige gutter 0 75
+690 jeg ser tre glade gutt 5 5623
+691 jeg ser tre glad gutter 0 3730
+692 jeg ser den glade gutten 27 5592
+693 jeg ser den glad gutten 5 2400
+694 jeg ser glade gutten 4 1524
+695 jeg ser den glade gutt 0 290
+696 jeg ser de tre glade guttene 0 7827
+697 jeg ser de tre gode vinene 0 1480
+698 jeg ser de tre gode vin 0 7836
+699 jeg ser de glade guttene 0 1244
+700 jeg ser glade gutter 2 1401
+701 jeg ser de glade gutter 16 4326
+702 jeg ser glade guttene 4 1528
+703 jeg ser hver av de glade guttene 0 4342
+704 jeg ser hver av de tre glade guttene 0 7971
+705 jeg ser hver av de tre gode vinene 0 7247
+706 jeg ser noen av de ni guttene 0 7306
+707 jeg ser noe av den gode vinen 0 7246
+708 jeg ser ingen av de ni guttene 0 7322
+709 jeg ser få av de ni guttene 0 7406
+710 jeg ser ni av guttene 16 2678
+711 jeg ser alle gutter 8 1374
+712 jeg ser alle gutt 6 1168
+713 jeg ser alle gutten 2 764
+714 jeg ser begge guttene 4 924
+715 jeg ser alle de tre guttene 0 3798
+716 jeg ser all den gode vinen 0 8335
+717 jeg ser mine tre gutter 9 2865
+718 jeg ser mine glade gutter 4 1805
+719 jeg ser min glade gutt 3 1226
+720 jeg ser all min gode vin 9 2843
+721 jeg ser alle mine gode viner 0 1359
+722 jeg ser min glad gutt 1 1146
+723 jeg ser alle mine gutter 9 2213
+724 jeg ser gutten min 2 766
+725 jeg ser vinen min 2 766
+726 jeg ser glade gutten min 4 1940
+727 jeg ser den glade gutten min 0 5491
+728 jeg ser gutten til Ola 8 1527
+729 jeg ser vinen til Ola 8 1527
+730 jeg ser Ola sin gutt 11 1755
+731 jeg ser gutten si bygd 76 6252
+732 jeg ser gutten sitt bygd 0 1297
+733 jeg ser gutten sin ball 18 2026
+734 jeg ser en gutt sin ball 28 4124
+735 jeg ser hver gutt sin ball 6 1395
+736 jeg ser Ola sin glade gutt 10 2475
+737 jeg ser Ola sin glade gutten min 2 1991
+738 jeg ser Olas gutt 2 905
+739 jeg ser guttens ball 0 1012
+740 jeg ser en gutts ball 34 4729
+741 jeg ser hver gutts ball 12 1719
+742 jeg ser Olas glade gutt 2 967
+743 jeg ser Olas glade gutten min 0 772
+744 jeg ser Ola sin gutt sin katt 25 3459
+745 jeg ser en sekk poteter 0 2899
+746 jeg ser en sekk med poteter 99 10035
+747 jeg ser et par dusin esker baller 0 522
+748 jeg ser et dusin ballene 20 4168
+749 jeg ser et hav av katter 0 6606
+750 jeg ser et hav av kattene 0 7841
+751 jeg unner Ola gutten 1 503
+752 jeg unner Ola gutt 1 624
+753 jeg unner Ola vin 1 588
+754 jeg unner Ola den gutt 1 693
+755 jeg unner Ola en gutt 6 1647
+756 jeg unner Ola en vin 6 1560
+757 jeg unner Ola fjellet 1 502
+758 jeg unner Ola vinen 1 500
+759 jeg unner Ola et fjell 12 2206
+760 jeg unner Ola et gutt 10 2276
+761 jeg unner Ola en fjell 0 1545
+762 jeg unner Ola tre gutter 3 1620
+763 jeg unner Ola ti gutter 3 1109
+764 jeg unner Ola tre fjell 5 1853
+765 jeg unner Ola hver gutt 2 903
+766 jeg unner Ola hver vin 2 862
+767 jeg unner Ola hvert fjell 4 1102
+768 jeg unner Ola ingen gutt 4 1383
+769 jeg unner Ola noen gutter 2 892
+770 jeg unner Ola noen viner 2 871
+771 jeg unner Ola noe vin 5 1286
+772 jeg unner Ola en glad gutt 0 2122
+773 jeg unner Ola en god vin 15 5692
+774 jeg unner Ola mye god vin 0 3434
+775 jeg unner Ola tre glade gutter 4 3508
+776 jeg unner Ola noen tre glade gutter 13 6214
+777 jeg unner Ola fire tre glade gutter 0 348
+778 jeg unner Ola tre glade hyggelige gutter 0 7655
+779 jeg unner Ola tre glade gutt 0 1750
+780 jeg unner Ola tre glad gutter 0 3332
+781 jeg unner Ola den glade gutten 9 3347
+782 jeg unner Ola den glad gutten 0 1179
+783 jeg unner Ola glade gutten 2 967
+784 jeg unner Ola den glade gutt 0 2038
+785 jeg unner Ola de tre glade guttene 0 7160
+786 jeg unner Ola de tre gode vinene 0 1695
+787 jeg unner Ola de tre gode vin 0 7210
+788 jeg unner Ola de glade guttene 0 1671
+789 jeg unner Ola glade gutter 1 1041
+790 jeg unner Ola de glade gutter 5 2365
+791 jeg unner Ola glade guttene 2 971
+792 jeg unner Ola hver av de glade guttene 0 5954
+793 jeg unner Ola hver av de tre glade guttene 0 7647
+794 jeg unner Ola hver av de tre gode vinene 0 7374
+795 jeg unner Ola noen av de ni guttene 0 7104
+796 jeg unner Ola noe av den gode vinen 0 7181
+797 jeg unner Ola ingen av de ni guttene 0 7109
+798 jeg unner Ola få av de ni guttene 0 7680
+799 jeg unner Ola ni av guttene 2 1637
+800 jeg unner Ola alle gutter 6 1238
+801 jeg unner Ola alle gutt 4 1232
+802 jeg unner Ola alle gutten 1 843
+803 jeg unner Ola begge guttene 3 821
+804 jeg unner Ola alle de tre guttene 0 4417
+805 jeg unner Ola all den gode vinen 0 7747
+806 jeg unner Ola mine tre gutter 0 106
+807 jeg unner Ola mine glade gutter 2 1235
+808 jeg unner Ola min glade gutt 2 1477
+809 jeg unner Ola all min gode vin 7 1619
+810 jeg unner Ola alle mine gode viner 15 3858
+811 jeg unner Ola min glad gutt 1 1354
+812 jeg unner Ola alle mine gutter 12 2125
+813 jeg unner Ola gutten min 1 584
+814 jeg unner Ola vinen min 0 208
+815 jeg unner Ola glade gutten min 2 1085
+816 jeg unner Ola den glade gutten min 9 3968
+817 jeg unner Ola gutten til Ola 1 772
+818 jeg unner Ola vinen til Ola 1 766
+819 jeg unner Ola Ola sin gutt 7 1501
+820 jeg unner Ola gutten si bygd 0 5580
+821 jeg unner Ola gutten sitt bygd 6 1023
+822 jeg unner Ola gutten sin ball 9 1526
+823 jeg unner Ola en gutt sin ball 28 4498
+824 jeg unner Ola hver gutt sin ball 6 1386
+825 jeg unner Ola Ola sin glade gutt 7 1831
+826 jeg unner Ola Ola sin glade gutten min 0 1279
+827 jeg unner Ola Olas gutt 0 212
+828 jeg unner Ola guttens ball 3 1120
+829 jeg unner Ola en gutts ball 23 5443
+830 jeg unner Ola hver gutts ball 6 1977
+831 jeg unner Ola Olas glade gutt 1 1077
+832 jeg unner Ola Olas glade gutten min 0 796
+833 jeg unner Ola Ola sin gutt sin katt 25 3327
+834 jeg unner Ola en sekk poteter 0 903
+835 jeg unner Ola en sekk med poteter 32 6369
+836 jeg unner Ola et par dusin esker baller 0 3607
+837 jeg unner Ola et dusin ballene 10 3032
+838 jeg unner Ola et hav av katter 0 6316
+839 jeg unner Ola et hav av kattene 0 7735
+840 jeg snakker om gutten 5 835
+841 jeg snakker om gutt 5 875
+842 jeg snakker om vin 5 855
+843 jeg snakker om den gutt 9 1058
+844 jeg snakker om en gutt 24 1698
+845 jeg snakker om en vin 24 1678
+846 jeg snakker om fjellet 5 837
+847 jeg snakker om vinen 5 835
+848 jeg snakker om et fjell 50 2041
+849 jeg snakker om et gutt 0 661
+850 jeg snakker om en fjell 103 3757
+851 jeg snakker om tre gutter 22 1914
+852 jeg snakker om ti gutter 16 1536
+853 jeg snakker om tre fjell 41 2245
+854 jeg snakker om hver gutt 9 1033
+855 jeg snakker om hver vin 9 1013
+856 jeg snakker om hvert fjell 18 1229
+857 jeg snakker om ingen gutt 0 824
+858 jeg snakker om noen gutter 9 1034
+859 jeg snakker om noen viner 9 1034
+860 jeg snakker om noe vin 28 1499
+861 jeg snakker om en glad gutt 39 3929
+862 jeg snakker om en god vin 0 3332
+863 jeg snakker om mye god vin 0 6703
+864 jeg snakker om tre glade gutter 0 1648
+865 jeg snakker om noen tre glade gutter 8 4114
+866 jeg snakker om fire tre glade gutter 0 5690
+867 jeg snakker om tre glade hyggelige gutter 0 7198
+868 jeg snakker om tre glade gutt 0 552
+869 jeg snakker om tre glad gutter 0 4149
+870 jeg snakker om den glade gutten 99 4222
+871 jeg snakker om den glad gutten 18 1719
+872 jeg snakker om glade gutten 0 834
+873 jeg snakker om den glade gutt 95 4206
+874 jeg snakker om de tre glade guttene 0 5981
+875 jeg snakker om de tre gode vinene 0 6987
+876 jeg snakker om de tre gode vin 0 731
+877 jeg snakker om de glade guttene 69 3345
+878 jeg snakker om glade gutter 5 2737
+879 jeg snakker om de glade gutter 65 3314
+880 jeg snakker om glade guttene 0 1626
+881 jeg snakker om hver av de glade guttene 0 6968
+882 jeg snakker om hver av de tre glade guttene 0 1279
+883 jeg snakker om hver av de tre gode vinene 0 7394
+884 jeg snakker om noen av de ni guttene 0 978
+885 jeg snakker om noe av den gode vinen 0 6885
+886 jeg snakker om ingen av de ni guttene 0 1251
+887 jeg snakker om få av de ni guttene 0 6984
+888 jeg snakker om ni av guttene 0 1286
+889 jeg snakker om alle gutter 12 1235
+890 jeg snakker om alle gutt 11 1217
+891 jeg snakker om alle gutten 4 964
+892 jeg snakker om begge guttene 5 973
+893 jeg snakker om alle de tre guttene 0 6735
+894 jeg snakker om all den gode vinen 0 7842
+895 jeg snakker om mine tre gutter 31 3170
+896 jeg snakker om mine glade gutter 15 1862
+897 jeg snakker om min glade gutt 9 1346
+898 jeg snakker om all min gode vin 16 1922
+899 jeg snakker om alle mine gode viner 0 1337
+900 jeg snakker om min glad gutt 4 1286
+901 jeg snakker om alle mine gutter 16 1752
+902 jeg snakker om gutten min 5 958
+903 jeg snakker om vinen min 5 958
+904 jeg snakker om glade gutten min 10 3034
+905 jeg snakker om den glade gutten min 0 3220
+906 jeg snakker om gutten til Ola 33 1642
+907 jeg snakker om vinen til Ola 33 1642
+908 jeg snakker om Ola sin gutt 24 1710
+909 jeg snakker om gutten si bygd 84 5236
+910 jeg snakker om gutten sitt bygd 6 1610
+911 jeg snakker om gutten sin ball 0 150
+912 jeg snakker om en gutt sin ball 90 3816
+913 jeg snakker om hver gutt sin ball 19 1460
+914 jeg snakker om Ola sin glade gutt 23 2330
+915 jeg snakker om Ola sin glade gutten min 8 2031
+916 jeg snakker om Olas gutt 7 1066
+917 jeg snakker om guttens ball 21 1275
+918 jeg snakker om en gutts ball 0 617
+919 jeg snakker om hver gutts ball 33 1672
+920 jeg snakker om Olas glade gutt 7 1128
+921 jeg snakker om Olas glade gutten min 0 994
+922 jeg snakker om Ola sin gutt sin katt 54 3093
+923 jeg snakker om en sekk poteter 58 3287
+924 jeg snakker om en sekk med poteter 0 1647
+925 jeg snakker om et par dusin esker baller 0 6751
+926 jeg snakker om et dusin ballene 0 1888
+927 jeg snakker om et hav av katter 0 6602
+928 jeg snakker om et hav av kattene 0 1688
+929 Ola er svært lang 1 926
+930 Ola er hvor lang 1 1496
+931 Ola er lang nok 11 1319
+932 Ola er nok lang 7 2211
+933 Ola er tilstrekkelig lang 1 952
+934 Ola er to meter lang 1 952
+935 En svært lang mann sover 17 1512
+936 En hvor lang mann sover 18 595
+937 En to meter lang mann sover 67 1431
+938 En lang nok mann sover 6 1164
+939 Ola er lengre enn Per 1 336
+940 Ola er mer storvokst enn Per 3 1131
+941 Ola er atskillig mer storvokst enn Per 3 949
+942 Ola er en lengre mann enn Per 0 639
+943 Ola er en atskillig lengre mann enn Per 13 3723
+944 Ola er en mer storvokst mann enn Per 9 4852
+945 Ola er to centimeter lengre enn Per 2 1263
+946 Ola er en to centimeter lengre mann enn Per 0 2676
+947 Ola er mer enn to centimeter lengre enn Per 3 3434
+948 Ola er atskillig mer enn to centimeter lengre enn Per 3 3570
+949 Ola er mer enn to centimeter mer storvokst enn Per 0 3832
+950 Ola er atskillig mer enn to centimeter mer storvokst enn Per 0 8467
+951 Ola er en mer enn to centimeter lengre mann enn Per 0 7887
+952 Ola er en mer enn to centimeter mer storvokst mann enn Per 0 8079
+953 Ola er en atskillig mer enn to centimeter mer storvokst mann enn Per 0 8109
+954 En lengre mann enn Per sover 3 280
+955 En atskillig lengre mann enn Per sover 18 475
+956 En mye lengre mann enn Per sover 31 865
+957 En hvor mye lengre mann enn Per sover 52 1708
+958 En mer storvokst mann enn Per sover 13 978
+959 En to centimeter lengre mann enn Per sover 137 2342
+960 En mer enn to centimeter lengre mann enn Per sover 0 4252
+961 En mye mer enn to centimeter lengre mann enn Per sover 0 7328
+962 En hvor mye mer enn to centimeter lengre mann enn Per sover 0 1439
+963 En mer enn to centimeter mer storvokst mann enn Per sover 0 7394
+964 Ola er den høyeste av guttene 1 609
+965 Ola er den høyeste av alle guttene 1 712
+966 Ola er den høyeste gutten 1 555
+967 Den høyeste av guttene sover 1 237
+968 Den høyeste av alle guttene sover 1 346
+969 Den høyeste gutten sover 1 175
+970 Mye vin renner 10 534
+971 Svært mye vin renner 0 298
+972 Svært lite vin renner 54 1099
+973 Hvor mye vin renner? 48 1106
+974 Hvor lite vin renner? 29 923
+975 Mer vin enn vann renner 27 701
+976 Mindre vin enn vann renner 13 676
+977 Atskillig mer vin enn vann renner 35 1007
+978 Atskillig mindre vin enn vann renner 21 892
+979 Hvor mye mer vin enn vann renner? 262 6138
+980 Hvor lite mer vin enn vann renner? 0 1339
+981 Hvor mye mindre vin enn vann renner? 199 4976
+982 Hvor lite mindre vin enn vann renner? 78 3385
+983 Mange gutter løper 20 405
+984 Svært mange gutter løper 70 813
+985 Svært få gutter løper 87 2131
+986 Hvor mange gutter løper? 63 817
+987 Hvor få gutter løper? 0 312
+988 Flere gutter enn menn løper 4 319
+989 Færre gutter enn menn løper 4 298
+990 Atskillig flere gutter enn menn løper 9 389
+991 Atskillig færre gutter enn menn løper 4 334
+992 Hvor mange flere gutter enn menn løper 63 895
+993 Hvor mange færre gutter enn menn løper 63 812
+994 Hvor få flere gutter enn menn løper 42 4898
+995 Hvor få færre gutter enn menn løper 42 3580
+996 gutten sover ikke 1 225
+997 gutten sover ved myra 1 246
+998 gutten har ikke sovet 0 327
+999 gutten har bak myra sovet 18 2059
+1000 ved myra har gutten sovet 6 1802
+1001 gutten har sovet ved myra 8 5603
+1002 gutten har sovet ikke 0 2465
+1003 jeg vet at gutten ikke sover 1 341
+1004 jeg vet at gutten ved myra har sovet 12 3027
+1005 jeg vet at ved myra gutten har sovet 8 2284
+1006 jeg vet at gutten har sovet ved myra 0 5495
+1007 har gutten sovet? 7 1320
+1008 har ikke gutten sovet? 6 1020
+1009 har gutten sovet ved myra? 14 4787
+1010 hva har gutten spist? 0 364
+1011 eplet har gutten spist 5 931
+1012 hvilket eple har gutten spist? 5 1281
+1013 jeg vet hvem som sover 1 419
+1014 jeg vet hvem som har spist eplet 1 1141
+1015 jeg vet hvem har spist eplet 0 1375
+1016 jeg vet hvilket eple gutten spiser 1 767
+1017 jeg vet hvem sitt eple gutten spiser 2 1074
+1018 jeg vet hva hvem har spist 0 989
+1019 jeg vet hvem som har spist hva 1 1281
+1020 jeg ser gutten som spiser eplet 1 2191
+1021 jeg ser eplet gutten spiser 5 1353
+1022 jeg ser eplet som gutten spiser 0 913
+1023 jeg ser eplet gutten ikke spiser 8 1564
+1024 jeg ser eplet som gutten ikke spiser 1 1985
+1025 gutten som ligger sover 1 342
+1026 gutten som ligger, sover 2 550
+1027 gutten, som ligger, sover 8 794
+1028 gutten, som ligger sover 9 501
+1029 jeg ser ham ikke 7 1367
+1030 jeg ser ikke ham 6 990
+1031 han setter seg ikke 1 2622
+1032 han setter ikke seg 0 1269
+1033 han unner meg den ikke 21 1053
+1034 unner han meg den ikke? 8 703
+1035 unner han meg ikke den? 2 851
+1036 unner gutten henne den ikke? 4 483
+1037 ballen kastes 0 576
+1038 ballen kastes til Ola 6 1124
+1039 det kastes en ball 295 3878
+1040 det kastes en ball til Ola 0 6503
+1041 jeg overlates en ball 127 3130
+1042 en ball overlates meg ikke 0 5860
+1043 det overlates Ola en ball 228 3445
+1044 Ola stoles på 1 327
+1045 det stoles på Ola 1 489
+1046 ballen blir kastet 10 896
+1047 ballen blir kastet til Ola 26 4083
+1048 det blir kastet en ball 0 3970
+1049 det blir kastet en ball til Ola 0 8588
+1050 Ola blir overlatt en ball 74 5990
+1051 en ball blir overlatt Ola 274 2108
+1052 det blir overlatt Ola en ball 0 3336
+1053 Ola blir stolt på 1 835
+1054 det blir stolt på Ola 2 1338
+1055 Ola fryktes drept 1 625
+1056 Ola fryktes forsøkt drept 3 965
+1057 Ola blir fryktet forsøkt drept 12 4042
+1058 Ola blir fryktet forsøkes drept 0 3666
+1059 Ola antas forutsatt forsøkt drept 5 1447
+1060 Ola fryktes ankommet 0 551
+1061 Ola fryktes overlatt pistolen 4 845
+1062 maten er hyggelig å spise 4 1026
+1063 maten er hyggelige å spise 4 976
+1064 guttene er hyggelige å se 2 1136
+1065 gutten Ola sover 2 169
+1066 elven den gule elv renner 4 1055
+1067 elven en elv renner 6 670
+1068 en gutt Ola sover 1 247
+1069 gutten, Ola, sover 2 242
+1070 elven, den gule elv, renner 118 2792
+1071 elven, en elv, renner 28 839
+1072 en gutt, Ola, sover 6 418
+1073 jeg rusler søndag 1 97
+1074 jeg rusler gutten 0 56
+1075 Ola ligger for å sove 10 649
+1076 Ola ligger uten å sove 9 640
+1077 Ola løper glad 5 441
+1078 Ola spiser fisken levende 12 763
+1079 sover Ola kommer Per 1 444
+1080 sover Ola, kommer Per 3 521
+1081 hvis han sover kommer Per 3 510
+1082 hvis han sover, kommer Per 7 710
+1083 Ola Per Kari kommer 1 290
+1084 Ola Per og Kari kommer 3 323
+1085 Ola og Per og Kari kommer 4 354
+1086 Ola, og Per, og Kari kommer 12 557
+1087 Ola, og Per, og Kari, kommer 6 547
+1088 Ola, Per, Kari kommer 4 386
+1089 Ola, Per, Kari, kommer 2 423
+1090 Ola, Per og Kari kommer 4 367
+1091 Ola, Per, og Kari kommer 6 450
+1092 Ola, Per, og Kari, kommer 3 472
+1093 en gul, gammel mann sover 64 991
+1094 en gul og gammel mann sover 0 2215
+1095 en gul, og  gammel mann sover 4413 9960
+1096 en gul, og  gammel, mann sover 298 1227
+1097 Ola ligger, går og rusler 35 1426
+1098 Ola ligger går og rusler 7 855
+1099 Ola ligger går rusler 0 437
+1100 Ola ligger og går og rusler 33 1409
+1101 Ola går hit og dit 2 635
+1102 Ola går hit, og dit 3 808
+1103 Ola går hit, dit, til fjellet 4 1089
+1104 Ola går hit, dit, og til fjellet 9 1531
+1105 går Ola hit? 1 324
+1106 går Ola hit. 0 152
+1107 går Ola hit! 2 324
+1108 Ola går hit. 1 340
+1109 Ola går hit? 1 340
+1110 Ola går hit! 1 339
+1111 gå. 2 252
+1112 gå? 1 249
+1113 gå! 2 253
+1114 hvis han kommer, gå 8 845
+1115 hvis han kommer, gå. 8 889
+1116 hvis han kommer, gå! 8 890
+1117 hvis han kommer gå! 4 599
+1118 hvis han kommer gå 4 578
+1119 hvis han kommer gå. 4 597
+1120 Ola fortærer seg 1 131
+1121 Ola fortærer seg selv 8 314
+1122 Ola fortærer seg selv selv 25 777
+1123 Ola vasker seg selv 17 1490
+1124 Ola vasker seg  3 557
+1125 jeg vasker meg  3 453
+1126 Ola skammer seg 1 414
+1127 jeg skammer meg 1 248
+1128 jeg fortærer meg 2 104
+1129 jeg fortærer meg selv 5 235
+1130 Ola ber meg fortære seg 1 1224
+1131 Ola ber meg fortære seg selv 28 2112
+1132 Ola ser meg fortære seg 1 1983
+1133 Ola fortærer maten sin 0 66
+1134 Ola gir gutten sin maten sin 9 1578
+1135 Ola gir gutten sin maten sin i huset sitt 31 3832
+1136 Ola kaster ballen sin mot huset sitt 8 3884
+1137 Ola gir en bok om seg til naboen sin 0 2009
+1138 Ola gir seg selv ballen sin 0 6499
+1139 Ola gir seg selv seg selv 0 1669
+1140 Ola gir sin gutt sitt fjell og sitt hus 87 6532
+1141 Ola vet at jeg liker seg 15 639
+1142 jeg ber Ola vaske seg 2 2920
+1143 jeg ser Ola vaske seg 0 1189
+1144 Ola løper femten hundre på tre trettifem 240 7470
+1145 Ola løper femten hundre meter på tre trettifem 0 2846
+1146 Ola løp femten hundre meter på tre trettifem torsdag klokka tre førtifem 0 7468
+1147 ja jeg sover 1 159
+1148 ja, jeg sover 2 175
+1149 Det regner. 5 484
+1150 Ola bjeffet. 3 110
+1151 Grenen brakk. 0 238
+1152 Ola jaget Embla. 16 1162
+1153 Ola rakte Embla sigaretten. 4 1108
+1154 Ola rakte sigaretten til Embla. 22 1484
+1155 Ola veddet en sigarett med Embla på at Ask sov. 0 6072
+1156 Ola visste at det regnet. 11 1880
+1157 Ola mente å bjeffe. 1 425
+1158 Ola hørte Embla bjeffe. 2 986
+1159 Hver katt bjeffet. 3 197
+1160 Hver katt jaget en hund. 64 3317
+1161 Min katt bjeffet 3 170
+1162 Katten min bjeffet. 3 128
+1163 Den bjeffet. 3 104
+1164 Katten jaget den. 28 1272
+1165 Katten jaget seg selv. 42 1891
+1166 Katten jaget én. 0 663
+1167 Min bjeffet. 3 94
+1168 Den brakk. 4 329
+1169 Katter bjeffer. 3 197
+1170 Tobakk ankom. 3 170
+1171 Noen bjeffer. 2 111
+1172 Noen av kattene bjeffer. 10 329
+1173 Ingen katt bjeffet. 6 220
+1174 Bjeffet hunden? 2 87
+1175 Hvilken hund bjeffet? 4 150
+1176 Hvem sin hund bjeffet? 5 200
+1177 Jag Embla! 13 245
+1178 Ola lurte på hvilken hund som bjeffet. 17 3140
+1179 Ola lurte på hvorvidt Embla bjeffet. 12 1387
+1180 Hunden som Embla jaget bjeffet. 6 2054
+1181 En bok å lese ligger her. 28 1411
+1182 Hunden ble jaget av Embla. 0 2655
+1183 Dressen sydd av Armani lå i malingspannet. 0 1720
+1184 Hunden driver og bjeffer. 18 624
+1185 Hunden har bjeffet. 7 716
+1186 Hunden har drevet og bjeffet. 6 2127
+1187 Hunden hadde drevet og bjeffet. 7 2140
+1188 Hunden vil bjeffe. 1 100
+1189 Hunden kommer til å bjeffe. 1 640
+1190 Hunden kunne bjeffe. 3 426
+1191 Hunden kunne ikke bjeffe. 6 731
+1192 Den gamle hunden bjeffet. 14 347
+1193 Hunden bjeffet svakt. 10 388
+1194 Hunden bjeffet sannsynligvis. 3 190
+1195 Hunden bjeffet i haven. 21 709
+1196 Hunden bjeffer nå. 8 385
+1197 Havehunden bjeffer. 2 101
+1198 Tobakkshavehunden bjeffet. 3 94
+1199 Katten er gammel. 1 307
+1200 Katten er i haven. 0 742
+1201 Den bjeffende hunden jaget Embla. 40 2512
+1202 Jagete hunder bjeffer. 12 704
+1203 Å jage katten er kjedelig. 2 1074
+1204 At katten jager Embla er nytt. 17 1658
+1205 Hunder jager hva som helst som bjeffer. 13 950
+1206 Hunden bjeffet hver dag. 8 256
+1207 Når bjeffet hunden? 4 306
+1208 Tre av hundene bjeffer. 26 633
+1209 Tre bjeffer. 12 331
+1210 Emblas hund bjeffer. 2 207
+1211 Emblas bjeffer. 0 157
+1212 Tjuetre hunder bjeffer. 2 173
+1213 To hundre og tjue hunder bjeffer. 19 760
+1214 Embla ankommer med bil. 5 461
+1215 Embla drev på og bjeffet. 4 1212
+1216 Embla presset katten inn. 12 1763
+1217 Embla presset inn katten. 0 1504
+1218 Bildet av Embla ankommer. 7 337
+1219 Embla tørket skoen ren. 9 1175
+1220 Ola plasserte Embla i haven. 9 1000
+1221 Hunden kommer til å bjeffe hvis Embla ankommer. 7 1187
+1222 Ola og Embla ankommer. 3 209
+1223 Ola, Embla og hunden ankommer. 6 332
+1224 Hunden ankommer og bjeffer. 8 306
+1225 Hunden ankommer og Embla bjeffer. 3 263
+1226 Hunden bjeffet, gjorde den ikke? 133 3940
+1227 Det er opplagt at hunden bjeffet. 3 611
+1228 Ola lovet Embla å bjeffe. 28 3180
+1229 Ola synes å bjeffe. 0 710
+1230 Ola anser Embla for å bjeffe. 3 710
+1231 Det bekymret Ola at Embla bjeffet. 15 1073
+1232 Det tok Ola ti minutter å ankomme. 39 4176
+1233 Ola overlot det til Embla å bjeffe. 0 1369
+1234 Ola foresvever Embla som gammel. 4 1761
+1235 Embla anser Ola skikket. 9 1209
+1236 Ola likte idéen at Embla kunne bjeffe. 0 386
+1237 Ola bjeffet fra ti til tre. 249 5887
+1238 Ola var meget gammel. 2 669
+1239 Nesten hver hund bjeffet. 6 219
+1240 Ola bjeffet meget svakt. 20 703
+1241 Emblas jaging av hunder bekymret Ola. 5 1138
+1242 Det plaget Embla at Ola jaget katter. 0 3796
+1243 Tredje juni kom. 3 397
+1244 Ola ankom tre tjue. 9 835
+1245 Embla ankom torsdag morgen. 6 506
+1246 Kattene fant en måte å bjeffe på. 24 3662
+1247 Den lykkeligste hunden jaget Embla. 16 1699
+1248 Det var katter i haven. 0 3068
+1249 Den hunden jaget Embla. 16 1427
+1250 Noen jaget Ola. 20 1275
+1251 Hvor lykkelig var Ola? 4 863
+1252 Nummer fem plager Embla. 24 587
+1253 Tallet fem plager Embla. 42 1258
+1254 De midt- til øvre nittiårene plager Embla. 0 848
+1255 Ola kunne. 4 366
+1256 Embla prøvde. 1 940
+1257 bjeff ikke! 6 96
+1258 Hunden ankom bjeffende. 4 264
+1259 Vinduet åpnet seg. 2 227
+
+;;; Total CPU time: 5178490 msecs
+
+;;; Mean edges: 1976.53
+
+;;; Mean parses: 20.98
+
+
+
+
+
+
+;;; Parsing test file
+[14:36:05] gc-after-hook(): {L#48 N=76m O=0 E=85%} [S=786m R=563m].
+[14:36:09] gc-after-hook(): {L#49 N=83m O=14m E=78%} [S=786m R=563m].
+14553256 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[14:36:17] gc-after-hook(): {G#49 N=46m O=24m E=41%} [S=786m R=563m].
+[14:36:20] gc-after-hook(): {L#50 N=39m O=0 E=85%} [S=786m R=563m].
+[14:36:26] gc-after-hook(): {L#51 N=39m O=0 E=90%} [S=786m R=563m].
+[14:36:31] gc-after-hook(): {L#52 N=79m O=40 E=86%} [S=786m R=591m].
+[14:36:36] gc-after-hook(): {L#53 N=80m O=28m E=79%} [S=786m R=591m].
+[14:36:36] gc-after-hook(): 57m tenured; forcing global gc().
+[14:36:40] gc-after-hook(): {GR#11 N=80m O=2.6K E=0%} [S=786m R=591m].
+29283456 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[14:36:47] gc-after-hook(): {G#53 N=114m O=40 E=29%} [S=786m R=591m].
+[14:36:52] gc-after-hook(): {L#54 N=-362642672 O=3.2M E=20%} [S=786m R=659m].
+[14:36:56] gc-after-hook(): {L#55 N=10m O=1.1M E=93%} [S=786m R=676m].
+[14:37:04] gc-after-hook(): {L#56 N=22m O=71k E=96%} [S=786m R=676m].
+[14:37:12] gc-after-hook(): {L#57 N=18m O=28k E=96%} [S=786m R=676m].
+[14:37:19] gc-after-hook(): {L#58 N=15m O=18k E=96%} [S=786m R=676m].
+[14:37:27] gc-after-hook(): {L#59 N=42m O=277k E=94%} [S=786m R=676m].
+[14:37:34] gc-after-hook(): {L#60 N=46m O=371k E=93%} [S=786m R=679m].
+[14:37:40] gc-after-hook(): {L#61 N=45m O=2.2M E=93%} [S=786m R=679m].
+[14:37:47] gc-after-hook(): {L#62 N=11m O=519k E=96%} [S=786m R=679m].
+[14:37:55] gc-after-hook(): {L#63 N=34m O=338k E=94%} [S=786m R=679m].
+[14:38:03] gc-after-hook(): {L#64 N=13m O=0 E=95%} [S=786m R=680m].
+[14:38:11] gc-after-hook(): {L#65 N=15m O=766k E=96%} [S=786m R=680m].
+9157984 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[14:38:23] gc-after-hook(): {G#65 N=26m O=1.7M E=61%} [S=786m R=680m].
+[14:38:31] gc-after-hook(): {L#66 N=16m O=0 E=95%} [S=786m R=680m].
+[14:38:39] gc-after-hook(): {L#67 N=16m O=0 E=95%} [S=786m R=680m].
+[14:38:48] gc-after-hook(): {L#68 N=20m O=0 E=95%} [S=786m R=685m].
+[14:38:56] gc-after-hook(): {L#69 N=18m O=5.2M E=95%} [S=786m R=685m].
+[14:39:04] gc-after-hook(): {L#70 N=39m O=0 E=93%} [S=786m R=687m].
+[14:39:11] gc-after-hook(): {L#71 N=88m O=2.5M E=88%} [S=786m R=687m].
+[14:39:16] gc-after-hook(): {L#72 N=13m O=0 E=94%} [S=786m R=689m].
+[14:39:24] gc-after-hook(): {L#73 N=47m O=2.0M E=93%} [S=786m R=689m].
+10202976 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[14:39:34] gc-after-hook(): {G#73 N=22m O=722k E=57%} [S=786m R=689m].
+[14:39:41] gc-after-hook(): {L#74 N=55m O=0 E=92%} [S=786m R=689m].
+[14:39:46] gc-after-hook(): {L#75 N=100m O=0 E=81%} [S=786m R=689m].
+[14:39:50] gc-after-hook(): {L#76 N=28m O=0 E=91%} [S=786m R=693m].
+[14:39:59] gc-after-hook(): {L#77 N=73m O=3.2M E=91%} [S=786m R=693m].
+[14:40:03] gc-after-hook(): {L#78 N=113m O=256k E=80%} [S=786m R=693m].
+[14:40:06] gc-after-hook(): {L#79 N=141m O=0 E=70%} [S=786m R=693m].
+[14:40:11] gc-after-hook(): {L#80 N=474m O=3.5M E=31%} [S=832m R=769m].
+[14:40:16] gc-after-hook(): {L#81 N=150m O=33m E=62%} [S=832m R=822m].
+[14:40:16] gc-after-hook(): 58m tenured; forcing global gc().
+[14:40:25] gc-after-hook(): {GR#15 N=149m O=569k E=0%} [S=832m R=822m].
+34222560 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[14:40:34] gc-after-hook(): {G#81 N=11m O=365k E=39%} [S=832m R=822m].
+[14:40:44] gc-after-hook(): {L#82 N=80m O=0 E=93%} [S=832m R=822m].
+[14:40:48] gc-after-hook(): {L#83 N=135m O=8.2K E=79%} [S=832m R=822m].
+[14:40:52] gc-after-hook(): {L#84 N=170m O=16k E=69%} [S=832m R=822m].
+[14:40:57] gc-after-hook(): {L#85 N=386m O=40k E=48%} [S=945m R=911m].
+[14:41:01] gc-after-hook(): {L#86 N=23m O=501k E=92%} [S=945m R=935m].
+[14:41:13] gc-after-hook(): {L#87 N=102m O=35k E=93%} [S=945m R=935m].
+[14:41:21] gc-after-hook(): {L#88 N=166m O=59k E=86%} [S=945m R=935m].
+[14:41:26] gc-after-hook(): {L#89 N=9.0M O=93k E=94%} [S=945m R=935m].
+[14:41:38] gc-after-hook(): {L#90 N=96m O=183k E=92%} [S=945m R=935m].
+[14:41:45] gc-after-hook(): {L#91 N=7.6M O=61k E=96%} [S=945m R=935m].
+[14:41:57] gc-after-hook(): {L#92 N=40m O=36k E=96%} [S=945m R=935m].
+[14:42:08] gc-after-hook(): {L#93 N=71m O=83k E=94%} [S=945m R=935m].
+[14:42:18] gc-after-hook(): {L#94 N=24m O=573k E=96%} [S=945m R=935m].
+[14:42:30] gc-after-hook(): {L#95 N=33m O=380k E=97%} [S=945m R=935m].
+[14:42:40] gc-after-hook(): {L#96 N=16m O=783k E=97%} [S=945m R=935m].
+[14:42:52] gc-after-hook(): {L#97 N=97m O=655k E=92%} [S=945m R=935m].
+[14:43:00] gc-after-hook(): {L#98 N=8.2M O=42k E=97%} [S=945m R=935m].
+[14:43:09] gc-after-hook(): {L#99 N=79m O=43k E=92%} [S=945m R=935m].
+[14:43:15] gc-after-hook(): {L#100 N=169m O=141k E=77%} [S=945m R=935m].
+[14:43:20] gc-after-hook(): {L#101 N=26m O=367k E=91%} [S=945m R=935m].
+[14:43:29] gc-after-hook(): {L#102 N=26m O=761k E=95%} [S=945m R=935m].
+[14:43:41] gc-after-hook(): {L#103 N=112m O=1.9M E=91%} [S=945m R=935m].
+[14:43:50] gc-after-hook(): {L#104 N=11m O=20k E=96%} [S=945m R=935m].
+[14:44:01] gc-after-hook(): {L#105 N=55m O=378k E=95%} [S=945m R=935m].
+[14:44:11] gc-after-hook(): {L#106 N=47m O=944k E=94%} [S=945m R=935m].
+[14:44:20] gc-after-hook(): {L#107 N=32m O=1.0M E=95%} [S=945m R=935m].
+9430312 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[14:44:36] gc-after-hook(): {G#107 N=122m O=0 E=53%} [S=945m R=935m].
+[14:44:44] gc-after-hook(): {L#108 N=13m O=0 E=95%} [S=945m R=935m].
+[14:44:56] gc-after-hook(): {L#109 N=48m O=514k E=95%} [S=945m R=935m].
+[14:45:07] gc-after-hook(): {L#110 N=55m O=783k E=94%} [S=945m R=935m].
+[14:45:16] gc-after-hook(): {L#111 N=48m O=1.3M E=93%} [S=945m R=935m].
+[14:45:25] gc-after-hook(): {L#112 N=57m O=2.0M E=93%} [S=945m R=935m].
+[14:45:34] gc-after-hook(): {L#113 N=51m O=1.7M E=93%} [S=945m R=935m].
+[14:45:45] gc-after-hook(): {L#114 N=123m O=717k E=91%} [S=945m R=935m].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by det synes som om han kommer
+[14:45:52] gc-after-hook(): {L#115 N=16m O=1008k E=95%} [S=945m R=935m].
+[14:46:04] gc-after-hook(): {L#116 N=106m O=986k E=92%} [S=945m R=935m].
+9311808 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[14:46:14] gc-after-hook(): {G#116 N=15m O=0 E=53%} [S=945m R=935m].
+[14:46:25] gc-after-hook(): {L#117 N=65m O=0 E=94%} [S=945m R=935m].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by han synes som om han kommer
+[14:46:36] gc-after-hook(): {L#118 N=9.1M O=0 E=97%} [S=945m R=935m].
+[14:46:48] gc-after-hook(): {L#119 N=83m O=148k E=93%} [S=945m R=935m].
+[14:46:54] gc-after-hook(): {L#120 N=30m O=27k E=94%} [S=945m R=935m].
+[14:47:02] gc-after-hook(): {L#121 N=45m O=131k E=94%} [S=945m R=935m].
+[14:47:09] gc-after-hook(): {L#122 N=9.1M O=5.2K E=96%} [S=945m R=935m].
+[14:47:19] gc-after-hook(): {L#123 N=21m O=726k E=96%} [S=945m R=935m].
+[14:47:28] gc-after-hook(): {L#124 N=50m O=327k E=94%} [S=945m R=935m].
+[14:47:40] gc-after-hook(): {L#125 N=37m O=1017k E=95%} [S=945m R=935m].
+[14:47:51] gc-after-hook(): {L#126 N=11m O=189k E=97%} [S=945m R=935m].
+[14:48:02] gc-after-hook(): {L#127 N=20m O=162k E=97%} [S=945m R=935m].
+[14:48:13] gc-after-hook(): {L#128 N=9.7M O=1.3M E=97%} [S=945m R=935m].
+[14:48:24] gc-after-hook(): {L#129 N=27m O=1.5M E=96%} [S=945m R=935m].
+[14:48:37] gc-after-hook(): {L#130 N=21m O=646k E=97%} [S=945m R=935m].
+[14:48:49] gc-after-hook(): {L#131 N=15m O=71k E=97%} [S=945m R=935m].
+[14:49:01] gc-after-hook(): {L#132 N=12m O=236k E=97%} [S=945m R=935m].
+[14:49:13] gc-after-hook(): {L#133 N=13m O=1.3M E=97%} [S=945m R=935m].
+[14:49:26] gc-after-hook(): {L#134 N=13m O=2.1M E=97%} [S=945m R=935m].
+10401992 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[14:49:43] gc-after-hook(): {G#134 N=9.9M O=0 E=70%} [S=945m R=935m].
+[14:49:56] gc-after-hook(): {L#135 N=19m O=0 E=97%} [S=945m R=935m].
+[14:50:08] gc-after-hook(): {L#136 N=20m O=680k E=97%} [S=945m R=935m].
+[14:50:19] gc-after-hook(): {L#137 N=64m O=2.2M E=93%} [S=945m R=935m].
+[14:50:28] gc-after-hook(): {L#138 N=31m O=615k E=95%} [S=945m R=935m].
+[14:50:39] gc-after-hook(): {L#139 N=21m O=2.1M E=96%} [S=945m R=935m].
+[14:50:39] gc-after-hook(): 33m tenured; forcing global gc().
+[14:50:44] gc-after-hook(): {GR#20 N=21m O=0 E=0%} [S=945m R=935m].
+[14:50:53] gc-after-hook(): {L#140 N=23m O=0 E=96%} [S=945m R=935m].
+[14:51:03] gc-after-hook(): {L#141 N=116m O=1.6M E=89%} [S=945m R=935m].
+[14:51:11] gc-after-hook(): {L#142 N=54m O=527k E=92%} [S=945m R=935m].
+[14:51:19] gc-after-hook(): {L#143 N=20m O=2.8M E=95%} [S=945m R=935m].
+[14:51:31] gc-after-hook(): {L#144 N=104m O=6.2K E=92%} [S=945m R=935m].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by han synes meg i godt humør
+[14:51:39] gc-after-hook(): {L#145 N=8.0M O=212k E=97%} [S=945m R=935m].
+[14:51:50] gc-after-hook(): {L#146 N=60m O=39k E=94%} [S=945m R=935m].
+[14:52:00] gc-after-hook(): {L#147 N=131m O=389k E=90%} [S=945m R=935m].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by han synes meg som en idiot 
+[14:52:08] gc-after-hook(): {L#148 N=35m O=457k E=94%} [S=945m R=935m].
+[14:52:20] gc-after-hook(): {L#149 N=108m O=415k E=92%} [S=945m R=935m].
+8812936 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by Ola viser seg som venn
+[14:52:32] gc-after-hook(): {G#149 N=43m O=0 E=55%} [S=945m R=935m].
+[14:52:42] gc-after-hook(): {L#150 N=78m O=0 E=92%} [S=945m R=935m].
+[14:52:49] gc-after-hook(): {L#151 N=38m O=220k E=94%} [S=945m R=935m].
+[14:52:58] gc-after-hook(): {L#152 N=18m O=745k E=96%} [S=945m R=935m].
+[14:53:04] gc-after-hook(): {L#153 N=12m O=236k E=96%} [S=945m R=935m].
+[14:53:14] gc-after-hook(): {L#154 N=15m O=56k E=97%} [S=945m R=935m].
+[14:53:25] gc-after-hook(): {L#155 N=22m O=707k E=97%} [S=945m R=935m].
+[14:53:34] gc-after-hook(): {L#156 N=35m O=202k E=95%} [S=945m R=935m].
+[14:53:43] gc-after-hook(): {L#157 N=109m O=101k E=91%} [S=945m R=935m].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg anser det for å komme mange gutter
+[14:53:50] gc-after-hook(): {L#158 N=12m O=707k E=96%} [S=945m R=935m].
+[14:53:59] gc-after-hook(): {L#159 N=53m O=1.2M E=94%} [S=945m R=935m].
+[14:54:09] gc-after-hook(): {L#160 N=122m O=1.7M E=90%} [S=945m R=935m].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by hun viser seg som Olas venn
+[14:54:15] gc-after-hook(): {L#161 N=22m O=101k E=94%} [S=945m R=935m].
+[14:54:23] gc-after-hook(): {L#162 N=118m O=356k E=89%} [S=945m R=935m].
+[14:54:29] gc-after-hook(): {L#163 N=24m O=1.1M E=93%} [S=945m R=935m].
+[14:54:38] gc-after-hook(): {L#164 N=28m O=50k E=96%} [S=945m R=935m].
+[14:54:47] gc-after-hook(): {L#165 N=43m O=143k E=95%} [S=945m R=935m].
+[14:54:57] gc-after-hook(): {L#166 N=124m O=870k E=90%} [S=945m R=935m].
+8866016 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by hun gjorde det mulig at Ola fikk komme
+[14:55:07] gc-after-hook(): {G#166 N=23m O=0 E=54%} [S=945m R=935m].
+[14:55:16] gc-after-hook(): {L#167 N=17m O=0 E=96%} [S=945m R=935m].
+[14:55:25] gc-after-hook(): {L#168 N=12m O=1.2M E=97%} [S=945m R=935m].
+[14:55:35] gc-after-hook(): {L#169 N=71m O=1.1M E=94%} [S=945m R=935m].
+[14:55:42] gc-after-hook(): {L#170 N=28m O=139k E=95%} [S=945m R=935m].
+[14:55:52] gc-after-hook(): {L#171 N=79m O=811k E=93%} [S=945m R=935m].
+[14:56:01] gc-after-hook(): {L#172 N=146m O=315k E=88%} [S=945m R=935m].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by hun spylte det rent i rommet
+[14:56:07] gc-after-hook(): {L#173 N=44m O=679k E=92%} [S=945m R=935m].
+[14:56:17] gc-after-hook(): {L#174 N=120m O=598k E=91%} [S=945m R=935m].
+[14:56:20] gc-after-hook(): {L#175 N=7.7M O=828k E=94%} [S=945m R=935m].
+[14:56:30] gc-after-hook(): {L#176 N=66m O=190k E=94%} [S=945m R=935m].
+[14:56:38] gc-after-hook(): {L#177 N=139m O=84k E=88%} [S=945m R=935m].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by han sang seg i god form 
+[14:56:44] gc-after-hook(): {L#178 N=8.1M O=356k E=96%} [S=945m R=935m].
+[14:56:53] gc-after-hook(): {L#179 N=8.4M O=36k E=97%} [S=945m R=935m].
+[14:57:04] gc-after-hook(): {L#180 N=24m O=388k E=97%} [S=945m R=935m].
+[14:57:14] gc-after-hook(): {L#181 N=107m O=178k E=92%} [S=945m R=935m].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by det viser seg om han kommer
+[14:57:20] gc-after-hook(): {L#182 N=15m O=153k E=96%} [S=945m R=935m].
+[14:57:31] gc-after-hook(): {L#183 N=23m O=2.1M E=96%} [S=945m R=935m].
+9526232 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[14:57:45] gc-after-hook(): {G#183 N=55m O=0 E=59%} [S=945m R=935m].
+[14:57:53] gc-after-hook(): {L#184 N=131m O=0 E=89%} [S=945m R=935m].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by det synes fint at han kommer
+[14:58:00] gc-after-hook(): {L#185 N=42m O=120k E=93%} [S=945m R=935m].
+[14:58:09] gc-after-hook(): {L#186 N=121m O=401k E=90%} [S=945m R=935m].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by det synes fint å komme
+[14:58:16] gc-after-hook(): {L#187 N=33m O=1.6M E=93%} [S=945m R=935m].
+[14:58:25] gc-after-hook(): {L#188 N=115m O=716k E=91%} [S=945m R=935m].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by det synes uvisst om han kommer
+[14:58:32] gc-after-hook(): {L#189 N=31m O=0 E=95%} [S=945m R=935m].
+[14:58:41] gc-after-hook(): {L#190 N=114m O=18k E=91%} [S=945m R=935m].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by det synes uvisst hvem som kommer
+[14:58:48] gc-after-hook(): {L#191 N=9.6M O=114k E=96%} [S=945m R=935m].
+[14:58:58] gc-after-hook(): {L#192 N=14m O=54k E=97%} [S=945m R=935m].
+[14:59:09] gc-after-hook(): {L#193 N=40m O=1.2M E=95%} [S=945m R=935m].
+[14:59:18] gc-after-hook(): {L#194 N=37m O=120k E=94%} [S=945m R=935m].
+[14:59:27] gc-after-hook(): {L#195 N=46m O=798k E=94%} [S=945m R=935m].
+[14:59:37] gc-after-hook(): {L#196 N=44m O=1.4M E=95%} [S=945m R=935m].
+[14:59:47] gc-after-hook(): {L#197 N=24m O=831k E=96%} [S=945m R=935m].
+[14:59:56] gc-after-hook(): {L#198 N=105m O=422k E=90%} [S=945m R=935m].
+[15:00:01] gc-after-hook(): {L#199 N=173m O=885k E=74%} [S=945m R=935m].
+[15:00:01] gc-after-hook(): 32m tenured; forcing global gc().
+[15:00:09] gc-after-hook(): {GR#24 N=171m O=1.3M E=0%} [S=948m R=937m].
+[15:00:12] gc-after-hook(): {L#200 N=216m O=0 E=63%} [S=948m R=937m].
+[15:00:15] gc-after-hook(): {L#201 N=15m O=1.5M E=89%} [S=948m R=937m].
+[15:00:24] gc-after-hook(): {L#202 N=18m O=60k E=97%} [S=948m R=937m].
+[15:00:34] gc-after-hook(): {L#203 N=10.0M O=0 E=97%} [S=948m R=937m].
+[15:00:44] gc-after-hook(): {L#204 N=17m O=141k E=97%} [S=948m R=937m].
+[15:00:53] gc-after-hook(): {L#205 N=14m O=413k E=97%} [S=948m R=937m].
+[15:01:03] gc-after-hook(): {L#206 N=53m O=1.3M E=94%} [S=948m R=937m].
+[15:01:10] gc-after-hook(): {L#207 N=28m O=447k E=95%} [S=948m R=937m].
+[15:01:20] gc-after-hook(): {L#208 N=104m O=200k E=92%} [S=948m R=937m].
+[15:01:27] gc-after-hook(): {L#209 N=156m O=1.3M E=85%} [S=948m R=937m].
+[15:01:32] gc-after-hook(): {L#210 N=197m O=666k E=72%} [S=948m R=937m].
+[15:01:40] gc-after-hook(): {L#211 N=-151209664 O=25m E=29%} [S=986m R=975m].
+33431240 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[15:01:53] gc-after-hook(): {G#211 N=212m O=3.8M E=16%} [S=1.1G R=1.1G].
+[15:01:57] gc-after-hook(): {L#212 N=251m O=0 E=61%} [S=1.1G R=1.1G].
+[15:02:07] gc-after-hook(): {L#213 N=-315089728 O=113m E=22%} [S=1.2G R=1.2G].
+[15:02:07] gc-after-hook(): 144m tenured; forcing global gc().
+[15:02:16] gc-after-hook(): {GR#26 N=124m O=0 E=0%} [S=1.4G R=1.2G].
+118138728 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+[15:02:34] gc-after-hook(): {G#213 N=213m O=0 E=38%} [S=1.4G R=1.3G].
+[15:02:40] gc-after-hook(): {L#214 N=276m O=0 E=75%} [S=1.4G R=1.3G].
+[15:02:46] gc-after-hook(): {L#215 N=301m O=19m E=63%} [S=1.4G R=1.4G].
+19675608 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+Memory allocation problem: An explicit gc call caused tenuring and a need for 125566976 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by hvorvidt han kommer først vil fortelle oss hvorvidt de har en plan
+[15:03:13] gc-after-hook(): {L#216 N=107m O=0 E=67%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 125566976 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by hvorvidt han kommer først forteller oss ikke hvem som kommer sist
+[15:03:41] gc-after-hook(): {L#217 N=94m O=0 E=89%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 125566976 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by at han kommer viser oss at han er skyldig
+[15:04:06] gc-after-hook(): {L#218 N=155m O=8 E=82%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 130809856 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by at han kommer viser oss hvorvidt han er skyldig
+[15:04:26] gc-after-hook(): {L#219 N=143m O=0 E=80%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 132907008 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by at han kommer viser oss hvem som er skyldig
+[15:04:47] gc-after-hook(): {L#220 N=91m O=0 E=82%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 132120576 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by hvorvidt han kommer er et spørsmål
+[15:05:14] gc-after-hook(): {L#221 N=131m O=0 E=86%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 134217728 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by hvorvidt han får synge er under vurdering 
+[15:05:41] gc-after-hook(): {L#222 N=181m O=0 E=84%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 136052736 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by hvem som får synge er under vurdering 
+[15:06:00] gc-after-hook(): {L#223 N=122m O=0 E=76%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 138149888 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by hvorvidt soldatene lystrer er som et lottospill 
+[15:06:23] gc-after-hook(): {L#224 N=95m O=0 E=87%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 144 bytes caused tenuring and a need for 138936320 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by det er uvisst hvem som kommer
+[15:06:49] gc-after-hook(): {L#225 N=101m O=0 E=86%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 137887744 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by det er for andre gang at han taper 
+[15:07:11] gc-after-hook(): {L#226 N=154m O=0 E=78%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 137887744 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by det er fint i Finnmark 
+[15:07:36] gc-after-hook(): {L#227 N=97m O=0 E=87%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 139198464 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ligger ved elven, bak skogen
+[15:08:04] gc-after-hook(): {L#228 N=107m O=0 E=86%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 140509184 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg går opp hit gjennom skogen til fjellet fra elven
+[15:08:29] gc-after-hook(): {L#229 N=98m O=0 E=85%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 145489920 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by de spiller fra fem til syv
+[15:08:54] gc-after-hook(): {L#230 N=116m O=0 E=81%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 146276352 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by en vei bortover langs elven går her
+[15:09:22] gc-after-hook(): {L#231 N=104m O=0 E=88%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 146538496 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg går nedover, langs elven
+[15:09:52] gc-after-hook(): {L#232 N=157m O=0 E=85%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg har her nede sovet i tre timer
+Memory allocation problem: An explicit gc call caused tenuring and a need for 146800640 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg har her i skogen sovet i tre timer
+[15:10:19] gc-after-hook(): {L#233 N=176m O=0 E=85%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by på tur har jeg her nede sovet i tre timer
+Memory allocation problem: An explicit gc call caused tenuring and a need for 147324928 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by på tur har jeg her i skogen sovet i tre timer
+[15:10:45] gc-after-hook(): {L#234 N=178m O=0 E=85%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by hun vet at jeg her nede har sovet i tre timer
+Memory allocation problem: An explicit gc call caused tenuring and a need for 147324928 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by hun vet at jeg her i skogen har sovet i tre timer
+[15:11:13] gc-after-hook(): {L#235 N=99m O=0 E=87%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 146800640 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by gutten løper her nede i skogen
+[15:11:39] gc-after-hook(): {L#236 N=106m O=0 E=85%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 146538496 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg spiser koteletter på to minutter i to dager
+[15:12:05] gc-after-hook(): {L#237 N=132m O=0 E=85%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 147324928 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by mannen går langs elven, over brua og til skogen på to timer
+[15:12:30] gc-after-hook(): {L#238 N=110m O=0 E=85%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 146800640 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by turen går på bro over elva og på bro over elva
+[15:12:56] gc-after-hook(): {L#239 N=170m O=0 E=81%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by turen går på bro over en bekk og på bro over en elv
+Memory allocation problem: An explicit gc call caused tenuring and a need for 148897792 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by turen går videre i myret terreng
+[15:13:22] gc-after-hook(): {L#240 N=169m O=0 E=84%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by turen går videre i myret terreng opp gjennom lia
+Memory allocation problem: An explicit gc call caused tenuring and a need for 152829952 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by turen går inn gjennom skaret mellom elva og fjellet
+[15:13:48] gc-after-hook(): {L#241 N=192m O=0 E=83%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by turen går over myrer og inn gjennom skaret mellom elva og fjellet
+Memory allocation problem: An explicit gc call caused tenuring and a need for 152829952 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by ruta til Gjevilvasshytta går opp til skogen ved foten av fjellet
+[15:14:13] gc-after-hook(): {L#242 N=104m O=0 E=86%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 152567808 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by hver av de glade guttene smiler
+[15:14:42] gc-after-hook(): {L#243 N=106m O=0 E=87%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 153092096 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by hver av de tre gode vinene renner
+[15:15:07] gc-after-hook(): {L#244 N=155m O=0 E=79%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 155189248 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by få av de ni guttene smiler
+[15:15:32] gc-after-hook(): {L#245 N=102m O=0 E=86%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 154402816 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by et dusin ballene ligger
+[15:15:59] gc-after-hook(): {L#246 N=103m O=0 E=86%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 154402816 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Ola løper torsdag klokka tre trettifem
+[15:16:26] gc-after-hook(): {L#247 N=198m O=0 E=81%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by Ola løper torsdag ettermiddag klokka tre trettifem
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 155713536 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Ola finner to tjue
+[15:16:49] gc-after-hook(): {L#248 N=202m O=0 E=81%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 155713536 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by tre tusen fire hundre og femti ligger
+[15:17:12] gc-after-hook(): {L#249 N=111m O=0 E=85%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 155975680 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping collision. caused by jeg ser et gutt
+[15:17:33] gc-after-hook(): {L#250 N=111m O=0 E=81%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 156237824 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping collision. caused by jeg ser noen viner
+[15:17:59] gc-after-hook(): {L#251 N=107m O=0 E=85%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 157548544 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping collision. caused by jeg ser en god vin
+[15:18:23] gc-after-hook(): {L#252 N=167m O=0 E=77%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 157548544 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping collision. caused by jeg ser mye god vin
+[15:18:43] gc-after-hook(): {L#253 N=153m O=0 E=74%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 158072832 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser noen tre glade gutter
+[15:19:07] gc-after-hook(): {L#254 N=191m O=0 E=81%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg ser fire tre glade gutter
+Memory allocation problem: An explicit gc call caused tenuring and a need for 158334976 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser tre glade hyggelige gutter
+[15:19:31] gc-after-hook(): {L#255 N=197m O=0 E=82%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 158859264 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser tre glad gutter
+[15:19:53] gc-after-hook(): {L#256 N=180m O=0 E=79%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 159383552 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser den glade gutt
+[15:20:17] gc-after-hook(): {L#257 N=199m O=0 E=81%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg ser de tre glade guttene
+Memory allocation problem: An explicit gc call caused tenuring and a need for 158859264 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser de tre gode vinene
+[15:20:40] gc-after-hook(): {L#258 N=194m O=0 E=80%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg ser de tre gode vin
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 159121408 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser de glade guttene
+[15:21:04] gc-after-hook(): {L#259 N=106m O=0 E=85%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 159645696 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser hver av de glade guttene
+[15:21:28] gc-after-hook(): {L#260 N=177m O=0 E=79%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 159907840 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser hver av de tre glade guttene
+[15:21:48] gc-after-hook(): {L#261 N=154m O=0 E=73%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 159907840 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser hver av de tre gode vinene
+[15:22:08] gc-after-hook(): {L#262 N=158m O=0 E=73%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 160432128 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser noen av de ni guttene
+[15:22:29] gc-after-hook(): {L#263 N=157m O=0 E=74%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 160432128 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser noe av den gode vinen
+[15:22:50] gc-after-hook(): {L#264 N=157m O=0 E=74%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 161218560 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser ingen av de ni guttene
+[15:23:10] gc-after-hook(): {L#265 N=159m O=0 E=73%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 160432128 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser få av de ni guttene
+[15:23:29] gc-after-hook(): {L#266 N=107m O=0 E=75%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 160169984 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser alle de tre guttene
+[15:23:54] gc-after-hook(): {L#267 N=179m O=0 E=78%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 160694272 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser all den gode vinen
+[15:24:13] gc-after-hook(): {L#268 N=111m O=0 E=75%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 162004992 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser alle mine gode viner
+[15:24:39] gc-after-hook(): {L#269 N=107m O=0 E=84%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 160956416 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser den glade gutten min
+[15:25:01] gc-after-hook(): {L#270 N=109m O=0 E=78%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 161218560 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser gutten sitt bygd
+[15:25:23] gc-after-hook(): {L#271 N=114m O=0 E=82%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 161480704 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser guttens ball
+[15:25:47] gc-after-hook(): {L#272 N=109m O=0 E=82%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 162004992 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser en sekk poteter
+[15:26:11] gc-after-hook(): {L#273 N=187m O=0 E=79%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163577856 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser et par dusin esker baller
+[15:26:31] gc-after-hook(): {L#274 N=131m O=0 E=83%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163315712 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser et hav av katter
+[15:26:53] gc-after-hook(): {L#275 N=166m O=0 E=75%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 165412864 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser et hav av kattene
+[15:27:13] gc-after-hook(): {L#276 N=110m O=0 E=77%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 165412864 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola en fjell
+[15:27:38] gc-after-hook(): {L#277 N=111m O=0 E=84%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164364288 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola en glad gutt
+[15:28:04] gc-after-hook(): {L#278 N=188m O=0 E=80%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 163577856 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola mye god vin
+[15:28:27] gc-after-hook(): {L#279 N=124m O=0 E=82%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163053568 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola fire tre glade gutter
+[15:28:55] gc-after-hook(): {L#280 N=195m O=0 E=83%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg unner Ola tre glade hyggelige gutter
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163577856 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola tre glade gutt
+[15:29:19] gc-after-hook(): {L#281 N=133m O=0 E=84%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 24 bytes caused tenuring and a need for 164102144 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola den glade gutt
+[15:29:45] gc-after-hook(): {L#282 N=186m O=0 E=81%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg unner Ola de tre glade guttene
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163840000 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola de tre gode vinene
+[15:30:09] gc-after-hook(): {L#283 N=188m O=0 E=81%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg unner Ola de tre gode vin
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164364288 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola de glade guttene
+[15:30:34] gc-after-hook(): {L#284 N=125m O=0 E=84%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163053568 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola hver av de glade guttene
+[15:30:58] gc-after-hook(): {L#285 N=166m O=0 E=77%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 163577856 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola hver av de tre glade guttene
+[15:31:19] gc-after-hook(): {L#286 N=157m O=0 E=75%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164102144 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola hver av de tre gode vinene
+[15:31:40] gc-after-hook(): {L#287 N=157m O=0 E=75%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164102144 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola noen av de ni guttene
+[15:32:02] gc-after-hook(): {L#288 N=157m O=0 E=75%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164102144 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola noe av den gode vinen
+[15:32:23] gc-after-hook(): {L#289 N=158m O=0 E=75%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164626432 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola ingen av de ni guttene
+[15:32:44] gc-after-hook(): {L#290 N=158m O=0 E=75%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 163053568 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola få av de ni guttene
+[15:33:06] gc-after-hook(): {L#291 N=110m O=0 E=77%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 162267136 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola alle de tre guttene
+[15:33:31] gc-after-hook(): {L#292 N=173m O=0 E=78%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg unner Ola all den gode vinen
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163315712 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola mine tre gutter
+[15:33:55] gc-after-hook(): {L#293 N=136m O=0 E=84%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164102144 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola vinen min
+[15:34:20] gc-after-hook(): {L#294 N=109m O=0 E=85%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163577856 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola gutten si bygd
+[15:34:43] gc-after-hook(): {L#295 N=147m O=0 E=78%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 161218560 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola Olas gutt
+[15:35:05] gc-after-hook(): {L#296 N=114m O=0 E=82%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 162004992 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola en sekk poteter
+[15:35:30] gc-after-hook(): {L#297 N=198m O=0 E=79%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 162267136 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola et par dusin esker baller
+[15:35:52] gc-after-hook(): {L#298 N=129m O=0 E=82%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 162267136 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola et hav av katter
+[15:36:15] gc-after-hook(): {L#299 N=164m O=0 E=76%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164102144 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg unner Ola et hav av kattene
+[15:36:36] gc-after-hook(): {L#300 N=110m O=0 E=79%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163053568 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om et gutt
+[15:37:03] gc-after-hook(): {L#301 N=121m O=0 E=84%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 162529280 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om ingen gutt
+[15:37:30] gc-after-hook(): {L#302 N=145m O=0 E=84%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163053568 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om en god vin
+[15:37:55] gc-after-hook(): {L#303 N=179m O=0 E=79%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg snakker om mye god vin
+Memory allocation problem: An explicit gc call caused tenuring and a need for 162791424 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om tre glade gutter
+[15:38:20] gc-after-hook(): {L#304 N=118m O=0 E=85%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 162791424 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om fire tre glade gutter
+[15:38:45] gc-after-hook(): {L#305 N=167m O=0 E=78%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg snakker om tre glade hyggelige gutter
+Memory allocation problem: An allocation request for 144 bytes caused tenuring and a need for 163577856 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om tre glade gutt
+[15:39:11] gc-after-hook(): {L#306 N=119m O=0 E=86%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163315712 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om glade gutten
+[15:39:38] gc-after-hook(): {L#307 N=126m O=0 E=85%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164102144 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om de tre glade guttene
+[15:40:01] gc-after-hook(): {L#308 N=166m O=0 E=77%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg snakker om de tre gode vinene
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163577856 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om de tre gode vin
+[15:40:27] gc-after-hook(): {L#309 N=141m O=0 E=83%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164364288 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om glade guttene
+[15:40:53] gc-after-hook(): {L#310 N=188m O=0 E=82%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg snakker om hver av de glade guttene
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 164102144 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om hver av de tre glade guttene
+[15:41:19] gc-after-hook(): {L#311 N=191m O=0 E=82%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg snakker om hver av de tre gode vinene
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163840000 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om noen av de ni guttene
+[15:41:45] gc-after-hook(): {L#312 N=189m O=0 E=82%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg snakker om noe av den gode vinen
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 164102144 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om ingen av de ni guttene
+[15:42:12] gc-after-hook(): {L#313 N=188m O=0 E=84%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg snakker om få av de ni guttene
+Memory allocation problem: An explicit gc call caused tenuring and a need for 162529280 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om ni av guttene
+[15:42:37] gc-after-hook(): {L#314 N=134m O=0 E=85%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 162267136 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om alle de tre guttene
+[15:42:59] gc-after-hook(): {L#315 N=160m O=0 E=77%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 164626432 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om all den gode vinen
+[15:43:20] gc-after-hook(): {L#316 N=110m O=0 E=78%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 164888576 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om alle mine gode viner
+[15:43:47] gc-after-hook(): {L#317 N=121m O=0 E=85%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164102144 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om den glade gutten min
+[15:44:12] gc-after-hook(): {L#318 N=113m O=0 E=83%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164364288 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om gutten sin ball
+[15:44:37] gc-after-hook(): {L#319 N=120m O=0 E=85%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163315712 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om en gutts ball
+[15:45:04] gc-after-hook(): {L#320 N=145m O=0 E=84%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164626432 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om en sekk med poteter
+[15:45:30] gc-after-hook(): {L#321 N=192m O=0 E=81%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg snakker om et par dusin esker baller
+Memory allocation problem: An explicit gc call caused tenuring and a need for 166199296 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om et dusin ballene
+[15:45:54] gc-after-hook(): {L#322 N=189m O=0 E=82%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by jeg snakker om et hav av katter
+Memory allocation problem: An explicit gc call caused tenuring and a need for 168558592 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg snakker om et hav av kattene
+[15:46:18] gc-after-hook(): {L#323 N=110m O=0 E=85%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 165937152 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Ola er en lengre mann enn Per
+[15:46:45] gc-after-hook(): {L#324 N=152m O=0 E=82%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 165675008 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Ola er en to centimeter lengre mann enn Per
+[15:47:09] gc-after-hook(): {L#325 N=135m O=0 E=83%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 166723584 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Ola er mer enn to centimeter mer storvokst enn Per
+[15:47:32] gc-after-hook(): {L#326 N=183m O=0 E=79%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 168820736 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Ola er atskillig mer enn to centimeter mer storvokst enn Per
+[15:47:52] gc-after-hook(): {L#327 N=158m O=0 E=72%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 168820736 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Ola er en mer enn to centimeter lengre mann enn Per
+[15:48:13] gc-after-hook(): {L#328 N=164m O=0 E=74%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 169607168 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Ola er en mer enn to centimeter mer storvokst mann enn Per
+[15:48:33] gc-after-hook(): {L#329 N=162m O=0 E=73%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 169869312 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Ola er en atskillig mer enn to centimeter mer storvokst mann enn Per
+[15:48:53] gc-after-hook(): {L#330 N=112m O=0 E=78%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 167772160 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by En mer enn to centimeter lengre mann enn Per sover
+[15:49:18] gc-after-hook(): {L#331 N=181m O=0 E=79%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by En mye mer enn to centimeter lengre mann enn Per sover
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 167510016 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by En hvor mye mer enn to centimeter lengre mann enn Per sover
+[15:49:43] gc-after-hook(): {L#332 N=198m O=0 E=81%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by En mer enn to centimeter mer storvokst mann enn Per sover
+Memory allocation problem: An explicit gc call caused tenuring and a need for 168296448 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping collision. caused by Svært mye vin renner
+[15:50:07] gc-after-hook(): {L#333 N=142m O=0 E=83%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 166199296 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Hvor lite mer vin enn vann renner?
+[15:50:31] gc-after-hook(): {L#334 N=115m O=0 E=84%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 166461440 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Hvor få gutter løper?
+[15:50:58] gc-after-hook(): {L#335 N=175m O=0 E=83%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 165412864 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by gutten har ikke sovet
+[15:51:21] gc-after-hook(): {L#336 N=146m O=0 E=83%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164626432 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by gutten har sovet ikke
+[15:51:42] gc-after-hook(): {L#337 N=122m O=0 E=81%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 144 bytes caused tenuring and a need for 166199296 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg vet at gutten har sovet ved myra
+[15:52:05] gc-after-hook(): {L#338 N=127m O=0 E=80%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 167510016 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by hva har gutten spist?
+[15:52:32] gc-after-hook(): {L#339 N=112m O=0 E=86%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 166199296 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser eplet som gutten spiser
+[15:52:57] gc-after-hook(): {L#340 N=110m O=0 E=84%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164364288 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping collision. caused by ballen kastes
+[15:53:22] gc-after-hook(): {L#341 N=147m O=0 E=82%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163577856 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by det kastes en ball til Ola
+[15:53:43] gc-after-hook(): {L#342 N=128m O=0 E=75%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 164626432 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by en ball overlates meg ikke
+[15:54:05] gc-after-hook(): {L#343 N=113m O=0 E=76%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 165150720 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by det blir kastet en ball
+[15:54:28] gc-after-hook(): {L#344 N=188m O=0 E=79%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 164888576 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by det blir kastet en ball til Ola
+[15:54:45] gc-after-hook(): {L#345 N=168m O=0 E=61%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 165150720 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by det blir overlatt Ola en ball
+[15:55:06] gc-after-hook(): {L#346 N=155m O=0 E=80%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 165937152 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping collision. caused by Ola fryktes ankommet
+[15:55:29] gc-after-hook(): {L#347 N=110m O=0 E=84%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164364288 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by en gul og gammel mann sover
+[15:55:51] gc-after-hook(): {L#348 N=108m O=0 E=79%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164102144 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping collision. caused by går Ola hit.
+[15:56:18] gc-after-hook(): {L#349 N=108m O=0 E=86%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163840000 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Ola fortærer maten sin
+[15:56:45] gc-after-hook(): {L#350 N=114m O=0 E=85%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 162529280 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Ola gir en bok om seg til naboen sin
+[15:57:12] gc-after-hook(): {L#351 N=188m O=0 E=82%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by Ola gir seg selv ballen sin
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163315712 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Ola gir seg selv seg selv
+[15:57:35] gc-after-hook(): {L#352 N=200m O=0 E=79%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 164888576 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by jeg ser Ola vaske seg
+[15:57:56] gc-after-hook(): {L#353 N=200m O=0 E=78%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 163840000 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Ola løper femten hundre meter på tre trettifem
+[15:58:20] gc-after-hook(): {L#354 N=184m O=0 E=81%} [S=1.4G R=1.4G].
+Error: next-active-edge(): edge limit exhausted (see `*maximum-number-of-edges*') caused by Ola løp femten hundre meter på tre trettifem torsdag klokka tre førtifem
+Memory allocation problem: An explicit gc call caused tenuring and a need for 165675008 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping collision. caused by Grenen brakk.
+[15:58:44] gc-after-hook(): {L#355 N=149m O=0 E=84%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 166199296 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Ola veddet en sigarett med Embla på at Ask sov.
+[15:59:08] gc-after-hook(): {L#356 N=125m O=0 E=79%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 144 bytes caused tenuring and a need for 165937152 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Katten jaget én.
+[15:59:35] gc-after-hook(): {L#357 N=124m O=0 E=85%} [S=1.4G R=1.4G].
+Memory allocation problem: An allocation request for 48 bytes caused tenuring and a need for 166461440 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Hunden ble jaget av Embla.
+[16:00:02] gc-after-hook(): {L#358 N=111m O=0 E=84%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 166199296 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping collision. caused by Katten er i haven.
+[16:00:31] gc-after-hook(): {L#359 N=111m O=0 E=86%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 166461440 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Embla presset inn katten.
+[16:00:59] gc-after-hook(): {L#360 N=137m O=0 E=84%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 165412864 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping collision. caused by Ola synes å bjeffe.
+[16:01:24] gc-after-hook(): {L#361 N=180m O=0 E=82%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 166461440 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Ola likte idéen at Embla kunne bjeffe.
+[16:01:49] gc-after-hook(): {L#362 N=113m O=0 E=85%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 168034304 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Det plaget Embla at Ola jaget katter.
+[16:02:14] gc-after-hook(): {L#363 N=163m O=0 E=80%} [S=1.4G R=1.4G].
+Memory allocation problem: An explicit gc call caused tenuring and a need for 169082880 more bytes of heap.  The operating system will not make the space available because of a lack of swap space or some other operating system imposed limit or memory mapping
+                           collision. caused by Det var katter i haven.
+[16:02:38] gc-after-hook(): {L#364 N=114m O=0 E=84%} [S=1.4G R=1.4G].
+
+;;; Finished test file

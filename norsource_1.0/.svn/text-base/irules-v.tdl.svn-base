@@ -1,0 +1,158 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource -
+;;; 
+;;;    Copyright (c)  NorSource 1.0
+;;;                     
+;;;
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    
+;;;
+;;;
+;;;          irules-v.tdl
+;;;       inflectional rules for verbs
+
+%(letter-set (!h klnsfpdgrtu))
+%(letter-set (!i kpgtnfdvsl))
+
+%(letter-set (!a abcdefghijklmnopqrstuvwxyzæøå)) ; any letter
+%(letter-set (!k bcdfghjklmnpqrstvwxz)) ; not vowel
+
+;;;;;;;;;;;;; VERBS ;;;;;;;;;;;;;;;
+
+
+;;; DPF addenda
+
+; reduplication with same-named in irules-mal.tdl; but not comment out, according to Elias.
+mal-past-inf-like-1_infl_rule := never_unify_lr.
+mal-past-inf-like-2_infl_rule := never_unify_lr.
+
+
+pres-infl_rule :=
+%suffix (* r)(s s)
+infl-pres-verb-word.
+
+;pres-const_infl_rule :=
+;infl-pres-verb-word &
+;[ ARGS < [ INFLECTION nonfstr ] > ].
+
+
+pret-finalstr_infl_rule :=
+%suffix (e edde)(a adde)(o odde)(ø ødde)(å ådde)(u udde)(i idde)(æ ædde)(y ydde)
+infl-pret-verb-word &
+[ ARGS < [ INFLECTION finstr ] > ].
+
+#| Old, general rule. Replaced by the following three rules to model different conjugation classes.
+pret-nonfstr_infl_rule :=
+%suffix (ge get)(ge gte)(de det)(ve vet)(ke ket)(le let)(me met)(ne net)(pe pet)(re ret)(se set)(te tet)(ge gde)(ve vde)(ke kte)(le lte)(me mte)(ne nte)(pe pte)(re rte)(se ste)(dde ddet)(gge gget)(ffe ffet)(kke kket)(lle llet)(lle lte)(mme mte)(nne nnet)(nne nte)(ppe ppet)(rre rret)(sse sset)(eie eiet)(øye øyet)(aie aiet)(eie eide)(øye øyde)(aie aide)(kes ktes)(les ltes)(mes mtes)(nes ntes)(pes ptes)(res redes)(tes tedes)(des dedes)(ves vdes)(kkes ktes)(lles ltes)(mmes mtes)(nnes ntes)(ppes ptes)
+infl-pret-verb-word &
+[ ARGS < [ INFLECTION nonfstr ] > ].
+|#
+
+;; Used only for strong verbs. Given the same name as the old rule, to make sure the irregs-files still apply.
+;; The %suffix is given to avoid that this rule applies normally, without resorting to the irregs-files.
+pret-nonfstr_infl_rule :=
+%suffix (donot unify)
+infl-pret-verb-word &
+[ ARGS < [ INFLECTION nonfstr-strong ] > ].
+
+pret-nonfstr-te_infl_rule := 
+%suffix (e te) (ffe fte) (kke kte) (lle lte) (nne nte) (ppe pte) (mme mte) (es tes)	(ffes ftes)		; Skal vi gjera noko med at dette aksepterer "kallte"
+infl-pret-verb-word &
+[ ARGS < [ INFLECTION nonfstr-te ] > ].
+
+pret-nonfstr-et_infl_rule :=
+%suffix (e et) (e a) (es es) (es edes)
+infl-pret-verb-word &
+[ ARGS < [ INFLECTION nonfstr-et ] > ].
+
+pret-nonfstr-de_infl_rule := 
+%suffix (e de) (gge gde) (es des)
+infl-pret-verb-word &
+[ ARGS < [ INFLECTION nonfstr-de ] > ].
+
+
+ppart-finalstr-dd_infl_rule :=
+%suffix (o odd)(ø ødd)(å ådd)(u udd)(i idd)(y ydd)(e edd)(a add)
+infl-perf-part-verb-word &
+[ ARGS < [ INFLECTION finstr-dd ] > ].
+
+ppart-finalstr-tt_infl_rule :=
+%suffix (e ett)(a att)(æ ætt)(å ått)(i itt)(y ytt)(ø øtt)(o ott)
+infl-perf-part-verb-word &
+[ ARGS < [ INFLECTION finstr-tt ] > ].
+
+
+#| Old, general rule. Replaced by the following three rules to model different conjugation classes.
+ppart-nonfstr_infl_rule :=
+%suffix (ge gd)(ve vd)(ke kt)(le lt)(me mt)(ne nt)(pe pt)(re rt)(se set)(de det)(ge get)(ke ket)(ve vet)(le let)(me met)(ne net)(pe pet)(re ret)(se st)(te tet)(dde ddet)(gge gget)(gge gd)(ffe ffet)(kke kket)(lle llet)(mme mt)(mme mmet)(nne nnet)(ppe ppet)(rre rret)(sse sset)(eie eiet)(øye øyet)(aie aiet)(eie eid)(øye øyd)(aie aid)(ie iet)(ie idd)(kes ktes)(les ltes)(mes mtes)(nes ntes)(pes ptes)(tes tedes)(kkes ktes)(lles ltes)(mmes mtes)(nnes ntes)(ppes ptes)
+infl-perf-part-verb-word &
+[ ARGS < [ INFLECTION nonfstr ] > ].
+|#
+
+;; Used only for strong verbs. Given the same name as the old rule, to make sure the irregs-files still apply.
+;; The %suffix is given to avoid that this rule applies normally, without resorting to the irregs-files.
+ppart-nonfstr_infl_rule := 
+%suffix (donot unify)
+infl-perf-part-verb-word &
+[ ARGS < [ INFLECTION nonfstr-strong ] > ].
+
+ppart-nonfstr-te_infl_rule :=
+%suffix (e t) (ffe ft) (kke kt) (nne nt) (lle lt) (ppe pt) (mme mt) (es tes) (ffes ftes)
+infl-perf-part-verb-word &
+[ ARGS < [ INFLECTION nonfstr-te ] > ].
+
+ppart-nonfstr-et_infl_rule :=
+%suffix (e et) (e a) (es es)
+infl-perf-part-verb-word &
+[ ARGS < [ INFLECTION nonfstr-et ] > ].
+
+ppart-nonfstr-de_infl_rule :=
+%suffix (e d) (gge gd) (es des)
+infl-perf-part-verb-word &
+[ ARGS < [ INFLECTION nonfstr-de ] > ].
+
+
+
+inf-const_infl_rule :=
+inf-verb-word &
+[ ARGS < [ INFLECTION phon ] > ].
+
+
+imp-const_infl_rule :=
+const-imp-verb-word &
+[ ARGS < [ INFLECTION finstr ] > ].
+
+; desuspended, for non-PET purposes
+imp-delete_infl_rule :=
+%suffix (!ae !a)
+infl-imp-verb-word &
+[ ARGS < [ INFLECTION nonfstr ] > ].
+
+; must be suspended, for PET purposes
+;imp-delete_infl_rule :=
+;%suffix (!aa !a)(!ae !a)(!ai !a)(!ao !a)(!au !a)(!ay !a)(!aæ !a)(!aø !a)(!aå !a)
+;infl-imp-verb-word &
+;[ ARGS < [ INFLECTION nonfstr ] > ].
+
+; spørre-spør! gjemme-gjem!
+
+s-passive_s_infl_rule := 
+%suffix (* s)
+s-pass-word.
+
+; also finstr verbs undergo this
+;s-passive_s_infl_rule := 
+;%suffix (* s)
+;s-pass-word & 
+;  [ ARGS.FIRST.INFLECTION nonfstr ].
+
+s-passive_es_infl_rule := 
+%suffix (* es)
+s-pass-word & 
+  [ ARGS.FIRST.INFLECTION finstr ].
+
+
+;interjection_infl_rule := 
+;interjection-word.

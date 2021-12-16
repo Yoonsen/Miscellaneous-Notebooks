@@ -1,0 +1,87 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+
+
+;;;
+;;; this file defines the MRS interface (for the native C++ MRS code)
+;;;
+
+;;
+;; the path into the HPSG sign, to access the semantics sub-structure
+;;
+;; _fix_me_
+;; i realize `mrs-path' is there for historic reasons, because it was used in
+;; PET from the beginning; `mrs-initial-semantics-path', on the other hand, is
+;; for the benefit of the new, native MRS code, and an attempt to use the same
+;; parameter names as in the LKB.  i am a bit sceptical of the `compositional'
+;; naming legacy in the LKB (we have stopped talking about `psoa's, `LISZT's,
+;; and `handel's).  maybe we should try defining a new naming scheme, jointly
+;; with ann; and then add legacy support to the LKB instead?    (20-jan-09; oe)
+;; 
+mrs-path := "SYNSEM.LOCAL.CONT".
+mrs-initial-semantics-path := "SYNSEM.LOCAL.CONT".
+
+;;
+;; within the AVM corresponding to an MRS (a `psoa'), the paths to the (local)
+;; top handle, index, list of elementary prediations, and list of handle 
+;; constraints, respectively.  note that leaving the top handle path unset will
+;; result in an `open' (i.e. unbound) top handle, something the ERG intends, so
+;; that quantifiers can be retrieved at the top of the structure.
+;;
+
+;; bruland 2013 qeq between top handle and main verb
+;;mrs-top-hcons := "qeq". 
+
+;mrs-psoa-top-h-path := "HOOK.LTOP".
+mrs-psoa-index-path := "HOOK.INDEX".
+mrs-psoa-liszt-path := "RELS.LIST".
+mrs-psoa-rh-cons-path := "HCONS.LIST".
+
+;;
+;; within one elementary prediation (EP), the paths to its label and prediate
+;; symbol.  further, a list of constant-valued roles (called parameters), a
+;; list of non-roles (to be ignored during read-out), and the paths to the
+;; surface links, i.e. (characterization) start and end stand-off pointers.
+;;
+mrs-rel-handel-path := LBL.
+mrs-rel-name-path := PRED.
+mrs-value-feats := CARG.
+
+;; bruland, CFROM CTO removed from ignored, tips from Dan
+;; Bruland, lagt inn igjen sammen med WLINK
+mrs-ignored-sem-features := IDIOMP WLINK CTO CFROM LNK --PSV.
+mrs-rel-cfrom-feature := CFROM.
+mrs-rel-cto-feature := CTO.
+
+;;
+;; for output purposes, a (partial) order on the roles of one EP
+;;
+mrs-feat-priority-list :=
+  LTOP INDEX LBL ARG0 ARG1 ARG2 ARG3 RSTR BODY MARG CARG.
+
+;;
+;; within a handle constraint, the path to the `upper' and `lower' handles
+;;
+mrs-sc-arg-feature := HARG.
+mrs-outscpd-feature := LARG.
+
+;;
+;; within an AVM corresponding to an MRS variabe, non-properties to be ignored
+;; during read-out.
+;;
+mrs-ignored-extra-features := INSTLOC.
+;; SORT removed, Bruland
+
+
+;;
+;; for output purposes, a (partial) order on variable properties (within one
+;; MRS variable).  not a parameter in the LKB, where this order is determined
+;; by the VPM instead.
+;;
+;; _fix_me_
+;; i wonder, is this on top of the VPM, i.e. for grammars without one, maybe?
+;; or does the actual order in the VPM not have any effect in the native PET
+;; implementation?  if so, that would be nice to fix eventually.
+;;                                               yes, we can!  (20-jan-09; oe)
+mrs-extra-priority-list := 
+  PERS NUM GEND IND DIV PRONTYPE SF TENSE MOOD PROG PERF.
+

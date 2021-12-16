@@ -1,0 +1,256 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource -
+;;; 
+;;;    Copyright (c)  NorSource 1.0
+;;;                     
+;;;
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    
+;;;
+;;;
+
+; LKB(1): (batch-check-morphology t)
+; NB: don't erase!
+
+;%(letter-set (!a abcdefghijklmnopqrstuvwxyzæøå))
+%(letter-set (!b rnlt))
+
+;;;;;;;;;;;;;; ADJECTIVES ;;;;;;;;;;;;;;
+
+
+commsg-adj_infl_rule := 
+masc-or-fem-sg-adj-word.
+
+; see lrules
+;neutsg-adj_0_irule := 
+;%suffix (t t)(es es)(ig ig)(nde nde)
+;neutsg-infl-adj-word.
+
+neutsg-adj-finstr_infl_rule :=
+%suffix (t tt)(e ett)(a a)(o o)(ø øtt)(å ått)(u u)(i idt)(i itt)(ei eit)(æ ætt)(y ytt)(d dt)(dd dd)(nd nd)(nt nt)(rt rt)(ad ad)(id id)(is is)(g gt)(gg gt)(k kt)(kk kt)(l lt)(ll lt)(n nt)(nn nt)(p pt)(pp pt)(m mt)(r rt)(rr rt)(s st)(gs gs)(v vt)(øt øtt)(et ett)(at att)(gt gt)(dsk dsk)(nsk nsk)(gsk gsk)(lsk lsk)(norsk norsk)(kt kt)
+neutsg-infl-adj-word & 
+  [ ARGS.FIRST.INFLECTION finstr ].
+
+;neutsg-adj-finstr_tt_infl_rule :=
+;%suffix (e ett)(a att)(o ott)(ø øtt)(å ått)(u utt)(i itt)(æ ætt)(y ytt)
+;neutsg-infl-adj-word &
+;[ ARGS < lexeme & [ INFLECTION finstr ] > ].
+
+; more: alskens, allslags - irreg
+neutsg-adj-nonfstr_infl_rule :=
+%suffix (t t)(es es)(ig ig)(d dt)(ig ig)(øyd øyd)(øy øyt)(ag agt)(eg egt)(yg ygt)(k kt)(l lt)(n nt)(p pt)(r rt)(s st)(v vt)(sk sk)(e et)(nde nde)(rne rne)(a at)(o ot)(ø øt)(å åt)(u ut)(i it)(æ æt)(y yt)(ille ille)
+neutsg-infl-adj-word & 
+  [ ARGS.FIRST.INFLECTION nonfstr ].
+
+
+; see lrules
+; "blå" and "blåe" are both possible in strong plural
+;strongpl-adj_0_irule :=
+;%suffix (e e)(a a)(o o)(ø ø)(å å)(u u)(i i)(æ æ)(y y)
+;strongpl-adj-word.
+
+
+strongpl-adj-finstr_infl_rule :=
+%suffix (e e)(a a)(o o)(ø ø)(å å)(u u)(i i)(æ æ)(y y)(r re)(l le)(n ne)(d de)(dd dd)(g ge)(k ke)(p pe)(t te)(s se)(v ve)(e ee)(a ae)(o oe)(ø øe)(å åe)(u ue)(i ie)(æ æe)(y ye)(m me)(am amme)(em emme)(im imme)(om omme)(um umme)(øm ømme)(ym ymme)
+strongpl-adj-word & 
+  [ ARGS.FIRST.INFLECTION finstr ].
+
+
+strongpl-adj-nonfstr_infl_rule :=
+%suffix (e e)(g ge)(k ke)(et ete)(et ede)(mal mle)(mel mle)(bel ble)(den dne)(fen fne)(gen gne)(ken kne)(ren rne)(ker kre)(len lne)(men mne)(pel ple)(pen pne)(sen sne)(ten tne)(ben bne)(kel kle)(mer mre)(per pre)(mmal mle)(mmel mle)(bbel ble)(dden dne)(ffen fne)(ggen gne)(kken kne)(kker kre)(llen lne)(mmen mne)(ppel ple)(ppen pne)(ssen sne)(tten tne)(bben bne)(kkel kle)(mmer mre)(pper pre)
+strongpl-adj-word & 
+  [ ARGS.FIRST.INFLECTION nonfstr ].
+
+
+
+weak-adj-finstr_infl_rule :=
+%suffix (e e)(a a)(o o)(ø ø)(å å)(u u)(i i)(æ æ)(y y)(r re)(l le)(n ne)(d de)(g ge)(k ke)(p pe)(t te)(s se)(v ve)(e ee)(a ae)(o oe)(ø øe)(å åe)(u ue)(i ie)(æ æe)(y ye)(m me)(am amme)(em emme)(im imme)(om omme)(um umme)(øm ømme)(ym ymme)
+weak-adj-word & 
+  [ ARGS.FIRST.INFLECTION finstr ].
+
+weak-adj-nonfstr_infl_rule :=
+%suffix (e e)(g ge)(k ke)(et ete)(et ede)(mal mle)(mel mle)(bel ble)(den dne)(fen fne)(gen gne)(ken kne)(ren rne)(ker kre)(len lne)(men mne)(pel ple)(pen pne)(sen sne)(ten tne)(ben bne)(kel kle)(mer mre)(per pre)(mmal mle)(mmel mle)(bbel ble)(dden dne)(ffen fne)(ggen gne)(kken kne)(kker kre)(llen lne)(mmen mne)(ppel ple)(ppen pne)(ssen sne)(tten tne)(bben bne)(kkel kle)(mmer mre)(pper pre)
+weak-adj-word & 
+  [ ARGS.FIRST.INFLECTION nonfstr ].
+
+
+
+
+
+
+#|
+
+; more: alskens, allslags - irreg
+strongpl-adj_infl_rule :=
+%suffix (e e)(a a)(o o)(ø ø)(å å)(u u)(i i)(æ æ)(y y)(r re)(l le)(n ne)(d de)(g ge)(k ke)(p pe)(t te)(s se)(v ve)(mal mle)(mel mle)(bel ble)(den dne)(fen fne)(gen gne)(ken kne)(ker kre)(len lne)(men mne)(pel ple)(pen pne)(sen sne)(ten tne)(ben bne)(kel kle)(mer mre)(per pre)(mmal mle)(mmel mle)(bbel ble)(dden dne)(ffen fne)(ggen gne)(kken kne)(kker kre)(llen lne)(mmen mne)(ppel ple)(ppen pne)(ssen sne)(tten tne)(bben bne)(kkel kle)(mmer mre)(pper pre)(e ee)(a ae)(o oe)(ø øe)(å åe)(u ue)(i ie)(æ æe)(y ye)(am amme)(em emme)(im imme)(om omme)(um umme)(øm ømme)(ym ymme)(m me)
+strongpl-adj-word.
+
+
+weak-adj_infl_rule :=
+%suffix (e e)(a a)(o o)(ø ø)(å å)(u u)(i i)(æ æ)(y y)(r re)(l le)(n ne)(d de)(g ge)(k ke)(p pe)(s se)(v ve)(mal mle)(mel mle)(bel ble)(den dne)(fen fne)(gen gne)(ken kne)(ker kre)(len lne)(men mne)(pel ple)(pen pne)(sen sne)(ten tne)(ben bne)(kel kle)(mer mre)(per pre)(e ee)(a ae)(o oe)(ø øe)(å åe)(u ue)(i ie)(æ æe)(y ye)(am amme)(em emme)(im imme)(om omme)(um umme)(øm ømme)(ym ymme)(m me)
+weak-adj-word.
+|#
+
+; see lrules
+; "blå" and "blåe" are both possible in weak singular and plur
+;weak-adj_0_irule :=
+;%suffix (e e)(a a)(o o)(ø ø)(å å)(u u)(i i)(æ æ)(y y)
+;weak-adj-word.
+
+
+
+;comp-adj_ere_infl_rule :=
+;%suffix (r rere)(l lere)(n nere)(d dere)(g gere)(k kere)(p pere)(s sere)(v vere)(en nre)(mmal mlere)(mmel mlere)(bbel blere)(dden dnere)(ffen fnere)(ggen gnere)(kken knere)(kker krere)(llen lnere)(mmen mnere)(ppel plere)(ppen pnere)(ssen snere)(tten tnere)(bben bnere)(kkel klere)(mmer mrere)(pper prere)(e eere)(a aere)(o oere)(ø øere)(å åere)(u uere)(i iere)(æ æere)(y yere)(m mere)(am ammere)(em emmere)(im immere)(om ommere)(um ummere)(øm ømmere)(ym ymmere)
+;comparative-adj-word.
+
+
+;;
+comp-adj_ere-finstr_infl_rule :=
+%suffix (e eere)(a aere)(o oere)(ø øere)(å åere)(u uere)(i iere)(æ æere)(y yere)(r rere)(l lere)(n nere)(d dere)(g gere)(k kere)(p pere)(s sere)(v vere)(m mere)(am ammere)(em emmere)(im immere)(om ommere)(um ummere)(øm ømmere)(ym ymmere)
+comparative-adj-word & 
+  [ ARGS.FIRST.INFLECTION finstr ].
+
+comp-adj_re-nonfstr_infl_rule :=
+%suffix (e ere)(g gere)(k kere)(et etere)(et edere)(mal mlere)(mel mlere)(bel blere)(den dnere)(fen fnere)(gen gnere)(ken knere)(ren rnere)(ker krere)(len lnere)(men mnere)(pel plere)(pen pnere)(sen snere)(ten tnere)(ben bnere)(kel klere)(mer mrere)(per prere)(mmal mlere)(mmel mlere)(bbel blere)(dden dnere)(ffen fnere)(ggen gnere)(kken knere)(kker krere)(llen lnere)(mmen mnere)(ppel plere)(ppen pnere)(ssen snere)(tten tnere)(bben bnere)(kkel klere)(mmer mrere)(pper prere)
+comparative-adj-word & 
+  [ ARGS.FIRST.INFLECTION nonfstr ].
+
+
+;;
+sup-adj-str_est-finstr_infl_rule :=
+%suffix (e eest)(a aest)(o oest)(ø øest)(å åest)(u uest)(i iest)(æ æest)(y yest)(r rest)(l lest)(n nest)(d dest)(g gest)(k kest)(p pest)(t test)(s sest)(v vest)(m mest)(am ammest)(em emmest)(im immest)(om ommest)(um ummest)(øm ømmest)(ym ymmest)
+sup-adj-strong-word & 
+  [ ARGS.FIRST.INFLECTION finstr ].
+
+sup-adj-str_st-nonfstr_infl_rule :=
+%suffix (e est)(ig igst)(k kest)(et etest)(et edest)(mal mlest)(mel mlest)(bel blest)(den dnest)(fen fnest)(gen gnest)(ken knest)(ren rnest)(ker krest)(len lnest)(men mnest)(pel plest)(pen pnest)(sen snest)(ten tnest)(ben bnest)(kel klest)(mer mrest)(per prest)(mmal mlest)(mmel mlest)(bbel blest)(dden dnest)(ffen fnest)(ggen gnest)(kken knest)(kker krest)(llen lnest)(mmen mnest)(ppel plest)(ppen pnest)(ssen snest)(tten tnest)(bben bnest)(kkel klest)(mmer mrest)(pper prest)
+sup-adj-strong-word & 
+  [ ARGS.FIRST.INFLECTION nonfstr ].
+
+
+;sup-adj-str_est_infl_rule :=
+;%suffix (r rest)(l lest)(n nest)(d dest)(g gest)(k kest)(p pest)(s sest)(v vest)(mal mlest)(mel mlest)(bel blest)(den dnest)(fen fnest)(gen gnest)(ken knest)(ker krest)(len lnest)(men mnest)(pel plest)(pen pnest)(sen snest)(ten tnest)(ben bnest)(kel klest)(mer mrest)(per prest)(e eest)(a aest)(o oest)(ø øest)(å åest)(u uest)(i iest)(æ æest)(y yest)(m mest)(am ammest)(em emmest)(im immest)(om ommest)(um ummest)(øm ømmest)(ym ymmest)
+;sup-adj-strong-word.
+
+
+
+;;
+sup-adj-wk_este-finstr_infl_rule :=
+%suffix (e eeste)(a aeste)(o oeste)(ø øeste)(å åeste)(u ueste)(i ieste)(æ æeste)(y yeste)(r reste)(l leste)(n neste)(d deste)(g geste)(k keste)(p peste)(t teste)(s seste)(v veste)(m meste)(am ammeste)(em emmeste)(im immeste)(om ommeste)(um ummeste)(øm ømmeste)(ym ymmeste)
+sup-adj-weak-word & 
+  [ ARGS.FIRST.INFLECTION finstr ].
+
+sup-adj-wk_ste-nonfstr_infl_rule :=
+%suffix (e este)(ig igste)(k keste)(et eteste)(et edeste)(mal mleste)(mel mleste)(bel bleste)(den dneste)(fen fneste)(gen gneste)(ken kneste)(ren rneste)(ker kreste)(len lneste)(men mneste)(pel pleste)(pen pneste)(sen sneste)(ten tneste)(ben bneste)(kel kleste)(mer mreste)(per preste)(mmal mleste)(mmel mleste)(bbel bleste)(dden dneste)(ffen fneste)(ggen gneste)(kken kneste)(kker kreste)(llen lneste)(mmen mneste)(ppel pleste)(ppen pneste)(ssen sneste)(tten tneste)(bben bneste)(kkel kleste)(mmer mreste)(pper preste)
+sup-adj-weak-word & 
+  [ ARGS.FIRST.INFLECTION nonfstr ].
+
+
+;sup-adj-wk_este_infl_rule :=
+;%suffix (r reste)(l leste)(n neste)(d deste)(g geste)(k keste)(p peste)(s seste)(v veste)(mal mleste)(mel mleste)(bel bleste)(den dneste)(fen fneste)(gen gneste)(ken kneste)(ker kreste)(len lneste)(men mneste)(pel pleste)(pen pneste)(sen sneste)(ten tneste)(ben bneste)(kel kleste)(mer mreste)(per preste)(e eeste)(a aeste)(o oeste)(ø øeste)(å åeste)(u ueste)(i ieste)(æ æeste)(y yeste)(m meste)(am ammeste)(em emmeste)(im immeste)(om ommeste)(um ummeste)(øm ømmeste)(ym ymmeste)
+;sup-adj-weak-word.
+
+
+; these three need more work for PET (but work in lkb)
+; wtow
+wk-pastpt-adj_e_lrule := 
+%suffix (* e)
+wk-pastpt-adj-word.
+
+; wtow
+strpl-pastpt-adj_e_lrule := 
+%suffix (* e)
+strpl-pastpt-adj-word.
+
+; ltow
+participial-pres-adj-infl_rule := participial-pres-adj-word.
+
+
+; see lrules
+;adv-a_0_irule :=
+;%suffix (t t)(es es)(ig ig)(nde nde)
+;adv-from-adj-ø-pos-word.
+
+degadv-adj_nde-pos_infl_rule :=
+degadv-from-adj_nde-pos-word &
+[ ARGS.FIRST degadv-from-adj_nde-pos-lxm ].
+
+degadv-adj_t-pos_finstr_infl_rule :=
+%suffix (t t)(e ett)(a a)(o o)(ø øtt)(å ått)(u u)(i idt)(i itt)(æ ætt)(y y)(y ytt)(d dt)(dd dd)(ad ad)(id id)(øyd øyd)(øy øyt)(g gt)(gg gt)(k kt)(kk kt)(l lt)(ll lt)(n nt)(nn nt)(p pt)(pp pt)(m mt)(r rt)(rr rt)(s st)(gs gs)(v vt)(øt øtt)(et ett)(gt gt)(dsk dsk)(nsk nsk)(gsk gsk)(lsk lsk)(norsk norsk)(kt kt)
+degadv-from-adj_t-pos-word &
+[ ARGS.FIRST degadv-from-adj_t-pos-lxm & [INFLECTION finstr]].
+
+degadv-adj_t-pos_nonfstr_infl_rule :=
+%suffix (e e)(d dt)(g gt)(k kt)(l lt)(n nt)(p pt)(r rt)(s st)(ss st)(v vt)(e et)(a at)(o ot)(ø øt)(å åt)(u ut)(i it)(æ æt)(y yt)(t t)(øt øtt)(et ett)(gt gt)(kt kt)(es es)(ig ig)(nde nde)
+degadv-from-adj_t-pos-word &
+[ ARGS.FIRST degadv-from-adj_t-pos-lxm & [INFLECTION nonfstr] ].
+
+
+
+;;
+compar-adv_ere-finstr_infl_rule :=
+%suffix (e eere)(a aere)(o oere)(ø øere)(å åere)(u uere)(i iere)(æ æere)(y yere)(r rere)(l lere)(n nere)(d dere)(g gere)(k kere)(p pere)(s sere)(v vere)(m mere)(am ammere)(em emmere)(im immere)(om ommere)(um ummere)(øm ømmere)(ym ymmere)
+adv-from-adj-cmpar-word & 
+  [ ARGS.FIRST adv-from-adj-cmpar-lxm & [INFLECTION finstr ]].
+
+compar-adv_re-nonfstr_infl_rule :=
+%suffix (e ere)(g gere)(k kere)(et etere)(et edere)(mal mlere)(mel mlere)(bel blere)(den dnere)(fen fnere)(gen gnere)(ken knere)(ren rnere)(ker krere)(len lnere)(men mnere)(pel plere)(pen pnere)(sen snere)(ten tnere)(ben bnere)(kel klere)(mer mrere)(per prere)(mmal mlere)(mmel mlere)(bbel blere)(dden dnere)(ffen fnere)(ggen gnere)(kken knere)(kker krere)(llen lnere)(mmen mnere)(ppel plere)(ppen pnere)(ssen snere)(tten tnere)(bben bnere)(kkel klere)(mmer mrere)(pper prere)
+adv-from-adj-cmpar-word & 
+  [ ARGS.FIRST adv-from-adj-cmpar-lxm & [INFLECTION nonfstr ]].
+
+
+;;
+
+
+;compar-adv_ere_infl_rule :=
+;%suffix (r rere)(l lere)(n nere)(d dere)(g gere)(k kere)(p pere)(s sere)(v vere)(mal mlere)(mel mlere)(bel blere)(den dnere)(fen fnere)(gen gnere)(ken knere)(ker krere)(len lnere)(men mnere)(pel plere)(pen pnere)(sen snere)(ten tnere)(ben bnere)(kel klere)(mer mrere)(per prere)(e eere)(a aere)(o oere)(ø øere)(å åere)(u uere)(i iere)(æ æere)(y yere)(m mere)(am ammere)(em emmere)(im immere)(om ommere)(um ummere)(øm ømmere)(ym ymmere)
+;adv-from-adj-cmpar-word &
+;[ ARGS.FIRST adv-from-adj-cmpar-lxm ].
+
+
+;;
+superlat-adv_est-finstr_infl_rule :=
+%suffix (e eest)(a aest)(o oest)(ø øest)(å åest)(u uest)(i iest)(æ æest)(y yest)(r rest)(l lest)(n nest)(d dest)(g gest)(k kest)(p pest)(t test)(s sest)(v vest)(m mest)(am ammest)(em emmest)(im immest)(om ommest)(um ummest)(øm ømmest)(ym ymmest)
+adv-from-adj-superlat-word &
+[ ARGS.FIRST adv-from-adj-superlat-lxm & [ INFLECTION finstr ]].
+
+
+superlat-adv_st-nonfstr_infl_rule :=
+%suffix (e est)(g gest)(k kest)(et etest)(et edest)(mal mlest)(mel mlest)(bel blest)(den dnest)(fen fnest)(gen gnest)(ken knest)(ren rnest)(ker krest)(len lnest)(men mnest)(pel plest)(pen pnest)(sen snest)(ten tnest)(ben bnest)(kel klest)(mer mrest)(per prest)(mmal mlest)(mmel mlest)(bbel blest)(dden dnest)(ffen fnest)(ggen gnest)(kken knest)(kker krest)(llen lnest)(mmen mnest)(ppel plest)(ppen pnest)(ssen snest)(tten tnest)(bben bnest)(kkel klest)(mmer mrest)(pper prest)
+adv-from-adj-superlat-word &
+[ ARGS.FIRST adv-from-adj-superlat-lxm & [ INFLECTION nonfstr ]].
+
+
+;;
+
+;superlat-adv_est_infl_rule :=
+;%suffix (r rest)(l lest)(n nest)(d dest)(g gest)(k kest)(p pest)(s sest)(v vest)(mal mlest)(mel mlest)(bel blest)(den dnest)(fen fnest)(gen gnest)(ken knest)(ker krest)(len lnest)(men mnest)(pel plest)(pen pnest)(sen snest)(ten tnest)(ben bnest)(kel klest)(mer mrest)(per prest)(e eest)(a aest)(o oest)(ø øest)(å åest)(u uest)(i iest)(æ æest)(y yest)(m mest)(am ammest)(em emmest)(im immest)(om ommest)(um ummest)(øm ømmest)(ym ymmest)
+;adv-from-adj-superlat-word &
+;[ ARGS.FIRST adv-from-adj-superlat-lxm ].
+
+adv-from-adj-pos-finstr_infl_rule :=
+%suffix (t tt)(e ett)(a a)(o o)(ø øtt)(å ått)(u u)(i idt)(i itt)(æ ætt)(y y)(y ytt)(d dt)(dd dd)(ad ad)(id id)(øyd øyd)(øy øyt)(g gt)(gg gt)(k kt)(kk kt)(l lt)(ll lt)(n nt)(nn nt)(p pt)(pp pt)(m mt)(r rt)(rt rt)(nt nt)(rr rt)(s st)(gs gs)(v vt)(øt øtt)(et ett)(gt gt)(dsk dsk)(nsk nsk)(gsk gsk)(lsk lskt)(rsk rskt)(msk mskt)(kt kt)
+adv-from-adj-t-pos-word & 
+  [ ARGS.FIRST.INFLECTION finstr ].
+
+;adv-from-adj-pos_finstr_tt_infl_rule :=
+;%suffix (e ett)(a att)(o ott)(ø øtt)(å ått)(u utt)(i itt)(æ ætt)(y ytt)
+;adv-from-adj-tt-pos-word &
+;[ ARGS.FIRST.INFLECTION finstr ].
+
+adv-from-adj-pos_nonfstr_infl_rule :=
+%suffix (e e)(d dt)(g gt)(k kt)(l lt)(n nt)(p pt)(r rt)(s st)(ss st)(v vt)(e et)(a at)(o ot)(ø øt)(å åt)(u ut)(i it)(æ æt)(y yt)(t t)(øt øtt)(et ett)(gt gt)(kt kt)(es es)(ig ig)(nde nde)
+adv-from-adj-t-pos-word & 
+  [ ARGS.FIRST.INFLECTION nonfstr ].
+
+
+abbrev_adj_irule :=
+adj-word-abbrev &
+[ ARGS < adj-lxm  &
+         [ INFLECTION adj_fork ]> ].
+
+
+
+

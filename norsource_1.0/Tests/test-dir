@@ -1,0 +1,222 @@
+;;; -*- Coding: utf-8; -*-
+
+gutten her bak hytta sover
+; the boy here behind the house sleeps
+en gutt her bak hytta sover
+; a boy here behind the house sleeps
+gutt her bak hytta sover
+; boy here behind the house sleeps
+gutter her bak hytta sover
+; boys here behind the house sleeps
+noen gutter her bak hytta sover
+; some boys here behind the house sleeps
+
+gutten her nede sover
+; the boy here down sleeps
+en gutt her nede sover
+; a boy here down sleeps
+gutt her nede sover
+; boy here down sleeps
+gutter her nede sover
+; boys here down sleeps
+noen gutter her nede sover
+; some boys here down sleeps
+
+veien bortover langs elven går her
+; no exact equivalent to "bortover":
+; the road throughout along the river goes here
+en vei bortover langs elven går her
+; a road throughout along the river goes here
+vei bortover langs elven går her
+; road throughout along the river goes here
+veier bortover langs elven går her
+; roads throughout along the river goes here
+noen veier bortover langs elven går her
+; some roads throughout along the river goes here
+
+veien opp til fjellet går her
+; the road up to the mountain goes here
+en vei opp til fjellet går her
+; a road up to the mountain goes here
+vei opp til fjellet går her
+; road up to the mountain goes here
+veier opp til fjellet går her
+; roads up to the mountain goes here
+noen veier opp til fjellet går her
+; some roads up to the mountain goes here
+
+veien opp hit går her
+; the way up to-here goes here
+en vei opp hit går her
+; a way up to-here goes here
+vei opp hit går her
+; way up to-here goes here
+veier opp hit går her
+; ways up to-here goes here
+noen veier opp hit går her
+; some ways up to-here goes here
+
+jeg går opp til fjellet
+; I walk up to the mountain
+jeg går opp hit
+; I walk up to-here
+jeg går nedover langs elven
+; I walk down-wards along the river
+jeg sover her nede
+; I sleep here down
+
+jeg går opp, til fjellet
+jeg går opp, hit
+jeg går nedover, langs elven
+jeg sover her, nede
+
+opp til fjellet går jeg ikke
+; up to the mountain go I not
+opp hit går jeg ikke
+; up to-here go I not
+nedover langs elven går jeg ikke
+; down-wards along the river go I not
+her nede sover jeg ikke
+; here down sleep I not
+her i skogen sover jeg ikke
+; here in the forest sleep I not
+jeg har her nede sovet i tre timer
+; I have here down slept for three hours
+jeg har her i skogen sovet i tre timer
+; I have here in the forest slept for three hours
+på tur har jeg her nede sovet i tre timer
+; on hike have I here down slept for three hours
+på tur har jeg her i skogen sovet i tre timer
+; on hike have I here in the forest slept for three hours
+
+hun vet at jeg her nede har sovet i tre timer
+; she knows that I here down have slept for three hours
+hun vet at jeg her i skogen har sovet i tre timer
+; she knows that I here in the forest have slept for three hours
+
+gutten rusler mot fjellet langs elva
+; the boy strolls towards the mountain along the river
+gutter rusler mot fjellet, langs elva
+gutten rusler til fjellet langs elva
+; the boy strolls to the mountain along the river
+gutten rusler til fjellet, langs elva
+gutten rusler langs elva mot fjellet
+; the boy strolls along the river towards the mountain 
+gutten rusler langs elva, mot fjellet
+gutten rusler oppover langs elva
+; the boy strolls upwards along the river
+gutten rusler oppover langs elva til fjellet på to timer
+; the boy strolls upwards along the river to the mountain in two hours
+gutten rusler ned langs elva
+; the boy strolls down along the river
+gutten rusler nedover langs elva i tre timer
+; the boy strolls down along the river for three hours
+
+
+; "hit" 'to-here' and "dit" 'to-there' in some interactions involving telicity PATH-TELIC+/-
+
+gutten løper hit
+; the boy runs to-here
+gutten løper dit
+; the boy runs to-there
+gutten løper hit ned
+; the boy runs to-here down
+gutten løper hit ned til skogen
+; the boy runs to-here down to the forest
+gutten løper hit på to timer
+; the boy runs to-here in two hours
+;*
+gutten løper hit i to timer
+; the boy runs to-here for two hours
+
+; "her" and "der" in some interactions
+gutten løper her
+; the boy runs here
+gutten løper der
+; the boy runs there
+gutten løper her nede
+; the boy runs here down
+gutten løper her nede i skogen
+; the boy runs here down in the forest
+;*
+gutten løper her på to timer
+; the boy runs here in two hours
+gutten løper her i to timer
+; the boy runs here for two hours
+
+
+; showing "på" and "i" in interaction with INCR-TELIC+/- and DELIMITED+/-
+gutten spiser koteletten på to timer
+; the boy  eats the cutlet in two hours
+;*
+jeg spiser koteletten i to timer
+; I  eat the cutlet for two hours
+jeg spiser koteletter på to minutter
+; I  eat cutlets in two minutes
+jeg spiser koteletter i to timer
+; I  eat cutlets for two hours
+jeg spiser koteletter på to minutter i to dager
+; I  eat cutlets in two minutes for two days
+
+
+; with subordinate clauses for time and place
+gutten går når hunden løper
+; the boy walks when the dog runs
+gutten går før hunden løper
+; the boy walks before the dog runs
+gutten går inntil hunden løper
+; the boy walks until the dog runs
+mannen går langs elven før gutten kommer til skogen
+; the man walks along the river before the boy comes to the forest
+veien begynner der stien slutter
+; the road starts where the path ends
+veien begynner når stien slutter
+; the road starts when the path ends
+
+
+; complex path descriptions:
+
+mannen går langs elven til skogen på to timer
+; the man walks along the river to the forest in two hours
+mannen går langs elven, over brua og til skogen på to timer
+; the man walks along the river, across the bridge and to the forest in two hours
+gutten løper nedover forbi brua, langs elven, og videre gjennom skogen til fjellet
+; the boy runs downwards past the bridge, along the river, and further through the forest to the mountain
+
+
+; from turbrosjyre:
+
+turen går over fjellet
+; the hike goes across the mountain
+turen går på bro over elva
+; the hike goes on bridge across the river
+turen går på bro over elva og på bro over elva
+turen går på bro over en bekk og på bro over en elv
+; the hike goes on bridge across the creek and on bridge across the river
+turen går videre i myret terreng
+; the hike goes further in swampy terrain
+turen går opp gjennom lia til fjellet
+; the hike goes up through the slopes to the mountain
+turen går videre i myret terreng opp gjennom lia
+; the hike goes further in swampy terrain up through the slopes
+turen går over myrer
+; the hike goes across marshes
+turen går inn gjennom skaret
+; the hike goes in through the rift
+turen går inn gjennom skaret mellom elva og fjellet
+; the hike goes in through the rift between the river and the mountain
+turen går over myrer og inn gjennom skaret mellom elva og fjellet
+; the hike goes across marshes and in through the rift between the river and the mountain
+ruta til Gjevilvasshytta går opp til skogen ved foten av fjellet
+; the route to G. goes up to the forest at the foot of the mountain
+
+de spiller fra fem til syv
+; they play from five till seven
+de spiller om ettermiddagen
+; they play in the afternoon
+de spiller til midnatt
+; they play till midnight
+de snakker om Ola til midnatt
+; they talk about Ola till midnight
+
+

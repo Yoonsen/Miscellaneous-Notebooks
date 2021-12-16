@@ -1,0 +1,134 @@
+;;; -*- Coding: utf-8; -*-
+
+;covered by Aug 1 04.
+
+;"gutten", "gutter" and "guttene" have an inbuilt quantifier, 
+;introduced by an ltol-rule, and so none of the preceding items can 
+;introduce a Q. Hence, only "hver", "ingen" and the three sg articles 
+;"en", "ei", "et" can embody a quantifier.
+;The type 'rule' is used to regulate that cardinals cannot get iterated, 
+;and items like "noen" therewith.
+;Nouns with definite form ("gutten", "guttene") have a feature DEFINITE+, 
+;whose presence requires a non-empty SPR in the resulting noun phrase. 
+;Also weak adjectives make such a requirement (but they don't require 
+;a definite noun, due to "min glade gutt").
+;The partitive "av" is a hybrid, taking the NP as a complement, 
+;but the left-hand combinant as a specifier. Its semantic contribution 
+;is to say "x instantiates y", where x is introduced by the left-hand 
+;combinant (eg "hver") and y by the governed NP.
+
+
+jeg unner Ola gutten
+;*
+jeg unner Ola gutt
+jeg unner Ola vin
+;*
+jeg unner Ola den gutt
+jeg unner Ola en gutt
+jeg unner Ola en vin
+jeg unner Ola fjellet
+jeg unner Ola vinen
+jeg unner Ola et fjell
+;*
+jeg unner Ola et gutt
+;*
+jeg unner Ola en fjell
+jeg unner Ola tre gutter
+jeg unner Ola ti gutter
+jeg unner Ola tre fjell
+jeg unner Ola hver gutt
+jeg unner Ola hver vin
+jeg unner Ola hvert fjell
+jeg unner Ola ingen gutt
+jeg unner Ola noen gutter
+jeg unner Ola noen viner
+jeg unner Ola noe vin
+jeg unner Ola en glad gutt
+jeg unner Ola en god vin
+jeg unner Ola mye god vin
+jeg unner Ola tre glade gutter
+;*
+jeg unner Ola noen tre glade gutter
+;*
+jeg unner Ola fire tre glade gutter
+jeg unner Ola tre glade hyggelige gutter
+;*
+jeg unner Ola tre glade gutt
+;*
+jeg unner Ola tre glad gutter
+jeg unner Ola den glade gutten
+;*
+jeg unner Ola den glad gutten
+;*
+jeg unner Ola glade gutten
+;*
+jeg unner Ola den glade gutt
+jeg unner Ola de tre glade guttene
+jeg unner Ola de tre gode vinene
+;*
+jeg unner Ola de tre gode vin
+jeg unner Ola de glade guttene
+jeg unner Ola glade gutter
+;*
+jeg unner Ola de glade gutter
+;*
+jeg unner Ola glade guttene
+jeg unner Ola hver av de glade guttene
+jeg unner Ola hver av de tre glade guttene
+jeg unner Ola hver av de tre gode vinene
+jeg unner Ola noen av de ni guttene
+jeg unner Ola noe av den gode vinen
+jeg unner Ola ingen av de ni guttene
+jeg unner Ola få av de ni guttene
+jeg unner Ola ni av guttene
+jeg unner Ola alle gutter
+;*
+jeg unner Ola alle gutt
+;*
+jeg unner Ola alle gutten
+jeg unner Ola begge guttene
+jeg unner Ola alle de tre guttene
+jeg unner Ola all den gode vinen
+jeg unner Ola mine tre gutter
+jeg unner Ola mine glade gutter
+jeg unner Ola min glade gutt
+jeg unner Ola all min gode vin
+jeg unner Ola alle mine gode viner
+;*
+jeg unner Ola min glad gutt
+jeg unner Ola alle mine gutter
+jeg unner Ola gutten min
+jeg unner Ola vinen min
+;*
+jeg unner Ola glade gutten min
+jeg unner Ola den glade gutten min
+jeg unner Ola gutten til Ola
+jeg unner Ola vinen til Ola
+jeg unner Ola Ola sin gutt
+jeg unner Ola gutten si bygd
+;*
+jeg unner Ola gutten sitt bygd
+jeg unner Ola gutten sin ball
+jeg unner Ola en gutt sin ball
+jeg unner Ola hver gutt sin ball
+jeg unner Ola Ola sin glade gutt
+;*
+jeg unner Ola Ola sin glade gutten min
+
+jeg unner Ola Olas gutt
+jeg unner Ola guttens ball
+jeg unner Ola en gutts ball
+jeg unner Ola hver gutts ball
+jeg unner Ola Olas glade gutt
+;*
+jeg unner Ola Olas glade gutten min
+jeg unner Ola Ola sin gutt sin katt
+jeg unner Ola en sekk poteter
+jeg unner Ola en sekk med poteter
+jeg unner Ola et par dusin esker baller
+;*
+jeg unner Ola et dusin ballene
+jeg unner Ola et hav av katter
+;*
+jeg unner Ola et hav av kattene
+

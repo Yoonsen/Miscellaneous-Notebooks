@@ -1,0 +1,80 @@
+akershus_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Akershus" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Akershus" ].
+
+aust-agder_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Aust-Agder" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Aust-Agder" ].
+
+buskerud_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Buskerud" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Buskerud" ].
+
+;; found in lexicon  lex1.close
+;;finnmark_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Finnmark" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Finnmark" ].
+
+hedmark_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hedmark" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hedmark" ].
+
+hordaland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Hordaland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Hordaland" ].
+
+møre_og_romsdal_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Møre", "og", "Romsdal">,
+    SYNSEM.LKEYS.KEYREL.CARG "Møre_og_Romsdal" ].
+
+;; name problem found in lexicon  lex4.propn.etternavn
+nordland_fylke_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nordland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nordland" ].
+
+nord-trøndelag_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Nord-Trøndelag" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Nord-Trøndelag" ].
+
+oppland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Oppland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Oppland" ].
+
+;; found in lexicon  lex4.propn2
+;;oslo_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Oslo" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Oslo" ].
+
+rogaland_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Rogaland" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Rogaland" ].
+
+sogn_og_fjordane_propername := neutsg-inan-proper-name-word &
+  [ STEM <"Sogn", "og", "Fjordane">,
+    SYNSEM.LKEYS.KEYREL.CARG "Sogn_og_Fjordane" ].
+
+sør-trøndelag_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Sør-Trøndelag" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Sør-Trøndelag" ].
+
+telemark_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Telemark" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Telemark" ].
+
+troms_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Troms" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Troms" ].
+
+vest-agder_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Vest-Agder" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Vest-Agder" ].
+
+;; found in lexicon  lex4.propn2
+;;vestfold_propername := neutsg-inan-proper-name-word &
+;;  [ STEM < "Vestfold" >,
+;;    SYNSEM.LKEYS.KEYREL.CARG "Vestfold" ].
+
+østfold_propername := neutsg-inan-proper-name-word &
+  [ STEM < "Østfold" >,
+    SYNSEM.LKEYS.KEYREL.CARG "Østfold" ].
+

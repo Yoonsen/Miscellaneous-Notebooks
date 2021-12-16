@@ -1,0 +1,177 @@
+1 Gutten sove 0 53
+2 Gutten vil sover 0 54
+3 Gutten vil kunne sover 0 148
+4 Gutten vil kan sover 0 70
+5 Gutten vil kan sove 0 99
+6 Gutten vil måtte kunne sover 0 324
+7 Gutten vil måtte kan sove 0 225
+8 Gutten vil må kunne sove 0 181
+9 Gutten vil må kan sover 0 86
+10 Gutten har sover 0 57
+11 Gutten bli skutt 0 110
+12 Gutten ha blitt skutt 0 217
+13 Gutten har bli skutt 0 140
+14 Gutten har blitt skyter 0 159
+15 Gutten vil har bli skutt 0 161
+16 Gutten vil har bli skutt 0 161
+17 Gutten vil ha blitt skyte 0 351
+18 Gutten vil ha kan blitt skutt 0 247
+19 Gutten vil ha kunne bli skutt 0 349
+20 Gutten vil ha kunne blitt skutt 0 295
+21 Gutten vil har skullet kunnet bli skutt 0 477
+22 Gutten vil har skal kunnet bli skutt 0 381
+23 Gutten vil skal kunnet hatt måtte bli skutt 0 448
+24 Gutten vil skulle kunnet hatt måtte blitt skutt 0 447
+25 Gutten vil skal kan ha måttet blitt skutt 0 334
+26 Gutten ikke vil sove 0 112
+27 Gutten vil sove ikke 0 111
+28 gutten ikke vil måtte kunne sove 0 452
+29 gutten ikke har sovet 0 212
+30 gutten ikke har skutt 0 166
+31 gutten ikke har blitt skutt 0 267
+32 gutten ikke vil ha blitt skutt 0 500
+33 gutten ikke vil ha kunnet bli skutt 0 949
+34 gutten ikke vil ha skullet kunne bli skutt 0 1885
+35 gutten ikke vil skulle kunne ha måttet bli skutt 0 4101
+36 gutten snart ikke vil sove 0 257
+37 gutten i lang tid ikke har sovet 0 462
+38 gutten trolig ikke blir skutt 0 217
+39 gutten trolig ikke har blitt skutt 0 330
+40 gutten trolig ikke vil ha blitt skutt 0 604
+41 gutten trolig ikke vil ha kunnet bli skutt 0 1145
+42 gutten trolig ikke vil ha skullet kunne bli skutt 0 2269
+43 gutten trolig ikke vil skulle kunne ha måttet bli skutt 0 4875
+44 sove gutten? 0 59
+45 vil sover gutten? 0 61
+46 vil sove gutten? 0 78
+47 vil kunne sove gutten? 0 162
+48 vil måtte kunne gutten sove? 0 312
+49 vil måtte gutten kunne sove? 0 325
+50 blir skutt gutten? 0 124
+51 vil ha blitt skutt gutten? 0 313
+52 vil hatt gutten kunnet bli skutt? 0 284
+53 vil gutten hatt skullet kunne bli skutt? 0 660
+54 vil skulle kunne ha måttet bli skutt gutten? 0 2240
+55 vil ikke sove gutten? 0 110
+56 vil ikke kunne gutten sove? 0 229
+57 vil ikke måtte kunne gutten sove? 0 374
+58 blir ikke skutt gutten? 0 167
+59 har ikke blitt skutt gutten? 0 231
+60 vil ikke ha blitt skutt gutten? 0 373
+61 vil ikke ha kunnet bli skutt gutten? 0 634
+62 vil ikke ha skullet kunne bli skutt gutten? 0 1184
+63 vil ikke skulle kunne ha måttet bli skutt gutten? 0 2946
+64 vil snart gutten ikke sovet? 0 261
+65 vil snart gutten ikke kunnet sove? 0 307
+66 vil snart ikke gutten måttet kunnet sove? 0 390
+67 har snart gutten ikke sove? 0 314
+68 vil trolig gutten ikke hatt blitt skutt? 0 343
+69 vil gutten trolig ikke hatt kunnet bli skutt? 0 628
+70 sover på fredag gutten. 0 184
+71 vil sove på fredag gutten. 0 244
+72 På fredag vil gutten ikke skal kunne ha måttet bli skutt. 0 2840
+73 På fredag vil gutten snart ikke sover. 0 856
+74 På fredag vil gutten snart ikke kunnet sove. 0 928
+75 På fredag vil gutten snart ikke må kunne sove. 6 1680
+76 På fredag ha gutten snart ikke sovet. 0 394
+77 På fredag bli gutten trolig ikke skutt. 0 267
+78 På fredag ha gutten trolig ikke bli skutt. 0 371
+79 På fredag vil gutten trolig ikke blitt skutt. 0 615
+80 Jeg antar at gutten vil ikke sove 0 233
+81 Jeg gjetter hvem gutten vil ikke treffe 0 198
+82 Jeg gjetter hvem gutten vil ikke kunne treffe 0 305
+83 Jeg gjetter hvem gutten vil ikke måtte kunne treffe 0 509
+84 Jeg gjetter hvem gutten har ikke truffet 0 210
+85 Jeg gjetter hvem gutten har ikke skutt 0 246
+86 Jeg gjetter hva gutten har ikke blitt gitt 0 478
+87 Jeg gjetter hvem gutten vil snart ikke vil treffe 0 414
+88 Jeg gjetter hvem gutten har i lang tid ikke truffet 0 650
+89 Jeg gjetter hva gutten blir trolig ikke overlatt 0 279
+90 Jeg vet hvem ikke vil sove 0 229
+91 Jeg vet hvem vil ikke sove 0 193
+92 Jeg vet hvem som vil ikke sove 0 216
+93 Jeg vet hvem ikke vil kunne sove 0 335
+94 Jeg vet hvem ikke vil kan sove 0 239
+95 Jeg vet hvem vil ikke kunne sove 0 295
+96 Jeg vet hvem som vil ikke kunne sove 0 318
+97 Jeg vet hvem som vil ikke kan sove 0 235
+98 Jeg vet hvem som har ikke sovet 0 284
+99 Jeg vet hvem har ikke sovet 0 265
+100 Jeg vet hvem ikke har sovet 0 332
+101 Jeg vet hvem ikke har blitt skutt 0 371
+102 Jeg vet hvem ikke vil ha blitt skutt 0 573
+103 Jeg vet hvem ikke vil ha kunnet bli skutt 0 954
+104 Jeg vet hvem ikke vil ha skullet kunne bli skutt 0 1750
+105 jeg vet hva hvem som har spist 0 267
+106 jeg vet hvem har spist hva 0 252
+107 jeg ser gutten som spise eplet 0 344
+108 jeg ser gutten som spist eplet 0 346
+109 jeg ser gutten som vil kan ha spist eplet 0 527
+110 jeg ser eplet gutten spise 0 292
+111 jeg ser eplet gutten spist 0 261
+112 jeg ser eplet gutten ha spist 0 338
+113 jeg ser eplet som gutten spist 0 342
+114 jeg ser gutten som spiser kanskje eplet 0 792
+115 jeg ser gutten som vil spise kanskje eplet 0 1062
+116 jeg ser gutten som vil neppe kunne ha spist eplet 0 906
+117 jeg ser eplet gutten har nå spist 0 867
+118 jeg ser eplet gutten må nå ha spist 9 1757
+119 jeg ser eplet gutten spiser ikke 0 508
+120 jeg ser eplet som gutten spiser ikker 0 606
+121 jeg ser eplet som gutten vil ikke spise 0 904
+122 jeg ser eplet som gutten vil kanskje ikke spise 0 2434
+123 jeg ser Ola ikke 0 270
+124 han setter ikke seg 0 113
+125 unner han ikke seg den? 0 168
+126 unner seg han ikke den? 0 96
+127 unner seg ikke han den? 0 90
+128 unner ikke seg han den? 0 84
+129 ballen kastes Ola til 0 226
+130 det kastes ballen  0 201
+131 det kastes ballen til Ola 0 303
+132 meg ble overlatt en ball 0 151
+133 det overlates Ola ballen 0 177
+134 Ola stoles 0 84
+135 det stoles  0 122
+136 det vaskes seg 0 201
+137 det skammes seg 0 149
+138 det foraktes seg selv 0 135
+139 ballen bli kastet 0 150
+140 ballen bli kastet til Ola 0 389
+141 det blir kastet ballen 0 268
+142 det blir kastet ballen til Ola 0 474
+143 det blir overlatt Ola ballen 0 186
+144 Ola blir stolt 1 109
+145 det blir stolt 1 153
+146 det blir vasket seg 0 253
+147 Ola fryktes drepe 0 144
+148 Ola fryktes forsøkes drept 0 269
+149 Ola blir fryktet forsøkes drept 0 314
+150 Ola blir fryktet forsøkt drepes 0 349
+151 Ola antas forutsette forsøkt drept 0 306
+152 Ola fryktes ankomme 0 132
+153 Ola fryktes overlate pistolen 0 157
+154 Ola er hyggelig snakke med 0 542
+155 maten er gode å spise 0 278
+156 guttene er hyggelig å se 0 531
+157 jeg rusler gutten 0 24
+158 Ola ligger for sove 0 163
+159 Ola ligger sove 0 90
+160 Ola ligger uten sove 0 137
+161 Ola løper glade 0 72
+162 hvis han sover Per kommer 0 121
+163 hvis han sover, Per kommer 0 127
+164 Ola Per Kari kommer 0 65
+165 Ola ligger går rusler 0 76
+166 Ola forakter seg 0 44
+167 han skammer ham 0 27
+168 hun skammer henne 0 38
+169 den skammer den 0 46
+170 det skammer det 0 134
+171 de skammer dem 0 45
+
+;;; Total CPU time: 135910 msecs
+
+;;; Mean edges: 454.24
+
+;;; Mean parses: 0.10

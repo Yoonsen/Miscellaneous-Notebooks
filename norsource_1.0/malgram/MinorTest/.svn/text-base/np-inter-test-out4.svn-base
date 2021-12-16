@@ -1,0 +1,390 @@
+1 en snill gutt sover 1 88
+2 en snill jente sover 1 89
+3 *en snill barn sover 0 79
+4 *en snill gutten sover 0 55
+5 *en snill jenta sover 0 55
+6 *en snill barnet sover 0 55
+7 *en snill gutter sover 0 79
+8 *en snill guttene sover 0 58
+9 *en snill jenter sover 0 81
+10 *en snill jentene sover 0 58
+11 *en snill barnene sover 0 58
+12 en snill sover 1 49
+13 *en snilt gutt sover 0 82
+14 *en snilt jente sover 0 83
+15 *en snilt barn sover 0 87
+16 *en snilt gutten sover 0 58
+17 *en snilt jenta sover 0 56
+18 *en snilt barnet sover 0 56
+19 *en snilt gutter sover 0 80
+20 *en snilt guttene sover 0 59
+21 *en snilt jenter sover 0 82
+22 *en snilt jentene sover 0 59
+23 *en snilt barnene sover 0 59
+24 *en snilt sover 0 50
+25 *en snille gutt sover 0 111
+26 *en snille jente sover 0 112
+27 *en snille barn sover 0 128
+28 *en snille gutten sover 0 87
+29 *en snille jenta sover 0 87
+30 *en snille barnet sover 0 87
+31 *en snille gutter sover 0 125
+32 *en snille guttene sover 0 90
+33 *en snille jenter sover 0 127
+34 *en snille jentene sover 0 90
+35 *en snille barnene sover 0 90
+36 *en snille sover 0 81
+37 en gutt sover 1 65
+38 en jente sover 1 66
+39 *en barn sover 0 60
+40 *en gutten sover 0 37
+41 *en jenta sover 0 37
+42 *en barnet sover 0 37
+43 *en gutter sover 0 61
+44 *en guttene sover 0 40
+45 *en jenter sover 0 63
+46 *en jentene sover 0 40
+47 *en barnene sover 0 40
+48 en sover 1 32
+49 *ei snill gutt sover 0 93
+50 ei snill jente sover 1 98
+51 *ei snill barn sover 0 87
+52 *ei snill gutten sover 0 63
+53 *ei snill jenta sover 0 63
+54 *ei snill barnet sover 0 63
+55 *ei snill gutter sover 0 87
+56 *ei snill guttene sover 0 66
+57 *ei snill jenter sover 0 89
+58 *ei snill jentene sover 0 66
+59 *ei snill barnene sover 0 66
+60 *ei snill sover 1 57
+61 *ei snilt gutt sover 0 92
+62 *ei snilt jente sover 0 93
+63 *ei snilt barn sover 0 101
+64 *ei snilt gutten sover 0 68
+65 *ei snilt jenta sover 0 68
+66 *ei snilt barnet sover 0 68
+67 *ei snilt gutter sover 0 92
+68 *ei snilt guttene sover 0 71
+69 *ei snilt jenter sover 0 94
+70 *ei snilt jentene sover 0 71
+71 *ei snilt barnene sover 0 71
+72 *ei snilt sover 0 58
+73 *ei snille gutt sover 0 121
+74 *ei snille jente sover 0 122
+75 *ei snille barn sover 0 140
+76 *ei snille gutten sover 0 97
+77 *ei snille jenta sover 0 97
+78 *ei snille barnet sover 0 97
+79 *ei snille gutter sover 0 136
+80 *ei snille guttene sover 0 100
+81 *ei snille jenter sover 0 138
+82 *ei snille jentene sover 0 100
+83 *ei snille barnene sover 0 100
+84 *ei snille sover 0 90
+85 *ei gutt sover 0 70
+86 ei jente sover 1 75
+87 *ei barn sover 0 70
+88 *ei gutten sover 0 46
+89 *ei jenta sover 0 46
+90 *ei barnet sover 0 46
+91 *ei gutter sover 0 70
+92 *ei guttene sover 0 49
+93 *ei jenter sover 0 72
+94 *ei jentene sover 0 49
+95 *ei barnene sover 0 49
+96 *ei sover 0 37
+97 *et snill gutt sover 0 90
+98 *et snill jente sover 0 91
+99 *et snill barn sover 0 85
+100 *et snill gutten sover 0 61
+101 *et snill jenta sover 0 61
+102 *et snill barnet sover 0 61
+103 *et snill gutter sover 0 85
+104 *et snill guttene sover 0 64
+105 *et snill jenter sover 0 87
+106 *et snill jentene sover 0 64
+107 *et snill barnene sover 0 64
+108 *et snill sover 0 52
+109 *et snilt gutt sover 0 88
+110 *et snilt jente sover 0 89
+111 et snilt barn sover 1 99
+112 *et snilt gutten sover 0 64
+113 *et snilt jenta sover 0 64
+114 *et snilt barnet sover 0 64
+115 *et snilt gutter sover 0 88
+116 *et snilt guttene sover 0 67
+117 *et snilt jenter sover 0 90
+118 *et snilt jentene sover 0 67
+119 *et snilt barnene sover 0 67
+120 et snilt sover 1 58
+121 *et snille gutt sover 0 120
+122 *et snille jente sover 0 121
+123 *et snille barn sover 0 138
+124 *et snille gutten sover 0 96
+125 *et snille jenta sover 0 96
+126 *et snille barnet sover 0 96
+127 *et snille gutter sover 0 134
+128 *et snille guttene sover 0 99
+129 *et snille jenter sover 0 136
+130 *et snille jentene sover 0 99
+131 *et snille barnene sover 0 99
+132 *et snille sover 1 92
+133 *et gutt sover 0 68
+134 *et jente sover 0 69
+135 et barn sover 1 71
+136 *et gutten sover 0 44
+137 *et jenta sover 0 44
+138 *et barnet sover 0 44
+139 *et gutter sover 0 68
+140 *et guttene sover 0 47
+141 *et jenter sover 0 70
+142 *et jentene sover 0 47
+143 *et barnene sover 0 47
+144 *et sover 0 36
+145 *den snill gutt sover 0 83
+146 *den snill jente sover 0 84
+147 *den snill barn sover 0 78
+148 *den snill gutten sover 0 54
+149 *den snill jenta sover 0 54
+150 *den snill barnet sover 0 54
+151 *den snill gutter sover 0 78
+152 *den snill guttene sover 0 57
+153 *den snill jenter sover 0 80
+154 *den snill jentene sover 0 57
+155 *den snill barnene sover 0 57
+156 *den snill sover 0 45
+157 *den snilt gutt sover 0 82
+158 *den snilt jente sover 0 83
+159 *den snilt barn sover 0 87
+160 *den snilt gutten sover 0 58
+161 *den snilt jenta sover 0 56
+162 *den snilt barnet sover 0 56
+163 *den snilt gutter sover 0 80
+164 *den snilt guttene sover 0 59
+165 *den snilt jenter sover 0 82
+166 *den snilt jentene sover 0 59
+167 *den snilt barnene sover 0 59
+168 *den snilt sover 0 50
+169 den snille gutt sover 0 111
+170 den snille jente sover 0 112
+171 *den snille barn sover 0 128
+172 den snille gutten sover 1 91
+173 den snille jenta sover 1 91
+174 *den snille barnet sover 0 87
+175 *den snille gutter sover 0 125
+176 *den snille guttene sover 0 90
+177 *den snille jenter sover 0 127
+178 *den snille jentene sover 0 90
+179 *den snille barnene sover 0 90
+180 den snille sover 0 81
+181 *den gutt sover 0 61
+182 *den jente sover 0 62
+183 *den barn sover 0 60
+184 den gutten sover 1 41
+185 den jenta sover 1 41
+186 *den barnet sover 0 37
+187 *den gutter sover 0 61
+188 *den guttene sover 0 40
+189 *den jenter sover 0 63
+190 *den jentene sover 0 40
+191 *den barnene sover 0 40
+192 den sover 1 32
+193 *det snill gutt sover 0 125
+194 *det snill jente sover 0 126
+195 *det snill barn sover 0 120
+196 *det snill gutten sover 0 96
+197 *det snill jenta sover 0 96
+198 *det snill barnet sover 0 96
+199 *det snill gutter sover 0 120
+200 *det snill guttene sover 0 99
+201 *det snill jenter sover 0 122
+202 *det snill jentene sover 0 99
+203 *det snill barnene sover 0 99
+204 *det snill sover 0 87
+205 *det snilt gutt sover 0 122
+206 *det snilt jente sover 0 123
+207 *det snilt barn sover 0 131
+208 *det snilt gutten sover 0 98
+209 *det snilt jenta sover 0 98
+210 *det snilt barnet sover 0 100
+211 *det snilt gutter sover 0 122
+212 *det snilt guttene sover 0 101
+213 *det snilt jenter sover 0 124
+214 *det snilt jentene sover 0 101
+215 *det snilt barnene sover 0 101
+216 *det snilt sover 0 92
+217 *det snille gutt sover 0 153
+218 *det snille jente sover 0 154
+219 det snille barn sover 0 170
+220 *det snille gutten sover 0 129
+221 *det snille jenta sover 0 129
+222 det snille barnet sover 1 133
+223 *det snille gutter sover 0 167
+224 *det snille guttene sover 0 132
+225 *det snille jenter sover 0 169
+226 *det snille jentene sover 0 132
+227 *det snille barnene sover 0 132
+228 det snille sover 0 123
+229 *det gutt sover 0 103
+230 *det jente sover 0 104
+231 *det barn sover 0 102
+232 *det gutten sover 0 79
+233 *det jenta sover 0 79
+234 det barnet sover 1 83
+235 *det gutter sover 0 103
+236 *det guttene sover 0 82
+237 *det jenter sover 0 105
+238 *det jentene sover 0 82
+239 *det barnene sover 0 82
+240 det sover 1 74
+241 *de snill gutt sover 0 98
+242 *de snill jente sover 0 99
+243 *de snill barn sover 0 93
+244 *de snill gutten sover 0 69
+245 *de snill jenta sover 0 69
+246 *de snill barnet sover 0 69
+247 *de snill gutter sover 0 93
+248 *de snill guttene sover 0 72
+249 *de snill jenter sover 0 95
+250 *de snill jentene sover 0 72
+251 *de snill barnene sover 0 72
+252 *de snill sover 0 60
+253 *de snilt gutt sover 0 95
+254 *de snilt jente sover 0 96
+255 *de snilt barn sover 0 104
+256 *de snilt gutten sover 0 71
+257 *de snilt jenta sover 0 71
+258 *de snilt barnet sover 0 71
+259 *de snilt gutter sover 0 97
+260 *de snilt guttene sover 0 76
+261 *de snilt jenter sover 0 99
+262 *de snilt jentene sover 0 76
+263 *de snilt barnene sover 0 76
+264 *de snilt sover 0 65
+265 *de snille gutt sover 0 126
+266 *de snille jente sover 0 127
+267 de snille barn sover 0 143
+268 *de snille gutten sover 0 102
+269 *de snille jenta sover 0 102
+270 *de snille barnet sover 0 102
+271 de snille gutter sover 0 140
+272 de snille guttene sover 1 109
+273 de snille jenter sover 0 142
+274 de snille jentene sover 1 109
+275 de snille barnene sover 1 109
+276 de snille sover 0 96
+277 *de gutt sover 0 76
+278 *de jente sover 0 77
+279 *de barn sover 0 75
+280 *de gutten sover 0 52
+281 *de jenta sover 0 52
+282 *de barnet sover 0 52
+283 *de gutter sover 0 76
+284 de guttene sover 1 59
+285 *de jenter sover 0 78
+286 de jentene sover 1 59
+287 de barnene sover 1 59
+288 de sover 1 47
+289 *flere snill gutt sover 0 93
+290 *flere snill jente sover 0 94
+291 *flere snill barn sover 0 88
+292 *flere snill gutten sover 0 64
+293 *flere snill jenta sover 0 64
+294 *flere snill barnet sover 0 64
+295 *flere snill gutter sover 0 88
+296 *flere snill guttene sover 0 67
+297 *flere snill jenter sover 0 90
+298 *flere snill jentene sover 0 67
+299 *flere snill barnene sover 0 67
+300 *flere snill sover 0 55
+301 *flere snilt gutt sover 0 90
+302 *flere snilt jente sover 0 91
+303 *flere snilt barn sover 0 99
+304 *flere snilt gutten sover 0 66
+305 *flere snilt jenta sover 0 66
+306 *flere snilt barnet sover 0 66
+307 *flere snilt gutter sover 0 92
+308 *flere snilt guttene sover 0 71
+309 *flere snilt jenter sover 0 94
+310 *flere snilt jentene sover 0 71
+311 *flere snilt barnene sover 0 71
+312 *flere snilt sover 0 60
+313 *flere snille gutt sover 0 123
+314 *flere snille jente sover 0 124
+315 flere snille barn sover 2 147
+316 *flere snille gutten sover 0 99
+317 *flere snille jenta sover 0 99
+318 *flere snille barnet sover 0 99
+319 flere snille gutter sover 2 143
+320 *flere snille guttene sover 0 102
+321 flere snille jenter sover 2 145
+322 *flere snille jentene sover 0 102
+323 *flere snille barnene sover 0 102
+324 flere snille sover 2 97
+325 *flere gutt sover 0 71
+326 *flere jente sover 0 72
+327 flere barn sover 2 76
+328 *flere gutten sover 0 47
+329 *flere jenta sover 0 47
+330 *flere barnet sover 0 47
+331 flere gutter sover 2 77
+332 *flere guttene sover 0 50
+333 flere jenter sover 2 79
+334 *flere jentene sover 0 50
+335 *flere barnene sover 0 50
+336 flere sover 1 42
+337 *snill gutt sover 1 76
+338 *snill jente sover 1 77
+339 *snill barn sover 0 71
+340 *snill gutten sover 0 47
+341 *snill jenta sover 0 47
+342 *snill barnet sover 0 47
+343 *snill gutter sover 0 71
+344 *snill guttene sover 0 50
+345 *snill jenter sover 0 73
+346 *snill jentene sover 0 50
+347 *snill barnene sover 0 50
+348 *snill sover 0 38
+349 *snilt gutt sover 0 73
+350 *snilt jente sover 0 74
+351 *snilt barn sover 1 80
+352 *snilt gutten sover 0 49
+353 *snilt jenta sover 0 49
+354 *snilt barnet sover 0 49
+355 *snilt gutter sover 0 73
+356 *snilt guttene sover 0 52
+357 *snilt jenter sover 0 75
+358 *snilt jentene sover 0 52
+359 *snilt barnene sover 0 52
+360 *snilt sover 0 40
+361 *snille gutt sover 0 104
+362 *snille jente sover 0 105
+363 snille barn sover 1 121
+364 *snille gutten sover 0 80
+365 *snille jenta sover 0 80
+366 *snille barnet sover 0 80
+367 snille gutter sover 1 118
+368 *snille guttene sover 0 83
+369 snille jenter sover 1 120
+370 *snille jentene sover 0 83
+371 *snille barnene sover 0 83
+372 *snille sover 2 74
+373 *gutt sover 1 54
+374 *jente sover 1 55
+375 barn sover 2 53
+376 gutten sover 1 30
+377 jenta sover 1 30
+378 barnet sover 1 30
+379 gutter sover 1 54
+380 guttene sover 1 33
+381 jenter sover 1 56
+382 jentene sover 1 33
+383 barnene sover 1 33
+384 *sover 0 22
+
+;;; Total CPU time: 15850 msecs
+
+;;; Mean edges: 80.46
+
+;;; Mean parses: 0.16

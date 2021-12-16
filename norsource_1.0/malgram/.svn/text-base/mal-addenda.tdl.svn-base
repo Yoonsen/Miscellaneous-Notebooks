@@ -1,0 +1,187 @@
+;;; MHS 120713 Adding in some types that will block certain bon-rules form being active in the mal-grammar.
+
+#|
+phrase-or-lexrule :+
+[ ARGS < [ --A +], ... > ].
+
+basic-binary-phrase :+ 
+[ ARGS < [ ], [ --A +] > ].
+|#
+
+
+
+;;; MHS 040713 This works together with the other new stuff on NEED-Q-MARK + in matrix.tdl and root.tdl. 
+
+head-invertsubject-interr-phrase :+
+[ SYNSEM.LOCAL.NEED-Q-MARK + ].
+
+
+#|
+s-adv-final-spec-invert-v-phrase :+ 
+[ HEAD-DTR.FRONT-TO-FILL - ].
+
+telic-pp-mod-vp-phrase :+
+[ HEAD-DTR.FRONT-TO-FILL - ].
+|#
+
+;;; MHS 290613 These were added to block some ugly conspiracies.
+
+correlative-inv-phrase :+
+[ GENRE wellfrmd ].
+
+apposition-for-introduction-phrase :+
+[ GENRE wellfrmd ].
+
+apposition-for-introduction-phrase :+ 
+[ --A -]. ;; MHS 110813 Blocking appositions in the malgrammar.
+
+imperative-phrase :+
+[ --A -]. ;; MHS 110813 Blocking imperatives in the malgrammar. This is somewhat redundant since the imperative rule is commented out in revision 232.
+
+;;; MHS 290613 This was added to block a conspiracy with mal-head-subject-rule.
+
+head-complementizer-comp-fin-phrase :+
+[ FRONT-TO-FILL -].
+
+;;;
+
+imperative-phrase :+ 
+[ GENRE wellfrmd-or-noperm ].
+
+bare-relative-extract-mod-phrase :+
+[ SYNSEM.LOCAL.CAT.HEAD.MAL.MALDROPPY no-cop-droppy ].
+
+unary-fin-rel-head-filler-phrase :+
+[ SYNSEM.LOCAL.CAT.HEAD.MAL.MALDROPPY #droppy,
+  ARGS <[SYNSEM.LOCAL.CAT.HEAD.MAL.MALDROPPY #droppy]> ].
+
+relative-extract-mod-phrase :+ 
+[ GENRE wellfrmd-or-nochange ].
+
+relative-subj-mod-phrase :+ 
+[ GENRE wellfrmd-or-nochange ].
+
+head-filler-n-topic-phrase :+ 
+[ NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.MAL.MALCASE - ].
+
+relative-extract-mod-phrase :+ 
+[ GENRE wellfrmd-or-nochange ].
+
+relative-subj-mod-phrase :+ 
+[ GENRE wellfrmd-or-nochange ].
+
+adj-to-bare-n-rule :+ 
+[ GENRE wellfrmd-or-noflect ].
+
+;;; MHS 290613 I'm temporarily restricting bare indefinites to the bon-grammar.
+
+;;; MHS 120713 I'm now removing this restriction, as bare indefinites will be simultaneously allowed in the bon-grammar, but be given a mal analysis in the mal-grammar, through the application of the new --A attribute.
+
+#|
+sg-indef-bare-noun-lxm :+
+[ GENRE wellfrmd ].
+|#
+; denne typen er borte fra norsource nå, erstattet av følgende batteri, som bør reflekteres i den nye utgave:
+;adj-to-n-cum-quantifier-lrule := adj-to-n-cum-quantifier-rule.
+;adj-to-n-cum-indefarticle-lrule := adj-to-n-cum-indefarticle-rule.
+;adj-to-n-cum-defdem-lrule := adj-to-n-cum-defdem-rule.
+;adj-to-n-cum-card-lrule := adj-to-n-cum-card-rule.
+;adj-to-nonbare-n-rule :+ 
+;[ GENRE wellfrmd-or-noflect ].
+
+head-prep-bareclause-comp-phrase :+ 
+[ GENRE wellfrmd-or-nodrop ].
+
+head-wordcoord-comp-phrase :+
+[ GENRE wellfrmd-or-nodrop ].
+
+head-filler-event-topic-phrase :+ 
+[ GENRE wellfrmd-or-noperm ].
+
+indefquant-to-nonbare-n-rule :+ 
+[ GENRE wellfrmd-or-nodrop ].
+
+;; The following are made to  avoid double rules for masculine and feminine mal-interpretations of feminine nouns.
+
+masc-or-fem :+ 
+[ --MANDATORY-MASC bool ].
+
+mascorfem-noun-lxm :+ 
+[ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NG.--MANDATORY-MASC - ].
+
+;; This one introduces a constraint that does not hold in all sentences, but is applied for pedagogical purposes.
+
+;dem-word :+
+;[ SYNSEM.LOCAL.CAT.VAL.SPEC < [LOCAL.CAT.HEAD.DEFINITE +] > ].
+
+
+;; Blocks an ugly conspiracy. 
+
+head-filler-n-topic-phrase :+ 
+[ SYNSEM.LOCAL.CAT.HEAD.MAL.MALDROPPY no-subj-droppy ].
+
+mal-subj-drop-phrase :+
+[ SYNSEM.LOCAL.CAT.HEAD.MAL.MALDROPPY subj-droppy ].
+
+mal-possparticle-drop-phrase :+ 
+[ ARGS < [ SYNSEM.LOCAL.CAT.HEAD.MAL.MALDROPPY poss-droppy ] >].
+
+pers-pron :+ 
+[ MAL.MALDROPPY no-poss-droppy ].
+
+poss-word :+ 
+[ SYNSEM.LOCAL.CAT.HEAD.MAL.MALDROPPY no-poss-droppy ].
+
+posspron-to-bare-n-rule :+ 
+[ SYNSEM.LOCAL.CAT.HEAD.MAL.MALDROPPY no-poss-droppy ].
+
+; Block combination of nominalized SPECs and mal-poss-rule
+
+spec-to-n-rule :+ 
+[SYNSEM.LOCAL.CAT.HEAD.MAL.MALCHANGY spec-to-n-changy ].
+
+; Block combination of adj-to-deg-adv and wrong placement of deg-adv
+
+degadv-from-adj_nde-pos-word :+ [SYNSEM.LOCAL.CAT.HEAD.MAL.MALCHANGY adj-to-adv-changy].
+degadv-from-adj_t-pos-word :+ [SYNSEM.LOCAL.CAT.HEAD.MAL.MALCHANGY adj-to-adv-changy].
+
+; To get the conjugational change-mal rules in place
+
+sign :+ [--MALCONJ bool].
+
+infl-pres-verb-word :+ [--MALCONJ -, ARGS <[--MALCONJ -]>].
+inf-verb-word :+ [--MALCONJ -, ARGS <[--MALCONJ -]>].
+
+s-pass-word :+ [ARGS <[--MALCONJ -]>].
+passive-lexeme :+ [--MALCONJ #mc, ARGS <[--MALCONJ #mc]>].
+
+presparticpl-adj-lxm :+ [ARGS <[--MALCONJ -]>].
+
+; To block adjectives like "hyggelig" from being analyzed as NEUT synsem with MASC orthography
+
+adj-reg :+ [--GENDER-DISTINCTION bool].
+
+strong-adj-lxm :+ 
+[ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION #gd,
+  ARGS < [SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION #gd] > ].
+
+weak-adj-lxm :+ 
+[ SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION #gd,
+  ARGS < [SYNSEM.LOCAL.CAT.HEAD.--GENDER-DISTINCTION #gd] > ].
+
+adj-no_gd :+ [--GENDER-DISTINCTION -].
+
+;;;
+
+coordination-v_inv-phrase :+ [ARGS <[SYNSEM.LOCAL.CAT.HEAD.MAL.MALINV no-invy],...>].
+
+s-adv-spec-invert-v-phrase :+ [ARGS <[SYNSEM.LOCAL.CAT.HEAD.MAL.MALINV no-invy],...>].
+
+;;;;
+
+;mcl-extracted-verbcomp-phrase :+ [ARGS <[SYNSEM.LOCAL.CAT.HEAD.MAL.MALFLECTY no-flecty]>].
+
+; To block normally tensed verbs from becoming adjectives via application of mal rule that treats normal verbs as perfect
+
+str-pastpt-adj-word :+ [ARGS < [SYNSEM.LOCAL.CAT.HEAD.MAL.MALFLECTY no-perf-flecty] >].
+

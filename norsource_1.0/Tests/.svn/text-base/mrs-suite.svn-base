@@ -1,0 +1,508 @@
+;; -*- Coding: utf-8; -*-
+
+;'Norwegian MRS test suite'
+;
+;This list is based on a test suite for English [REF], with the English 
+;counterpart given as a comment above each Norwegian sentence. The 
+;correspondences go by phenomenon match rather than direct translation, 
+;so that in some cases, the closest phenomenal counterpart in Norwegian 
+;is not a translation, nor even in all respects the same construction type. 
+;In such cases, an English gloss is given as a comment underneath the 
+;Norwegian sentence.
+;At the end, some Norwegian constructions are added that have no direct
+;constructional counterpart in the English list, but nevertheless 
+;represents a reading present in one of the English sentences.
+;(Note that sequences 'NP V NP' give rise to ambiguity involving topicalization, which is of no interest in this suite.)
+; Label codes are given with each example, and in cases where the English and Norwegian constructions are not exactly the same type, a type label is given for each.
+; The semantic specifications in the Labeling system are mostly omitted, and used only when reflecting distinctions frequently made.
+
+
+;It rained.
+;v-intrImpers
+Det regner.
+; it rains
+
+;Abrams barked.
+;v-intr
+;v-intr-suAg
+Ola bjeffet.
+
+;The window opened.
+;v-intr
+;v-intr-suTh
+Grenen brakk.
+;the branch broke (ex. with "åpne seg", see end)
+
+;Abrams chased Browne.
+;v-tr
+Ola jaget Embla.
+; Ola chased Embla
+
+;Abrams handed Browne the cigarette.
+;v-ditr
+Ola rakte Embla sigaretten.
+
+;Abrams handed the cigarette to Browne.
+;v-trObl
+Ola rakte sigaretten til Embla.
+
+;Abrams bet Browne a cigarette that it rained.
+; Eng.: v-ditrComp-compDECL
+; No.: v-trObl-oblDECL
+Ola veddet en sigarett med Embla på at Ask sov.
+;Ola bet a cigarette with Embla (on) that Ask slept
+
+;Abrams knew that it rained.
+;v-tr-obDECL
+Ola visste at det regnet.
+
+;Abrams intended to bark.
+;v-tr-obEqInf (= v-tr-obEqSuInf)
+Ola mente å bjeffe.
+
+;Abrams intended Browne to bark.
+;Eng.: v-trScpr-scObNrg-scInf
+;No.: v-trScpr-scObNrg-scBareinf
+Ola hørte Embla bjeffe.
+;Ola heard Embla bark
+
+;Every cat barked.
+;v-intr-suSpecQ
+Hver katt bjeffet.
+
+;Every cat chased some dog.
+;v-tr-suSpecQ-obSpecQ
+Hver katt jaget en hund.
+
+;My cat barked.
+;v-intr-suSpecPoss
+Min katt bjeffet
+;v-intr-suSpecPossShft
+Katten min bjeffet.
+
+;It barked.
+;v-intr-suPron
+Den bjeffet.
+
+;The cat chased it.
+;v-tr-obPron
+Katten jaget den.
+
+;The cat chased itself.
+;v-tr-obRefl
+Katten jaget seg selv.
+
+;The cat chased one.
+;v-tr-obCrd
+Katten jaget én.
+
+;Mine barked.
+;v-intr-suPoss
+Min bjeffet.
+
+;That opened.
+;v-intr-suPron-suTh
+Den brakk.
+;it broke
+
+;Cats bark.
+;v-intr-suBarepl
+Katter bjeffer.
+
+;Tobacco arrived.
+;v-intr-suBaresgmass
+Tobakk ankom.
+
+;Some bark.
+;v-intr-suQ
+Noen bjeffer.
+
+;Some of the cats bark.
+;v-intr-suQprtivp
+Noen av kattene bjeffer.
+
+;No cat barked.
+;v-intr-suSpecQ
+Ingen katt bjeffet.
+
+;Did the dog bark?
+;v_YN-intr
+Bjeffet hunden?
+
+;Which dog barked?
+;v_WH-intr
+Hvilken hund bjeffet?
+
+;Whose dog barked?
+;v_WH-intr-suSpecPosswh
+Hvem sin hund bjeffet?
+
+;Chase Browne!
+;v_IMPER-intr
+Jag Embla!
+
+;Abrams wondered which dog barked.
+;Eng.: v-intrComp-compWH
+;No.: v-intrObl-oblWH
+Ola lurte på hvilken hund som bjeffet.
+;Ola wondered (at) which dog (that) barked
+
+;Abrams wondered whether Browne barked.
+;Eng.: v-intrComp-compYN
+;No.: v-intrObl-oblYN
+Ola lurte på hvorvidt Embla bjeffet.
+;Ola wondered (at) whether Embla barked
+
+;The dog that Browne chased barked.
+;v-intr-suRelcl
+Hunden som Embla jaget bjeffet.
+
+;The dog to chase is barking.
+;v-intr-suRelclinf
+En bok å lese ligger her.
+;a book to read lies here
+
+;The dog was chased by Browne.
+;v-intrPs-ajctPP-ajctAg
+Hunden ble jaget av Embla.
+
+;The dog chased by Browne barked.
+;v-intr-suRedrelcl
+Dressen sydd av Armani lå i malingspannet.
+;the suit sewn by Armani lay in the paint bucket
+
+;The dog is barking.
+;Eng.: axv-intr-av1ger
+;No.: v-intrSubcoord-ACTIVITY
+Hunden driver og bjeffer.
+; also 'Hunden holder på å bjeffe' has a progressive meaning, while 
+;'Hunden bjeffer' is ambiguous between progressive and generic
+
+;The dog has barked.
+; axv-intr-av1perf
+Hunden har bjeffet.
+
+;The dog has been barking.
+;Eng.: axv-intr-av1perf_av2ger
+;No.: axv-intrSubcoord-av1perf-ACTIVITY
+Hunden har drevet og bjeffet.
+;'Hunden har bjeffet' is ambiguous, like as noted two sentences above
+
+;The dog had been barking.
+;Eng.: axv-intr-av1perf_av2ger
+;No.: axv-intrSubcoord-av1perf-ACTIVITY
+Hunden hadde drevet og bjeffet.
+; 'Hunden hadde bjeffet' is ambiguous, like as noted above
+
+;The dog will bark.
+; axv-intr-av1mod
+Hunden vil bjeffe.
+;'Hunden vil bjeffe' has a volitional meaning, while 'kommer til å' renders a pure future tense - see next:
+
+;The dog is going to bark.
+;Eng.: v_perifut-intr  - more precise:
+;Eng.: v_peripres-intrObl-oblBareinf_oblIntr-FUT
+;No.: v_perifut-intr  - but more precise:
+;No.: v-intrOblRais-suNrg_oblRaisInf_oblIntr-FUT
+Hunden kommer til å bjeffe.
+
+;The dog could bark.
+;axv-intr-av1mod
+Hunden kunne bjeffe.
+
+;The dog couldn't bark.
+;;axv_neg-intr-av1mod
+;axv-intr-av1mod
+Hunden kunne ikke bjeffe.
+
+;The old dog barked.
+;v-intr-suModAdj
+Den gamle hunden bjeffet.
+
+;The dog barked softly.
+;v-intr-ajctAdv-ajctMann
+Hunden bjeffet svakt.
+
+;The dog probably barked.
+;v-intr-ajctAdv-ajctSmod
+Hunden bjeffet sannsynligvis.
+
+;The dog barked in the garden.
+;v-intr-ajctPP-ajctLoc
+Hunden bjeffet i haven.
+
+;The dog barks now.
+;v-intr-ajctAdv-ajctTemp
+Hunden bjeffer nå.
+
+;The garden dog barked.
+;v-intr-suNcmpnd
+Havehunden bjeffer.
+
+;The tobacco garden dog barked.
+;v-intr-suNcmpndNcmpnd
+Tobakkshavehunden bjeffet.
+
+;The cat is old.
+;v-copAdj
+Katten er gammel.
+
+;The cat is in the garden.
+;v-copPP-scLoc
+Katten er i haven.
+
+;The barking dog chased Browne.
+;v-tr-suModPresptcl
+Den bjeffende hunden jaget Embla.
+
+;Chased dogs bark.
+;v-intr-suModPassadj
+Jagete hunder bjeffer.
+
+;Chasing the cat is old.
+;Eng: v-copAdj-suAbsger
+;No.: v-copAdj-suAbsinf
+Ã… jage katten er kjedelig.
+; ...is boring'
+
+;That the cat chases Browne is old.
+;v-copAdj-DECL
+At katten jager Embla er nytt.
+;...is new'
+
+;Dogs chase whatever barks.
+;v-tr-suBarepl_obFreerel
+Hunder jager hva som helst som bjeffer.
+
+;The dog barked every day.
+;v-intr-ajctN
+Hunden bjeffet hver dag.
+
+;When did the dog bark?
+;v_WH-intr-ajctWh
+Når bjeffet hunden?
+
+;Three of the dogs bark.
+;v-intr-suCrdprtivp
+Tre av hundene bjeffer.
+
+;Three bark.
+;v-intr-suCrd
+Tre bjeffer.
+
+;Browne's dog barks.
+;v-intr-suPossp
+Emblas hund bjeffer.
+
+;Browne's barks.
+;v-intr-suPosspDropN
+Emblas bjeffer.
+
+;Twenty three dogs bark.
+;v-intr-suCrd2dig
+Tjuetre hunder bjeffer.
+
+;Two hundred twenty dogs bark.
+;v-intr-suCrd3dig
+To hundre og tjue hunder bjeffer.
+
+;Abrams arrived by car.
+;v-intr-ajctMeans
+Embla ankommer med bil.
+;Abrams arrives by car.
+
+;Abrams kept barking.
+;Eng.: v-intrLghtScpr-scPresptcl-SUSTAINEDACTIVITY
+;No.: v-intrPrtclSubcoord-SUSTAINEDACTIVITY
+Embla drev på og bjeffet.
+
+;Browne squeezed the cat in.
+;v-trScpr-scObArgCsd_scAdv
+Embla presset katten inn.
+
+;Browne squeezed in the cat.
+;v-trScprShft-scObArgCsd_scAdv
+Embla presset inn katten.
+
+;The picture of Abrams arrived.
+;v-intr-suRelationalpp
+Bildet av Embla ankommer.
+
+;Abrams wiped the table clean.
+;v-trScpr-scObArgCsd_scAdj
+Embla tørket skoen ren.
+;Embla wiped the shoe clean
+
+;Abrams put Browne in the garden.
+;v-trScpr-scObNrgRes_scPP
+Ola plasserte Embla i haven.
+
+;The dog will bark if Browne arrives.
+;v_perifut-intr-ajctCondcl
+Hunden kommer til å bjeffe hvis Embla ankommer.
+
+;Abrams and Browne arrived.
+;v-intr-suCoord2
+Ola og Embla ankommer.
+;Ola og Embla arrive.
+
+;Abrams, Browne and the dog arrived.
+;v-intr-suCoord3
+Ola, Embla og hunden ankommer.
+
+;The dog arrived and barked.
+;v-intrCoord
+Hunden ankommer og bjeffer.
+;The dog arrives and barkes.
+
+;The dog arrived and Browne barked.
+;scoord-v1intr-v2intr
+Hunden ankommer og Embla bjeffer.
+;The dog arrives and Browne barkes.
+
+;The dog barked, didn't it?
+;tagq-v1intr
+Hunden bjeffet, gjorde den ikke?
+
+;It is obvious that the dog barked.
+;v-copExpnAdj-expnDECL
+Det er opplagt at hunden bjeffet.
+
+;Abrams promised Browne to bark.
+;v-ditr-obEqIsuInf
+Ola lovet Embla å bjeffe.
+
+;Abrams seems to bark.
+;v-intrScpr-scSuNrg_scInf
+Ola synes å bjeffe.
+
+; Ger vs not...
+;Abrams believes Browne to be barking.
+;Eng.: v-trScpr-scObNrg_scInf
+;No.: v-trScpr-scObNrg_scPredprtcl
+Ola anser Embla for å bjeffe.
+;...regards Embla as...
+
+;It bothered Abrams that Browne barked.
+;v-trExpnSu-expnDECL
+Det bekymret Ola at Embla bjeffet.
+
+;It took Abrams ten minutes to arrive.
+;v-ditrExpnSu-obMeas_expnEqInf
+Det tok Ola ti minutter å ankomme.
+
+;Abrams left it to Browne to bark.
+;v-trExpnOb-expnAbsinf
+Ola overlot det til Embla å bjeffe.
+
+;Abrams strikes Browne as old.
+;v-trScpr-scSuNrg_scPredprtcl
+Ola foresvever Embla som gammel.
+
+;Browne considers Abrams old.
+;v-trScpr-scObNrg_scAdj
+Embla anser Ola skikket.
+;Embla considers Ola qualified
+
+;Abrams liked the idea that Browne could bark.
+;v-tr-obNDECL
+Ola likte idéen at Embla kunne bjeffe.
+
+;Abrams barked from ten to three.
+;v-intr-ajctPP-ajctTemp
+Ola bjeffet fra ti til tre.
+
+;Abrams was very old.
+;v-copAdj-scSpecDeg
+Ola var meget gammel.
+
+;Nearly every dog barked.
+;v-intr-suSpecQ_suSpecSpecDeg
+Nesten hver hund bjeffet.
+
+;Abrams barked very softly.
+;v-intr-ajctAdvSpecDeg_ajctMann
+Ola bjeffet meget svakt.
+
+;Browne's chasing of cats bothered Abrams.
+;v-tr-suSpec_suRelationalpp
+Emblas jaging av hunder bekymret Ola.
+
+;It bothered Browne that Abrams chased cats.
+;v-trExpnSu-expnDECL
+Det plaget Embla at Ola jaget katter.
+
+;June third arrived.
+;v-intr-suSpecOrd
+Tredje juni kom.
+
+;Abrams arrived at three twenty.
+;Eng.: v-intr-ajctPP-ajctTempOck
+;No.: v-intr-ajctN-ajctTempOck
+Ola ankom tre tjue.
+
+;Browne arrived on Tuesday morning.
+;Eng.: v-intr-ajctPP-ajctTempDaytime
+;No.: v-intr-ajctN-ajctTempDaytime
+Embla ankom torsdag morgen.
+
+;The cats found a way to bark.
+;Eng.: v-tr-obRelclinf-obRelclGapAjctN
+;No.: v-tr-obRelclinf-obRelclGapAjctPgov
+Kattene fant en måte å bjeffe på.
+
+;The happier dog chased Browne.
+;Eng.: v-tr-suModAdjCmpar
+;No.: v-tr-suModAdjSpltv
+Den lykkeligste hunden jaget Embla.
+
+;There were cats in the garden.
+;v-intrPresntLoc
+Det var katter i haven.
+
+;That dog chased Browne.
+;v-tr-suSpecDem
+Den hunden jaget Embla.
+
+;Somebody chased Abrams.
+;v-tr-suQ
+Noen jaget Ola.
+
+;How happy was Abrams?
+;v_WH-copAdj-scSpecWh
+Hvor lykkelig var Ola?
+
+;The number five bothers Browne.
+;v-tr-suCrd
+Nummer fem plager Embla.
+Tallet fem plager Embla.
+
+;The mid to upper nineties bother Browne.
+;v-tr
+De midt- til øvre nittiårene plager Embla.
+
+;Abrams could.
+;v-intrAuxmodScpr-scDrop
+;v-intrAuxmodComp-compEqBareinf_compDrop
+;v_perimod-vpDrop
+Ola kunne.
+
+;Browne tried to.
+;No.: v-tr-obEqInf-obDrop
+Embla prøvde.
+
+;Don't bark!
+;No.: v_IMPER-intr
+bjeff ikke!
+
+;The dog arrived barking.
+;v-intrScpr-scSuArgConcurr_scPresptcl
+Hunden ankom bjeffende.
+
+;The window opened.
+;Eng.: v-intr-suTh
+;No.: v-trNrf-obReflExpl-suTh
+Vinduet åpnet seg.
+
+
+

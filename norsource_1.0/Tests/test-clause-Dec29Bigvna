@@ -1,0 +1,153 @@
+1 gutten sover ikke 1 42
+2 gutten sover ved myra 1 69
+3 gutten har ikke sovet 1 89
+4 gutten har bak myra sovet 1 156
+5 ved myra har gutten sovet 1 107
+6 gutten har sovet ved myra 1 104
+7 gutten har sovet ikke 0 81
+8 jeg vet at gutten ikke sover 1 119
+9 jeg vet at gutten ved myra har sovet 2 200
+10 jeg vet at ved myra gutten har sovet 0 167
+11 jeg vet at gutten har sovet ved myra 2 214
+12 har gutten sovet? 1 75
+13 har ikke gutten sovet? 1 105
+14 har gutten sovet ved myra? 1 123
+15 hva har gutten spist? 6 145
+16 eplet har gutten spist 6 131
+17 hvilket eple har gutten spist? 6 197
+18 jeg vet hvem som sover 1 131
+19 jeg vet hvem som har spist eplet 1 942
+20 jeg vet hvem har spist eplet 0 239
+21 jeg vet hvilket eple gutten spiser 2 186
+22 jeg vet hvem sitt eple gutten spiser 2 284
+23 jeg vet hva hvem har spist 0 212
+24 jeg vet hvem som har spist hva 1 943
+25 jeg ser gutten som spiser eplet 1 599
+26 jeg ser eplet gutten spiser 1 208
+27 jeg ser eplet som gutten spiser 1 308
+28 jeg ser eplet gutten ikke spiser 1 225
+29 jeg ser eplet som gutten ikke spiser 1 325
+30 gutten som ligger sover 1 82
+31 gutten som ligger, sover 1 106
+32 gutten, som ligger, sover 2 189
+33 gutten, som ligger sover 16 163
+34 jeg ser ham ikke 1 171
+35 jeg ser ikke ham 2 190
+36 han setter seg ikke 2 194
+37 han setter ikke seg 0 188
+38 han unner meg den ikke 1 62
+39 unner han meg den ikke? 2 96
+40 unner han meg ikke den? 2 96
+41 unner gutten henne den ikke? 1 71
+42 ballen kastes 2 204
+43 ballen kastes til Ola 2 281
+44 det kastes en ball 1 289
+45 det kastes en ball til Ola 1 395
+46 jeg overlates en ball 1 190
+47 en ball overlates meg ikke 1 230
+48 det overlates Ola en ball 1 217
+49 Ola stoles på 1 179
+50 det stoles på Ola 1 233
+51 ballen blir kastet 4 137
+52 ballen blir kastet til Ola 8 312
+53 det blir kastet en ball 1 254
+54 det blir kastet en ball til Ola 1 399
+55 Ola blir overlatt en ball 1 137
+56 en ball blir overlatt Ola 1 133
+57 det blir overlatt Ola en ball 1 161
+58 Ola blir stolt på 2 240
+59 det blir stolt på Ola 4 341
+60 Ola er hyggelig å snakke med 1 351
+61 maten er hyggelig å spise 1 263
+62 maten er hyggelige å spise 0 220
+63 guttene er hyggelige å se 1 334
+64 gutten Ola sover 1 38
+65 elven den gule elv renner 1 158
+66 elven en elv renner 0 100
+67 en gutt Ola sover 0 66
+68 gutten, Ola, sover 1 81
+69 elven, den gule elv, renner 1 250
+70 elven, en elv, renner 1 167
+71 en gutt, Ola, sover 1 124
+72 jeg rusler søndag 1 33
+73 jeg rusler gutten 0 23
+74 Ola ligger for å sove 1 130
+75 Ola ligger uten å sove 1 112
+76 Ola løper glad 2 157
+77 Ola spiser fisken levende 2 110
+78 sover Ola kommer Per 1 120
+79 sover Ola, kommer Per 4 191
+80 hvis han sover kommer Per 1 157
+81 hvis han sover, kommer Per 1 175
+82 Ola Per Kari kommer 0 89
+83 Ola Per og Kari kommer 1 104
+84 Ola og Per og Kari kommer 1 117
+85 Ola, og Per, og Kari kommer 1 159
+86 Ola, og Per, og Kari, kommer 0 175
+87 Ola, Per, Kari kommer 2 146
+88 Ola, Per, Kari, kommer 0 183
+89 Ola, Per og Kari kommer 2 131
+90 Ola, Per, og Kari kommer 2 154
+91 Ola, Per, og Kari, kommer 0 175
+92 en gul, gammel mann sover 0 111
+93 en gul og gammel mann sover 1 99
+94 en gul, og  gammel mann sover 0 121
+95 en gul, og  gammel, mann sover 2 160
+96 Ola ligger, går og rusler 1 128
+97 Ola ligger går og rusler 1 106
+98 Ola ligger går rusler 0 95
+99 Ola ligger og går og rusler 1 110
+100 Ola går hit og dit 2 126
+101 Ola går hit, og dit 1 140
+102 Ola går hit, dit, til fjellet 1 236
+103 Ola går hit, dit, og til fjellet 1 261
+104 går Ola hit? 1 91
+105 går Ola hit. 1 91
+106 går Ola hit! 0 89
+107 Ola går hit. 1 82
+108 Ola går hit? 1 82
+109 Ola går hit! 0 80
+110 gå. 1 74
+111 gå? 0 71
+112 gå! 1 73
+113 hvis han kommer, gå 1 244
+114 hvis han kommer, gå. 1 253
+115 hvis han kommer, gå! 0 250
+116 hvis han kommer gå! 0 194
+117 hvis han kommer gå 1 188
+118 hvis han kommer gå. 1 197
+119 Ola fortærer seg 0 37
+120 Ola fortærer seg selv 1 88
+121 Ola fortærer seg selv selv 2 179
+122 Ola vasker seg selv 2 149
+123 Ola vasker seg  1 91
+124 jeg vasker meg  2 77
+125 Ola skammer seg 1 69
+126 jeg skammer meg 1 50
+127 jeg fortærer meg 1 23
+128 jeg fortærer meg selv 2 58
+129 Ola ber meg fortære seg 1 106
+130 Ola ber meg fortære seg selv 2 159
+131 Ola ser meg fortære seg 1 141
+132 Ola fortærer maten sin 1 60
+133 Ola gir gutten sin maten sin 3 225
+134 Ola gir gutten sin maten sin i huset sitt 10 726
+135 Ola kaster ballen sin mot huset sitt 6 834
+136 Ola gir en bok om seg til naboen sin 6 565
+137 Ola gir seg selv ballen sin 2 290
+138 Ola gir seg selv seg selv 1 436
+139 Ola gir sin gutt sitt fjell og sitt hus 3 675
+140 Ola vet at jeg liker seg 1 189
+141 jeg ber Ola vaske seg 1 175
+142 jeg ser Ola vaske seg 1 228
+143 Ola løper femten hundre på tre trettifem 2 441
+144 Ola løper femten hundre meter på tre trettifem 2 500
+145 Ola løp femten hundre meter på tre trettifem torsdag klokka tre førtifem 18 1617
+146 ja jeg sover 1 34
+147 ja, jeg sover 1 53
+
+;;; Total CPU time: 90180 msecs
+
+;;; Mean edges: 200.59
+
+;;; Mean parses: 1.62

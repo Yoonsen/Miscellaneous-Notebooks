@@ -1,0 +1,244 @@
+1 en snill gutt sover 2 116
+2 en snill jente sover 2 123
+3 en snill sover 1 52
+4 en gutt sover 2 82
+5 en jente sover 2 88
+6 en sover 2 41
+7 ei snill jente sover 2 136
+8 ei jente sover 2 99
+9 et snilt barn sover 1 122
+10 et snilt sover 1 54
+11 et barn sover 1 83
+12 den snille gutt sover 2 107
+13 den snille jente sover 4 124
+14 den snille gutten sover 2 71
+15 den snille jenta sover 2 75
+16 den snille sover 2 58
+17 den gutten sover 2 48
+18 den jenta sover 2 52
+19 den sover 1 33
+20 det snille barnet sover 2 108
+21 det snille sover 2 95
+22 det barnet sover 2 85
+23 det sover 1 73
+24 de snille barn sover 4 161
+25 de snille gutter sover 4 143
+26 de snille guttene sover 4 103
+27 de snille jenter sover 4 145
+28 de snille jentene sover 4 100
+29 de snille barnene sover 4 103
+30 de snille sover 2 73
+31 de guttene sover 2 69
+32 de jentene sover 2 66
+33 de barnene sover 2 69
+34 de sover 1 48
+35 flere snille barn sover 2 155
+36 flere snille gutter sover 2 137
+37 flere snille jenter sover 2 139
+38 flere snille sover 2 77
+39 flere barn sover 2 106
+40 flere gutter sover 2 95
+41 flere jenter sover 2 97
+42 flere sover 2 58
+43 snille barn sover 1 113
+44 snille gutter sover 1 95
+45 snille jenter sover 1 97
+46 barn sover 2 66
+47 gutten sover 1 31
+48 jenta sover 1 35
+49 barnet sover 1 31
+50 gutter sover 1 55
+51 guttene sover 1 37
+52 jenter sover 1 57
+53 jentene sover 1 34
+54 barnene sover 1 37
+55 snille sover 0 41
+56 gutt sover 1 62
+57 jente sover 1 68
+58 snill gutt sover 1 95
+59 snill jente sover 1 102
+60 snilt barn sover 1 104
+61 ei sover 2 50
+62 ett sover 2 55
+63 et sover 0 34
+64 ei snill sover 1 63
+65 vin renner 1 69
+66 en vin renner 2 91
+67 fjellet ligger 1 32
+68 vinen renner 1 46
+69 et fjell ligger 1 85
+70 tre gutter sover 1 163
+71 tre fjell ligger 3 187
+72 hver gutt sover 1 72
+73 hver vin renner 1 80
+74 hvert fjell ligger 1 102
+75 ingen gutt sover 1 75
+76 noen gutter sover 1 71
+77 noen viner renner 1 87
+78 noe vin renner 1 109
+79 en glad gutt smiler 2 128
+80 en god vin renner 2 143
+81 mye god vin renner 2 192
+82 tre glade gutter smiler 1 207
+83 tre glade hyggelige gutter smiler 1 335
+84 den glade gutten smiler 2 63
+85 den glade gutt smiler 2 99
+86 de tre glade guttene smiler 4 198
+87 de tre gode vinene renner 4 244
+88 de glade guttene smiler 4 91
+89 glade gutter smiler 1 89
+90 de glade gutter smiler 4 129
+91 de gutter sover 2 89
+92 de barn sover 2 100
+93 disse jenter sover 2 111
+94 disse gutter sover 2 109
+95 disse barn sover 2 120
+96 de jenter sover 2 91
+97 hvert av de glade barna smiler 8 260
+98 hver av de glade guttene smiler 8 239
+99 hver av de tre glade guttene smiler 8 367
+100 hver av de tre gode vinene renner 8 437
+101 mange av de glade barna smiler 8 356
+102 mange av de glade guttene smiler 8 357
+103 mange av de tre glade guttene smiler 8 493
+104 mange av de tre gode vinene renner 8 563
+105 noen av de ni guttene smiler 4 189
+106 noe av den gode vinen renner 6 282
+107 ingen av de ni guttene smiler 6 203
+108 få av de ni guttene smiler 4 946
+109 ni av guttene smiler 2 87
+110 noe av det renner 4 213
+111 litt av det renner 2 241
+112 ingenting av det virker 2 207
+113 alle gutter sover 1 110
+114 begge guttene sover 1 73
+115 alle de tre guttene sover 2 232
+116 all den gode vinen renner 2 128
+117 mine tre gutter sover 2 215
+118 mine glade gutter smiler 2 136
+119 min glade gutt smiler 1 98
+120 all min gode vin renner 1 145
+121 alle mine gode viner renner 2 239
+122 alle mine gutter smiler 1 137
+123 gutten min smiler 1 33
+124 vinen min renner 1 62
+125 den glade gutten min smiler 2 79
+126 gutten til Ola smiler 1 68
+127 vinen til Ola renner 1 96
+128 Ola sin gutt smiler 1 85
+129 gutten si bygd sover 1 227
+130 gutten sin ball ruller 2 113
+131 en gutt sin ball ruller 2 178
+132 hver gutt sin ball ruller 1 166
+133 Ola sin glade gutt smiler 1 117
+134 Olas gutt smiler 1 112
+135 guttens ball ruller 1 134
+136 en gutts ball ruller 2 199
+137 hver gutts ball ruller 1 183
+138 Olas glade gutt smiler 1 145
+139 Ola sin gutt sin katt løper 2 184
+140 Olas gutts katt løper 2 221
+141 Ola sin gutts katt løper 2 207
+142 Olas gutt sin katt løper 2 197
+143 en sekk poteter ligger 2 142
+144 en sekk med poteter ligger 6 214
+145 et par dusin esker baller ligger 2 268
+146 et hav av katter løper 2 237
+147 Jon hopper to nitten 1 91
+148 Ola løper på tre trettifem 12 718
+149 Ola løper tre trettifem 1 235
+150 Ola løper torsdag tre trettifem 1 259
+151 Ola løper torsdag ettermiddag tre trettifem 2 283
+152 Ola løper klokka tre trettifem 3 302
+153 Ola løper torsdag klokka tre trettifem 5 949
+154 Ola løper torsdag ettermiddag klokka tre trettifem 8 10961
+155 Ola løper femten hundre 1 173
+156 Ola finner to tjue 2 347
+157 tre tusen fire hundre ligger 10 640
+158 tre tusen fire hundre og femti ligger 30 1353
+159 gul sover 1 44
+160 gule sover 1 61
+161 de gule sover 2 93
+162 den gule sover 2 78
+163 alle gule sover 1 114
+164 hver gul sover 1 54
+165 hvert gult sover 1 87
+166 fire sover 2 102
+167 de fire sover 3 139
+168 alle fire sover 1 157
+169 dine sover 1 63
+170 min sover 1 36
+171 alle dine sover 1 115
+172 alt mitt sover 1 127
+173 de fleste sover 3 92
+174 hele landet løper 1 116
+175 Ola er svært lang 1 284
+176 Ola er hvor lang 1 375
+177 Ola er lang nok 4 296
+178 Ola er nok lang 3 496
+179 Ola er tilstrekkelig lang 1 289
+180 Ola er to meter lang 1 449
+181 En svært lang mann sover 2 192
+182 En hvor lang mann sover 2 167
+183 En to meter lang mann sover 4 282
+184 En lang nok mann sover 2 161
+185 Ola er lengre enn Per 1 202
+186 Ola er mer storvokst enn Per 2 471
+187 Ola er atskillig mer storvokst enn Per 2 376
+188 Ola er en lengre mann enn Per 2 743
+189 Ola er en atskillig lengre mann enn Per 2 697
+190 Ola er en mer storvokst mann enn Per 2 757
+191 Ola er to centimeter lengre enn Per 2 590
+192 Ola er en to centimeter lengre mann enn Per 7 1770
+193 Ola er mer enn to centimeter lengre enn Per 1 578
+194 Ola er atskillig mer enn to centimeter lengre enn Per 1 500
+195 Ola er mer enn to centimeter mer storvokst enn Per 3 1372
+196 Ola er atskillig mer enn to centimeter mer storvokst enn Per 3 1325
+197 Ola er en mer enn to centimeter lengre mann enn Per 2 910
+198 Ola er en mer enn to centimeter mer storvokst mann enn Per 2 1275
+199 Ola er en atskillig mer enn to centimeter mer storvokst mann enn Per 2 1349
+200 En lengre mann enn Per sover 2 122
+201 En atskillig lengre mann enn Per sover 2 150
+202 En mye lengre mann enn Per sover 2 194
+203 En hvor mye lengre mann enn Per sover 2 250
+204 En mer storvokst mann enn Per sover 2 182
+205 En to centimeter lengre mann enn Per sover 7 359
+206 En mer enn to centimeter lengre mann enn Per sover 2 445
+207 En mye mer enn to centimeter lengre mann enn Per sover 2 621
+208 En hvor mye mer enn to centimeter lengre mann enn Per sover 2 848
+209 En mer enn to centimeter mer storvokst mann enn Per sover 2 839
+210 Ola er den høyeste av guttene 7 1480
+211 Ola er den høyeste av alle guttene 7 2551
+212 Ola er den høyeste gutten 2 710
+213 Den høyeste av guttene sover 7 161
+214 Den høyeste av alle guttene sover 7 292
+215 Den høyeste gutten sover 2 68
+216 Mye vin renner 1 120
+217 Svært mye vin renner 2 175
+218 Svært lite vin renner 1 183
+219 Hvor mye vin renner? 2 164
+220 Hvor lite vin renner? 1 168
+221 Mer vin enn vann renner 2 135
+222 Mindre vin enn vann renner 2 190
+223 Atskillig mer vin enn vann renner 2 162
+224 Atskillig mindre vin enn vann renner 2 229
+225 Hvor mye mer vin enn vann renner? 4 283
+226 Hvor mye mindre vin enn vann renner? 6 394
+227 Hvor lite mindre vin enn vann renner? 2 326
+228 Mange gutter løper 2 143
+229 Svært mange gutter løper 2 217
+230 Svært få gutter løper 2 365
+231 Hvor mange gutter løper? 1 202
+232 Hvor få gutter løper? 1 359
+233 Flere gutter enn menn løper 1 121
+234 Færre gutter enn menn løper 1 109
+235 Atskillig flere gutter enn menn løper 2 144
+236 Atskillig færre gutter enn menn løper 1 125
+237 Hvor mange flere gutter enn menn løper 1 230
+238 Hvor mange færre gutter enn menn løper 1 215
+
+;;; Total CPU time: 77680 msecs
+
+;;; Mean edges: 283.13
+
+;;; Mean parses: 2.41

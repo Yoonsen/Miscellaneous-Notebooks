@@ -1,0 +1,3833 @@
+
+"
+
+;; The original files now contained in this single file include, in addition
+;; to the verb irregular, the following:
+;; pl_def_f_subst.irreg
+;; pl_def_m_subst.irreg
+;; pl_def_n_subst.irreg
+;; pl_ind_f_subst.irreg
+;; pl_ind_m_subst.irreg
+;; pl_ind_n_subst.irreg
+;; sg_def_f_subst.irreg
+;; sg_def_m_subst.irreg
+;; sg_def_n_subst.irreg
+
+;;;;;;;;;; Verbs ;;;;;;;;;;
+sås pret-nonfstr_infl_rule ses
+settes ppart-nonfstr_infl_rule ses
+
+bydde pret-nonfstr_infl_rule byde
+bød pret-nonfstr_infl_rule byde
+budte pret-nonfstr_infl_rule byde
+budt ppart-nonfstr_infl_rule byde
+bydd ppart-nonfstr_infl_rule byde
+
+fekk pret-finalstr_infl_rule få
+fikk pret-finalstr_infl_rule få
+
+ikledte pret-finalstr_infl_rule ikle
+ikledde pret-finalstr_infl_rule ikle
+ikledt ppart-finalstr-tt_infl_rule ikle
+ikledd ppart-finalstr-dd_infl_rule ikle
+
+bekledte pret-finalstr_infl_rule bekle
+bekledde pret-finalstr_infl_rule bekle
+bekledt ppart-finalstr-tt_infl_rule bekle
+bekledd ppart-finalstr-dd_infl_rule bekle
+
+forkledte pret-finalstr_infl_rule forkle
+forkledde pret-finalstr_infl_rule forkle
+forkledt ppart-finalstr-tt_infl_rule forkle
+forkledd ppart-finalstr-dd_infl_rule forkle
+
+;døde pret-finalstr-dd_infl_rule dø
+døde pret-finalstr_infl_rule dø
+
+dro pret-finalstr_infl_rule dra
+drog pret-finalstr_infl_rule dra
+dratt ppart-finalstr-tt_infl_rule dra
+
+sverget pret-nonfstr_infl_rule sverge
+svor pret-nonfstr_infl_rule sverge
+sverget ppart-nonfstr_infl_rule sverje
+svoret ppart-nonfstr_infl_rule sverje
+sammensverget pret-nonfstr_infl_rule sammensverge
+sammensvor pret-nonfstr_infl_rule sammensverge
+sammensverget ppart-nonfstr_infl_rule sammensverje
+sammensvoret ppart-nonfstr_infl_rule sammensverje
+
+
+
+
+;; Troll v6
+
+angrep pret-nonfstr_infl_rule angripe
+avskrev pret-nonfstr_infl_rule avskrive
+avvek pret-nonfstr_infl_rule avvike
+bedrev pret-nonfstr_infl_rule bedrive
+begrep pret-nonfstr_infl_rule begripe
+beskrev pret-nonfstr_infl_rule beskrive
+besteg pret-nonfstr_infl_rule bestige
+grep pret-nonfstr_infl_rule gripe
+oversteg pret-nonfstr_infl_rule overstige
+pågrep pret-nonfstr_infl_rule pågripe
+rev pret-nonfstr_infl_rule rive
+skrev pret-nonfstr_infl_rule skrive
+underskrev pret-nonfstr_infl_rule underskrive
+vek pret-nonfstr_infl_rule vike
+
+angrepet ppart-nonfstr_infl_rule angripe
+avskrevet ppart-nonfstr_infl_rule avskrive
+avveket ppart-nonfstr_infl_rule avvike
+bedrevet ppart-nonfstr_infl_rule bedrive
+begrepet ppart-nonfstr_infl_rule begripe
+beskrevet ppart-nonfstr_infl_rule beskrive
+besteget ppart-nonfstr_infl_rule bestige
+grepet ppart-nonfstr_infl_rule gripe
+oversteget ppart-nonfstr_infl_rule overstige
+pågrepet ppart-nonfstr_infl_rule pågripe
+revet ppart-nonfstr_infl_rule rive
+skrevet ppart-nonfstr_infl_rule skrive
+underskrevet ppart-nonfstr_infl_rule underskrive
+veket ppart-nonfstr_infl_rule vike
+
+;; Troll v7-9-10-12-v13-v15-v17-v18
+;; v7-12
+;bestride
+bestrøk pret-nonfstr_infl_rule bestryke
+krøp pret-nonfstr_infl_rule krype
+strøk pret-nonfstr_infl_rule stryke
+adlød pret-nonfstr_infl_rule adlyde
+fløt pret-nonfstr_infl_rule flyte
+avtvang pret-nonfstr_infl_rule avtvinge
+bestakk pret-nonfstr_infl_rule bestikke
+foretrakk pret-nonfstr_infl_rule foretrekke
+;hjelpe
+slapp pret-nonfstr_infl_rule slippe
+sprang pret-nonfstr_infl_rule springe
+stakk pret-nonfstr_infl_rule stikke
+sank pret-nonfstr_infl_rule synke
+trakk pret-nonfstr_infl_rule trekke
+
+;bestride
+bestrøket ppart-nonfstr_infl_rule bestryke
+krøpet ppart-nonfstr_infl_rule krype
+strøket ppart-nonfstr_infl_rule stryke
+adlydd ppart-nonfstr_infl_rule adlyde
+flytt ppart-nonfstr_infl_rule flyte
+avtvunget ppart-nonfstr_infl_rule avtvinge
+bestukket ppart-nonfstr_infl_rule bestikke
+foretrukket ppart-nonfstr_infl_rule foretrekke
+;hjelpe
+sluppet ppart-nonfstr_infl_rule slippe
+sprunget ppart-nonfstr_infl_rule springe
+stukket ppart-nonfstr_infl_rule stikke
+sunket ppart-nonfstr_infl_rule synke
+trukket ppart-nonfstr_infl_rule trekke
+
+;; v13-15-17-18
+
+bestjal pret-nonfstr_infl_rule bestjele
+bar pret-nonfstr_infl_rule bære 
+innebar pret-nonfstr_infl_rule innebære
+avhang pret-nonfstr_infl_rule avhenge
+anløp pret-nonfstr_infl_rule anløpe
+sov pret-nonfstr_infl_rule sove
+bakbandt pret-nonfstr_infl_rule bakbinde
+bandt pret-nonfstr_infl_rule binde
+forbandt pret-nonfstr_infl_rule forbinde
+vandt pret-nonfstr_infl_rule vinde
+
+bestjålet ppart-nonfstr_infl_rule bestjele
+båret ppart-nonfstr_infl_rule bære 
+innebåret ppart-nonfstr_infl_rule innebære
+avhengt ppart-nonfstr_infl_rule avhenge
+anløpt ppart-nonfstr_infl_rule anløpe
+sovet ppart-nonfstr_infl_rule sove
+bakbunder ppart-nonfstr_infl_rule bakbinde
+bundet ppart-nonfstr_infl_rule binde
+forbundet ppart-nonfstr_infl_rule forbinde
+vundet ppart-nonfstr_infl_rule vinde
+
+
+;; Troll v16
+
+angikk pret-finalstr_infl_rule angå
+avgikk pret-finalstr_infl_rule avgå
+framgikk pret-finalstr_infl_rule framgå
+fremgikk pret-finalstr_infl_rule fremgå
+fikk pret-finalstr_infl_rule få
+gjennomgikk pret-finalstr_infl_rule gjennomgå
+imøtegikk pret-finalstr_infl_rule imøtegå
+inngikk pret-finalstr_infl_rule inngå
+overgikk pret-finalstr_infl_rule overgå
+pågikk pret-finalstr_infl_rule pågå
+unngikk pret-finalstr_infl_rule unngå
+utgikk pret-finalstr_infl_rule utgå
+
+
+;; pre-Troll
+
+lot pret-nonfstr_infl_rule late
+latt ppart-nonfstr_infl_rule late
+overlot pret-nonfstr_infl_rule overlate
+overlatt ppart-nonfstr_infl_rule overlate
+tillot pret-nonfstr_infl_rule tillate
+tillatt ppart-nonfstr_infl_rule tillate
+forlot pret-nonfstr_infl_rule forlate
+forlatt ppart-nonfstr_infl_rule forlate
+unnlot pret-nonfstr_infl_rule unnlate
+unnlatt ppart-nonfstr_infl_rule unnlate
+utelot pret-nonfstr_infl_rule utelate
+utelatt ppart-nonfstr_infl_rule utelate
+
+løp pret-nonfstr_infl_rule løpe
+forløp pret-nonfstr_infl_rule forløpe
+beløp pret-nonfstr_infl_rule beløpe
+
+bød pret-nonfstr_infl_rule byde
+budt ppart-nonfstr_infl_rule byde
+bød pret-nonfstr_infl_rule by
+budt ppart-nonfstr_infl_rule by
+forbød pret-nonfstr_infl_rule forby
+forbudt ppart-nonfstr_infl_rule forby
+
+brakk pret-nonfstr_infl_rule brekke
+brukket ppart-nonfstr_infl_rule brekke
+drev pret-nonfstr_infl_rule drive
+drevet ppart-nonfstr_infl_rule drive
+
+
+
+dret pret-nonfstr_infl_rule drite
+dreit pret-nonfstr_infl_rule drite
+dritt ppart-nonfstr_infl_rule drite
+dretet ppart-nonfstr_infl_rule drite
+
+skrek pret-nonfstr_infl_rule skrike
+skreket ppart-nonfstr_infl_rule skrike
+
+døde pret-nonfstr_infl_rule dø
+
+dulgte pret-nonfstr_infl_rule dølge
+dulgt ppart-nonfstr_infl_rule dølge
+
+skred pret-nonfstr_infl_rule skride
+skredet ppart-nonfstr_infl_rule skride
+overskred pret-nonfstr_infl_rule overskride
+overskredet ppart-nonfstr_infl_rule overskride
+
+drakk pret-nonfstr_infl_rule drikke
+drukket ppart-nonfstr_infl_rule drikke
+
+forvred pret-finalstr_infl_rule forvri
+forvrei pret-finalstr_infl_rule forvri
+vred pret-finalstr_infl_rule vri
+vrei pret-finalstr_infl_rule vri
+vridde pret-finalstr_infl_rule vri
+
+
+skled pret-finalstr_infl_rule skli
+sklei pret-finalstr_infl_rule skli
+sklidde pret-finalstr_infl_rule skli
+
+lei pret-finalstr_infl_rule li
+leid pret-nonfstr_infl_rule li
+
+
+gli imp-delete_infl_rule glide
+gled pret-nonfstr_infl_rule glide
+
+ri imp-delete_infl_rule ride
+red pret-nonfstr_infl_rule ride
+
+frøs pret-nonfstr_infl_rule fryse
+frosset ppart-nonfstr_infl_rule fryse
+
+hev pret-nonfstr_infl_rule hive
+hivde pret-nonfstr_infl_rule hive
+heiv pret-nonfstr_infl_rule hive
+hevet ppart-nonfstr_infl_rule hive
+
+inngjøt pret-nonfstr_infl_rule inngyte
+
+utgjøt pret-nonfstr_infl_rule utgyte
+
+fulgte pret-nonfstr_infl_rule følge
+fulgt ppart-nonfstr_infl_rule følge
+forfulgte pret-nonfstr_infl_rule forfølge
+forfulgt ppart-nonfstr_infl_rule forfølge
+etterfulgte pret-nonfstr_infl_rule etterfølge
+etterfulgt ppart-nonfstr_infl_rule etterfølge
+
+gyste pret-nonfstr_infl_rule gyse
+gjøs pret-nonfstr_infl_rule gyse
+
+gytte pret-nonfstr_infl_rule gyte
+gjøt pret-nonfstr_infl_rule gyte
+
+ba pret-finalstr_infl_rule be
+bad pret-finalstr_infl_rule be
+utba pret-finalstr_infl_rule utbe
+utbad pret-finalstr_infl_rule utbe
+unnba pret-finalstr_infl_rule unnbe
+frabad pret-finalstr_infl_rule frabe
+tilba pret-finalstr_infl_rule tilbe
+tilbad pret-finalstr_infl_rule tilbe
+bad pret-finalstr_infl_rule bede
+
+bedt ppart-finalstr-dd_infl_rule be
+utbedt ppart-finalstr-dd_infl_rule utbe
+unnbedt ppart-finalstr-dd_infl_rule unnbe
+frabedt ppart-finalstr-dd_infl_rule frabe
+tilbedt ppart-finalstr-dd_infl_rule tilbe
+bedt ppart-finalstr-dd_infl_rule bede
+
+stred pret-nonfstr_infl_rule stride
+stridd ppart-nonfstr_infl_rule stride
+stredet ppart-nonfstr_infl_rule stride
+bestred pret-nonfstr_infl_rule bestride
+bestridd ppart-nonfstr_infl_rule bestride
+bestredet ppart-nonfstr_infl_rule bestride
+
+
+fløy pret-finalstr_infl_rule fly
+fløyet ppart-finalstr-tt_infl_rule fly
+flydd ppart-finalstr-dd_infl_rule fly
+unnfløy pret-finalstr_infl_rule unnfly
+unnfløyet ppart-finalstr-tt_infl_rule unnfly
+unnflydd ppart-finalstr-dd_infl_rule unnfly
+beinfløy pret-finalstr_infl_rule beinfly
+beinfløyet ppart-finalstr-tt_infl_rule beinfly
+beinflydd ppart-finalstr-dd_infl_rule beinfly
+
+smurte pret-nonfstr_infl_rule smøre
+smurt ppart-nonfstr_infl_rule smøre
+innsmurte ppart-nonfstr_infl_rule innsmøre
+innsmurt pret-nonfstr_infl_rule innsmøre
+tilsmurte pret-nonfstr_infl_rule tilsmøre
+tilsmurt ppart-nonfstr_infl_rule tilsmøre
+
+lå pret-nonfstr_infl_rule ligge
+forelå pret-nonfstr_infl_rule foreligge
+tillå pret-nonfstr_infl_rule tilligge
+pålå pret-nonfstr_infl_rule påligge
+
+skein pret-nonfstr_infl_rule skinne
+skinte pret-nonfstr_infl_rule skinne
+
+
+ble pret-finalstr_infl_rule bli
+blei pret-finalstr_infl_rule bli
+forble pret-finalstr_infl_rule forbli
+forblei pret-finalstr_infl_rule forbli
+vedble pret-finalstr_infl_rule vedbli
+vedblei pret-finalstr_infl_rule vedbli
+uteble pret-finalstr_infl_rule utebli
+uteblei pret-finalstr_infl_rule utebli
+
+
+
+brann pret-nonfstr_infl_rule brenne
+brant pret-nonfstr_infl_rule brenne
+brent ppart-nonfstr_infl_rule brenne
+
+smalt pret-nonfstr_infl_rule smelle
+smelt ppart-nonfstr_infl_rule smelle
+
+smatt pret-nonfstr_infl_rule smette
+
+rann pret-nonfstr_infl_rule renne
+rant pret-nonfstr_infl_rule renne
+silrant pret-nonfstr_infl_rule silrenne
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+drap pret-nonfstr_infl_rule drepe
+drepte pret-nonfstr_infl_rule drepe
+
+
+forfulgte pret-nonfstr_infl_rule forfølge
+forfulgt ppart-nonfstr_infl_rule forfølge
+etterfulgte pret-nonfstr_infl_rule etterfølge
+etterfulgt ppart-nonfstr_infl_rule etterfølge
+
+viet pret-nonfstr_infl_rule vie
+viet ppart-nonfstr_infl_rule vie
+vigde pret-nonfstr_infl_rule vie
+vigd ppart-nonfstr_infl_rule vie
+ekteviet pret-nonfstr_infl_rule ektevie
+ekteviet ppart-nonfstr_infl_rule ektevie
+tiet pret-nonfstr_infl_rule tie
+tiet ppart-nonfstr_infl_rule tie
+tidde pret-nonfstr_infl_rule tie
+tidd ppart-nonfstr_infl_rule tie
+
+åt pret-nonfstr_infl_rule ete
+ett ppart-nonfstr_infl_rule ete
+
+fantes pret-nonfstr_infl_rule finnes
+fans pret-nonfstr_infl_rule finnes
+funnes ppart-nonfstr_infl_rule finnes
+fantes ppart-nonfstr_infl_rule finnes
+forefantes pret-nonfstr_infl_rule forefinnes
+forefunnes ppart-nonfstr_infl_rule forefinnes
+
+trafs pret-nonfstr_infl_rule treffes
+traffes pret-nonfstr_infl_rule treffes
+truffes ppart-nonfstr_infl_rule treffes
+truffedes ppart-nonfstr_infl_rule treffes
+
+lot pret-finalstr_infl_rule la
+
+
+solgte pret-nonfstr_infl_rule selge
+solgt ppart-nonfstr_infl_rule selge
+undersolgte pret-nonfstr_infl_rule underselge
+undersolgt ppart-nonfstr_infl_rule underselge
+frasolgte pret-nonfstr_infl_rule fraselge
+frasolgt ppart-nonfstr_infl_rule fraselge
+
+parallellforskjøv pret-nonfstr_infl_rule parallellforskyve
+parallellforskjøvet ppart-nonfstr_infl_rule parallellforskyve
+parallellforskauv pret-nonfstr_infl_rule parallellforskyve
+parallellforskyvd ppart-nonfstr_infl_rule parallellforskyve
+forskjøv pret-nonfstr_infl_rule forskyve
+forskjøvet ppart-nonfstr_infl_rule forskyve
+forskauv pret-nonfstr_infl_rule forskyve
+forskyvd ppart-nonfstr_infl_rule forskyve
+skjøv pret-nonfstr_infl_rule skyve
+skjøvet ppart-nonfstr_infl_rule skyve
+skauv pret-nonfstr_infl_rule skyve
+skyvd ppart-nonfstr_infl_rule skyve
+
+gjøv pret-nonfstr_infl_rule gyve
+gjøvet ppart-nonfstr_infl_rule gyve
+gauv pret-nonfstr_infl_rule gyve
+gyvd ppart-nonfstr_infl_rule gyve
+
+gjaldt pret-nonfstr_infl_rule gjelde
+gjeldt pret-nonfstr_infl_rule gjelde
+
+innvalgte pret-nonfstr_infl_rule innvelge
+innvalgt ppart-nonfstr_infl_rule innvelge
+valgte pret-nonfstr_infl_rule velge
+valgt ppart-nonfstr_infl_rule velge
+
+tør pres-infl_rule tørre
+torde pret-nonfstr_infl_rule tørre
+tort  ppart-nonfstr_infl_rule tørre
+tør pres-infl_rule tore
+torde pret-nonfstr_infl_rule tore
+tort  ppart-nonfstr_infl_rule tore
+
+tro pret-finalstr_infl_rule trå
+
+kvalte pret-nonfstr_infl_rule kvele
+kvalt ppart-nonfstr_infl_rule kvele
+
+kvakk pret-nonfstr_infl_rule kvekke
+kvekket pret-nonfstr_infl_rule kvekke
+
+vet pres-infl_rule vite
+veit pres-infl_rule vite
+visste pret-nonfstr_infl_rule vite
+visst ppart-nonfstr_infl_rule vite
+
+er pres-infl_rule være
+var pret-nonfstr_infl_rule være
+vært ppart-nonfstr_infl_rule være
+overvar pret-nonfstr_infl_rule overvære
+overvært ppart-nonfstr_infl_rule overvære
+
+må pres-infl_rule måtte
+måtte pret-nonfstr_infl_rule måtte
+måttet ppart-nonfstr_infl_rule måtte
+
+bør pres-infl_rule burde
+burde pret-nonfstr_infl_rule burde
+burdet ppart-nonfstr_infl_rule burde
+
+kan pres-infl_rule kunne
+kunne pret-nonfstr_infl_rule kunne
+kunnet ppart-nonfstr_infl_rule kunne
+
+skal pres-infl_rule skulle
+skulle pret-nonfstr_infl_rule skulle
+skullet ppart-nonfstr_infl_rule skulle
+
+vil pres-infl_rule ville
+ville pret-nonfstr_infl_rule ville
+villet ppart-nonfstr_infl_rule ville
+
+kom pret-nonfstr_infl_rule komme
+tilkom pret-nonfstr_infl_rule tilkomme
+ankom pret-nonfstr_infl_rule ankomme
+avstedkom pret-nonfstr_infl_rule avstedkomme
+etterkom pret-nonfstr_infl_rule etterkomme
+framkom pret-nonfstr_infl_rule framkomme
+fremkom pret-nonfstr_infl_rule fremkomme
+forekom pret-nonfstr_infl_rule forekomme
+etterkom pret-nonfstr_infl_rule etterkomme
+imøtekom pret-nonfstr_infl_rule imøtekomme
+omkom pret-nonfstr_infl_rule omkomme
+
+kommet ppart-nonfstr_infl_rule komme
+tilkommet ppart-nonfstr_infl_rule tilkomme
+ankommet ppart-nonfstr_infl_rule ankomme
+avstedkommet ppart-nonfstr_infl_rule avstedkomme
+etterkommet ppart-nonfstr_infl_rule etterkomme
+framkommet ppart-nonfstr_infl_rule framkomme
+fremkommet ppart-nonfstr_infl_rule fremkomme
+forekommet ppart-nonfstr_infl_rule forekomme
+etterkommet ppart-nonfstr_infl_rule etterkomme
+imøtekommet ppart-nonfstr_infl_rule imøtekomme
+omkommet ppart-nonfstr_infl_rule omkomme
+
+kom imp-delete_infl_rule komme
+tilkom imp-delete_infl_rule tilkomme
+ankom imp-delete_infl_rule ankomme
+avstedkom imp-delete_infl_rule avstedkomme
+etterkom imp-delete_infl_rule etterkomme
+framkom imp-delete_infl_rule framkomme
+fremkom imp-delete_infl_rule fremkomme
+forekom imp-delete_infl_rule forekomme
+etterkom imp-delete_infl_rule etterkomme
+imøtekom imp-delete_infl_rule imøtekomme
+omkom imp-delete_infl_rule omkomme
+
+;;;;;;;;;;;;;;
+
+
+;;;;;;;;;;;;;;;;;;;;
+møtte pret-nonfstr_infl_rule møte
+møtt ppart-nonfstr_infl_rule møte
+
+;;;;;;;;;;
+brakte pret-nonfstr_infl_rule bringe
+brakt ppart-nonfstr_infl_rule bringe
+anbrakte pret-nonfstr_infl_rule anbringe
+anbrakt ppart-nonfstr_infl_rule anbringe
+tilbrakte pret-nonfstr_infl_rule tilbringe
+tilbrakt ppart-nonfstr_infl_rule tilbringe
+overbrakte pret-nonfstr_infl_rule overbringe
+overbrakt ppart-nonfstr_infl_rule overbringe
+viderebrakte pret-nonfstr_infl_rule viderebringe
+viderebrakt ppart-nonfstr_infl_rule viderebringe
+frambrakte pret-nonfstr_infl_rule frambringe
+frambrakt ppart-nonfstr_infl_rule frambringe
+frembrakte pret-nonfstr_infl_rule frembringe
+frembrakt ppart-nonfstr_infl_rule frembringe
+
+
+
+holdt pret-nonfstr_infl_rule holde
+holdt ppart-nonfstr_infl_rule holde
+anholdt pret-nonfstr_infl_rule anholde
+anholdt ppart-nonfstr_infl_rule anholde
+framholdt pret-nonfstr_infl_rule framholde
+framholdt ppart-nonfstr_infl_rule framholde
+fremholdt pret-nonfstr_infl_rule fremholde
+fremholdt ppart-nonfstr_infl_rule fremholde
+inneholdt pret-nonfstr_infl_rule inneholde
+inneholdt ppart-nonfstr_infl_rule inneholde
+overholdt pret-nonfstr_infl_rule overholde
+overholdt ppart-nonfstr_infl_rule overholde
+beholdt pret-nonfstr_infl_rule beholde
+beholdt ppart-nonfstr_infl_rule beholde
+bibeholdt pret-nonfstr_infl_rule bibeholde
+bibeholdt ppart-nonfstr_infl_rule bibeholde
+fastholdt pret-nonfstr_infl_rule fastholde
+fastholdt ppart-nonfstr_infl_rule fastholde
+forholdt pret-nonfstr_infl_rule forholde
+forholdt ppart-nonfstr_infl_rule forholde
+oppholdt pret-nonfstr_infl_rule oppholde
+oppholdt ppart-nonfstr_infl_rule oppholde
+opprettholdt pret-nonfstr_infl_rule opprettholde
+opprettholdt ppart-nonfstr_infl_rule opprettholde
+underholdt pret-nonfstr_infl_rule underholde
+underholdt ppart-nonfstr_infl_rule underholde
+
+
+la pret-nonfstr_infl_rule legge
+lagt ppart-nonfstr_infl_rule legge
+anla pret-nonfstr_infl_rule anlegge
+anlagt ppart-nonfstr_infl_rule anlegge
+forela pret-nonfstr_infl_rule forelegge
+forelagt ppart-nonfstr_infl_rule forelegge
+framla pret-nonfstr_infl_rule framlegge
+framlagt ppart-nonfstr_infl_rule framlegge
+fremla pret-nonfstr_infl_rule fremlegge
+fremlagt ppart-nonfstr_infl_rule fremlegge
+kartla pret-nonfstr_infl_rule kartlegge
+kartlagt ppart-nonfstr_infl_rule kartlegge
+klarla pret-nonfstr_infl_rule klarlegge
+klarlagt ppart-nonfstr_infl_rule klarlegge
+tilla pret-nonfstr_infl_rule tillegge
+tillagt ppart-nonfstr_infl_rule tillegge
+tilrettela pret-nonfstr_infl_rule tilrettelegge
+tilrettelagt ppart-nonfstr_infl_rule tilrettelegge
+nedla pret-nonfstr_infl_rule nedlegge
+nedlagt ppart-nonfstr_infl_rule nedlegge
+overla pret-nonfstr_infl_rule overlegge
+overlagt ppart-nonfstr_infl_rule overlegge
+bela pret-nonfstr_infl_rule belegge
+belagt ppart-nonfstr_infl_rule belegge
+bila pret-nonfstr_infl_rule bilegge
+bilagt ppart-nonfstr_infl_rule bilegge
+beslagla pret-nonfstr_infl_rule beslaglegge
+beslaglagt ppart-nonfstr_infl_rule beslaglegge
+planla pret-nonfstr_infl_rule planlegge
+planlagt ppart-nonfstr_infl_rule planlegge
+påla pret-nonfstr_infl_rule pålegge
+pålagt ppart-nonfstr_infl_rule pålegge
+vedla pret-nonfstr_infl_rule vedlegge
+vedlagt ppart-nonfstr_infl_rule vedlegge
+vektlagt ppart-nonfstr_infl_rule vektlegge
+ødela pret-nonfstr_infl_rule ødelegge
+ødelagt ppart-nonfstr_infl_rule ødelegge
+
+gjør pres-infl_rule gjøre
+gjorde pret-nonfstr_infl_rule gjøre
+gjort ppart-nonfstr_infl_rule gjøre
+avgjør pres-infl_rule avgjøre
+avgjorde pret-nonfstr_infl_rule avgjøre
+avgjort ppart-nonfstr_infl_rule avgjøre
+anskueliggjør pres-infl_rule anskueliggjøre
+anskueliggjorde pret-nonfstr_infl_rule anskueliggjøre
+anskueliggjort ppart-nonfstr_infl_rule anskueliggjøre
+bekjentgjør pres-infl_rule bekjentgjøre
+bekjentgjorde pret-nonfstr_infl_rule bekjengjøre
+bekjengjort ppart-nonfstr_infl_rule bekjengjøre
+vanskeliggjør pres-infl_rule vanskeliggjøre
+vanskeliggjorde pret-nonfstr_infl_rule vanskeliggjøre
+vanskeliggjort ppart-nonfstr_infl_rule vanskeliggjøre
+blidgjør pres-infl_rule blidgjøre
+blidgjorde pret-nonfstr_infl_rule blidgjøre
+blidgjort ppart-nonfstr_infl_rule blidgjøre
+frigjør pres-infl_rule frigjøre
+frigjorde pret-nonfstr_infl_rule frigjøre
+frigjort ppart-nonfstr_infl_rule frigjøre
+klargjør pres-infl_rule klargjøre
+klargjorde pret-nonfstr_infl_rule klargjøre
+klargjort ppart-nonfstr_infl_rule klargjøre
+kunngjør pres-infl_rule kunngjøre
+kunngjorde pret-nonfstr_infl_rule kunngjøre
+kunngjort ppart-nonfstr_infl_rule kunngjøre
+muliggjør pres-infl_rule muliggjøre
+muliggjorde pret-nonfstr_infl_rule muliggjøre
+muliggjort ppart-nonfstr_infl_rule muliggjøre
+umuliggjør pres-infl_rule umuliggjøre
+umuliggjorde pret-nonfstr_infl_rule umuliggjøre
+umuliggjort ppart-nonfstr_infl_rule umuliggjøre
+offentliggjør pres-infl_rule offentliggjøre
+offentliggjorde pret-nonfstr_infl_rule offentliggjøre
+offentliggjort ppart-nonfstr_infl_rule offentliggjøre
+redegjør pres-infl_rule redegjøre
+redegjorde pret-nonfstr_infl_rule redegjøre
+redegjort ppart-nonfstr_infl_rule redegjøre
+rettferdiggjør pres-infl_rule rettferdiggjøre
+rettferdiggjorde pret-nonfstr_infl_rule rettferdiggjøre
+rettferdiggjort ppart-nonfstr_infl_rule rettferdiggjøre
+rimeliggjør pres-infl_rule rimeliggjøre
+rimeliggjorde pret-nonfstr_infl_rule rimeliggjøre
+rimeliggjort ppart-nonfstr_infl_rule rimeliggjøre
+tjenestegjør pres-infl_rule tjenestegjøre
+tjenestegjorde pret-nonfstr_infl_rule tjenestegjøre
+tjenestegjort ppart-nonfstr_infl_rule tjenestegjøre
+tydeliggjør pres-infl_rule tydeliggjøre
+tydeliggjorde pret-nonfstr_infl_rule tydeliggjøre
+tydeliggjort ppart-nonfstr_infl_rule tydeliggjøre
+utgjør pres-infl_rule utgjøre
+utgjorde pret-nonfstr_infl_rule utgjøre
+utgjort ppart-nonfstr_infl_rule utgjøre
+
+brøt pret-nonfstr_infl_rule bryte
+brutt ppart-nonfstr_infl_rule bryte
+avbrøt pret-nonfstr_infl_rule avbryte
+avbrutt ppart-nonfstr_infl_rule avbryte
+
+fant pret-nonfstr_infl_rule finne
+funnet ppart-nonfstr_infl_rule finne
+befant pret-nonfstr_infl_rule befinne
+befunnet ppart-nonfstr_infl_rule befinne
+avfant pret-nonfstr_infl_rule avfinne
+avfunnet ppart-nonfstr_infl_rule avfinne
+oppfant pret-nonfstr_infl_rule oppfinne
+oppfunnet ppart-nonfstr_infl_rule oppfinne
+innfant pret-nonfstr_infl_rule innfinne
+innfunnet ppart-nonfstr_infl_rule innfinne
+
+hjalp pret-nonfstr_infl_rule hjelpe
+hjulpet ppart-nonfstr_infl_rule hjelpe
+avhjalp pret-nonfstr_infl_rule avhjelpe
+avhjulpet ppart-nonfstr_infl_rule avhjelpe
+
+satte pret-nonfstr_infl_rule sette
+satt ppart-nonfstr_infl_rule sette
+ansatte pret-nonfstr_infl_rule ansette
+ansatt ppart-nonfstr_infl_rule ansette
+avsatte pret-nonfstr_infl_rule avsette
+avsatt ppart-nonfstr_infl_rule avsette
+fastsatte pret-nonfstr_infl_rule fastsette
+fastsatt ppart-nonfstr_infl_rule fastsette
+forutsatte pret-nonfstr_infl_rule forutsette
+forutsatt ppart-nonfstr_infl_rule forutsette
+fortsatte pret-nonfstr_infl_rule fortsette
+fortsatt ppart-nonfstr_infl_rule fortsette
+omsatte pret-nonfstr_infl_rule omsette
+omsatt ppart-nonfstr_infl_rule omsette
+tilsatte pret-nonfstr_infl_rule tilsette
+tilsatt ppart-nonfstr_infl_rule tilsette
+oversatte pret-nonfstr_infl_rule oversette
+oversatt ppart-nonfstr_infl_rule oversette
+besatte pret-nonfstr_infl_rule besette
+besatt ppart-nonfstr_infl_rule besette
+bisatte pret-nonfstr_infl_rule bisette
+bisatt ppart-nonfstr_infl_rule bisette
+iverksatte pret-nonfstr_infl_rule iversette
+iversatt ppart-nonfstr_infl_rule iversette
+nedsatte pret-nonfstr_infl_rule nedsette
+nedsatt ppart-nonfstr_infl_rule nedsette
+utsatte pret-nonfstr_infl_rule utsette
+utsatt ppart-nonfstr_infl_rule utsette
+
+satt pret-nonfstr_infl_rule sitte
+besatt pret-nonfstr_infl_rule besitte
+
+
+
+skar pret-nonfstr_infl_rule skjære
+skåret ppart-nonfstr_infl_rule skjære
+avskar pret-nonfstr_infl_rule avskjære
+avskåret ppart-nonfstr_infl_rule avskjære
+beskar pret-nonfstr_infl_rule beskjære
+beskåret ppart-nonfstr_infl_rule beskjære
+tilskar pret-nonfstr_infl_rule tilskjære
+tilskåret ppart-nonfstr_infl_rule tilskjære
+gjennomskar pret-nonfstr_infl_rule gjennomskjære
+gjennomskåret ppart-nonfstr_infl_rule gjennomskjære
+omskar pret-nonfstr_infl_rule omskjære
+omskåret ppart-nonfstr_infl_rule omskjære
+
+sang pret-nonfstr_infl_rule synge
+sunget ppart-nonfstr_infl_rule synge
+avsang pret-nonfstr_infl_rule avsynge
+avsunget ppart-nonfstr_infl_rule avsynge
+besang pret-nonfstr_infl_rule besynge
+besunget ppart-nonfstr_infl_rule besynge
+
+
+falt pret-nonfstr_infl_rule falle
+falt ppart-nonfstr_infl_rule falle
+bifalt pret-nonfstr_infl_rule bifalle
+bifalte pret-nonfstr_infl_rule bifalle
+bifalt ppart-nonfstr_infl_rule bifalle
+bønnfalt pret-nonfstr_infl_rule bønnfalle
+bønnfalte pret-nonfstr_infl_rule bønnfalle
+bønnfalt ppart-nonfstr_infl_rule bønnfalle
+forfalt pret-nonfstr_infl_rule forfalle
+forfalt ppart-nonfstr_infl_rule forfalle
+tilfalt pret-nonfstr_infl_rule tilfalle
+tilfalt ppart-nonfstr_infl_rule tilfalle
+
+
+
+bet pret-nonfstr_infl_rule bite
+bitt ppart-nonfstr_infl_rule bite
+avbet pret-nonfstr_infl_rule avbite
+avbitt ppart-nonfstr_infl_rule avbite
+
+enedes pret-nonfstr_infl_rule enes
+entes pret-nonfstr_infl_rule enes
+enedes ppart-nonfstr_infl_rule enes
+entes ppart-nonfstr_infl_rule enes
+
+svant pret-nonfstr_infl_rule svinne
+svunnet ppart-nonfstr_infl_rule svinne
+forsvant pret-nonfstr_infl_rule forsvinne
+forsvunnet ppart-nonfstr_infl_rule forsvinne
+
+vant pret-nonfstr_infl_rule vinne
+vunnet ppart-nonfstr_infl_rule vinne
+overvant pret-nonfstr_infl_rule overvinne
+overvunnet ppart-nonfstr_infl_rule overvinne
+
+stilte pret-nonfstr_infl_rule stille
+stillet pret-nonfstr_infl_rule stille
+stilt ppart-nonfstr_infl_rule stille
+stillet ppart-nonfstr_infl_rule stille
+forestilte pret-nonfstr_infl_rule forestille
+forestillet pret-nonfstr_infl_rule forestille
+forestilt ppart-nonfstr_infl_rule forestille
+forestillet ppart-nonfstr_infl_rule forestille
+framstilte pret-nonfstr_infl_rule framstille
+framstillet pret-nonfstr_infl_rule framstille
+framstilt ppart-nonfstr_infl_rule framstille
+framstillet ppart-nonfstr_infl_rule framstille
+fremstilte pret-nonfstr_infl_rule fremstille
+fremstillet pret-nonfstr_infl_rule fremstille
+fremstilt ppart-nonfstr_infl_rule fremstille
+fremstillet ppart-nonfstr_infl_rule fremstille
+bestilte pret-nonfstr_infl_rule bestille
+bestilt ppart-nonfstr_infl_rule bestille
+
+kjente pret-nonfstr_infl_rule kjenne
+kjent ppart-nonfstr_infl_rule kjenne
+
+led pret-nonfstr_infl_rule lide
+lidde pret-nonfstr_infl_rule lide
+lidd ppart-nonfstr_infl_rule lide
+lidt ppart-nonfstr_infl_rule lide
+
+nøt pret-nonfstr_infl_rule nyte
+nytt ppart-nonfstr_infl_rule nyte
+
+seg pret-nonfstr_infl_rule sige
+seget ppart-nonfstr_infl_rule sige
+
+skjøt pret-nonfstr_infl_rule skyte
+skutt ppart-nonfstr_infl_rule skyte
+
+smøg pret-nonfstr_infl_rule smyge
+smøget ppart-nonfstr_infl_rule smyge
+
+snek pret-nonfstr_infl_rule snike
+sneket ppart-nonfstr_infl_rule snike
+
+smurte pret-nonfstr_infl_rule smøre
+smurt ppart-nonfstr_infl_rule smøre
+
+spør pres-infl_rule spørre
+spurte pret-nonfstr_infl_rule spørre
+spurt ppart-nonfstr_infl_rule spørre
+utspurte pret-nonfstr_infl_rule utspørre
+utspurt ppart-nonfstr_infl_rule utspørre
+
+rakte pret-nonfstr_infl_rule rekke
+strakk pret-nonfstr_infl_rule strekke
+strukket ppart-nonfstr_infl_rule strekke
+utstrakk pret-nonfstr_infl_rule utstrekke
+utstrukket ppart-nonfstr_infl_rule utstrekke
+forstrakk pret-nonfstr_infl_rule forstrekke
+forstrukket ppart-nonfstr_infl_rule forstrekke
+rukket ppart-nonfstr_infl_rule rekke
+
+talte pret-nonfstr_infl_rule telle
+telte pret-nonfstr_infl_rule telle
+talt ppart-nonfstr_infl_rule telle
+telt ppart-nonfstr_infl_rule telle
+fortalte pret-nonfstr_infl_rule fortelle
+fortelte pret-nonfstr_infl_rule fortelle
+fortalt ppart-nonfstr_infl_rule fortelle
+fortelt ppart-nonfstr_infl_rule fortelle
+opptalte pret-nonfstr_infl_rule opptelle
+opptelte pret-nonfstr_infl_rule opptelle
+opptalt ppart-nonfstr_infl_rule opptelle
+opptelt ppart-nonfstr_infl_rule opptelle
+nedtelte pret-nonfstr_infl_rule nedtelle
+nedtelt ppart-nonfstr_infl_rule nedtelle
+
+
+traff pret-nonfstr_infl_rule treffe
+truffet ppart-nonfstr_infl_rule treffe
+inntraff pret-nonfstr_infl_rule inntreffe
+inntruffet ppart-nonfstr_infl_rule inntreffe
+
+;pret-nonfstr_infl_rule
+;ppart-nonfstr_infl_rule
+
+;;;;;;;;;
+ga pret-finalstr_infl_rule gi
+gav pret-finalstr_infl_rule gi
+gitt ppart-finalstr-tt_infl_rule gi
+bega pret-finalstr_infl_rule begi
+begav pret-finalstr_infl_rule begi
+begitt ppart-finalstr-tt_infl_rule begi
+anga pret-finalstr_infl_rule angi
+angav pret-finalstr_infl_rule angi
+angitt ppart-finalstr-tt_infl_rule angi
+avga pret-finalstr_infl_rule avgi
+avgav pret-finalstr_infl_rule avgi
+avgitt ppart-finalstr-tt_infl_rule avgi
+gjenga pret-finalstr_infl_rule gjengi
+gjengav pret-finalstr_infl_rule gjengi
+gjengitt ppart-finalstr-tt_infl_rule gjengi
+grunnga pret-finalstr_infl_rule grunngi
+grunngav pret-finalstr_infl_rule grunngi
+grunngitt ppart-finalstr-tt_infl_rule grunngi
+tilga pret-finalstr_infl_rule tilgi
+tilgav pret-finalstr_infl_rule tilgi
+tilgitt ppart-finalstr-tt_infl_rule tilgi
+forega pret-finalstr_infl_rule foregi
+foregav pret-finalstr_infl_rule foregi
+foregitt ppart-finalstr-tt_infl_rule foregi
+overga pret-finalstr_infl_rule overgi
+overgav pret-finalstr_infl_rule overgi
+overgitt ppart-finalstr-tt_infl_rule overgi
+omga pret-finalstr_infl_rule omgi
+omgav pret-finalstr_infl_rule omgi
+omgitt ppart-finalstr-tt_infl_rule omgi
+oppga pret-finalstr_infl_rule oppgi
+oppgav pret-finalstr_infl_rule oppgi
+oppgitt ppart-finalstr-tt_infl_rule oppgi
+tilkjennega pret-finalstr_infl_rule tilkjennegi
+tilkjennegav pret-finalstr_infl_rule tilkjennegi
+tilkjennegitt ppart-finalstr-tt_infl_rule tilkjennegi
+utga pret-finalstr_infl_rule utgi
+utgav pret-finalstr_infl_rule utgi
+utgitt ppart-finalstr-tt_infl_rule utgi
+
+
+slo pret-finalstr_infl_rule slå
+slått ppart-finalstr-tt_infl_rule slå
+anslo pret-finalstr_infl_rule anslå
+anslått ppart-finalstr-tt_infl_rule anslå
+avslo pret-finalstr_infl_rule avslå
+avslått ppart-finalstr-tt_infl_rule avslå
+fastslo pret-finalstr_infl_rule fastslå
+fastslått ppart-finalstr-tt_infl_rule fastslå
+foreslo pret-finalstr_infl_rule foreslå
+foreslått ppart-finalstr-tt_infl_rule foreslå
+istykkerslo pret-finalstr_infl_rule istykkerslå
+istykkerslått ppart-finalstr-tt_infl_rule istykkerslå
+
+tok pret-finalstr_infl_rule ta
+antok pret-finalstr_infl_rule anta
+avtok pret-finalstr_infl_rule avta
+betok pret-finalstr_infl_rule beta
+bergtok pret-finalstr_infl_rule bergta
+foretok pret-finalstr_infl_rule foreta
+godtok pret-finalstr_infl_rule godta
+gjentok pret-finalstr_infl_rule gjenta
+inntok pret-finalstr_infl_rule innta
+ivaretok pret-finalstr_infl_rule ivareta
+mottok pret-finalstr_infl_rule motta
+opptok pret-finalstr_infl_rule oppta
+tiltok pret-finalstr_infl_rule tilta
+overtok pret-finalstr_infl_rule overta
+påtok pret-finalstr_infl_rule påta
+vedtok pret-finalstr_infl_rule vedta
+
+
+
+så pret-finalstr_infl_rule se
+sett ppart-finalstr-tt_infl_rule se
+anså pret-finalstr_infl_rule anse
+ansett ppart-finalstr-tt_infl_rule anse
+avså pret-finalstr_infl_rule avse
+avsett ppart-finalstr-tt_infl_rule avse
+innså pret-finalstr_infl_rule innse
+innsett ppart-finalstr-tt_infl_rule innse
+tilså pret-finalstr_infl_rule tilse
+tilsett ppart-finalstr-tt_infl_rule tilse
+tilgodeså pret-finalstr_infl_rule tilgodese
+tilgodesett ppart-finalstr-tt_infl_rule tilgodese
+overså pret-finalstr_infl_rule overse
+oversett ppart-finalstr-tt_infl_rule overse
+
+
+
+sto pret-finalstr_infl_rule stå
+stod pret-finalstr_infl_rule stå
+stått ppart-finalstr-tt_infl_rule stå
+avsto pret-finalstr_infl_rule avstå
+avstod pret-finalstr_infl_rule avstå
+avstått ppart-finalstr-tt_infl_rule avstå
+framsto pret-finalstr_infl_rule framstå
+framstod pret-finalstr_infl_rule framstå
+framstått ppart-finalstr-tt_infl_rule framstå
+fremsto pret-finalstr_infl_rule fremstå
+fremstod pret-finalstr_infl_rule fremstå
+fremstått ppart-finalstr-tt_infl_rule fremstå
+forsto pret-finalstr_infl_rule forstå
+forstod pret-finalstr_infl_rule forstå
+forstått ppart-finalstr-tt_infl_rule forstå
+gjensto pret-finalstr_infl_rule gjenstå
+gjenstod pret-finalstr_infl_rule gjenstå
+gjenstått ppart-finalstr-tt_infl_rule gjenstå
+oppsto pret-finalstr_infl_rule oppstå
+oppstod pret-finalstr_infl_rule oppstå
+oppstått ppart-finalstr-tt_infl_rule oppstå
+påsto pret-finalstr_infl_rule påstå
+påstod pret-finalstr_infl_rule påstå
+påstått ppart-finalstr-tt_infl_rule påstå
+tilsto pret-finalstr_infl_rule tilstå
+tilstod pret-finalstr_infl_rule tilstå
+tilstått ppart-finalstr-tt_infl_rule tilstå
+
+
+dro pret-finalstr_infl_rule dra
+drog pret-finalstr_infl_rule dra
+dradd ppart-finalstr-dd_infl_rule dra
+dratt ppart-finalstr-tt_infl_rule dra
+bedro pret-finalstr_infl_rule bedra
+bedrog pret-finalstr_infl_rule bedra
+bedradd ppart-finalstr-dd_infl_rule bedra
+bedratt ppart-finalstr-tt_infl_rule bedra
+bidro pret-finalstr_infl_rule bidra
+bidrog pret-finalstr_infl_rule bidra
+bidradd ppart-finalstr-dd_infl_rule bidra
+bidratt ppart-finalstr-tt_infl_rule bidra
+fordro pret-finalstr_infl_rule fordra
+fordrog pret-finalstr_infl_rule fordra
+fordradd ppart-finalstr-dd_infl_rule fordra
+fordratt ppart-finalstr-tt_infl_rule fordra
+foredro pret-finalstr_infl_rule foredra
+foredrog pret-finalstr_infl_rule foredra
+foredradd ppart-finalstr-dd_infl_rule foredra
+foredratt ppart-finalstr-tt_infl_rule foredra
+tildro pret-finalstr_infl_rule tildra
+tildrog pret-finalstr_infl_rule tildra
+tildradd ppart-finalstr-dd_infl_rule tildra
+tildratt ppart-finalstr-tt_infl_rule tildra
+oppdro pret-finalstr_infl_rule oppdra
+oppdrog pret-finalstr_infl_rule oppdra
+oppdradd ppart-finalstr-dd_infl_rule oppdra
+oppdratt ppart-finalstr-tt_infl_rule oppdra
+
+gikk pret-finalstr_infl_rule gå
+begikk pret-finalstr_infl_rule begå
+avgikk pret-finalstr_infl_rule avgå
+foregikk pret-finalstr_infl_rule foregå
+omgikk pret-finalstr_infl_rule omgå
+undergikk pret-finalstr_infl_rule undergå
+forbigikk pret-finalstr_infl_rule forbigå
+ettergikk pret-finalstr_infl_rule ettergå
+
+sier pres-infl_rule si
+sa pret-finalstr_infl_rule si
+sagt ppart-finalstr-tt_infl_rule si
+avsier pres-infl_rule si
+avsa pret-finalstr_infl_rule avsi
+avsagt ppart-finalstr-tt_infl_rule avsi
+forutsier pres-infl_rule si
+forutsa pret-finalstr_infl_rule forutsi
+forutsagt ppart-finalstr-tt_infl_rule forutsi
+tilsier pres-infl_rule si
+tilsa pret-finalstr_infl_rule tilsi
+tilsagt ppart-finalstr-tt_infl_rule tilsi
+motsier pres-infl_rule si
+motsa pret-finalstr_infl_rule motsi
+motsagt ppart-finalstr-tt_infl_rule motsi
+utsier pres-infl_rule si
+utsa pret-finalstr_infl_rule utsi
+utsagt ppart-finalstr-tt_infl_rule utsi
+
+
+trådte pret-finalstr_infl_rule tre
+trådt ppart-finalstr-tt_infl_rule tre
+trådte pret-finalstr_infl_rule trede
+trådt ppart-finalstr-tt_infl_rule trede
+betrådte pret-nonfstr_infl_rule betrede
+betrådt ppart-nonfstr_infl_rule betrede
+betrådte pret-nonfstr_infl_rule betre
+betrådt ppart-nonfstr_infl_rule betre
+framtrådte pret-finalstr_infl_rule framtre
+framtrådt ppart-finalstr-tt_infl_rule framtre
+fremtrådte pret-finalstr_infl_rule fremtre
+fremtrådt ppart-finalstr-tt_infl_rule fremtre
+fremtrådte pret-finalstr_infl_rule fremtrede
+fremtrådt ppart-finalstr-tt_infl_rule fremtrede
+foretrådte pret-finalstr_infl_rule foretre
+foretrådt ppart-finalstr-tt_infl_rule foretre
+foretrådte pret-finalstr_infl_rule foretrede
+foretrådt ppart-finalstr-tt_infl_rule foretrede
+tiltrådte pret-finalstr_infl_rule tiltre
+tiltrådt ppart-finalstr-tt_infl_rule tiltre
+tiltrådte pret-finalstr_infl_rule tiltrede
+tiltrådt ppart-finalstr-tt_infl_rule tiltrede
+overtrådte pret-finalstr_infl_rule overtre
+overtrådt ppart-finalstr-tt_infl_rule overtre
+opptrådte pret-finalstr_infl_rule opptre
+opptrådt ppart-finalstr-tt_infl_rule opptre
+
+
+sloss pret-finalstr_infl_rule slåss
+slosset ppart-finalstr-tt_infl_rule slåss
+
+;pret-finalstr_infl_rule
+;ppart-finalstr_infl_rule
+
+
+
+
+;;;;;;;;;;;; ADJECTIVES ;;;;;;;;;;;;;;
+
+
+ok neutsg-adj-nonfstr_infl_rule ok
+ok weak-adj-nonfstr_infl_rule ok
+ok strongpl-adj-nonfstr_infl_rule ok
+
+lat neutsg-adj-finstr_infl_rule lat
+
+annet neutsg-adj-nonfstr_infl_rule annen
+andre weak-adj-nonfstr_infl_rule annen
+andre strongpl-adj-nonfstr_infl_rule annen
+
+lite neutsg-adj-nonfstr_infl_rule liten
+;lita commsg-adj-nonfstr_infl_rule liten
+lille weak-adj-nonfstr_infl_rule liten
+små weak-adj-nonfstr_infl_rule liten
+små strongpl-adj-nonfstr_infl_rule liten
+mindre comp-adj_re-nonfstr_infl_rule liten
+minst sup-adj-str_st-nonfstr_infl_rule liten
+minste sup-adj-wk_ste-nonfstr_infl_rule liten
+
+ørlite neutsg-adj-nonfstr_infl_rule ørliten
+ørlille weak-adj-nonfstr_infl_rule ørliten
+ørsmå weak-adj-nonfstr_infl_rule ørliten
+ørsmå strongpl-adj-nonfstr_infl_rule ørliten
+knøttlite neutsg-adj-nonfstr_infl_rule knøttliten
+knøttlille weak-adj-nonfstr_infl_rule knøttliten
+knøttsmå weak-adj-nonfstr_infl_rule knøttliten
+knøttsmå strongpl-adj-nonfstr_infl_rule knøttliten
+
+bedre comp-adj_ere-finstr_infl_rule god 
+best sup-adj-str_est-finstr_infl_rule god
+beste sup-adj-wk_este-finstr_infl_rule god
+
+bra neutsg-adj-nonfstr_infl_rule bra
+bra weak-adj-nonfstr_infl_rule bra
+bra strongpl-adj-nonfstr_infl_rule bra
+bedre comp-adj_ere-finstr_infl_rule bra 
+best sup-adj-str_est-finstr_infl_rule bra
+beste sup-adj-wk_este-finstr_infl_rule bra
+
+lengre comp-adj_ere-finstr_infl_rule lang
+lengst sup-adj-str_est-finstr_infl_rule lang
+lengste sup-adj-wk_este-finstr_infl_rule lang
+
+yngre comp-adj_ere-finstr_infl_rule ung
+yngst sup-adj-str_est-finstr_infl_rule ung
+yngste sup-adj-wk_este-finstr_infl_rule ung
+tyngre comp-adj_ere-finstr_infl_rule tung
+tyngst sup-adj-str_est-finstr_infl_rule tung
+tyngste sup-adj-wk_este-finstr_infl_rule tung
+
+større comp-adj_ere-finstr_infl_rule stor
+størst sup-adj-str_est-finstr_infl_rule stor
+største sup-adj-wk_este-finstr_infl_rule stor
+
+eldre comp-adj_re-nonfstr_infl_rule gammel
+eldst sup-adj-str_st-nonfstr_infl_rule gammel
+eldste sup-adj-wk_ste-nonfstr_infl_rule gammel
+
+verre comp-adj_ere-finstr_infl_rule vond
+vondere comp-adj_ere-finstr_infl_rule vond
+verst sup-adj-str_est-finstr_infl_rule vond
+vondest sup-adj-str_est-finstr_infl_rule vond
+verste sup-adj-wk_este-finstr_infl_rule vond
+vondeste sup-adj-wk_este-finstr_infl_rule vond
+verre comp-adj_re-nonfstr_infl_rule ille
+verst sup-adj-str_st-nonfstr_infl_rule ille
+verste sup-adj-wk_ste-nonfstr_infl_rule ille
+verre comp-adj_re-nonfstr_infl_rule dårlig
+dårligere comp-adj_re-nonfstr_infl_rule dårlig
+verst sup-adj-str_st-nonfstr_infl_rule dårlig
+dårligst sup-adj-str_st-nonfstr_infl_rule dårlig
+verste sup-adj-wk_ste-nonfstr_infl_rule dårlig
+dårligste sup-adj-wk_ste-nonfstr_infl_rule dårlig
+
+fremst sup-adj-str_st-nonfstr_infl_rule fremre
+fremste sup-adj-wk_ste-nonfstr_infl_rule fremre
+
+lenge neutsg-adj-nonfstr_infl_rule lenge
+
+;; pl_def_f_subst
+
+;; f30
+donkraftene sg_def_f_final-full_irule donkraft
+marihandene sg_def_f_final-full_irule marihand
+løvetannene sg_def_f_final-full_irule løvetann
+tvetannene sg_def_f_final-full_irule tvetann
+tvitannene sg_def_f_final-full_irule tvitann
+markene sg_def_f_final-full_irule merk
+rongene sg_def_f_final-full_irule reng
+
+;; f31
+blodbokene sg_def_f_final-full_irule blodbok
+;bokene sg_def_f_final-full_irule bok
+svartebokene sg_def_f_final-full_irule svartebok
+notene sg_def_f_final-full_irule not
+
+;; pl_def_m_subst
+
+artillerioffiserene pl_def_m-or-f_final-full_irule artillerioffiser
+artiumskarakterene pl_def_m-or-f_final-full_irule artiumskarakter
+artskarakterene pl_def_m-or-f_final-full_irule artskarakter
+bankierene pl_def_m-or-f_final-full_irule bankier
+barberene pl_def_m-or-f_final-full_irule barber
+bleserene pl_def_m-or-f_final-full_irule bleser
+blindpassasjerene pl_def_m-or-f_final-full_irule blindpassasjer
+bordkavalerene pl_def_m-or-f_final-full_irule bordkavaler
+brigadeoffiserene pl_def_m-or-f_final-full_irule brigadeoffiser
+brigaderene pl_def_m-or-f_final-full_irule brigader
+computerene pl_def_m-or-f_final-full_irule computer
+croupierene pl_def_m-or-f_final-full_irule croupier
+dejeunerene pl_def_m-or-f_final-full_irule dejeuner
+dekksoffiserene pl_def_m-or-f_final-full_irule dekksoffiser
+dekkspassasjerene pl_def_m-or-f_final-full_irule dekkspassasjer
+dinerene pl_def_m-or-f_final-full_irule diner
+falkonerene pl_def_m-or-f_final-full_irule falkoner
+finerene pl_def_m-or-f_final-full_irule finer
+forbindelsesoffiserene pl_def_m-or-f_final-full_irule forbindelsesoffiser
+foyerene pl_def_m-or-f_final-full_irule foyer
+frelsesarméoffiserene pl_def_m-or-f_final-full_irule frelsesarméoffiser
+furerene pl_def_m-or-f_final-full_irule furer
+geneverene pl_def_m-or-f_final-full_irule genever
+gondolierene pl_def_m-or-f_final-full_irule gondolier
+gratispassasjerene pl_def_m-or-f_final-full_irule gratispassasjer
+grenaderene pl_def_m-or-f_final-full_irule grenader
+harpunerene pl_def_m-or-f_final-full_irule harpuner
+heraldikerene pl_def_m-or-f_final-full_irule heraldiker
+hovedkarakterene pl_def_m-or-f_final-full_irule hovedkarakter
+juvelerene pl_def_m-or-f_final-full_irule juveler
+karabinierene pl_def_m-or-f_final-full_irule karabinier
+karakterene pl_def_m-or-f_final-full_irule karakter
+kavalerene pl_def_m-or-f_final-full_irule kavaler
+khmerene pl_def_m-or-f_final-full_irule khmer
+kjønnskarakterene pl_def_m-or-f_final-full_irule kjønnskarakter
+konferansierene pl_def_m-or-f_final-full_irule konferansier
+kryssfinerene pl_def_m-or-f_final-full_irule kryssfiner
+kurerene pl_def_m-or-f_final-full_irule kurer
+kyrasserene pl_def_m-or-f_final-full_irule kyrasser
+liaisonoffiserene pl_def_m-or-f_final-full_irule liaisonoffiser
+manerene pl_def_m-or-f_final-full_irule maner
+marineoffiserene pl_def_m-or-f_final-full_irule marineoffiser
+metierene pl_def_m-or-f_final-full_irule metier
+morterene pl_def_m-or-f_final-full_irule morter
+musketerene pl_def_m-or-f_final-full_irule musketer
+nysgjerrigperene pl_def_m-or-f_final-full_irule nysgjerrigper
+offiserene pl_def_m-or-f_final-full_irule offiser
+ordenskarakterene pl_def_m-or-f_final-full_irule ordenskarakter
+passasjerene pl_def_m-or-f_final-full_irule passasjer
+peerene pl_def_m-or-f_final-full_irule peer
+perene pl_def_m-or-f_final-full_irule per
+pionerene pl_def_m-or-f_final-full_irule pioner
+polymerene pl_def_m-or-f_final-full_irule polymer
+portierene pl_def_m-or-f_final-full_irule portier
+pullerene pl_def_m-or-f_final-full_irule puller
+rentierene pl_def_m-or-f_final-full_irule rentier
+sambandsoffiserene pl_def_m-or-f_final-full_irule sambandsoffiser
+sjøoffiserene pl_def_m-or-f_final-full_irule sjøoffiser
+skipsoffiserene pl_def_m-or-f_final-full_irule skipsoffiser
+skorsonerene pl_def_m-or-f_final-full_irule skorsoner
+stabsoffiserene pl_def_m-or-f_final-full_irule stabsoffiser
+standpunktkarakterene pl_def_m-or-f_final-full_irule standpunktkarakter
+stilkarakterene pl_def_m-or-f_final-full_irule stilkarakter
+strykekarakterene pl_def_m-or-f_final-full_irule strykekarakter
+strykkarakterene pl_def_m-or-f_final-full_irule strykkarakter
+ståkarakterene pl_def_m-or-f_final-full_irule ståkarakter
+surinamerene pl_def_m-or-f_final-full_irule surinamer
+svarteperene pl_def_m-or-f_final-full_irule svarteper
+tigerene pl_def_m-or-f_final-full_irule tiger
+transferene pl_def_m-or-f_final-full_irule transfer
+underoffiserene pl_def_m-or-f_final-full_irule underoffiser
+utløperene pl_def_m-or-f_final-full_irule utløper
+vekselerene pl_def_m-or-f_final-full_irule vekseler
+velferdsoffiserene pl_def_m-or-f_final-full_irule velferdsoffiser
+viktigperene pl_def_m-or-f_final-full_irule viktigper
+peerene pl_def_m-or-f_final-full_irule peer
+alsikekløverene pl_def_m-or-f_final-full_irule alsikekløver
+denierene pl_def_m-or-f_final-full_irule denier
+fillerene pl_def_m-or-f_final-full_irule filler
+firkløverene pl_def_m-or-f_final-full_irule firkløver
+hjerterene pl_def_m-or-f_final-full_irule hjerter
+hvitkløverene pl_def_m-or-f_final-full_irule hvitkløver
+klinkerene pl_def_m-or-f_final-full_irule klinker
+kløverene pl_def_m-or-f_final-full_irule kløver
+kvitkløverene pl_def_m-or-f_final-full_irule kvitkløver
+raudkløverene pl_def_m-or-f_final-full_irule raudkløver
+rødkløverene pl_def_m-or-f_final-full_irule rødkløver
+trekløverene pl_def_m-or-f_final-full_irule trekløver
+weberene pl_def_m-or-f_final-full_irule weber
+
+;; overlap
+
+morterne pl_def_m-or-f_final-full_irule morter
+tigerne pl_def_m-or-f_final-full_irule tiger
+utløperne pl_def_m-or-f_final-full_irule utløper
+alsikekløverne pl_def_m-or-f_final-full_irule alsikekløver
+firkløverne pl_def_m-or-f_final-full_irule firkløver
+hjerterne pl_def_m-or-f_final-full_irule hjerter
+hvitkløverne pl_def_m-or-f_final-full_irule hvitkløver
+klinkerne pl_def_m-or-f_final-full_irule klinker
+kløverne pl_def_m-or-f_final-full_irule kløver
+kvitkløverne pl_def_m-or-f_final-full_irule kvitkløver
+raudkløverne pl_def_m-or-f_final-full_irule raudkløver
+rødkløverne pl_def_m-or-f_final-full_irule rødkløver
+trekløverne pl_def_m-or-f_final-full_irule trekløver
+
+
+
+aksjeandelene pl_def_m-or-f_final-full_irule aksjeandel
+andelene pl_def_m-or-f_final-full_irule andel
+armaturdelene pl_def_m-or-f_final-full_irule armaturdel
+attendelene pl_def_m-or-f_final-full_irule attendel
+bakdelene pl_def_m-or-f_final-full_irule bakdel
+bakfjelene pl_def_m-or-f_final-full_irule bakfjel
+bakstefjelene pl_def_m-or-f_final-full_irule bakstefjel
+banehalvdelene pl_def_m-or-f_final-full_irule banehalvdel
+bestanddelene pl_def_m-or-f_final-full_irule bestanddel
+billiondelene pl_def_m-or-f_final-full_irule billiondel
+bopelene pl_def_m-or-f_final-full_irule bopel
+bryggekjelene pl_def_m-or-f_final-full_irule bryggekjel
+brøkdelene pl_def_m-or-f_final-full_irule brøkdel
+bydelene pl_def_m-or-f_final-full_irule bydel
+bygningsdelene pl_def_m-or-f_final-full_irule bygningsdel
+dampkjelene pl_def_m-or-f_final-full_irule dampkjel
+delene pl_def_m-or-f_final-full_irule del
+egenandelene pl_def_m-or-f_final-full_irule egenandel
+eiendelene pl_def_m-or-f_final-full_irule eiendel
+eierandelene pl_def_m-or-f_final-full_irule eierandel
+eigenandelene pl_def_m-or-f_final-full_irule eigenandel
+eldsjelene pl_def_m-or-f_final-full_irule eldsjel
+ellevedelene pl_def_m-or-f_final-full_irule ellevedel
+ellevtedelene pl_def_m-or-f_final-full_irule ellevtedel
+femtedelene pl_def_m-or-f_final-full_irule femtedel
+femtendelene pl_def_m-or-f_final-full_irule femtendel
+femtidelene pl_def_m-or-f_final-full_irule femtidel
+firedelene pl_def_m-or-f_final-full_irule firedel
+fjelene pl_def_m-or-f_final-full_irule fjel
+fjerdedelene pl_def_m-or-f_final-full_irule fjerdedel
+fjordselene pl_def_m-or-f_final-full_irule fjordsel
+fjortendelene pl_def_m-or-f_final-full_irule fjortendel
+fordelene pl_def_m-or-f_final-full_irule fordel
+framdelene pl_def_m-or-f_final-full_irule framdel
+fremdelene pl_def_m-or-f_final-full_irule fremdel
+førtidelene pl_def_m-or-f_final-full_irule førtidel
+gråselene pl_def_m-or-f_final-full_irule gråsel
+grønlandsselene pl_def_m-or-f_final-full_irule grønlandssel
+halvdelene pl_def_m-or-f_final-full_irule halvdel
+horngjelene pl_def_m-or-f_final-full_irule horngjel
+hundredelene pl_def_m-or-f_final-full_irule hundredel
+ildsjelene pl_def_m-or-f_final-full_irule ildsjel
+juvelene pl_def_m-or-f_final-full_irule juvel
+kaffekjelene pl_def_m-or-f_final-full_irule kaffekjel
+kamelene pl_def_m-or-f_final-full_irule kamel
+kautelene pl_def_m-or-f_final-full_irule kautel
+kennelene pl_def_m-or-f_final-full_irule kennel
+kjelene pl_def_m-or-f_final-full_irule kjel
+kjønnsdelene pl_def_m-or-f_final-full_irule kjønnsdel
+kobberkjelene pl_def_m-or-f_final-full_irule kobberkjel
+kopparkjelene pl_def_m-or-f_final-full_irule kopparkjel
+kopperkjelene pl_def_m-or-f_final-full_irule kopperkjel
+kordelene pl_def_m-or-f_final-full_irule kordel
+krelene pl_def_m-or-f_final-full_irule krel
+kremmersjelene pl_def_m-or-f_final-full_irule kremmersjel
+kronjuvelene pl_def_m-or-f_final-full_irule kronjuvel
+landsdelene pl_def_m-or-f_final-full_irule landsdel
+legemsdelene pl_def_m-or-f_final-full_irule legemsdel
+maskindelene pl_def_m-or-f_final-full_irule maskindel
+melene pl_def_m-or-f_final-full_irule mel
+menneskesjelene pl_def_m-or-f_final-full_irule menneskesjel
+milliarddelene pl_def_m-or-f_final-full_irule milliarddel
+milliondelene pl_def_m-or-f_final-full_irule milliondel
+minstrelene pl_def_m-or-f_final-full_irule minstrel
+nederdelene pl_def_m-or-f_final-full_irule nederdel
+nidelene pl_def_m-or-f_final-full_irule nidel
+niendedelene pl_def_m-or-f_final-full_irule niendedel
+nittendelene pl_def_m-or-f_final-full_irule nittendel
+nittidelene pl_def_m-or-f_final-full_irule nittidel
+oterfjelene pl_def_m-or-f_final-full_irule oterfjel
+overdelene pl_def_m-or-f_final-full_irule overdel
+pelene pl_def_m-or-f_final-full_irule pel
+predikatsdelene pl_def_m-or-f_final-full_irule predikatsdel
+prosentdelene pl_def_m-or-f_final-full_irule prosentdel
+reelene pl_def_m-or-f_final-full_irule reel
+reservedelene pl_def_m-or-f_final-full_irule reservedel
+rummelene pl_def_m-or-f_final-full_irule rummel
+sandmelene pl_def_m-or-f_final-full_irule sandmel
+seksdelene pl_def_m-or-f_final-full_irule seksdel
+sekstendelene pl_def_m-or-f_final-full_irule sekstendel
+sekstidelene pl_def_m-or-f_final-full_irule sekstidel
+selene pl_def_m-or-f_final-full_irule sel
+setningsdelene pl_def_m-or-f_final-full_irule setningsdel
+siselene pl_def_m-or-f_final-full_irule sisel
+sjelene pl_def_m-or-f_final-full_irule sjel
+sjettedelene pl_def_m-or-f_final-full_irule sjettedel
+sjudelene pl_def_m-or-f_final-full_irule sjudel
+sjuendedelene pl_def_m-or-f_final-full_irule sjuendedel
+skipskjelene pl_def_m-or-f_final-full_irule skipskjel
+skjoldkjertelene pl_def_m-or-f_final-full_irule skjoldkjertel
+skjærefjelene pl_def_m-or-f_final-full_irule skjærefjel
+slavesjelene pl_def_m-or-f_final-full_irule slavesjel
+spanielene pl_def_m-or-f_final-full_irule spaniel
+spikkefjelene pl_def_m-or-f_final-full_irule spikkefjel
+størstedelene pl_def_m-or-f_final-full_irule størstedel
+subjektsdelene pl_def_m-or-f_final-full_irule subjektsdel
+syttendelene pl_def_m-or-f_final-full_irule syttendel
+syttidelene pl_def_m-or-f_final-full_irule syttidel
+tidelene pl_def_m-or-f_final-full_irule tidel
+tiendedelene pl_def_m-or-f_final-full_irule tiendedel
+tjuedelene pl_def_m-or-f_final-full_irule tjuedel
+tolvdelene pl_def_m-or-f_final-full_irule tolvdel
+tolvtedelene pl_def_m-or-f_final-full_irule tolvtedel
+tredelene pl_def_m-or-f_final-full_irule tredel
+tredjedelene pl_def_m-or-f_final-full_irule tredjedel
+trettendelene pl_def_m-or-f_final-full_irule trettendel
+trettidelene pl_def_m-or-f_final-full_irule trettidel
+trommekjelene pl_def_m-or-f_final-full_irule trommekjel
+tunnelene pl_def_m-or-f_final-full_irule tunnel
+tusendelene pl_def_m-or-f_final-full_irule tusendel
+underdelene pl_def_m-or-f_final-full_irule underdel
+vanntunnelene pl_def_m-or-f_final-full_irule vanntunnel
+vasstunnelene pl_def_m-or-f_final-full_irule vasstunnel
+vegtunnelene pl_def_m-or-f_final-full_irule vegtunnel
+veitunnelene pl_def_m-or-f_final-full_irule veitunnel
+veltefjelene pl_def_m-or-f_final-full_irule veltefjel
+verdensdelene pl_def_m-or-f_final-full_irule verdensdel
+vindtunnelene pl_def_m-or-f_final-full_irule vindtunnel
+weaselene pl_def_m-or-f_final-full_irule weasel
+ystekjelene pl_def_m-or-f_final-full_irule ystekjel
+ytterdelene pl_def_m-or-f_final-full_irule ytterdel
+åttedelene pl_def_m-or-f_final-full_irule åttedel
+åttendedelene pl_def_m-or-f_final-full_irule åttendedel
+åttidelene pl_def_m-or-f_final-full_irule åttidel
+øreselene pl_def_m-or-f_final-full_irule øresel
+barrelene pl_def_m-or-f_final-full_irule barrel
+bushelene pl_def_m-or-f_final-full_irule bushel
+shrapnelene pl_def_m-or-f_final-full_irule shrapnel
+barrelene pl_def_m-or-f_final-full_irule barrel
+becquerelene pl_def_m-or-f_final-full_irule becquerel
+belene pl_def_m-or-f_final-full_irule bel
+desibelene pl_def_m-or-f_final-full_irule desibel
+
+
+
+;;
+
+bestanddelene pl_def_m-or-f_final-full_irule bestanddel
+milliarddelene pl_def_m-or-f_final-full_irule milliarddel
+
+rummelene pl_def_m-or-f_final-full_irule rummel
+
+grønlandsselene pl_def_m-or-f_final-full_irule grønlandssel
+
+
+
+robotene pl_def_m-or-f_final-full_irule robot
+
+notene pl_def_m-or-f_final-full_irule not
+
+donkraftene pl_def_m-or-f_final-full_irule donkraft
+
+mustangene pl_def_m-or-f_final-full_irule mustang
+orangutangene pl_def_m-or-f_final-full_irule orangutang
+rotangene pl_def_m-or-f_final-full_irule rotang
+sargassotangene pl_def_m-or-f_final-full_irule sargassotang
+
+dobermannene pl_def_m-or-f_final-full_irule dobermann
+sprellemannene pl_def_m-or-f_final-full_irule sprellemann
+
+løvetannene pl_def_m-or-f_final-full_irule løvetann
+tvetannene pl_def_m-or-f_final-full_irule tvetann
+tvitannene pl_def_m-or-f_final-full_irule tvitann
+løvetannene pl_def_m-or-f_final-full_irule løvetann
+tvetannene pl_def_m-or-f_final-full_irule tvetann
+tvitannene pl_def_m-or-f_final-full_irule tvitann
+
+knattene pl_def_m-or-f_final-full_irule knatt
+
+;; overlap
+
+
+
+
+
+
+adelsstendene pl_def_m-or-f_final-full_irule adelsstand
+endene pl_def_m-or-f_final-full_irule and
+avisendene pl_def_m-or-f_final-full_irule avisand
+badestrendene pl_def_m-or-f_final-full_irule badestrand
+bakhendene pl_def_m-or-f_final-full_irule bakhand
+bergendene pl_def_m-or-f_final-full_irule bergand
+blesendene pl_def_m-or-f_final-full_irule blesand
+broderhendene pl_def_m-or-f_final-full_irule broderhand
+dykkendene pl_def_m-or-f_final-full_irule dykkand
+embetsstendene pl_def_m-or-f_final-full_irule embetsstand
+faderhendene pl_def_m-or-f_final-full_irule faderhand
+fiendehendene pl_def_m-or-f_final-full_irule fiendehand
+fiskendene pl_def_m-or-f_final-full_irule fiskand
+fjerdestendene pl_def_m-or-f_final-full_irule fjerdestand
+flathendene pl_def_m-or-f_final-full_irule flathand
+forretningsstendene pl_def_m-or-f_final-full_irule forretningsstand
+fribadestrendene pl_def_m-or-f_final-full_irule fribadestrand
+grasendene pl_def_m-or-f_final-full_irule grasand
+gravendene pl_def_m-or-f_final-full_irule gravand
+gressendene pl_def_m-or-f_final-full_irule gressand
+hendene pl_def_m-or-f_final-full_irule hand
+handelsstendene pl_def_m-or-f_final-full_irule handelsstand
+himmelrendene pl_def_m-or-f_final-full_irule himmelrand
+isendene pl_def_m-or-f_final-full_irule isand
+jernhendene pl_def_m-or-f_final-full_irule jernhand
+krikkendene pl_def_m-or-f_final-full_irule krikkand
+kvinendene pl_def_m-or-f_final-full_irule kvinand
+laksendene pl_def_m-or-f_final-full_irule laksand
+legestendene pl_def_m-or-f_final-full_irule legestand
+lortendene pl_def_m-or-f_final-full_irule lortand
+;merkene pl_def_m-or-f_final-full_irule mark
+menneskehendene pl_def_m-or-f_final-full_irule menneskehand
+mesterhendene pl_def_m-or-f_final-full_irule mesterhand
+middelstendene pl_def_m-or-f_final-full_irule middelstand
+morderhendene pl_def_m-or-f_final-full_irule morderhand
+polarendene pl_def_m-or-f_final-full_irule polarand
+prestestendene pl_def_m-or-f_final-full_irule prestestand
+pyttendene pl_def_m-or-f_final-full_irule pyttand
+rendene pl_def_m-or-f_final-full_irule rand
+rengene pl_def_m-or-f_final-full_irule rong
+rustendene pl_def_m-or-f_final-full_irule rustand
+rårendene pl_def_m-or-f_final-full_irule rårand
+silendene pl_def_m-or-f_final-full_irule siland
+skeiendene pl_def_m-or-f_final-full_irule skeiand
+skjeendene pl_def_m-or-f_final-full_irule skjeand
+stendene pl_def_m-or-f_final-full_irule stand
+stellerendene pl_def_m-or-f_final-full_irule stellerand
+stjertendene pl_def_m-or-f_final-full_irule stjertand
+stokkendene pl_def_m-or-f_final-full_irule stokkand
+strendene pl_def_m-or-f_final-full_irule strand
+svartendene pl_def_m-or-f_final-full_irule svartand
+synsrendene pl_def_m-or-f_final-full_irule synsrand
+sørgerendene pl_def_m-or-f_final-full_irule sørgerand
+toppendene pl_def_m-or-f_final-full_irule toppand
+tredjestendene pl_def_m-or-f_final-full_irule tredjestand
+villendene pl_def_m-or-f_final-full_irule villand
+
+;; overlap
+
+standene pl_def_m-or-f_final-full_irule stand
+randene pl_def_m-or-f_final-full_irule rand
+
+
+askenasimene pl_def_m-or-f_final-full_irule askenasi
+sefardimene pl_def_m-or-f_final-full_irule sefardi
+
+
+hestehøvene pl_def_m-or-f_final-full_irule hestehov
+
+
+
+bestemødrene pl_def_m-or-f_final-full_irule bestemor
+brødrene pl_def_m-or-f_final-full_irule bror
+dronningmødrene pl_def_m-or-f_final-full_irule dronningmor
+farbrødrene pl_def_m-or-f_final-full_irule farbror
+farmødrene pl_def_m-or-f_final-full_irule farmor
+fostbrødrene pl_def_m-or-f_final-full_irule fostbror
+fostermødrene pl_def_m-or-f_final-full_irule fostermor
+gamlemødrene pl_def_m-or-f_final-full_irule gamlemor
+gaukemødrene pl_def_m-or-f_final-full_irule gaukemor
+gjøkemødrene pl_def_m-or-f_final-full_irule gjøkemor
+gråbrødrene pl_def_m-or-f_final-full_irule gråbror
+gudmødrene pl_def_m-or-f_final-full_irule gudmor
+halvbrødrene pl_def_m-or-f_final-full_irule halvbror
+haremødrene pl_def_m-or-f_final-full_irule haremor
+husmødrene pl_def_m-or-f_final-full_irule husmor
+hønemødrene pl_def_m-or-f_final-full_irule hønemor
+jordmødrene pl_def_m-or-f_final-full_irule jordmor
+kallsbrødrene pl_def_m-or-f_final-full_irule kallsbror
+klanbrødrene pl_def_m-or-f_final-full_irule klanbror
+korbrødrene pl_def_m-or-f_final-full_irule korbror
+legbrødrene pl_def_m-or-f_final-full_irule legbror
+lekbrødrene pl_def_m-or-f_final-full_irule lekbror
+lillebrødrene pl_def_m-or-f_final-full_irule lillebror
+matmødrene pl_def_m-or-f_final-full_irule matmor
+minorittbrødrene pl_def_m-or-f_final-full_irule minorittbror
+mødrene pl_def_m-or-f_final-full_irule mor
+morbrødrene pl_def_m-or-f_final-full_irule morbror
+mormødrene pl_def_m-or-f_final-full_irule mormor
+navnebrødrene pl_def_m-or-f_final-full_irule navnebror
+oldemødrene pl_def_m-or-f_final-full_irule oldemor
+ordensbrødrene pl_def_m-or-f_final-full_irule ordensbror
+ramnemødrene pl_def_m-or-f_final-full_irule ramnemor
+ravnemødrene pl_def_m-or-f_final-full_irule ravnemor
+slagsbrødrene pl_def_m-or-f_final-full_irule slagsbror
+stallbrødrene pl_def_m-or-f_final-full_irule stallbror
+stammødrene pl_def_m-or-f_final-full_irule stammor
+stemødrene pl_def_m-or-f_final-full_irule stemor
+storebrødrene pl_def_m-or-f_final-full_irule storebror
+svigermødrene pl_def_m-or-f_final-full_irule  svigermor
+svirebrødrene pl_def_m-or-f_final-full_irule svirebror
+tippoldemødrene pl_def_m-or-f_final-full_irule tippoldemor
+tipptippoldemødrene pl_def_m-or-f_final-full_irule tipptippoldemor
+trosbrødrene pl_def_m-or-f_final-full_irule trosbror
+trusbrødrene pl_def_m-or-f_final-full_irule trusbror
+tvillingbrødrene pl_def_m-or-f_final-full_irule tvillingbror
+veslebrødrene pl_def_m-or-f_final-full_irule veslebror
+vågmødrene pl_def_m-or-f_final-full_irule vågmor
+våpenbrødrene pl_def_m-or-f_final-full_irule våpenbror
+værbrødrene pl_def_m-or-f_final-full_irule værbror
+værmødrene pl_def_m-or-f_final-full_irule værmor
+
+morene pl_def_m-or-f_final-full_irule mor
+
+alantrøttene pl_def_m-or-f_final-full_irule alantrot
+bakføttene pl_def_m-or-f_final-full_irule bakfot
+bladføttene pl_def_m-or-f_final-full_irule bladfot
+brunrøttene pl_def_m-or-f_final-full_irule brunrot
+dobbeltmyntføttene pl_def_m-or-f_final-full_irule dobbeltmyntfot
+enkeltmyntføttene pl_def_m-or-f_final-full_irule enkeltmyntfot
+feltføttene pl_def_m-or-f_final-full_irule feltfot
+fjellføttene pl_def_m-or-f_final-full_irule fjellfot
+fotrøttene pl_def_m-or-f_final-full_irule fotrot
+frierføttene pl_def_m-or-f_final-full_irule frierfot
+grasrøttene pl_def_m-or-f_final-full_irule grasrot
+gressrøttene pl_def_m-or-f_final-full_irule gressrot
+griffelføttene pl_def_m-or-f_final-full_irule griffelfot
+gripeføttene pl_def_m-or-f_final-full_irule gripefot
+gulrøttene pl_def_m-or-f_final-full_irule gulrot
+halerøttene pl_def_m-or-f_final-full_irule halerot
+handrøttene pl_def_m-or-f_final-full_irule handrot
+haneføttene pl_def_m-or-f_final-full_irule hanefot
+hjerterøttene pl_def_m-or-f_final-full_irule hjerterot
+hornrøttene pl_def_m-or-f_final-full_irule hornrot
+håndrøttene pl_def_m-or-f_final-full_irule håndrot
+hårrøttene pl_def_m-or-f_final-full_irule hårrot
+høgreføttene pl_def_m-or-f_final-full_irule høgrefot
+høyreføttene pl_def_m-or-f_final-full_irule høyrefot
+juletreføttene pl_def_m-or-f_final-full_irule juletrefot
+kalmusrøttene pl_def_m-or-f_final-full_irule kalmusrot
+katteføttene pl_def_m-or-f_final-full_irule kattefot
+klatreføttene pl_def_m-or-f_final-full_irule klatrefot
+klumpføttene pl_def_m-or-f_final-full_irule klumpfot
+klumprøttene pl_def_m-or-f_final-full_irule klumprot
+kråkeføttene pl_def_m-or-f_final-full_irule kråkefot
+kubikkrøttene pl_def_m-or-f_final-full_irule kubikkrot
+kvadratrøttene pl_def_m-or-f_final-full_irule kvadratrot
+kvannerøttene pl_def_m-or-f_final-full_irule kvannerot
+kvannrøttene pl_def_m-or-f_final-full_irule kvannrot
+kålrøttene pl_def_m-or-f_final-full_irule kålrot
+lakrisrøttene pl_def_m-or-f_final-full_irule lakrisrot
+leirføttene pl_def_m-or-f_final-full_irule leirfot
+løpeføttene pl_def_m-or-f_final-full_irule løpefot
+mellomføttene pl_def_m-or-f_final-full_irule mellomfot
+myntføttene pl_def_m-or-f_final-full_irule myntfot
+naserøttene pl_def_m-or-f_final-full_irule naserot
+neglerøttene pl_def_m-or-f_final-full_irule neglerot
+neserøttene pl_def_m-or-f_final-full_irule neserot
+pepperrøttene pl_def_m-or-f_final-full_irule pepperrot
+plattføttene pl_def_m-or-f_final-full_irule plattfot
+premieføttene pl_def_m-or-f_final-full_irule premiefot
+reiseføttene pl_def_m-or-f_final-full_irule reisefot
+renteføttene pl_def_m-or-f_final-full_irule rentefot
+røttene pl_def_m-or-f_final-full_irule rot
+sellerirøttene pl_def_m-or-f_final-full_irule sellerirot
+sitteføttene pl_def_m-or-f_final-full_irule sittefot
+skjeggrøttene pl_def_m-or-f_final-full_irule skjeggrot
+skjellrøttene pl_def_m-or-f_final-full_irule skjellrot
+svømmeføttene pl_def_m-or-f_final-full_irule svømmefot
+tannrøttene pl_def_m-or-f_final-full_irule tannrot
+treføttene pl_def_m-or-f_final-full_irule trefot
+tungerøttene pl_def_m-or-f_final-full_irule tungerot
+tverrplattføttene pl_def_m-or-f_final-full_irule tverrplattfot
+tyrirøttene pl_def_m-or-f_final-full_irule tyrirot
+vadeføttene pl_def_m-or-f_final-full_irule vadefot
+vandringsføttene pl_def_m-or-f_final-full_irule vandringsfot
+venstreføttene pl_def_m-or-f_final-full_irule venstrefot
+verseføttene pl_def_m-or-f_final-full_irule versefot
+versføttene pl_def_m-or-f_final-full_irule versfot
+ånderøttene pl_def_m-or-f_final-full_irule ånderot
+åreføttene pl_def_m-or-f_final-full_irule årefot
+
+;; overlap
+
+hanefotene pl_def_m-or-f_final-full_irule hanefot
+kattefotene pl_def_m-or-f_final-full_irule kattefot
+tannrotene pl_def_m-or-f_final-full_irule tannrot
+
+bøtene pl_def_m-or-f_final-full_irule bot
+skadebøtene pl_def_m-or-f_final-full_irule skadebot
+retterbøtene pl_def_m-or-f_final-full_irule retterbot
+parkeringsbøtene pl_def_m-or-f_final-full_irule parkeringsbot
+miljøbøtene pl_def_m-or-f_final-full_irule miljøbot
+sælebøtene pl_def_m-or-f_final-full_irule sælebot
+
+nøtene pl_def_m-or-f_final-full_irule  not
+ringnøtene pl_def_m-or-f_final-full_irule ringnot
+sildenøtene pl_def_m-or-f_final-full_irule sildenot
+snurpenøtene pl_def_m-or-f_final-full_irule snurpenot
+dragnøtene pl_def_m-or-f_final-full_irule dragnot
+kastenøtene pl_def_m-or-f_final-full_irule kastenot
+kilenøtene pl_def_m-or-f_final-full_irule kilenot
+laksenøtene pl_def_m-or-f_final-full_irule laksenot
+landnøtene pl_def_m-or-f_final-full_irule landnot
+posenøtene pl_def_m-or-f_final-full_irule posenot
+
+
+aksjonsradiene pl_def_m-or-f_final-full_irule aksjonsradius
+amanuensene pl_def_m-or-f_final-full_irule amanuensis
+byrettsjustitiariene pl_def_m-or-f_final-full_irule byrettsjustitiarius
+dekanene pl_def_m-or-f_final-full_irule dekanus
+dinosaurene pl_def_m-or-f_final-full_irule dinosaurus
+førsteamanuensene pl_def_m-or-f_final-full_irule førsteamanuensis
+geraniene pl_def_m-or-f_final-full_irule geranium
+høgsterettsjustitiariene pl_def_m-or-f_final-full_irule høgsterettsjustitiarius
+høyesterettsjustitiariene pl_def_m-or-f_final-full_irule høyesterettsjustitiarius
+justitiariene pl_def_m-or-f_final-full_irule justitiarius
+kaprifoliene pl_def_m-or-f_final-full_irule kaprifolium
+katekismene pl_def_m-or-f_final-full_irule katekismus
+konsensene pl_def_m-or-f_final-full_irule konsensus
+nuntiene pl_def_m-or-f_final-full_irule nuntius
+pelargoniene pl_def_m-or-f_final-full_irule pelargonium
+radiene pl_def_m-or-f_final-full_irule radius
+aksjonsradiene pl_def_m-or-f_final-full_irule aksjonsradius
+auksjonariene pl_def_m-or-f_final-full_irule auksjonarius
+daktylene pl_def_m-or-f_final-full_irule daktylos
+dinosaurene pl_def_m-or-f_final-full_irule dinosaurus
+geniene pl_def_m-or-f_final-full_irule genius
+geraniene pl_def_m-or-f_final-full_irule geranium
+gestene pl_def_m-or-f_final-full_irule gestus
+gladiolene pl_def_m-or-f_final-full_irule gladiolus
+kaprifoliene pl_def_m-or-f_final-full_irule kaprifolium
+katekismene pl_def_m-or-f_final-full_irule katekismus
+nuntiene pl_def_m-or-f_final-full_irule nuntius
+pelargoniene pl_def_m-or-f_final-full_irule pelargonium
+radiene pl_def_m-or-f_final-full_irule radius
+ritene pl_def_m-or-f_final-full_irule ritus
+typene pl_def_m-or-f_final-full_irule typus
+
+;; overlap
+
+gestusene pl_def_m-or-f_final-full_irule gestus
+gladiolusene pl_def_m-or-f_final-full_irule gladiolus
+konsensusene pl_def_m-or-f_final-full_irule konsensus
+ritusene pl_def_m-or-f_final-full_irule ritus
+
+
+
+
+
+-døtrene pl_def_m-or-f_final-full_irule -dotter
+brordøtrene pl_def_m-or-f_final-full_irule brordatter
+døtrene pl_def_m-or-f_final-full_irule datter
+datterdøtrene pl_def_m-or-f_final-full_irule datterdatter
+evadøtrene pl_def_m-or-f_final-full_irule evadatter
+fosterdøtrene pl_def_m-or-f_final-full_irule fosterdatter
+guddøtrene pl_def_m-or-f_final-full_irule guddatter
+manndøtrene pl_def_m-or-f_final-full_irule manndatter
+manndøtrene pl_def_m-or-f_final-full_irule manndotter
+stedøtrene pl_def_m-or-f_final-full_irule stedatter
+svigerdøtrene pl_def_m-or-f_final-full_irule svigerdatter
+sønnedøtrene pl_def_m-or-f_final-full_irule sønnedatter
+søsterdøtrene pl_def_m-or-f_final-full_irule søsterdatter
+værdøtrene pl_def_m-or-f_final-full_irule værdatter
+
+
+bamsefedrene pl_def_m-or-f_final-full_irule bamsefar
+barnefedrene pl_def_m-or-f_final-full_irule barnefar
+bestefedrene pl_def_m-or-f_final-full_irule bestefar
+fedrene pl_def_m-or-f_final-full_irule far
+farfedrene pl_def_m-or-f_final-full_irule farfar
+fosterfedrene pl_def_m-or-f_final-full_irule fosterfar
+gudfedrene pl_def_m-or-f_final-full_irule gudfar
+husfedrene pl_def_m-or-f_final-full_irule husfar
+kirkefedrene pl_def_m-or-f_final-full_irule kirkefar
+landsfedrene pl_def_m-or-f_final-full_irule landsfar
+morfedrene pl_def_m-or-f_final-full_irule morfar
+oldefedrene pl_def_m-or-f_final-full_irule oldefar
+skriftefedrene pl_def_m-or-f_final-full_irule skriftefar
+stamfedrene pl_def_m-or-f_final-full_irule stamfar
+stefedrene pl_def_m-or-f_final-full_irule stefar
+svigerfedrene pl_def_m-or-f_final-full_irule svigerfar
+tippoldefedrene pl_def_m-or-f_final-full_irule tippoldefar
+tipptippoldefedrene pl_def_m-or-f_final-full_irule tipptippoldefar
+værfedrene pl_def_m-or-f_final-full_irule værfar
+
+bjellekyrne pl_def_m-or-f_final-full_irule bjelleku
+bjøllekyrne pl_def_m-or-f_final-full_irule bjølleku
+bøffelkyrne pl_def_m-or-f_final-full_irule bøffelku
+elgkyrne pl_def_m-or-f_final-full_irule elgku
+elitekyrne pl_def_m-or-f_final-full_irule eliteku
+gjeldkyrne pl_def_m-or-f_final-full_irule gjeldku
+hvalkyrne pl_def_m-or-f_final-full_irule hvalku
+jakkyrne pl_def_m-or-f_final-full_irule jakku
+jernkyrne pl_def_m-or-f_final-full_irule jernku
+kyrne pl_def_m-or-f_final-full_irule ku
+kvalkyrne pl_def_m-or-f_final-full_irule kvalku
+melkekyrne pl_def_m-or-f_final-full_irule melkeku
+mjølkekyrne pl_def_m-or-f_final-full_irule mjølkeku
+sjøkyrne pl_def_m-or-f_final-full_irule sjøku
+
+
+; bjelleku
+; bjølleku
+; bøffelku
+; elgku
+; eliteku
+; gjeldku
+; hvalku
+; jakku
+; jernku
+; ku
+; kvalku
+; melkeku
+; mjølkeku
+; sjøku
+
+canadagjæsene pl_def_m-or-f_final-full_irule canadagås
+canadagjessene pl_def_m-or-f_final-full_irule canadagås
+fagergjessene pl_def_m-or-f_final-full_irule fagergås
+grågjessene pl_def_m-or-f_final-full_irule grågås
+gjessene pl_def_m-or-f_final-full_irule gås
+kanadagjessene pl_def_m-or-f_final-full_irule kanadagås
+mortensgjessene pl_def_m-or-f_final-full_irule mortensgås
+ringgjessene pl_def_m-or-f_final-full_irule ringgås
+skjækene pl_def_m-or-f_final-full_irule skåk
+snøgjæsene pl_def_m-or-f_final-full_irule snøgås
+sædgjæsene pl_def_m-or-f_final-full_irule sædgås
+tartargjæsene pl_def_m-or-f_final-full_irule tartargås
+tatargjæsene pl_def_m-or-f_final-full_irule tatargås
+
+
+begoniene pl_def_m-or-f_final-full_irule begonia
+fototaksiene pl_def_m-or-f_final-full_irule fototaksis
+gardeniene pl_def_m-or-f_final-full_irule gardenia
+impresariene pl_def_m-or-f_final-full_irule impresario
+intarsiene pl_def_m-or-f_final-full_irule intarsia
+kjemotaksiene pl_def_m-or-f_final-full_irule kjemotaksis
+kollegene pl_def_m-or-f_final-full_irule kollega
+promemoriene pl_def_m-or-f_final-full_irule promemoria
+taksiene pl_def_m-or-f_final-full_irule taksis
+termotaksiene pl_def_m-or-f_final-full_irule termotaksis
+
+;; overlap
+
+begoniaene pl_def_m-or-f_final-full_irule begonia
+fototaksisene pl_def_m-or-f_final-full_irule fototaksis
+gardeniaene pl_def_m-or-f_final-full_irule gardenia
+impresarioene pl_def_m-or-f_final-full_irule impresario
+kjemotaksisene pl_def_m-or-f_final-full_irule kjemotaksis
+kollegaene pl_def_m-or-f_final-full_irule kollega
+promemoriaene pl_def_m-or-f_final-full_irule promemoria
+taksisene pl_def_m-or-f_final-full_irule taksis
+termotaksisene pl_def_m-or-f_final-full_irule termotaksis
+
+
+flærne pl_def_m-or-f_final-full_irule flå
+krærne pl_def_m-or-f_final-full_irule krå
+liktærne pl_def_m-or-f_final-full_irule liktå
+lilletærne pl_def_m-or-f_final-full_irule lilletå
+rærne pl_def_m-or-f_final-full_irule rå
+stortærne pl_def_m-or-f_final-full_irule stortå
+tærne pl_def_m-or-f_final-full_irule tå
+verketærne pl_def_m-or-f_final-full_irule verketå
+
+;; overlap
+flåene pl_def_m-or-f_final-full_irule flå
+råene pl_def_m-or-f_final-full_irule rå
+
+
+ankerklørne pl_def_m-or-f_final-full_irule ankerklo
+bjørneklørne pl_def_m-or-f_final-full_irule bjørneklo
+elteklørne pl_def_m-or-f_final-full_irule elteklo
+flørne pl_def_m-or-f_final-full_irule flo
+glørne pl_def_m-or-f_final-full_irule glo
+gripeklørne pl_def_m-or-f_final-full_irule gripeklo
+klørne pl_def_m-or-f_final-full_irule klo
+krabbeklørne pl_def_m-or-f_final-full_irule krabbeklo
+
+floene pl_def_m-or-f_final-full_irule flo
+
+
+bergstedene pl_def_m-or-f_final-full_irule bergstad
+forstedene pl_def_m-or-f_final-full_irule forstad
+hansastedene pl_def_m-or-f_final-full_irule hansastad
+hovedstedene pl_def_m-or-f_final-full_irule hovedstad
+kjøpstedene pl_def_m-or-f_final-full_irule kjøpstad
+stedene pl_def_m-or-f_final-full_irule stad
+stiftsstedene pl_def_m-or-f_final-full_irule stiftsstad
+tigerstedene pl_def_m-or-f_final-full_irule tigerstad
+
+
+brødrene pl_def_m-or-f_final-full_irule broder
+eldstebrødrene pl_def_m-or-f_final-full_irule eldstebroder
+formødrene pl_def_m-or-f_final-full_irule formoder
+korbrødrene pl_def_m-or-f_final-full_irule korbroder
+minorittbrødrene pl_def_m-or-f_final-full_irule minorittbroder
+mødrene pl_def_m-or-f_final-full_irule moder
+
+brækene pl_def_m-or-f_final-full_irule bråk
+lægene pl_def_m-or-f_final-full_irule låg
+lærbrækene pl_def_m-or-f_final-full_irule lærbråk
+tægene pl_def_m-or-f_final-full_irule tåg
+æsene pl_def_m-or-f_final-full_irule ås
+
+åsene pl_def_m-or-f_final-full_irule ås
+
+modi pl_def_m-or-f_final-full_irule modus
+numeri pl_def_m-or-f_final-full_irule numerus
+stimuli pl_def_m-or-f_final-full_irule stimulus
+termini pl_def_m-or-f_final-full_irule terminus
+
+numerusene pl_def_m-or-f_final-full_irule numerus
+
+
+fedrene pl_def_m-or-f_final-full_irule fader
+forfedrene pl_def_m-or-f_final-full_irule forfader
+kirkefedrene pl_def_m-or-f_final-full_irule kirkefader
+landsfedrene pl_def_m-or-f_final-full_irule landsfader
+
+
+
+
+
+; falanks
+sagatættene pl_def_m-or-f_final-full_irule sagatått
+tættene pl_def_m-or-f_final-full_irule tått
+
+
+spesies pl_def_m-or-f_final-full_irule spesies
+
+
+apsidene pl_def_m-or-f_final-full_irule apsis
+
+apsisene pl_def_m-or-f_final-full_irule apsis
+
+
+generaene pl_def_m-or-f_final-full_irule genus
+
+
+fratrene pl_def_m-or-f_final-full_irule frater
+
+
+
+
+messieursene pl_def_m-or-f_final-full_irule monsieur
+
+;; pl_def_n_subst
+
+arbeiderkvarterene pl_def_n_final-full_irule arbeiderkvarter
+atelierene pl_def_n_final-full_irule atelier
+bordellkvarterene pl_def_n_final-full_irule bordellkvarter
+collierene pl_def_n_final-full_irule collier
+dossierene pl_def_n_final-full_irule dossier
+espalierene pl_def_n_final-full_irule espalier
+fattigkvarterene pl_def_n_final-full_irule fattigkvarter
+filmatelierene pl_def_n_final-full_irule filmatelier
+frikvarterene pl_def_n_final-full_irule frikvarter
+hovedkvarterene pl_def_n_final-full_irule hovedkvarter
+jødekvarterene pl_def_n_final-full_irule jødekvarter
+klaverene pl_def_n_final-full_irule klaver
+kvarterene pl_def_n_final-full_irule kvarter
+latinerkvarterene pl_def_n_final-full_irule latinerkvarter
+maleratelierene pl_def_n_final-full_irule maleratelier
+metierene pl_def_n_final-full_irule metier
+negerkvarterene pl_def_n_final-full_irule negerkvarter
+revierene pl_def_n_final-full_irule revier
+roverene pl_def_n_final-full_irule rover
+spalierene pl_def_n_final-full_irule spalier
+standkvarterene pl_def_n_final-full_irule standkvarter
+vaktkvarterene pl_def_n_final-full_irule vaktkvarter
+verftsarbeiderene pl_def_n_final-full_irule verftsarbeider
+arbeiderkvarterene pl_def_n_final-full_irule arbeiderkvarter
+atelierene pl_def_n_final-full_irule atelier
+bakepulverene pl_def_n_final-full_irule bakepulver
+bannerene pl_def_n_final-full_irule banner
+bordellkvarterene pl_def_n_final-full_irule bordellkvarter
+collierene pl_def_n_final-full_irule collier
+dossierene pl_def_n_final-full_irule dossier
+espalierene pl_def_n_final-full_irule espalier
+fattigkvarterene pl_def_n_final-full_irule fattigkvarter
+filmatelierene pl_def_n_final-full_irule filmatelier
+frikvarterene pl_def_n_final-full_irule frikvarter
+hovedkvarterene pl_def_n_final-full_irule hovedkvarter
+jødekvarterene pl_def_n_final-full_irule jødekvarter
+kjerene pl_def_n_final-full_irule kjer
+klaverene pl_def_n_final-full_irule klaver
+klysterene pl_def_n_final-full_irule klyster
+kvarterene pl_def_n_final-full_irule kvarter
+latinerkvarterene pl_def_n_final-full_irule latinerkvarter
+maleratelierene pl_def_n_final-full_irule maleratelier
+metierene pl_def_n_final-full_irule metier
+negerkvarterene pl_def_n_final-full_irule negerkvarter
+revierene pl_def_n_final-full_irule revier
+roverene pl_def_n_final-full_irule rover
+småkrøtterene pl_def_n_final-full_irule småkrøtter
+spalierene pl_def_n_final-full_irule spalier
+standkvarterene pl_def_n_final-full_irule standkvarter
+vaktkvarterene pl_def_n_final-full_irule vaktkvarter
+verftsarbeiderene pl_def_n_final-full_irule verftsarbeider
+
+frihetsbreene pl_def_n_final-full_irule frihetsbre
+meheene pl_def_n_final-full_irule mehe
+neene pl_def_n_final-full_irule ne
+brunfeene pl_def_n_final-full_irule brunfe
+bufeene pl_def_n_final-full_irule bufe
+dølefeene pl_def_n_final-full_irule dølefe
+feene pl_def_n_final-full_irule fe
+fjærfeene pl_def_n_final-full_irule fjærfe
+fjørfeene pl_def_n_final-full_irule fjørfe
+frihetsbreene pl_def_n_final-full_irule frihetsbre
+groningerfeene pl_def_n_final-full_irule groningerfe
+guernseyfeene pl_def_n_final-full_irule guernseyfe
+hamningsfeene pl_def_n_final-full_irule hamningsfe
+havningsfeene pl_def_n_final-full_irule havningsfe
+jerseyfeene pl_def_n_final-full_irule jerseyfe
+kjeene pl_def_n_final-full_irule kje
+kreene pl_def_n_final-full_irule kre
+meheene pl_def_n_final-full_irule mehe
+melkefeene pl_def_n_final-full_irule melkefe
+mjølkefeene pl_def_n_final-full_irule mjølkefe
+moskusfeene pl_def_n_final-full_irule moskusfe
+neene pl_def_n_final-full_irule ne
+preene pl_def_n_final-full_irule pre
+slaktefeene pl_def_n_final-full_irule slaktefe
+småfeene pl_def_n_final-full_irule småfe
+smiesteene pl_def_n_final-full_irule smieste
+sølvkreene pl_def_n_final-full_irule sølvkre
+steene pl_def_n_final-full_irule ste
+storfeene pl_def_n_final-full_irule storfe
+telemarksfeene pl_def_n_final-full_irule telemarksfe
+trønderfeene pl_def_n_final-full_irule trønderfe
+veene pl_def_n_final-full_irule ve
+
+;;; !
+
+arbeiderkvarterne pl_def_n_final-full_irule arbeiderkvarter
+atelierne pl_def_n_final-full_irule atelier
+bordellkvarterne pl_def_n_final-full_irule bordellkvarter
+collierne pl_def_n_final-full_irule collier
+dossierne pl_def_n_final-full_irule dossier
+espalierne pl_def_n_final-full_irule espalier
+fattigkvarterne pl_def_n_final-full_irule fattigkvarter
+filmatelierne pl_def_n_final-full_irule filmatelier
+frikvarterne pl_def_n_final-full_irule frikvarter
+hovedkvarterne pl_def_n_final-full_irule hovedkvarter
+jødekvarterne pl_def_n_final-full_irule jødekvarter
+klaverne pl_def_n_final-full_irule klaver
+kvarterne pl_def_n_final-full_irule kvarter
+latinerkvarterne pl_def_n_final-full_irule latinerkvarter
+maleratelierne pl_def_n_final-full_irule maleratelier
+metierne pl_def_n_final-full_irule metier
+negerkvarterne pl_def_n_final-full_irule negerkvarter
+revierne pl_def_n_final-full_irule revier
+roverne pl_def_n_final-full_irule rover
+spalierne pl_def_n_final-full_irule spalier
+standkvarterne pl_def_n_final-full_irule standkvarter
+vaktkvarterne pl_def_n_final-full_irule vaktkvarter
+verftsarbeiderne pl_def_n_final-full_irule verftsarbeider
+arbeiderkvarterne pl_def_n_final-full_irule arbeiderkvarter
+atelierne pl_def_n_final-full_irule atelier
+bakepulverne pl_def_n_final-full_irule bakepulver
+bannerne pl_def_n_final-full_irule banner
+bordellkvarterne pl_def_n_final-full_irule bordellkvarter
+collierne pl_def_n_final-full_irule collier
+dossierne pl_def_n_final-full_irule dossier
+espalierne pl_def_n_final-full_irule espalier
+fattigkvarterne pl_def_n_final-full_irule fattigkvarter
+filmatelierne pl_def_n_final-full_irule filmatelier
+frikvarterne pl_def_n_final-full_irule frikvarter
+hovedkvarterne pl_def_n_final-full_irule hovedkvarter
+jødekvarterne pl_def_n_final-full_irule jødekvarter
+kjerne pl_def_n_final-full_irule kjer
+klaverne pl_def_n_final-full_irule klaver
+klysterne pl_def_n_final-full_irule klyster
+kvarterne pl_def_n_final-full_irule kvarter
+latinerkvarterne pl_def_n_final-full_irule latinerkvarter
+maleratelierne pl_def_n_final-full_irule maleratelier
+metierne pl_def_n_final-full_irule metier
+negerkvarterne pl_def_n_final-full_irule negerkvarter
+revierne pl_def_n_final-full_irule revier
+roverne pl_def_n_final-full_irule rover
+småkrøtterne pl_def_n_final-full_irule småkrøtter
+spalierne pl_def_n_final-full_irule spalier
+standkvarterne pl_def_n_final-full_irule standkvarter
+vaktkvarterne pl_def_n_final-full_irule vaktkvarter
+verftsarbeiderne pl_def_n_final-full_irule verftsarbeider
+
+frihetsbrene pl_def_n_final-full_irule frihetsbre
+mehene pl_def_n_final-full_irule mehe
+nene pl_def_n_final-full_irule ne
+brunfene pl_def_n_final-full_irule brunfe
+bufene pl_def_n_final-full_irule bufe
+dølefene pl_def_n_final-full_irule dølefe
+fene pl_def_n_final-full_irule fe
+fjærfene pl_def_n_final-full_irule fjærfe
+fjørfene pl_def_n_final-full_irule fjørfe
+frihetsbrene pl_def_n_final-full_irule frihetsbre
+groningerfene pl_def_n_final-full_irule groningerfe
+guernseyfene pl_def_n_final-full_irule guernseyfe
+hamningsfene pl_def_n_final-full_irule hamningsfe
+havningsfene pl_def_n_final-full_irule havningsfe
+jerseyfene pl_def_n_final-full_irule jerseyfe
+kjene pl_def_n_final-full_irule kje
+krene pl_def_n_final-full_irule kre
+mehene pl_def_n_final-full_irule mehe
+melkefene pl_def_n_final-full_irule melkefe
+mjølkefene pl_def_n_final-full_irule mjølkefe
+moskusfene pl_def_n_final-full_irule moskusfe
+nene pl_def_n_final-full_irule ne
+prene pl_def_n_final-full_irule pre
+slaktefene pl_def_n_final-full_irule slaktefe
+småfene pl_def_n_final-full_irule småfe
+smiestene pl_def_n_final-full_irule smieste
+sølvkrene pl_def_n_final-full_irule sølvkre
+stene pl_def_n_final-full_irule ste
+storfene pl_def_n_final-full_irule storfe
+telemarksfene pl_def_n_final-full_irule telemarksfe
+trønderfene pl_def_n_final-full_irule trønderfe
+vene pl_def_n_final-full_irule ve
+
+kompendiene pl_def_n_final-full_irule kompendium
+
+;; pl_ind_f_subst
+
+;; pl_ind_m_subst
+
+rummeler pl_ind_m-or-f_final-full_irule rummel
+;
+grønlandsseler pl_ind_m-or-f_final-full_irule grønlandssel
+;; compounds
+;;
+;; m52
+dobermanner pl_ind_m-or-f_final-full_irule dobermann
+sprellemanner pl_ind_m-or-f_final-full_irule sprellemann
+;
+aksjonsradier pl_ind_m-or-f_final-full_irule aksjonsradius
+aksjonsradien sg_def_m_final-full_irule aksjonsradius
+merker pl_ind_m-or-f_final-full_irule mark
+geranier pl_ind_m-or-f_final-full_irule geranium
+hektoliter pl_ind_m-or-f_final-full_irule hektoliter
+hektolitre pl_ind_m-or-f_final-full_irule hektoliter
+bestanddeler pl_ind_m-or-f_final-full_irule bestanddel
+deler pl_ind_m-or-f_final-full_irule del
+;
+merker pl_ind_m-or-f_final-full_irule mark
+;
+;; m51
+bøter pl_ind_m-or-f_final-full_irule bot
+skadebøter pl_ind_m-or-f_final-full_irule skadebot
+retterbøter pl_ind_m-or-f_final-full_irule retterbot
+parkeringsbøter pl_ind_m-or-f_final-full_irule parkeringsbot
+miljøbøter pl_ind_m-or-f_final-full_irule miljøbot
+sælebøter pl_ind_m-or-f_final-full_irule sælebot
+nøter pl_ind_m-or-f_final-full_irule  not
+ringnøter pl_ind_m-or-f_final-full_irule ringnot
+sildenøter pl_ind_m-or-f_final-full_irule sildenot
+snurpenøter pl_ind_m-or-f_final-full_irule snurpenot
+dragnøter pl_ind_m-or-f_final-full_irule dragnot
+kastenøter pl_ind_m-or-f_final-full_irule kastenot
+kilenøter pl_ind_m-or-f_final-full_irule kilenot
+laksenøter pl_ind_m-or-f_final-full_irule laksenot
+landnøter pl_ind_m-or-f_final-full_irule landnot
+posenøter pl_ind_m-or-f_final-full_irule posenot
+;; m5g
+centiliter pl_ind_m-or-f_final-full_irule centiliter
+centimeter pl_ind_m-or-f_final-full_irule centimeter
+dekaliter pl_ind_m-or-f_final-full_irule dekaliter
+desiliter pl_ind_m-or-f_final-full_irule desiliter
+desimeter pl_ind_m-or-f_final-full_irule desimeter
+hektoliter pl_ind_m-or-f_final-full_irule hektoliter
+hyllemeter pl_ind_m-or-f_final-full_irule hyllemeter
+kilometer pl_ind_m-or-f_final-full_irule kilometer
+kilopondmeter pl_ind_m-or-f_final-full_irule kilopondmeter
+kubikkcentimeter pl_ind_m-or-f_final-full_irule kubikkcentimeter
+kubikkdesimeter pl_ind_m-or-f_final-full_irule kubikkdesimeter
+kubikkmeter pl_ind_m-or-f_final-full_irule kubikkmeter
+kvadratkilometer pl_ind_m-or-f_final-full_irule kvadratkilometer
+kvadratmeter pl_ind_m-or-f_final-full_irule kvadratmeter
+liter pl_ind_m-or-f_final-full_irule liter
+løpemeter pl_ind_m-or-f_final-full_irule løpemeter
+meter pl_ind_m-or-f_final-full_irule meter
+mikrometer pl_ind_m-or-f_final-full_irule mikrometer
+milliliter pl_ind_m-or-f_final-full_irule milliliter
+millimeter pl_ind_m-or-f_final-full_irule millimeter
+pjaster pl_ind_m-or-f_final-full_irule pjaster
+ruter pl_ind_m-or-f_final-full_irule ruter
+sekundmeter pl_ind_m-or-f_final-full_irule sekundmeter
+spaltemillimeter pl_ind_m-or-f_final-full_irule spaltemillimeter
+søtvier pl_ind_m-or-f_final-full_irule søtvier
+tonnkilometer pl_ind_m-or-f_final-full_irule tonnkilometer
+vier pl_ind_m-or-f_final-full_irule vier
+ørevier pl_ind_m-or-f_final-full_irule ørevier
+;;
+centilitre pl_ind_m-or-f_final-full_irule centiliter
+centimetre pl_ind_m-or-f_final-full_irule centimeter
+dekalitre pl_ind_m-or-f_final-full_irule dekaliter
+desilitre pl_ind_m-or-f_final-full_irule desiliter
+desimetre pl_ind_m-or-f_final-full_irule desimeter
+hektolitre pl_ind_m-or-f_final-full_irule hektoliter
+hyllemetre pl_ind_m-or-f_final-full_irule hyllemeter
+kilometre pl_ind_m-or-f_final-full_irule kilometer
+kubikkcentimetre pl_ind_m-or-f_final-full_irule kubikkcentimeter
+kubikkdesimetre pl_ind_m-or-f_final-full_irule kubikkdesimeter
+kubikkmetre pl_ind_m-or-f_final-full_irule kubikkmeter
+kvadratkilometre pl_ind_m-or-f_final-full_irule kvadratkilometer
+kvadratmetre pl_ind_m-or-f_final-full_irule kvadratmeter
+litre pl_ind_m-or-f_final-full_irule liter
+løpemetre pl_ind_m-or-f_final-full_irule løpemeter
+metre pl_ind_m-or-f_final-full_irule meter
+mikrometre pl_ind_m-or-f_final-full_irule mikrometer
+millilitre pl_ind_m-or-f_final-full_irule milliliter
+millimetre pl_ind_m-or-f_final-full_irule millimeter
+sekundmetre pl_ind_m-or-f_final-full_irule sekundmeter
+spaltemillimetre pl_ind_m-or-f_final-full_irule spaltemillimeter
+tonnkilometre pl_ind_m-or-f_final-full_irule tonnkilometer
+;;
+;;
+-døtre pl_ind_m-or-f_final-full_irule -dotter
+brordøtre pl_ind_m-or-f_final-full_irule brordatter
+døtre pl_ind_m-or-f_final-full_irule datter
+datterdøtre pl_ind_m-or-f_final-full_irule datterdatter
+evadøtre pl_ind_m-or-f_final-full_irule evadatter
+fosterdøtre pl_ind_m-or-f_final-full_irule fosterdatter
+guddøtre pl_ind_m-or-f_final-full_irule guddatter
+manndøtre pl_ind_m-or-f_final-full_irule manndatter
+manndøtre pl_ind_m-or-f_final-full_irule manndotter
+stedøtre pl_ind_m-or-f_final-full_irule stedatter
+svigerdøtre pl_ind_m-or-f_final-full_irule svigerdatter
+sønnedøtre pl_ind_m-or-f_final-full_irule sønnedatter
+søsterdøtre pl_ind_m-or-f_final-full_irule søsterdatter
+værdøtre pl_ind_m-or-f_final-full_irule værdatter
+;
+;mann pl_ind_m-or-f_final-full_irule mann
+menn pl_ind_m-or-f_final-full_irule mann
+fot pl_ind_m-or-f_final-full_irule fot
+;
+;; m54
+-døtrer pl_ind_m-or-f_final-full_irule -dotter
+brordøtrer pl_ind_m-or-f_final-full_irule brordatter
+døtrer pl_ind_m-or-f_final-full_irule datter
+datterdøtrer pl_ind_m-or-f_final-full_irule datterdatter
+evadøtrer pl_ind_m-or-f_final-full_irule evadatter
+fosterdøtrer pl_ind_m-or-f_final-full_irule fosterdatter
+guddøtrer pl_ind_m-or-f_final-full_irule guddatter
+manndøtrer pl_ind_m-or-f_final-full_irule manndatter
+manndøtrer pl_ind_m-or-f_final-full_irule manndotter
+stedøtrer pl_ind_m-or-f_final-full_irule stedatter
+svigerdøtrer pl_ind_m-or-f_final-full_irule svigerdatter
+sønnedøtrer pl_ind_m-or-f_final-full_irule sønnedatter
+søsterdøtrer pl_ind_m-or-f_final-full_irule søsterdatter
+værdøtrer pl_ind_m-or-f_final-full_irule værdatter
+;;
+;; m16, m21
+aksjonsradier pl_ind_m-or-f_final-full_irule aksjonsradius
+amanuenser pl_ind_m-or-f_final-full_irule amanuensis
+auksjonarier pl_ind_m-or-f_final-full_irule auksjonarius
+byrettsjustitiarier pl_ind_m-or-f_final-full_irule byrettsjustitiarius
+daktyler pl_ind_m-or-f_final-full_irule daktylos
+;dekaner pl_ind_m-or-f_final-full_irule dekanus
+dinosaurer pl_ind_m-or-f_final-full_irule dinosaurus
+førsteamanuenser pl_ind_m-or-f_final-full_irule førsteamanuensis
+genier pl_ind_m-or-f_final-full_irule genius
+geranier pl_ind_m-or-f_final-full_irule geranium
+gester pl_ind_m-or-f_final-full_irule gestus
+gladioler pl_ind_m-or-f_final-full_irule gladiolus
+høgsterettsjustitiarier pl_ind_m-or-f_final-full_irule høgsterettsjustitiarius
+høyesterettsjustitiarier pl_ind_m-or-f_final-full_irule høyesterettsjustitiarius
+justitiarier pl_ind_m-or-f_final-full_irule justitiarius
+kaprifolier pl_ind_m-or-f_final-full_irule kaprifolium
+katekismer pl_ind_m-or-f_final-full_irule katekismus
+konsenser pl_ind_m-or-f_final-full_irule konsensus
+nuntier pl_ind_m-or-f_final-full_irule nuntius
+pelargonier pl_ind_m-or-f_final-full_irule pelargonium
+radier pl_ind_m-or-f_final-full_irule radius
+riter pl_ind_m-or-f_final-full_irule ritus
+typer pl_ind_m-or-f_final-full_irule typus
+;; overlap
+
+gestuser pl_ind_m-or-f_final-full_irule gestus
+gladioluser pl_ind_m-or-f_final-full_irule gladiolus
+;ritusr pl_ind_m-or-f_final-full_irule ritus
+;konsensusr pl_ind_m-or-f_final-full_irule konsensus
+;; m63
+bamsefedre pl_ind_m-or-f_final-full_irule bamsefar
+barnefedre pl_ind_m-or-f_final-full_irule barnefar
+bestefedre pl_ind_m-or-f_final-full_irule bestefar
+fedre pl_ind_m-or-f_final-full_irule far
+farfedre pl_ind_m-or-f_final-full_irule farfar
+fosterfedre pl_ind_m-or-f_final-full_irule fosterfar
+gudfedre pl_ind_m-or-f_final-full_irule gudfar
+husfedre pl_ind_m-or-f_final-full_irule husfar
+kirkefedre pl_ind_m-or-f_final-full_irule kirkefar
+landsfedre pl_ind_m-or-f_final-full_irule landsfar
+morfedre pl_ind_m-or-f_final-full_irule morfar
+oldefedre pl_ind_m-or-f_final-full_irule oldefar
+skriftefedre pl_ind_m-or-f_final-full_irule skriftefar
+stamfedre pl_ind_m-or-f_final-full_irule stamfar
+stefedre pl_ind_m-or-f_final-full_irule stefar
+svigerfedre pl_ind_m-or-f_final-full_irule svigerfar
+tippoldefedre pl_ind_m-or-f_final-full_irule tippoldefar
+tipptippoldefedre pl_ind_m-or-f_final-full_irule tipptippoldefar
+værfedre pl_ind_m-or-f_final-full_irule værfar
+;;
+;; m59
+bergsteder pl_ind_m-or-f_final-full_irule bergstad
+forsteder pl_ind_m-or-f_final-full_irule forstad
+hansasteder pl_ind_m-or-f_final-full_irule hansastad
+hovedsteder pl_ind_m-or-f_final-full_irule hovedstad
+kjøpsteder pl_ind_m-or-f_final-full_irule kjøpstad
+steder pl_ind_m-or-f_final-full_irule stad
+stiftssteder pl_ind_m-or-f_final-full_irule stiftsstad
+tigersteder pl_ind_m-or-f_final-full_irule tigerstad
+;; m68
+canadagjess pl_ind_m-or-f_final-full_irule canadagås
+fagergjess pl_ind_m-or-f_final-full_irule fagergås
+grågjess pl_ind_m-or-f_final-full_irule grågås
+gjess pl_ind_m-or-f_final-full_irule gås
+kanadagjess pl_ind_m-or-f_final-full_irule kanadagås
+mortensgjess pl_ind_m-or-f_final-full_irule mortensgås
+ringgjess pl_ind_m-or-f_final-full_irule ringgås
+skjæker pl_ind_m-or-f_final-full_irule skåk
+snøgjess pl_ind_m-or-f_final-full_irule snøgås
+sædgjess pl_ind_m-or-f_final-full_irule sædgås
+tartargjess pl_ind_m-or-f_final-full_irule tartargås
+tatargjess pl_ind_m-or-f_final-full_irule tatargås
+;; m55
+bestemødre pl_ind_m-or-f_final-full_irule bestemor
+brødre pl_ind_m-or-f_final-full_irule bror
+dronningmødre pl_ind_m-or-f_final-full_irule dronningmor
+farbrødre pl_ind_m-or-f_final-full_irule farbror
+farmødre pl_ind_m-or-f_final-full_irule farmor
+fostbrødre pl_ind_m-or-f_final-full_irule fostbror
+fostermødre pl_ind_m-or-f_final-full_irule fostermor
+gamlemødre pl_ind_m-or-f_final-full_irule gamlemor
+gaukemødre pl_ind_m-or-f_final-full_irule gaukemor
+gjøkemødre pl_ind_m-or-f_final-full_irule gjøkemor
+gråbrødre pl_ind_m-or-f_final-full_irule gråbror
+gudmødre pl_ind_m-or-f_final-full_irule gudmor
+halvbrødre pl_ind_m-or-f_final-full_irule halvbror
+haremødre pl_ind_m-or-f_final-full_irule haremor
+husmødre pl_ind_m-or-f_final-full_irule husmor
+hønemødre pl_ind_m-or-f_final-full_irule hønemor
+jordmødre pl_ind_m-or-f_final-full_irule jordmor
+kallsbrødre pl_ind_m-or-f_final-full_irule kallsbror
+klanbrødre pl_ind_m-or-f_final-full_irule klanbror
+korbrødre pl_ind_m-or-f_final-full_irule korbror
+legbrødre pl_ind_m-or-f_final-full_irule legbror
+lekbrødre pl_ind_m-or-f_final-full_irule lekbror
+lillebrødre pl_ind_m-or-f_final-full_irule lillebror
+matmødre pl_ind_m-or-f_final-full_irule matmor
+minorittbrødre pl_ind_m-or-f_final-full_irule minorittbror
+mødre pl_ind_m-or-f_final-full_irule mor
+morbrødre pl_ind_m-or-f_final-full_irule morbror
+mormødre pl_ind_m-or-f_final-full_irule mormor
+navnebrødre pl_ind_m-or-f_final-full_irule navnebror
+oldemødre pl_ind_m-or-f_final-full_irule oldemor
+ordensbrødre pl_ind_m-or-f_final-full_irule ordensbror
+ramnemødre pl_ind_m-or-f_final-full_irule ramnemor
+ravnemødre pl_ind_m-or-f_final-full_irule ravnemor
+slagsbrødre pl_ind_m-or-f_final-full_irule slagsbror
+stallbrødre pl_ind_m-or-f_final-full_irule stallbror
+stammødre pl_ind_m-or-f_final-full_irule stammor
+stemødre pl_ind_m-or-f_final-full_irule stemor
+storebrødre pl_ind_m-or-f_final-full_irule storebror
+svigermødre pl_ind_m-or-f_final-full_irule svigermor
+svirebrødre pl_ind_m-or-f_final-full_irule svirebror
+tippoldemødre pl_ind_m-or-f_final-full_irule tippoldemor
+tipptippoldemødre pl_ind_m-or-f_final-full_irule tipptippoldemor
+trosbrødre pl_ind_m-or-f_final-full_irule trosbror
+trusbrødre pl_ind_m-or-f_final-full_irule trusbror
+tvillingbrødre pl_ind_m-or-f_final-full_irule tvillingbror
+veslebrødre pl_ind_m-or-f_final-full_irule veslebror
+vågmødre pl_ind_m-or-f_final-full_irule vågmor
+våpenbrødre pl_ind_m-or-f_final-full_irule våpenbror
+værbrødre pl_ind_m-or-f_final-full_irule værbror
+værmødre pl_ind_m-or-f_final-full_irule værmor
+;; m57
+alantrøtter pl_ind_m-or-f_final-full_irule alantrot
+bakføtter pl_ind_m-or-f_final-full_irule bakfot
+bladføtter pl_ind_m-or-f_final-full_irule bladfot
+brunrøtter pl_ind_m-or-f_final-full_irule brunrot
+dobbeltmyntføtter pl_ind_m-or-f_final-full_irule dobbeltmyntfot
+enkeltmyntføtter pl_ind_m-or-f_final-full_irule enkeltmyntfot
+feltføtter pl_ind_m-or-f_final-full_irule feltfot
+fjellføtter pl_ind_m-or-f_final-full_irule fjellfot
+fotrøtter pl_ind_m-or-f_final-full_irule fotrot
+frierføtter pl_ind_m-or-f_final-full_irule frierfot
+grasrøtter pl_ind_m-or-f_final-full_irule grasrot
+gressrøtter pl_ind_m-or-f_final-full_irule gressrot
+griffelføtter pl_ind_m-or-f_final-full_irule griffelfot
+gripeføtter pl_ind_m-or-f_final-full_irule gripefot
+gulrøtter pl_ind_m-or-f_final-full_irule gulrot
+halerøtter pl_ind_m-or-f_final-full_irule halerot
+handrøtter pl_ind_m-or-f_final-full_irule handrot
+haneføtter pl_ind_m-or-f_final-full_irule hanefot
+hjerterøtter pl_ind_m-or-f_final-full_irule hjerterot
+hornrøtter pl_ind_m-or-f_final-full_irule hornrot
+håndrøtter pl_ind_m-or-f_final-full_irule håndrot
+hårrøtter pl_ind_m-or-f_final-full_irule hårrot
+høgreføtter pl_ind_m-or-f_final-full_irule høgrefot
+høyreføtter pl_ind_m-or-f_final-full_irule høyrefot
+juletreføtter pl_ind_m-or-f_final-full_irule juletrefot
+kalmusrøtter pl_ind_m-or-f_final-full_irule kalmusrot
+katteføtter pl_ind_m-or-f_final-full_irule kattefot
+klatreføtter pl_ind_m-or-f_final-full_irule klatrefot
+klumpføtter pl_ind_m-or-f_final-full_irule klumpfot
+klumprøtter pl_ind_m-or-f_final-full_irule klumprot
+kråkeføtter pl_ind_m-or-f_final-full_irule kråkefot
+kubikkrøtter pl_ind_m-or-f_final-full_irule kubikkrot
+kvadratrøtter pl_ind_m-or-f_final-full_irule kvadratrot
+kvannerøtter pl_ind_m-or-f_final-full_irule kvannerot
+kvannrøtter pl_ind_m-or-f_final-full_irule kvannrot
+kålrøtter pl_ind_m-or-f_final-full_irule kålrot
+lakrisrøtter pl_ind_m-or-f_final-full_irule lakrisrot
+leirføtter pl_ind_m-or-f_final-full_irule leirfot
+løpeføtter pl_ind_m-or-f_final-full_irule løpefot
+klumpføtter pl_ind_m-or-f_final-full_irule klumpfot
+klumprøtter pl_ind_m-or-f_final-full_irule klumprot
+kråkeføtter pl_ind_m-or-f_final-full_irule kråkefot
+kubikkrøtter pl_ind_m-or-f_final-full_irule kubikkrot
+kvadratrøtter pl_ind_m-or-f_final-full_irule kvadratrot
+kvannerøtter pl_ind_m-or-f_final-full_irule kvannerot
+kvannrøtter pl_ind_m-or-f_final-full_irule kvannrot
+kålrøtter pl_ind_m-or-f_final-full_irule kålrot
+lakrisrøtter pl_ind_m-or-f_final-full_irule lakrisrot
+leirføtter pl_ind_m-or-f_final-full_irule leirfot
+løpeføtter pl_ind_m-or-f_final-full_irule løpefot
+mellomføtter pl_ind_m-or-f_final-full_irule mellomfot
+myntføtter pl_ind_m-or-f_final-full_irule myntfot
+naserøtter pl_ind_m-or-f_final-full_irule naserot
+neglerøtter pl_ind_m-or-f_final-full_irule neglerot
+neserøtter pl_ind_m-or-f_final-full_irule neserot
+pepperrøtter pl_ind_m-or-f_final-full_irule pepperrot
+plattføtter pl_ind_m-or-f_final-full_irule plattfot
+premieføtter pl_ind_m-or-f_final-full_irule premiefot
+reiseføtter pl_ind_m-or-f_final-full_irule reisefot
+renteføtter pl_ind_m-or-f_final-full_irule rentefot
+røtter pl_ind_m-or-f_final-full_irule rot
+sellerirøtter pl_ind_m-or-f_final-full_irule sellerirot
+sitteføtter pl_ind_m-or-f_final-full_irule sittefot
+skjeggrøtter pl_ind_m-or-f_final-full_irule skjeggrot
+skjellrøtter pl_ind_m-or-f_final-full_irule skjellrot
+svømmeføtter pl_ind_m-or-f_final-full_irule svømmefot
+tannrøtter pl_ind_m-or-f_final-full_irule tannrot
+treføtter pl_ind_m-or-f_final-full_irule trefot
+tungerøtter pl_ind_m-or-f_final-full_irule tungerot
+tverrplattføtter pl_ind_m-or-f_final-full_irule tverrplattfot
+tyrirøtter pl_ind_m-or-f_final-full_irule tyrirot
+vadeføtter pl_ind_m-or-f_final-full_irule vadefot
+vandringsføtter pl_ind_m-or-f_final-full_irule vandringsfot
+venstreføtter pl_ind_m-or-f_final-full_irule venstrefot
+verseføtter pl_ind_m-or-f_final-full_irule versefot
+versføtter pl_ind_m-or-f_final-full_irule versfot
+ånderøtter pl_ind_m-or-f_final-full_irule ånderot
+åreføtter pl_ind_m-or-f_final-full_irule årefot
+føtter pl_ind_m-or-f_final-full_irule fot
+;; m17
+begonier pl_ind_m-or-f_final-full_irule begonia
+fototaksier pl_ind_m-or-f_final-full_irule fototaksis
+gardenier pl_ind_m-or-f_final-full_irule gardenia
+impresarier pl_ind_m-or-f_final-full_irule impresario
+intarsier pl_ind_m-or-f_final-full_irule intarsia
+kjemotaksier pl_ind_m-or-f_final-full_irule kjemotaksis
+kolleger pl_ind_m-or-f_final-full_irule kollega
+promemorier pl_ind_m-or-f_final-full_irule promemoria
+taksier pl_ind_m-or-f_final-full_irule taksis
+termotaksier pl_ind_m-or-f_final-full_irule termotaksis
+;; overlap
+begoniaer pl_ind_m-or-f_final-full_irule begonia
+fototaksiser pl_ind_m-or-f_final-full_irule fototaksis
+gardeniaer pl_ind_m-or-f_final-full_irule gardenia
+impresarioer pl_ind_m-or-f_final-full_irule impresario
+kjemotaksiser pl_ind_m-or-f_final-full_irule kjemotaksis
+kollegaer pl_ind_m-or-f_final-full_irule kollega
+promemoriaer pl_ind_m-or-f_final-full_irule promemoria
+taksiser pl_ind_m-or-f_final-full_irule taksis
+termotaksiser pl_ind_m-or-f_final-full_irule termotaksis
+;; m66
+flær pl_ind_m-or-f_final-full_irule flå
+krær pl_ind_m-or-f_final-full_irule krå
+liktær pl_ind_m-or-f_final-full_irule liktå
+lilletær pl_ind_m-or-f_final-full_irule lilletå
+rær pl_ind_m-or-f_final-full_irule rå
+stortær pl_ind_m-or-f_final-full_irule stortå
+tær pl_ind_m-or-f_final-full_irule tå
+verketær pl_ind_m-or-f_final-full_irule verketå
+;; overlap
+flåer pl_ind_m-or-f_final-full_irule flå
+råer pl_ind_m-or-f_final-full_irule rå
+;; m72
+apsider pl_ind_m-or-f_final-full_irule apsis
+;; m1i
+avsetningskonti pl_ind_m-or-f_final-full_irule avsetningskonto
+avskrivingskonti pl_ind_m-or-f_final-full_irule avskrivingskonto
+avskrivningskonti pl_ind_m-or-f_final-full_irule avskrivningskonto
+balansekonti pl_ind_m-or-f_final-full_irule balansekonto
+bankgirokonti pl_ind_m-or-f_final-full_irule bankgirokonto
+bankkonti pl_ind_m-or-f_final-full_irule bankkonto
+centesimi pl_ind_m-or-f_final-full_irule centesimo
+clearingkonti pl_ind_m-or-f_final-full_irule clearingkonto
+delkrederekonti pl_ind_m-or-f_final-full_irule delkrederekonto
+diversekonti pl_ind_m-or-f_final-full_irule diversekonto
+foliokonti pl_ind_m-or-f_final-full_irule foliokonto
+girokonti pl_ind_m-or-f_final-full_irule girokonto
+gitarsoli pl_ind_m-or-f_final-full_irule gitarsolo
+konti pl_ind_m-or-f_final-full_irule konto
+lønnskonti pl_ind_m-or-f_final-full_irule lønnskonto
+mafiosi pl_ind_m-or-f_final-full_irule mafioso
+rekambiokonti pl_ind_m-or-f_final-full_irule rekambiokonto
+sjekkkonti pl_ind_m-or-f_final-full_irule sjekkkonto
+soli pl_ind_m-or-f_final-full_irule solo
+sparekonti pl_ind_m-or-f_final-full_irule sparekonto
+utlånskonti pl_ind_m-or-f_final-full_irule utlånskonto
+vinningskonti pl_ind_m-or-f_final-full_irule vinningskonto
+;; overlap
+avsetningskontoer pl_ind_m-or-f_final-full_irule avsetningskonto
+avskrivingskontoer pl_ind_m-or-f_final-full_irule avskrivingskonto
+avskrivningskontoer pl_ind_m-or-f_final-full_irule avskrivningskonto
+balansekontoer pl_ind_m-or-f_final-full_irule balansekonto
+bankgirokontoer pl_ind_m-or-f_final-full_irule bankgirokonto
+bankkontoer pl_ind_m-or-f_final-full_irule bankkonto
+clearingkontoer pl_ind_m-or-f_final-full_irule clearingkonto
+delkrederekontoer pl_ind_m-or-f_final-full_irule delkrederekonto
+diversekontoer pl_ind_m-or-f_final-full_irule diversekonto
+foliokontoer pl_ind_m-or-f_final-full_irule foliokonto
+girokontoer pl_ind_m-or-f_final-full_irule girokonto
+gitarsoloer pl_ind_m-or-f_final-full_irule gitarsolo
+kontoer pl_ind_m-or-f_final-full_irule konto
+lønnskontoer pl_ind_m-or-f_final-full_irule lønnskonto
+rekambiokontoer pl_ind_m-or-f_final-full_irule rekambiokonto
+sjekkkontoer pl_ind_m-or-f_final-full_irule sjekkkonto
+soloer pl_ind_m-or-f_final-full_irule solo
+sparekontoer pl_ind_m-or-f_final-full_irule sparekonto
+utlånskontoer pl_ind_m-or-f_final-full_irule utlånskonto
+vinningskontoer pl_ind_m-or-f_final-full_irule vinningskonto
+;; m28
+royalties pl_ind_m-or-f_final-full_irule royalty
+;; m64
+ankerklør pl_ind_m-or-f_final-full_irule ankerklo
+bjørneklør pl_ind_m-or-f_final-full_irule bjørneklo
+elteklør pl_ind_m-or-f_final-full_irule elteklo
+flør pl_ind_m-or-f_final-full_irule flo
+glør pl_ind_m-or-f_final-full_irule glo
+gripeklør pl_ind_m-or-f_final-full_irule gripeklo
+klør pl_ind_m-or-f_final-full_irule klo
+krabbeklør pl_ind_m-or-f_final-full_irule krabbeklo
+;; overlap
+floer pl_ind_m-or-f_final-full_irule flo
+;; m73
+artes pl_ind_m-or-f_final-full_irule ars
+;; m1qa
+bjellekyr pl_ind_m-or-f_final-full_irule bjelleku
+bjøllekyr pl_ind_m-or-f_final-full_irule bjølleku
+bøffelkyr pl_ind_m-or-f_final-full_irule bøffelku
+elgkyr pl_ind_m-or-f_final-full_irule elgku
+elitekyr pl_ind_m-or-f_final-full_irule eliteku
+gjeldkyr pl_ind_m-or-f_final-full_irule gjeldku
+hvalkyr pl_ind_m-or-f_final-full_irule hvalku
+jakkyr pl_ind_m-or-f_final-full_irule jakku
+jernkyr pl_ind_m-or-f_final-full_irule jernku
+kyr pl_ind_m-or-f_final-full_irule ku
+kvalkyr pl_ind_m-or-f_final-full_irule kvalku
+melkekyr pl_ind_m-or-f_final-full_irule melkeku
+mjølkekyr pl_ind_m-or-f_final-full_irule mjølkeku
+sjøkyr pl_ind_m-or-f_final-full_irule sjøku
+;; overlap
+bjellekuer pl_ind_m-or-f_final-full_irule bjelleku
+bjøllekuer pl_ind_m-or-f_final-full_irule bjølleku
+bøffelkuer pl_ind_m-or-f_final-full_irule bøffelku
+elgkuer pl_ind_m-or-f_final-full_irule elgku
+elitekuer pl_ind_m-or-f_final-full_irule eliteku
+gjeldkuer pl_ind_m-or-f_final-full_irule gjeldku
+hvalkuer pl_ind_m-or-f_final-full_irule hvalku
+jakkuer pl_ind_m-or-f_final-full_irule jakku
+jernkuer pl_ind_m-or-f_final-full_irule jernku
+kuer pl_ind_m-or-f_final-full_irule ku
+kvalkuer pl_ind_m-or-f_final-full_irule kvalku
+melkekuer pl_ind_m-or-f_final-full_irule melkeku
+mjølkekuer pl_ind_m-or-f_final-full_irule mjølkeku
+sjøkuer pl_ind_m-or-f_final-full_irule sjøku
+;;m1qb
+jakkyr pl_ind_m-or-f_final-full_irule jakku
+jakkuer pl_ind_m-or-f_final-full_irule jakku
+;; m19
+genera pl_ind_m-or-f_final-full_irule genus
+;; m29
+pence pl_ind_m-or-f_final-full_irule penny
+pennyer pl_ind_m-or-f_final-full_irule penny
+;; m75
+fratres pl_ind_m-or-f_final-full_irule frater
+fraterer pl_ind_m-or-f_final-full_irule frater
+;;
+aleineforeldre pl_ind_m-or-f_final-full_irule aleineforelder
+aleneforeldre pl_ind_m-or-f_final-full_irule aleneforelder
+anestesisøstre pl_ind_m-or-f_final-full_irule anestesisøster
+fastre pl_ind_m-or-f_final-full_irule faster
+fimbulvintre pl_ind_m-or-f_final-full_irule fimbulvinter
+foreldre pl_ind_m-or-f_final-full_irule forelder
+halvsøstre pl_ind_m-or-f_final-full_irule halvsøster
+helsesøstre pl_ind_m-or-f_final-full_irule helsesøster
+kontorsøstre pl_ind_m-or-f_final-full_irule kontorsøster
+lillesøstre pl_ind_m-or-f_final-full_irule lillesøster
+linsøstre pl_ind_m-or-f_final-full_irule linsøster
+medsøstre pl_ind_m-or-f_final-full_irule medsøster
+menighetssøstre pl_ind_m-or-f_final-full_irule menighetssøster
+mostre pl_ind_m-or-f_final-full_irule moster
+navnesøstre pl_ind_m-or-f_final-full_irule navnesøster
+operasjonssøstre pl_ind_m-or-f_final-full_irule operasjonssøster
+ordenssøstre pl_ind_m-or-f_final-full_irule ordenssøster
+rødekorssøstre pl_ind_m-or-f_final-full_irule rødekorssøster
+sanitetssøstre pl_ind_m-or-f_final-full_irule sanitetssøster
+sjukesøstre pl_ind_m-or-f_final-full_irule sjukesøster
+slumsøstre pl_ind_m-or-f_final-full_irule slumsøster
+storesøstre pl_ind_m-or-f_final-full_irule storesøster
+sykesøstre pl_ind_m-or-f_final-full_irule sykesøster
+søstre pl_ind_m-or-f_final-full_irule søster
+tvillingsøstre pl_ind_m-or-f_final-full_irule tvillingsøster
+veslesøstre pl_ind_m-or-f_final-full_irule veslesøster
+værsøstre pl_ind_m-or-f_final-full_irule værsøster
+;; m70
+bræker pl_ind_m-or-f_final-full_irule bråk
+læger pl_ind_m-or-f_final-full_irule låg
+lærbræker pl_ind_m-or-f_final-full_irule lærbråk
+tæger pl_ind_m-or-f_final-full_irule tåg
+æser pl_ind_m-or-f_final-full_irule ås
+;; overlap
+åser pl_ind_m-or-f_final-full_irule ås
+;; m76
+gentlemen pl_ind_m-or-f_final-full_irule gentleman
+;; m4i
+modi pl_ind_m-or-f_final-full_irule modus
+numeri pl_ind_m-or-f_final-full_irule numerus
+stimuli pl_ind_m-or-f_final-full_irule stimulus
+termini pl_ind_m-or-f_final-full_irule terminus
+;; m56
+dronningmøder pl_ind_m-or-f_final-full_irule dronningmor
+farmøder pl_ind_m-or-f_final-full_irule farmor
+fostermøder pl_ind_m-or-f_final-full_irule fostermor
+gaukemøder pl_ind_m-or-f_final-full_irule gaukemor
+gjøkemøder pl_ind_m-or-f_final-full_irule gjøkemor
+gudmøder pl_ind_m-or-f_final-full_irule gudmor
+haremøder pl_ind_m-or-f_final-full_irule haremor
+husmøder pl_ind_m-or-f_final-full_irule husmor
+hønemøder pl_ind_m-or-f_final-full_irule hønemor
+jordmøder pl_ind_m-or-f_final-full_irule jordmor
+matmøder pl_ind_m-or-f_final-full_irule matmor
+møder pl_ind_m-or-f_final-full_irule mor
+mormøder pl_ind_m-or-f_final-full_irule mormor
+oldemøder pl_ind_m-or-f_final-full_irule oldemor
+ramnemøder pl_ind_m-or-f_final-full_irule ramnemor
+ravnemøder pl_ind_m-or-f_final-full_irule ravnemor
+stammøder pl_ind_m-or-f_final-full_irule stammor
+stemøder pl_ind_m-or-f_final-full_irule stemor
+svigermøder pl_ind_m-or-f_final-full_irule svigermor
+tippoldemøder pl_ind_m-or-f_final-full_irule tippoldemor
+tipptippoldemøder pl_ind_m-or-f_final-full_irule tipptippoldemor
+vågmøder pl_ind_m-or-f_final-full_irule vågmor
+værmøder pl_ind_m-or-f_final-full_irule værmor
+;; m69
+;;-sønner pl_ind_m-or-f_final-full_irule -son
+;; m71
+; falanks 
+sagatætter pl_ind_m-or-f_final-full_irule sagatått
+tætter pl_ind_m-or-f_final-full_irule tått
+;; m62
+fedre pl_ind_m-or-f_final-full_irule fader
+forfedre pl_ind_m-or-f_final-full_irule forfader
+kirkefedre pl_ind_m-or-f_final-full_irule kirkefader
+landsfedre pl_ind_m-or-f_final-full_irule landsfader
+federer pl_ind_m-or-f_final-full_irule fader
+;; m1to
+brødre pl_ind_m-or-f_final-full_irule broder
+eldstebrødre pl_ind_m-or-f_final-full_irule eldstebroder
+formødre pl_ind_m-or-f_final-full_irule formoder
+korbrødre pl_ind_m-or-f_final-full_irule korbroder
+minorittbrødre pl_ind_m-or-f_final-full_irule minorittbroder
+mødre pl_ind_m-or-f_final-full_irule moder
+;; m1tor
+formødrer pl_ind_m-or-f_final-full_irule formoder
+mødrer pl_ind_m-or-f_final-full_irule moder
+;; m58
+bønder pl_ind_m-or-f_final-full_irule bonde
+haugbønder pl_ind_m-or-f_final-full_irule haugbonde
+odelsbønder pl_ind_m-or-f_final-full_irule odelsbonde
+;; m30
+messieurs pl_ind_m-or-f_final-full_irule monsieur
+;; m78
+doctores pl_ind_m-or-f_final-full_irule doctor
+;; m25
+askenasim pl_ind_m-or-f_final-full_irule askenasi
+sefardim pl_ind_m-or-f_final-full_irule sefardi
+acres pl_ind_m-or-f_final-full_irule acre
+barrels pl_ind_m-or-f_final-full_irule barrel
+bushels pl_ind_m-or-f_final-full_irule bushel
+centavos pl_ind_m-or-f_final-full_irule centavo
+centimes pl_ind_m-or-f_final-full_irule centime
+centimos pl_ind_m-or-f_final-full_irule centimo
+cruzeiros pl_ind_m-or-f_final-full_irule cruzeiro
+dimes pl_ind_m-or-f_final-full_irule dime
+dollars pl_ind_m-or-f_final-full_irule dollar
+escudos pl_ind_m-or-f_final-full_irule escudo
+evergreens pl_ind_m-or-f_final-full_irule evergreen
+fans pl_ind_m-or-f_final-full_irule fan
+feedbacks pl_ind_m-or-f_final-full_irule feedback
+fittings pl_ind_m-or-f_final-full_irule fitting
+flashbacks pl_ind_m-or-f_final-full_irule flashback
+gallons pl_ind_m-or-f_final-full_irule gallon
+guineas pl_ind_m-or-f_final-full_irule guinea
+hundredweights pl_ind_m-or-f_final-full_irule hundredweight
+miles pl_ind_m-or-f_final-full_irule mile
+paperbacks pl_ind_m-or-f_final-full_irule paperback
+peers pl_ind_m-or-f_final-full_irule peer
+pesetas pl_ind_m-or-f_final-full_irule peseta
+pesos pl_ind_m-or-f_final-full_irule peso
+pints pl_ind_m-or-f_final-full_irule pint
+pipelines pl_ind_m-or-f_final-full_irule pipeline
+playbacks pl_ind_m-or-f_final-full_irule playback
+quarts pl_ind_m-or-f_final-full_irule quart
+runways pl_ind_m-or-f_final-full_irule runway
+scones pl_ind_m-or-f_final-full_irule scone
+shrapnels pl_ind_m-or-f_final-full_irule shrapnel
+slides pl_ind_m-or-f_final-full_irule slide
+spirituals pl_ind_m-or-f_final-full_irule spiritual
+waterproofs pl_ind_m-or-f_final-full_irule waterproof
+;; overlap
+evergreener pl_ind_m-or-f_final-full_irule evergreen
+peerer pl_ind_m-or-f_final-full_irule peer
+runwayer pl_ind_m-or-f_final-full_irule runway
+waterproofer pl_ind_m-or-f_final-full_irule waterproof
+
+;; pl_ind_n_subst
+
+fakta pl_ind_n_short_0_irule faktum
+faktum pl_ind_n_short_0_irule faktum
+faktaene pl_def_n_final-full_irule faktum
+faktumene pl_def_n_final-full_irule faktum
+
+kompendier pl_ind_n_final-full-nlong_irule kompendium
+;kompendiene pl_def_n_final-full-nlong_irule kompendium
+
+
+corpora pl_ind_n_short_0_irule corpus
+corpus pl_ind_n_short_0_irule corpus
+corporaene pl_def_n_final-full_irule corpus
+corpusene pl_def_n_final-full_irule corpus
+parallellcorpora pl_ind_n_short_0_irule parallellcorpus
+parallellcorpus pl_ind_n_short_0_irule parallellcorpus
+parallellcorporaene pl_def_n_final-full_irule parallellcorpus
+parallellcorpusene pl_def_n_final-full_irule parallellcorpus
+korpora pl_ind_n_short_0_irule korpus
+korpus pl_ind_n_short_0_irule korpus
+korporaene pl_def_n_final-full_irule korpus
+korpusene pl_def_n_final-full_irule korpus
+parallellkorpora pl_ind_n_short_0_irule parallellkorpus
+parallellkorpus pl_ind_n_short_0_irule parallellkorpus
+parallellkorporaene pl_def_n_final-full_irule parallellkorpus
+parallellkorpusene pl_def_n_final-full_irule parallellkorpus
+
+maxima pl_ind_n_short_0_irule maximum
+maximum pl_ind_n_short_0_irule maximum
+maximaene pl_def_n_final-full_irule maximum
+maximumene pl_def_n_final-full_irule maximum
+
+minima pl_ind_n_short_0_irule minimum
+minimum pl_ind_n_short_0_irule minimum
+minimaene pl_def_n_final-full_irule minimum
+minimumene pl_def_n_final-full_irule minimum
+
+jubileer pl_ind_n_short_0_irule jubileum
+jubileum pl_ind_n_short_0_irule jubileum
+jubileene pl_def_n_final-full_irule jubileum
+jubileumene pl_def_n_final-full_irule jubileum
+
+laboratorier pl_ind_n_short_0_irule laboratorium
+laboratorium pl_ind_n_short_0_irule laboratorium
+laboratoriene pl_def_n_final-full_irule laboratorium
+laboratoriumene pl_def_n_final-full_irule laboratorium
+
+oratorier pl_ind_n_short_0_irule oratorium
+oratorium pl_ind_n_short_0_irule oratorium
+oratoriene pl_def_n_final-full_irule oratorium
+oratoriumene pl_def_n_final-full_irule oratorium
+
+øyne pl_ind_n_light-e-nlong_irule øye
+øynene pl_def_n_light-e_irule øye
+
+
+;; sg_def_f_subst
+
+anestesisøstera sg_def_f_final-full_irule anestesisøster 
+brordattera sg_def_f_final-full_irule brordatter
+dattera sg_def_f_final-full_irule datter
+datterdattera sg_def_f_final-full_irule datterdatter
+-dottera sg_def_f_final-full_irule -dotter
+evadattera sg_def_f_final-full_irule evadatter
+fosterdattera sg_def_f_final-full_irule fosterdatter
+guddattera sg_def_f_final-full_irule guddatter
+halvsøstera sg_def_f_final-full_irule halvsøster
+helsesøstera sg_def_f_final-full_irule helsesøster
+kontorsøstera sg_def_f_final-full_irule kontorsøster
+lillesøstera sg_def_f_final-full_irule lillesøster
+linsøstera sg_def_f_final-full_irule linsøster
+manndattera sg_def_f_final-full_irule manndatter
+manndottera sg_def_f_final-full_irule manndotter
+medsøstera sg_def_f_final-full_irule medsøster
+menighetssøstera sg_def_f_final-full_irule menighetssøster
+navnesøstera sg_def_f_final-full_irule navnesøster
+operasjonssøstera sg_def_f_final-full_irule operasjonssøster
+ordenssøstera sg_def_f_final-full_irule ordenssøster
+rødekorssøstera sg_def_f_final-full_irule rødekorssøster
+sanitetssøstera sg_def_f_final-full_irule sanitetssøster
+sjukesøstera sg_def_f_final-full_irule sjukesøster
+slumsøstera sg_def_f_final-full_irule slumsøster
+sønnedattera sg_def_f_final-full_irule sønnedatter
+søstera sg_def_f_final-full_irule søster
+søsterdattera sg_def_f_final-full_irule søsterdatter
+stedattera sg_def_f_final-full_irule stedatter
+storesøstera sg_def_f_final-full_irule storesøster
+svigerdattera sg_def_f_final-full_irule svigerdatter
+sykesøstera sg_def_f_final-full_irule sykesøster
+tvillingsøstera sg_def_f_final-full_irule tvillingsøster
+værdattera sg_def_f_final-full_irule værdatter
+værsøstera sg_def_f_final-full_irule værsøster
+veslesøstera sg_def_f_final-full_irule veslesøster
+
+bronkiegrena sg_def_f_final-full_irule bronkiegren
+forsvarsgrena sg_def_f_final-full_irule forsvarsgren
+grena sg_def_f_final-full_irule gren
+idrettsgrena sg_def_f_final-full_irule idrettsgren
+næringsgrena sg_def_f_final-full_irule næringsgren
+sena sg_def_f_final-full_irule sen
+sidegrena sg_def_f_final-full_irule sidegren
+våpengrena sg_def_f_final-full_irule våpengren
+vitenskapsgrena sg_def_f_final-full_irule vitenskapsgren
+vitskapsgrena sg_def_f_final-full_irule vitskapsgren
+
+bakfjela sg_def_f_final-full_irule bakfjel
+bakstefjela sg_def_f_final-full_irule bakstefjel
+dyffela sg_def_f_final-full_irule dyffel
+eldsjela sg_def_f_final-full_irule eldsjel
+fjela sg_def_f_final-full_irule fjel
+ildsjela sg_def_f_final-full_irule ildsjel
+kremmersjela sg_def_f_final-full_irule kremmersjel
+menneskesjela sg_def_f_final-full_irule menneskesjel
+oterfjela sg_def_f_final-full_irule oterfjel
+sjela sg_def_f_final-full_irule sjel
+skjærefjela sg_def_f_final-full_irule skjærefjel
+slavesjela sg_def_f_final-full_irule slavesjel
+spikkefjela sg_def_f_final-full_irule spikkefjel
+veltefjela sg_def_f_final-full_irule veltefjel
+
+;; sg_def_m_subst
+
+blakken sg_def_m_final-full_irule blakken
+bokverden sg_def_m_final-full_irule bokverden
+borken sg_def_m_final-full_irule borken
+direkten sg_def_m_final-full_irule direkten
+erfaringsverden sg_def_m_final-full_irule erfaringsverden
+eventyrverden sg_def_m_final-full_irule eventyrverden
+fantasiverden sg_def_m_final-full_irule fantasiverden
+fersken sg_def_m_final-full_irule fersken
+forretningsverden sg_def_m_final-full_irule forretningsverden
+gamlen sg_def_m_final-full_irule gamlen
+hinmannen sg_def_m_final-full_irule hinmannen
+hurten sg_def_m_final-full_irule hurten
+like sg_def_m_final-full_irule like
+moseloven sg_def_m_final-full_irule moseloven
+munn-mot-munn-metoden sg_def_m_final-full_irule munn-mot-munn-metoden
+munn-til-munn-metoden sg_def_m_final-full_irule munn-til-munn-metoden
+nordkalotten sg_def_m_final-full_irule nordkalotten
+oksidenten sg_def_m_final-full_irule oksidenten
+omverden sg_def_m_final-full_irule omverden
+prentesvarten sg_def_m_final-full_irule prentesvarten
+rauden sg_def_m_final-full_irule rauden
+rømmen sg_def_m_final-full_irule rømmen
+sanseverden sg_def_m_final-full_irule sanseverden
+sisten sg_def_m_final-full_irule sisten
+slemmen sg_def_m_final-full_irule slemmen
+smukken sg_def_m_final-full_irule smukken
+småen sg_def_m_final-full_irule småen
+styggemannen sg_def_m_final-full_irule styggemannen
+styggen sg_def_m_final-full_irule styggen
+svartedauden sg_def_m_final-full_irule svartedauden
+svartemannen sg_def_m_final-full_irule svartemannen
+svarten sg_def_m_final-full_irule svarten
+søten sg_def_m_final-full_irule søten
+tankeverden sg_def_m_final-full_irule tankeverden
+tjukken sg_def_m_final-full_irule tjukken
+underverden sg_def_m_final-full_irule underverden
+utaverden sg_def_m_final-full_irule utaverden
+utenverden sg_def_m_final-full_irule utenverden
+vakkermannen sg_def_m_final-full_irule vakkermannen
+verden sg_def_m_final-full_irule verden
+
+;; overlap
+
+bokverdenen sg_def_m_final-full_irule bokverden
+erfaringsverdenen sg_def_m_final-full_irule erfaringsverden
+eventyrverdenen sg_def_m_final-full_irule eventyrverden
+fantasiverdenen sg_def_m_final-full_irule fantasiverden
+ferskenen sg_def_m_final-full_irule fersken
+forretningsverdenen sg_def_m_final-full_irule forretningsverden
+omverdenen sg_def_m_final-full_irule omverden
+sanseverdenen sg_def_m_final-full_irule sanseverden
+tankeverdenen sg_def_m_final-full_irule tankeverden
+underverdenen sg_def_m_final-full_irule underverden
+utaverdenen sg_def_m_final-full_irule utaverden
+utenverdenen sg_def_m_final-full_irule utenverden
+verdenen sg_def_m_final-full_irule verden
+
+;; m21
+;;
+;; LATIN
+
+aksjonsradien sg_def_m_final-full_irule aksjonsradius
+amanuensen sg_def_m_final-full_irule amanuensis
+byrettsjustitiarien sg_def_m_final-full_irule byrettsjustitiarius
+dekanen sg_def_m_final-full_irule dekanus
+dinosauren sg_def_m_final-full_irule dinosaur
+førsteamanuensen sg_def_m_final-full_irule førsteamanuensis
+geranien sg_def_m_final-full_irule geranium
+høgsterettsjustitiarien sg_def_m_final-full_irule høgsterettsjustitiarius
+høyesterettsjustitiarien sg_def_m_final-full_irule høyesterettsjustitiarius
+justitiarien sg_def_m_final-full_irule justitiarius
+kaprifolium sg_def_m_final-full_irule kaprifolium
+katekismen sg_def_m_final-full_irule katekism
+konsensen sg_def_m_final-full_irule konsens
+nuntien sg_def_m_final-full_irule nuntius
+pelargonien sg_def_m_final-full_irule pelargonium
+radien sg_def_m_final-full_irule radius
+
+;; overlap
+
+aksjonsradiusen sg_def_m_final-full_irule aksjonsradius
+dinosaurusen sg_def_m_final-full_irule dinosaurus
+geraniumen sg_def_m_final-full_irule geranium
+kaprifoliumen sg_def_m_final-full_irule kaprifolium
+katekismusen sg_def_m_final-full_irule katekismus
+konsensusen sg_def_m_final-full_irule konsensus
+nuntiusen sg_def_m_final-full_irule nuntius
+pelargoniumen sg_def_m_final-full_irule pelargonium
+radiusen sg_def_m_final-full_irule radius
+
+
+;; m7
+;;
+;; X.->.en
+
+fellessetren sg_def_m_final-full_irule fellesseter
+fellessætren sg_def_m_final-full_irule fellessæter
+heimsetren sg_def_m_final-full_irule heimseter
+heimsætren sg_def_m_final-full_irule heimsæter
+jotnen sg_def_m_final-full_irule jotun
+setren sg_def_m_final-full_irule seter
+skuldren sg_def_m_final-full_irule skulder
+sætren sg_def_m_final-full_irule sæter
+
+;; overlap
+
+fellesseteren sg_def_m_final-full_irule fellesseter
+fellessæteren sg_def_m_final-full_irule fellessæter
+heimseteren sg_def_m_final-full_irule heimseter
+heimsæteren sg_def_m_final-full_irule heimsæter
+seteren sg_def_m_final-full_irule seter
+skulderen sg_def_m_final-full_irule skulder
+sæteren sg_def_m_final-full_irule sæter
+
+jotunen sg_def_m_final-full_irule jotun
+
+
+;; sg_def_n_subst
+
+bevegelsesverbumet sg_def_n_final-full_irule  bevegelsesverbum
+hjelpeverbumet sg_def_n_final-full_irule  hjelpeverbum
+hovedverbumet sg_def_n_final-full_irule  hovedverbum
+verbumet sg_def_n_final-full_irule  verbum
+viljesverbumet sg_def_n_final-full_irule  viljesverbum
+ 
+monstrumet sg_def_n_final-full_irule  monstrum
+nervesentrumet sg_def_n_final-full_irule  nervesentrum
+ 
+følesentrumet sg_def_n_final-full_irule  følesentrum
+hjelpeverbumet sg_def_n_final-full_irule  hjelpeverbum
+kultursentrumet sg_def_n_final-full_irule  kultursentrum
+lågtrykkssentrumet sg_def_n_final-full_irule  lågtrykkssentrum
+nøytrumet sg_def_n_final-full_irule  nøytrum
+periheliumet sg_def_n_final-full_irule  perihelium
+sentrumet sg_def_n_final-full_irule  sentrum
+spektrumet sg_def_n_final-full_irule  spektrum
+synssentrumet sg_def_n_final-full_irule  synssentrum
+urosentrumet sg_def_n_final-full_irule  urosentrum
+uværssentrumet sg_def_n_final-full_irule  uværssentrum
+viljesverbumet sg_def_n_final-full_irule  viljesverbum
+apogeumet sg_def_n_final-full_irule  apogeum
+bevegelsesverbumet sg_def_n_final-full_irule  bevegelsesverbum
+femininumet sg_def_n_final-full_irule  femininum
+hørselssentrumet sg_def_n_final-full_irule  hørselssentrum
+hovedverbumet sg_def_n_final-full_irule  hovedverbum
+lavtrykkssentrumet sg_def_n_final-full_irule  lavtrykkssentrum
+maktsentrumet sg_def_n_final-full_irule  maktsentrum
+maskulinumet sg_def_n_final-full_irule  maskulinum
+metrumet sg_def_n_final-full_irule  metrum
+nervesentrumet sg_def_n_final-full_irule  nervesentrum
+otiumet sg_def_n_final-full_irule  otium
+smakssentrumet sg_def_n_final-full_irule  smakssentrum
+stormsentrumet sg_def_n_final-full_irule  stormsentrum
+talesentrumet sg_def_n_final-full_irule  talesentrum
+verbumet sg_def_n_final-full_irule  verbum
+kompendiet sg_def_n_final-full_irule  kompendium
+;kompendiet sg_def_n_final-full_irule  kompendium
+studiet sg_def_n_final-full_irule  studium
+
+;; !
+
+bevegelsesverbet sg_def_n_final-full_irule  bevegelsesverbum
+hjelpeverbet sg_def_n_final-full_irule  hjelpeverbum
+hovedverbet sg_def_n_final-full_irule  hovedverbum
+verbet sg_def_n_final-full_irule  verbum
+viljesverbet sg_def_n_final-full_irule  viljesverbum
+ 
+monstret sg_def_n_final-full_irule  monstrum
+nervesentret sg_def_n_final-full_irule  nervesentrum
+ 
+følesentret sg_def_n_final-full_irule  følesentrum
+hjelpeverbet sg_def_n_final-full_irule  hjelpeverbum
+kultursentret sg_def_n_final-full_irule  kultursentrum
+lågtrykkssentret sg_def_n_final-full_irule  lågtrykkssentrum
+nøytret sg_def_n_final-full_irule  nøytrum
+periheliet sg_def_n_final-full_irule  perihelium
+sentret sg_def_n_final-full_irule  sentrum
+spektret sg_def_n_final-full_irule  spektrum
+synssentret sg_def_n_final-full_irule  synssentrum
+urosentret sg_def_n_final-full_irule  urosentrum
+uværssentret sg_def_n_final-full_irule  uværssentrum
+viljesverbet sg_def_n_final-full_irule  viljesverbum
+apogeet sg_def_n_final-full_irule  apogeum
+bevegelsesverbet sg_def_n_final-full_irule  bevegelsesverbum
+femininet sg_def_n_final-full_irule  femininum
+hørselssentret sg_def_n_final-full_irule  hørselssentrum
+hovedverbet sg_def_n_final-full_irule  hovedverbum
+lavtrykkssentret sg_def_n_final-full_irule  lavtrykkssentrum
+maktsentret sg_def_n_final-full_irule  maktsentrum
+maskulinet sg_def_n_final-full_irule  maskulinum
+metret sg_def_n_final-full_irule  metrum
+nervesentret sg_def_n_final-full_irule  nervesentrum
+otiet sg_def_n_final-full_irule  otium
+smakssentret sg_def_n_final-full_irule  smakssentrum
+stormsentret sg_def_n_final-full_irule  stormsentrum
+talesentret sg_def_n_final-full_irule  talesentrum
+verbet sg_def_n_final-full_irule  verbum
+
+
+symposiet sg_def_n_final-full_irule symposion
+
+;;  (* et) and (er rel)
+
+alkalimeteret sg_def_n_final-full_irule alkalimeter
+alpinsenteret sg_def_n_final-full_irule alpinsenter
+alteret sg_def_n_final-full_irule alter
+amatørteateret sg_def_n_final-full_irule amatørteater
+amfiteateret sg_def_n_final-full_irule amfiteater
+amperemeteret sg_def_n_final-full_irule amperemeter
+anemometeret sg_def_n_final-full_irule anemometer
+aneroidbarometeret sg_def_n_final-full_irule aneroidbarometer
+areometeret sg_def_n_final-full_irule areometer
+atferdsmønsteret sg_def_n_final-full_irule atferdsmønster
+audiometeret sg_def_n_final-full_irule audiometer
+augustinerklosteret sg_def_n_final-full_irule augustinerkloster
+avlssenteret sg_def_n_final-full_irule avlssenter
+balalaikaorkesteret sg_def_n_final-full_irule balalaikaorkester
+barometeret sg_def_n_final-full_irule barometer
+bekkesilderet sg_def_n_final-full_irule bekkesilder
+benediktinerklosteret sg_def_n_final-full_irule benediktinerkloster
+birgittinerklosteret sg_def_n_final-full_irule birgittinerkloster
+bosetningsmønsteret sg_def_n_final-full_irule bosetningsmønster
+bosettingsmønsteret sg_def_n_final-full_irule bosettingsmønster
+bøyingsmønsteret sg_def_n_final-full_irule bøyingsmønster
+bøyningsmønsteret sg_def_n_final-full_irule bøyningsmønster
+bulderet sg_def_n_final-full_irule bulder
+busetningsmønsteret sg_def_n_final-full_irule busetningsmønster
+busettingsmønsteret sg_def_n_final-full_irule busettingsmønster
+butikksenteret sg_def_n_final-full_irule butikksenter
+calypsoorkesteret sg_def_n_final-full_irule calypsoorkester
+celsiustermometeret sg_def_n_final-full_irule celsiustermometer
+charteret sg_def_n_final-full_irule charter
+coulombmeteret sg_def_n_final-full_irule coulombmeter
+coulometeret sg_def_n_final-full_irule coulometer
+dagsenteret sg_def_n_final-full_irule dagsenter
+idrettssenteret sg_def_n_final-full_irule idrettssenter
+delelageret sg_def_n_final-full_irule delelager
+diopteret sg_def_n_final-full_irule diopter
+dokketeateret sg_def_n_final-full_irule dokketeater
+dominikanerklosteret sg_def_n_final-full_irule dominikanerkloster
+dukketeateret sg_def_n_final-full_irule dukketeater
+dunderet sg_def_n_final-full_irule dunder
+durometeret sg_def_n_final-full_irule durometer
+dydsmønsteret sg_def_n_final-full_irule dydsmønster
+dynamometeret sg_def_n_final-full_irule dynamometer
+edbsenteret sg_def_n_final-full_irule edbsenter
+edb-senteret sg_def_n_final-full_irule edb-senter
+-ederet sg_def_n_final-full_irule -eder
+eiteret sg_def_n_final-full_irule eiter
+eksperimentteateret sg_def_n_final-full_irule eksperimentteater
+eldresenteret sg_def_n_final-full_irule eldresenter
+elektrometeret sg_def_n_final-full_irule elektrometer
+emneregisteret sg_def_n_final-full_irule emneregister
+ergometeret sg_def_n_final-full_irule ergometer
+fahrenheittermometeret sg_def_n_final-full_irule fahrenheittermometer
+fantasifosteret sg_def_n_final-full_irule fantasifoster
+fargefilteret sg_def_n_final-full_irule fargefilter
+filteret sg_def_n_final-full_irule filter
+firmaregisteret sg_def_n_final-full_irule firmaregister
+fiskebeinsmønsteret sg_def_n_final-full_irule fiskebeinsmønster
+fiskebensmønsteret sg_def_n_final-full_irule fiskebensmønster
+fjernsynsteateret sg_def_n_final-full_irule fjernsynsteater
+fløyalteret sg_def_n_final-full_irule fløyalter
+fluksmeteret sg_def_n_final-full_irule fluksmeter
+fødselsregisteret sg_def_n_final-full_irule fødselsregister
+folkeregisteret sg_def_n_final-full_irule folkeregister
+fonometeret sg_def_n_final-full_irule fonometer
+forretningssenteret sg_def_n_final-full_irule forretningssenter
+fosteret sg_def_n_final-full_irule foster
+fotometeret sg_def_n_final-full_irule fotometer
+fransiskanerklosteret sg_def_n_final-full_irule fransiskanerkloster
+friluftsteateret sg_def_n_final-full_irule friluftsteater
+galderet sg_def_n_final-full_irule galder
+galvanometeret sg_def_n_final-full_irule galvanometer
+gateteateret sg_def_n_final-full_irule gateteater
+gelenderet sg_def_n_final-full_irule gelender
+gnelderet sg_def_n_final-full_irule gnelder
+grendesenteret sg_def_n_final-full_irule grendesenter
+gruppeteateret sg_def_n_final-full_irule gruppeteater
+gyrometeret sg_def_n_final-full_irule gyrometer
+hagesenteret sg_def_n_final-full_irule hagesenter
+handelsregisteret sg_def_n_final-full_irule handelsregister
+handlingsmønsteret sg_def_n_final-full_irule handlingsmønster
+harmoniorkesteret sg_def_n_final-full_irule harmoniorkester
+heksaederet sg_def_n_final-full_irule heksaeder
+heksameteret sg_def_n_final-full_irule heksameter
+helikopteret sg_def_n_final-full_irule helikopter
+helsesenteret sg_def_n_final-full_irule helsesenter
+heptaederet sg_def_n_final-full_irule heptaeder
+hilderet sg_def_n_final-full_irule hilder
+hinderet sg_def_n_final-full_irule hinder
+hornorkesteret sg_def_n_final-full_irule hornorkester
+hydrometeret sg_def_n_final-full_irule hydrometer
+hygrometeret sg_def_n_final-full_irule hygrometer
+hylsteret sg_def_n_final-full_irule hylster
+institusjonsteateret sg_def_n_final-full_irule institusjonsteater
+interferometeret sg_def_n_final-full_irule interferometer
+intimteateret sg_def_n_final-full_irule intimteater
+ionometeret sg_def_n_final-full_irule ionometer
+isteret sg_def_n_final-full_irule ister
+jacquardmønsteret sg_def_n_final-full_irule jacquardmønster
+jakobinerklosteret sg_def_n_final-full_irule jakobinerkloster
+janitsjarorkesteret sg_def_n_final-full_irule janitsjarorkester
+jassorkesteret sg_def_n_final-full_irule jassorkester
+jazzorkesteret sg_def_n_final-full_irule jazzorkester
+jordregisteret sg_def_n_final-full_irule jordregister
+kalorimeteret sg_def_n_final-full_irule kalorimeter
+kassaregisteret sg_def_n_final-full_irule kassaregister
+kasseregisteret sg_def_n_final-full_irule kasseregister
+kateteret sg_def_n_final-full_irule kateter
+kjønnsrollemønsteret sg_def_n_final-full_irule kjønnsrollemønster
+kjøpesenteret sg_def_n_final-full_irule kjøpesenter
+klisteret sg_def_n_final-full_irule klister
+klosteret sg_def_n_final-full_irule kloster
+klunderet sg_def_n_final-full_irule klunder
+kolorimeteret sg_def_n_final-full_irule kolorimeter
+krateret sg_def_n_final-full_irule krater
+kriminalregisteret sg_def_n_final-full_irule kriminalregister
+krisesenteret sg_def_n_final-full_irule krisesenter
+kronometeret sg_def_n_final-full_irule kronometer
+kultursenteret sg_def_n_final-full_irule kultursenter
+kvikksølvtermometeret sg_def_n_final-full_irule kvikksølvtermometer
+legesenteret sg_def_n_final-full_irule legesenter
+livsmønsteret sg_def_n_final-full_irule livsmønster
+lofilteret sg_def_n_final-full_irule lofilter
+luftfilteret sg_def_n_final-full_irule luftfilter
+luxmeteret sg_def_n_final-full_irule luxmeter
+maksimumstermometeret sg_def_n_final-full_irule maksimumstermometer
+manometeret sg_def_n_final-full_irule manometer
+marionetteateret sg_def_n_final-full_irule marionetteater
+marionett-teateret sg_def_n_final-full_irule marionett-teater
+matsenteret sg_def_n_final-full_irule matsenter
+mentometeret sg_def_n_final-full_irule mentometer
+-meteret sg_def_n_final-full_irule -meter
+mikrometeret sg_def_n_final-full_irule mikrometer
+minimumstermometeret sg_def_n_final-full_irule minimumstermometer
+minorittklosteret sg_def_n_final-full_irule minorittkloster
+misfosteret sg_def_n_final-full_irule misfoster
+monsteret sg_def_n_final-full_irule monster
+mønsteret sg_def_n_final-full_irule mønster
+mørkeret sg_def_n_final-full_irule mørker
+motorsenteret sg_def_n_final-full_irule motorsenter
+musetteorkesteret sg_def_n_final-full_irule musetteorkester
+nanometeret sg_def_n_final-full_irule nanometer
+nasjonalteateret sg_def_n_final-full_irule nasjonalteater
+nonneklosteret sg_def_n_final-full_irule nonnekloster
+odometeret sg_def_n_final-full_irule odometer
+ohmmeteret sg_def_n_final-full_irule ohmmeter
+oktaederet sg_def_n_final-full_irule oktaeder
+oljefilteret sg_def_n_final-full_irule oljefilter
+optometeret sg_def_n_final-full_irule optometer
+orkesteret sg_def_n_final-full_irule orkester
+panteregisteret sg_def_n_final-full_irule panteregister
+parkometeret sg_def_n_final-full_irule parkometer
+pedometeret sg_def_n_final-full_irule pedometer
+pentaederet sg_def_n_final-full_irule pentaeder
+pentameteret sg_def_n_final-full_irule pentameter
+perimeteret sg_def_n_final-full_irule perimeter
+personregisteret sg_def_n_final-full_irule personregister
+petimeteret sg_def_n_final-full_irule petimeter
+plasteret sg_def_n_final-full_irule plaster
+platebarometeret sg_def_n_final-full_irule platebarometer
+plekteret sg_def_n_final-full_irule plekter
+plunderet sg_def_n_final-full_irule plunder
+pluviometeret sg_def_n_final-full_irule pluviometer
+polariseringsfilteret sg_def_n_final-full_irule polariseringsfilter
+potensiometeret sg_def_n_final-full_irule potensiometer
+psykrometeret sg_def_n_final-full_irule psykrometer
+pyknometeret sg_def_n_final-full_irule pyknometer
+pyrometeret sg_def_n_final-full_irule pyrometer
+rabalderet sg_def_n_final-full_irule rabalder
+radiometeret sg_def_n_final-full_irule radiometer
+rasteret sg_def_n_final-full_irule raster
+regionsteateret sg_def_n_final-full_irule regionsteater
+regionteateret sg_def_n_final-full_irule regionteater
+registeret sg_def_n_final-full_irule register
+rollemønsteret sg_def_n_final-full_irule rollemønster
+sakregisteret sg_def_n_final-full_irule sakregister
+salongorkesteret sg_def_n_final-full_irule salongorkester
+seismometeret sg_def_n_final-full_irule seismometer
+semesteret sg_def_n_final-full_irule semester
+senteret sg_def_n_final-full_irule senter
+septeret sg_def_n_final-full_irule septer
+shoppingsenteret sg_def_n_final-full_irule shoppingsenter
+sigøynerorkesteret sg_def_n_final-full_irule sigøynerorkester
+silderet sg_def_n_final-full_irule silder
+sinderet sg_def_n_final-full_irule sinder
+skareklisteret sg_def_n_final-full_irule skareklister
+skipsregisteret sg_def_n_final-full_irule skipsregister
+sklerometeret sg_def_n_final-full_irule sklerometer
+skramleorkesteret sg_def_n_final-full_irule skramleorkester
+skvalderet sg_def_n_final-full_irule skvalder
+slamfilteret sg_def_n_final-full_irule slamfilter
+smulderet sg_def_n_final-full_irule smulder
+snittmønsteret sg_def_n_final-full_irule snittmønster
+solfilteret sg_def_n_final-full_irule solfilter
+speedometeret sg_def_n_final-full_irule speedometer
+spekteret sg_def_n_final-full_irule spekter
+spektrometeret sg_def_n_final-full_irule spektrometer
+spirometeret sg_def_n_final-full_irule spirometer
+steiketermometeret sg_def_n_final-full_irule steiketermometer
+steketermometeret sg_def_n_final-full_irule steketermometer
+stikkordregisteret sg_def_n_final-full_irule stikkordregister
+støvfilteret sg_def_n_final-full_irule støvfilter
+strafferegisteret sg_def_n_final-full_irule strafferegister
+strikkemønsteret sg_def_n_final-full_irule strikkemønster
+strykeorkesteret sg_def_n_final-full_irule strykeorkester
+symfoniorkesteret sg_def_n_final-full_irule symfoniorkester
+synderegisteret sg_def_n_final-full_irule synderegister
+takometeret sg_def_n_final-full_irule takometer
+taksameteret sg_def_n_final-full_irule taksameter
+takymeteret sg_def_n_final-full_irule takymeter
+teateret sg_def_n_final-full_irule teater
+telemeteret sg_def_n_final-full_irule telemeter
+termometeret sg_def_n_final-full_irule termometer
+tetraederet sg_def_n_final-full_irule tetraeder
+timecharteret sg_def_n_final-full_irule timecharter
+tornisteret sg_def_n_final-full_irule tornister
+trekkplasteret sg_def_n_final-full_irule trekkplaster
+tribometeret sg_def_n_final-full_irule tribometer
+underet sg_def_n_final-full_irule under
+vaffelmønsteret sg_def_n_final-full_irule vaffelmønster
+vakuummeteret sg_def_n_final-full_irule vakuummeter
+vardøgeret sg_def_n_final-full_irule vardøger
+vårsemesteret sg_def_n_final-full_irule vårsemester
+vateret sg_def_n_final-full_irule vater
+våtsnøklisteret sg_def_n_final-full_irule våtsnøklister
+vekstsenteret sg_def_n_final-full_irule vekstsenter
+velferdssenteret sg_def_n_final-full_irule velferdssenter
+vidunderet sg_def_n_final-full_irule vidunder
+viskosimeteret sg_def_n_final-full_irule viskosimeter
+voltmeteret sg_def_n_final-full_irule voltmeter
+volumeteret sg_def_n_final-full_irule volumeter
+wattmeteret sg_def_n_final-full_irule wattmeter
+ytterbegeret sg_def_n_final-full_irule ytterbeger
+
+flitteret sg_def_n_final-full_irule flitter
+fuglekvitteret sg_def_n_final-full_irule fuglekvitter
+gitteret sg_def_n_final-full_irule gitter
+glitteret sg_def_n_final-full_irule glitter
+koggeret sg_def_n_final-full_irule kogger
+krystallgitteret sg_def_n_final-full_irule krystallgitter
+kvidderet sg_def_n_final-full_irule kvidder
+kvitteret sg_def_n_final-full_irule kvitter
+pulterkammeret sg_def_n_final-full_irule pulterkammer
+rustkammeret sg_def_n_final-full_irule rustkammer
+sutteret sg_def_n_final-full_irule sutter
+
+;!
+
+alkalimetret sg_def_n_final-full_irule alkalimeter
+alpinsentret sg_def_n_final-full_irule alpinsenter
+altret sg_def_n_final-full_irule alter
+amatørteatret sg_def_n_final-full_irule amatørteater
+amfiteatret sg_def_n_final-full_irule amfiteater
+amperemetret sg_def_n_final-full_irule amperemeter
+anemometret sg_def_n_final-full_irule anemometer
+aneroidbarometret sg_def_n_final-full_irule aneroidbarometer
+areometret sg_def_n_final-full_irule areometer
+atferdsmønstret sg_def_n_final-full_irule atferdsmønster
+audiometret sg_def_n_final-full_irule audiometer
+augustinerklostret sg_def_n_final-full_irule augustinerkloster
+avlssentret sg_def_n_final-full_irule avlssenter
+balalaikaorkestret sg_def_n_final-full_irule balalaikaorkester
+barometret sg_def_n_final-full_irule barometer
+bekkesildret sg_def_n_final-full_irule bekkesilder
+benediktinerklostret sg_def_n_final-full_irule benediktinerkloster
+birgittinerklostret sg_def_n_final-full_irule birgittinerkloster
+bosetningsmønstret sg_def_n_final-full_irule bosetningsmønster
+bosettingsmønstret sg_def_n_final-full_irule bosettingsmønster
+bøyingsmønstret sg_def_n_final-full_irule bøyingsmønster
+bøyningsmønstret sg_def_n_final-full_irule bøyningsmønster
+buldret sg_def_n_final-full_irule bulder
+busetningsmønstret sg_def_n_final-full_irule busetningsmønster
+busettingsmønstret sg_def_n_final-full_irule busettingsmønster
+butikksentret sg_def_n_final-full_irule butikksenter
+calypsoorkestret sg_def_n_final-full_irule calypsoorkester
+celsiustermometret sg_def_n_final-full_irule celsiustermometer
+chartret sg_def_n_final-full_irule charter
+coulombmetret sg_def_n_final-full_irule coulombmeter
+coulometret sg_def_n_final-full_irule coulometer
+dagsentret sg_def_n_final-full_irule dagsenter
+delelagret sg_def_n_final-full_irule delelager
+dioptret sg_def_n_final-full_irule diopter
+dokketeatret sg_def_n_final-full_irule dokketeater
+dominikanerklostret sg_def_n_final-full_irule dominikanerkloster
+dukketeatret sg_def_n_final-full_irule dukketeater
+dundret sg_def_n_final-full_irule dunder
+durometret sg_def_n_final-full_irule durometer
+dydsmønstret sg_def_n_final-full_irule dydsmønster
+dynamometret sg_def_n_final-full_irule dynamometer
+edbsentret sg_def_n_final-full_irule edbsenter
+edb-sentret sg_def_n_final-full_irule edb-senter
+eitret sg_def_n_final-full_irule eiter
+eksperimentteatret sg_def_n_final-full_irule eksperimentteater
+eldresentret sg_def_n_final-full_irule eldresenter
+elektrometret sg_def_n_final-full_irule elektrometer
+emneregistret sg_def_n_final-full_irule emneregister
+ergometret sg_def_n_final-full_irule ergometer
+fahrenheittermometret sg_def_n_final-full_irule fahrenheittermometer
+fantasifostret sg_def_n_final-full_irule fantasifoster
+fargefiltret sg_def_n_final-full_irule fargefilter
+filtret sg_def_n_final-full_irule filter
+firmaregistret sg_def_n_final-full_irule firmaregister
+fiskebeinsmønstret sg_def_n_final-full_irule fiskebeinsmønster
+fiskebensmønstret sg_def_n_final-full_irule fiskebensmønster
+fjernsynsteatret sg_def_n_final-full_irule fjernsynsteater
+fløyaltret sg_def_n_final-full_irule fløyalter
+fluksmetret sg_def_n_final-full_irule fluksmeter
+fødselsregistret sg_def_n_final-full_irule fødselsregister
+folkeregistret sg_def_n_final-full_irule folkeregister
+fonometret sg_def_n_final-full_irule fonometer
+forretningssentret sg_def_n_final-full_irule forretningssenter
+fostret sg_def_n_final-full_irule foster
+fotometret sg_def_n_final-full_irule fotometer
+fransiskanerklostret sg_def_n_final-full_irule fransiskanerkloster
+friluftsteatret sg_def_n_final-full_irule friluftsteater
+galdret sg_def_n_final-full_irule galder
+galvanometret sg_def_n_final-full_irule galvanometer
+gateteatret sg_def_n_final-full_irule gateteater
+gelendret sg_def_n_final-full_irule gelender
+gneldret sg_def_n_final-full_irule gnelder
+grendesentret sg_def_n_final-full_irule grendesenter
+gruppeteatret sg_def_n_final-full_irule gruppeteater
+gyrometret sg_def_n_final-full_irule gyrometer
+hagesentret sg_def_n_final-full_irule hagesenter
+handelsregistret sg_def_n_final-full_irule handelsregister
+handlingsmønstret sg_def_n_final-full_irule handlingsmønster
+harmoniorkestret sg_def_n_final-full_irule harmoniorkester
+heksaedret sg_def_n_final-full_irule heksaeder
+heksametret sg_def_n_final-full_irule heksameter
+helikoptret sg_def_n_final-full_irule helikopter
+helsesentret sg_def_n_final-full_irule helsesenter
+heptaedret sg_def_n_final-full_irule heptaeder
+hildret sg_def_n_final-full_irule hilder
+hindret sg_def_n_final-full_irule hinder
+hornorkestret sg_def_n_final-full_irule hornorkester
+hydrometret sg_def_n_final-full_irule hydrometer
+hygrometret sg_def_n_final-full_irule hygrometer
+hylstret sg_def_n_final-full_irule hylster
+institusjonsteatret sg_def_n_final-full_irule institusjonsteater
+interferometret sg_def_n_final-full_irule interferometer
+intimteatret sg_def_n_final-full_irule intimteater
+ionometret sg_def_n_final-full_irule ionometer
+istret sg_def_n_final-full_irule ister
+jacquardmønstret sg_def_n_final-full_irule jacquardmønster
+jakobinerklostret sg_def_n_final-full_irule jakobinerkloster
+janitsjarorkestret sg_def_n_final-full_irule janitsjarorkester
+jassorkestret sg_def_n_final-full_irule jassorkester
+jazzorkestret sg_def_n_final-full_irule jazzorkester
+jordregistret sg_def_n_final-full_irule jordregister
+kalorimetret sg_def_n_final-full_irule kalorimeter
+kassaregistret sg_def_n_final-full_irule kassaregister
+kasseregistret sg_def_n_final-full_irule kasseregister
+katetret sg_def_n_final-full_irule kateter
+kjønnsrollemønstret sg_def_n_final-full_irule kjønnsrollemønster
+kjøpesentret sg_def_n_final-full_irule kjøpesenter
+klistret sg_def_n_final-full_irule klister
+klostret sg_def_n_final-full_irule kloster
+klundret sg_def_n_final-full_irule klunder
+kolorimetret sg_def_n_final-full_irule kolorimeter
+kratret sg_def_n_final-full_irule krater
+kriminalregistret sg_def_n_final-full_irule kriminalregister
+krisesentret sg_def_n_final-full_irule krisesenter
+kronometret sg_def_n_final-full_irule kronometer
+kultursentret sg_def_n_final-full_irule kultursenter
+kvikksølvtermometret sg_def_n_final-full_irule kvikksølvtermometer
+legesentret sg_def_n_final-full_irule legesenter
+livsmønstret sg_def_n_final-full_irule livsmønster
+lofiltret sg_def_n_final-full_irule lofilter
+luftfiltret sg_def_n_final-full_irule luftfilter
+luxmetret sg_def_n_final-full_irule luxmeter
+maksimumstermometret sg_def_n_final-full_irule maksimumstermometer
+manometret sg_def_n_final-full_irule manometer
+marionetteatret sg_def_n_final-full_irule marionetteater
+marionett-teatret sg_def_n_final-full_irule marionett-teater
+matsentret sg_def_n_final-full_irule matsenter
+mentometret sg_def_n_final-full_irule mentometer
+-metret sg_def_n_final-full_irule -meter
+mikrometret sg_def_n_final-full_irule mikrometer
+minimumstermometret sg_def_n_final-full_irule minimumstermometer
+minorittklostret sg_def_n_final-full_irule minorittkloster
+misfostret sg_def_n_final-full_irule misfoster
+monstret sg_def_n_final-full_irule monster
+mønstret sg_def_n_final-full_irule mønster
+mørkret sg_def_n_final-full_irule mørker
+motorsentret sg_def_n_final-full_irule motorsenter
+musetteorkestret sg_def_n_final-full_irule musetteorkester
+nanometret sg_def_n_final-full_irule nanometer
+nasjonalteatret sg_def_n_final-full_irule nasjonalteater
+nonneklostret sg_def_n_final-full_irule nonnekloster
+odometret sg_def_n_final-full_irule odometer
+ohmmetret sg_def_n_final-full_irule ohmmeter
+oktaedret sg_def_n_final-full_irule oktaeder
+oljefiltret sg_def_n_final-full_irule oljefilter
+optometret sg_def_n_final-full_irule optometer
+orkestret sg_def_n_final-full_irule orkester
+panteregistret sg_def_n_final-full_irule panteregister
+parkometret sg_def_n_final-full_irule parkometer
+pedometret sg_def_n_final-full_irule pedometer
+pentaedret sg_def_n_final-full_irule pentaeder
+pentametret sg_def_n_final-full_irule pentameter
+perimetret sg_def_n_final-full_irule perimeter
+personregistret sg_def_n_final-full_irule personregister
+petimetret sg_def_n_final-full_irule petimeter
+plastret sg_def_n_final-full_irule plaster
+platebarometret sg_def_n_final-full_irule platebarometer
+plektret sg_def_n_final-full_irule plekter
+plundret sg_def_n_final-full_irule plunder
+pluviometret sg_def_n_final-full_irule pluviometer
+polariseringsfiltret sg_def_n_final-full_irule polariseringsfilter
+potensiometret sg_def_n_final-full_irule potensiometer
+psykrometret sg_def_n_final-full_irule psykrometer
+pyknometret sg_def_n_final-full_irule pyknometer
+pyrometret sg_def_n_final-full_irule pyrometer
+rabaldret sg_def_n_final-full_irule rabalder
+radiometret sg_def_n_final-full_irule radiometer
+rastret sg_def_n_final-full_irule raster
+regionsteatret sg_def_n_final-full_irule regionsteater
+regionteatret sg_def_n_final-full_irule regionteater
+registret sg_def_n_final-full_irule register
+rollemønstret sg_def_n_final-full_irule rollemønster
+sakregistret sg_def_n_final-full_irule sakregister
+salongorkestret sg_def_n_final-full_irule salongorkester
+seismometret sg_def_n_final-full_irule seismometer
+semestret sg_def_n_final-full_irule semester
+sentret sg_def_n_final-full_irule senter
+septret sg_def_n_final-full_irule septer
+shoppingsentret sg_def_n_final-full_irule shoppingsenter
+sigøynerorkestret sg_def_n_final-full_irule sigøynerorkester
+sildret sg_def_n_final-full_irule silder
+sindret sg_def_n_final-full_irule sinder
+skareklistret sg_def_n_final-full_irule skareklister
+skipsregistret sg_def_n_final-full_irule skipsregister
+sklerometret sg_def_n_final-full_irule sklerometer
+skramleorkestret sg_def_n_final-full_irule skramleorkester
+skvaldret sg_def_n_final-full_irule skvalder
+slamfiltret sg_def_n_final-full_irule slamfilter
+smuldret sg_def_n_final-full_irule smulder
+snittmønstret sg_def_n_final-full_irule snittmønster
+solfiltret sg_def_n_final-full_irule solfilter
+speedometret sg_def_n_final-full_irule speedometer
+spektret sg_def_n_final-full_irule spekter
+spektrometret sg_def_n_final-full_irule spektrometer
+spirometret sg_def_n_final-full_irule spirometer
+steiketermometret sg_def_n_final-full_irule steiketermometer
+steketermometret sg_def_n_final-full_irule steketermometer
+stikkordregistret sg_def_n_final-full_irule stikkordregister
+støvfiltret sg_def_n_final-full_irule støvfilter
+strafferegistret sg_def_n_final-full_irule strafferegister
+strikkemønstret sg_def_n_final-full_irule strikkemønster
+strykeorkestret sg_def_n_final-full_irule strykeorkester
+symfoniorkestret sg_def_n_final-full_irule symfoniorkester
+synderegistret sg_def_n_final-full_irule synderegister
+takometret sg_def_n_final-full_irule takometer
+taksametret sg_def_n_final-full_irule taksameter
+takymetret sg_def_n_final-full_irule takymeter
+teatret sg_def_n_final-full_irule teater
+telemetret sg_def_n_final-full_irule telemeter
+termometret sg_def_n_final-full_irule termometer
+tetraedret sg_def_n_final-full_irule tetraeder
+timechartret sg_def_n_final-full_irule timecharter
+tornistret sg_def_n_final-full_irule tornister
+trekkplastret sg_def_n_final-full_irule trekkplaster
+tribometret sg_def_n_final-full_irule tribometer
+undret sg_def_n_final-full_irule under
+vaffelmønstret sg_def_n_final-full_irule vaffelmønster
+vakuummetret sg_def_n_final-full_irule vakuummeter
+vardøgret sg_def_n_final-full_irule vardøger
+vårsemestret sg_def_n_final-full_irule vårsemester
+vatret sg_def_n_final-full_irule vater
+våtsnøklistret sg_def_n_final-full_irule våtsnøklister
+vekstsentret sg_def_n_final-full_irule vekstsenter
+velferdssentret sg_def_n_final-full_irule velferdssenter
+vidundret sg_def_n_final-full_irule vidunder
+viskosimetret sg_def_n_final-full_irule viskosimeter
+voltmetret sg_def_n_final-full_irule voltmeter
+volumetret sg_def_n_final-full_irule volumeter
+wattmetret sg_def_n_final-full_irule wattmeter
+ytterbegret sg_def_n_final-full_irule ytterbeger
+
+flittret sg_def_n_final-full_irule flitter
+fuglekvittret sg_def_n_final-full_irule fuglekvitter
+gittret sg_def_n_final-full_irule gitter
+glittret sg_def_n_final-full_irule glitter
+koggret sg_def_n_final-full_irule kogger
+krystallgittret sg_def_n_final-full_irule krystallgitter
+kviddret sg_def_n_final-full_irule kvidder
+kvittret sg_def_n_final-full_irule kvitter
+pulterkammret sg_def_n_final-full_irule pulterkammer
+rustkammret sg_def_n_final-full_irule rustkammer
+suttret sg_def_n_final-full_irule sutter
+
+;;  (* et) and (el let)
+
+åtselet sg_def_n_final-full_irule åtsel
+avgudstempelet sg_def_n_final-full_irule avgudstempel
+barselet sg_def_n_final-full_irule barsel
+beinrangelet sg_def_n_final-full_irule beinrangel
+bekselet sg_def_n_final-full_irule beksel
+bendselet sg_def_n_final-full_irule bendsel
+bengelet sg_def_n_final-full_irule bengel
+benrangelet sg_def_n_final-full_irule benrangel
+bindselet sg_def_n_final-full_irule bindsel
+botsfengselet sg_def_n_final-full_irule botsfengsel
+brenselet sg_def_n_final-full_irule brensel
+buddhatempelet sg_def_n_final-full_irule buddhatempel
+dangelet sg_def_n_final-full_irule dangel
+datostempelet sg_def_n_final-full_irule datostempel
+dekselet sg_def_n_final-full_irule deksel
+dingelet sg_def_n_final-full_irule dingel
+dingeldangelet sg_def_n_final-full_irule dingeldangel
+eksempelet sg_def_n_final-full_irule eksempel
+elorgelet sg_def_n_final-full_irule elorgel
+empiremøbelet sg_def_n_final-full_irule empiremøbel
+eselet sg_def_n_final-full_irule esel
+fattigmannsstempelet sg_def_n_final-full_irule fattigmannsstempel
+favorittstempelet sg_def_n_final-full_irule favorittstempel
+fengselet sg_def_n_final-full_irule fengsel
+flygelet sg_def_n_final-full_irule flygel
+forvarselet sg_def_n_final-full_irule forvarsel
+fugleskremselet sg_def_n_final-full_irule fugleskremsel
+gjemselet sg_def_n_final-full_irule gjemsel
+gjømselet sg_def_n_final-full_irule gjømsel
+hagemøbelet sg_def_n_final-full_irule hagemøbel
+hammondorgelet sg_def_n_final-full_irule hammondorgel
+hengselet sg_def_n_final-full_irule hengsel
+hjelpefengselet sg_def_n_final-full_irule hjelpefengsel
+kinoorgelet sg_def_n_final-full_irule kinoorgel
+kjørelet sg_def_n_final-full_irule kjørel
+krangelet sg_def_n_final-full_irule krangel
+kretsfengselet sg_def_n_final-full_irule kretsfengsel
+langtidsvarselet sg_def_n_final-full_irule langtidsvarsel
+lockoutvarselet sg_def_n_final-full_irule lockoutvarsel
+lysorgelet sg_def_n_final-full_irule lysorgel
+manilamøbelet sg_def_n_final-full_irule manilamøbel
+mirakelet sg_def_n_final-full_irule mirakel
+møbelet sg_def_n_final-full_irule møbel
+muleselet sg_def_n_final-full_irule mulesel
+nattmøbelet sg_def_n_final-full_irule nattmøbel
+økselet sg_def_n_final-full_irule øksel
+orakelet sg_def_n_final-full_irule orakel
+orgelet sg_def_n_final-full_irule orgel
+overbredselet sg_def_n_final-full_irule overbredsel
+pakkeselet sg_def_n_final-full_irule pakkesel
+permisjonsvarselet sg_def_n_final-full_irule permisjonsvarsel
+plysjmøbelet sg_def_n_final-full_irule plysjmøbel
+poststempelet sg_def_n_final-full_irule poststempel
+preambelet sg_def_n_final-full_irule preambel
+rangelet sg_def_n_final-full_irule rangel
+rekelet sg_def_n_final-full_irule rekel
+rektangelet sg_def_n_final-full_irule rektangel
+ringelet sg_def_n_final-full_irule ringel
+rokokkomøbelet sg_def_n_final-full_irule rokokkomøbel
+rørmøbelet sg_def_n_final-full_irule rørmøbel
+sampelet sg_def_n_final-full_irule sampel
+sekelet sg_def_n_final-full_irule sekel
+singelet sg_def_n_final-full_irule singel
+skoleeksempelet sg_def_n_final-full_irule skoleeksempel
+skrangelet sg_def_n_final-full_irule skrangel
+skremselet sg_def_n_final-full_irule skremsel
+spenselet sg_def_n_final-full_irule spensel
+stabelhengselet sg_def_n_final-full_irule stabelhengsel
+stalinorgelet sg_def_n_final-full_irule stalinorgel
+stålrørsmøbelet sg_def_n_final-full_irule stålrørsmøbel
+stempelet sg_def_n_final-full_irule stempel
+stengselet sg_def_n_final-full_irule stengsel
+stilmøbelet sg_def_n_final-full_irule stilmøbel
+støpselet sg_def_n_final-full_irule støpsel
+stormvarselet sg_def_n_final-full_irule stormvarsel
+streikevarselet sg_def_n_final-full_irule streikevarsel
+tabernakelet sg_def_n_final-full_irule tabernakel
+tempelet sg_def_n_final-full_irule tempel
+tingeltangelet sg_def_n_final-full_irule tingeltangel
+treakelet sg_def_n_final-full_irule treakel
+triangelet sg_def_n_final-full_irule triangel
+underbredselet sg_def_n_final-full_irule underbredsel
+ungdomsfengselet sg_def_n_final-full_irule ungdomsfengsel
+værvarselet sg_def_n_final-full_irule værvarsel
+vannorgelet sg_def_n_final-full_irule vannorgel
+varetektsfengselet sg_def_n_final-full_irule varetektsfengsel
+varselet sg_def_n_final-full_irule varsel
+vassorgelet sg_def_n_final-full_irule vassorgel
+vingelet sg_def_n_final-full_irule vingel
+vringelet sg_def_n_final-full_irule vringel
+
+abortivmiddelet sg_def_n_final-full_irule abortivmiddel
+algemiddelet sg_def_n_final-full_irule algemiddel
+anleggsmiddelet sg_def_n_final-full_irule anleggsmiddel
+avføringsmiddelet sg_def_n_final-full_irule avføringsmiddel
+avmagringsmiddelet sg_def_n_final-full_irule avmagringsmiddel
+av-middelet sg_def_n_final-full_irule av-middel
+avvergingsmiddelet sg_def_n_final-full_irule avvergingsmiddel
+babbelet sg_def_n_final-full_irule babbel
+bedøvelsesmiddelet sg_def_n_final-full_irule bedøvelsesmiddel
+befordringsmiddelet sg_def_n_final-full_irule befordringsmiddel
+betalingsmiddelet sg_def_n_final-full_irule betalingsmiddel
+bindemiddelet sg_def_n_final-full_irule bindemiddel
+bisselet sg_def_n_final-full_irule bissel
+bleikemiddelet sg_def_n_final-full_irule bleikemiddel
+blekemiddelet sg_def_n_final-full_irule blekemiddel
+botemiddelet sg_def_n_final-full_irule botemiddel
+brekkmiddelet sg_def_n_final-full_irule brekkmiddel
+byttemiddelet sg_def_n_final-full_irule byttemiddel
+desinfeksjonsmiddelet sg_def_n_final-full_irule desinfeksjonsmiddel
+domkapittelet sg_def_n_final-full_irule domkapittel
+dopingmiddelet sg_def_n_final-full_irule dopingmiddel
+driftsmiddelet sg_def_n_final-full_irule driftsmiddel
+flussmiddelet sg_def_n_final-full_irule flussmiddel
+fødemiddelet sg_def_n_final-full_irule fødemiddel
+fortynningsmiddelet sg_def_n_final-full_irule fortynningsmiddel
+foryngelsesmiddelet sg_def_n_final-full_irule foryngelsesmiddel
+framkomstmiddelet sg_def_n_final-full_irule framkomstmiddel
+fremkomstmiddelet sg_def_n_final-full_irule fremkomstmiddel
+gisselet sg_def_n_final-full_irule gissel
+gjæringsmiddelet sg_def_n_final-full_irule gjæringsmiddel
+hevemiddelet sg_def_n_final-full_irule hevemiddel
+hevingsmiddelet sg_def_n_final-full_irule hevingsmiddel
+hevningsmiddelet sg_def_n_final-full_irule hevningsmiddel
+hjelpemiddelet sg_def_n_final-full_irule hjelpemiddel
+hvittemiddelet sg_def_n_final-full_irule hvittemiddel
+insektmiddelet sg_def_n_final-full_irule insektmiddel
+jordforbedringsmiddelet sg_def_n_final-full_irule jordforbedringsmiddel
+kapittelet sg_def_n_final-full_irule kapittel
+knusselet sg_def_n_final-full_irule knussel
+kobbelet sg_def_n_final-full_irule kobbel
+kommunikasjonsmiddelet sg_def_n_final-full_irule kommunikasjonsmiddel
+koppelet sg_def_n_final-full_irule koppel
+kvitemiddelet sg_def_n_final-full_irule kvitemiddel
+legatmiddelet sg_def_n_final-full_irule legatmiddel
+legemiddelet sg_def_n_final-full_irule legemiddel
+levnetsmiddelet sg_def_n_final-full_irule levnetsmiddel
+løsningsmiddelet sg_def_n_final-full_irule løsningsmiddel
+middelet sg_def_n_final-full_irule middel
+rabbelet sg_def_n_final-full_irule rabbel
+rakkelet sg_def_n_final-full_irule rakkel
+rammelet sg_def_n_final-full_irule rammel
+rasselet sg_def_n_final-full_irule rassel
+rensemiddelet sg_def_n_final-full_irule rensemiddel
+rukkelet sg_def_n_final-full_irule rukkel
+rummelet sg_def_n_final-full_irule rummel
+rusmiddelet sg_def_n_final-full_irule rusmiddel
+sikkelet sg_def_n_final-full_irule sikkel
+siktemiddelet sg_def_n_final-full_irule siktemiddel
+skrakkelet sg_def_n_final-full_irule skrakkel
+skrammelet sg_def_n_final-full_irule skrammel
+skrasselet sg_def_n_final-full_irule skrassel
+smøremiddelet sg_def_n_final-full_irule smøremiddel
+sommelet sg_def_n_final-full_irule sommel
+søppelet sg_def_n_final-full_irule søppel
+spetakkelet sg_def_n_final-full_irule spetakkel
+strøsselet sg_def_n_final-full_irule strøssel
+sukkelet sg_def_n_final-full_irule sukkel
+taffelet sg_def_n_final-full_irule taffel
+takkelet sg_def_n_final-full_irule takkel
+transportmiddelet sg_def_n_final-full_irule transportmiddel
+trøbbelet sg_def_n_final-full_irule trøbbel
+tukkelet sg_def_n_final-full_irule tukkel
+vaskemiddelet sg_def_n_final-full_irule vaskemiddel
+vehikkelet sg_def_n_final-full_irule vehikkel
+vognrammelet sg_def_n_final-full_irule vognrammel
+
+åtslet sg_def_n_final-full_irule åtsel
+avgudstemplet sg_def_n_final-full_irule avgudstempel
+barslet sg_def_n_final-full_irule barsel
+beinranglet sg_def_n_final-full_irule beinrangel
+bekslet sg_def_n_final-full_irule beksel
+bendslet sg_def_n_final-full_irule bendsel
+benglet sg_def_n_final-full_irule bengel
+benranglet sg_def_n_final-full_irule benrangel
+bindslet sg_def_n_final-full_irule bindsel
+botsfengslet sg_def_n_final-full_irule botsfengsel
+brenslet sg_def_n_final-full_irule brensel
+buddhatemplet sg_def_n_final-full_irule buddhatempel
+danglet sg_def_n_final-full_irule dangel
+datostemplet sg_def_n_final-full_irule datostempel
+dekslet sg_def_n_final-full_irule deksel
+dinglet sg_def_n_final-full_irule dingel
+dingeldanglet sg_def_n_final-full_irule dingeldangel
+eksemplet sg_def_n_final-full_irule eksempel
+elorglet sg_def_n_final-full_irule elorgel
+empiremøblet sg_def_n_final-full_irule empiremøbel
+eslet sg_def_n_final-full_irule esel
+fattigmannsstemplet sg_def_n_final-full_irule fattigmannsstempel
+favorittstemplet sg_def_n_final-full_irule favorittstempel
+fengslet sg_def_n_final-full_irule fengsel
+flyglet sg_def_n_final-full_irule flygel
+forvarslet sg_def_n_final-full_irule forvarsel
+fugleskremslet sg_def_n_final-full_irule fugleskremsel
+gjemslet sg_def_n_final-full_irule gjemsel
+gjømslet sg_def_n_final-full_irule gjømsel
+hagemøblet sg_def_n_final-full_irule hagemøbel
+hammondorglet sg_def_n_final-full_irule hammondorgel
+hengslet sg_def_n_final-full_irule hengsel
+hjelpefengslet sg_def_n_final-full_irule hjelpefengsel
+kinoorglet sg_def_n_final-full_irule kinoorgel
+kjørlet sg_def_n_final-full_irule kjørel
+kranglet sg_def_n_final-full_irule krangel
+kretsfengslet sg_def_n_final-full_irule kretsfengsel
+langtidsvarslet sg_def_n_final-full_irule langtidsvarsel
+lockoutvarslet sg_def_n_final-full_irule lockoutvarsel
+lysorglet sg_def_n_final-full_irule lysorgel
+manilamøblet sg_def_n_final-full_irule manilamøbel
+miraklet sg_def_n_final-full_irule mirakel
+møblet sg_def_n_final-full_irule møbel
+muleslet sg_def_n_final-full_irule mulesel
+nattmøblet sg_def_n_final-full_irule nattmøbel
+økslet sg_def_n_final-full_irule øksel
+oraklet sg_def_n_final-full_irule orakel
+orglet sg_def_n_final-full_irule orgel
+overbredslet sg_def_n_final-full_irule overbredsel
+pakkeslet sg_def_n_final-full_irule pakkesel
+permisjonsvarslet sg_def_n_final-full_irule permisjonsvarsel
+plysjmøblet sg_def_n_final-full_irule plysjmøbel
+poststemplet sg_def_n_final-full_irule poststempel
+preamblet sg_def_n_final-full_irule preambel
+ranglet sg_def_n_final-full_irule rangel
+reklet sg_def_n_final-full_irule rekel
+rektanglet sg_def_n_final-full_irule rektangel
+ringlet sg_def_n_final-full_irule ringel
+rokokkomøblet sg_def_n_final-full_irule rokokkomøbel
+rørmøblet sg_def_n_final-full_irule rørmøbel
+samplet sg_def_n_final-full_irule sampel
+seklet sg_def_n_final-full_irule sekel
+singlet sg_def_n_final-full_irule singel
+skoleeksemplet sg_def_n_final-full_irule skoleeksempel
+skranglet sg_def_n_final-full_irule skrangel
+skremslet sg_def_n_final-full_irule skremsel
+spenslet sg_def_n_final-full_irule spensel
+stabelhengslet sg_def_n_final-full_irule stabelhengsel
+stalinorglet sg_def_n_final-full_irule stalinorgel
+stålrørsmøblet sg_def_n_final-full_irule stålrørsmøbel
+stemplet sg_def_n_final-full_irule stempel
+stengslet sg_def_n_final-full_irule stengsel
+stilmøblet sg_def_n_final-full_irule stilmøbel
+støpslet sg_def_n_final-full_irule støpsel
+stormvarslet sg_def_n_final-full_irule stormvarsel
+streikevarslet sg_def_n_final-full_irule streikevarsel
+tabernaklet sg_def_n_final-full_irule tabernakel
+templet sg_def_n_final-full_irule tempel
+tingeltanglet sg_def_n_final-full_irule tingeltangel
+treaklet sg_def_n_final-full_irule treakel
+trianglet sg_def_n_final-full_irule triangel
+underbredslet sg_def_n_final-full_irule underbredsel
+ungdomsfengslet sg_def_n_final-full_irule ungdomsfengsel
+værvarslet sg_def_n_final-full_irule værvarsel
+vannorglet sg_def_n_final-full_irule vannorgel
+varetektsfengslet sg_def_n_final-full_irule varetektsfengsel
+varslet sg_def_n_final-full_irule varsel
+vassorglet sg_def_n_final-full_irule vassorgel
+vinglet sg_def_n_final-full_irule vingel
+vringlet sg_def_n_final-full_irule vringel
+
+abortivmidlet sg_def_n_final-full_irule abortivmiddel
+algemidlet sg_def_n_final-full_irule algemiddel
+anleggsmidlet sg_def_n_final-full_irule anleggsmiddel
+avføringsmidlet sg_def_n_final-full_irule avføringsmiddel
+avmagringsmidlet sg_def_n_final-full_irule avmagringsmiddel
+av-midlet sg_def_n_final-full_irule av-middel
+avvergingsmidlet sg_def_n_final-full_irule avvergingsmiddel
+bablet sg_def_n_final-full_irule babbel
+bedøvelsesmidlet sg_def_n_final-full_irule bedøvelsesmiddel
+befordringsmidlet sg_def_n_final-full_irule befordringsmiddel
+betalingsmidlet sg_def_n_final-full_irule betalingsmiddel
+bindemidlet sg_def_n_final-full_irule bindemiddel
+bislet sg_def_n_final-full_irule bissel
+bleikemidlet sg_def_n_final-full_irule bleikemiddel
+blekemidlet sg_def_n_final-full_irule blekemiddel
+botemidlet sg_def_n_final-full_irule botemiddel
+brekkmidlet sg_def_n_final-full_irule brekkmiddel
+byttemidlet sg_def_n_final-full_irule byttemiddel
+desinfeksjonsmidlet sg_def_n_final-full_irule desinfeksjonsmiddel
+domkapitlet sg_def_n_final-full_irule domkapittel
+dopingmidlet sg_def_n_final-full_irule dopingmiddel
+driftsmidlet sg_def_n_final-full_irule driftsmiddel
+flussmidlet sg_def_n_final-full_irule flussmiddel
+fødemidlet sg_def_n_final-full_irule fødemiddel
+fortynningsmidlet sg_def_n_final-full_irule fortynningsmiddel
+foryngelsesmidlet sg_def_n_final-full_irule foryngelsesmiddel
+framkomstmidlet sg_def_n_final-full_irule framkomstmiddel
+fremkomstmidlet sg_def_n_final-full_irule fremkomstmiddel
+gislet sg_def_n_final-full_irule gissel
+gjæringsmidlet sg_def_n_final-full_irule gjæringsmiddel
+hevemidlet sg_def_n_final-full_irule hevemiddel
+hevingsmidlet sg_def_n_final-full_irule hevingsmiddel
+hevningsmidlet sg_def_n_final-full_irule hevningsmiddel
+hjelpemidlet sg_def_n_final-full_irule hjelpemiddel
+hvittemidlet sg_def_n_final-full_irule hvittemiddel
+insektmidlet sg_def_n_final-full_irule insektmiddel
+jordforbedringsmidlet sg_def_n_final-full_irule jordforbedringsmiddel
+kapitlet sg_def_n_final-full_irule kapittel
+knuslet sg_def_n_final-full_irule knussel
+koblet sg_def_n_final-full_irule kobbel
+kommunikasjonsmidlet sg_def_n_final-full_irule kommunikasjonsmiddel
+kopplet sg_def_n_final-full_irule koppel
+kvitemidlet sg_def_n_final-full_irule kvitemiddel
+legatmidlet sg_def_n_final-full_irule legatmiddel
+legemidlet sg_def_n_final-full_irule legemiddel
+levnetsmidlet sg_def_n_final-full_irule levnetsmiddel
+løsningsmidlet sg_def_n_final-full_irule løsningsmiddel
+midlet sg_def_n_final-full_irule middel
+rablet sg_def_n_final-full_irule rabbel
+raklet sg_def_n_final-full_irule rakkel
+ramlet sg_def_n_final-full_irule rammel
+raslet sg_def_n_final-full_irule rassel
+rensemidlet sg_def_n_final-full_irule rensemiddel
+ruklet sg_def_n_final-full_irule rukkel
+rumlet sg_def_n_final-full_irule rummel
+rusmidlet sg_def_n_final-full_irule rusmiddel
+siklet sg_def_n_final-full_irule sikkel
+siktemidlet sg_def_n_final-full_irule siktemiddel
+skraklet sg_def_n_final-full_irule skrakkel
+skramlet sg_def_n_final-full_irule skrammel
+skraslet sg_def_n_final-full_irule skrassel
+smøremidlet sg_def_n_final-full_irule smøremiddel
+somlet sg_def_n_final-full_irule sommel
+søpplet sg_def_n_final-full_irule søppel
+spetaklet sg_def_n_final-full_irule spetakkel
+strøslet sg_def_n_final-full_irule strøssel
+suklet sg_def_n_final-full_irule sukkel
+tafflet sg_def_n_final-full_irule taffel
+taklet sg_def_n_final-full_irule takkel
+transportmidlet sg_def_n_final-full_irule transportmiddel
+trøblet sg_def_n_final-full_irule trøbbel
+tuklet sg_def_n_final-full_irule tukkel
+vaskemidlet sg_def_n_final-full_irule vaskemiddel
+vehiklet sg_def_n_final-full_irule vehikkel
+vognramlet sg_def_n_final-full_irule vognrammel
+"

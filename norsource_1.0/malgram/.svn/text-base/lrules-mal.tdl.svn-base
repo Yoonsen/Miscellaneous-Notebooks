@@ -1,0 +1,117 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;              - No2 -
+;;; 
+;;;    Copyright (c)  No2 
+;;;                       2010-2010
+;;;
+;;;   
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    <norsource@hf.ntnu.no>
+;;;
+
+
+#|
+mal-sg-indef-bare-noun-lxm-lrule := sg-indef-bare-noun-lxm &
+[ GENRE robust ].
+|#
+
+
+mal-et_infl-for-strong-lrule := verb-lexeme & 
+[ GENRE robust,
+  SYNSEM #synsem,
+  INFLECTION nonfstr-et,
+  INFLECTED -,
+  --MALCONJ +,
+  ARGS < [ SYNSEM #synsem,
+	       --MALCONJ -,
+		   INFLECTION nonfstr-strong,
+		   INFLECTED - ]>].
+
+mal-te_infl-for-strong-lrule := verb-lexeme & 
+[ GENRE robust,
+  SYNSEM #synsem,
+  INFLECTION nonfstr-te,
+  INFLECTED -,
+  --MALCONJ +,
+  ARGS < [ SYNSEM #synsem,
+	       --MALCONJ -,
+		   INFLECTION nonfstr-strong,
+		   INFLECTED - ]>].
+
+mal-de_infl-for-strong-lrule := verb-lexeme & 
+[ GENRE robust,
+  SYNSEM #synsem,
+  INFLECTION nonfstr-de,
+  INFLECTED -,
+  --MALCONJ +,
+  ARGS < [ SYNSEM #synsem,
+	       --MALCONJ -,
+		   INFLECTION nonfstr-strong,
+		   INFLECTED - ]>].
+
+mal-de_infl-for-te-lrule := verb-lexeme & 
+[ GENRE robust,
+  SYNSEM #synsem,
+  INFLECTION nonfstr-de,
+  INFLECTED -,
+  --MALCONJ +,
+  ARGS < [ SYNSEM #synsem,
+	       --MALCONJ -,
+		   INFLECTION nonfstr-te,
+		   INFLECTED - ]>].
+
+mal-de_infl-for-et-lrule := verb-lexeme & 
+[ GENRE robust,
+  SYNSEM #synsem,
+  INFLECTION nonfstr-de,
+  INFLECTED -,
+  --MALCONJ +,
+  ARGS < [ SYNSEM #synsem,
+	       --MALCONJ -,
+		   INFLECTION nonfstr-et,
+		   INFLECTED - ]>].
+
+mal-te_infl-for-de-lrule := verb-lexeme & 
+[ GENRE robust,
+  SYNSEM #synsem,
+  INFLECTION nonfstr-te,
+  INFLECTED -,
+  --MALCONJ +,
+  ARGS < [ SYNSEM #synsem,
+	       --MALCONJ -,
+		   INFLECTION nonfstr-de,
+		   INFLECTED - ]>].
+
+mal-te_infl-for-et-lrule := verb-lexeme & 
+[ GENRE robust,
+  SYNSEM #synsem,
+  INFLECTION nonfstr-te,
+  INFLECTED -,
+  --MALCONJ +,
+  ARGS < [ SYNSEM #synsem,
+	       --MALCONJ -,
+		   INFLECTION nonfstr-et,
+		   INFLECTED - ]>].
+
+mal-et_infl-for-te-lrule := verb-lexeme & 
+[ GENRE robust,
+  SYNSEM #synsem,
+  INFLECTION nonfstr-et,
+  INFLECTED -,
+  --MALCONJ +,
+  ARGS < [ SYNSEM #synsem,
+	       --MALCONJ -,
+		   INFLECTION nonfstr-te,
+		   INFLECTED - ]>].
+
+mal-et_infl-for-de-lrule := verb-lexeme & 
+[ GENRE robust,
+  SYNSEM #synsem,
+  INFLECTION nonfstr-et,
+  INFLECTED -,
+  --MALCONJ +,
+  ARGS < [ SYNSEM #synsem,
+	       --MALCONJ -,
+		   INFLECTION nonfstr-de,
+		   INFLECTED - ]>].

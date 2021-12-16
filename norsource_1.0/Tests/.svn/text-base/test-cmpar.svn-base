@@ -1,0 +1,146 @@
+;;; -*- Coding: utf-8; -*-
+
+Ola er svært lang
+; Ola is very tall
+Ola er hvor lang
+; Ola is how tall
+Ola er lang nok
+; Ola is tall enough
+Ola er nok lang
+; Ola is enough tall 
+Ola er tilstrekkelig lang
+; Ola is sufficiently tall 
+Ola er to meter lang
+; Ola is two meters tall 
+En svært lang mann sover
+; a very tall man sleeps 
+En hvor lang mann sover
+; a how tall man sleeps 
+En to meter lang mann sover
+; a two meters tall man sleeps 
+En lang nok mann sover
+; a tall enough man sleeps 
+
+Ola er lengre enn Per
+; Ola is taller than Per
+Ola er mer storvokst enn Per
+; Ola is more tall-built than Per
+Ola er atskillig mer storvokst enn Per
+; Ola is considerably more tall-built than Per
+Ola er en lengre mann enn Per
+; Ola is a taller man than Per
+Ola er en atskillig lengre mann enn Per
+; Ola is a considerably taller man than Per
+Ola er en mer storvokst mann enn Per
+; Ola is a more tall-built man than Per
+Ola er to centimeter lengre enn Per
+; Ola is two centimeters taller than Per
+Ola er en to centimeter lengre mann enn Per
+; Ola is a two centimeters taller man than Per
+Ola er mer enn to centimeter lengre enn Per
+; Ola is more than two centimeters taller than Per
+Ola er atskillig mer enn to centimeter lengre enn Per
+; Ola is considerably more than two centimeters taller than Per
+Ola er mer enn to centimeter mer storvokst enn Per
+; Ola is more than two centimeters more tall-built than Per
+Ola er atskillig mer enn to centimeter mer storvokst enn Per
+; Ola is considerably more than two centimeters more tall-built than Per
+Ola er en mer enn to centimeter lengre mann enn Per
+; Ola is a more than two centimeters taller man than Per
+Ola er en mer enn to centimeter mer storvokst mann enn Per
+; Ola is a more than two centimeters more tall-built man than Per
+Ola er en atskillig mer enn to centimeter mer storvokst mann enn Per
+; Ola is a considerably more than two centimeters more tall-built man than Per
+
+En lengre mann enn Per sover
+; a taller man than Per sleeps
+En atskillig lengre mann enn Per sover
+; a considerably taller man than Per sleeps
+En mye lengre mann enn Per sover
+; a much taller man than Per sleeps
+En hvor mye lengre mann enn Per sover
+; a how much taller man than Per sleeps
+En mer storvokst mann enn Per sover
+; a more tall-built man than Per sleeps
+En to centimeter lengre mann enn Per sover
+; a two centimeters taller man than Per sleeps
+En mer enn to centimeter lengre mann enn Per sover
+; a more than two centimeters taller man than Per sleeps
+En mye mer enn to centimeter lengre mann enn Per sover
+; a much more than two centimeters taller man than Per sleeps
+En hvor mye mer enn to centimeter lengre mann enn Per sover
+; a how much more than two centimeters taller man than Per sleeps
+En mer enn to centimeter mer storvokst mann enn Per sover
+; a more than two centimeters more tall-built man than Per sleeps
+
+Ola er den høyeste av guttene
+; Ola is the tallest of the boys
+Ola er den høyeste av alle guttene
+; Ola is the tallest of all the boys
+Ola er den høyeste gutten
+; Ola is the tallest boy
+Den høyeste av guttene sover
+; the tallest of the boys sleeps
+Den høyeste av alle guttene sover
+; the tallest of all the boys sleeps
+Den høyeste gutten sover
+; the tallest boy sleeps
+
+Mye vin renner
+; much wine runs
+Svært mye vin renner
+; very much wine runs
+Svært lite vin renner
+; very little wine runs
+Hvor mye vin renner?
+; how much wine runs
+Hvor lite vin renner?
+; how little wine runs
+Mer vin enn vann renner
+; more wine than water runs
+Mindre vin enn vann renner
+; less wine than water runs
+Atskillig mer vin enn vann renner
+; considerably more wine than water runs
+Atskillig mindre vin enn vann renner
+; considerably less wine than water runs
+Hvor mye mer vin enn vann renner?
+; how much more wine than water runs
+;*
+Hvor lite mer vin enn vann renner?
+; how little more wine than water runs
+Hvor mye mindre vin enn vann renner?
+; how much less wine than water runs
+;*
+Hvor lite mindre vin enn vann renner?
+; how little less wine than water runs
+Mange gutter løper
+; many boys run
+Svært mange gutter løper
+; very many boys run
+Svært få gutter løper
+; very few boys run
+Hvor mange gutter løper?
+; how many boys run
+Hvor få gutter løper?
+; how few boys run
+Flere gutter enn menn løper
+; more boys than men run
+Færre gutter enn menn løper
+; fewer boys than men run
+Atskillig flere gutter enn menn løper
+; considerably more boys than men run
+Atskillig færre gutter enn menn løper
+; considerably fewer boys than men run
+Hvor mange flere gutter enn menn løper
+; how many more boys than men run
+Hvor mange færre gutter enn menn løper
+; how many fewer boys than men run
+;*
+Hvor få flere gutter enn menn løper
+; how few more boys than men run
+;*
+Hvor få færre gutter enn menn løper
+; how few fewer boys than men run
+
+

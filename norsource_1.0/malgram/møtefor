@@ -1,0 +1,47 @@
+Ting å ta opp ved møtet:
+
+1) Og/å-feil fungerer no, men:
+	a) semantikken for men/og/så er lik, så genereringa blir rar
+	b) og som interjeksjon fører til utulig mange feilparsar
+	c) uansett er setningar med konjunksjonar alt for opne til feilparsing, ikkje mindre ved at:
+		- "å" også blir ein konjuksjon
+		- "og" har ei ekstra betydning
+		- mal-reglane opnar for endring av valens og ordklasse
+
+2) seg (+ sjøl) fungerer, samt "X skammer *", men
+	a) selv har mange adverbformar, reduser for mindre parseskog
+	b) generering blir problematisk når sjølv-reglen er aktiv.
+	c) MANGLAR regelen "Jeg skammer seg", fordi slit med å forstå samsvarskravet ligg.
+
+3) "Etterpå leser boka". Syntaktisk ok, men semantisk blir boka objekt, og subjektet manglar.
+
+4) Utelatt eigarskap-verb. "Mannen en bil". Kva gjer vi her?
+
+5) Ved overflødig "med" ved "sammen" blir semantikken kanskje feil
+	a) parse 62 gir rett ved "vi venter sammen med"
+	b) den korrekte i "vi går sammen med" er sekpred og gir dermed eit ekstra element
+
+6) Innføre konspirasjonsblokk på v-subcat-pp-for-np, subcat-np-for-pp og drop np-in-sel-pp?
+	b) semantikken for desse typane er horribel.
+
+Super TODO:
+
+Det - N' 
+
+TODO Elias:
+
+Utelatt finitt verb:
+	eigarskap
+
+Utelatt objekt:
+	"noe å gjøre" med "noe" borte ---> NorSource aksepterer ikkje denne konstruksjonen
+
+Overflødig preposisjon:
+	adjunkt-NP -> adjunkt-PP
+
+Mogleg TODO:
+	23. Plassering av preposisjon		--> utsatt
+	32. Utelatt relativpronomen		--> utsatt
+	34. Bruk av for-å			--> kanskje
+	37. Utelatt "at"			--> utsatt
+	38. "Mannens { "bilen", "en bil" } står i garasjen".	--> kanskje

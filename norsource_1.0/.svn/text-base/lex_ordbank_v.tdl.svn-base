@@ -1,0 +1,1600 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource -
+;;; 
+;;;    Copyright (c)  NorSource 1.0
+;;;                     
+;;;
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    
+;;;
+
+adskille_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "adskille" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_adskille_v-_rel" ].
+
+adsprede_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "adsprede" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_adsprede_v-_rel" ].
+
+advokere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "advokere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_advokere_v-_rel" ].
+
+agglomerere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "agglomerere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_agglomerere_v-_rel" ].
+
+aggregere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "aggregere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_aggregere_v-_rel" ].
+
+aksessere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "aksessere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_aksessere_v-_rel" ].
+
+aktorere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "aktorere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_aktorere_v-_rel" ].
+
+allmenngjøre_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "allmenngjøre" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_allmenngjøre_v-_rel" ].
+
+anonymisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "anonymisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_anonymisere_v-_rel" ].
+
+ante_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "ante" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ante_v-_rel" ].
+
+antecedere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "antecedere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_antecedere_v-_rel" ].
+
+arbitrere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "arbitrere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_arbitrere_v-_rel" ].
+
+attre_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "attre" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_attre_v-_rel" ].
+
+attribuere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "attribuere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_attribuere_v-_rel" ].
+
+autentifisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "autentifisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_autentifisere_v-_rel" ].
+
+autentisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "autentisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_autentisere_v-_rel" ].
+
+avgifte_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "avgifte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_avgifte_v-_rel" ].
+
+avmarsjere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "avmarsjere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_avmarsjere_v-_rel" ].
+
+avvigsle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "avvigsle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_avvigsle_v-_rel" ].
+
+ballastere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "ballastere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ballastere_v-_rel" ].
+
+balle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "balle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_balle_v-_rel" ].
+
+bedra_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "bedra" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bedra_v-_rel" ].
+
+bisle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "bisle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bisle_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+borde_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "borde" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_borde_v-_rel" ].
+
+brevveksle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "brevveksle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_brevveksle_v-_rel" ].
+
+bufre_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "bufre" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bufre_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+buske_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "buske" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_buske_v-_rel" ].
+
+busse_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "busse" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_busse_v-_rel" ].
+
+bylte_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "bylte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bylte_v-_rel" ].
+
+bøle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "bøle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_bøle_v-_rel" ].
+
+båse_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "båse" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_båse_v-_rel" ].
+
+charmere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "charmere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_charmere_v-_rel" ].
+
+cracke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "cracke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_cracke_v-_rel" ].
+
+crawle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "crawle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_crawle_v-_rel" ].
+
+croone_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "croone" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_croone_v-_rel" ].
+
+daue_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "daue" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_daue_v-_rel" ].
+
+dedikere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "dedikere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dedikere_v-_rel" ].
+
+dekontaminere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "dekontaminere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dekontaminere_v-_rel" ].
+
+dekryptere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "dekryptere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dekryptere_v-_rel" ].
+
+demonisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "demonisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_demonisere_v-_rel" ].
+
+deplassere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "deplassere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_deplassere_v-_rel" ].
+
+disharmonere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "disharmonere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_disharmonere_v-_rel" ].
+
+dispergere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "dispergere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_dispergere_v-_rel" ].
+
+diversifisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "diversifisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_diversifisere_v-_rel" ].
+
+domestisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "domestisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_domestisere_v-_rel" ].
+
+døde_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "døde" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_døde_v-_rel" ].
+
+ekse_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "ekse" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ekse_v-_rel" ].
+
+eksersere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "eksersere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_eksersere_v-_rel" ].
+
+eksilere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "eksilere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_eksilere_v-_rel" ].
+
+eksitere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "eksitere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_eksitere_v-_rel" ].
+
+eksotisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "eksotisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_eksotisere_v-_rel" ].
+
+ekstrudere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "ekstrudere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ekstrudere_v-_rel" ].
+
+elge_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "elge" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_elge_v-_rel" ].
+
+;; verb, pos i norsource: [np]
+elle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "elle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_elle_v-_rel" ].
+
+e-maile_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "e-maile" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_e-maile_v-_rel" ].
+
+;; verb, pos i norsource: [card]
+ene_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "ene" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ene_v-_rel" ].
+
+e-poste_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "e-poste" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_e-poste_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+eske_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "eske" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_eske_v-_rel" ].
+
+ete_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "ete" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ete_v-_rel" ].
+
+ettervise_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "ettervise" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ettervise_v-_rel" ].
+
+faite_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "faite" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_faite_v-_rel" ].
+
+fakle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "fakle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fakle_v-_rel" ].
+
+fasinere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "fasinere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fasinere_v-_rel" ].
+
+ferdigbehandle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "ferdigbehandle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ferdigbehandle_v-_rel" ].
+
+fetisjere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "fetisjere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fetisjere_v-_rel" ].
+
+fifle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "fifle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fifle_v-_rel" ].
+
+fiksjonalisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "fiksjonalisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fiksjonalisere_v-_rel" ].
+
+filialisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "filialisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_filialisere_v-_rel" ].
+
+filtse_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "filtse" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_filtse_v-_rel" ].
+
+finslipe_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "finslipe" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_finslipe_v-_rel" ].
+
+fiste_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "fiste" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fiste_v-_rel" ].
+
+fondere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "fondere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fondere_v-_rel" ].
+
+fore_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "fore" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fore_v-_rel" ].
+
+fornøye_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "fornøye" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fornøye_v-_rel" ].
+
+fortryde_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "fortryde" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fortryde_v-_rel" ].
+
+fosforisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "fosforisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fosforisere_v-_rel" ].
+
+fossilisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "fossilisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fossilisere_v-_rel" ].
+
+fronte_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "fronte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_fronte_v-_rel" ].
+
+funke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "funke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_funke_v-_rel" ].
+
+føles_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "føles" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_føles_v-_rel" ].
+
+gaide_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "gaide" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gaide_v-_rel" ].
+
+gampe_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "gampe" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gampe_v-_rel" ].
+
+genere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "genere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_genere_v-_rel" ].
+
+gjenvelge_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "gjenvelge" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gjenvelge_v-_rel" ].
+
+gjøne_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "gjøne" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gjøne_v-_rel" ].
+
+glasse_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "glasse" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_glasse_v-_rel" ].
+
+globalisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "globalisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_globalisere_v-_rel" ].
+
+gnidre_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "gnidre" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gnidre_v-_rel" ].
+
+gnikse_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "gnikse" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gnikse_v-_rel" ].
+
+gnirke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "gnirke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gnirke_v-_rel" ].
+
+grapse_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "grapse" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_grapse_v-_rel" ].
+
+grate_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "grate" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_grate_v-_rel" ].
+
+grisebanke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "grisebanke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_grisebanke_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+grovhakke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "grovhakke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_grovhakke_v-_rel" ].
+
+grunde_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "grunde" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_grunde_v-_rel" ].
+
+gumle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "gumle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gumle_v-_rel" ].
+
+gymme_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "gymme" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gymme_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+gåre_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "gåre" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_gåre_v-_rel" ].
+
+hanke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "hanke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hanke_v-_rel" ].
+
+hedde_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "hedde" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hedde_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+heimkomme_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "heimkomme" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_heimkomme_v-_rel" ].
+
+herpe_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "herpe" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_herpe_v-_rel" ].
+
+hinte_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "hinte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hinte_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+hjemkomme_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "hjemkomme" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hjemkomme_v-_rel" ].
+
+;; verb, pos i norsource: [n, np]
+hole_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "hole" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hole_v-_rel" ].
+
+homologere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "homologere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_homologere_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+honninggjømme_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "honninggjømme" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_honninggjømme_v-_rel" ].
+
+hukre_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "hukre" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hukre_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+hurpe_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "hurpe" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hurpe_v-_rel" ].
+
+;; verb, pos i norsource: [np]
+huse_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "huse" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_huse_v-_rel" ].
+
+husholderere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "husholderere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_husholderere_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+hvitkalke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "hvitkalke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hvitkalke_v-_rel" ].
+
+hybridisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "hybridisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hybridisere_v-_rel" ].
+
+hydrogenere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "hydrogenere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hydrogenere_v-_rel" ].
+
+hygienisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "hygienisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hygienisere_v-_rel" ].
+
+hysse_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "hysse" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hysse_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+hytte_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "hytte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_hytte_v-_rel" ].
+
+;; verb, pos i norsource: [np]
+høye_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "høye" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_høye_v-_rel" ].
+
+idolisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "idolisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_idolisere_v-_rel" ].
+
+inkriminere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "inkriminere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_inkriminere_v-_rel" ].
+
+innfase_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "innfase" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_innfase_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+inngifte_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "inngifte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_inngifte_v-_rel" ].
+
+insitere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "insitere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_insitere_v-_rel" ].
+
+internalisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "internalisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_internalisere_v-_rel" ].
+
+interpunktere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "interpunktere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_interpunktere_v-_rel" ].
+
+intimisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "intimisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_intimisere_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+ire_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "ire" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ire_v-_rel" ].
+
+isenesette_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "isenesette" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_isenesette_v-_rel" ].
+
+ispe_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "ispe" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ispe_v-_rel" ].
+
+juge_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "juge" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_juge_v-_rel" ].
+
+kable_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "kable" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kable_v-_rel" ].
+
+kaldrøke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "kaldrøke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kaldrøke_v-_rel" ].
+
+karamellisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "karamellisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_karamellisere_v-_rel" ].
+
+kartfeste_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "kartfeste" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kartfeste_v-_rel" ].
+
+kjederøke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "kjederøke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kjederøke_v-_rel" ].
+
+kjennes_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "kjennes" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kjennes_v-_rel" ].
+
+klattmale_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "klattmale" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_klattmale_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+klede_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "klede" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_klede_v-_rel" ].
+
+kleie_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "kleie" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kleie_v-_rel" ].
+
+kleime_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "kleime" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kleime_v-_rel" ].
+
+kleise_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "kleise" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kleise_v-_rel" ].
+
+klinsje_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "klinsje" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_klinsje_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+klokke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "klokke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_klokke_v-_rel" ].
+
+kommittere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "kommittere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kommittere_v-_rel" ].
+
+konfigurere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "konfigurere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_konfigurere_v-_rel" ].
+
+konseptualisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "konseptualisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_konseptualisere_v-_rel" ].
+
+kontemplere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "kontemplere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kontemplere_v-_rel" ].
+
+korrelere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "korrelere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_korrelere_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+krage_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "krage" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_krage_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+krone_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "krone" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_krone_v-_rel" ].
+
+kuratere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "kuratere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kuratere_v-_rel" ].
+
+kveve_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "kveve" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kveve_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+kvitkalke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "kvitkalke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_kvitkalke_v-_rel" ].
+
+lekte_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "lekte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_lekte_v-_rel" ].
+
+levitere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "levitere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_levitere_v-_rel" ].
+
+;; verb, pos i norsource: [np]
+linde_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "linde" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_linde_v-_rel" ].
+
+lobotomere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "lobotomere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_lobotomere_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+lufttørke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "lufttørke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_lufttørke_v-_rel" ].
+
+lø_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "lø" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_lø_v-_rel" ].
+
+maile_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "maile" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_maile_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+makeskifte_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "makeskifte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_makeskifte_v-_rel" ].
+
+maksle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "maksle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_maksle_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+manndaude_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "manndaude" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_manndaude_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+mannedaude_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "mannedaude" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_mannedaude_v-_rel" ].
+
+marginalisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "marginalisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_marginalisere_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+maske_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "maske" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_maske_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+mave_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "mave" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_mave_v-_rel" ].
+
+medgå_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "medgå" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_medgå_v-_rel" ].
+
+mediere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "mediere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_mediere_v-_rel" ].
+
+medikalisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "medikalisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_medikalisere_v-_rel" ].
+
+;; verb, pos i norsource: [n, pnposs]
+mine_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "mine" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_mine_v-_rel" ].
+
+mingle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "mingle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_mingle_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+misfarge_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "misfarge" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_misfarge_v-_rel" ].
+
+monitorere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "monitorere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_monitorere_v-_rel" ].
+
+muge_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "muge" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_muge_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+mugge_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "mugge" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_mugge_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+måte_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "måte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_måte_v-_rel" ].
+
+nedbemanne_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "nedbemanne" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nedbemanne_v-_rel" ].
+
+nedbetale_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "nedbetale" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nedbetale_v-_rel" ].
+
+;; verb, pos i norsource: [adj, n]
+neste_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "neste" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_neste_v-_rel" ].
+
+nonsjalere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "nonsjalere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nonsjalere_v-_rel" ].
+
+nye_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "nye" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nye_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+nykke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "nykke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nykke_v-_rel" ].
+
+nøkke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "nøkke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nøkke_v-_rel" ].
+
+nøyes_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "nøyes" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_nøyes_v-_rel" ].
+
+opparbeide_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "opparbeide" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_opparbeide_v-_rel" ].
+
+oppmjuke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "oppmjuke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_oppmjuke_v-_rel" ].
+
+oppmyke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "oppmyke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_oppmyke_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+oppstamme_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "oppstamme" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_oppstamme_v-_rel" ].
+
+ottes_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "ottes" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ottes_v-_rel" ].
+
+overlappe_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "overlappe" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_overlappe_v-_rel" ].
+
+overse_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "overse" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_overse_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+overstemme_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "overstemme" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_overstemme_v-_rel" ].
+
+pele_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "pele" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pele_v-_rel" ].
+
+periodisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "periodisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_periodisere_v-_rel" ].
+
+pierce_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "pierce" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pierce_v-_rel" ].
+
+pirse_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "pirse" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pirse_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+pose_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "pose" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_pose_v-_rel" ].
+
+predatere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "predatere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_predatere_v-_rel" ].
+
+promotere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "promotere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_promotere_v-_rel" ].
+
+protegére_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "protegére" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_protegére_v-_rel" ].
+
+psykologisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "psykologisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_psykologisere_v-_rel" ].
+
+rade_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "rade" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_rade_v-_rel" ].
+
+reforhandle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "reforhandle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_reforhandle_v-_rel" ].
+
+regredere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "regredere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_regredere_v-_rel" ].
+
+reide_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "reide" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_reide_v-_rel" ].
+
+rekylere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "rekylere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_rekylere_v-_rel" ].
+
+resette_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "resette" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_resette_v-_rel" ].
+
+residere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "residere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_residere_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+ringmerke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "ringmerke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ringmerke_v-_rel" ].
+
+romme_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "romme" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_romme_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+rulleføre_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "rulleføre" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_rulleføre_v-_rel" ].
+
+rundlure_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "rundlure" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_rundlure_v-_rel" ].
+
+rutinisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "rutinisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_rutinisere_v-_rel" ].
+
+rølpe_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "rølpe" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_rølpe_v-_rel" ].
+
+råskrelle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "råskrelle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_råskrelle_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+sambeite_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "sambeite" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sambeite_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+samtykke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "samtykke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_samtykke_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+sandblåse_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "sandblåse" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sandblåse_v-_rel" ].
+
+sautere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "sautere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sautere_v-_rel" ].
+
+scanne_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "scanne" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_scanne_v-_rel" ].
+
+secernere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "secernere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_secernere_v-_rel" ].
+
+seife_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "seife" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_seife_v-_rel" ].
+
+sekrere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "sekrere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sekrere_v-_rel" ].
+
+selebrere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "selebrere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_selebrere_v-_rel" ].
+
+seponere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "seponere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_seponere_v-_rel" ].
+
+;; verb, pos i norsource: [np, pnposs]
+sine_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "sine" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sine_v-_rel" ].
+
+sjartre_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "sjartre" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sjartre_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+sjelelege_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "sjelelege" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sjelelege_v-_rel" ].
+
+sjåke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "sjåke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sjåke_v-_rel" ].
+
+skilles_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "skilles" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_skilles_v-_rel" ].
+
+skillinge_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "skillinge" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_skillinge_v-_rel" ].
+
+skjørte_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "skjørte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_skjørte_v-_rel" ].
+
+skripte_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "skripte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_skripte_v-_rel" ].
+
+skutte_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "skutte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_skutte_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+smugdrikke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "smugdrikke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_smugdrikke_v-_rel" ].
+
+smuglese_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "smuglese" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_smuglese_v-_rel" ].
+
+smugrøke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "smugrøke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_smugrøke_v-_rel" ].
+
+smugrøyke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "smugrøyke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_smugrøyke_v-_rel" ].
+
+smøye_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "smøye" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_smøye_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+snare_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "snare" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_snare_v-_rel" ].
+
+snikfotografere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "snikfotografere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_snikfotografere_v-_rel" ].
+
+spelle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "spelle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_spelle_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+straffedømme_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "straffedømme" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_straffedømme_v-_rel" ].
+
+straighte_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "straighte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_straighte_v-_rel" ].
+
+stunte_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "stunte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_stunte_v-_rel" ].
+
+style_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "style" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_style_v-_rel" ].
+
+støpsle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "støpsle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_støpsle_v-_rel" ].
+
+svitsje_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "svitsje" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_svitsje_v-_rel" ].
+
+syndikere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "syndikere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_syndikere_v-_rel" ].
+
+syne_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "syne" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_syne_v-_rel" ].
+
+synergere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "synergere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_synergere_v-_rel" ].
+
+syvdoble_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "syvdoble" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_syvdoble_v-_rel" ].
+
+sørve_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "sørve" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_sørve_v-_rel" ].
+
+tabloidisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "tabloidisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tabloidisere_v-_rel" ].
+
+tabuere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "tabuere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tabuere_v-_rel" ].
+
+tabuisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "tabuisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tabuisere_v-_rel" ].
+
+taime_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "taime" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_taime_v-_rel" ].
+
+tekkes_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "tekkes" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tekkes_v-_rel" ].
+
+terminere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "terminere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_terminere_v-_rel" ].
+
+tilråde_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "tilråde" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tilråde_v-_rel" ].
+
+tilte_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "tilte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tilte_v-_rel" ].
+
+;; verb, pos i norsource: [n, np]
+time_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "time" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_time_v-_rel" ].
+
+toe_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "toe" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_toe_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+tolle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "tolle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tolle_v-_rel" ].
+
+transendere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "transendere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_transendere_v-_rel" ].
+
+traumatisere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "traumatisere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_traumatisere_v-_rel" ].
+
+trunkere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "trunkere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_trunkere_v-_rel" ].
+
+træle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "træle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_træle_v-_rel" ].
+
+trøble_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "trøble" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_trøble_v-_rel" ].
+
+tråle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "tråle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tråle_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+tørrhoste_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "tørrhoste" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_tørrhoste_v-_rel" ].
+
+ure_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "ure" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ure_v-_rel" ].
+
+utagere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "utagere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utagere_v-_rel" ].
+
+utdatere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "utdatere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utdatere_v-_rel" ].
+
+utfase_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "utfase" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utfase_v-_rel" ].
+
+utstøyte_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "utstøyte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_utstøyte_v-_rel" ].
+
+vakuumere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "vakuumere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vakuumere_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+vakuumpakke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "vakuumpakke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vakuumpakke_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+varde_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "varde" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_varde_v-_rel" ].
+
+varsko_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "varsko" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_varsko_v-_rel" ].
+
+vatre_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "vatre" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vatre_v-_rel" ].
+
+vattere_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "vattere" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vattere_v-_rel" ].
+
+vavre_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "vavre" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vavre_v-_rel" ].
+
+vebbe_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "vebbe" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vebbe_v-_rel" ].
+
+vekte_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "vekte" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vekte_v-_rel" ].
+
+vektlegge_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "vektlegge" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vektlegge_v-_rel" ].
+
+videreformidle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "videreformidle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_videreformidle_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+vikke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "vikke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vikke_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+vindtørke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "vindtørke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vindtørke_v-_rel" ].
+
+vokke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "vokke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_vokke_v-_rel" ].
+
+wokke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "wokke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_wokke_v-_rel" ].
+
+x-e_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "x-e" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_x-e_v-_rel" ].
+
+ynge_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "ynge" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ynge_v-_rel" ].
+
+zappe_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "zappe" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_zappe_v-_rel" ].
+
+zoome_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "zoome" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_zoome_v-_rel" ].
+
+ølle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "ølle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ølle_v-_rel" ].
+
+åe_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "åe" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_åe_v-_rel" ].
+
+ågre_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "ågre" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ågre_v-_rel" ].
+
+åke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "åke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_åke_v-_rel" ].
+
+åle_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "åle" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_åle_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+ånde_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "ånde" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_ånde_v-_rel" ].
+
+årelate_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "årelate" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_årelate_v-_rel" ].
+
+åres_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "åres" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_åres_v-_rel" ].
+
+årsake_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "årsake" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_årsake_v-_rel" ].
+
+;; verb, pos i norsource: [n]
+åvirke_v-tr := v-tr & 
+ [ INFLECTION nonfstr-te, 
+   STEM < "åvirke" >, 
+   SYNSEM.LKEYS.KEYREL.PRED "_åvirke_v-_rel" ].
+

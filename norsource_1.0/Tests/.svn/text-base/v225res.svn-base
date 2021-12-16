@@ -1,0 +1,238 @@
+1 det regner 2 100
+2 det klarner opp 1 87
+3 det kvekker i Ola 4 200
+4 det sprekker i glasset 1 179
+5 det synger i fjellene 1 198
+6 det springer en mann 0 139
+7 det springer en mann hit 0 170
+8 det ruller en ball 2 208
+9 det ruller en ball hit 1 245
+10 det sitter en mann i stolen 3 282
+11 det sitter en mann her 3 172
+12 det venter ham en ulykke 2 193
+13 det tilkommer ham hundre kroner 2 190
+14 gutten hopper 1 88
+15 Ola driver på 2 345
+16 Ola stopper opp 2 114
+17 gutten lytter  1 35
+18 gutten løper 1 63
+19 ballen ruller 1 98
+20 isen smelter 1 57
+21 regnet varer ved 8 290
+22 regnet holder opp 2 252
+23 gutten fryser 1 70
+24 hvorvidt han kommer beror 0 103
+25 hvem som kommer beror 0 118
+26 å motta penger for politiske verv stinker 0 398
+27 jeg snakker om Ola 2 171
+28 han sølte på seg 2 212
+29 hun bor i Finnmark 2 181
+30 hun spiser av eplet 1 115
+31 hun leser i boken 2 170
+32 Ola rører på statuen  6 336
+33 Ola leer på seg 2 202
+34 de snakker om at det er for sent 6 681
+35 de lurer på hvorvidt det er for sent 1 512
+36 de lurer på hvem som kommer 2 437
+37 han håper på å komme  7 299
+38 Ola driver på med å skrive 6 734
+39 de snakker om å reise til Mars 6 522
+40 han later til å komme 1 213
+41 han ser ut til å komme  1 371
+42 jeg fryser i magen 1 166
+43 han fungerer godt 1 98
+44 koppen renner full 1 96
+45 firmaet går fallitt  3 195
+46 kjelen koker i stykker 2 320
+47 huset står tomt 10 202
+48 eiendommen ligger brakk 2 105
+49 gutten fremstår som syk 1 101
+50 Ola stiller som forsvarer 2 347
+51 skinken henger mør 1 114
+52 kaffen koker bort 3 216
+53 gutten virker syk 2 127
+54 gutten synes en leder 4 440
+55 gutten virker i orden 1 239
+56 gutten virker som en feiging 2 172
+57 han synes å komme 1 470
+58 han synes komme 3 448
+59 han kan komme 3 172
+60 han har kommet 3 149
+61 gutten høres syk ut 1 293
+62 gutten høres ut som en papegøye 0 323
+63 det vises at han kommer 12 526
+64 det hører med at han kommer 4 431
+65 det spørs hvorvidt han kommer 1 192
+66 det spørs hvem som kommer 1 202
+67 det haster å komme 0 213
+68 det haster med å komme 5 298
+69 det later til at han kommer  2 271
+70 det ser ut til at han kommer  2 395
+71 Kari kaster ballen 4 141
+72 Kari sender pakken 8 107
+73 Kari slår Ola 16 174
+74 Kari nevner Ola 8 118
+75 Kari spiser kaken 8 102
+76 Kari leser boken 4 95
+77 Kari ser Ola 8 223
+78 Kari skremmer Ola 8 74
+79 boken tilhører Ola 4 72
+80 boken skader Ola 4 88
+81  boken deprimerer Ola 4 53
+82 Kari vasker seg 2 100
+83 Kari dummet seg ut 2 97
+84 Ola fiffer seg opp 2 90
+85 Kari skammer seg 2 68
+86 Kari når toppen 4 64
+87 Kari passerer kirken 4 73
+88 Kari følger stien 8 91
+89 stien når toppen 4 61
+90 stien passerer kirken 4 71
+91 stien følger elven 4 74
+92 stenen veier 5 kg 0 65
+93 filmen varer 5 timer 0 123
+94 banen måler 400 meter 0 96
+95 gutten går to kilometer 1 203
+96 hun sover en dyp søvn 0 91
+97 hun skyter plastikkuler 0 8
+98 gutten vil ta stien mot fjellet 7 570
+99 gutten vil ta bussen mot fjellet 14 717
+100 Kari ser at Ola sover 12 294
+101 Kari vet at jeg kommer 6 222
+102 Kari vet svaret 8 338
+103 Kari fant ut svaret 0 256
+104 Kari fant ut at jeg kom 0 180
+105 Kari prøver å komme 2 225
+106 Kari fant på å komme 0 339
+107 Kari kan padle 2 103
+108 Kari vurderer å komme  0 156
+109 Å bygge høyhus interesserer Kari 0 255
+110 At jeg kommer forundrer Kari 0 169
+111 Kari undres hvorvidt jeg kommer 2 295
+112 Kari fant ut hvorvidt jeg kommer 0 196
+113 Ola regner ut hvorvidt du kommer 0 212
+114 Kari undres hvem som kommer 2 342
+115 Kari fant ut hvem som kommer 0 209
+116 Ola regner ut hva svaret blir 0 292
+117 hvorvidt jeg kommer undrer Kari 0 129
+118 hvem som kommer plager Kari 0 320
+119 han forteller nyheten til Ola 20 669
+120 han allierer seg med gutten 1 76
+121 jeg sparker Ola i baken 8 322
+122 Ola klør seg på ryggen 4 454
+123 han forteller Ola om at han kommer 10 545
+124 han spør Ola om hvorvidt han kommer 0 30
+125 han spør Ola om hvem som kommer 0 23
+126 han bønnfalt meg om å få komme 0 24
+127 Ola finner seg i å vente 0 438
+128 han bønnfalt meg om å gå 0 16
+129 han forplikter seg til å komme 1 205
+130 vi forteller barna om å bygge høyhus 0 323
+131 jeg anser Ola for å være syk 2 482
+132 jeg anser Ola for å løpe vekk 2 396
+133 hun anser seg for å være syk 3 374
+134 han synes meg syk 6 354
+135 han synes meg en idiot 0 358
+136 han synes meg i godt humør 8 920
+137 han synes meg som en idiot  11 433
+138 han synes meg å komme 2 465
+139 han synes meg komme  0 428
+140 han drakk kaffen varm  4 78
+141 han kjørte bilen i god stand 20 1000
+142 han kjørte bilen som en firmabil 10 330
+143 hun kaller Ola en venn 2 189
+144 hun kaller seg en venn 1 120
+145 hun gjør skoene flate 1 136
+146 hun gjør meg i god form 1 350
+147 han kjørte bilen i god stand 20 1000
+148 hun setter skoene bak bordet 5 358
+149 han sparket i stykker ballen 2 349
+150 han sparket ballen bort 8 273
+151 han sparket bort ballen 2 255
+152 han karer seg bort 2 177
+153 han sang rommet tomt 14 370
+154 han løp seg sunn 1 88
+155 han sang seg i god form  0 273
+156 han sang sorgene bort  9 199
+157 han sang bort sorgene  0 167
+158 jeg formoder ham å være kvalifisert  0 257
+159 han anser Ola skikket  2 225
+160 han anser seg skikket  2 161
+161 han oppfattet bilen som ny  18 530
+162 jeg ser ham ligge 2 198
+163 han kjente seg sove 0 196
+164 han oppfører seg pent 1 87
+165 det bekymrer meg at han kommer 4 223
+166 det plager meg hvorvidt han kommer 2 215
+167 det plager meg hvem som kommer 0 221
+168 det vil ikke forundre meg hvis han kommer 3 547
+169 det behager meg å komme 0 212
+170 vi muliggjorde det at han fikk innreisetillatelse 3 318
+171 jeg vil beklage det hvis du kommer 1 311
+172 vi umuliggjør det å komme 0 201
+173 jeg gav ham boken 3 134
+174 han gav seg tid 0 85
+175 han unner henne boken 1 56
+176 han unner seg boken 1 55
+177 han innbiller seg at du kommer 2 194
+178 han undrer seg hvorvidt du kommer 0 138
+179 han undrer seg hvem som kommer 0 148
+180 han foresetter seg å komme 0 148
+181 Kari forteller meg at han kommer 4 323
+182 han forteller meg hvorvidt Kari kommer 0 224
+183 at han synger gir Kari hodepine 4 532
+184 hvorvidt han kommer først viser oss angrepsplanen 0 530
+185 hvorvidt han kommer først viser oss hvorvidt de har en plan 0 691
+186 han forteller meg hvem som kommer 1 226
+187 hvem som kommer sist viser oss angrepsplanen 0 2175
+188 hvem som kommer først viser oss hvem som kommer sist 0 929
+189 Kari lover ham å komme 6 293
+190 Kari tillater ham å komme 4 256
+191 hun tillater seg å komme 1 183
+192 Kari ber ham komme 8 302
+193 å bombe først frarøver fienden moralen 0 19
+194 å gå tur gir ham styrke 0 345
+195 jeg kaster Ola kakestykker i ansiktet 0 25
+196 han er snill 1 73
+197 at han kommer er overraskende 0 271
+198 å løpe er sunt 0 129
+199 hvorvidt han kommer er uvisst 1 212
+200 hvem som kommer er uvisst 0 265
+201 han er bonde 1 103
+202 at han kom var et sjokk 0 304
+203 å komme var en fornøyelse 0 302
+204 hvorvidt han kommer er et spørsmål 0 194
+205 hvem som kommer er et spørsmål 0 218
+206 forestillingen var under enhver kritikk 0 12
+207 at han kom var over forventning 0 1015
+208 å synge er under vurdering 0 298
+209 hvorvidt han får synge er under vurdering 0 378
+210 hvem som får synge er under vurdering 0 408
+211 Ola er som en gud 0 126
+212 at han kom var som bønnhørt 0 260
+213 å danse var som en drøm 0 300
+214 hvorvidt soldatene lystrer er som et lottospill 0 28
+215 hvem som lystrer er som et lottospill 0 21
+216 dette er mannen 0 100
+217 oppgaven er å spise silden 0 187
+218 problemet er at han spiser silden 10 312
+219 problemet er om han spiser silden 2 214
+220 problemet er hvem som spiser silden 2 269
+221 det er trist at han kommer 0 291
+222 det er fint å være frisk 1 395
+223 det er fint i Finnmark 2 400
+224 det er fint her 3 240
+225 det er uvisst om han kommer 4 505
+226 det er uvisst hvem som kommer 1 285
+227 det er en skuffelse at han kommer 0 274
+228 det er en kunst å spise torsk 0 294
+229 det er et spørsmål hvorvidt han kommer 0 248
+230 det er et spørsmål hvem som kommer 0 260
+231 det er hinsides diskusjon at han kommer 0 41
+232 det er som en forbannelse at han kommer 0 272
+
+;;; Total CPU time: 62710 msecs
+
+;;; Mean edges: 257.66
+
+;;; Mean parses: 2.64

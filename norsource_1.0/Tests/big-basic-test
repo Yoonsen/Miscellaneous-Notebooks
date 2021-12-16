@@ -1,0 +1,1326 @@
+;;; fra test-np
+
+gutten sover
+; boy-DEF sleeps
+gutt sover
+; boy sleeps
+vin renner
+; wine runs
+;*
+den gutt sover
+; that boy sleeps
+en gutt sover
+; a boy sleeps
+en vin renner
+; a wine runs
+fjellet ligger
+; mountain-DEF lies
+vinen renner
+; wine-DEF runs
+et fjell ligger
+; a-NEUTSG mountain[NEUTSG] lies
+;*
+et gutt sover
+; a-NEUTSG boy[MASCSG] lies
+;*
+en fjell ligger
+; a-MASCSG mountain[NEUTSG] lies
+tre gutter sover
+; three boy-PL.INDEF sleep
+tre fjell ligger
+; three mountain-PL.INDEF lie
+hver gutt sover
+; each boy sleeps
+hver vin renner
+; each wine runs
+hvert fjell ligger
+; each mountain lies
+ingen gutt sover
+; no boy sleeps
+noen gutter sover
+; some boy-PL.INDEF sleep
+noen viner renner
+; some wine-PL.INDEF run
+noe vin renner
+; some wine runs
+en glad gutt smiler
+; a glad boy smiles
+en god vin renner
+; a good wine runs
+mye god vin renner
+; much good wine runs
+tre glade gutter smiler
+; three happy boys smile
+;*
+noen tre glade gutter smiler
+; some three happy boys smile
+;*
+fire tre glade gutter smiler
+; four three happy boys smile
+tre glade hyggelige gutter smiler
+; three happy nice boys smile
+;*
+tre glade gutt smiler
+; three happy-PL boy.SG smile
+;*
+tre glad gutter smiler
+; three happy.SG boy-PL smile
+den glade gutten smiler
+; the.DEF happy-WEAK boy-DEF.SG smiles
+;*
+den glad gutten smiler
+; the.DEF happy-STR boy-DEF.SG smiles
+;;*
+glade gutten smiler
+; happy-WEAK boy-DEF.SG smiles
+;*
+den glade gutt smiler
+; the.DEF happy-WEAK boy smiles
+de tre glade guttene smiler
+; the.DEF three happy-WEAK.PL boy-DEF.PL smile
+de tre gode vinene renner
+; the.DEF three good-WEAK.PL wine-DEF.PL run
+;*
+de tre gode vin renner
+; the.DEF three good-WEAK.PL wine run
+de glade guttene smiler
+; the.DEF happy-WEAK.PL boy-DEF.PL smile
+glade gutter smiler
+; happy-STR.PL boy-PL smile
+;*
+de glade gutter smiler
+; the.DEF happy-WEAK.PL boy-PL smile
+;*
+glade guttene smiler
+; happy-WEAK.PL boy-DEF.PL smile
+hver av de glade guttene smiler
+; each of the.DEF happy-WEAK.PL boy-DEF.PL smile
+hver av de tre glade guttene smiler
+; each of the.DEF three happy-WEAK.PL boy-PL smile
+hver av de tre gode vinene renner
+; each of the.DEF three good-WEAK.PL wine-PL run
+noen av de ni guttene smiler
+; some of the.DEF nine boy-DEF.PL smile
+noe av den gode vinen renner
+; some of the.DEF good wine-DEF.PL run
+ingen av de ni guttene smiler
+; none of the.DEF nine boy-DEF.PL smile
+få av de ni guttene smiler
+; few of the.DEF nine boy-DEF.PL smile
+ni av guttene smiler
+; nine of the.DEF boy-DEF.PL smile
+alle gutter sover
+; all-PL boy-PL sleep
+;*
+alle gutt sover
+; all-PL boy.SG sleep
+;*
+alle gutten sover
+; all-PL boy-DEF.SG sleep
+begge guttene sover
+; both boy-DEF.PL smile
+alle de tre guttene sover
+; all-PL the.DEF three boy-DEF.PL smile
+all den gode vinen renner
+; all.SG the.DEF good wine-DEF.SG runs
+mine tre gutter sover
+; my-PL three boy-PL sleep
+mine glade gutter smiler
+; my-PL glad-WEAK.PL boy-PL smiles
+min glade gutt smiler
+; my-PL glad-WEAK.SG boy.SG smiles
+all min gode vin renner
+; all.SG my.SG good-WEAK.SG wine.SG runs
+alle mine gode viner renner
+; all-PL my-PL good-WEAK.PL wine.PL run
+;*
+min glad gutt smiler
+; my.SG glad.STR boy smiles
+
+alle mine gutter smiler
+gutten min smiler
+vinen min renner
+;*
+glade gutten min smiler
+; the.DEF happy-WEAK boy-DEF.MASCSG my.MASCSG smiles
+den glade gutten min smiler
+; the.DEF happy-WEAK boy-DEF.MASCSG my.MASCSG smiles
+; 'my happy boy smiles'
+gutten til Ola smiler
+; boy-DEF.SG to Ola smiles
+; 'the boy of Ola's smiles'
+vinen til Ola renner
+; wine-DEF.SG to Ola runs
+; 'the wine of Ola's runs'
+Ola sin gutt smiler
+; Ola POSS.MASCSG boy.MASCSG smiles
+; 'Ola's boy smiles'
+gutten si bygd sover
+; boy-DEF POSS.FEMSG village.FEMSG sleeps
+; 'the boy's village sleeps'
+;*
+gutten sitt bru sover
+; boy-DEF POSS.NEUTSG bridge.FEMSG sleeps
+; 'the boy's bridge sleeps'
+gutten sin ball ruller
+; boy-DEF POSS.MASCSG ball.MASCSG rolls
+; 'the boy's ball rolls'
+en gutt sin ball ruller
+; a boy POSS.MASCSG ball.MASCSG rolls
+; 'a boy's ball rolls'
+hver gutt sin ball ruller
+; each boy POSS.MASCSG ball.MASCSG rolls
+; 'each boy's ball rolls'
+Ola sin glade gutt smiler
+; Ola POSS.MASCSG happy-WEAK.SG boy.MASCSG smiles
+; 'Ola's happy boy smiles'
+;*
+Ola sin glade gutten min smiler
+; Ola POSS.MASCSG happy-WEAK.SG boy-DEF.MASCSG my.MASCSG smiles
+; 'Ola's my happy boy smiles'
+
+Olas gutt smiler
+; Ola's boy smiles
+guttens ball ruller
+; the boy's ball rolls
+en gutts ball ruller
+; a boy's ball rolls
+hver gutts ball ruller
+; every boy's ball rolls
+Olas glade gutt smiler
+; Ola's happy-WEAK boy smiles
+;*
+Olas glade gutten smiler
+; Ola's happy-WEAK boy-DEF.SG smiles
+Ola sin gutt sin katt løper
+; Ola POSS.MASCSG boy.MASCSG POSS.MASCSG cat.MASCSG runs
+; 'Ola's boy's cat runs'
+Olas gutts katt løper
+; 'Ola's boy's cat runs'
+Ola sin gutts katt løper
+; Ola POSS.MASCSG boy.MASCSG's cat runs
+; 'Ola's boy's cat runs'
+Olas gutt sin katt løper
+; Ola's boy POSS.MASCSG cat.MASCSG runs
+; 'Ola's boy's cat runs'
+en sekk poteter ligger
+; a sack potatoes lies
+en sekk med poteter ligger
+; a sack with potatoes lies
+et par dusin esker baller ligger
+; a pair.SG dozen.PL box-PL ball-PL lie
+; 'a pair dozens of boxes of balls lie'
+;*
+et dusin ballene ligger
+; a dozen.SG ball-DEF.PL lie
+
+et hav av katter løper
+; an ocean of cats run
+;*
+et hav av kattene løper
+; an ocean of cat-DEF.PL run
+Jon hopper to nitten
+; Jon jumps two nineteen
+Ola løper på tre trettifem
+; Jon runs on three thirty-five
+Ola løper tre trettifem
+; Jon runs three thirty-five
+; 'Jon runs at three thirty-five'
+Ola løper torsdag tre trettifem
+; Jon runs Thursday three thirty-five
+; 'Jon runs on Thursday at three thirty-five'
+Ola løper torsdag ettermiddag tre trettifem
+; Jon runs Thursday afternoon three thirty-five
+; 'Jon runs on Thursday afternoon at three thirty-five'
+Ola løper klokka tre trettifem
+; Jon runs clock three thirty-five
+; 'Jon runs at three thirty-five o'clock'
+Ola løper torsdag klokka tre trettifem
+; Jon runs Thursday clock three thirty-five
+; 'Jon runs on Thursday at three thirty-five o'clock'
+Ola løper torsdag ettermiddag klokka tre trettifem
+; Jon runs Thursday afternoon clock three thirty-five
+; 'Jon runs on Thursday afternoon at three thirty-five o'clock'
+Ola løper femten hundre
+; Jon runs fifteen hundred
+Ola finner to tjue
+; Ola finds two twenty
+tre tusen fire hundre ligger
+; three thousand four hundred lie
+tre tusen fire hundre og femti ligger
+; three thousand four hundred and fifty lie
+gul sover
+; yellow.SG sleeps
+gule sover
+; yellow-PL sleep
+de gule sover
+; the.DEF.PL yellow-WEAK sleep
+den gule sover
+; the.DEF.SG yellow-WEAK sleeps
+;*
+den gul sover
+; the.DEF.SG yellow.STR sleeps
+alle gule sover
+; all-PL yellow.PL sleep
+;*
+alle gul sover
+; all-PL yellow.SG sleep
+hver gul sover
+; each.MASC.SG yellow.MASC.SG.STR sleeps
+;*
+hver gule sover
+; each yellow.WEAK sleeps
+hvert gult sover
+; each-NEUTSG yellow-NEUTSG.STR sleeps
+;*
+hvert gul sover
+; each-NEUTSG yellow-COMMSG.STR sleeps
+fire sover
+; four sleep
+de fire sover
+; the.PL four sleep
+alle fire sover
+; all-PL four sleep
+;*
+hver fire sover
+; each four sleeps
+dine sover
+; my-PL sleep
+min sover
+; my-MASCSG sleep
+alle dine sover
+; all-PL my-PL sleep
+;*
+hver dine sover
+; each-SG my-PL sleep
+alt mitt sover
+; all-NEUTSG my-NEUTSG sleeps
+;*
+alt dine sover
+; all-NEUTSG my-PL sleeps
+;*
+den dine sover
+; that.SG my-PL sleeps
+de fleste sover
+; the most sleep
+; 'most of them sleep'
+hele landet løper
+; whole country runs
+; 'the whole country runs'
+
+
+;;; fra np-intern-test
+
+
+
+en snill gutt sover
+en snill jente sover
+*en snill barn sover
+*en snill gutten sover
+*en snill jenta sover
+*en snill barnet sover
+*en snill gutter sover
+*en snill guttene sover
+*en snill jenter sover
+*en snill jentene sover
+*en snill barnene sover
+en snill sover
+*en snilt gutt sover
+*en snilt jente sover
+*en snilt barn sover
+*en snilt gutten sover
+*en snilt jenta sover
+*en snilt barnet sover
+*en snilt gutter sover
+*en snilt guttene sover
+*en snilt jenter sover
+*en snilt jentene sover
+*en snilt barnene sover
+*en snilt sover
+*en snille gutt sover
+*en snille jente sover
+*en snille barn sover
+*en snille gutten sover
+*en snille jenta sover
+*en snille barnet sover
+*en snille gutter sover
+*en snille guttene sover
+*en snille jenter sover
+*en snille jentene sover
+*en snille barnene sover
+*en snille sover
+en gutt sover
+en jente sover
+*en barn sover
+*en gutten sover
+*en jenta sover
+*en barnet sover
+*en gutter sover
+*en guttene sover
+*en jenter sover
+*en jentene sover
+*en barnene sover
+en sover
+*ei snill gutt sover
+ei snill jente sover
+*ei snill barn sover
+*ei snill gutten sover
+*ei snill jenta sover
+*ei snill barnet sover
+*ei snill gutter sover
+*ei snill guttene sover
+*ei snill jenter sover
+*ei snill jentene sover
+*ei snill barnene sover
+*ei snill sover
+*ei snilt gutt sover
+*ei snilt jente sover
+*ei snilt barn sover
+*ei snilt gutten sover
+*ei snilt jenta sover
+*ei snilt barnet sover
+*ei snilt gutter sover
+*ei snilt guttene sover
+*ei snilt jenter sover
+*ei snilt jentene sover
+*ei snilt barnene sover
+*ei snilt sover
+*ei snille gutt sover
+*ei snille jente sover
+*ei snille barn sover
+*ei snille gutten sover
+*ei snille jenta sover
+*ei snille barnet sover
+*ei snille gutter sover
+*ei snille guttene sover
+*ei snille jenter sover
+*ei snille jentene sover
+*ei snille barnene sover
+*ei snille sover
+*ei gutt sover
+ei jente sover
+*ei barn sover
+*ei gutten sover
+*ei jenta sover
+*ei barnet sover
+*ei gutter sover
+*ei guttene sover
+*ei jenter sover
+*ei jentene sover
+*ei barnene sover
+*ei sover
+*et snill gutt sover
+*et snill jente sover
+*et snill barn sover
+*et snill gutten sover
+*et snill jenta sover
+*et snill barnet sover
+*et snill gutter sover
+*et snill guttene sover
+*et snill jenter sover
+*et snill jentene sover
+*et snill barnene sover
+*et snill sover
+*et snilt gutt sover
+*et snilt jente sover
+et snilt barn sover
+*et snilt gutten sover
+*et snilt jenta sover
+*et snilt barnet sover
+*et snilt gutter sover
+*et snilt guttene sover
+*et snilt jenter sover
+*et snilt jentene sover
+*et snilt barnene sover
+et snilt sover
+*et snille gutt sover
+*et snille jente sover
+*et snille barn sover
+*et snille gutten sover
+*et snille jenta sover
+*et snille barnet sover
+*et snille gutter sover
+*et snille guttene sover
+*et snille jenter sover
+*et snille jentene sover
+*et snille barnene sover
+*et snille sover
+*et gutt sover
+*et jente sover
+et barn sover
+*et gutten sover
+*et jenta sover
+*et barnet sover
+*et gutter sover
+*et guttene sover
+*et jenter sover
+*et jentene sover
+*et barnene sover
+*et sover
+*den snill gutt sover
+*den snill jente sover
+*den snill barn sover
+*den snill gutten sover
+*den snill jenta sover
+*den snill barnet sover
+*den snill gutter sover
+*den snill guttene sover
+*den snill jenter sover
+*den snill jentene sover
+*den snill barnene sover
+*den snill sover
+*den snilt gutt sover
+*den snilt jente sover
+*den snilt barn sover
+*den snilt gutten sover
+*den snilt jenta sover
+*den snilt barnet sover
+*den snilt gutter sover
+*den snilt guttene sover
+*den snilt jenter sover
+*den snilt jentene sover
+*den snilt barnene sover
+*den snilt sover
+den snille gutt sover
+den snille jente sover
+*den snille barn sover
+den snille gutten sover
+den snille jenta sover
+*den snille barnet sover
+*den snille gutter sover
+*den snille guttene sover
+*den snille jenter sover
+*den snille jentene sover
+*den snille barnene sover
+den snille sover
+*den gutt sover
+*den jente sover
+*den barn sover
+den gutten sover
+den jenta sover
+*den barnet sover
+*den gutter sover
+*den guttene sover
+*den jenter sover
+*den jentene sover
+*den barnene sover
+den sover
+*det snill gutt sover
+*det snill jente sover
+*det snill barn sover
+*det snill gutten sover
+*det snill jenta sover
+*det snill barnet sover
+*det snill gutter sover
+*det snill guttene sover
+*det snill jenter sover
+*det snill jentene sover
+*det snill barnene sover
+*det snill sover
+*det snilt gutt sover
+*det snilt jente sover
+*det snilt barn sover
+*det snilt gutten sover
+*det snilt jenta sover
+*det snilt barnet sover
+*det snilt gutter sover
+*det snilt guttene sover
+*det snilt jenter sover
+*det snilt jentene sover
+*det snilt barnene sover
+*det snilt sover
+*det snille gutt sover
+*det snille jente sover
+det snille barn sover
+*det snille gutten sover
+*det snille jenta sover
+det snille barnet sover
+*det snille gutter sover
+*det snille guttene sover
+*det snille jenter sover
+*det snille jentene sover
+*det snille barnene sover
+det snille sover
+*det gutt sover
+*det jente sover
+*det barn sover
+*det gutten sover
+*det jenta sover
+det barnet sover
+*det gutter sover
+*det guttene sover
+*det jenter sover
+*det jentene sover
+*det barnene sover
+det sover
+*de snill gutt sover
+*de snill jente sover
+*de snill barn sover
+*de snill gutten sover
+*de snill jenta sover
+*de snill barnet sover
+*de snill gutter sover
+*de snill guttene sover
+*de snill jenter sover
+*de snill jentene sover
+*de snill barnene sover
+*de snill sover
+*de snilt gutt sover
+*de snilt jente sover
+*de snilt barn sover
+*de snilt gutten sover
+*de snilt jenta sover
+*de snilt barnet sover
+*de snilt gutter sover
+*de snilt guttene sover
+*de snilt jenter sover
+*de snilt jentene sover
+*de snilt barnene sover
+*de snilt sover
+*de snille gutt sover
+*de snille jente sover
+de snille barn sover
+*de snille gutten sover
+*de snille jenta sover
+*de snille barnet sover
+de snille gutter sover
+de snille guttene sover
+de snille jenter sover
+de snille jentene sover
+de snille barnene sover
+de snille sover
+*de gutt sover
+*de jente sover
+*de barn sover
+*de gutten sover
+*de jenta sover
+*de barnet sover
+*de gutter sover
+de guttene sover
+*de jenter sover
+de jentene sover
+de barnene sover
+de sover
+*flere snill gutt sover
+*flere snill jente sover
+*flere snill barn sover
+*flere snill gutten sover
+*flere snill jenta sover
+*flere snill barnet sover
+*flere snill gutter sover
+*flere snill guttene sover
+*flere snill jenter sover
+*flere snill jentene sover
+*flere snill barnene sover
+*flere snill sover
+*flere snilt gutt sover
+*flere snilt jente sover
+*flere snilt barn sover
+*flere snilt gutten sover
+*flere snilt jenta sover
+*flere snilt barnet sover
+*flere snilt gutter sover
+*flere snilt guttene sover
+*flere snilt jenter sover
+*flere snilt jentene sover
+*flere snilt barnene sover
+*flere snilt sover
+*flere snille gutt sover
+*flere snille jente sover
+flere snille barn sover
+*flere snille gutten sover
+*flere snille jenta sover
+*flere snille barnet sover
+flere snille gutter sover
+*flere snille guttene sover
+flere snille jenter sover
+*flere snille jentene sover
+*flere snille barnene sover
+flere snille sover
+*flere gutt sover
+*flere jente sover
+flere barn sover
+*flere gutten sover
+*flere jenta sover
+*flere barnet sover
+flere gutter sover
+*flere guttene sover
+flere jenter sover
+*flere jentene sover
+*flere barnene sover
+flere sover
+*snill gutt sover
+*snill jente sover
+*snill barn sover
+*snill gutten sover
+*snill jenta sover
+*snill barnet sover
+*snill gutter sover
+*snill guttene sover
+*snill jenter sover
+*snill jentene sover
+*snill barnene sover
+*snill sover
+*snilt gutt sover
+*snilt jente sover
+*snilt barn sover
+*snilt gutten sover
+*snilt jenta sover
+*snilt barnet sover
+*snilt gutter sover
+*snilt guttene sover
+*snilt jenter sover
+*snilt jentene sover
+*snilt barnene sover
+*snilt sover
+*snille gutt sover
+*snille jente sover
+snille barn sover
+*snille gutten sover
+*snille jenta sover
+*snille barnet sover
+snille gutter sover
+*snille guttene sover
+snille jenter sover
+*snille jentene sover
+*snille barnene sover
+*snille sover
+*gutt sover
+*jente sover
+barn sover
+gutten sover
+jenta sover
+barnet sover
+gutter sover
+guttene sover
+jenter sover
+jentene sover
+barnene sover
+*sover
+
+
+;;; fra test-ch1-6-now
+
+Ken Robbins kommer fra England.
+Han bor i London.
+Ken er tjuetre år gammel.
+Han reiser med tog fra Oslo til Trondheim.
+Ken snakker med ei dame.
+Hun kommer fra Norge.
+Jeg heter Monika.
+Hva heter du?
+Jeg heter Ken.
+Hvor kommer du fra?
+Jeg kommer fra England.
+Jeg kommer fra Oslo, men jeg bor i Trondheim.
+Har du familie i Trondheim?
+Jeg er gift, og jeg har ei jente.
+Hva heter hun?
+Hun heter Emma.
+Hun er seks år.
+Anna Valente kommer fra Italia.
+Hun bor i Roma.
+Anna er tjueto år gammel.
+Hun reiser med fly fra Roma til Trondheim.
+Lars er norsk.
+Han reiser også med fly fra Roma.
+Jeg kommer fra Italia.
+Er du norsk?
+Jeg kommer fra Trondheim.
+Hva gjør du i Norge?
+Jeg er student.
+Jeg studerer på NTNU.
+Jeg jobber på NTNU.
+Hva jobber du med?
+Jeg er professor i antropologi.
+Hva studerer du?
+Jeg studerer arkitektur.
+Du er flink i norsk.
+Jeg snakker ikke italiensk, men jeg snakker litt spansk.
+Jeg snakker også engelsk.
+Snakker du engelsk?
+Jeg snakker italiensk, engelsk og litt norsk.
+Maria Gomez kommer fra Spania.
+Hun bor i Barcelona.
+Maria er nitten år gammel.
+Hun reiser med båt fra Bergen til Trondheim.
+Den heter Polarlys.
+Lisa er også på Polarlys.
+Hun er turist.
+Snakker du norsk?
+Er det ledig her?
+Hvor er vi nå?
+Vi kommer snart til Ålesund.
+Jeg har familie i Norge.
+Er du fra Norge?
+Jeg er ikke norsk. 
+Jeg er spansk.
+Jeg studerer norsk.
+Jeg heter Maria.
+Jeg heter Lisa.
+Det er hyggelig å hilse på deg.
+Hvordan går det?
+Hvordan går det med deg?
+Det går bra.
+Er vi snart i Trondheim?
+Trondheim er neste by.
+Vi ses kanskje seinere?
+Peter Maier kommer fra Tyskland.
+Han bor i Hamburg og er tjuefem år.
+Han reiser til Trondheim med bil.
+Peter reiser sammen med Frank.
+Frank er også tysk.
+De stopper på en bensinstasjon.
+Hvor langt er det til Trondheim?
+Det er tre hundre kilometer.
+Hvor kommer dere fra?
+Vi kommer fra Tyskland.
+Er dere turister?
+Vi er studenter.
+Har du et kart over Norge?
+Hva koster det?
+Det koster sekstini kroner.
+Jeg tar også en brus og ei avis.
+Det blir nittini kroner.
+Her er hundre.
+Her er ei krone tilbake.
+; ch 2
+Det er mandag, og klokka er åtte.
+Et tog stopper på Trondheim sentralstasjon.
+Ken går av toget.
+Han vil gjerne ta en taxi fra sentralstasjonen til Moholt.
+Han ser en taxisjåfør og snakker med henne.
+Kan du hjelpe meg?
+Jeg skal dra til Moholt studentby.
+Har du ei adresse?
+Jeg skal sjekke.
+Adressa er Herman Krags vei, men jeg må dra til resepsjonen først.
+Har du adressa til resepsjonen?
+Adressa er Frode Rinnans vei en.
+Skal jeg hjelpe deg med bagasjen?
+Taxisjåføren kjører til studentbyen.
+Ken betaler to hundre kroner og går til resepsjonen.
+Ken går av toget på Trondheim sentralstasjon.
+Anna kommer med fly fra Roma.
+Flyet lander på Værnes tirsdag klokka to.
+Anna vil gjerne ta flybussen til Trondheim.
+Hun har ei veske, to kofferter og tre poser.
+Bussjåføren står utenfor bussen.
+Anna spør ham.
+Kan du hjelpe meg med koffertene?
+Hva koster bussturen til Trondheim?
+Kan jeg betale med kort?
+Det går bra.
+Hvordan kommer jeg til Moholt studentby?
+Du kan ta flybussen til Strindheim.
+Buss nummer ni går fra Strindheim til Moholt.
+Anna tar posene og veska og går inn i bussen.
+Flybussen stopper på Strindheim.
+Nå kommer buss nummer ni, men bussen kjører.
+Hun må vente på neste buss.
+Anna må vente på neste buss.
+Det er onsdag morgen, og Polarlys kommer til Trondheim.
+Klokka er kvart over åtte.
+Maria skal ta buss nummer to fra Pirterminalen til sentrum.
+Hun må bytte buss i sentrum for å komme til Moholt studentby.
+Jeg må bytte buss i sentrum.
+Hvilken buss går fra sentrum til Moholt studentby?
+Du kan ta buss nummer fem.
+Når går den?
+Den går klokka halv ni og kvart på ni.
+Vil du ha ei bussrute?
+Hvor mye koster billetten?
+Den koster tretti kroner.
+Må jeg betale tretti kroner på neste buss også?
+Du kan få overgang.
+Hva betyr overgang?
+Overgang betyr at du kan bruke billetten i én time.
+Maria tar buss nummer fem klokka halv ni.
+Klokka ni kommer bussen til studentbyen.
+Maria finner ikke resepsjonen.
+Endelig ser hun et skilt.
+Der ligger resepsjonen.
+Der ligger resepsjonen for Moholt studentby.
+Maria må bytte buss i sentrum for å komme til Moholt studentby.
+Det er torsdag ettermiddag, og klokka er ti over ett.
+Peter og Frank er på vei inn til Trondheim.
+Peter stopper bilen.
+De ser på kartet.
+Hvor er Moholt?
+Resepsjonen på Moholt studentby stenger klokka tre.
+Finner du Moholt?
+Her er Moholt.
+Det ligger litt øst for Trondheim sentrum.
+Først kommer vi til et kjøpesenter.
+Det heter City Syd.
+Skal vi ta en kopp kaffe der?
+Jeg er litt sulten.
+Peter og Frank stopper på City Syd.
+Klokka er ti på halv to.
+De spiser rundstykker og drikker kaffe på en kafé der.
+Frank kjøper også en brus.
+Etterpå kjører de til Moholt, men de finner ikke studentbyen.
+De ser et skilt med NTNU på, og de kjører til NTNU Dragvoll.
+Der stopper de for å spørre noen studenter.
+Vi finner ikke Moholt studentby.
+Kan dere hjelpe oss?
+Vi kan hjelpe dere.
+Først må dere ta til venstre og kjøre tilbake til Moholt.
+Der ligger resepsjonen.
+Peter og Frank takker dem.
+De kjører til Moholt og parkerer på parkeringsplassen.
+Klokka er ti på tre.
+Peter og Frank stopper på en kafé.
+;ch 3
+Ken kommer til resepsjonen på Moholt.
+Hva kan jeg hjelpe deg med?
+Jeg vil gjerne hente nøkkelen til hybelen.
+Hva heter du?
+Jeg heter Ken Robbins.
+Kan du stave etternavnet?
+Hva er fødselsdatoen?
+Her er kontrakten.
+Du må skrive under på den.
+Ken skriver under på skjemaet.
+Har du pass?
+Jeg har dessverre ikke mobiltelefon ennå.
+Har du et mobilnummer?
+Det er greit.
+Her har du nøkkelen til hybelen og et kart over Moholt.
+Du skal bo i Herman Krags vei trettisyv tolv.
+Tallet betyr bygning nr trettisyv, første etasje, rom nr tolv.
+Du må også fylle ut ei inventarliste.
+Jeg forstår ikke.
+Det er ei liste over møbler og utstyr på hybelen.
+Du må sjekke at alt er der: ei seng, et bord, en stol.
+Her er lista.
+Hva er ei inventarliste?
+Ken går ut fra resepsjonen.
+Bagasjen står ute på trappa.
+Anna går av bussen på Moholt.
+Hun finner Moholt studentby og går til resepsjonen.
+Der får hun kontrakt, nøkkel og et kart over studentbyen.
+Anna bærer tre poser, to kofferter og ei veske til hybel nr. tjue tjuefire.
+Den er i andre etasje.
+Først går hun inn på kjøkkenet.
+Hun skal dele det med tre studenter.
+Hybelen ligger ved siden av kjøkkenet.
+Den er ikke stor.
+Den har ei brun seng, et brunt bord og et skap.
+Ei høy bokhylle står ved siden av døra.
+Under vinduet står et skrivebord.
+Det er stort.
+Gardinene er fæle.
+Her skal hun bo i ett år.
+Hun setter veska på bordet og legger koffertene under senga.
+I posene finner hun sjokolade og te.
+Gjennom vinduet ser hun en stor parkeringsplass.
+Det er stille her.
+Hjemme i Roma er det aldri stille.
+Hva gjør mor og far nå?
+Tenker Antonio på henne?
+Maria henter nøkkelen til hybelen i resepsjonen på Moholt.
+Så finner hun hybel tjue tjueen.
+På kjøkkenet møter hun Anna.
+Jeg heter Maria Gomez.
+Bor du her?
+Skal du også bo her?
+Jeg heter Anna Valente.
+Det er ikke så moderne, men det er fint og stort.
+Vi kan ha gjester til middag.
+De går inn på Marias rom.
+Anna ser gitaren til Maria.
+Spiller du gitar?
+Jeg studerer musikk.
+Spiller du et instrument?
+Vi har et piano hjemme i Roma, men jeg er ikke så flink.
+Jeg har en bror.
+Han er kjempeflink.
+Han heter Antonio og er femten år.
+Har du søsken?
+Vi er fire søsken.
+Jeg har ei søster og to brødre.
+Vil du ha en kopp te?
+Jeg har en stor sjokolade på rommet.
+Jeg sier ikke nei til sjokolade.
+Anna finner to store kopper i skapet på kjøkkenet.
+På kjøkkenbenken står vannkokeren.
+Anna koker litt vann og går på rommet for å finne teen og sjokoladen i bokhylla.
+Maria spiller gitar.
+Maria og Anna skal drikke te og spise sjokolade.
+Det er morgen på Moholt studentby.
+Peter står opp klokka åtte.
+Han går inn på badet.
+Han tar en dusj, tørker seg og barberer seg.
+Etterpå pusser han tennene og kler på seg.
+Frank kommer for å spise frokost sammen med Peter.
+De setter seg inne på kjøkkenet.
+Du har et stort, fint kjøkken.
+Jeg deler det med to italienere og en nordmann.
+Hvordan er de?
+Jeg vet ikke.
+De kommer i morgen.
+Jeg gleder meg til å treffe dem.
+Det blir spennende.
+Er du sulten?
+Jeg er kjempesulten.
+Hva har du lyst på?
+Jeg har brød, ost, salami og skinke.
+Jeg har melk, te og kaffe.
+Jeg vil gjerne ha ei brødskive med ost og skinke og ei skive med salami.
+Vil du ha en kopp kaffe?
+Kaffen i Norge er ikke god.
+Jeg lager ikke norsk kaffe.
+Jeg lager bare tysk kaffe.
+Da tar jeg en kopp kaffe.
+Peter henter maten i kjøleskapet.
+Etterpå spiser de frokost.
+Peter lager tysk kaffe.
+;ch 4
+Klokka er ni, og Ken står opp.
+Han spiser frokost og går til Moholt-senteret.
+Dette senteret ligger rett ved siden av studentbyen.
+Han skal handle mat og sende to postkort til England, men først må han ta ut penger i minibanken.
+Han tar ut tusen kroner, og etterpå går han til postkontoret.
+Der trekker han en kølapp.
+Han må vente i fem minutter.
+Jeg vil gjerne sende disse postkortene til England.
+Hva koster det?
+Det koster ti kroner for ett kort.
+Det blir tjue kroner til sammen.
+Kan jeg få fem frimerker til?
+Det blir femti kroner.
+Ken går opp trappa til Rema.
+Han trenger ei handlevogn.
+For å ta ei handlevogn må han ha ti kroner.
+Han ser i lommeboka.
+Heldigvis har han en tikroning.
+Først går han til fruktdisken.
+Han tar fem epler, tre pærer og to bananer.
+Så går han til kjøledisken.
+Han trenger melk, ost, skinke og smør.
+Han tar en ost, men han finner ikke prisen.
+Han spør en ekspeditør.
+Hva koster denne osten?
+Den koster førti kroner.
+Du kan ta denne osten i stedet.
+Den er ikke så dyr.
+Den koster tjuefem kroner.
+Etterpå går Ken til brødhylla.
+Hvilket brød skal han kjøpe?
+Noen brød er billige, og noen brød er dyre.
+Han tar et billig brød, fire rundstykker og noen boller.
+Ken går til kassen for å betale.
+Etterpå går han hjem og slapper av.
+Ken handler mat.
+Ken går til Rema for å handle.
+Ken tar ut tusen kroner i minibanken.
+Anna er på vei til bussen.
+Klokka er tolv, og det er litt kaldt i dag.
+Anna skal dra til byen for å kjøpe klær.
+Hun trenger ei ny jakke og en genser.
+Klokka halv ett kommer hun til Solsiden.
+Hun går til en klesbutikk.
+Det er salg der i dag.
+Anna ser på ei tykk jakke.
+Den er blå og ganske fin, men den er for stor.
+Jakka er størrelse førtito, og Anna bruker størrelse førti.
+Hun spør en ekspeditør.
+Anna går til prøverommet.
+Hun prøver jakka, og den passer.
+Hun trenger også en varm genser.
+I butikken finner hun en tykk, lysegrå genser.
+Hun vil gjerne kjøpe den.
+Hun prøver også noen tynne gensere.
+Dessuten trenger hun et nytt skjerf.
+Hun finner et grønt, tykt skjerf, og det passer til genseren og jakka.
+Anna går til kassen for å betale.
+Klærne koster ni hundre kroner til sammen.
+Det er ikke så billig, men Anna er fornøyd.
+Anna skal dra til byen for å kjøpe klær.
+Det er ettermiddag.
+Maria sykler til Moholt-senteret.
+Hun trenger ei ny pute, og hun vil gjerne kjøpe ei bok i bokhandelen.
+Maria tar en handlevogn og går inn på Bohus.
+Bohus er en stor interiørbutikk.
+Først ser hun på noen lys til hybelen.
+Hun legger to fine lys og en liten lysestake i handlekurven.
+Hun finner også fire små tekopper.
+Så går hun for å se på ei pute.
+Hun finner ei god og myk pute.
+Den koster bare hundre kroner.
+Kanskje hun skal kjøpe ei ny dyne også?
+Dynene er litt for dyre.
+Etterpå går Maria til bokhandelen.
+Hun har lyst til å kjøpe en norsk roman.
+Det skal bli interessant å lese ei norsk bok.
+Maria ser ikke prisen på boka.
+Hun spør ekspeditøren om hjelp.
+Maria finner ei god og myk pute.
+Hvor mye koster denne romanen?
+Den koster hundre og syttifire kroner og femti øre.
+Jeg leser den faktisk nå.
+Den er kjempebra.
+Jeg tar den.
+Jeg kommer fra Spania.
+Jeg skal studere her dette semesteret.
+Jeg kan litt norsk.
+Du er flink allerede.
+Er det noe mer du trenger?
+Hvor finner jeg notatbøker og penner?
+Maria finner ei notatbok og noen penner.
+Snart skal hun begynne å studere.
+Hun ser også en liten spansk-norsk ordbok.
+Den er litt dyr, men Maria kjøper den.
+Maria er i godt humør nå.
+Hun bestemmer seg for å spise på bakeriet.
+De har mange gode kaker der.
+Hun er litt sulten.
+Hun kjøper en bagett med ost og skinke, et kakestykke og en kopp kaffe.
+Nå skal hun kose seg.
+Hun begynner å lese i boka.
+Den er spennende.
+Etterpå sykler hun hjem til studentbyen.
+Maria setter lysene og lysestaken på et lite bord på hybelen.
+Det blir koselig.
+Hun ligger i senga og leser i boka.
+Klokka ni banker Anna på døra.
+Vil du ha en kopp te?
+Maria legger to fine lys i handlekurven.
+Maria finner ei god og myk pute.
+Peter skal til politiet.
+Han må fylle ut et skjema og vise fram pass og andre papirer.
+Peter ser på kartet over Trondheim.
+Politistasjonen ligger på Brattøra, ved siden av jernbanestasjonen.
+Han kjører dit og parkerer.
+Jeg er utlending og skal bo her i over tre måneder.
+Derfor vil jeg gjerne søke om oppholdstillatelse.
+Jeg kommer fra Tyskland.
+Hva skal du gjøre i Norge?
+Jeg skal studere.
+Her er et brev fra NTNU.
+Det er en bekreftelse på studieplassen.
+Har du med deg pass og kort om helseforsikring?
+Tyskland er et EØS-land.
+Derfor må du bare registrere deg.
+Da får du et registreringsbevis.
+Hva gjør jeg for å registrere meg?
+Du må fylle ut dette skjemaet og legge ved to like bilder.
+Du kan ta bilder i fotoautomaten der borte.
+Peter står i kø for å ta bilder.
+En annen student sitter ved siden av ham.
+Hun forteller at hun heter Olga.
+Hun har russisk pass og må betale over tusen kroner i gebyr for å få oppholdstillatelse.
+Noen andre studenter er fra EØS-land.
+De må ikke betale.
+Peter bestemmer seg for å spise middag på restaurant i dag.
+Kanskje han skal invitere Olga til å bli med?
+Peter må ikke betale noe for å registrere seg.
+Peter skal til politiet for å registrere seg.
+;ch 5
+Ken drar til kjøpesenteret Merkur for å kjøpe ny mobiltelefon.
+Der finner han også mange billige CDer.
+Etterpå går Ken til Solsiden.
+Det er litt vanskelig å finne fram, men han treffer en gammel mann på veien.
+Han viser Ken veien til Solsiden.
+Mannen er norsk.
+Han inviterer Ken på en kopp kaffe.
+De drikker kaffe og spiser muffins på en kafé.
+Mannen forteller Ken mye om Trondheim.
+De snakker også om Tyskland.
+Det er veldig hyggelig.
+Dagen etter forteller Ken en venn om byturen.
+I går dro jeg til Merkur.
+Jeg kjøpte ny mobil, og jeg fant også mange billige CDer der.
+Etterpå gikk jeg til Solsiden.
+Det var litt vanskelig å finne fram, men jeg traff en gammel mann på veien.
+Han viste meg veien til Solsiden.
+Mannen var norsk.
+Han inviterte meg på en kopp kaffe.
+Vi drakk kaffe og spiste muffins på en kafé.
+Mannen fortalte meg mye om Trondheim.
+Vi snakket også om Tyskland.
+Det var veldig hyggelig.
+Ken går til Solsiden.
+Anna tar bussen til Trondheim sentrum.
+Hun vil gjerne se litt av byen.
+Hun begynner turen på torget i Trondheim og leser litt om Trondheims historie i en brosjyre.
+Så går hun til Nordre gate.
+Det er ei travel gågate med mange butikker.
+Så går hun opp til Nidarosdomen.
+Mange busser med turister står foran Nidarosdomen.
+Etterpå drar hun til Gamle Bybro.
+Der treffer hun to italienske turister og snakker litt med dem.
+Turistene har et kart, men de greier ikke å finne fiskemarkedet på kartet.
+Anna hjelper dem.
+Etterpå går hun til Bakklandet.
+Der møter hun Maria på en hyggelig kafé.
+Ei uke seinere er Anna på studentbyen.
+Hun forteller en venn om turen til Trondheim sentrum.
+Forrige uke tok jeg bussen til sentrum.
+Jeg begynte turen på torget.
+Der leste jeg litt om Trondheims historie.
+Så gikk jeg til Nordre gate, og etterpå gikk jeg til Nidarosdomen.
+Mange busser med turister sto foran Nidarosdomen.
+Så dro jeg til Gamle Bybro.
+Der traff jeg to italienske turister og snakket litt med dem.
+Turistene hadde et kart, med de greide ikke å finne fiskemarkedet på kartet.
+Jeg hjalp dem.
+Etterpå gikk jeg til Bakklandet, og der møtte jeg Maria på en hyggelig kafé.
+Anna ser på Nidarosdomen.
+I dag syklet jeg til Bakklandet, et koselig område i nærheten av Trondheim sentrum.
+På Bakklandet er det mange gamle trehus i forskjellige farger.
+Det er også mange hyggelige kaféer og fine restauranter der.
+Jeg møtte Anna på en av kaféene.
+Jeg bestilte et stort stykke sjokoladekake og en kopp kaffe.
+Jeg betalte over åtti kroner for kakestykket og kaffen.
+Alt er så dyrt i Norge.
+Kaka var kjempegod.
+Jeg spurte servitøren om oppskrifta, men den var hemmelig, sa han.
+Anna er ei veldig hyggelig jente.
+Jeg er så glad for at vi er naboer.
+Vi satt på kaféen i over to timer, for vi hadde så mye å snakke om.
+Sykkelen stod utenfor hele tiden, uten lås.
+Jeg glemte å låse den da jeg gikk inn.
+Jeg tror at Trondheim er en trygg by, og det er få fattige mennesker her.
+Nordmenn er rare.
+De er snille og hyggelige, men de holder ikke døra åpen for deg.
+I går fikk jeg døra på postkontoret i ansiktet, og i dag døra på kaféen.
+Etter besøket på politistasjonen kjørte Peter til Trondheim torg.
+Han parkerte ved siden av Nidarosdomen, en stor katedral.
+Den ville han se.
+En guide fortalte ham om katedralen.
+Denne skulpturen er fin.
+Det er en skulptur av Olav Haraldsson.
+Hvem var han?
+Olav Haraldsson var en norsk vikingkonge.
+Han er veldig viktig for denne kirka.
+Nidarosdomen står over graven til denne kongen.
+Han døde i tusen og tretti.
+Hvor gammel er kirka?
+De bygde den mellom tusen og sytti og tretten hundre.
+Seinere brant den mange ganger, men de bygde den opp igjen.
+Skulpturen ser ikke gammel ut.
+Den er fra ca. nitten hundre og tretti.
+Nidarosdomen var ei flott kirke, og guiden var flink.
+Peter gikk rundt i kirka og snakket med guiden i en hel time.
+Seinere møtte han Frank i byen.
+De gikk rundt i sentrum og så i butikker.
+De ble sultne og trøtte.
+I et bakeri kjøpte de rundstykker og bagetter.
+Så kjørte de til Franks hybel på Møllenberg.
+Det var hyggelig der.
+Etter en halv time var de mette og glade igjen.
+Mange av disse skulpturene er ganske nye.
+;ch 6
+Ken har nettopp stått opp.
+Han har dusjet, og han har spist frokost.
+Nå venter han på bussen.
+Ken skal dra til Dragvoll i dag.
+Dragvoll er en av campusene ved NTNU, og den ligger i nærheten av Moholt studentby.
+Ken skal studere psykologi på Dragvoll.
+Han har ikke vært der før, men han har snakket med en konsulent på telefonen.
+Han har også skrevet noen e-poster til en professor på instituttet.
+Det er bare fem minutter med buss opp til Dragvoll.
+Det er grønt og fint der, og bygningene er store og lyse.
+Ved inngangen ser han et stort kart, og her finner han Psykologisk institutt.
+Instituttet ligger i bygg tolv.
+Han går dit og treffer konsulenten.
+Hun er veldig hyggelig og forteller ham litt om studiet.
+Etterpå går han til bokhandelen og ser på noen bøker.
+Bøkene er veldig dyre, men han må kjøpe dem.
+Ken trenger også et ID-kort for studenter.
+Han må gå til et kontor i bygg seks.
+Han snakker med ei dame der.
+Det er ettermiddag, og Anna har kommet hjem fra universitetet.
+Hun har vært på Gløshaugen i dag.
+Gløshaugen er også en campus ved NTNU, og Anna skal studere arkitektur der dette semesteret.
+Det har vært en lang dag, og Anna er litt trøtt og sliten når hun kommer hjem til hybelen.
+Hun møter Maria på kjøkkenet.
+Vil du ha noe å spise?
+Jeg har bare spist et eple til lunsj i dag.
+Hvor har du vært?
+Jeg har vært på Gløshaugen og snakket med foreleseren.
+Forelesningene begynner i neste uke.
+Jeg har også møtt to andre arkitektstudenter, ei norsk jente og en tysk gutt.
+Den tyske gutten bor faktisk i etasjen under.
+Jeg har truffet ham.
+Han var her i går for å låne litt sukker.
+Hva heter den norske jenta?
+Han heter Tobias.
+Jeg husker ikke, men jeg treffer henne i morgen.
+Har du gjort andre ting i dag også?
+Jeg har gjort mye.
+Jeg har fått ID-kort, og jeg har kjøpt noen kompendier.
+Jeg har også lest studieplanen på nettet.
+Dessuten har jeg lånt noen bøker på biblioteket.
+Jeg har forresten lyst til å kjøpe den nye romanen til Erlend Loe.
+Har du lest den?
+Jeg har den faktisk, men jeg har ikke lest den ennå.
+Har du lest andre romaner av ham?
+Den var veldig god.
+Anna har vært på Gløshaugen i dag.
+Det er en fin dag i Trondheim.
+Sola skinner, og det er ganske varmt.
+Maria er på vei til Dragvoll.
+Hun studerer musikk der og skal ha en forelesning i dag.
+Etter forelesningen sykler hun til idrettssenteret.
+Det ligger på den andre siden av veien.
+Maria vil gjerne trene litt.
+Hun liker å spille fotball og volleyball.
+Dessuten liker hun å danse.
+Kanskje har de tangokurs der?
+Hun går inn på idrettssenteret og snakker med en mann i resepsjonen.
+Hva kan jeg gjøre for deg?
+Jeg er student ved NTNU, og jeg vil gjerne trene her.
+Har du betalt semesteravgiften?
+Her er semesterkortet.
+Har du trent her før?
+Jeg har nettopp kommet til Trondheim.
+Du kan kjøpe helårskort eller semesterkort.
+Vi selger også dagsbilletter.
+Hva koster semesterkortet?
+Det koster fire hundre og femti kroner.
+Jeg tar et semesterkort.
+Etterpå sykler Maria ned til Studentersamfundet.
+Studentersamfundet ligger nær sentrum og er en organisasjon for studenter.
+De arrangerer konserter, forelesninger, forskjellige arrangementer og festivaler der.
+Maria har sett noen bilder av Studentersamfundet.
+Hun synes at det røde, runde huset ser spesielt ut.
+På lørdag vil hun gå på konsert der.
+På lørdag vil Maria gå på konsert på studentersamfundet.
+Tidlig en morgen kjører Peter til Dragvoll for å begynne på norskkurs.
+Han gleder seg til å treffe de andre studentene på kurset.
+Han finner auditorium tolv i bygg ti.
+Timen skal begynne om ti minutter.
+Ti-femten studenter har allerede kommet, og nå kommer læreren også.
+Hun spør noen av studentene om navn og nasjonalitet.
+Jeg er tysk.
+Hvor lenge har du vært i Norge?
+Jeg kom til Norge for fjorten dager siden.
+Jeg har vært her i Trondheim i ei uke.
+Har du gått på norskkurs før?
+Jeg har lært litt fordi jeg har en norsk venn.
+Han studerte i Hamburg i fjor.
+Da lærte han meg norsk, og jeg lærte ham tysk.
+Jeg liker å lære språk.
+Det er bra.
+Jeg håper at du kommer til å trives på dette kurset.
+Peter sitter foran to søte jenter.
+Klokka blir kvart over ni, og læreren begynner å undervise.
+Det er interessant, men Peter gleder seg til pausen.
+Han vil snakke med den lyse jenta.
+Jeg er italiener.
+Du er tysker?
+Har du et viskelær?
+Hvordan visste du det?
+Jeg hørte at du fortalte det til læreren.
+Jeg heter Anna, og dette er Maria, som er fra Barcelona.
+Jeg heter Peter.
+Her er viskelæret.
+Etter pausen er Peter fornøyd.
+Han har snakket med begge jentene og en engelsk gutt.
+De bor på Moholt alle tre.
+Anna studerer arkitektur på Gløshaugen.
+Hun skal dit etterpå, og Peter skal kjøre henne.
+Norskkurset er i auditorium tolv i bygg ti.

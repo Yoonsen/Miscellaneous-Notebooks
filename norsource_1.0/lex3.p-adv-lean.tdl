@@ -1,0 +1,155 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;              - NorSource -
+;;; 
+;;;    Copyright (c)  NorSource version 0.3
+;;;                       2004-2006 
+;;;
+;;;    Lars Hellan, Dorothee Beermann, Ben Waldron
+;;;
+;;;    Norwegian University of Science and Technology, 7491 Trondheim
+;;;    <norsource@hf.ntnu.no>
+;;;
+
+;;; List of prepositions and adverbs all of the simplest types, and
+;;; all lacking the sense-distinguishing specifications found in
+;;; lex3.p-adv-predsort.tdl, as well as reflecting little of the
+;;; relevant semantic types defined in norsk.tdl. 
+;;; Probably similar to most
+;;; matrix-based grammar lexicons in this domain, and thought for
+;;; complementary use with lex3.p-adv-predsort.tdl.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+bak := prep-word-reg &
+  [ STEM < "bak" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bak_p_rel" ].
+
+ved := prep-word-reg &
+  [ STEM < "ved" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ved_p_pred" ].
+       
+på := prep-word-reg &
+  [ STEM < "på" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_på_p_pred" ].
+
+foran := prep-word-reg &
+  [ STEM < "foran" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_foran_p_rel" ].
+
+ved-siden-av := prep-word-reg &
+  [ STEM < "ved", "siden", "av" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ved-siden-av_p_rel" ].
+
+under := prep-word-reg &
+  [ STEM < "under" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_under_p_rel" ].
+
+over := prep-word-reg &
+  [ STEM < "over" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_over_p_rel" ].
+
+blant := prep-word-reg &
+  [ STEM < "blant" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_blant_p_rel" ].
+
+mellom := prep-word-reg &
+  [ STEM < "mellom" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mellom_p_rel" ].
+
+i := prep-word-reg &
+  [ STEM < "i" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_i_p_rel" ].
+
+innenfor := prep-word-reg &
+  [ STEM < "innenfor" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_innenfor_p_rel" ].
+
+inni := prep-word-reg &
+  [ STEM < "inni" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_inni_p_rel" ].
+
+utenfor := prep-word-reg &
+  [ STEM < "utenfor" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_utenfor_p_rel" ].
+
+utenom := prep-word-reg &
+  [ STEM < "utenom" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_utenom_p_rel" ].
+
+etter := prep-word-reg &
+  [ STEM < "etter" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_etter_p_rel" ].
+
+til := prep-word-reg &
+  [ STEM < "til" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_til_p_rel"].
+
+før := prep-word-reg  &
+  [ STEM < "før" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_før_p_rel"].
+
+langs := prep-word-reg &
+  [ STEM < "langs" >,
+   SYNSEM.LKEYS.KEYREL.PRED "_langs_p_rel" ].
+
+mot := prep-word-reg &
+  [ STEM < "mot" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mot_p_rel" ].
+
+
+; ADVERBS (SPATIO-TEMPORAL)
+
+bak_3:= adv-word-reg &
+  [ STEM < "bak" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bak_p_rel" ].
+
+
+utenfor_3 := adv-word-reg &
+  [ STEM < "utenfor" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_utenfor_p_rel" ].
+
+innenfor_3 := adv-word-reg &
+  [ STEM < "innenfor" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_innenfor_p_rel" ].
+
+nede := adv-word-reg &
+  [ STEM < "nede" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_nede_a_rel" ].
+
+oppe := adv-word-reg &
+  [ STEM < "oppe" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_oppe_a_rel" ].
+
+inne := adv-word-reg &
+  [ STEM < "inne" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_inne_a_rel" ].
+
+ute := adv-word-reg &
+  [ STEM < "ute" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ute_a_rel" ].
+
+fremme := adv-word-reg &
+  [ STEM < "fremme" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_fremme_a_rel" ].
+
+bak_4 := adv-word-reg &
+  [ STEM < "bak" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bak_a_rel" ].
+
+ned := adv-word-reg &
+  [ STEM < "ned" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ned_a_rel" ].
+
+opp := adv-word-reg &
+  [ STEM < "opp" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_opp_a_rel" ].
+
+frem := adv-word-reg &
+  [ STEM < "frem" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_frem_a_rel" ].
+
+ut := adv-word-reg &
+  [ STEM < "ut" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ut_a_rel" ].
